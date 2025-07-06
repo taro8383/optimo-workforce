@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Calculator, MessageCircle } from 'lucide-react';
 
 const FinalCTASection: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section className="py-20 bg-gradient-to-br from-primary via-blue-600 to-secondary text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -14,11 +16,17 @@ const FinalCTASection: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-          <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
+          <button 
+            onClick={() => navigate('/roi-calculator')}
+            className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
+          >
             <Calculator size={24} />
             Get Free Savings Audit
           </button>
-          <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-3">
+          <button 
+            onClick={() => navigate('/contact')}
+            className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-3"
+          >
             <MessageCircle size={24} />
             Talk to Integration Expert
             <ArrowRight size={20} />

@@ -32,12 +32,15 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             onClick={() => handleNavigation('home')}
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            <div className="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">O</span>
-            </div>
-            <span className="text-xl font-ibm-plex-sans font-bold text-gray-900">
-              Optimo Workforce
-            </span>
+              <picture>
+                <source media="(max-width: 1023px)" srcSet="/src/assets/logom.png 1x, /src/assets/logo@2M.png 2x" />
+                <source media="(min-width: 1024px)" srcSet="/src/assets/logo.png 1x, /src/assets/logo@2D.png 2x" />
+                <img 
+                  src="/src/assets/logo.png" 
+                  alt="Optimo Workforce Logo"
+                  className="h-10"
+                />
+              </picture>
           </button>
 
           {/* Desktop Navigation */}
@@ -84,13 +87,10 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     Cafés
                   </button>
-                  <a href="#catering" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary">
-                    Catering
-                  </a>
                 </div>
               )}
             </div>
-            <a href="#pricing" className="text-gray-700 hover:text-primary transition-colors font-medium">
+            <a href="#simple-transparent-pricing" className="text-gray-700 hover:text-primary transition-colors font-medium">
               Pricing
             </a>
             <div className="relative">
@@ -103,12 +103,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               </button>
               {isResourcesOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border py-2 z-10">
-                  <a href="#blog" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary">
-                    Blog
-                  </a>
-                  <a href="#documentation" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary">
-                    Documentation
-                  </a>
                   <button 
                     onClick={() => handleNavigation('faq')}
                     className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
@@ -125,9 +119,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     ROI Calculator
                   </button>
-                  <a href="#webinars" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary">
-                    Webinars
-                  </a>
                   <button 
                     onClick={() => handleNavigation('newsletter')}
                     className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
@@ -139,14 +130,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 </div>
               )}
             </div>
-            <button 
-              onClick={() => handleNavigation('about')}
-              className={`font-medium transition-colors ${
-                currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
-              }`}
-            >
-              About
-            </button>
+              <button 
+                onClick={() => handleNavigation('about')}
+                className={`font-medium transition-colors ${
+                  currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
+                }`}
+              >
+                About Us
+              </button>
             <a href="#contact" className="text-gray-700 hover:text-primary transition-colors font-medium">
               Contact
             </a>
@@ -154,9 +145,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
-            <button className="text-gray-700 hover:text-primary font-medium transition-colors">
-              Log In
-            </button>
             <button className="bg-primary hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
               Get Started
             </button>
@@ -210,12 +198,9 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     Cafés
                   </button>
-                  <a href="#catering" className="block text-gray-600 hover:text-primary">
-                    Catering
-                  </a>
                 </div>
               </div>
-              <a href="#pricing" className="block text-gray-700 hover:text-primary font-medium">
+              <a href="#simple-transparent-pricing" className="block text-gray-700 hover:text-primary font-medium">
                 Pricing
               </a>
               <div className="space-y-2">
@@ -262,15 +247,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                About
+                About Us
               </button>
               <a href="#contact" className="block text-gray-700 hover:text-primary font-medium">
                 Contact
               </a>
               <div className="pt-4 border-t space-y-3">
-                <button className="block w-full text-left text-gray-700 hover:text-primary font-medium">
-                  Log In
-                </button>
                 <button className="w-full bg-primary hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition-colors">
                   Get Started
                 </button>

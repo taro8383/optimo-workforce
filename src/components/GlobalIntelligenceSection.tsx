@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Globe, Shield, Smartphone, CreditCard, TrendingUp } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 const GlobalIntelligenceSection: React.FC = () => {
   const [activeRegion, setActiveRegion] = useState('US');
@@ -8,7 +8,6 @@ const GlobalIntelligenceSection: React.FC = () => {
     US: {
       title: 'Tip-Yield Forecasting',
       description: 'Predict tip volatility and optimize staffing for maximum revenue',
-      icon: TrendingUp,
       color: 'bg-blue-500',
       data: '$42/hr average tip yield',
       feature: 'Advanced tipping analytics'
@@ -16,7 +15,6 @@ const GlobalIntelligenceSection: React.FC = () => {
     EU: {
       title: 'Break Compliance Shield',
       description: 'Automatic compliance with working time directives',
-      icon: Shield,
       color: 'bg-green-500',
       data: '100% compliance rate',
       feature: 'Regulatory automation'
@@ -24,7 +22,6 @@ const GlobalIntelligenceSection: React.FC = () => {
     LATAM: {
       title: 'OXXO Cash Sync',
       description: 'Real-time cash flow integration with local payment systems',
-      icon: CreditCard,
       color: 'bg-orange-500',
       data: 'Real-time sync',
       feature: 'Local payment integration'
@@ -32,7 +29,6 @@ const GlobalIntelligenceSection: React.FC = () => {
     APAC: {
       title: 'Mobile Wallet Analytics',
       description: 'Optimize for mobile payment preferences and behaviors',
-      icon: Smartphone,
       color: 'bg-yellow-500',
       data: '22% higher tips',
       feature: 'Mobile-first optimization'
@@ -53,29 +49,26 @@ const GlobalIntelligenceSection: React.FC = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="bg-gradient-to-br from-primary to-blue-600 rounded-2xl p-8 text-white">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <div className="flex items-center justify-center mb-8">
-                <Globe size={80} className="animate-pulse-slow" />
+                <Globe size={80} className="animate-pulse-slow text-primary" />
               </div>
               
               <div className="grid grid-cols-2 gap-4">
-                {Object.entries(regions).map(([key, region]) => {
-                  const Icon = region.icon;
-                  return (
+                {Object.entries(regions).map(([key]) => (
                     <button
                       key={key}
                       onClick={() => setActiveRegion(key)}
-                      className={`p-4 rounded-lg transition-all duration-300 ${
+                      className={`p-6 rounded-lg transition-all duration-300 ${
                         activeRegion === key 
-                          ? 'bg-white text-primary transform scale-105' 
-                          : 'bg-white bg-opacity-20 hover:bg-opacity-30'
+                          ? 'bg-primary bg-opacity-10 border-2 border-primary transform scale-105' 
+                          : 'bg-gray-50 hover:bg-gray-100'
                       }`}
                     >
-                      <Icon size={24} className="mx-auto mb-2" />
+                      <img src={`/src/assets/${key.toLowerCase()}.png`} alt={key} className="mx-auto w-16 h-16 object-contain mb-2" />
                       <div className="text-sm font-semibold">{key}</div>
                     </button>
-                  );
-                })}
+                ))}
               </div>
             </div>
           </div>
@@ -83,10 +76,15 @@ const GlobalIntelligenceSection: React.FC = () => {
           <div className="space-y-8">
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="flex items-center gap-4 mb-6">
-                {React.createElement(regions[activeRegion as keyof typeof regions].icon, {
-                  size: 32,
-                  className: `${regions[activeRegion as keyof typeof regions].color.replace('bg-', 'text-')}`
-                })}
+                <img 
+                  src={`/src/assets/${
+                    activeRegion === 'US' ? 'tip' : 
+                    activeRegion === 'EU' ? 'break' : 
+                    activeRegion === 'LATAM' ? 'oxxo' : 'mobile'
+                  }.png`} 
+                  alt={activeRegion}
+                  className="w-12 h-12 object-contain"
+                />
                 <h3 className="text-2xl font-bold text-gray-900">
                   {regions[activeRegion as keyof typeof regions].title}
                 </h3>

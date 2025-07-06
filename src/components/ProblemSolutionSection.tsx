@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, Target, TrendingDown, Clock, Users, DollarSign } from 'lucide-react';
+import { AlertTriangle, Target, TrendingDown, TrendingUp, Clock, Users, DollarSign } from 'lucide-react';
 
 const ProblemSolutionSection: React.FC = () => {
   const [activeCard, setActiveCard] = useState(0);
@@ -36,7 +36,8 @@ const ProblemSolutionSection: React.FC = () => {
             The $180,000/year Staffing Leak
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Most restaurants lose thousands monthly to inefficient scheduling. Here's how we fix it.
+            Most restaurants lose thousands monthly to inefficient scheduling.<br />
+            Here's how we fix it.
           </p>
         </div>
 
@@ -60,7 +61,11 @@ const ProblemSolutionSection: React.FC = () => {
                   
                   <div className="border-t pt-6">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary bg-opacity-10 mb-6">
-                      <Target className="text-primary" size={32} />
+                      <img 
+                        src={`/src/assets/${index === 0 ? 'heatmap' : index === 1 ? 'ai' : 'shield'}.png`} 
+                        alt={card.solution}
+                        className="w-10 h-10 object-contain"
+                      />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">Solution</h3>
                     <p className="text-lg text-primary font-semibold mb-8">{card.solution}</p>
@@ -68,7 +73,11 @@ const ProblemSolutionSection: React.FC = () => {
 
                   <div className="border-t pt-6">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary bg-opacity-10 mb-6">
-                      <TrendingDown className="text-secondary" size={32} />
+                      {index === 1 ? (
+                        <TrendingUp className="text-secondary" size={32} />
+                      ) : (
+                        <TrendingDown className="text-secondary" size={32} />
+                      )}
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">Result</h3>
                     <p className="text-lg text-secondary font-semibold">{card.result}</p>

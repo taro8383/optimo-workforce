@@ -17,9 +17,11 @@ const SocialProofSection: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-primary to-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                MR
-              </div>
+              <img 
+                src="/src/assets/maria.jpg" 
+                alt="Maria Rodriguez"
+                className="w-16 h-16 rounded-full object-cover"
+              />
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Maria Rodriguez</h3>
                 <p className="text-gray-600">General Manager, Coastal Bistro</p>
@@ -51,9 +53,11 @@ const SocialProofSection: React.FC = () => {
 
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 bg-gradient-to-r from-accent-apac to-yellow-400 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                KL
-              </div>
+              <img 
+                src="/src/assets/kevin.jpg" 
+                alt="Kevin Lim"
+                className="w-16 h-16 rounded-full object-cover"
+              />
               <div>
                 <h3 className="text-xl font-bold text-gray-900">Kevin Lim</h3>
                 <p className="text-gray-600">Operations Director, Singapore Food Group</p>

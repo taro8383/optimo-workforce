@@ -25,19 +25,22 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Main Footer Content */}
-        <div className="grid lg:grid-cols-5 gap-8 mb-12">
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 mb-12 text-center lg:text-left">
           {/* Logo and Newsletter */}
-          <div className="lg:col-span-1">
+          <div className="col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start">
             <button 
               onClick={() => handleNavigation('home')}
               className="flex items-center gap-3 mb-6 hover:opacity-80 transition-opacity"
             >
-              <div className="w-10 h-10 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">O</span>
-              </div>
-              <span className="text-xl font-ibm-plex-sans font-bold">
-                Optimo Workforce
-              </span>
+              <picture>
+                <source media="(max-width: 1023px)" srcSet="/src/assets/dark-logom.png 1x, /src/assets/dark-logo@2M.png 2x" />
+                <source media="(min-width: 1024px)" srcSet="/src/assets/dark-logo.png 1x, /src/assets/dark-logo@2D.png 2x" />
+                <img 
+                  src="/src/assets/dark-logo.png" 
+                  alt="Optimo Workforce Logo"
+                  className="h-10"
+                />
+              </picture>
             </button>
             
             <div className="mb-6">
@@ -85,7 +88,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
           </div>
 
           {/* Product Column */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start">
             <h4 className="text-lg font-semibold mb-6">Product</h4>
             <ul className="space-y-3">
               <li>
@@ -97,7 +100,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </li>
               <li>
-                <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">
+                <a href="#simple-transparent-pricing" className="text-gray-300 hover:text-white transition-colors">
                   Pricing
                 </a>
               </li>
@@ -111,11 +114,16 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   Security
                 </a>
               </li>
+              <li>
+                <a href="#future-features" className="text-gray-300 hover:text-white transition-colors">
+                  Future Features
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Solutions Column */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start">
             <h4 className="text-lg font-semibold mb-6">Solutions</h4>
             <ul className="space-y-3">
               <li>
@@ -148,28 +156,13 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   Cafés
                 </button>
               </li>
-              <li>
-                <a href="#catering" className="text-gray-300 hover:text-white transition-colors">
-                  Catering
-                </a>
-              </li>
             </ul>
           </div>
 
           {/* Resources Column */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start">
             <h4 className="text-lg font-semibold mb-6">Resources</h4>
             <ul className="space-y-3">
-              <li>
-                <a href="#blog" className="text-gray-300 hover:text-white transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#documentation" className="text-gray-300 hover:text-white transition-colors">
-                  Documentation
-                </a>
-              </li>
               <li>
                 <button 
                   onClick={() => handleNavigation('faq')}
@@ -191,11 +184,6 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </li>
               <li>
-                <a href="#webinars" className="text-gray-300 hover:text-white transition-colors">
-                  Webinars
-                </a>
-              </li>
-              <li>
                 <button 
                   onClick={() => handleNavigation('newsletter')}
                   className={`text-left transition-colors ${
@@ -209,7 +197,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
           </div>
 
           {/* Company Column */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start">
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-3">
               <li>
@@ -223,18 +211,8 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </li>
               <li>
-                <a href="#careers" className="text-gray-300 hover:text-white transition-colors">
-                  Careers
-                </a>
-              </li>
-              <li>
                 <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
                   Contact
-                </a>
-              </li>
-              <li>
-                <a href="#legal" className="text-gray-300 hover:text-white transition-colors">
-                  Legal
                 </a>
               </li>
             </ul>

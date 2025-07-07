@@ -115,9 +115,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </a>
               </li>
               <li>
-                <a href="#future-features" className="text-gray-300 hover:text-white transition-colors">
+                <button 
+                  onClick={() => handleNavigation('future-features')}
+                  className={`text-left transition-colors ${
+                    currentPage === 'future-features' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
                   Future Features
-                </a>
+                </button>
               </li>
             </ul>
           </div>

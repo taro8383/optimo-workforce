@@ -153,6 +153,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     Newsletter
                   </button>
+                  <button 
+                    onClick={() => handleNavigation('future-features')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'future-features' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    Future Features
+                  </button>
                 </div>
               )}
             </div>
@@ -305,6 +313,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                     }`}
                   >
                     Newsletter
+                  </button>
+                  <button 
+                    onClick={() => handleNavigation('future-features')}
+                    className={`block text-left transition-colors ${
+                      currentPage === 'future-features' ? 'text-primary' : 'text-gray-600 hover:text-primary'
+                    }`}
+                  >
+                    Future Features
                   </button>
                 </div>
               </div>

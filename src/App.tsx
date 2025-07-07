@@ -17,6 +17,7 @@ import HotelsPage from './components/HotelsPage';
 import CafesPage from './components/CafesPage';
 import ROICalculatorPage from './components/ROICalculatorPage';
 import ContactPage from './components/ContactPage';
+import FutureFeaturesPage from './components/FutureFeaturesPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -39,6 +40,8 @@ function App() {
         return <ROICalculatorPage />;
       case 'contact':
         return <ContactPage />;
+      case 'future-features':
+        return <FutureFeaturesPage />;
       case 'home':
       default:
         return (

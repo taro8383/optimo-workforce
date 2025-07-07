@@ -211,9 +211,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </li>
               <li>
-                <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+                <button 
+                  onClick={() => handleNavigation('contact')}
+                  className={`text-left transition-colors ${
+                    currentPage === 'contact' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
                   Contact
-                </a>
+                </button>
               </li>
             </ul>
           </div>

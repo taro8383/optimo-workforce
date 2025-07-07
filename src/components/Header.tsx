@@ -164,9 +164,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               >
                 About Us
               </button>
-            <a href="#contact" className="text-gray-700 hover:text-primary transition-colors font-medium">
+            <button 
+              onClick={() => handleNavigation('contact')}
+              className={`font-medium transition-colors ${
+                currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
+              }`}
+            >
               Contact
-            </a>
+            </button>
           </nav>
 
           {/* Desktop CTA Buttons and Language Selector */}
@@ -311,9 +316,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               >
                 About Us
               </button>
-              <a href="#contact" className="block text-gray-700 hover:text-primary font-medium">
+              <button 
+                onClick={() => handleNavigation('contact')}
+                className={`block font-medium transition-colors ${
+                  currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
+                }`}
+              >
                 Contact
-              </a>
+              </button>
 
               {/* Mobile Language Selector */}
               <div className="pt-4 border-t space-y-3">

@@ -12,13 +12,13 @@
 4. **React hooks** for state management
 
 ## Component Structure
-- Layout components (Header, Footer)
+- Layout components (Header with Language Selector, Footer)
 - Marketing sections (Hero, Pricing, etc.)
 - Industry-specific pages (Restaurants, Hotels, Cafes)
-- Utility pages (ROI Calculator, FAQ)
+- Utility pages (ROI Calculator, FAQ, Contact, Future Features)
 
 ## Design Patterns
-- Custom animations (fade-in, slide-up)
+- Custom animations (fade-in, slide-up, language selector transitions)
 - Responsive grid layouts
 - Gradient backgrounds
 - Card-based content presentation

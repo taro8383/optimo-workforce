@@ -9,6 +9,8 @@ Marketing website for AI-powered workforce optimization SaaS targeting hospitali
 - Regional compliance support (APAC/LATAM focus)
 - ROI calculator
 - Industry-specific solutions
+- Contact page with multiple options
+- Future features roadmap
 
 ## Technical Stack
 - Frontend: React 18 + TypeScript

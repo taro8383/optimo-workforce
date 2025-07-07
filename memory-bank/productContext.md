@@ -16,9 +16,11 @@ AI-powered workforce optimization platform that helps hospitality businesses:
 2. Labor cost optimization through data analysis
 3. Regional compliance support
 4. ROI-focused decision making
+5. Multi-language support (new)
 
 ## User Experience Goals
 - Clear demonstration of cost savings
 - Simple onboarding (30-day free trial)
 - Industry-specific solutions
 - Trust indicators (partner integrations)
+- Multi-language support (via language selector)

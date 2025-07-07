@@ -7,6 +7,7 @@
 - Vite
 - TailwindCSS
 - Lucide-react (icons)
+- React Router DOM (navigation)
 
 ## Development Tools
 - ESLint (with React/TypeScript plugins)
@@ -24,3 +25,4 @@
 - Custom animations (defined in Tailwind config)
 - Responsive design with mobile-first approach
 - Theming through CSS variables
+- Language selector transitions

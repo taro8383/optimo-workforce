@@ -535,7 +535,7 @@ const ContactPage: React.FC = () => {
                 <div className="text-red-200 text-sm">Emergency Support</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold mb-2"><5min</div>
+                <div className="text-2xl font-bold mb-2">&lt;5min</div>
                 <div className="text-red-200 text-sm">Response Time</div>
               </div>
               <div className="text-center">

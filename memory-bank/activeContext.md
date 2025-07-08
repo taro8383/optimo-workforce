@@ -8,7 +8,11 @@
      - FinalCTASection component
      - Footer component
      - Header component (language selector)
+     - TippingSpotlightSection component
+     - HowItWorksSection component
    - Translation keys organized by component sections
+   - Added Spanish translations for all UI text
+   - Fixed remaining hardcoded strings in components
 
 2. **Footer Component**
    - Updated mobile layout to 2 columns (Product/Solutions and Resources/Company)

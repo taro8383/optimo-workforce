@@ -20,6 +20,8 @@
   - Header
   - Footer
   - Final CTA section
+  - Tipping Spotlight section
+  - How It Works section
   - Basic page content
 
 ## Remaining Work

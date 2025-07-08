@@ -269,7 +269,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </a>
               <a href="#terms" className="text-gray-400 hover:text-white transition-colors">
-                {t('footer.terms')}
+                <button 
+                  onClick={() => handleNavigation('terms-of-service')}
+                  className={`transition-colors ${
+                    currentPage === 'terms-of-service' ? 'text-primary' : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  {t('footer.terms')}
+                </button>
               </a>
               <a href="#cookies" className="text-gray-400 hover:text-white transition-colors">
                 {t('footer.cookies')}

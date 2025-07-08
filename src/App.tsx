@@ -21,6 +21,7 @@ import FutureFeaturesPage from './components/FutureFeaturesPage';
 import IntegrationsPage from './components/IntegrationsPage';
 import SecurityPage from './components/SecurityPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
+import TermsOfServicePage from './components/TermsOfServicePage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -51,6 +52,8 @@ function App() {
         return <SecurityPage />;
       case 'privacy-policy':
         return <PrivacyPolicyPage />;
+      case 'terms-of-service':
+        return <TermsOfServicePage />;
       case 'home':
       default:
         return (

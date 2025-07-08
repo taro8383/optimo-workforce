@@ -162,6 +162,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     {t('header.futureFeatures')}
                   </button>
+                  <button 
+                    onClick={() => handleNavigation('integrations')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'integrations' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    Integrations
+                  </button>
                 </div>
               )}
             </div>

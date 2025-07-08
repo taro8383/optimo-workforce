@@ -200,6 +200,16 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   {t('footer.newsletter.title')}
                 </button>
               </li>
+              <li>
+                <button 
+                  onClick={() => handleNavigation('integrations')}
+                  className={`block text-left transition-colors ${
+                    currentPage === 'integrations' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
+                  Integrations
+                </button>
+              </li>
             </ul>
           </div>
 

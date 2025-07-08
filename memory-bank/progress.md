@@ -16,12 +16,20 @@
 - Contact page with multiple options
 - Future features roadmap
 - Multi-language selector
+- Internationalization (i18n) for:
+  - Header
+  - Footer
+  - Final CTA section
+  - Basic page content
 
 ## Remaining Work
 - Newsletter integration
 - Analytics setup
 - Performance optimization
 - Browser testing
+- Complete i18n for all components
+- Translation quality review
+- Language-specific SEO
 
 ## Known Issues
 - No error boundaries

@@ -1,28 +1,30 @@
 import React, { useState } from 'react';
 import { Zap, BarChart3, Calendar, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const HowItWorksSection: React.FC = () => {
+  const { t } = useTranslation();
   const [hoveredStep, setHoveredStep] = useState<number | null>(null);
 
   const steps = [
     {
       number: 1,
-      title: 'Connect POS',
-      description: 'Seamlessly integrate with Toast, Clover, or Lightspeed',
+      title: t('howItWorks.step1.title'),
+      description: t('howItWorks.step1.description'),
       icon: Zap,
       color: 'bg-primary'
     },
     {
       number: 2,
-      title: 'AI Forecasts Demand',
-      description: 'Machine learning analyzes patterns and predicts busy periods',
+      title: t('howItWorks.step2.title'),
+      description: t('howItWorks.step2.description'),
       icon: BarChart3,
       color: 'bg-secondary'
     },
     {
       number: 3,
-      title: 'Optimize Shifts',
-      description: 'Automatically generate optimal schedules in seconds',
+      title: t('howItWorks.step3.title'),
+      description: t('howItWorks.step3.description'),
       icon: Calendar,
       color: 'bg-accent-latam'
     }
@@ -32,12 +34,12 @@ const HowItWorksSection: React.FC = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-            How It Works
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Three simple steps to transform your labor management
-          </p>
+      <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
+        {t('howItWorks.title')}
+      </h2>
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        {t('howItWorks.subtitle')}
+      </p>
         </div>
 
         <div className="relative">

@@ -1,0 +1,258 @@
+{
+  "header": {
+    "features": "Características",
+    "solutions": "Soluciones",
+    "restaurants": "Restaurantes",
+    "hotels": "Hoteles",
+    "cafes": "Cafeterías",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "faq": "Preguntas Frecuentes",
+    "roiCalculator": "Calculadora ROI",
+    "newsletter": "Boletín",
+    "futureFeatures": "Funciones Futuras",
+    "aboutUs": "Acerca de Nosotros",
+    "contact": "Contacto",
+    "getStarted": "Comenzar",
+    "selectLanguage": "Seleccionar Idioma",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "La programación con IA reduce el desperdicio en hostelería en más del 20%",
+    "subtitle": "OPTIMO Workforce utiliza IA avanzada para predecir la demanda y optimizar la programación del personal, reduciendo los costos laborales mientras mejora la calidad del servicio.",
+    "getStarted": "Comenzar",
+    "bookDemo": "Reservar Demo",
+    "trustedBy": "Confiado por más de 500 empresas de hostelería en todo el mundo"
+  },
+  "problemSolution": {
+    "title": "La Fuga de $180,000/año en Personal",
+    "subtitle": "La mayoría de los restaurantes pierden miles mensualmente por programación ineficiente. Así es como lo solucionamos.",
+    "problem": {
+      "title": "Problema",
+      "overstaffing": "27% exceso de personal",
+      "understaffing": "Falta de personal en horas pico",
+      "manualScheduling": "9 hrs/semana programando",
+      "highTurnover": "42% rotación de personal"
+    },
+    "solution": {
+      "title": "Solución",
+      "aiPrediction": "Mapas de calor de demanda en tiempo real",
+      "optimizedScheduling": "Programación optimizada del personal",
+      "automatedProcess": "Optimización IA de 1 clic",
+      "improvedRetention": "Escudos de volatilidad de propinas"
+    },
+    "result": {
+      "title": "Resultado",
+      "laborCosts": "↓ Costos laborales",
+      "managerTime": "↑ Tiempo del gerente",
+      "hiringCosts": "↓ Costos de contratación"
+    },
+    "beforeAfter": {
+      "title": "Antes vs Después",
+      "before": "Antes: Caos",
+      "after": "Después: Orden",
+      "beforeItems": {
+        "overstaffed": "Turnos con exceso de personal",
+        "manual": "Programación manual",
+        "turnover": "Alta rotación"
+      },
+      "afterItems": {
+        "optimized": "Personal optimizado",
+        "automation": "Automatización IA",
+        "happy": "Personal feliz"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona OPTIMO",
+    "subtitle": "Tres pasos simples para transformar la gestión de tu fuerza laboral",
+    "step1": {
+      "title": "Conecta Tus Datos",
+      "description": "Integra con tu sistema POS, reservas y datos históricos"
+    },
+    "step2": {
+      "title": "Análisis de IA",
+      "description": "Nuestra IA analiza patrones y predice las necesidades óptimas de personal"
+    },
+    "step3": {
+      "title": "Horarios Optimizados",
+      "description": "Recibe horarios automatizados y optimizados que maximizan la eficiencia"
+    }
+  },
+  "socialProof": {
+    "title": "Confiado por Líderes de la Industria",
+    "subtitle": "Mira cómo los restaurantes de todo el mundo están transformando sus operaciones",
+    "testimonial1": {
+      "text": "Optimo redujo nuestros costos laborales en un 23% en el primer mes. La IA realmente entiende nuestros patrones de propinas mejor que nosotros. Nuestro personal está más feliz y nuestros márgenes son más saludables.",
+      "author": "María Rodríguez",
+      "position": "Gerente General, Coastal Bistro"
+    },
+    "testimonial2": {
+      "text": "La integración de billeteras móviles es revolucionaria para APAC. Estamos viendo un 22% más de propinas y cumplimiento perfecto con las regulaciones locales en todas nuestras ubicaciones.",
+      "author": "Kevin Lim",
+      "position": "Director de Operaciones, Singapore Food Group"
+    },
+    "metrics": {
+      "costReduction": "Reducción de Costos",
+      "timeSaved": "Tiempo Ahorrado",
+      "staffSatisfaction": "Satisfacción del Personal",
+      "higherTips": "Propinas Más Altas",
+      "compliance": "Cumplimiento",
+      "locations": "Ubicaciones"
+    },
+    "benchmarks": {
+      "title": "Puntos de Referencia de la Industria",
+      "laborCost": "Porcentaje de Costo Laboral",
+      "turnoverRate": "Tasa de Rotación del Personal",
+      "schedulingTime": "Tiempo de Programación (hrs/semana)",
+      "industry": "Industria",
+      "improvement": "Mejora",
+      "reduction": "Reducción",
+      "saved": "Ahorrado"
+    }
+  },
+  "globalIntelligence": {
+    "title": "Un Motor, Excelencia Local",
+    "subtitle": "Inteligencia artificial global adaptada a mercados locales, regulaciones y comportamientos de clientes",
+    "regions": {
+      "US": {
+        "title": "Pronóstico de Rendimiento de Propinas",
+        "description": "Predecir volatilidad de propinas y optimizar personal para máximo ingreso",
+        "data": "$42/hr promedio de propinas",
+        "feature": "Análisis avanzado de propinas"
+      },
+      "EU": {
+        "title": "Escudo de Cumplimiento de Descansos",
+        "description": "Cumplimiento automático con directivas de tiempo de trabajo",
+        "data": "100% tasa de cumplimiento",
+        "feature": "Automatización regulatoria"
+      },
+      "LATAM": {
+        "title": "Sincronización OXXO",
+        "description": "Integración en tiempo real con sistemas de pago locales",
+        "data": "Sincronización en tiempo real",
+        "feature": "Integración de pagos locales"
+      },
+      "APAC": {
+        "title": "Análisis de Billeteras Móviles",
+        "description": "Optimización para preferencias y comportamientos de pago móvil",
+        "data": "22% más en propinas",
+        "feature": "Optimización móvil"
+      }
+    },
+    "performance": "Rendimiento",
+    "keyFeature": "Característica Clave"
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Elige el plan que se adapte al tamaño de tu negocio",
+    "starter": {
+      "title": "Inicial",
+      "price": "$99",
+      "period": "/mes",
+      "description": "Perfecto para pequeños restaurantes y cafeterías",
+      "features": [
+        "Hasta 25 empleados",
+        "Programación básica con IA",
+        "Soporte por email",
+        "Acceso a app móvil"
+      ]
+    },
+    "professional": {
+      "title": "Profesional",
+      "price": "$299",
+      "period": "/mes",
+      "description": "Ideal para empresas de hostelería en crecimiento",
+      "features": [
+        "Hasta 100 empleados",
+        "Análisis avanzado con IA",
+        "Soporte prioritario",
+        "Integraciones personalizadas",
+        "Paneles de rendimiento"
+      ],
+      "popular": "Más Popular"
+    },
+    "enterprise": {
+      "title": "Empresarial",
+      "price": "Personalizado",
+      "description": "Para grandes cadenas y grupos hoteleros",
+      "features": [
+        "Empleados ilimitados",
+        "Solución de marca blanca",
+        "Gerente de cuenta dedicado",
+        "Entrenamiento personalizado de IA",
+        "Reportes avanzados"
+      ]
+    },
+    "getStarted": "Comenzar",
+    "contactSales": "Contactar Ventas"
+  },
+  "finalCTA": {
+    "title": "¿Listo para Transformar el Trabajo en Ganancias?",
+    "subtitle": "Únete a miles de restaurantes que ahorran más del 20% en costos laborales con programación con IA",
+    "getAudit": "Obtener Auditoría Gratuita de Ahorros",
+    "talkToExpert": "Hablar con Experto en Integración",
+    "features": {
+      "freeTrial": "Prueba Gratuita",
+      "minutes": "Minutos",
+      "setupTime": "Tiempo de Configuración",
+      "guaranteedSavings": "Ahorros Garantizados"
+    },
+    "disclaimer": "No se requiere tarjeta de crédito • Cancela en cualquier momento • Soporte completo incluido"
+  },
+  "footer": {
+    "description": "Optimización de fuerza laboral con IA para la industria de la hostelería",
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "integrations": "Integraciones",
+    "company": "Empresa",
+    "aboutUs": "Acerca de Nosotros",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "support": "Soporte",
+    "helpCenter": "Centro de Ayuda",
+    "documentation": "Documentación",
+    "apiReference": "Referencia API",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "allRightsReserved": "Todos los derechos reservados."
+  },
+  "tippingSpotlight": {
+    "title": "Convertir la Volatilidad de Propinas en Beneficios",
+    "subtitle": "Nuestra IA predice patrones de propinas y optimiza el personal para maximizar los ingresos por hora",
+    "calculatorTitle": "Calculadora Interactiva de Propinas",
+    "partySize": "Tamaño del Grupo",
+    "shiftType": "Tipo de Turno",
+    "predictedTipYield": "Rendimiento de Propinas Previsto",
+    "staffingOptimization": "Optimización de Personal",
+    "before": "Antes",
+    "overstaffed": "Exceso de Personal",
+    "after": "Después",
+    "optimized": "Optimizado",
+    "savingsImpact": "Impacto de Ahorros",
+    "perHour": "Por Hora",
+    "perShift": "Por Turno", 
+    "perWeek": "Por Semana",
+    "breakfast": "Desayuno",
+    "lunch": "Almuerzo",
+    "dinner": "Cena",
+    "servers": "meseros",
+    "cooks": "cocineros",
+    "cost": "Costo"
+  },
+  "common": {
+    "learnMore": "Saber Más",
+    "readMore": "Leer Más",
+    "viewAll": "Ver Todo",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "success": "¡Éxito!"
+  }
+}

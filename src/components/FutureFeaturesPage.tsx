@@ -10,6 +10,7 @@ import {
   Star, 
   Target, 
   Brain, 
+  Building2, 
   Calendar, 
   Clock, 
   CheckCircle, 

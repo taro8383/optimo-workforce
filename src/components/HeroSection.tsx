@@ -1,8 +1,10 @@
 import React from 'react';
 import { Play, TrendingUp } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection: React.FC = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
 
   const handleNavigation = (path: string) => {
@@ -15,24 +17,24 @@ const HeroSection: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-              Stop Guessing Shifts.<br />Start Optimizing Labor Costs.
+              {t('hero.title')}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-              AI-powered scheduling cuts hospitality labor waste by 20%+ adapting to tipping, regulations, and demand
+              {t('hero.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-                Start 30-Day Free Trial
+                {t('hero.getStarted')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2">
                 <Play size={20} />
-                See How It Works →
+                {t('hero.bookDemo')}
               </button>
             </div>
 
             <div className="flex flex-wrap items-center gap-8">
-              <span className="text-blue-200 font-medium">Trusted by:</span>
+              <span className="text-blue-200 font-medium">{t('hero.trustedBy')}</span>
               <div className="flex items-center gap-6">
                 <div className="bg-white bg-opacity-20 px-4 py-2 rounded-lg">
                   <span className="font-semibold">Toast</span>

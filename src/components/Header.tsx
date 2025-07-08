@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface HeaderProps {
   currentPage: string;
@@ -7,11 +8,11 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
+  const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState('en');
 
   const languages = [
     { code: 'en', name: 'English', flag: '🇺🇸' },
@@ -38,15 +39,15 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleLanguageChange = (languageCode: string) => {
-    setCurrentLanguage(languageCode);
+  const handleLanguageChange = async (languageCode: string) => {
+    await i18n.changeLanguage(languageCode);
+    localStorage.setItem('i18nextLng', languageCode);
     setIsLanguageOpen(false);
-    // Here you would implement actual language switching logic
-    console.log('Language changed to:', languageCode);
+    window.location.reload(); // Force refresh to ensure translations apply
   };
 
   const getCurrentLanguage = () => {
-    return languages.find(lang => lang.code === currentLanguage) || languages[0];
+    return languages.find(lang => lang.code === i18n.language) || languages[0];
   };
 
   return (
@@ -77,14 +78,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 currentPage === 'home' ? 'text-primary' : 'text-gray-700 hover:text-primary'
               }`}
             >
-              Features
+              {t('header.features')}
             </button>
             <div className="relative">
               <button
                 onClick={toggleSolutions}
                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
               >
-                Solutions
+                {t('header.solutions')}
                 <ChevronDown size={16} className={`transition-transform ${isSolutionsOpen ? 'rotate-180' : ''}`} />
               </button>
               {isSolutionsOpen && (
@@ -95,7 +96,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'restaurants' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    Restaurants
+                    {t('header.restaurants')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('hotels')}
@@ -103,7 +104,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'hotels' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    Hotels
+                    {t('header.hotels')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('cafes')}
@@ -111,20 +112,20 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'cafes' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    Cafés
+                    {t('header.cafes')}
                   </button>
                 </div>
               )}
             </div>
             <a href="#simple-transparent-pricing" className="text-gray-700 hover:text-primary transition-colors font-medium">
-              Pricing
+              {t('header.pricing')}
             </a>
             <div className="relative">
               <button
                 onClick={toggleResources}
                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
               >
-                Resources
+                {t('header.resources')}
                 <ChevronDown size={16} className={`transition-transform ${isResourcesOpen ? 'rotate-180' : ''}`} />
               </button>
               {isResourcesOpen && (
@@ -135,7 +136,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'faq' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    FAQ
+                    {t('header.faq')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('roi-calculator')}
@@ -143,7 +144,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'roi-calculator' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    ROI Calculator
+                    {t('header.roiCalculator')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('newsletter')}
@@ -151,7 +152,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'newsletter' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    Newsletter
+                    {t('header.newsletter')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('future-features')}
@@ -159,7 +160,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'future-features' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    Future Features
+                    {t('header.futureFeatures')}
                   </button>
                 </div>
               )}
@@ -170,7 +171,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                About Us
+                {t('header.aboutUs')}
               </button>
             <button 
               onClick={() => handleNavigation('contact')}
@@ -178,7 +179,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
               }`}
             >
-              Contact
+              {t('header.contact')}
             </button>
           </nav>
 
@@ -199,19 +200,19 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               {isLanguageOpen && (
                 <div className="absolute top-full right-0 mt-2 w-56 bg-white rounded-lg shadow-lg border py-2 z-20">
                   <div className="px-4 py-2 border-b border-gray-100">
-                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Select Language</div>
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{t('header.selectLanguage')}</div>
                   </div>
                   {languages.map((language) => (
                     <button
                       key={language.code}
                       onClick={() => handleLanguageChange(language.code)}
                       className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors ${
-                        currentLanguage === language.code ? 'bg-blue-50 text-primary' : 'text-gray-700'
+                        i18n.language === language.code ? 'bg-blue-50 text-primary' : 'text-gray-700'
                       }`}
                     >
                       <span className="text-lg">{language.flag}</span>
                       <span className="font-medium">{language.name}</span>
-                      {currentLanguage === language.code && (
+                      {i18n.language === language.code && (
                         <div className="ml-auto w-2 h-2 bg-primary rounded-full"></div>
                       )}
                     </button>
@@ -221,7 +222,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             </div>
 
             <button className="bg-primary hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              Get Started
+              {t('header.getStarted')}
             </button>
           </div>
 
@@ -244,10 +245,10 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'home' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                Features
+                {t('header.features')}
               </button>
               <div className="space-y-2">
-                <div className="text-gray-700 font-medium">Solutions</div>
+                <div className="text-gray-700 font-medium">{t('header.solutions')}</div>
                 <div className="pl-4 space-y-2">
                   <button 
                     onClick={() => handleNavigation('restaurants')}
@@ -255,7 +256,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'restaurants' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    Restaurants
+                    {t('header.restaurants')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('hotels')}
@@ -263,7 +264,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'hotels' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    Hotels
+                    {t('header.hotels')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('cafes')}
@@ -271,15 +272,15 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'cafes' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    Cafés
+                    {t('header.cafes')}
                   </button>
                 </div>
               </div>
               <a href="#simple-transparent-pricing" className="block text-gray-700 hover:text-primary font-medium">
-                Pricing
+                {t('header.pricing')}
               </a>
               <div className="space-y-2">
-                <div className="text-gray-700 font-medium">Resources</div>
+                <div className="text-gray-700 font-medium">{t('header.resources')}</div>
                 <div className="pl-4 space-y-2">
                   <a href="#blog" className="block text-gray-600 hover:text-primary">
                     Blog
@@ -293,7 +294,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'faq' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    FAQ
+                    {t('header.faq')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('roi-calculator')}
@@ -301,7 +302,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'roi-calculator' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    ROI Calculator
+                    {t('header.roiCalculator')}
                   </button>
                   <a href="#webinars" className="block text-gray-600 hover:text-primary">
                     Webinars
@@ -312,7 +313,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'newsletter' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    Newsletter
+                    {t('header.newsletter')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('future-features')}
@@ -320,7 +321,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'future-features' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    Future Features
+                    {t('header.futureFeatures')}
                   </button>
                 </div>
               </div>
@@ -330,7 +331,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                About Us
+                {t('header.aboutUs')}
               </button>
               <button 
                 onClick={() => handleNavigation('contact')}
@@ -338,19 +339,19 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                Contact
+                {t('header.contact')}
               </button>
 
               {/* Mobile Language Selector */}
               <div className="pt-4 border-t space-y-3">
-                <div className="text-gray-700 font-medium">Language</div>
+                <div className="text-gray-700 font-medium">{t('header.language')}</div>
                 <div className="grid grid-cols-2 gap-2">
                   {languages.map((language) => (
                     <button
                       key={language.code}
                       onClick={() => handleLanguageChange(language.code)}
                       className={`flex items-center gap-2 px-3 py-2 rounded-lg border transition-colors ${
-                        currentLanguage === language.code 
+                        i18n.language === language.code 
                           ? 'border-primary bg-blue-50 text-primary' 
                           : 'border-gray-200 hover:border-gray-300 text-gray-700'
                       }`}
@@ -364,7 +365,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
 
               <div className="pt-4 border-t space-y-3">
                 <button className="w-full bg-primary hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition-colors">
-                  Get Started
+                  {t('header.getStarted')}
                 </button>
               </div>
             </div>

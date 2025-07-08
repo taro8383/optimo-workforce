@@ -1,49 +1,22 @@
 import React, { useState } from 'react';
 import { Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const GlobalIntelligenceSection: React.FC = () => {
+  const { t } = useTranslation();
   const [activeRegion, setActiveRegion] = useState('US');
 
-  const regions = {
-    US: {
-      title: 'Tip-Yield Forecasting',
-      description: 'Predict tip volatility and optimize staffing for maximum revenue',
-      color: 'bg-blue-500',
-      data: '$42/hr average tip yield',
-      feature: 'Advanced tipping analytics'
-    },
-    EU: {
-      title: 'Break Compliance Shield',
-      description: 'Automatic compliance with working time directives',
-      color: 'bg-green-500',
-      data: '100% compliance rate',
-      feature: 'Regulatory automation'
-    },
-    LATAM: {
-      title: 'OXXO Cash Sync',
-      description: 'Real-time cash flow integration with local payment systems',
-      color: 'bg-orange-500',
-      data: 'Real-time sync',
-      feature: 'Local payment integration'
-    },
-    APAC: {
-      title: 'Mobile Wallet Analytics',
-      description: 'Optimize for mobile payment preferences and behaviors',
-      color: 'bg-yellow-500',
-      data: '22% higher tips',
-      feature: 'Mobile-first optimization'
-    }
-  };
+  const regions = ['US', 'EU', 'LATAM', 'APAC'];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-            One Engine, Local Brilliance
+            {t('globalIntelligence.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Global AI intelligence adapted to local markets, regulations, and customer behaviors
+            {t('globalIntelligence.subtitle')}
           </p>
         </div>
 
@@ -55,7 +28,7 @@ const GlobalIntelligenceSection: React.FC = () => {
               </div>
               
               <div className="grid grid-cols-2 gap-4">
-                {Object.entries(regions).map(([key]) => (
+                {regions.map((key) => (
                     <button
                       key={key}
                       onClick={() => setActiveRegion(key)}
@@ -86,24 +59,24 @@ const GlobalIntelligenceSection: React.FC = () => {
                   className="w-12 h-12 object-contain"
                 />
                 <h3 className="text-2xl font-bold text-gray-900">
-                  {regions[activeRegion as keyof typeof regions].title}
+                  {t(`globalIntelligence.regions.${activeRegion}.title`)}
                 </h3>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                {regions[activeRegion as keyof typeof regions].description}
+                {t(`globalIntelligence.regions.${activeRegion}.description`)}
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-4">
                   <div className="text-2xl font-bold text-primary">
-                    {regions[activeRegion as keyof typeof regions].data}
+                    {t(`globalIntelligence.regions.${activeRegion}.data`)}
                   </div>
-                  <div className="text-sm text-gray-600">Performance</div>
+                  <div className="text-sm text-gray-600">{t('globalIntelligence.performance')}</div>
                 </div>
                 <div className="bg-white rounded-lg p-4">
                   <div className="text-lg font-semibold text-gray-900">
-                    {regions[activeRegion as keyof typeof regions].feature}
+                    {t(`globalIntelligence.regions.${activeRegion}.feature`)}
                   </div>
-                  <div className="text-sm text-gray-600">Key Feature</div>
+                  <div className="text-sm text-gray-600">{t('globalIntelligence.keyFeature')}</div>
                 </div>
               </div>
             </div>
@@ -111,11 +84,11 @@ const GlobalIntelligenceSection: React.FC = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gradient-to-r from-accent-apac to-yellow-400 rounded-lg p-6 text-white">
                 <div className="text-lg font-semibold mb-2">Singapore</div>
-                <div className="text-sm opacity-90">Hawker centers: 22% higher tips via mobile wallets</div>
+                <div className="text-sm opacity-90">{t('globalIntelligence.regions.APAC.description')}</div>
               </div>
               <div className="bg-gradient-to-r from-secondary to-green-400 rounded-lg p-6 text-white">
                 <div className="text-lg font-semibold mb-2">Berlin</div>
-                <div className="text-sm opacity-90">Restaurants: 100% working time directive compliance</div>
+                <div className="text-sm opacity-90">{t('globalIntelligence.regions.EU.description')}</div>
               </div>
             </div>
           </div>

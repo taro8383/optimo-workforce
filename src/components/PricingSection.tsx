@@ -1,55 +1,37 @@
 import React from 'react';
 import { Check, Shield, Star, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const PricingSection: React.FC = () => {
+  const { t } = useTranslation();
   const plans = [
     {
-      name: 'Starter',
-      price: '$89',
-      period: '/location/month',
-      description: 'Perfect for single location restaurants',
-      features: [
-        'Core AI optimization',
-        'POS integration',
-        'Basic analytics',
-        'Email support',
-        'Mobile app access'
-      ],
+      name: t('pricing.starter.title'),
+      price: t('pricing.starter.price'),
+      period: t('pricing.starter.period'),
+      description: t('pricing.starter.description'),
+      features: t('pricing.starter.features', { returnObjects: true }) as string[],
       icon: Zap,
       color: 'border-gray-200',
       buttonColor: 'bg-gray-900 hover:bg-gray-800'
     },
     {
-      name: 'Growth',
-      price: '$249',
-      period: '/3 locations/month',
-      description: 'Ideal for growing restaurant groups',
-      features: [
-        'Everything in Starter',
-        'All regional features',
-        'Advanced tip analytics',
-        'Multi-location dashboard',
-        'Priority support',
-        'Custom integrations'
-      ],
+      name: t('pricing.professional.title'),
+      price: t('pricing.professional.price'),
+      period: t('pricing.professional.period'),
+      description: t('pricing.professional.description'),
+      features: t('pricing.professional.features', { returnObjects: true }) as string[],
       icon: Star,
       color: 'border-primary ring-4 ring-primary ring-opacity-20',
       buttonColor: 'bg-primary hover:bg-blue-600',
       popular: true
     },
     {
-      name: 'Enterprise',
-      price: 'Custom',
-      period: '/pricing',
-      description: 'For large restaurant chains',
-      features: [
-        'Everything in Growth',
-        'Dedicated success manager',
-        'Custom AI training',
-        'White-label options',
-        'SLA guarantees',
-        'Advanced security'
-      ],
+      name: t('pricing.enterprise.title'),
+      price: t('pricing.enterprise.price'),
+      period: t('pricing.enterprise.period'),
+      description: t('pricing.enterprise.description'),
+      features: t('pricing.enterprise.features', { returnObjects: true }) as string[],
       icon: Shield,
       color: 'border-gray-200',
       buttonColor: 'bg-secondary hover:bg-green-600'
@@ -61,10 +43,10 @@ const PricingSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-            Simple, Transparent Pricing
+            {t('pricing.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose the plan that fits your restaurant's needs. All plans include our core AI optimization.
+            {t('pricing.subtitle')}
           </p>
         </div>
 
@@ -79,7 +61,7 @@ const PricingSection: React.FC = () => {
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                     <div className="bg-primary text-white px-6 py-2 rounded-full text-sm font-semibold">
-                      Most Popular
+                      {t('pricing.professional.popular')}
                     </div>
                   </div>
                 )}
@@ -106,7 +88,7 @@ const PricingSection: React.FC = () => {
                 </ul>
 
                 <button className={`w-full ${plan.buttonColor} text-white py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105`}>
-                  {plan.name === 'Enterprise' ? 'Contact Sales' : 'Start Free Trial'}
+                  {plan.name === 'Enterprise' ? t('pricing.contactSales') : t('pricing.getStarted')}
                 </button>
               </div>
             );
@@ -117,7 +99,7 @@ const PricingSection: React.FC = () => {
           <div className="inline-flex items-center gap-3 bg-blue-50 px-6 py-4 rounded-full">
             <Shield className="text-primary" size={24} />
             <span className="text-lg font-semibold text-primary">
-              20% savings guarantee or your money back
+              {t('finalCTA.features.guaranteedSavings')} garantizados o devolución de dinero
             </span>
           </div>
         </div>

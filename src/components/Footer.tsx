@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Linkedin, Twitter, Youtube, Mail } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface FooterProps {
   currentPage: string;
@@ -7,6 +8,7 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
+  const { t } = useTranslation();
   const [email, setEmail] = useState('');
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -44,13 +46,13 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
             </button>
             
             <div className="mb-6">
-              <h4 className="text-lg font-semibold mb-4">Get optimization tips</h4>
+              <h4 className="text-lg font-semibold mb-4">{t('footer.newsletter.title')}</h4>
               <form onSubmit={handleNewsletterSubmit} className="space-y-3">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
+                  placeholder={t('footer.newsletter.placeholder')}
                   className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white placeholder-gray-400"
                   required
                 />
@@ -59,7 +61,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   className="w-full bg-primary hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
                 >
                   <Mail size={16} />
-                  Subscribe
+                  {t('footer.newsletter.subscribe')}
                 </button>
               </form>
             </div>
@@ -89,29 +91,29 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Product Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">Product</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.product')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
                   onClick={() => handleNavigation('home')}
                   className="text-gray-300 hover:text-white transition-colors text-left"
                 >
-                  Features
+                  {t('footer.features')}
                 </button>
               </li>
               <li>
                 <a href="#simple-transparent-pricing" className="text-gray-300 hover:text-white transition-colors">
-                  Pricing
+                  {t('footer.pricing')}
                 </a>
               </li>
               <li>
                 <a href="#integrations" className="text-gray-300 hover:text-white transition-colors">
-                  Integrations
+                  {t('footer.integrations')}
                 </a>
               </li>
               <li>
                 <a href="#security" className="text-gray-300 hover:text-white transition-colors">
-                  Security
+                  {t('footer.security')}
                 </a>
               </li>
               <li>
@@ -121,7 +123,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'future-features' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Future Features
+                  {t('footer.futureFeatures')}
                 </button>
               </li>
             </ul>
@@ -129,7 +131,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Solutions Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">Solutions</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.solutions')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -138,7 +140,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'restaurants' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Restaurants
+                  {t('footer.restaurants')}
                 </button>
               </li>
               <li>
@@ -148,7 +150,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'hotels' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Hotels
+                  {t('footer.hotels')}
                 </button>
               </li>
               <li>
@@ -158,7 +160,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'cafes' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Cafés
+                  {t('footer.cafes')}
                 </button>
               </li>
             </ul>
@@ -166,7 +168,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Resources Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">Resources</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.resources')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -175,7 +177,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'faq' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  FAQ
+                  {t('footer.faq')}
                 </button>
               </li>
               <li>
@@ -185,7 +187,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'roi-calculator' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  ROI Calculator
+                  {t('footer.roiCalculator')}
                 </button>
               </li>
               <li>
@@ -195,7 +197,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'newsletter' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Newsletter
+                  {t('footer.newsletter.title')}
                 </button>
               </li>
             </ul>
@@ -203,7 +205,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Company Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">Company</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer.company')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -212,7 +214,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'about' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  About Us
+                  {t('footer.aboutUs')}
                 </button>
               </li>
               <li>
@@ -222,7 +224,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'contact' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  Contact
+                  {t('footer.contact')}
                 </button>
               </li>
             </ul>
@@ -233,17 +235,17 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2025 Optimo Workforce. All rights reserved.
+              © 2025 Optimo Workforce. {t('footer.allRightsReserved')}
             </p>
             <div className="flex items-center gap-6 text-sm">
               <a href="#privacy" className="text-gray-400 hover:text-white transition-colors">
-                Privacy Policy
+                {t('footer.privacy')}
               </a>
               <a href="#terms" className="text-gray-400 hover:text-white transition-colors">
-                Terms of Service
+                {t('footer.terms')}
               </a>
               <a href="#cookies" className="text-gray-400 hover:text-white transition-colors">
-                Cookie Policy
+                {t('footer.cookies')}
               </a>
             </div>
           </div>

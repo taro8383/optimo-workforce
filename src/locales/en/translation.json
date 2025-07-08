@@ -1,0 +1,219 @@
+{
+  "header": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "restaurants": "Restaurants",
+    "hotels": "Hotels",
+    "cafes": "Cafés",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "roiCalculator": "ROI Calculator",
+    "newsletter": "Newsletter",
+    "futureFeatures": "Future Features",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "selectLanguage": "Select Language",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "AI-powered scheduling cuts hospitality waste by 20%+",
+    "subtitle": "OPTIMO Workforce uses advanced AI to predict demand and optimize staff scheduling, reducing labor costs while improving service quality.",
+    "getStarted": "Get Started",
+    "bookDemo": "Book a Demo",
+    "trustedBy": "Trusted by 500+ hospitality businesses worldwide"
+  },
+  "problemSolution": {
+    "title": "The $180,000/year Staffing Leak",
+    "subtitle": "Most restaurants lose thousands monthly to inefficient scheduling. Here's how we fix it.",
+    "problem": {
+      "title": "Problem",
+      "overstaffing": "27% overstaffing",
+      "understaffing": "Understaffing during peak times",
+      "manualScheduling": "9 hrs/week scheduling",
+      "highTurnover": "42% staff turnover"
+    },
+    "solution": {
+      "title": "Solution",
+      "aiPrediction": "Real-time demand heatmaps",
+      "optimizedScheduling": "Optimized staff scheduling",
+      "automatedProcess": "1-click AI optimization",
+      "improvedRetention": "Tip volatility shields"
+    },
+    "result": {
+      "title": "Result",
+      "laborCosts": "↓ Labor costs",
+      "managerTime": "↑ Manager time",
+      "hiringCosts": "↓ Hiring costs"
+    },
+    "beforeAfter": {
+      "title": "Before vs After",
+      "before": "Before: Chaos",
+      "after": "After: Order",
+      "beforeItems": {
+        "overstaffed": "Overstaffed shifts",
+        "manual": "Manual scheduling",
+        "turnover": "High turnover"
+      },
+      "afterItems": {
+        "optimized": "Optimized staffing",
+        "automation": "AI automation",
+        "happy": "Happy staff"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How OPTIMO Works",
+    "subtitle": "Three simple steps to transform your workforce management",
+    "step1": {
+      "title": "Connect Your Data",
+      "description": "Integrate with your POS, reservation system, and historical data"
+    },
+    "step2": {
+      "title": "AI Analysis",
+      "description": "Our AI analyzes patterns and predicts optimal staffing needs"
+    },
+    "step3": {
+      "title": "Optimized Schedules",
+      "description": "Receive automated, optimized schedules that maximize efficiency"
+    }
+  },
+  "socialProof": {
+    "title": "Trusted by Industry Leaders",
+    "subtitle": "See how restaurants worldwide are transforming their operations",
+    "testimonial1": {
+      "text": "Optimo cut our labor costs by 23% in the first month. The AI actually understands our tipping patterns better than we did. Our staff is happier, and our margins are healthier.",
+      "author": "Maria Rodriguez",
+      "position": "General Manager, Coastal Bistro"
+    },
+    "testimonial2": {
+      "text": "The mobile wallet integration is game-changing for APAC. We're seeing 22% higher tips and perfect compliance with local regulations across all our locations.",
+      "author": "Kevin Lim",
+      "position": "Operations Director, Singapore Food Group"
+    },
+    "metrics": {
+      "costReduction": "Cost Reduction",
+      "timeSaved": "Time Saved",
+      "staffSatisfaction": "Staff Satisfaction",
+      "higherTips": "Higher Tips",
+      "compliance": "Compliance",
+      "locations": "Locations"
+    },
+    "benchmarks": {
+      "title": "Industry Benchmarks",
+      "laborCost": "Labor Cost Percentage",
+      "turnoverRate": "Staff Turnover Rate",
+      "schedulingTime": "Scheduling Time (hrs/week)",
+      "industry": "Industry",
+      "improvement": "Improvement",
+      "reduction": "Reduction",
+      "saved": "Saved"
+    }
+  },
+  "globalIntelligence": {
+    "title": "Global Intelligence, Local Optimization",
+    "subtitle": "Our AI learns from hospitality data worldwide to optimize your local operations",
+    "regions": {
+      "northAmerica": "North America",
+      "europe": "Europe",
+      "asiaPacific": "Asia Pacific",
+      "latinAmerica": "Latin America"
+    },
+    "features": {
+      "predictiveAnalytics": "Predictive Analytics",
+      "realTimeOptimization": "Real-time Optimization",
+      "crossRegionalLearning": "Cross-regional Learning",
+      "localAdaptation": "Local Adaptation"
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your business size",
+    "starter": {
+      "title": "Starter",
+      "price": "$99",
+      "period": "/month",
+      "description": "Perfect for small restaurants and cafés",
+      "features": [
+        "Up to 25 employees",
+        "Basic AI scheduling",
+        "Email support",
+        "Mobile app access"
+      ]
+    },
+    "professional": {
+      "title": "Professional",
+      "price": "$299",
+      "period": "/month",
+      "description": "Ideal for growing hospitality businesses",
+      "features": [
+        "Up to 100 employees",
+        "Advanced AI analytics",
+        "Priority support",
+        "Custom integrations",
+        "Performance dashboards"
+      ],
+      "popular": "Most Popular"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "price": "Custom",
+      "description": "For large chains and hotel groups",
+      "features": [
+        "Unlimited employees",
+        "White-label solution",
+        "Dedicated account manager",
+        "Custom AI training",
+        "Advanced reporting"
+      ]
+    },
+    "getStarted": "Get Started",
+    "contactSales": "Contact Sales"
+  },
+  "finalCTA": {
+    "title": "Ready to Transform Labor into Profit?",
+    "subtitle": "Join thousands of restaurants saving 20%+ on labor costs with AI-powered scheduling",
+    "getAudit": "Get Free Savings Audit",
+    "talkToExpert": "Talk to Integration Expert",
+    "features": {
+      "freeTrial": "Free Trial",
+      "minutes": "Minutes",
+      "setupTime": "Setup Time",
+      "guaranteedSavings": "Guaranteed Savings"
+    },
+    "disclaimer": "No credit card required • Cancel anytime • Full support included"
+  },
+  "footer": {
+    "description": "AI-powered workforce optimization for the hospitality industry",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "support": "Support",
+    "helpCenter": "Help Center",
+    "documentation": "Documentation",
+    "apiReference": "API Reference",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "allRightsReserved": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!"
+  }
+}

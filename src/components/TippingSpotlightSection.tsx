@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { DollarSign, Users, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const TippingSpotlightSection: React.FC = () => {
+  const { t, i18n } = useTranslation();
+  console.log('Current language in component:', i18n.language);
   const [partySize, setPartySize] = useState(4);
   const [shiftType, setShiftType] = useState('Dinner');
 
@@ -18,20 +21,20 @@ const TippingSpotlightSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-            Turn Tipping Volatility into Profit
+            {t('tippingSpotlight.title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our AI predicts tip patterns and optimizes staffing for maximum revenue per hour
+            {t('tippingSpotlight.subtitle')}
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-gradient-to-br from-primary to-blue-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-6">Interactive Tip Calculator</h3>
+            <h3 className="text-2xl font-bold mb-6">{t('tippingSpotlight.calculatorTitle')}</h3>
             
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-medium mb-3">Party Size: {partySize}</label>
+                <label className="block text-sm font-medium mb-3">{t('tippingSpotlight.partySize')}: {partySize}</label>
                 <input
                   type="range"
                   min="1"
@@ -47,15 +50,15 @@ const TippingSpotlightSection: React.FC = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-3">Shift Type</label>
+                <label className="block text-sm font-medium mb-3">{t('tippingSpotlight.shiftType')}</label>
                 <select
                   value={shiftType}
                   onChange={(e) => setShiftType(e.target.value)}
                   className="w-full p-3 rounded-lg bg-white bg-opacity-20 text-white border border-white border-opacity-30 focus:outline-none focus:ring-2 focus:ring-white"
                 >
-                  <option value="Breakfast" className="text-gray-900">Breakfast</option>
-                  <option value="Lunch" className="text-gray-900">Lunch</option>
-                  <option value="Dinner" className="text-gray-900">Dinner</option>
+                  <option value="Breakfast" className="text-gray-900">{t('tippingSpotlight.breakfast')}</option>
+                  <option value="Lunch" className="text-gray-900">{t('tippingSpotlight.lunch')}</option>
+                  <option value="Dinner" className="text-gray-900">{t('tippingSpotlight.dinner')}</option>
                 </select>
               </div>
 
@@ -64,7 +67,7 @@ const TippingSpotlightSection: React.FC = () => {
                   <div className="text-4xl font-bold text-secondary mb-2">
                     ${tipYield}/hr
                   </div>
-                  <div className="text-lg opacity-90">Predicted Tip Yield</div>
+                  <div className="text-lg opacity-90">{t('tippingSpotlight.predictedTipYield')}</div>
                 </div>
               </div>
             </div>
@@ -72,27 +75,27 @@ const TippingSpotlightSection: React.FC = () => {
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Staffing Optimization</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">{t('tippingSpotlight.staffingOptimization')}</h3>
               
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-red-50 rounded-lg p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                      Before
+                      {t('tippingSpotlight.before')}
                     </div>
-                    <span className="text-red-700 font-medium">Overstaffed</span>
+                    <span className="text-red-700 font-medium">{t('tippingSpotlight.overstaffed')}</span>
                   </div>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <Users size={20} className="text-red-500" />
-                      <span className="text-gray-700">8 servers</span>
+                      <span className="text-gray-700">8 {t('tippingSpotlight.servers')}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock size={20} className="text-red-500" />
-                      <span className="text-gray-700">2 cooks</span>
+                      <span className="text-gray-700">2 {t('tippingSpotlight.cooks')}</span>
                     </div>
                     <div className="text-red-600 font-semibold">
-                      Cost: $280/hr
+                      {t('tippingSpotlight.cost')}: $280/hr
                     </div>
                   </div>
                 </div>
@@ -100,21 +103,21 @@ const TippingSpotlightSection: React.FC = () => {
                 <div className="bg-green-50 rounded-lg p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-secondary text-white px-3 py-1 rounded-full text-sm font-semibold">
-                      After
+                      {t('tippingSpotlight.after')}
                     </div>
-                    <span className="text-green-700 font-medium">Optimized</span>
+                    <span className="text-green-700 font-medium">{t('tippingSpotlight.optimized')}</span>
                   </div>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <Users size={20} className="text-secondary" />
-                      <span className="text-gray-700">5 servers</span>
+                      <span className="text-gray-700">5 {t('tippingSpotlight.servers')}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock size={20} className="text-secondary" />
-                      <span className="text-gray-700">3 cooks</span>
+                      <span className="text-gray-700">3 {t('tippingSpotlight.cooks')}</span>
                     </div>
                     <div className="text-secondary font-semibold">
-                      Cost: $200/hr
+                      {t('tippingSpotlight.cost')}: $200/hr
                     </div>
                   </div>
                 </div>
@@ -124,20 +127,20 @@ const TippingSpotlightSection: React.FC = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <div className="flex items-center gap-3 mb-4">
                 <DollarSign className="text-secondary" size={24} />
-                <span className="text-xl font-bold text-gray-900">Savings Impact</span>
+                <span className="text-xl font-bold text-gray-900">{t('tippingSpotlight.savingsImpact')}</span>
               </div>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
                   <div className="text-2xl font-bold text-secondary">$80</div>
-                  <div className="text-sm text-gray-600">Per Hour</div>
+                  <div className="text-sm text-gray-600">{t('tippingSpotlight.perHour')}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-secondary">$640</div>
-                  <div className="text-sm text-gray-600">Per Shift</div>
+                  <div className="text-sm text-gray-600">{t('tippingSpotlight.perShift')}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-secondary">$4,480</div>
-                  <div className="text-sm text-gray-600">Per Week</div>
+                  <div className="text-sm text-gray-600">{t('tippingSpotlight.perWeek')}</div>
                 </div>
               </div>
             </div>

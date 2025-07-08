@@ -99,7 +99,7 @@ const PricingSection: React.FC = () => {
           <div className="inline-flex items-center gap-3 bg-blue-50 px-6 py-4 rounded-full">
             <Shield className="text-primary" size={24} />
             <span className="text-lg font-semibold text-primary">
-              {t('finalCTA.features.guaranteedSavings')} garantizados o devolución de dinero
+              {t('finalCTA.features.guaranteedSavings')}
             </span>
           </div>
         </div>

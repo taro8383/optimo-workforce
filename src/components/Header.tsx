@@ -10,6 +10,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductOpen, setIsProductOpen] = useState(false);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
   const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
@@ -26,6 +27,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const toggleProduct = () => setIsProductOpen(!isProductOpen);
   const toggleResources = () => setIsResourcesOpen(!isResourcesOpen);
   const toggleSolutions = () => setIsSolutionsOpen(!isSolutionsOpen);
   const toggleLanguage = () => setIsLanguageOpen(!isLanguageOpen);
@@ -33,6 +35,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   const handleNavigation = (page: string) => {
     setCurrentPage(page);
     setIsMenuOpen(false);
+    setIsProductOpen(false);
     setIsResourcesOpen(false);
     setIsSolutionsOpen(false);
     setIsLanguageOpen(false);
@@ -80,6 +83,47 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             >
               {t('header.features')}
             </button>
+            
+            {/* Product Dropdown */}
+            <div className="relative">
+              <button
+                onClick={toggleProduct}
+                className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
+              >
+                {t('header.product')}
+                <ChevronDown size={16} className={`transition-transform ${isProductOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {isProductOpen && (
+                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border py-2 z-10">
+                  <button 
+                    onClick={() => handleNavigation('future-features')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'future-features' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    {t('header.futureFeatures')}
+                  </button>
+                  <button 
+                    onClick={() => handleNavigation('integrations')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'integrations' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    {t('header.integrations')}
+                  </button>
+                  <button 
+                    onClick={() => handleNavigation('security')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'security' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    {t('header.security')}
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {/* Solutions Dropdown (unchanged) */}
             <div className="relative">
               <button
                 onClick={toggleSolutions}
@@ -117,9 +161,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 </div>
               )}
             </div>
-            <a href="#simple-transparent-pricing" className="text-gray-700 hover:text-primary transition-colors font-medium">
-              {t('header.pricing')}
-            </a>
+
+            {/* Resources Dropdown */}
             <div className="relative">
               <button
                 onClick={toggleResources}
@@ -153,30 +196,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                     }`}
                   >
                     {t('header.newsletter')}
-                  </button>
-                  <button 
-                    onClick={() => handleNavigation('future-features')}
-                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
-                      currentPage === 'future-features' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
-                    }`}
-                  >
-                    {t('header.futureFeatures')}
-                  </button>
-                  <button 
-                    onClick={() => handleNavigation('integrations')}
-                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
-                      currentPage === 'integrations' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
-                    }`}
-                  >
-                    Integrations
-                  </button>
-                  <button 
-                    onClick={() => handleNavigation('security')}
-                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
-                      currentPage === 'security' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
-                    }`}
-                  >
-                    Security
                   </button>
                 </div>
               )}
@@ -292,9 +311,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   </button>
                 </div>
               </div>
-              <a href="#simple-transparent-pricing" className="block text-gray-700 hover:text-primary font-medium">
-                {t('header.pricing')}
-              </a>
+              <button 
+                onClick={() => handleNavigation('future-features')}
+                className={`block font-medium transition-colors ${
+                  currentPage === 'future-features' ? 'text-primary' : 'text-gray-700 hover:text-primary'
+                }`}
+              >
+                {t('header.futureFeatures')}
+              </button>
               <div className="space-y-2">
                 <div className="text-gray-700 font-medium">{t('header.resources')}</div>
                 <div className="pl-4 space-y-2">

@@ -18,11 +18,21 @@
 - Multi-language selector
 - Internationalization (i18n) for:
   - Header
-  - Footer
+  - Footer (with scroll-to-top functionality)
   - Final CTA section
   - Tipping Spotlight section
   - How It Works section
+  - Global Intelligence section
   - Basic page content
+  - Pricing section
+  - Social proof section
+  - Complete translations for:
+    - English (100%)
+    - Spanish (100%)
+  - Region-specific translations:
+    - EU compliance descriptions
+    - Professional plan pricing ($250)
+    - City names (Berlin/Berlín)
 
 ## Remaining Work
 - Newsletter integration

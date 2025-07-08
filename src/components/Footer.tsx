@@ -102,28 +102,42 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </li>
               <li>
-                <a href="#simple-transparent-pricing" className="text-gray-300 hover:text-white transition-colors">
-                  {t('footer.pricing')}
-                </a>
-              </li>
-              <li>
-                <a href="#integrations" className="text-gray-300 hover:text-white transition-colors">
+                <button 
+                  onClick={() => {
+                    handleNavigation('integrations');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`text-left transition-colors ${
+                    currentPage === 'integrations' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
                   {t('footer.integrations')}
-                </a>
-              </li>
-              <li>
-                <a href="#security" className="text-gray-300 hover:text-white transition-colors">
-                  {t('footer.security')}
-                </a>
+                </button>
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('future-features')}
+                  onClick={() => {
+                    handleNavigation('future-features');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'future-features' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
                   {t('footer.futureFeatures')}
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => {
+                    handleNavigation('security');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`text-left transition-colors ${
+                    currentPage === 'security' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
+                  {t('footer.security')}
                 </button>
               </li>
             </ul>
@@ -135,7 +149,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
             <ul className="space-y-3">
               <li>
                 <button 
-                  onClick={() => handleNavigation('restaurants')}
+                  onClick={() => {
+                    handleNavigation('restaurants');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'restaurants' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
@@ -145,7 +162,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('hotels')}
+                  onClick={() => {
+                    handleNavigation('hotels');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'hotels' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
@@ -155,7 +175,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('cafes')}
+                  onClick={() => {
+                    handleNavigation('cafes');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'cafes' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
@@ -172,7 +195,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
             <ul className="space-y-3">
               <li>
                 <button 
-                  onClick={() => handleNavigation('faq')}
+                  onClick={() => {
+                    handleNavigation('faq');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'faq' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
@@ -182,7 +208,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('roi-calculator')}
+                  onClick={() => {
+                    handleNavigation('roi-calculator');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'roi-calculator' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
@@ -192,32 +221,15 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('newsletter')}
+                  onClick={() => {
+                    handleNavigation('newsletter');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'newsletter' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
                   {t('footer.newsletter.title')}
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => handleNavigation('integrations')}
-                  className={`block text-left transition-colors ${
-                    currentPage === 'integrations' ? 'text-primary' : 'text-gray-300 hover:text-white'
-                  }`}
-                >
-                  Integrations
-                </button>
-              </li>
-              <li>
-                <button 
-                  onClick={() => handleNavigation('security')}
-                  className={`block text-left transition-colors ${
-                    currentPage === 'security' ? 'text-primary' : 'text-gray-300 hover:text-white'
-                  }`}
-                >
-                  Security
                 </button>
               </li>
             </ul>
@@ -239,7 +251,10 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('contact')}
+                  onClick={() => {
+                    handleNavigation('contact');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
                   className={`text-left transition-colors ${
                     currentPage === 'contact' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}

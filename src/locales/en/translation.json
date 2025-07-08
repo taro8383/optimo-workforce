@@ -1,11 +1,13 @@
 {
   "header": {
-    "features": "Features",
+    "features": "Home",
+    "product": "Product",
+    "integrations": "Integrations",
+    "security": "Security",
     "solutions": "Solutions",
     "restaurants": "Restaurants",
     "hotels": "Hotels",
-    "cafes": "Cafés",
-    "pricing": "Pricing",
+    "cafes": "Cafes",
     "resources": "Resources",
     "faq": "FAQ",
     "roiCalculator": "ROI Calculator",
@@ -66,6 +68,8 @@
   "howItWorks": {
     "title": "How OPTIMO Works",
     "subtitle": "Three simple steps to transform your workforce management",
+    "example": "Example",
+    "dataStreams": "Data Streams",
     "step1": {
       "title": "Connect Your Data",
       "description": "Integrate with your POS, reservation system, and historical data"
@@ -112,19 +116,37 @@
     }
   },
   "globalIntelligence": {
-    "title": "Global Intelligence, Local Optimization",
-    "subtitle": "Our AI learns from hospitality data worldwide to optimize your local operations",
+    "title": "One Engine, Local Excellence",
+    "subtitle": "Global AI tailored to local markets, regulations and customer behaviors",
+    "performance": "Performance",
+    "keyFeature": "Key Feature",
     "regions": {
-      "northAmerica": "North America",
-      "europe": "Europe",
-      "asiaPacific": "Asia Pacific",
-      "latinAmerica": "Latin America"
-    },
-    "features": {
-      "predictiveAnalytics": "Predictive Analytics",
-      "realTimeOptimization": "Real-time Optimization",
-      "crossRegionalLearning": "Cross-regional Learning",
-      "localAdaptation": "Local Adaptation"
+      "US": {
+        "title": "Tip Performance Forecasting",
+        "description": "Predict tip volatility and optimize staff for maximum earnings",
+        "data": "$42/hr average tips",
+        "feature": "Advanced tip analytics"
+      },
+      "EU": {
+        "title": "Break Compliance Shield",
+        "description": "Ensures automatic compliance with EU working time directives",
+        "data": "100% compliance rate",
+        "feature": "Regulatory automation",
+        "city": "Berlin"
+      },
+      "LATAM": {
+        "title": "OXXO Sync",
+        "description": "Real-time integration with local payment systems",
+        "data": "Real-time sync",
+        "feature": "Local payment integration"
+      },
+      "APAC": {
+        "title": "Mobile Wallet Analysis",
+        "description": "Optimization for mobile payment preferences and behaviors",
+        "data": "22% higher tips (Singapore)",
+        "feature": "Mobile optimization",
+        "city": "Singapore"
+      }
     }
   },
   "pricing": {
@@ -144,7 +166,7 @@
     },
     "professional": {
       "title": "Professional",
-      "price": "$299",
+      "price": "$250",
       "period": "/month",
       "description": "Ideal for growing hospitality businesses",
       "features": [
@@ -159,6 +181,7 @@
     "enterprise": {
       "title": "Enterprise",
       "price": "Custom",
+      "period": "/month",
       "description": "For large chains and hotel groups",
       "features": [
         "Unlimited employees",
@@ -180,29 +203,71 @@
       "freeTrial": "Free Trial",
       "minutes": "Minutes",
       "setupTime": "Setup Time",
-      "guaranteedSavings": "Guaranteed Savings"
+      "guaranteedSavings": "Money-back guarantee"
     },
     "disclaimer": "No credit card required • Cancel anytime • Full support included"
   },
-  "footer": {
-    "description": "AI-powered workforce optimization for the hospitality industry",
-    "product": "Product",
-    "features": "Features",
-    "pricing": "Pricing",
-    "integrations": "Integrations",
-    "company": "Company",
-    "aboutUs": "About Us",
-    "careers": "Careers",
-    "contact": "Contact",
-    "support": "Support",
-    "helpCenter": "Help Center",
-    "documentation": "Documentation",
-    "apiReference": "API Reference",
-    "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Policy",
-    "allRightsReserved": "All rights reserved."
+    "footer": {
+      "description": "AI-powered workforce optimization for the hospitality industry",
+      "newsletter": {
+        "title": "Newsletter",
+        "placeholder": "Your email address",
+        "subscribe": "Subscribe"
+      },
+      "product": "Product",
+      "features": "Home",
+      "restaurants": "Restaurants",
+      "hotels": "Hotels",
+      "cafes": "Cafés",
+      "solutions": "Solutions",
+      "resources": "Resources",
+      "faq": "FAQ",
+      "roiCalculator": "ROI Calculator",
+      "futureFeatures": "Future Features",
+      "integrations": "Integrations",
+      "security": "Security",
+      "company": "Company",
+      "aboutUs": "About Us",
+      "careers": "Careers",
+      "contact": "Contact",
+      "support": "Support",
+      "helpCenter": "Help Center",
+      "documentation": "Documentation",
+      "apiReference": "API Reference",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "allRightsReserved": "All rights reserved."
+    },
+  "tippingSpotlight": {
+    "title": "Turning Tip Volatility into Profits",
+    "subtitle": "Our AI predicts tipping patterns and optimizes staff to maximize hourly earnings",
+    "calculatorTitle": "Interactive Tip Calculator",
+    "partySize": "Party Size",
+    "shiftType": "Shift Type",
+    "predictedTipYield": "Predicted Tip Yield",
+    "staffingOptimization": "Staffing Optimization",
+    "before": "Before",
+    "overstaffed": "Overstaffed",
+    "after": "After",
+    "optimized": "Optimized",
+    "savingsImpact": "Savings Impact",
+    "perHour": "Per Hour",
+    "perShift": "Per Shift",
+    "perWeek": "Per Week",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "servers": "servers",
+    "cooks": "cooks",
+    "cost": "Cost",
+    "beforeServers": "{{count}} servers",
+    "beforeCooks": "{{count}} cooks",
+    "beforeCost": "Cost: ${{amount}}/hr",
+    "afterServers": "{{count}} servers",
+    "afterCooks": "{{count}} cooks",
+    "afterCost": "Cost: ${{amount}}/hr"
   },
   "common": {
     "learnMore": "Learn More",

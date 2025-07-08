@@ -10,15 +10,25 @@
      - Header component (language selector)
      - TippingSpotlightSection component
      - HowItWorksSection component
+     - GlobalIntelligenceSection component
    - Translation keys organized by component sections
    - Added Spanish translations for all UI text
    - Fixed remaining hardcoded strings in components
+   - Updated EU region translations:
+     - Added city field ("Berlin"/"Berlín")
+     - Enhanced descriptions for compliance features
+     - Fixed duplicate entries
+   - Set professional plan price to $250 in both languages
 
 2. **Footer Component**
    - Updated mobile layout to 2 columns (Product/Solutions and Resources/Company)
    - Centered all text and logos on mobile
    - Maintained desktop layout while improving mobile responsiveness
    - Added translation support for all text elements
+   - Implemented scroll-to-top functionality for all navigation links
+   - Fixed Security link display in Product column
+   - Restored original Solutions column structure
+   - Added smooth scrolling behavior for all page transitions
 
 3. **Social Proof Section**
    - Replaced placeholder initials with actual profile images:

@@ -76,7 +76,7 @@ const HowItWorksSection: React.FC = () => {
                     {hoveredStep === index && (
                       <div className="animate-fade-in">
                         <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                          <div className="text-sm text-gray-500 mb-2">Example:</div>
+                          <div className="text-sm text-gray-500 mb-2">{t('howItWorks.example')}</div>
                           {step.number === 1 && (
                             <div className="flex items-center justify-center gap-2">
                               <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center text-white text-xs font-bold">T</div>
@@ -86,7 +86,7 @@ const HowItWorksSection: React.FC = () => {
                           )}
                           {step.number === 2 && (
                             <div className="h-16 bg-gradient-to-r from-primary to-secondary rounded opacity-80 flex items-center justify-center text-white font-semibold">
-                              Data Streams →
+                              {t('howItWorks.dataStreams')}
                             </div>
                           )}
                           {step.number === 3 && (

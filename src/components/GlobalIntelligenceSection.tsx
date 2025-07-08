@@ -81,13 +81,13 @@ const GlobalIntelligenceSection: React.FC = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 gap-4">
               <div className="bg-gradient-to-r from-accent-apac to-yellow-400 rounded-lg p-6 text-white">
-                <div className="text-lg font-semibold mb-2">Singapore</div>
+                <div className="text-lg font-semibold mb-2">{t('globalIntelligence.regions.APAC.city')}</div>
                 <div className="text-sm opacity-90">{t('globalIntelligence.regions.APAC.description')}</div>
               </div>
               <div className="bg-gradient-to-r from-secondary to-green-400 rounded-lg p-6 text-white">
-                <div className="text-lg font-semibold mb-2">Berlin</div>
+                <div className="text-lg font-semibold mb-2">{t('globalIntelligence.regions.EU.city')}</div>
                 <div className="text-sm opacity-90">{t('globalIntelligence.regions.EU.description')}</div>
               </div>
             </div>

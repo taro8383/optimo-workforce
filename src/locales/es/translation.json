@@ -1,11 +1,13 @@
 {
   "header": {
-    "features": "Características",
-    "solutions": "Soluciones",
+    "features": "Inicio",
+    "product": "Producto",
+    "integrations": "Integraciones",
+    "security": "Seguridad",
+    "solutions": "Soluciones", 
     "restaurants": "Restaurantes",
     "hotels": "Hoteles",
     "cafes": "Cafeterías",
-    "pricing": "Precios",
     "resources": "Recursos",
     "faq": "Preguntas Frecuentes",
     "roiCalculator": "Calculadora ROI",
@@ -66,6 +68,8 @@
   "howItWorks": {
     "title": "Cómo Funciona OPTIMO",
     "subtitle": "Tres pasos simples para transformar la gestión de tu fuerza laboral",
+    "example": "Ejemplo",
+    "dataStreams": "Flujos de Datos",
     "step1": {
       "title": "Conecta Tus Datos",
       "description": "Integra con tu sistema POS, reservas y datos históricos"
@@ -114,6 +118,8 @@
   "globalIntelligence": {
     "title": "Un Motor, Excelencia Local",
     "subtitle": "Inteligencia artificial global adaptada a mercados locales, regulaciones y comportamientos de clientes",
+    "performance": "Rendimiento",
+    "keyFeature": "Característica Clave",
     "regions": {
       "US": {
         "title": "Pronóstico de Rendimiento de Propinas",
@@ -123,9 +129,10 @@
       },
       "EU": {
         "title": "Escudo de Cumplimiento de Descansos",
-        "description": "Cumplimiento automático con directivas de tiempo de trabajo",
+        "description": "Garantiza el cumplimiento automático con las directivas de tiempo de trabajo de la UE",
         "data": "100% tasa de cumplimiento",
-        "feature": "Automatización regulatoria"
+        "feature": "Automatización regulatoria",
+        "city": "Berlín"
       },
       "LATAM": {
         "title": "Sincronización OXXO",
@@ -136,12 +143,11 @@
       "APAC": {
         "title": "Análisis de Billeteras Móviles",
         "description": "Optimización para preferencias y comportamientos de pago móvil",
-        "data": "22% más en propinas",
-        "feature": "Optimización móvil"
+        "data": "22% más en propinas (Singapur)",
+        "feature": "Optimización móvil",
+        "city": "Singapur"
       }
-    },
-    "performance": "Rendimiento",
-    "keyFeature": "Característica Clave"
+    }
   },
   "pricing": {
     "title": "Precios Simples y Transparentes",
@@ -160,7 +166,7 @@
     },
     "professional": {
       "title": "Profesional",
-      "price": "$299",
+      "price": "$250",
       "period": "/mes",
       "description": "Ideal para empresas de hostelería en crecimiento",
       "features": [
@@ -175,6 +181,7 @@
     "enterprise": {
       "title": "Empresarial",
       "price": "Personalizado",
+      "period": "/mes",
       "description": "Para grandes cadenas y grupos hoteleros",
       "features": [
         "Empleados ilimitados",
@@ -196,30 +203,41 @@
       "freeTrial": "Prueba Gratuita",
       "minutes": "Minutos",
       "setupTime": "Tiempo de Configuración",
-      "guaranteedSavings": "Ahorros Garantizados"
+      "guaranteedSavings": "Garantía de devolución de dinero"
     },
     "disclaimer": "No se requiere tarjeta de crédito • Cancela en cualquier momento • Soporte completo incluido"
   },
-  "footer": {
-    "description": "Optimización de fuerza laboral con IA para la industria de la hostelería",
-    "product": "Producto",
-    "features": "Características",
-    "pricing": "Precios",
-    "integrations": "Integraciones",
-    "company": "Empresa",
-    "aboutUs": "Acerca de Nosotros",
-    "careers": "Carreras",
-    "contact": "Contacto",
-    "support": "Soporte",
-    "helpCenter": "Centro de Ayuda",
-    "documentation": "Documentación",
-    "apiReference": "Referencia API",
-    "legal": "Legal",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio",
-    "cookies": "Política de Cookies",
-    "allRightsReserved": "Todos los derechos reservados."
-  },
+    "footer": {
+      "description": "Optimización de fuerza laboral con IA para la industria hotelera",
+      "newsletter": {
+        "title": "Boletín informativo",
+        "placeholder": "Tu dirección de correo",
+        "subscribe": "Suscribirse"
+      },
+      "product": "Producto",
+      "features": "Inicio",
+      "restaurants": "Restaurantes",
+      "hotels": "Hoteles",
+      "cafes": "Cafeterías",
+      "solutions": "Soluciones",
+      "resources": "Recursos",
+      "faq": "Preguntas Frecuentes",
+      "roiCalculator": "Calculadora ROI",
+      "futureFeatures": "Funciones Futuras",
+      "company": "Empresa",
+      "aboutUs": "Acerca de Nosotros",
+      "careers": "Carreras",
+      "contact": "Contacto",
+      "support": "Soporte",
+      "helpCenter": "Centro de Ayuda",
+      "documentation": "Documentación",
+      "apiReference": "Referencia API",
+      "legal": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies",
+      "allRightsReserved": "Todos los derechos reservados."
+    },
   "tippingSpotlight": {
     "title": "Convertir la Volatilidad de Propinas en Beneficios",
     "subtitle": "Nuestra IA predice patrones de propinas y optimiza el personal para maximizar los ingresos por hora",
@@ -241,7 +259,13 @@
     "dinner": "Cena",
     "servers": "meseros",
     "cooks": "cocineros",
-    "cost": "Costo"
+    "cost": "Costo",
+    "beforeServers": "{{count}} meseros",
+    "beforeCooks": "{{count}} cocineros",
+    "beforeCost": "Costo: ${{amount}}/hr",
+    "afterServers": "{{count}} meseros",
+    "afterCooks": "{{count}} cocineros",
+    "afterCost": "Costo: ${{amount}}/hr"
   },
   "common": {
     "learnMore": "Saber Más",

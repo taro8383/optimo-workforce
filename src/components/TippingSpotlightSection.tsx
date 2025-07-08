@@ -79,25 +79,25 @@ const TippingSpotlightSection: React.FC = () => {
               
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-red-50 rounded-lg p-6">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                      {t('tippingSpotlight.before')}
-                    </div>
-                    <span className="text-red-700 font-medium">{t('tippingSpotlight.overstaffed')}</span>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3">
-                      <Users size={20} className="text-red-500" />
-                      <span className="text-gray-700">8 {t('tippingSpotlight.servers')}</span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <Clock size={20} className="text-red-500" />
-                      <span className="text-gray-700">2 {t('tippingSpotlight.cooks')}</span>
-                    </div>
-                    <div className="text-red-600 font-semibold">
-                      {t('tippingSpotlight.cost')}: $280/hr
-                    </div>
-                  </div>
+    <div className="flex items-center gap-3 mb-4">
+      <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+        {t('tippingSpotlight.before')}
+      </div>
+      <span className="text-red-700 font-medium">{t('tippingSpotlight.overstaffed')}</span>
+    </div>
+    <div className="space-y-3">
+      <div className="flex items-center gap-3">
+        <Users size={20} className="text-red-500" />
+        <span className="text-gray-700">{t('tippingSpotlight.beforeServers', {count: 8})}</span>
+      </div>
+      <div className="flex items-center gap-3">
+        <Clock size={20} className="text-red-500" />
+        <span className="text-gray-700">{t('tippingSpotlight.beforeCooks', {count: 2})}</span>
+      </div>
+      <div className="text-red-600 font-semibold">
+        {t('tippingSpotlight.beforeCost', {amount: 280})}
+      </div>
+    </div>
                 </div>
 
                 <div className="bg-green-50 rounded-lg p-6">
@@ -110,14 +110,14 @@ const TippingSpotlightSection: React.FC = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <Users size={20} className="text-secondary" />
-                      <span className="text-gray-700">5 {t('tippingSpotlight.servers')}</span>
+                      <span className="text-gray-700">{t('tippingSpotlight.afterServers', {count: 5})}</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock size={20} className="text-secondary" />
-                      <span className="text-gray-700">3 {t('tippingSpotlight.cooks')}</span>
+                      <span className="text-gray-700">{t('tippingSpotlight.afterCooks', {count: 3})}</span>
                     </div>
                     <div className="text-secondary font-semibold">
-                      {t('tippingSpotlight.cost')}: $200/hr
+                      {t('tippingSpotlight.afterCost', {amount: 200})}
                     </div>
                   </div>
                 </div>

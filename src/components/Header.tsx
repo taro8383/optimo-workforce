@@ -170,6 +170,14 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   >
                     Integrations
                   </button>
+                  <button 
+                    onClick={() => handleNavigation('security')}
+                    className={`block w-full text-left px-4 py-2 hover:bg-gray-50 transition-colors ${
+                      currentPage === 'security' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
+                    }`}
+                  >
+                    Security
+                  </button>
                 </div>
               )}
             </div>

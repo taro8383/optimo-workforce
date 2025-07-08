@@ -210,6 +210,16 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   Integrations
                 </button>
               </li>
+              <li>
+                <button 
+                  onClick={() => handleNavigation('security')}
+                  className={`block text-left transition-colors ${
+                    currentPage === 'security' ? 'text-primary' : 'text-gray-300 hover:text-white'
+                  }`}
+                >
+                  Security
+                </button>
+              </li>
             </ul>
           </div>
 

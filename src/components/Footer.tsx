@@ -259,7 +259,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
             </p>
             <div className="flex items-center gap-6 text-sm">
               <a href="#privacy" className="text-gray-400 hover:text-white transition-colors">
-                {t('footer.privacy')}
+                <button 
+                  onClick={() => handleNavigation('privacy-policy')}
+                  className={`transition-colors ${
+                    currentPage === 'privacy-policy' ? 'text-primary' : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  {t('footer.privacy')}
+                </button>
               </a>
               <a href="#terms" className="text-gray-400 hover:text-white transition-colors">
                 {t('footer.terms')}

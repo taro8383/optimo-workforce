@@ -20,6 +20,7 @@ import ContactPage from './components/ContactPage';
 import FutureFeaturesPage from './components/FutureFeaturesPage';
 import IntegrationsPage from './components/IntegrationsPage';
 import SecurityPage from './components/SecurityPage';
+import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -48,6 +49,8 @@ function App() {
         return <IntegrationsPage />;
       case 'security':
         return <SecurityPage />;
+      case 'privacy-policy':
+        return <PrivacyPolicyPage />;
       case 'home':
       default:
         return (

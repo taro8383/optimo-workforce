@@ -294,7 +294,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                 </button>
               </a>
               <a href="#cookies" className="text-gray-400 hover:text-white transition-colors">
-                {t('footer.cookies')}
+                <button 
+                  onClick={() => handleNavigation('cookie-policy')}
+                  className={`transition-colors ${
+                    currentPage === 'cookie-policy' ? 'text-primary' : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  {t('footer.cookies')}
+                </button>
               </a>
             </div>
           </div>

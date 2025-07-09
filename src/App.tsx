@@ -22,6 +22,7 @@ import IntegrationsPage from './components/IntegrationsPage';
 import SecurityPage from './components/SecurityPage';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import TermsOfServicePage from './components/TermsOfServicePage';
+import CookiePolicyPage from './components/CookiePolicyPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -54,6 +55,8 @@ function App() {
         return <PrivacyPolicyPage />;
       case 'terms-of-service':
         return <TermsOfServicePage />;
+      case 'cookie-policy':
+        return <CookiePolicyPage />;
       case 'home':
       default:
         return (

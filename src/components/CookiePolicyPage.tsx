@@ -737,7 +737,7 @@ We regularly review our third-party integrations to ensure they meet our privacy
                         <Monitor size={32} />
                       </div>
                       <h4 className="text-lg font-bold mb-2">Desktop Browsers</h4>
-                      <p className="text-blue-100">Chrome, Firefox, Safari, Edge - Access through Settings > Privacy</p>
+                      <p className="text-blue-100">Chrome, Firefox, Safari, Edge - Access through Settings &gt; Privacy</p>
                     </div>
                     <div className="text-center">
                       <div className="inline-flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-4">

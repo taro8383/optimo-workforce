@@ -170,8 +170,12 @@ const FutureFeaturesPage: React.FC = () => {
   ];
 
   const betaProgram = {
-    benefits: t('futureFeatures.betaProgram.benefits', { returnObjects: true }) as string[],
-    requirements: t('futureFeatures.betaProgram.requirements', { returnObjects: true }) as string[]
+    benefits: Array.isArray(t('futureFeatures.betaProgram.benefits', { returnObjects: true })) 
+      ? t('futureFeatures.betaProgram.benefits', { returnObjects: true }) as string[]
+      : [],
+    requirements: Array.isArray(t('futureFeatures.betaProgram.requirements', { returnObjects: true })) 
+      ? t('futureFeatures.betaProgram.requirements', { returnObjects: true }) as string[]
+      : []
   };
 
   return (

@@ -278,5 +278,70 @@
     "loading": "Cargando...",
     "error": "Ocurrió un error",
     "success": "¡Éxito!"
+  },
+    "futureFeatures": {
+      "hero": {
+        "title": "Funciones Futuras",
+        "subtitle": "En OPTIMO Workforce, innovamos constantemente para ofrecerte la solución más completa de gestión de personal."
+      },
+      "roadmap": {
+        "title": "Hoja de Ruta de Desarrollo",
+        "subtitle": "Aquí hay un vistazo a lo que viene en nuestro desarrollo",
+        "stats": {
+          "features": "Funciones Principales",
+          "launchYear": "Año de Lanzamiento",
+          "timeline": "Línea de Tiempo",
+          "efficiency": "Ganancia de Eficiencia"
+        }
+      },
+      "betaProgram": {
+        "title": "Únase a nuestro programa de pruebas beta",
+        "subtitle": "Dé forma al futuro de la optimización de la fuerza laboral convirtiéndose en un probador beta",
+        "benefitsTitle": "Beneficios del Programa Beta",
+        "requirementsTitle": "Requisitos",
+        "benefits": [
+          "Acceso temprano a funciones innovadoras",
+          "Influencia directa en el desarrollo del producto",
+          "Comunidad exclusiva de probadores beta",
+          "Canales prioritarios de soporte y retroalimentación",
+          "Precios especiales para participantes beta"
+        ],
+        "requirements": [
+          "Cliente activo de OPTIMO Workforce",
+          "Disposición para proporcionar comentarios detallados",
+          "Compromiso para probar nuevas funciones",
+          "Participación regular en sesiones de retroalimentación"
+        ]
+      },
+    "featureTimeline": {
+      "title": "Línea de Tiempo de Funciones",
+      "statuses": {
+        "comingSoon": "Próximamente",
+        "inDevelopment": "En Desarrollo",
+        "betaTesting": "Pruebas Beta",
+        "planning": "Planificación",
+        "research": "Investigación",
+        "concept": "Concepto"
+      }
+    },
+    "featureDetails": {
+      "title": "Descripción Detallada de Funciones",
+      "subtitle": "Explora cada función futura en detalle",
+      "timeline": "Cronograma",
+      "expectedImpact": "Impacto Esperado",
+      "keyBenefits": "Beneficios Clave"
+    },
+    "featureRequest": {
+      "title": "Dé Forma a Nuestra Hoja de Ruta de Producto",
+      "description": "¿Quieres dar forma a nuestra hoja de ruta de producto? Contacta a nuestro equipo de producto para compartir tus solicitudes de funciones o únete a nuestro programa de pruebas beta."
+    },
+    "betaProgram": {
+      "apply": "Solicitar Acceso Beta",
+      "availability": "Plazas limitadas • Prioridad a clientes existentes"
+    },
+    "industryImpact": {
+      "title": "Proyecciones de Impacto en la Industria",
+      "subtitle": "Cómo estas funciones transformarán la industria hotelera"
+    }
   }
 }

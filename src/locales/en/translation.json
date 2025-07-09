@@ -280,5 +280,70 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "success": "Success!"
+  },
+  "futureFeatures": {
+    "hero": {
+      "title": "Future Features",
+      "subtitle": "At OPTIMO Workforce, we're constantly innovating to bring you the most comprehensive workforce management solution in the market."
+    },
+    "roadmap": {
+      "title": "Development Roadmap",
+      "subtitle": "Here's a peek at what's on our development roadmap",
+      "stats": {
+        "features": "Major Features",
+        "launchYear": "Launch Year",
+        "timeline": "Months Timeline",
+        "efficiency": "Efficiency Gain"
+      }
+    },
+    "betaProgram": {
+      "title": "Join Our Beta Testing Program",
+      "subtitle": "Shape the future of workforce optimization by becoming a beta tester",
+      "benefitsTitle": "Beta Program Benefits",
+      "requirementsTitle": "Requirements",
+      "benefits": [
+        "Early access to cutting-edge features",
+        "Direct influence on product development",
+        "Exclusive beta testing community",
+        "Priority support and feedback channels",
+        "Special pricing for beta participants"
+      ],
+      "requirements": [
+        "Active Optimo Workforce customer",
+        "Willingness to provide detailed feedback",
+        "Commitment to testing new features",
+        "Regular participation in feedback sessions"
+      ]
+    },
+    "featureTimeline": {
+      "title": "Feature Timeline",
+      "statuses": {
+        "comingSoon": "Coming Soon",
+        "inDevelopment": "In Development",
+        "betaTesting": "Beta Testing",
+        "planning": "Planning",
+        "research": "Research",
+        "concept": "Concept"
+      }
+    },
+    "featureDetails": {
+      "title": "Detailed Feature Overview",
+      "subtitle": "Explore each upcoming feature in detail",
+      "timeline": "Timeline",
+      "expectedImpact": "Expected Impact",
+      "keyBenefits": "Key Benefits"
+    },
+    "featureRequest": {
+      "title": "Shape Our Product Roadmap",
+      "description": "Want to shape our product roadmap? Contact our product team to share your feature requests or sign up for our beta testing program."
+    },
+    "betaProgram": {
+      "apply": "Apply for Beta Access",
+      "availability": "Limited spots available • Priority given to existing customers"
+    },
+    "industryImpact": {
+      "title": "Industry Impact Projections",
+      "subtitle": "How these features will transform the hospitality industry"
+    }
   }
 }

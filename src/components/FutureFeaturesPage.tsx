@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { 
   Zap, 
   BarChart3, 
@@ -32,12 +33,13 @@ import {
 } from 'lucide-react';
 
 const FutureFeaturesPage: React.FC = () => {
+  const { t } = useTranslation();
   const [activeFeature, setActiveFeature] = useState(0);
 
   const features = [
     {
       title: 'Inventory Optimization & Procurement Automation',
-      status: 'Coming Soon',
+      status: 'comingSoon',
       statusColor: 'bg-yellow-500',
       icon: Package,
       description: 'Transform your inventory management with our AI-powered forecasting system',
@@ -54,7 +56,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'Enhanced Business Analytics & Predictive Dashboards',
-      status: 'In Development',
+      status: 'inDevelopment',
       statusColor: 'bg-blue-500',
       icon: BarChart3,
       description: 'Expanding beyond our current labor analytics to deliver comprehensive insights',
@@ -71,7 +73,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'Automated Customer Feedback & Review Response Integration',
-      status: 'Beta Testing',
+      status: 'betaTesting',
       statusColor: 'bg-green-500',
       icon: MessageSquare,
       description: 'Close the loop between scheduling and customer satisfaction',
@@ -87,7 +89,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'Comprehensive Customer Management & Loyalty Programs',
-      status: 'Planning',
+      status: 'planning',
       statusColor: 'bg-purple-500',
       icon: Heart,
       description: 'Centralize your customer relationships to enhance forecasting',
@@ -103,7 +105,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'AI-Powered Upselling/Cross-selling',
-      status: 'Research',
+      status: 'research',
       statusColor: 'bg-indigo-500',
       icon: TrendingUp,
       description: 'Extend revenue optimization beyond staffing',
@@ -119,7 +121,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'Dynamic Menu Pricing',
-      status: 'Research',
+      status: 'research',
       statusColor: 'bg-red-500',
       icon: DollarSign,
       description: 'Maximize profitability through intelligent pricing',
@@ -135,7 +137,7 @@ const FutureFeaturesPage: React.FC = () => {
     },
     {
       title: 'Tip Management Software (US Region)',
-      status: 'Concept',
+      status: 'concept',
       statusColor: 'bg-teal-500',
       icon: Award,
       description: 'Building on our US-specific tip-yield forecasting',
@@ -152,35 +154,24 @@ const FutureFeaturesPage: React.FC = () => {
   ];
 
   const statusColors = {
-    'Coming Soon': 'bg-yellow-500',
-    'In Development': 'bg-blue-500',
-    'Beta Testing': 'bg-green-500',
-    'Planning': 'bg-purple-500',
-    'Research': 'bg-indigo-500',
-    'Concept': 'bg-teal-500'
+    [t('futureFeatures.featureTimeline.statuses.comingSoon')]: 'bg-yellow-500',
+    [t('futureFeatures.featureTimeline.statuses.inDevelopment')]: 'bg-blue-500',
+    [t('futureFeatures.featureTimeline.statuses.betaTesting')]: 'bg-green-500',
+    [t('futureFeatures.featureTimeline.statuses.planning')]: 'bg-purple-500',
+    [t('futureFeatures.featureTimeline.statuses.research')]: 'bg-indigo-500',
+    [t('futureFeatures.featureTimeline.statuses.concept')]: 'bg-teal-500'
   };
 
   const roadmapStats = [
-    { number: '7', label: 'Major Features', icon: Rocket },
-    { number: '2025', label: 'Launch Year', icon: Calendar },
-    { number: '12', label: 'Months Timeline', icon: Clock },
-    { number: '40%', label: 'Efficiency Gain', icon: TrendingUp }
+    { number: '7', label: t('futureFeatures.roadmap.stats.features'), icon: Rocket },
+    { number: '2025', label: t('futureFeatures.roadmap.stats.launchYear'), icon: Calendar },
+    { number: '12', label: t('futureFeatures.roadmap.stats.timeline'), icon: Clock },
+    { number: '40%', label: t('futureFeatures.roadmap.stats.efficiency'), icon: TrendingUp }
   ];
 
   const betaProgram = {
-    benefits: [
-      'Early access to cutting-edge features',
-      'Direct influence on product development',
-      'Exclusive beta testing community',
-      'Priority support and feedback channels',
-      'Special pricing for beta participants'
-    ],
-    requirements: [
-      'Active Optimo Workforce customer',
-      'Willingness to provide detailed feedback',
-      'Commitment to testing new features',
-      'Regular participation in feedback sessions'
-    ]
+    benefits: t('futureFeatures.betaProgram.benefits', { returnObjects: true }) as string[],
+    requirements: t('futureFeatures.betaProgram.requirements', { returnObjects: true }) as string[]
   };
 
   return (
@@ -194,19 +185,19 @@ const FutureFeaturesPage: React.FC = () => {
               <Rocket size={48} className="text-white" />
             </div>
             <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-              Future Features
+              {t('futureFeatures.hero.title')}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
-              At OPTIMO Workforce, we're constantly innovating to bring you the most comprehensive workforce management solution in the market.
+              {t('futureFeatures.hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Lightbulb size={24} />
-                Join Beta Program
+                {t('futureFeatures.betaProgram.title')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Mail size={24} />
-                Request Feature
+                {t('common.requestFeature')}
               </button>
             </div>
           </div>
@@ -218,10 +209,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Development Roadmap
+              {t('futureFeatures.roadmap.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Here's a peek at what's on our development roadmap
+              {t('futureFeatures.roadmap.subtitle')}
             </p>
           </div>
 
@@ -259,7 +250,7 @@ const FutureFeaturesPage: React.FC = () => {
                             </div>
                             <div>
                               <div className={`inline-block px-3 py-1 rounded-full text-white text-sm font-semibold ${feature.statusColor} mb-2`}>
-                                {feature.status}
+                                {t(`futureFeatures.featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
                               </div>
                               <div className="text-lg font-bold text-gray-900">{feature.timeline}</div>
                             </div>
@@ -287,10 +278,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Detailed Feature Overview
+              {t('futureFeatures.featureDetails.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore each upcoming feature in detail
+              {t('futureFeatures.featureDetails.subtitle')}
             </p>
           </div>
 
@@ -335,18 +326,18 @@ const FutureFeaturesPage: React.FC = () => {
                         
                         <div className="grid grid-cols-2 gap-4 mb-6">
                           <div className="bg-white rounded-lg p-4">
-                            <div className="text-sm text-gray-500 mb-1">Timeline</div>
+                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures.featureDetails.timeline')}</div>
                             <div className="text-lg font-bold text-gray-900">{feature.timeline}</div>
                           </div>
                           <div className="bg-white rounded-lg p-4">
-                            <div className="text-sm text-gray-500 mb-1">Expected Impact</div>
+                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures.featureDetails.expectedImpact')}</div>
                             <div className="text-lg font-bold text-secondary">{feature.impact}</div>
                           </div>
                         </div>
                       </div>
 
                       <div className="bg-white rounded-lg p-6 shadow-md">
-                        <h4 className="text-lg font-semibold text-gray-900 mb-4">Key Benefits:</h4>
+                        <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('futureFeatures.featureDetails.keyBenefits')}:</h4>
                         <div className="space-y-3">
                           {feature.benefits.map((benefit, benefitIndex) => (
                             <div key={benefitIndex} className="flex items-start gap-3">
@@ -370,10 +361,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Join Our Beta Testing Program
+              {t('futureFeatures.betaProgram.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Shape the future of workforce optimization by becoming a beta tester
+              {t('futureFeatures.betaProgram.subtitle')}
             </p>
           </div>
 
@@ -383,7 +374,7 @@ const FutureFeaturesPage: React.FC = () => {
                 <div className="w-16 h-16 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center">
                   <Star size={32} className="text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Beta Program Benefits</h3>
+                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures.betaProgram.benefitsTitle')}</h3>
               </div>
               
               <div className="space-y-4">
@@ -401,7 +392,7 @@ const FutureFeaturesPage: React.FC = () => {
                 <div className="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center">
                   <Target size={32} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">Requirements</h3>
+                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures.betaProgram.requirementsTitle')}</h3>
               </div>
               
               <div className="space-y-4">
@@ -418,10 +409,10 @@ const FutureFeaturesPage: React.FC = () => {
           <div className="text-center mt-12">
             <button className="bg-primary hover:bg-blue-600 text-white px-12 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 mx-auto">
               <Rocket size={24} />
-              Apply for Beta Access
+              {t('futureFeatures.betaProgram.apply')}
             </button>
             <p className="text-gray-600 mt-4">
-              Limited spots available • Priority given to existing customers
+              {t('futureFeatures.betaProgram.availability')}
             </p>
           </div>
         </div>
@@ -435,9 +426,9 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
                 <Lightbulb size={40} />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Shape Our Product Roadmap</h3>
+              <h3 className="text-3xl font-bold mb-4">{t('futureFeatures.featureRequest.title')}</h3>
               <p className="text-xl text-blue-100 mb-8 max-w-4xl mx-auto">
-                Want to shape our product roadmap? Contact our product team to share your feature requests or sign up for our beta testing program.
+                {t('futureFeatures.featureRequest.description')}
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
@@ -479,12 +470,12 @@ const FutureFeaturesPage: React.FC = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Industry Impact Projections
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              How these features will transform the hospitality industry
-            </p>
+              <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
+                {t('futureFeatures.industryImpact.title')}
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                {t('futureFeatures.industryImpact.subtitle')}
+              </p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">

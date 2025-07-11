@@ -1,347 +1,439 @@
 {
-  "header": {
-    "features": "Inicio",
-    "product": "Producto",
-    "integrations": "Integraciones",
-    "security": "Seguridad",
-    "solutions": "Soluciones", 
-    "restaurants": "Restaurantes",
-    "hotels": "Hoteles",
-    "cafes": "Cafeterías",
-    "resources": "Recursos",
-    "faq": "Preguntas Frecuentes",
-    "roiCalculator": "Calculadora ROI",
-    "newsletter": "Boletín",
-    "futureFeatures": "Funciones Futuras",
-    "aboutUs": "Acerca de Nosotros",
-    "contact": "Contacto",
-    "getStarted": "Comenzar",
-    "selectLanguage": "Seleccionar Idioma",
-    "language": "Idioma"
+  "common": {
+    "requestFeature": "Solicitar Función"
   },
   "hero": {
-    "title": "La programación con IA reduce el desperdicio en hostelería en más del 20%",
-    "subtitle": "OPTIMO Workforce utiliza IA avanzada para predecir la demanda y optimizar la programación del personal, reduciendo los costos laborales mientras mejora la calidad del servicio.",
+    "title": "Plataforma de Optimización de Personal",
+    "subtitle": "Soluciones con IA para negocios de hostelería",
     "getStarted": "Comenzar",
     "bookDemo": "Reservar Demo",
-    "trustedBy": "Confiado por más de 500 empresas de hostelería en todo el mundo"
-  },
-  "problemSolution": {
-    "title": "La Fuga de $180,000/año en Personal",
-    "subtitle": "La mayoría de los restaurantes pierden miles mensualmente por programación ineficiente. Así es como lo solucionamos.",
-    "problem": {
-      "title": "Problema",
-      "overstaffing": "27% exceso de personal",
-      "understaffing": "Falta de personal en horas pico",
-      "manualScheduling": "9 hrs/semana programando",
-      "highTurnover": "42% rotación de personal"
-    },
-    "solution": {
-      "title": "Solución",
-      "aiPrediction": "Mapas de calor de demanda en tiempo real",
-      "optimizedScheduling": "Programación optimizada del personal",
-      "automatedProcess": "Optimización IA de 1 clic",
-      "improvedRetention": "Escudos de volatilidad de propinas"
-    },
-    "result": {
-      "title": "Resultado",
-      "laborCosts": "↓ Costos laborales",
-      "managerTime": "↑ Tiempo del gerente",
-      "hiringCosts": "↓ Costos de contratación"
-    },
-    "beforeAfter": {
-      "title": "Antes vs Después",
-      "before": "Antes: Caos",
-      "after": "Después: Orden",
-      "beforeItems": {
-        "overstaffed": "Turnos con exceso de personal",
-        "manual": "Programación manual",
-        "turnover": "Alta rotación"
-      },
-      "afterItems": {
-        "optimized": "Personal optimizado",
-        "automation": "Automatización IA",
-        "happy": "Personal feliz"
-      }
-    }
-  },
-  "howItWorks": {
-    "title": "Cómo Funciona OPTIMO",
-    "subtitle": "Tres pasos simples para transformar la gestión de tu fuerza laboral",
-    "example": "Ejemplo",
-    "dataStreams": "Flujos de Datos",
-    "step1": {
-      "title": "Conecta Tus Datos",
-      "description": "Integra con tu sistema POS, reservas y datos históricos"
-    },
-    "step2": {
-      "title": "Análisis de IA",
-      "description": "Nuestra IA analiza patrones y predice las necesidades óptimas de personal"
-    },
-    "step3": {
-      "title": "Horarios Optimizados",
-      "description": "Recibe horarios automatizados y optimizados que maximizan la eficiencia"
-    }
-  },
-  "socialProof": {
-    "title": "Confiado por Líderes de la Industria",
-    "subtitle": "Mira cómo los restaurantes de todo el mundo están transformando sus operaciones",
-    "testimonial1": {
-      "text": "Optimo redujo nuestros costos laborales en un 23% en el primer mes. La IA realmente entiende nuestros patrones de propinas mejor que nosotros. Nuestro personal está más feliz y nuestros márgenes son más saludables.",
-      "author": "María Rodríguez",
-      "position": "Gerente General, Coastal Bistro"
-    },
-    "testimonial2": {
-      "text": "La integración de billeteras móviles es revolucionaria para APAC. Estamos viendo un 22% más de propinas y cumplimiento perfecto con las regulaciones locales en todas nuestras ubicaciones.",
-      "author": "Kevin Lim",
-      "position": "Director de Operaciones, Singapore Food Group"
-    },
-    "metrics": {
-      "costReduction": "Reducción de Costos",
-      "timeSaved": "Tiempo Ahorrado",
-      "staffSatisfaction": "Satisfacción del Personal",
-      "higherTips": "Propinas Más Altas",
-      "compliance": "Cumplimiento",
-      "locations": "Ubicaciones"
-    },
-    "benchmarks": {
-      "title": "Puntos de Referencia de la Industria",
-      "laborCost": "Porcentaje de Costo Laboral",
-      "turnoverRate": "Tasa de Rotación del Personal",
-      "schedulingTime": "Tiempo de Programación (hrs/semana)",
-      "industry": "Industria",
-      "improvement": "Mejora",
-      "reduction": "Reducción",
-      "saved": "Ahorrado"
-    }
-  },
-  "globalIntelligence": {
-    "title": "Un Motor, Excelencia Local",
-    "subtitle": "Inteligencia artificial global adaptada a mercados locales, regulaciones y comportamientos de clientes",
-    "performance": "Rendimiento",
-    "keyFeature": "Característica Clave",
-    "regions": {
-      "US": {
-        "title": "Pronóstico de Rendimiento de Propinas",
-        "description": "Predecir volatilidad de propinas y optimizar personal para máximo ingreso",
-        "data": "$42/hr promedio de propinas",
-        "feature": "Análisis avanzado de propinas"
-      },
-      "EU": {
-        "title": "Escudo de Cumplimiento de Descansos",
-        "description": "Garantiza el cumplimiento automático con las directivas de tiempo de trabajo de la UE",
-        "data": "100% tasa de cumplimiento",
-        "feature": "Automatización regulatoria",
-        "city": "Berlín"
-      },
-      "LATAM": {
-        "title": "Sincronización OXXO",
-        "description": "Integración en tiempo real con sistemas de pago locales",
-        "data": "Sincronización en tiempo real",
-        "feature": "Integración de pagos locales"
-      },
-      "APAC": {
-        "title": "Análisis de Billeteras Móviles",
-        "description": "Optimización para preferencias y comportamientos de pago móvil",
-        "data": "22% más en propinas (Singapur)",
-        "feature": "Optimización móvil",
-        "city": "Singapur"
-      }
-    }
+    "trustedBy": "Confiado por plataformas líderes"
   },
   "pricing": {
-    "title": "Precios Simples y Transparentes",
-    "subtitle": "Elige el plan que se adapte al tamaño de tu negocio",
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elija el plan que mejor se adapte a su negocio",
     "starter": {
-      "title": "Inicial",
-      "price": "$99",
+      "title": "Básico",
+      "price": "$29",
       "period": "/mes",
-      "description": "Perfecto para pequeños restaurantes y cafeterías",
+      "description": "Perfecto para pequeños negocios que comienzan",
       "features": [
-        "Hasta 25 empleados",
-        "Programación básica con IA",
-        "Soporte por email",
-        "Acceso a app móvil"
+        "Optimización de inventario",
+        "Análisis básicos",
+        "Soporte por email"
       ]
     },
     "professional": {
       "title": "Profesional",
-      "price": "$250",
+      "price": "$99",
       "period": "/mes",
-      "description": "Ideal para empresas de hostelería en crecimiento",
+      "description": "Para negocios en crecimiento",
       "features": [
-        "Hasta 100 empleados",
-        "Análisis avanzado con IA",
+        "Análisis avanzados",
         "Soporte prioritario",
-        "Integraciones personalizadas",
-        "Paneles de rendimiento"
+        "Recomendaciones de IA"
       ],
       "popular": "Más Popular"
     },
     "enterprise": {
-      "title": "Empresarial",
+      "title": "Empresa",
       "price": "Personalizado",
-      "period": "/mes",
-      "description": "Para grandes cadenas y grupos hoteleros",
+      "period": "",
+      "description": "Para grandes negocios con necesidades complejas",
       "features": [
-        "Empleados ilimitados",
-        "Solución de marca blanca",
-        "Gerente de cuenta dedicado",
-        "Entrenamiento personalizado de IA",
-        "Reportes avanzados"
+        "Gestor de cuenta dedicado",
+        "Integraciones personalizadas",
+        "Soporte 24/7"
       ]
     },
     "getStarted": "Comenzar",
     "contactSales": "Contactar Ventas"
   },
-  "finalCTA": {
-    "title": "¿Listo para Transformar el Trabajo en Ganancias?",
-    "subtitle": "Únete a miles de restaurantes que ahorran más del 20% en costos laborales con programación con IA",
-    "getAudit": "Obtener Auditoría Gratuita de Ahorros",
-    "talkToExpert": "Hablar con Experto en Integración",
-    "features": {
-      "freeTrial": "Prueba Gratuita",
-      "minutes": "Minutos",
-      "setupTime": "Tiempo de Configuración",
-      "guaranteedSavings": "Garantía de devolución de dinero"
-    },
-    "disclaimer": "No se requiere tarjeta de crédito • Cancela en cualquier momento • Soporte completo incluido"
+  "header": {
+    "features": "Características",
+    "product": "Producto",
+    "futureFeatures": "Futuras Funciones",
+    "integrations": "Integraciones",
+    "security": "Seguridad",
+    "solutions": "Soluciones",
+    "restaurants": "Restaurantes",
+    "hotels": "Hoteles",
+    "cafes": "Cafeterías",
+    "resources": "Recursos",
+    "faq": "Preguntas Frecuentes",
+    "roiCalculator": "Calculadora de ROI",
+    "newsletter": "Boletín Informativo",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto",
+    "selectLanguage": "Seleccionar Idioma",
+    "language": "Idioma",
+    "getStarted": "Comenzar"
   },
-    "footer": {
-      "description": "Optimización de fuerza laboral con IA para la industria hotelera",
-      "newsletter": {
-        "title": "Boletín informativo",
-        "placeholder": "Tu dirección de correo",
-        "subscribe": "Suscribirse"
-      },
-      "product": "Producto",
-      "features": "Inicio",
-      "restaurants": "Restaurantes",
-      "hotels": "Hoteles",
-      "cafes": "Cafeterías",
-      "solutions": "Soluciones",
-      "resources": "Recursos",
-      "faq": "Preguntas Frecuentes",
-      "roiCalculator": "Calculadora ROI",
-      "futureFeatures": "Funciones Futuras",
-      "company": "Empresa",
-      "aboutUs": "Acerca de Nosotros",
-      "careers": "Carreras",
-      "contact": "Contacto",
-      "support": "Soporte",
-      "helpCenter": "Centro de Ayuda",
-      "documentation": "Documentación",
-      "apiReference": "Referencia API",
-      "legal": "Legal",
-      "privacy": "Política de Privacidad",
-      "terms": "Términos de Servicio",
-      "cookies": "Política de Cookies",
-      "allRightsReserved": "Todos los derechos reservados."
+  "problemSolution": {
+    "title": "Problemas que Resolvemos",
+    "subtitle": "Desafíos comunes en la gestión de personal en hostelería",
+    "problem": {
+      "title": "El Problema",
+      "overstaffing": "Exceso de personal en horas bajas",
+      "manualScheduling": "Programación manual que lleva horas",
+      "highTurnover": "Altos costos de rotación de personal"
     },
+    "solution": {
+      "title": "Nuestra Solución",
+      "aiPrediction": "IA predice el personal óptimo",
+      "automatedProcess": "Proceso de programación automatizado",
+      "improvedRetention": "Mejor retención de empleados"
+    },
+    "result": {
+      "title": "El Resultado",
+      "laborCosts": "23% menos en costos laborales",
+      "managerTime": "15 horas ahorradas semanalmente",
+      "hiringCosts": "40% menos en costos de contratación"
+    },
+    "beforeAfter": {
+      "title": "Antes y Después de Optimo",
+      "before": "Antes",
+      "after": "Después",
+      "beforeItems": {
+        "overstaffed": "Exceso o falta de personal",
+        "manual": "Programación manual",
+        "turnover": "Altas tasas de rotación"
+      },
+      "afterItems": {
+        "optimized": "Niveles de personal optimizados",
+        "automation": "Programación automatizada",
+        "happy": "Personal feliz y comprometido"
+      }
+    }
+  },
+  "socialProof": {
+    "title": "Confianza de Líderes de la Industria",
+    "subtitle": "Únase a miles de negocios transformando su gestión de personal",
+    "testimonial1": {
+      "author": "María Rodríguez",
+      "position": "Propietaria, La Casa Mexicana",
+      "text": "Optimo redujo nuestros costos laborales en un 23% mientras mejoraba la satisfacción del personal. ¡Solo la programación con IA me ahorra 15 horas a la semana!"
+    },
+    "testimonial2": {
+      "author": "Kevin Lim",
+      "position": "Gerente de Operaciones, Golden Dragon",
+      "text": "Desde que implementamos Optimo, nuestras propinas han aumentado un 22% y hemos logrado un 100% de cumplimiento en todas nuestras ubicaciones."
+    },
+    "metrics": {
+      "costReduction": "Reducción de Costos Laborales",
+      "timeSaved": "Tiempo Semanal Ahorrado",
+      "staffSatisfaction": "Satisfacción del Personal",
+      "higherTips": "Propinas Más Altas",
+      "compliance": "Tasa de Cumplimiento",
+      "locations": "Ubicaciones Gestionadas"
+    },
+    "benchmarks": {
+      "title": "Puntos de Referencia de Rendimiento",
+      "laborCost": "Costo Laboral % de Ingresos",
+      "turnoverRate": "Tasa de Rotación de Personal",
+      "schedulingTime": "Tiempo de Programación Semanal",
+      "industry": "Promedio de la Industria",
+      "improvement": "Mejora",
+      "reduction": "Reducción",
+      "saved": "Ahorrado Semanalmente"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona Optimo",
+    "subtitle": "Proceso simple de tres pasos para optimizar su personal",
+    "step1": {
+      "title": "Conecte Su TPV",
+      "description": "Integre con su sistema de punto de venta existente en minutos"
+    },
+    "step2": {
+      "title": "Analizar Datos",
+      "description": "Nuestra IA procesa datos históricos de ventas, clima y eventos"
+    },
+    "step3": {
+      "title": "Obtener Horario Óptimo",
+      "description": "Reciba horarios generados por IA que maximizan la eficiencia"
+    },
+    "example": "Ejemplo",
+    "dataStreams": "Múltiples flujos de datos analizados"
+  },
   "tippingSpotlight": {
-    "title": "Convertir la Volatilidad de Propinas en Beneficios",
-    "subtitle": "Nuestra IA predice patrones de propinas y optimiza el personal para maximizar los ingresos por hora",
-    "calculatorTitle": "Calculadora Interactiva de Propinas",
+    "title": "Optimización de Propinas",
+    "subtitle": "Maximice el potencial de ganancias de su personal mientras optimiza costos laborales",
+    "calculatorTitle": "Calculadora de Propinas",
     "partySize": "Tamaño del Grupo",
     "shiftType": "Tipo de Turno",
-    "predictedTipYield": "Rendimiento de Propinas Previsto",
-    "staffingOptimization": "Optimización de Personal",
-    "before": "Antes",
-    "overstaffed": "Exceso de Personal",
-    "after": "Después",
-    "optimized": "Optimizado",
-    "savingsImpact": "Impacto de Ahorros",
-    "perHour": "Por Hora",
-    "perShift": "Por Turno", 
-    "perWeek": "Por Semana",
     "breakfast": "Desayuno",
     "lunch": "Almuerzo",
     "dinner": "Cena",
-    "servers": "meseros",
-    "cooks": "cocineros",
-    "cost": "Costo",
-    "beforeServers": "{{count}} meseros",
-    "beforeCooks": "{{count}} cocineros",
-    "beforeCost": "Costo: ${{amount}}/hr",
-    "afterServers": "{{count}} meseros",
-    "afterCooks": "{{count}} cocineros",
-    "afterCost": "Costo: ${{amount}}/hr"
+    "predictedTipYield": "Rendimiento de Propinas Estimado",
+    "staffingOptimization": "Optimización de Personal",
+    "before": "Antes",
+    "after": "Después",
+    "overstaffed": "Exceso de Personal",
+    "optimized": "Optimizado",
+    "beforeServers": "{{count}} Meseros",
+    "beforeCooks": "{{count}} Cocineros",
+    "beforeCost": "${{amount}} costo laboral",
+    "afterServers": "{{count}} Meseros",
+    "afterCooks": "{{count}} Cocineros",
+    "afterCost": "${{amount}} costo laboral",
+    "savingsImpact": "Impacto de Ahorros",
+    "perHour": "Por Hora",
+    "perShift": "Por Turno",
+    "perWeek": "Por Semana"
   },
-  "common": {
-    "learnMore": "Saber Más",
-    "readMore": "Leer Más",
-    "viewAll": "Ver Todo",
-    "close": "Cerrar",
-    "save": "Guardar",
-    "cancel": "Cancelar",
-    "submit": "Enviar",
-    "loading": "Cargando...",
-    "error": "Ocurrió un error",
-    "success": "¡Éxito!"
+  "globalIntelligence": {
+    "title": "Inteligencia Global de Personal",
+    "subtitle": "Información regional para optimizar sus operaciones internacionales",
+    "performance": "Punto de Referencia",
+    "keyFeature": "Característica Clave",
+    "regions": {
+      "US": {
+        "title": "Perspectivas del Mercado EE.UU.",
+        "description": "Especializado para la cultura de propinas y regulaciones laborales de EE.UU.",
+        "data": "22% Más Alto",
+        "feature": "Optimización de Propinas"
+      },
+      "EU": {
+        "title": "Perspectivas del Mercado Europeo",
+        "description": "Optimizado para leyes laborales de la UE y modelos de cargo por servicio",
+        "data": "18% Ahorro",
+        "feature": "Gestión de Descansos",
+        "city": "Londres"
+      },
+      "LATAM": {
+        "title": "Perspectivas de Latinoamérica",
+        "description": "Adaptado para economías basadas en efectivo y patrones de turnos en LATAM",
+        "data": "30% Más Rápido",
+        "feature": "Integración OXXO"
+      },
+      "APAC": {
+        "title": "Perspectivas de Asia-Pacífico",
+        "description": "Diseñado para la gestión móvil de personal en APAC",
+        "data": "25% Crecimiento",
+        "feature": "Personal Móvil",
+        "city": "Singapur"
+      }
+    }
   },
-    "futureFeatures": {
-      "hero": {
-        "title": "Funciones Futuras",
-        "subtitle": "En OPTIMO Workforce, innovamos constantemente para ofrecerte la solución más completa de gestión de personal."
-      },
-      "roadmap": {
-        "title": "Hoja de Ruta de Desarrollo",
-        "subtitle": "Aquí hay un vistazo a lo que viene en nuestro desarrollo",
-        "stats": {
-          "features": "Funciones Principales",
-          "launchYear": "Año de Lanzamiento",
-          "timeline": "Línea de Tiempo",
-          "efficiency": "Ganancia de Eficiencia"
-        }
-      },
-      "betaProgram": {
-        "title": "Únase a nuestro programa de pruebas beta",
-        "subtitle": "Dé forma al futuro de la optimización de la fuerza laboral convirtiéndose en un probador beta",
-        "benefitsTitle": "Beneficios del Programa Beta",
-        "requirementsTitle": "Requisitos",
-        "benefits": [
-          "Acceso temprano a funciones innovadoras",
-          "Influencia directa en el desarrollo del producto",
-          "Comunidad exclusiva de probadores beta",
-          "Canales prioritarios de soporte y retroalimentación",
-          "Precios especiales para participantes beta"
-        ],
-        "requirements": [
-          "Cliente activo de OPTIMO Workforce",
-          "Disposición para proporcionar comentarios detallados",
-          "Compromiso para probar nuevas funciones",
-          "Participación regular en sesiones de retroalimentación"
-        ]
-      },
+  "finalCTA": {
+    "title": "Comience a Optimizar Hoy",
+    "subtitle": "Descubra cómo podemos transformar su gestión de personal",
+    "getAudit": "Obtener Auditoría Gratis",
+    "talkToExpert": "Hablar con un Experto",
+    "features": {
+      "freeTrial": "Prueba Gratis",
+      "minutes": "minutos",
+      "setupTime": "Tiempo de Configuración",
+      "guaranteedSavings": "Ahorros Garantizados"
+    },
+    "disclaimer": "*Resultados basados en el promedio de nuestros clientes"
+  },
+  "footer": {
+    "product": "Producto",
+    "solutions": "Soluciones",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "features": "Características",
+    "integrations": "Integraciones",
+    "futureFeatures": "Futuras Funciones",
+    "security": "Seguridad",
+    "restaurants": "Restaurantes",
+    "hotels": "Hoteles",
+    "cafes": "Cafeterías",
+    "faq": "Preguntas Frecuentes",
+    "roiCalculator": "Calculadora de ROI",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Política de Cookies",
+    "allRightsReserved": "Todos los derechos reservados",
+    "newsletter": {
+      "title": "Boletín Informativo",
+      "placeholder": "Tu correo electrónico",
+      "subscribe": "Suscribirse"
+    }
+  },
+  "futureFeatures": {
+    "hero": {
+      "title": "Hoja de Ruta de Futuras Funciones",
+      "subtitle": "Descubra lo que viene para transformar su gestión de personal"
+    },
+    "roadmap": {
+      "title": "Nuestra Hoja de Ruta de Desarrollo",
+      "subtitle": "Visión transparente de nuestra línea de tiempo de desarrollo",
+      "stats": {
+        "features": "Próximas Funciones",
+        "launchYear": "Año de Lanzamiento Objetivo",
+        "timeline": "Línea de Tiempo (Meses)",
+        "efficiency": "Ganancia Esperada de Eficiencia"
+      }
+    },
+    "featureDetails": {
+      "title": "Análisis Profundo de Funciones",
+      "subtitle": "Vista detallada de cada capacidad futura",
+      "timeline": "Línea de Tiempo Estimada",
+      "expectedImpact": "Impacto Esperado",
+      "keyBenefits": "Beneficios Clave"
+    },
     "featureTimeline": {
-      "title": "Línea de Tiempo de Funciones",
       "statuses": {
-        "comingSoon": "Próximamente",
-        "inDevelopment": "En Desarrollo",
-        "betaTesting": "Pruebas Beta",
+        "comingsoon": "Próximamente",
+        "indevelopment": "En Desarrollo",
+        "betatesting": "Pruebas Beta",
         "planning": "Planificación",
         "research": "Investigación",
         "concept": "Concepto"
       }
     },
-    "featureDetails": {
-      "title": "Descripción Detallada de Funciones",
-      "subtitle": "Explora cada función futura en detalle",
-      "timeline": "Cronograma",
-      "expectedImpact": "Impacto Esperado",
-      "keyBenefits": "Beneficios Clave"
-    },
-    "featureRequest": {
-      "title": "Dé Forma a Nuestra Hoja de Ruta de Producto",
-      "description": "¿Quieres dar forma a nuestra hoja de ruta de producto? Contacta a nuestro equipo de producto para compartir tus solicitudes de funciones o únete a nuestro programa de pruebas beta."
+    "features": {
+      "inventoryOptimization": {
+        "title": "Optimización de Inventario",
+        "description": "Gestión de inventario con IA que reduce desperdicios y optimiza pedidos",
+        "benefits": [
+          "Reducir desperdicio de comida hasta 35%",
+          "Pedidos automatizados a proveedores",
+          "Seguimiento de inventario en tiempo real"
+        ],
+        "timeline": "Q3 2025",
+        "impact": "Reducción de costos del 23%"
+      },
+      "businessAnalytics": {
+        "title": "Análisis de Negocio",
+        "description": "Reportes avanzados e insights para toma de decisiones basada en datos",
+        "benefits": [
+          "Tableros personalizables",
+          "Puntos de referencia de rendimiento",
+          "Análisis predictivos"
+        ],
+        "timeline": "Q4 2025",
+        "impact": "Crecimiento de ingresos del 18%"
+      },
+      "customerFeedback": {
+        "title": "Comentarios de Clientes",
+        "description": "Análisis de sentimiento y gestión de feedback integrado",
+        "benefits": [
+          "Recolección de feedback en tiempo real",
+          "Análisis de sentimiento",
+          "Sugerencias de respuesta automatizadas"
+        ],
+        "timeline": "Q1 2026",
+        "impact": "Aumento de satisfacción del 25%"
+      },
+      "customerManagement": {
+        "title": "Gestión de Clientes",
+        "description": "CRM completo para negocios de hostelería",
+        "benefits": [
+          "Integración con programas de lealtad",
+          "Marketing personalizado",
+          "Insights de comportamiento del cliente"
+        ],
+        "timeline": "Q2 2026",
+        "impact": "30% de negocios recurrentes"
+      },
+      "aiUpselling": {
+        "title": "Ventas Adicionales con IA",
+        "description": "Sugerencias inteligentes para aumentar valor promedio de pedido",
+        "benefits": [
+          "Recomendaciones personalizadas",
+          "Optimización dinámica de menú",
+          "Insights para entrenamiento de personal"
+        ],
+        "timeline": "Q3 2026",
+        "impact": "Aumento de ingresos del 15%"
+      },
+      "dynamicPricing": {
+        "title": "Precios Dinámicos",
+        "description": "Ajustes de precio automatizados basados en demanda e inventario",
+        "benefits": [
+          "Precios basados en demanda",
+          "Monitoreo de competencia",
+          "Optimización de ganancias"
+        ],
+        "timeline": "Q4 2026",
+        "impact": "Mejora de margen del 22%"
+      },
+      "tipManagement": {
+        "title": "Gestión de Propinas",
+        "description": "Sistema automatizado de distribución y reporte de propinas",
+        "benefits": [
+          "Distribución justa de propinas",
+          "Cumplimiento tributario",
+          "Transparencia para el personal"
+        ],
+        "timeline": "Q1 2027",
+        "impact": "40% de satisfacción del personal"
+      }
     },
     "betaProgram": {
-      "apply": "Solicitar Acceso Beta",
-      "availability": "Plazas limitadas • Prioridad a clientes existentes"
+      "title": "Únase a Nuestro Programa Beta",
+      "subtitle": "Obtenga acceso anticipado a próximas funciones y moldee nuestro producto",
+      "benefitsTitle": "Beneficios del Programa Beta",
+      "requirementsTitle": "Requisitos de Participación",
+      "benefits": [
+        "Acceso anticipado a nuevas funciones",
+        "Influencia directa en desarrollo del producto",
+        "Soporte prioritario",
+        "Sesiones de entrenamiento exclusivas"
+      ],
+      "requirements": [
+        "Cuenta de negocio activa",
+        "Disposición para dar feedback",
+        "Uso mínimo de 3 meses",
+        "Compromiso de entrenar al personal"
+      ],
+      "availability": "Plazas limitadas disponibles",
+      "apply": "Solicitar Acceso Beta"
+    },
+    "featureRequest": {
+      "title": "¿Tiene Ideas de Funciones?",
+      "description": "Incorporamos activamente feedback de clientes en nuestra hoja de ruta"
     },
     "industryImpact": {
-      "title": "Proyecciones de Impacto en la Industria",
-      "subtitle": "Cómo estas funciones transformarán la industria hotelera"
+      "title": "Impacto en la Industria",
+      "subtitle": "Mejoras esperadas en segmentos clave de hostelería",
+      "restaurants": {
+        "title": "Restaurantes",
+        "metrics": {
+          "foodWaste": "Reducción de Desperdicio",
+          "revenueIncrease": "Aumento de Ingresos",
+          "customerSatisfaction": "Satisfacción del Cliente"
+        }
+      },
+      "hotels": {
+        "title": "Hoteles",
+        "metrics": {
+          "operationalEfficiency": "Eficiencia Operacional",
+          "guestExperience": "Experiencia del Huésped",
+          "staffRetention": "Retención de Personal"
+        }
+      },
+      "cafes": {
+        "title": "Cafeterías",
+        "metrics": {
+          "inventoryAccuracy": "Precisión de Inventario",
+          "profitMargins": "Margen de Ganancia",
+          "orderAccuracy": "Precisión de Pedidos"
+        }
+      }
+    },
+    "ui": {
+      "contactProductTeam": "Contactar al Equipo de Producto",
+      "submitFeatureRequest": "Enviar Solicitud de Función",
+      "featureRequests": "Solicitudes de Funciones",
+      "implementationRate": "Tasa de Implementación",
+      "betaTesters": "Probadores Beta",
+      "development": "Desarrollo"
+    },
+    "featureTitles": {
+      "InventoryOptimization": "Optimización de Inventario",
+      "BusinessAnalytics": "Análisis de Negocio",
+      "CustomerFeedback": "Comentarios de Clientes",
+      "CustomerManagement": "Gestión de Clientes",
+      "AIUpselling": "Ventas Adicionales con IA",
+      "DynamicPricing": "Precios Dinámicos",
+      "TipManagement": "Gestión de Propinas"
     }
   }
 }

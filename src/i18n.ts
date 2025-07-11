@@ -26,7 +26,12 @@ i18n
     },
     react: {
       useSuspense: false
-    }
+    },
+    ns: ['translation'],
+    defaultNS: 'translation',
+    keySeparator: '.',
+    nsSeparator: ':',
+    returnObjects: true
   });
 
 export default i18n;

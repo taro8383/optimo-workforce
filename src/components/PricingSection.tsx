@@ -79,12 +79,19 @@ const PricingSection: React.FC = () => {
                 </div>
 
                 <ul className="space-y-4 mb-8">
-                  {plan.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center gap-3">
+                  {Array.isArray(plan.features) ? (
+                    plan.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-center gap-3">
+                        <Check size={20} className="text-secondary flex-shrink-0" />
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))
+                  ) : (
+                    <li className="flex items-center gap-3">
                       <Check size={20} className="text-secondary flex-shrink-0" />
-                      <span className="text-gray-700">{feature}</span>
+                      <span className="text-gray-700">No features available</span>
                     </li>
-                  ))}
+                  )}
                 </ul>
 
                 <button className={`w-full ${plan.buttonColor} text-white py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105`}>

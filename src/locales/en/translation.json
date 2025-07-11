@@ -1,349 +1,439 @@
 {
-  "header": {
-    "features": "Home",
-    "product": "Product",
-    "integrations": "Integrations",
-    "security": "Security",
-    "solutions": "Solutions",
-    "restaurants": "Restaurants",
-    "hotels": "Hotels",
-    "cafes": "Cafes",
-    "resources": "Resources",
-    "faq": "FAQ",
-    "roiCalculator": "ROI Calculator",
-    "newsletter": "Newsletter",
-    "futureFeatures": "Future Features",
-    "aboutUs": "About Us",
-    "contact": "Contact",
-    "getStarted": "Get Started",
-    "selectLanguage": "Select Language",
-    "language": "Language"
+  "common": {
+    "requestFeature": "Request Feature"
   },
   "hero": {
-    "title": "AI-powered scheduling cuts hospitality waste by 20%+",
-    "subtitle": "OPTIMO Workforce uses advanced AI to predict demand and optimize staff scheduling, reducing labor costs while improving service quality.",
+    "title": "Workforce Optimization Platform",
+    "subtitle": "AI-powered solutions for hospitality businesses",
     "getStarted": "Get Started",
-    "bookDemo": "Book a Demo",
-    "trustedBy": "Trusted by 500+ hospitality businesses worldwide"
-  },
-  "problemSolution": {
-    "title": "The $180,000/year Staffing Leak",
-    "subtitle": "Most restaurants lose thousands monthly to inefficient scheduling. Here's how we fix it.",
-    "problem": {
-      "title": "Problem",
-      "overstaffing": "27% overstaffing",
-      "understaffing": "Understaffing during peak times",
-      "manualScheduling": "9 hrs/week scheduling",
-      "highTurnover": "42% staff turnover"
-    },
-    "solution": {
-      "title": "Solution",
-      "aiPrediction": "Real-time demand heatmaps",
-      "optimizedScheduling": "Optimized staff scheduling",
-      "automatedProcess": "1-click AI optimization",
-      "improvedRetention": "Tip volatility shields"
-    },
-    "result": {
-      "title": "Result",
-      "laborCosts": "↓ Labor costs",
-      "managerTime": "↑ Manager time",
-      "hiringCosts": "↓ Hiring costs"
-    },
-    "beforeAfter": {
-      "title": "Before vs After",
-      "before": "Before: Chaos",
-      "after": "After: Order",
-      "beforeItems": {
-        "overstaffed": "Overstaffed shifts",
-        "manual": "Manual scheduling",
-        "turnover": "High turnover"
-      },
-      "afterItems": {
-        "optimized": "Optimized staffing",
-        "automation": "AI automation",
-        "happy": "Happy staff"
-      }
-    }
-  },
-  "howItWorks": {
-    "title": "How OPTIMO Works",
-    "subtitle": "Three simple steps to transform your workforce management",
-    "example": "Example",
-    "dataStreams": "Data Streams",
-    "step1": {
-      "title": "Connect Your Data",
-      "description": "Integrate with your POS, reservation system, and historical data"
-    },
-    "step2": {
-      "title": "AI Analysis",
-      "description": "Our AI analyzes patterns and predicts optimal staffing needs"
-    },
-    "step3": {
-      "title": "Optimized Schedules",
-      "description": "Receive automated, optimized schedules that maximize efficiency"
-    }
-  },
-  "socialProof": {
-    "title": "Trusted by Industry Leaders",
-    "subtitle": "See how restaurants worldwide are transforming their operations",
-    "testimonial1": {
-      "text": "Optimo cut our labor costs by 23% in the first month. The AI actually understands our tipping patterns better than we did. Our staff is happier, and our margins are healthier.",
-      "author": "Maria Rodriguez",
-      "position": "General Manager, Coastal Bistro"
-    },
-    "testimonial2": {
-      "text": "The mobile wallet integration is game-changing for APAC. We're seeing 22% higher tips and perfect compliance with local regulations across all our locations.",
-      "author": "Kevin Lim",
-      "position": "Operations Director, Singapore Food Group"
-    },
-    "metrics": {
-      "costReduction": "Cost Reduction",
-      "timeSaved": "Time Saved",
-      "staffSatisfaction": "Staff Satisfaction",
-      "higherTips": "Higher Tips",
-      "compliance": "Compliance",
-      "locations": "Locations"
-    },
-    "benchmarks": {
-      "title": "Industry Benchmarks",
-      "laborCost": "Labor Cost Percentage",
-      "turnoverRate": "Staff Turnover Rate",
-      "schedulingTime": "Scheduling Time (hrs/week)",
-      "industry": "Industry",
-      "improvement": "Improvement",
-      "reduction": "Reduction",
-      "saved": "Saved"
-    }
-  },
-  "globalIntelligence": {
-    "title": "One Engine, Local Excellence",
-    "subtitle": "Global AI tailored to local markets, regulations and customer behaviors",
-    "performance": "Performance",
-    "keyFeature": "Key Feature",
-    "regions": {
-      "US": {
-        "title": "Tip Performance Forecasting",
-        "description": "Predict tip volatility and optimize staff for maximum earnings",
-        "data": "$42/hr average tips",
-        "feature": "Advanced tip analytics"
-      },
-      "EU": {
-        "title": "Break Compliance Shield",
-        "description": "Ensures automatic compliance with EU working time directives",
-        "data": "100% compliance rate",
-        "feature": "Regulatory automation",
-        "city": "Berlin"
-      },
-      "LATAM": {
-        "title": "OXXO Sync",
-        "description": "Real-time integration with local payment systems",
-        "data": "Real-time sync",
-        "feature": "Local payment integration"
-      },
-      "APAC": {
-        "title": "Mobile Wallet Analysis",
-        "description": "Optimization for mobile payment preferences and behaviors",
-        "data": "22% higher tips (Singapore)",
-        "feature": "Mobile optimization",
-        "city": "Singapore"
-      }
-    }
+    "bookDemo": "Book Demo",
+    "trustedBy": "Trusted by leading platforms"
   },
   "pricing": {
-    "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the plan that fits your business size",
+    "title": "Simple, transparent pricing",
+    "subtitle": "Choose the plan that works best for your business",
     "starter": {
       "title": "Starter",
-      "price": "$99",
+      "price": "$29",
       "period": "/month",
-      "description": "Perfect for small restaurants and cafés",
+      "description": "Perfect for small businesses getting started",
       "features": [
-        "Up to 25 employees",
-        "Basic AI scheduling",
-        "Email support",
-        "Mobile app access"
+        "Inventory optimization",
+        "Basic analytics",
+        "Email support"
       ]
     },
     "professional": {
       "title": "Professional",
-      "price": "$250",
+      "price": "$99",
       "period": "/month",
-      "description": "Ideal for growing hospitality businesses",
+      "description": "For growing businesses",
       "features": [
-        "Up to 100 employees",
-        "Advanced AI analytics",
+        "Advanced analytics",
         "Priority support",
-        "Custom integrations",
-        "Performance dashboards"
+        "AI recommendations"
       ],
       "popular": "Most Popular"
     },
     "enterprise": {
       "title": "Enterprise",
       "price": "Custom",
-      "period": "/month",
-      "description": "For large chains and hotel groups",
+      "period": "",
+      "description": "For large businesses with complex needs",
       "features": [
-        "Unlimited employees",
-        "White-label solution",
         "Dedicated account manager",
-        "Custom AI training",
-        "Advanced reporting"
+        "Custom integrations",
+        "24/7 support"
       ]
     },
     "getStarted": "Get Started",
     "contactSales": "Contact Sales"
   },
-  "finalCTA": {
-    "title": "Ready to Transform Labor into Profit?",
-    "subtitle": "Join thousands of restaurants saving 20%+ on labor costs with AI-powered scheduling",
-    "getAudit": "Get Free Savings Audit",
-    "talkToExpert": "Talk to Integration Expert",
-    "features": {
-      "freeTrial": "Free Trial",
-      "minutes": "Minutes",
-      "setupTime": "Setup Time",
-      "guaranteedSavings": "Money-back guarantee"
-    },
-    "disclaimer": "No credit card required • Cancel anytime • Full support included"
+  "header": {
+    "features": "Features",
+    "product": "Product",
+    "futureFeatures": "Future Features",
+    "integrations": "Integrations",
+    "security": "Security",
+    "solutions": "Solutions",
+    "restaurants": "Restaurants",
+    "hotels": "Hotels",
+    "cafes": "Cafés",
+    "resources": "Resources",
+    "faq": "FAQ",
+    "roiCalculator": "ROI Calculator",
+    "newsletter": "Newsletter",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "selectLanguage": "Select Language",
+    "language": "Language",
+    "getStarted": "Get Started"
   },
-    "footer": {
-      "description": "AI-powered workforce optimization for the hospitality industry",
-      "newsletter": {
-        "title": "Newsletter",
-        "placeholder": "Your email address",
-        "subscribe": "Subscribe"
-      },
-      "product": "Product",
-      "features": "Home",
-      "restaurants": "Restaurants",
-      "hotels": "Hotels",
-      "cafes": "Cafés",
-      "solutions": "Solutions",
-      "resources": "Resources",
-      "faq": "FAQ",
-      "roiCalculator": "ROI Calculator",
-      "futureFeatures": "Future Features",
-      "integrations": "Integrations",
-      "security": "Security",
-      "company": "Company",
-      "aboutUs": "About Us",
-      "careers": "Careers",
-      "contact": "Contact",
-      "support": "Support",
-      "helpCenter": "Help Center",
-      "documentation": "Documentation",
-      "apiReference": "API Reference",
-      "legal": "Legal",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "cookies": "Cookie Policy",
-      "allRightsReserved": "All rights reserved."
+  "problemSolution": {
+    "title": "Problems We Solve",
+    "subtitle": "Common challenges in hospitality workforce management",
+    "problem": {
+      "title": "The Problem",
+      "overstaffing": "Overstaffing during slow periods",
+      "manualScheduling": "Manual scheduling takes hours",
+      "highTurnover": "High staff turnover costs"
     },
+    "solution": {
+      "title": "Our Solution",
+      "aiPrediction": "AI predicts optimal staffing",
+      "automatedProcess": "Automated scheduling process",
+      "improvedRetention": "Improved employee retention"
+    },
+    "result": {
+      "title": "The Result",
+      "laborCosts": "23% lower labor costs",
+      "managerTime": "15 hours saved weekly",
+      "hiringCosts": "40% lower hiring costs"
+    },
+    "beforeAfter": {
+      "title": "Before & After Optimo",
+      "before": "Before",
+      "after": "After",
+      "beforeItems": {
+        "overstaffed": "Overstaffed or understaffed",
+        "manual": "Manual scheduling",
+        "turnover": "High turnover rates"
+      },
+      "afterItems": {
+        "optimized": "Optimized staffing levels",
+        "automation": "Automated scheduling",
+        "happy": "Happy, engaged staff"
+      }
+    }
+  },
+  "socialProof": {
+    "title": "Trusted by Industry Leaders",
+    "subtitle": "Join thousands of businesses transforming their workforce management",
+    "testimonial1": {
+      "author": "Maria Rodriguez",
+      "position": "Owner, La Casa Mexicana",
+      "text": "Optimo reduced our labor costs by 23% while improving staff satisfaction. The AI scheduling alone saves me 15 hours a week!"
+    },
+    "testimonial2": {
+      "author": "Kevin Lim",
+      "position": "Operations Manager, Golden Dragon",
+      "text": "Since implementing Optimo, our tips have increased by 22% and we've achieved 100% compliance across all locations."
+    },
+    "metrics": {
+      "costReduction": "Labor Cost Reduction",
+      "timeSaved": "Weekly Time Saved",
+      "staffSatisfaction": "Staff Satisfaction",
+      "higherTips": "Higher Tips",
+      "compliance": "Compliance Rate",
+      "locations": "Locations Managed"
+    },
+    "benchmarks": {
+      "title": "Performance Benchmarks",
+      "laborCost": "Labor Cost % of Revenue",
+      "turnoverRate": "Staff Turnover Rate",
+      "schedulingTime": "Weekly Scheduling Time",
+      "industry": "Industry Average",
+      "improvement": "Improvement",
+      "reduction": "Reduction",
+      "saved": "Saved Weekly"
+    }
+  },
+  "howItWorks": {
+    "title": "How Optimo Works",
+    "subtitle": "Simple three-step process to optimize your workforce",
+    "step1": {
+      "title": "Connect Your POS",
+      "description": "Integrate with your existing point-of-sale system in minutes"
+    },
+    "step2": {
+      "title": "Analyze Data",
+      "description": "Our AI processes historical sales, weather, and events data"
+    },
+    "step3": {
+      "title": "Get Optimal Schedule",
+      "description": "Receive AI-generated schedules that maximize efficiency"
+    },
+    "example": "Example",
+    "dataStreams": "Multiple data streams analyzed"
+  },
   "tippingSpotlight": {
-    "title": "Turning Tip Volatility into Profits",
-    "subtitle": "Our AI predicts tipping patterns and optimizes staff to maximize hourly earnings",
-    "calculatorTitle": "Interactive Tip Calculator",
+    "title": "Tipping Optimization Spotlight",
+    "subtitle": "Maximize your staff's earning potential while optimizing labor costs",
+    "calculatorTitle": "Tip Yield Calculator",
     "partySize": "Party Size",
     "shiftType": "Shift Type",
-    "predictedTipYield": "Predicted Tip Yield",
-    "staffingOptimization": "Staffing Optimization",
-    "before": "Before",
-    "overstaffed": "Overstaffed",
-    "after": "After",
-    "optimized": "Optimized",
-    "savingsImpact": "Savings Impact",
-    "perHour": "Per Hour",
-    "perShift": "Per Shift",
-    "perWeek": "Per Week",
     "breakfast": "Breakfast",
     "lunch": "Lunch",
     "dinner": "Dinner",
-    "servers": "servers",
-    "cooks": "cooks",
-    "cost": "Cost",
-    "beforeServers": "{{count}} servers",
-    "beforeCooks": "{{count}} cooks",
-    "beforeCost": "Cost: ${{amount}}/hr",
-    "afterServers": "{{count}} servers",
-    "afterCooks": "{{count}} cooks",
-    "afterCost": "Cost: ${{amount}}/hr"
+    "predictedTipYield": "Predicted Tip Yield",
+    "staffingOptimization": "Staffing Optimization",
+    "before": "Before",
+    "after": "After",
+    "overstaffed": "Overstaffed",
+    "optimized": "Optimized",
+    "beforeServers": "{{count}} Servers",
+    "beforeCooks": "{{count}} Cooks",
+    "beforeCost": "${{amount}} labor cost",
+    "afterServers": "{{count}} Servers",
+    "afterCooks": "{{count}} Cooks",
+    "afterCost": "${{amount}} labor cost",
+    "savingsImpact": "Savings Impact",
+    "perHour": "Per Hour",
+    "perShift": "Per Shift",
+    "perWeek": "Per Week"
   },
-  "common": {
-    "learnMore": "Learn More",
-    "readMore": "Read More",
-    "viewAll": "View All",
-    "close": "Close",
-    "save": "Save",
-    "cancel": "Cancel",
-    "submit": "Submit",
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "success": "Success!"
+  "globalIntelligence": {
+    "title": "Global Workforce Intelligence",
+    "subtitle": "Regional insights to optimize your international operations",
+    "performance": "Performance Benchmark",
+    "keyFeature": "Key Feature",
+    "regions": {
+      "US": {
+        "title": "US Market Insights",
+        "description": "Specialized for US tipping culture and labor regulations",
+        "data": "22% Higher",
+        "feature": "Tip Optimization"
+      },
+      "EU": {
+        "title": "European Market Insights",
+        "description": "Optimized for EU labor laws and service charge models",
+        "data": "18% Savings",
+        "feature": "Break Management",
+        "city": "London"
+      },
+      "LATAM": {
+        "title": "Latin America Insights",
+        "description": "Tailored for LATAM cash-based economies and shift patterns",
+        "data": "30% Faster",
+        "feature": "OXXO Integration"
+      },
+      "APAC": {
+        "title": "Asia-Pacific Insights",
+        "description": "Designed for APAC mobile-first workforce management",
+        "data": "25% Growth",
+        "feature": "Mobile Workforce",
+        "city": "Singapore"
+      }
+    }
+  },
+  "finalCTA": {
+    "title": "Start Optimizing Today",
+    "subtitle": "Discover how we can transform your workforce management",
+    "getAudit": "Get Free Audit",
+    "talkToExpert": "Talk to an Expert",
+    "features": {
+      "freeTrial": "30-Day Free Trial",
+      "minutes": "minutes",
+      "setupTime": "Setup Time",
+      "guaranteedSavings": "Guaranteed Savings"
+    },
+    "disclaimer": "*Results based on average customer outcomes"
+  },
+  "footer": {
+    "product": "Product",
+    "solutions": "Solutions",
+    "resources": "Resources",
+    "company": "Company",
+    "features": "Features",
+    "integrations": "Integrations",
+    "futureFeatures": "Future Features",
+    "security": "Security",
+    "restaurants": "Restaurants",
+    "hotels": "Hotels",
+    "cafes": "Cafés",
+    "faq": "FAQ",
+    "roiCalculator": "ROI Calculator",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "allRightsReserved": "All rights reserved",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe"
+    }
   },
   "futureFeatures": {
     "hero": {
-      "title": "Future Features",
-      "subtitle": "At OPTIMO Workforce, we're constantly innovating to bring you the most comprehensive workforce management solution in the market."
+      "title": "Future Features Roadmap",
+      "subtitle": "Explore what's coming next to transform your workforce management"
     },
     "roadmap": {
-      "title": "Development Roadmap",
-      "subtitle": "Here's a peek at what's on our development roadmap",
+      "title": "Our Development Roadmap",
+      "subtitle": "Transparent view of our feature development timeline",
       "stats": {
-        "features": "Major Features",
-        "launchYear": "Launch Year",
-        "timeline": "Months Timeline",
-        "efficiency": "Efficiency Gain"
+        "features": "Upcoming Features",
+        "launchYear": "Target Launch Year",
+        "timeline": "Month Timeline",
+        "efficiency": "Expected Efficiency Gain"
       }
     },
-    "betaProgram": {
-      "title": "Join Our Beta Testing Program",
-      "subtitle": "Shape the future of workforce optimization by becoming a beta tester",
-      "benefitsTitle": "Beta Program Benefits",
-      "requirementsTitle": "Requirements",
-      "benefits": [
-        "Early access to cutting-edge features",
-        "Direct influence on product development",
-        "Exclusive beta testing community",
-        "Priority support and feedback channels",
-        "Special pricing for beta participants"
-      ],
-      "requirements": [
-        "Active Optimo Workforce customer",
-        "Willingness to provide detailed feedback",
-        "Commitment to testing new features",
-        "Regular participation in feedback sessions"
-      ]
+    "featureDetails": {
+      "title": "Feature Deep Dives",
+      "subtitle": "Detailed look at each upcoming capability",
+      "timeline": "Estimated Timeline",
+      "expectedImpact": "Expected Impact",
+      "keyBenefits": "Key Benefits"
     },
     "featureTimeline": {
-      "title": "Feature Timeline",
       "statuses": {
-        "comingSoon": "Coming Soon",
-        "inDevelopment": "In Development",
-        "betaTesting": "Beta Testing",
+        "comingsoon": "Coming Soon",
+        "indevelopment": "In Development",
+        "betatesting": "Beta Testing",
         "planning": "Planning",
         "research": "Research",
         "concept": "Concept"
       }
     },
-    "featureDetails": {
-      "title": "Detailed Feature Overview",
-      "subtitle": "Explore each upcoming feature in detail",
-      "timeline": "Timeline",
-      "expectedImpact": "Expected Impact",
-      "keyBenefits": "Key Benefits"
-    },
-    "featureRequest": {
-      "title": "Shape Our Product Roadmap",
-      "description": "Want to shape our product roadmap? Contact our product team to share your feature requests or sign up for our beta testing program."
+    "features": {
+      "inventoryOptimization": {
+        "title": "Inventory Optimization",
+        "description": "AI-powered inventory management that reduces waste and optimizes ordering",
+        "benefits": [
+          "Reduce food waste by up to 35%",
+          "Automated supplier ordering",
+          "Real-time inventory tracking"
+        ],
+        "timeline": "Q3 2025",
+        "impact": "23% cost reduction"
+      },
+      "businessAnalytics": {
+        "title": "Business Analytics",
+        "description": "Advanced reporting and insights for data-driven decision making",
+        "benefits": [
+          "Customizable dashboards",
+          "Performance benchmarking",
+          "Predictive analytics"
+        ],
+        "timeline": "Q4 2025",
+        "impact": "18% revenue growth"
+      },
+      "customerFeedback": {
+        "title": "Customer Feedback",
+        "description": "Integrated customer sentiment analysis and feedback management",
+        "benefits": [
+          "Real-time feedback collection",
+          "Sentiment analysis",
+          "Automated response suggestions"
+        ],
+        "timeline": "Q1 2026",
+        "impact": "25% satisfaction increase"
+      },
+      "customerManagement": {
+        "title": "Customer Management",
+        "description": "Comprehensive CRM for hospitality businesses",
+        "benefits": [
+          "Loyalty program integration",
+          "Personalized marketing",
+          "Customer behavior insights"
+        ],
+        "timeline": "Q2 2026",
+        "impact": "30% repeat business"
+      },
+      "aiUpselling": {
+        "title": "AI Upselling",
+        "description": "Intelligent suggestions to increase average order value",
+        "benefits": [
+          "Personalized recommendations",
+          "Dynamic menu optimization",
+          "Staff training insights"
+        ],
+        "timeline": "Q3 2026",
+        "impact": "15% revenue lift"
+      },
+      "dynamicPricing": {
+        "title": "Dynamic Pricing",
+        "description": "Automated price adjustments based on demand and inventory",
+        "benefits": [
+          "Demand-based pricing",
+          "Competitor monitoring",
+          "Profit optimization"
+        ],
+        "timeline": "Q4 2026",
+        "impact": "22% margin improvement"
+      },
+      "tipManagement": {
+        "title": "Tip Management",
+        "description": "Automated tip distribution and reporting system",
+        "benefits": [
+          "Fair tip allocation",
+          "Tax compliance",
+          "Staff transparency"
+        ],
+        "timeline": "Q1 2027",
+        "impact": "40% staff satisfaction"
+      }
     },
     "betaProgram": {
-      "apply": "Apply for Beta Access",
-      "availability": "Limited spots available • Priority given to existing customers"
+      "title": "Join Our Beta Program",
+      "subtitle": "Get early access to upcoming features and shape our product",
+      "benefitsTitle": "Beta Program Benefits",
+      "requirementsTitle": "Participation Requirements",
+      "benefits": [
+        "Early access to new features",
+        "Direct influence on product development",
+        "Priority support",
+        "Exclusive training sessions"
+      ],
+      "requirements": [
+        "Active business account",
+        "Willingness to provide feedback",
+        "Minimum 3 months usage",
+        "Staff training commitment"
+      ],
+      "availability": "Limited spots available",
+      "apply": "Apply for Beta Access"
+    },
+    "featureRequest": {
+      "title": "Have Feature Ideas?",
+      "description": "We actively incorporate customer feedback into our roadmap"
     },
     "industryImpact": {
-      "title": "Industry Impact Projections",
-      "subtitle": "How these features will transform the hospitality industry"
+      "title": "Industry Impact",
+      "subtitle": "Expected improvements across key hospitality segments",
+      "restaurants": {
+        "title": "Restaurants",
+        "metrics": {
+          "foodWaste": "Food Waste Reduction",
+          "revenueIncrease": "Revenue Increase",
+          "customerSatisfaction": "Customer Satisfaction"
+        }
+      },
+      "hotels": {
+        "title": "Hotels",
+        "metrics": {
+          "operationalEfficiency": "Operational Efficiency",
+          "guestExperience": "Guest Experience",
+          "staffRetention": "Staff Retention"
+        }
+      },
+      "cafes": {
+        "title": "Cafés",
+        "metrics": {
+          "inventoryAccuracy": "Inventory Accuracy",
+          "profitMargins": "Profit Margins",
+          "orderAccuracy": "Order Accuracy"
+        }
+      }
+    },
+    "ui": {
+      "contactProductTeam": "Contact Product Team",
+      "submitFeatureRequest": "Submit Feature Request",
+      "featureRequests": "Feature Requests",
+      "implementationRate": "Implementation Rate",
+      "betaTesters": "Beta Testers",
+      "development": "Development"
+    },
+    "featureTitles": {
+      "InventoryOptimization": "Inventory Optimization",
+      "BusinessAnalytics": "Business Analytics",
+      "CustomerFeedback": "Customer Feedback",
+      "CustomerManagement": "Customer Management",
+      "AIUpselling": "AI Upselling",
+      "DynamicPricing": "Dynamic Pricing",
+      "TipManagement": "Tip Management"
     }
   }
 }

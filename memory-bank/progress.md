@@ -40,9 +40,10 @@
 - Performance optimization
 - Browser testing
 - Complete i18n for all components
-- Translation quality review
+- Translation quality review (in progress)
 - Language-specific SEO
 
 ## Known Issues
 - No error boundaries
 - Limited form validation
+- Fixed: Translation interpolation issue in TippingSpotlightSection

@@ -32,134 +32,122 @@ import {
   Utensils
 } from 'lucide-react';
 
+// Map feature titles to their translation keys
+const featureKeyMap = {
+  'Inventory Optimization': 'InventoryOptimization',
+  'Business Analytics': 'BusinessAnalytics',
+  'Customer Feedback': 'CustomerFeedback',
+  'Customer Management': 'CustomerManagement',
+  'AI Upselling': 'AIUpselling',
+  'Dynamic Pricing': 'DynamicPricing',
+  'Tip Management': 'TipManagement'
+};
+
 const FutureFeaturesPage: React.FC = () => {
   const { t } = useTranslation();
   const [activeFeature, setActiveFeature] = useState(0);
 
   const features = [
     {
-      title: 'Inventory Optimization & Procurement Automation',
+      title: 'Inventory Optimization',
       status: 'comingSoon',
       statusColor: 'bg-yellow-500',
       icon: Package,
-      description: 'Transform your inventory management with our AI-powered forecasting system',
-      benefits: [
-        'Predicts precise ingredient needs based on the same demand signals powering our scheduling',
-        'Automatically generates tailored purchase orders based on projected demand',
-        'Reduces food waste and last-minute supply runs',
-        'Ensures popular menu items are always available',
-        'Seamlessly integrates with our existing labor cost/revenue dashboards'
-      ],
-      timeline: 'Q2 2025',
-      impact: 'Reduce food waste by 35%',
+      description: t('futureFeatures.features.inventoryOptimization.description'),
+      benefits: Array.isArray(t('futureFeatures.features.inventoryOptimization.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.inventoryOptimization.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.inventoryOptimization.timeline'),
+      impact: t('futureFeatures.features.inventoryOptimization.impact'),
       color: 'from-yellow-500 to-orange-500'
     },
     {
-      title: 'Enhanced Business Analytics & Predictive Dashboards',
+      title: 'Business Analytics',
       status: 'inDevelopment',
       statusColor: 'bg-blue-500',
       icon: BarChart3,
-      description: 'Expanding beyond our current labor analytics to deliver comprehensive insights',
-      benefits: [
-        'Comprehensive data integration from POS systems, reservation logs, delivery apps, and more',
-        'Trend identification and performance gap analysis in plain English',
-        'Real-time insights and future business outcome forecasting',
-        'Anomaly detection that highlights what matters most',
-        'Executive-level dashboards for strategic decision making'
-      ],
-      timeline: 'Q3 2025',
-      impact: 'Increase decision accuracy by 40%',
+      description: t('futureFeatures.features.businessAnalytics.description'),
+      benefits: Array.isArray(t('futureFeatures.features.businessAnalytics.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.businessAnalytics.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.businessAnalytics.timeline'),
+      impact: t('futureFeatures.features.businessAnalytics.impact'),
       color: 'from-blue-500 to-purple-500'
     },
     {
-      title: 'Automated Customer Feedback & Review Response Integration',
+      title: 'Customer Feedback',
       status: 'betaTesting',
       statusColor: 'bg-green-500',
       icon: MessageSquare,
-      description: 'Close the loop between scheduling and customer satisfaction',
-      benefits: [
-        'Adjust scheduling recommendations based on customer satisfaction data',
-        'Automated review response drafting in multiple languages',
-        'Create a virtuous cycle of better schedules, happier employees, and satisfied customers',
-        'Track and measure the impact of staffing decisions on customer experience'
-      ],
-      timeline: 'Q1 2025',
-      impact: 'Improve customer satisfaction by 25%',
+      description: t('futureFeatures.features.customerFeedback.description'),
+      benefits: Array.isArray(t('futureFeatures.features.customerFeedback.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.customerFeedback.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.customerFeedback.timeline'),
+      impact: t('futureFeatures.features.customerFeedback.impact'),
       color: 'from-green-500 to-teal-500'
     },
     {
-      title: 'Comprehensive Customer Management & Loyalty Programs',
+      title: 'Customer Management',
       status: 'planning',
       statusColor: 'bg-purple-500',
       icon: Heart,
-      description: 'Centralize your customer relationships to enhance forecasting',
-      benefits: [
-        'Personalize promotions based on customer purchase history',
-        'Implement loyalty programs to reward repeat clients',
-        'Feed customer data into our AI scheduler for more precise demand forecasting',
-        'Optimize staffing based on known client preferences and booking patterns'
-      ],
-      timeline: 'Q4 2025',
-      impact: 'Increase customer retention by 30%',
+      description: t('futureFeatures.features.customerManagement.description'),
+      benefits: Array.isArray(t('futureFeatures.features.customerManagement.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.customerManagement.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.customerManagement.timeline'),
+      impact: t('futureFeatures.features.customerManagement.impact'),
       color: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'AI-Powered Upselling/Cross-selling',
+      title: 'AI Upselling',
       status: 'research',
       statusColor: 'bg-indigo-500',
       icon: TrendingUp,
-      description: 'Extend revenue optimization beyond staffing',
-      benefits: [
-        'Smart agents suggest side dishes based on guest history and stock levels',
-        'Context-aware special offerings to increase check size',
-        'Inventory-aware recommendations to prevent stock-outs',
-        'Tailored for catering services to recommend premium add-ons'
-      ],
-      timeline: '2026',
-      impact: 'Boost average check size by 18%',
+      description: t('futureFeatures.features.aiUpselling.description'),
+      benefits: Array.isArray(t('futureFeatures.features.aiUpselling.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.aiUpselling.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.aiUpselling.timeline'),
+      impact: t('futureFeatures.features.aiUpselling.impact'),
       color: 'from-indigo-500 to-blue-600'
     },
     {
-      title: 'Dynamic Menu Pricing',
+      title: 'Dynamic Pricing',
       status: 'research',
       statusColor: 'bg-red-500',
       icon: DollarSign,
-      description: 'Maximize profitability through intelligent pricing',
-      benefits: [
-        'Automatic price adjustments based on ingredient costs, demand, and competition',
-        'Special pricing for off-peak booking times',
-        'Early warnings when ingredient prices threaten margins',
-        'Flexible package pricing for catering services'
-      ],
-      timeline: '2026',
-      impact: 'Increase profit margins by 22%',
+      description: t('futureFeatures.features.dynamicPricing.description'),
+      benefits: Array.isArray(t('futureFeatures.features.dynamicPricing.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.dynamicPricing.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.dynamicPricing.timeline'),
+      impact: t('futureFeatures.features.dynamicPricing.impact'),
       color: 'from-red-500 to-orange-600'
     },
     {
-      title: 'Tip Management Software (US Region)',
+      title: 'Tip Management',
       status: 'concept',
       statusColor: 'bg-teal-500',
       icon: Award,
-      description: 'Building on our US-specific tip-yield forecasting',
-      benefits: [
-        'Equitable tip distribution based on service time',
-        'Enhanced employee satisfaction and retention',
-        'Fair compensation for high-skill servers',
-        'Detailed reporting for transparency'
-      ],
-      timeline: '2026',
-      impact: 'Reduce staff turnover by 45%',
+      description: t('futureFeatures.features.tipManagement.description'),
+      benefits: Array.isArray(t('futureFeatures.features.tipManagement.benefits', { returnObjects: true })) 
+        ? t('futureFeatures.features.tipManagement.benefits', { returnObjects: true }) as string[]
+        : [],
+      timeline: t('futureFeatures.features.tipManagement.timeline'),
+      impact: t('futureFeatures.features.tipManagement.impact'),
       color: 'from-teal-500 to-green-600'
     }
   ];
 
   const statusColors = {
-    [t('futureFeatures.featureTimeline.statuses.comingSoon')]: 'bg-yellow-500',
-    [t('futureFeatures.featureTimeline.statuses.inDevelopment')]: 'bg-blue-500',
-    [t('futureFeatures.featureTimeline.statuses.betaTesting')]: 'bg-green-500',
-    [t('futureFeatures.featureTimeline.statuses.planning')]: 'bg-purple-500',
-    [t('futureFeatures.featureTimeline.statuses.research')]: 'bg-indigo-500',
-    [t('futureFeatures.featureTimeline.statuses.concept')]: 'bg-teal-500'
+    comingSoon: 'bg-yellow-500',
+    inDevelopment: 'bg-blue-500',
+    betaTesting: 'bg-green-500',
+    planning: 'bg-purple-500',
+    research: 'bg-indigo-500',
+    concept: 'bg-teal-500'
   };
 
   const roadmapStats = [
@@ -195,10 +183,10 @@ const FutureFeaturesPage: React.FC = () => {
               {t('futureFeatures.hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
-                <Lightbulb size={24} />
-                {t('futureFeatures.betaProgram.title')}
-              </button>
+<button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
+  <Lightbulb size={24} />
+  {t('futureFeatures.betaProgram.apply')}
+</button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Mail size={24} />
                 {t('common.requestFeature')}
@@ -291,19 +279,23 @@ const FutureFeaturesPage: React.FC = () => {
 
           {/* Feature Selector */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {features.map((feature, index) => (
-              <button
-                key={index}
-                onClick={() => setActiveFeature(index)}
-                className={`px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-300 ${
-                  activeFeature === index
-                    ? 'bg-primary text-white shadow-lg transform scale-105'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
-              >
-                {feature.title.split(' ')[0]} {feature.title.split(' ')[1]}
-              </button>
-            ))}
+{features.map((feature, index) => {
+  const translationKey = featureKeyMap[feature.title] || feature.title.replace(/\s+/g, '');
+  
+  return (
+    <button
+      key={index}
+      onClick={() => setActiveFeature(index)}
+      className={`px-6 py-3 rounded-lg font-semibold text-sm transition-all duration-300 ${
+        activeFeature === index
+          ? 'bg-primary text-white shadow-lg transform scale-105'
+          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+      }`}
+    >
+      {t(`futureFeatures.featureTitles.${translationKey}`)}
+    </button>
+  );
+})}
           </div>
 
           {/* Active Feature Details */}
@@ -321,9 +313,11 @@ const FutureFeaturesPage: React.FC = () => {
                           </div>
                           <div>
                             <div className={`inline-block px-4 py-2 rounded-full text-white text-sm font-semibold ${feature.statusColor} mb-2`}>
-                              {feature.status}
+                              {t(`futureFeatures.featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
                             </div>
-                            <h3 className="text-2xl font-bold text-gray-900">{feature.title}</h3>
+                            <h3 className="text-2xl font-bold text-gray-900">
+                              {t(`futureFeatures.featureTitles.${featureKeyMap[feature.title] || feature.title.replace(/\s+/g, '')}`)}
+                            </h3>
                           </div>
                         </div>
                         <p className="text-lg text-gray-700 leading-relaxed mb-6">{feature.description}</p>
@@ -436,35 +430,35 @@ const FutureFeaturesPage: React.FC = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-                <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
-                  <Mail size={24} />
-                  Contact Product Team
-                </button>
-                <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
-                  <FileText size={24} />
-                  Submit Feature Request
-                  <ArrowRight size={20} />
-                </button>
+<button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
+  <Mail size={24} />
+  {t('futureFeatures.ui.contactProductTeam')}
+</button>
+<button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
+  <FileText size={24} />
+  {t('futureFeatures.ui.submitFeatureRequest')}
+  <ArrowRight size={20} />
+</button>
               </div>
 
-              <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-                <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">500+</div>
-                  <div className="text-blue-200">Feature Requests</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">85%</div>
-                  <div className="text-blue-200">Implementation Rate</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">50+</div>
-                  <div className="text-blue-200">Beta Testers</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">24/7</div>
-                  <div className="text-blue-200">Development</div>
-                </div>
-              </div>
+<div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+  <div className="text-center">
+    <div className="text-3xl font-bold mb-2">500+</div>
+    <div className="text-blue-200">{t('futureFeatures.ui.featureRequests')}</div>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl font-bold mb-2">85%</div>
+    <div className="text-blue-200">{t('futureFeatures.ui.implementationRate')}</div>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl font-bold mb-2">50+</div>
+    <div className="text-blue-200">{t('futureFeatures.ui.betaTesters')}</div>
+  </div>
+  <div className="text-center">
+    <div className="text-3xl font-bold mb-2">24/7</div>
+    <div className="text-blue-200">{t('futureFeatures.ui.development')}</div>
+  </div>
+</div>
             </div>
           </div>
         </div>
@@ -487,18 +481,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-green-100 mb-6">
                 <Utensils size={40} className="text-green-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Restaurants</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.restaurants.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Food Waste Reduction:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.foodWaste')}</span>
                   <span className="font-bold text-green-600">35%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Revenue Increase:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.revenueIncrease')}</span>
                   <span className="font-bold text-green-600">18%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Customer Satisfaction:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.customerSatisfaction')}</span>
                   <span className="font-bold text-green-600">25%</span>
                 </div>
               </div>
@@ -508,18 +502,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 mb-6">
                 <Building2 size={40} className="text-blue-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Hotels</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.hotels.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Operational Efficiency:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.operationalEfficiency')}</span>
                   <span className="font-bold text-blue-600">40%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Guest Experience:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.guestExperience')}</span>
                   <span className="font-bold text-blue-600">30%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Staff Retention:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.staffRetention')}</span>
                   <span className="font-bold text-blue-600">45%</span>
                 </div>
               </div>
@@ -529,18 +523,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-yellow-100 mb-6">
                 <Coffee size={40} className="text-yellow-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Cafés</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.cafes.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Inventory Accuracy:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.inventoryAccuracy')}</span>
                   <span className="font-bold text-yellow-600">90%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Profit Margins:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.profitMargins')}</span>
                   <span className="font-bold text-yellow-600">22%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">Order Accuracy:</span>
+                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.orderAccuracy')}</span>
                   <span className="font-bold text-yellow-600">95%</span>
                 </div>
               </div>

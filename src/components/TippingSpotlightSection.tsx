@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { DollarSign, Users, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -7,6 +7,48 @@ const TippingSpotlightSection: React.FC = () => {
   console.log('Current language in component:', i18n.language);
   const [partySize, setPartySize] = useState(4);
   const [shiftType, setShiftType] = useState('Dinner');
+  const [staffingData, setStaffingData] = useState({
+    beforeServers: 8,
+    beforeCooks: 2,
+    beforeCost: 280,
+    afterServers: 5,
+    afterCooks: 3,
+    afterCost: 200,
+    savingsPerHour: 80,
+    savingsPerShift: 640,
+    savingsPerWeek: 4480
+  });
+
+  const calculateStaffing = () => {
+    const baseServers = Math.ceil(partySize * 1.5);
+    const baseCooks = Math.ceil(partySize / 2);
+    
+    const shiftMultiplier = shiftType === 'Dinner' ? 1.2 : 
+                          shiftType === 'Lunch' ? 1.0 : 0.8;
+    
+    return {
+      beforeServers: Math.ceil((baseServers + 3) * shiftMultiplier),
+      beforeCooks: Math.ceil((baseCooks + 1) * shiftMultiplier),
+      afterServers: Math.ceil(baseServers * 0.9 * shiftMultiplier),
+      afterCooks: Math.ceil(baseCooks * 1.1 * shiftMultiplier),
+      beforeCost: Math.ceil((baseServers + 3) * 25 * shiftMultiplier) + 
+                 Math.ceil((baseCooks + 1) * 30 * shiftMultiplier),
+      afterCost: Math.ceil(baseServers * 0.9 * 25 * shiftMultiplier) + 
+                Math.ceil(baseCooks * 1.1 * 30 * shiftMultiplier)
+    };
+  };
+
+  useEffect(() => {
+    const newData = calculateStaffing();
+    const savingsPerHour = newData.beforeCost - newData.afterCost;
+    
+    setStaffingData({
+      ...newData,
+      savingsPerHour,
+      savingsPerShift: savingsPerHour * 8,
+      savingsPerWeek: savingsPerHour * 8 * 7
+    });
+  }, [partySize, shiftType]);
 
   const calculateTipYield = () => {
     const baseRate = shiftType === 'Breakfast' ? 15 : shiftType === 'Lunch' ? 25 : 35;
@@ -88,14 +130,18 @@ const TippingSpotlightSection: React.FC = () => {
     <div className="space-y-3">
       <div className="flex items-center gap-3">
         <Users size={20} className="text-red-500" />
-        <span className="text-gray-700">{t('tippingSpotlight.beforeServers', {count: 8})}</span>
+        <span className="text-gray-700">
+          {t('tippingSpotlight.beforeServers', { count: staffingData.beforeServers })}
+        </span>
       </div>
       <div className="flex items-center gap-3">
         <Clock size={20} className="text-red-500" />
-        <span className="text-gray-700">{t('tippingSpotlight.beforeCooks', {count: 2})}</span>
+        <span className="text-gray-700">
+          {t('tippingSpotlight.beforeCooks', { count: staffingData.beforeCooks })}
+        </span>
       </div>
       <div className="text-red-600 font-semibold">
-        {t('tippingSpotlight.beforeCost', {amount: 280})}
+        {t('tippingSpotlight.beforeCost', { amount: staffingData.beforeCost })}
       </div>
     </div>
                 </div>
@@ -110,14 +156,18 @@ const TippingSpotlightSection: React.FC = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <Users size={20} className="text-secondary" />
-                      <span className="text-gray-700">{t('tippingSpotlight.afterServers', {count: 5})}</span>
+                      <span className="text-gray-700">
+                        {t('tippingSpotlight.afterServers', { count: staffingData.afterServers })}
+                      </span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Clock size={20} className="text-secondary" />
-                      <span className="text-gray-700">{t('tippingSpotlight.afterCooks', {count: 3})}</span>
+                      <span className="text-gray-700">
+                        {t('tippingSpotlight.afterCooks', { count: staffingData.afterCooks })}
+                      </span>
                     </div>
                     <div className="text-secondary font-semibold">
-                      {t('tippingSpotlight.afterCost', {amount: 200})}
+                      {t('tippingSpotlight.afterCost', { amount: staffingData.afterCost })}
                     </div>
                   </div>
                 </div>
@@ -131,15 +181,15 @@ const TippingSpotlightSection: React.FC = () => {
               </div>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-secondary">$80</div>
+                  <div className="text-2xl font-bold text-secondary">${staffingData.savingsPerHour}</div>
                   <div className="text-sm text-gray-600">{t('tippingSpotlight.perHour')}</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-secondary">$640</div>
+                  <div className="text-2xl font-bold text-secondary">${staffingData.savingsPerShift}</div>
                   <div className="text-sm text-gray-600">{t('tippingSpotlight.perShift')}</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-secondary">$4,480</div>
+                  <div className="text-2xl font-bold text-secondary">${staffingData.savingsPerWeek}</div>
                   <div className="text-sm text-gray-600">{t('tippingSpotlight.perWeek')}</div>
                 </div>
               </div>

@@ -1,0 +1,32 @@
+{
+  "requestFeature": "Solicitar Función",
+  "buttons": {
+    "getStarted": "Empezar",
+    "bookDemo": "Reservar Demo",
+    "contactSales": "Contactar Ventas",
+    "learnMore": "Saber Más",
+    "backToTop": "Volver Arriba"
+  },
+  "form": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "company": "Empresa",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "required": "Requerido",
+    "invalidEmail": "Por favor ingrese un correo válido"
+  },
+  "language": {
+    "english": "Inglés",
+    "spanish": "Español"
+  },
+  "error": {
+    "generic": "Algo salió mal",
+    "tryAgain": "Por favor intente de nuevo",
+    "contactSupport": "Contactar Soporte"
+  },
+  "loading": "Cargando...",
+  "success": "¡Éxito!"
+}

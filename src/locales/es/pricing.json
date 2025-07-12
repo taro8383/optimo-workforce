@@ -1,0 +1,42 @@
+{
+  "title": "Precios simples y transparentes",
+  "subtitle": "Elija el plan que mejor se adapte a su negocio",
+  "starter": {
+    "title": "Básico",
+    "price": "$99",
+    "period": "/mes",
+    "description": "Perfecto para una ubicación",
+    "features": [
+      "Optimización de inventario",
+      "Análisis básicos",
+      "Soporte por correo",
+      "Una sola ubicación"
+    ]
+  },
+  "professional": {
+    "title": "Profesional",
+    "price": "$250",
+    "period": "/mes",
+    "description": "Para hasta 3 ubicaciones",
+    "features": [
+      "Análisis avanzados",
+      "Soporte prioritario",
+      "Recomendaciones de IA",
+      "Hasta 3 ubicaciones"
+    ],
+    "popular": "Más Popular"
+  },
+  "enterprise": {
+    "title": "Empresa",
+    "price": "Personalizado",
+    "period": "",
+    "description": "Para grandes empresas con necesidades complejas",
+    "features": [
+      "Gerente de cuenta dedicado",
+      "Integraciones personalizadas",
+      "Soporte 24/7"
+    ]
+  },
+  "getStarted": "Empezar",
+  "contactSales": "Contactar Ventas"
+}

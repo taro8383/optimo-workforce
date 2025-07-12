@@ -1,0 +1,18 @@
+{
+  "title": "Cómo Funciona Optimo",
+  "subtitle": "Proceso simple de tres pasos para optimizar su personal",
+  "step1": {
+    "title": "Conecte Su POS",
+    "description": "Integre con su sistema de punto de venta existente en minutos"
+  },
+  "step2": {
+    "title": "Analice Datos",
+    "description": "Nuestra IA procesa datos históricos de ventas, clima y eventos"
+  },
+  "step3": {
+    "title": "Obtenga Horario Óptimo",
+    "description": "Reciba horarios generados por IA que maximizan la eficiencia"
+  },
+  "example": "Ejemplo",
+  "dataStreams": "Múltiples flujos de datos analizados"
+}

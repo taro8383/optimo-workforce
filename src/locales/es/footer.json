@@ -1,0 +1,34 @@
+{
+  "newsletterTitle": "Boletín informativo",
+  "newsletter": {
+    "placeholder": "Ingresa tu correo",
+    "subscribe": "Suscribirse"
+  },
+  "product": {
+    "title": "Producto"
+  },
+  "solutions": {
+    "title": "Soluciones"
+  },
+  "resources": {
+    "title": "Recursos"
+  },
+  "company": {
+    "title": "Empresa"
+  },
+  "features": "Características",
+  "integrations": "Integraciones",
+  "futureFeatures": "Futuras Funcionalidades",
+  "security": "Seguridad",
+  "restaurants": "Restaurantes",
+  "hotels": "Hoteles",
+  "cafes": "Cafés",
+  "faq": "Preguntas Frecuentes",
+  "roiCalculator": "Calculadora de ROI",
+  "about": "Sobre Nosotros",
+  "contact": "Contacto",
+  "privacy": "Política de Privacidad",
+  "terms": "Términos de Servicio",
+  "cookies": "Política de Cookies",
+  "rights": "Todos los derechos reservados"
+}

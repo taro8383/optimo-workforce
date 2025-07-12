@@ -9,22 +9,22 @@ const HowItWorksSection: React.FC = () => {
   const steps = [
     {
       number: 1,
-      title: t('howItWorks.step1.title'),
-      description: t('howItWorks.step1.description'),
+      title: t('howItWorks:step1.title'),
+      description: t('howItWorks:step1.description'),
       icon: Zap,
       color: 'bg-primary'
     },
     {
       number: 2,
-      title: t('howItWorks.step2.title'),
-      description: t('howItWorks.step2.description'),
+      title: t('howItWorks:step2.title'),
+      description: t('howItWorks:step2.description'),
       icon: BarChart3,
       color: 'bg-secondary'
     },
     {
       number: 3,
-      title: t('howItWorks.step3.title'),
-      description: t('howItWorks.step3.description'),
+      title: t('howItWorks:step3.title'),
+      description: t('howItWorks:step3.description'),
       icon: Calendar,
       color: 'bg-accent-latam'
     }
@@ -34,12 +34,12 @@ const HowItWorksSection: React.FC = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-      <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-        {t('howItWorks.title')}
-      </h2>
-      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-        {t('howItWorks.subtitle')}
-      </p>
+          <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
+            {t('howItWorks:title')}
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('howItWorks:subtitle')}
+          </p>
         </div>
 
         <div className="relative">
@@ -76,7 +76,7 @@ const HowItWorksSection: React.FC = () => {
                     {hoveredStep === index && (
                       <div className="animate-fade-in">
                         <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                          <div className="text-sm text-gray-500 mb-2">{t('howItWorks.example')}</div>
+                          <div className="text-sm text-gray-500 mb-2">{t('howItWorks:example')}</div>
                           {step.number === 1 && (
                             <div className="flex items-center justify-center gap-2">
                               <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center text-white text-xs font-bold">T</div>
@@ -86,7 +86,7 @@ const HowItWorksSection: React.FC = () => {
                           )}
                           {step.number === 2 && (
                             <div className="h-16 bg-gradient-to-r from-primary to-secondary rounded opacity-80 flex items-center justify-center text-white font-semibold">
-                              {t('howItWorks.dataStreams')}
+                              {t('howItWorks:dataStreams')}
                             </div>
                           )}
                           {step.number === 3 && (

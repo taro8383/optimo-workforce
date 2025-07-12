@@ -1,0 +1,34 @@
+{
+  "title": "Global Workforce Intelligence",
+  "subtitle": "Regional insights to optimize your international operations",
+  "performance": "Performance Benchmark",
+  "keyFeature": "Key Feature",
+  "regions": {
+    "US": {
+      "title": "US Market Insights",
+      "description": "Specialized for US tipping culture and labor regulations",
+      "data": "22% Higher",
+      "feature": "Tip Optimization"
+    },
+    "EU": {
+      "title": "European Market Insights",
+      "description": "Optimized for EU labor laws and service charge models",
+      "data": "18% Savings",
+      "feature": "Break Management",
+      "city": "London"
+    },
+    "LATAM": {
+      "title": "Latin America Insights",
+      "description": "Tailored for LATAM cash-based economies and shift patterns",
+      "data": "30% Faster",
+      "feature": "OXXO Integration"
+    },
+    "APAC": {
+      "title": "Asia-Pacific Insights",
+      "description": "Designed for APAC mobile-first workforce management",
+      "data": "25% Growth",
+      "feature": "Mobile Workforce",
+      "city": "Singapore"
+    }
+  }
+}

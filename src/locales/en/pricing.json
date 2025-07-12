@@ -1,0 +1,42 @@
+{
+  "title": "Simple, transparent pricing",
+  "subtitle": "Choose the plan that works best for your business",
+  "starter": {
+    "title": "Starter",
+    "price": "$99",
+    "period": "/month",
+    "description": "Perfect for one location",
+    "features": [
+      "Inventory optimization",
+      "Basic analytics",
+      "Email support",
+      "Single location"
+    ]
+  },
+  "professional": {
+    "title": "Professional",
+    "price": "$250",
+    "period": "/month",
+    "description": "For up to 3 locations",
+    "features": [
+      "Advanced analytics",
+      "Priority support",
+      "AI recommendations",
+      "Up to 3 locations"
+    ],
+    "popular": "Most Popular"
+  },
+  "enterprise": {
+    "title": "Enterprise",
+    "price": "Custom",
+    "period": "",
+    "description": "For large businesses with complex needs",
+    "features": [
+      "Dedicated account manager",
+      "Custom integrations",
+      "24/7 support"
+    ]
+  },
+  "getStarted": "Get Started",
+  "contactSales": "Contact Sales"
+}

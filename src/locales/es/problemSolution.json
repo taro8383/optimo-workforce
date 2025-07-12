@@ -1,0 +1,37 @@
+{
+  "title": "Problemas que Resolvemos",
+  "subtitle": "Desafíos comunes en la gestión de personal en hostelería",
+  "problem": {
+    "title": "El Problema",
+    "overstaffing": "Exceso de personal en horas lentas",
+    "manualScheduling": "Programación manual que toma horas",
+    "highTurnover": "Altos costos de rotación de personal"
+  },
+  "solution": {
+    "title": "Nuestra Solución",
+    "aiPrediction": "IA predice el personal óptimo",
+    "automatedProcess": "Proceso de programación automatizado",
+    "improvedRetention": "Mejor retención de empleados"
+  },
+  "result": {
+    "title": "El Resultado",
+    "laborCosts": "23% menos en costos laborales",
+    "managerTime": "15 horas ahorradas semanalmente",
+    "hiringCosts": "40% menos en costos de contratación"
+  },
+  "beforeAfter": {
+    "title": "Antes y Después de Optimo",
+    "before": "Antes",
+    "after": "Después",
+    "beforeItems": {
+      "overstaffed": "Exceso o falta de personal",
+      "manual": "Programación manual",
+      "turnover": "Altas tasas de rotación"
+    },
+    "afterItems": {
+      "optimized": "Niveles de personal optimizados",
+      "automation": "Programación automatizada",
+      "happy": "Personal feliz y comprometido"
+    }
+  }
+}

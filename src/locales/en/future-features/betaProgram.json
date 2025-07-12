@@ -1,0 +1,20 @@
+{
+  "title": "Join Our Beta Program",
+  "subtitle": "Get early access to new features",
+  "benefitsTitle": "Beta Program Benefits",
+  "requirementsTitle": "Beta Program Requirements",
+  "apply": "Apply for Beta Access",
+  "availability": "Limited availability - apply now to secure your spot",
+  "benefits": [
+    "Early access to new features",
+    "Direct influence on product development",
+    "Priority support from our team",
+    "Beta-exclusive features"
+  ],
+  "requirements": [
+    "Active business account",
+    "Willingness to provide feedback",
+    "Minimum 3 months platform usage",
+    "Ability to test in production environment"
+  ]
+}

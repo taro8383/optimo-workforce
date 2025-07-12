@@ -2,9 +2,63 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Import translation files
-import enTranslations from './locales/en/translation.json';
-import esTranslations from './locales/es/translation.json';
+// Import English translations
+import enCommon from './locales/en/common.json';
+import enHero from './locales/en/hero.json';
+import enHeader from './locales/en/header.json';
+import enPricing from './locales/en/pricing.json';
+import enProblemSolution from './locales/en/problemSolution.json';
+import enSocialProof from './locales/en/socialProof.json';
+import enHowItWorks from './locales/en/howItWorks.json';
+import enTippingSpotlight from './locales/en/tippingSpotlight.json';
+import enGlobalIntelligence from './locales/en/globalIntelligence.json';
+import enFinalCTA from './locales/en/finalCTA.json';
+import enFooter from './locales/en/footer.json';
+import enFutureFeaturesHero from './locales/en/future-features/hero.json';
+import enFutureFeaturesRoadmap from './locales/en/future-features/roadmap.json';
+import enFutureFeaturesDetails from './locales/en/future-features/featureDetails.json';
+import enFutureFeaturesTitles from './locales/en/future-features/featureTitles.json';
+import enFutureFeaturesTimeline from './locales/en/future-features/featureTimeline.json';
+import enFutureFeaturesBeta from './locales/en/future-features/betaProgram.json';
+import enFutureFeaturesRequest from './locales/en/future-features/featureRequest.json';
+import enFutureFeaturesUI from './locales/en/future-features/ui.json';
+import enFutureFeaturesImpact from './locales/en/future-features/industryImpact.json';
+import enFutureFeaturesInventory from './locales/en/future-features/inventoryOptimization.json';
+import enFutureFeaturesAnalytics from './locales/en/future-features/businessAnalytics.json';
+import enFutureFeaturesFeedback from './locales/en/future-features/customerFeedback.json';
+import enFutureFeaturesManagement from './locales/en/future-features/customerManagement.json';
+import enFutureFeaturesAI from './locales/en/future-features/aiUpselling.json';
+import enFutureFeaturesPricing from './locales/en/future-features/dynamicPricing.json';
+import enFutureFeaturesTips from './locales/en/future-features/tipManagement.json';
+
+// Import Spanish translations
+import esCommon from './locales/es/common.json';
+import esHero from './locales/es/hero.json';
+import esHeader from './locales/es/header.json';
+import esPricing from './locales/es/pricing.json';
+import esProblemSolution from './locales/es/problemSolution.json';
+import esSocialProof from './locales/es/socialProof.json';
+import esHowItWorks from './locales/es/howItWorks.json';
+import esTippingSpotlight from './locales/es/tippingSpotlight.json';
+import esGlobalIntelligence from './locales/es/globalIntelligence.json';
+import esFinalCTA from './locales/es/finalCTA.json';
+import esFooter from './locales/es/footer.json';
+import esFutureFeaturesHero from './locales/es/future-features/hero.json';
+import esFutureFeaturesRoadmap from './locales/es/future-features/roadmap.json';
+import esFutureFeaturesDetails from './locales/es/future-features/featureDetails.json';
+import esFutureFeaturesTitles from './locales/es/future-features/featureTitles.json';
+import esFutureFeaturesTimeline from './locales/es/future-features/featureTimeline.json';
+import esFutureFeaturesBeta from './locales/es/future-features/betaProgram.json';
+import esFutureFeaturesRequest from './locales/es/future-features/featureRequest.json';
+import esFutureFeaturesUI from './locales/es/future-features/ui.json';
+import esFutureFeaturesImpact from './locales/es/future-features/industryImpact.json';
+import esFutureFeaturesInventory from './locales/es/future-features/inventoryOptimization.json';
+import esFutureFeaturesAnalytics from './locales/es/future-features/businessAnalytics.json';
+import esFutureFeaturesFeedback from './locales/es/future-features/customerFeedback.json';
+import esFutureFeaturesManagement from './locales/es/future-features/customerManagement.json';
+import esFutureFeaturesAI from './locales/es/future-features/aiUpselling.json';
+import esFutureFeaturesPricing from './locales/es/future-features/dynamicPricing.json';
+import esFutureFeaturesTips from './locales/es/future-features/tipManagement.json';
 
 // Initialize i18n
 i18n
@@ -12,8 +66,68 @@ i18n
   .use(initReactI18next)
   .init({
     resources: {
-      en: { translation: enTranslations },
-      es: { translation: esTranslations }
+      en: {
+        common: enCommon,
+        hero: enHero,
+        header: enHeader,
+        pricing: enPricing,
+        problemSolution: enProblemSolution,
+        socialProof: enSocialProof,
+        howItWorks: enHowItWorks,
+        tippingSpotlight: enTippingSpotlight,
+        globalIntelligence: enGlobalIntelligence,
+        finalCTA: enFinalCTA,
+        footer: enFooter,
+        futureFeatures: {
+          hero: enFutureFeaturesHero,
+          roadmap: enFutureFeaturesRoadmap,
+          featureDetails: enFutureFeaturesDetails,
+          featureTitles: enFutureFeaturesTitles,
+          featureTimeline: enFutureFeaturesTimeline,
+          betaProgram: enFutureFeaturesBeta,
+          featureRequest: enFutureFeaturesRequest,
+          ui: enFutureFeaturesUI,
+          industryImpact: enFutureFeaturesImpact,
+          inventoryOptimization: enFutureFeaturesInventory,
+          businessAnalytics: enFutureFeaturesAnalytics,
+          customerFeedback: enFutureFeaturesFeedback,
+          customerManagement: enFutureFeaturesManagement,
+          aiUpselling: enFutureFeaturesAI,
+          dynamicPricing: enFutureFeaturesPricing,
+          tipManagement: enFutureFeaturesTips
+        }
+      },
+      es: {
+        common: esCommon,
+        hero: esHero,
+        header: esHeader,
+        pricing: esPricing,
+        problemSolution: esProblemSolution,
+        socialProof: esSocialProof,
+        howItWorks: esHowItWorks,
+        tippingSpotlight: esTippingSpotlight,
+        globalIntelligence: esGlobalIntelligence,
+        finalCTA: esFinalCTA,
+        footer: esFooter,
+        futureFeatures: {
+          hero: esFutureFeaturesHero,
+          roadmap: esFutureFeaturesRoadmap,
+          featureDetails: esFutureFeaturesDetails,
+          featureTitles: esFutureFeaturesTitles,
+          featureTimeline: esFutureFeaturesTimeline,
+          betaProgram: esFutureFeaturesBeta,
+          featureRequest: esFutureFeaturesRequest,
+          ui: esFutureFeaturesUI,
+          industryImpact: esFutureFeaturesImpact,
+          inventoryOptimization: esFutureFeaturesInventory,
+          businessAnalytics: esFutureFeaturesAnalytics,
+          customerFeedback: esFutureFeaturesFeedback,
+          customerManagement: esFutureFeaturesManagement,
+          aiUpselling: esFutureFeaturesAI,
+          dynamicPricing: esFutureFeaturesPricing,
+          tipManagement: esFutureFeaturesTips
+        }
+      }
     },
     fallbackLng: 'en',
     interpolation: { 
@@ -27,11 +141,45 @@ i18n
     react: {
       useSuspense: false
     },
-    ns: ['translation'],
-    defaultNS: 'translation',
+    ns: [
+      'common',
+      'hero',
+      'header',
+      'pricing',
+      'problemSolution',
+      'socialProof',
+      'howItWorks',
+      'tippingSpotlight',
+      'globalIntelligence',
+      'finalCTA',
+      'footer',
+      'futureFeatures',
+      'futureFeatures:inventoryOptimization',
+      'futureFeatures:businessAnalytics',
+      'futureFeatures:customerFeedback',
+      'futureFeatures:customerManagement',
+      'futureFeatures:aiUpselling',
+      'futureFeatures:dynamicPricing',
+      'futureFeatures:tipManagement'
+    ],
+    defaultNS: 'common',
     keySeparator: '.',
     nsSeparator: ':',
-    returnObjects: true
+    returnObjects: false,
+    debug: process.env.NODE_ENV === 'development'
   });
+
+// Enable hot reload for translations in development
+if (process.env.NODE_ENV === 'development') {
+  const hot = (import.meta as any).hot;
+  if (hot) {
+    hot.accept([
+      './locales/en/footer.json',
+      './locales/es/footer.json'
+    ], () => {
+      i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
+    });
+  }
+}
 
 export default i18n;

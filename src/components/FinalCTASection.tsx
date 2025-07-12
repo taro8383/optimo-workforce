@@ -11,10 +11,10 @@ const FinalCTASection: React.FC = () => {
       <div className="absolute inset-0 bg-black opacity-10"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold mb-6">
-          {t('finalCTA.title')}
+          {t('finalCTA:title')}
         </h2>
         <p className="text-xl lg:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
-          {t('finalCTA.subtitle')}
+          {t('finalCTA:subtitle')}
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
@@ -23,36 +23,36 @@ const FinalCTASection: React.FC = () => {
             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3"
           >
             <Calculator size={24} />
-            {t('finalCTA.getAudit')}
+            {t('finalCTA:getAudit')}
           </button>
           <button 
             onClick={() => navigate('/contact')}
             className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-3"
           >
             <MessageCircle size={24} />
-            {t('finalCTA.talkToExpert')}
+            {t('finalCTA:talkToExpert')}
             <ArrowRight size={20} />
           </button>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold mb-2">30 Days</div>
-            <div className="text-blue-200">{t('finalCTA.features.freeTrial')}</div>
+            <div className="text-3xl font-bold mb-2">{t('finalCTA:features.freeTrial')}</div>
+            <div className="text-blue-200">{t('finalCTA:features.freeTrialDesc')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold mb-2">5 {t('finalCTA.features.minutes')}</div>
-            <div className="text-blue-200">{t('finalCTA.features.setupTime')}</div>
+            <div className="text-3xl font-bold mb-2">{t('finalCTA:features.minutes')}</div>
+            <div className="text-blue-200">{t('finalCTA:features.setupTime')}</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold mb-2">20%+</div>
-            <div className="text-blue-200">{t('finalCTA.features.guaranteedSavings')}</div>
+            <div className="text-3xl font-bold mb-2">{t('finalCTA:features.guaranteedSavings')}</div>
+            <div className="text-blue-200">{t('finalCTA:features.savingsDesc')}</div>
           </div>
         </div>
 
         <div className="mt-12 text-center">
           <p className="text-blue-200 text-lg">
-            {t('finalCTA.disclaimer')}
+            {t('finalCTA:disclaimer')}
           </p>
         </div>
       </div>

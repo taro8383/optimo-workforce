@@ -1,0 +1,18 @@
+{
+  "title": "¿Tienes una idea para una función?",
+  "description": "Mejoramos constantemente nuestra plataforma basándonos en comentarios de clientes. Comparte tus ideas con nuestro equipo de producto.",
+  "contactProductTeam": "Contactar al Equipo de Producto",
+  "submitFeatureRequest": "Enviar Solicitud de Función",
+  "badges": {
+    "new": "Nuevo",
+    "popular": "Popular", 
+    "comingSoon": "Próximamente",
+    "beta": "Beta"
+  },
+  "stats": {
+    "featureRequests": "Solicitudes de Funciones",
+    "implementationRate": "Tasa de Implementación",
+    "betaTesters": "Probadores Beta",
+    "development": "Desarrollo Continuo"
+  }
+}

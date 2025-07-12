@@ -47,96 +47,87 @@ const FutureFeaturesPage: React.FC = () => {
   const { t } = useTranslation();
   const [activeFeature, setActiveFeature] = useState(0);
 
+  const getTranslatedArray = (key: string): string[] => {
+    const result = t(key, { returnObjects: true });
+    return Array.isArray(result) ? result as string[] : [];
+  };
+
   const features = [
     {
-      title: 'Inventory Optimization',
+      title: t('futureFeatures:featureTitles.InventoryOptimization'),
       status: 'comingSoon',
       statusColor: 'bg-yellow-500',
       icon: Package,
-      description: t('futureFeatures.features.inventoryOptimization.description'),
-      benefits: Array.isArray(t('futureFeatures.features.inventoryOptimization.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.inventoryOptimization.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.inventoryOptimization.timeline'),
-      impact: t('futureFeatures.features.inventoryOptimization.impact'),
+      description: t('futureFeatures:inventoryOptimization.description') as string,
+      benefits: getTranslatedArray('futureFeatures:inventoryOptimization.benefits'),
+      timeline: t('futureFeatures:inventoryOptimization.timeline') as string,
+      impact: t('futureFeatures:inventoryOptimization.impact') as string,
       color: 'from-yellow-500 to-orange-500'
     },
     {
-      title: 'Business Analytics',
+      title: t('futureFeatures:featureTitles.BusinessAnalytics'),
       status: 'inDevelopment',
       statusColor: 'bg-blue-500',
       icon: BarChart3,
-      description: t('futureFeatures.features.businessAnalytics.description'),
-      benefits: Array.isArray(t('futureFeatures.features.businessAnalytics.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.businessAnalytics.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.businessAnalytics.timeline'),
-      impact: t('futureFeatures.features.businessAnalytics.impact'),
+      description: t('futureFeatures:businessAnalytics.description') as string,
+      benefits: getTranslatedArray('futureFeatures:businessAnalytics.benefits'),
+      timeline: t('futureFeatures:businessAnalytics.timeline') as string,
+      impact: t('futureFeatures:businessAnalytics.impact') as string,
       color: 'from-blue-500 to-purple-500'
     },
     {
-      title: 'Customer Feedback',
+      title: t('futureFeatures:featureTitles.CustomerFeedback'),
       status: 'betaTesting',
       statusColor: 'bg-green-500',
       icon: MessageSquare,
-      description: t('futureFeatures.features.customerFeedback.description'),
-      benefits: Array.isArray(t('futureFeatures.features.customerFeedback.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.customerFeedback.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.customerFeedback.timeline'),
-      impact: t('futureFeatures.features.customerFeedback.impact'),
+      description: t('futureFeatures:customerFeedback.description') as string,
+      benefits: getTranslatedArray('futureFeatures:customerFeedback.benefits'),
+      timeline: t('futureFeatures:customerFeedback.timeline') as string,
+      impact: t('futureFeatures:customerFeedback.impact') as string,
       color: 'from-green-500 to-teal-500'
     },
     {
-      title: 'Customer Management',
+      title: t('futureFeatures:featureTitles.CustomerManagement'),
       status: 'planning',
       statusColor: 'bg-purple-500',
       icon: Heart,
-      description: t('futureFeatures.features.customerManagement.description'),
-      benefits: Array.isArray(t('futureFeatures.features.customerManagement.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.customerManagement.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.customerManagement.timeline'),
-      impact: t('futureFeatures.features.customerManagement.impact'),
+      description: t('futureFeatures:customerManagement.description') as string,
+      benefits: getTranslatedArray('futureFeatures:customerManagement.benefits'),
+      timeline: t('futureFeatures:customerManagement.timeline') as string,
+      impact: t('futureFeatures:customerManagement.impact') as string,
       color: 'from-purple-500 to-pink-500'
     },
     {
-      title: 'AI Upselling',
+      title: t('futureFeatures:featureTitles.AIUpselling'),
       status: 'research',
       statusColor: 'bg-indigo-500',
       icon: TrendingUp,
-      description: t('futureFeatures.features.aiUpselling.description'),
-      benefits: Array.isArray(t('futureFeatures.features.aiUpselling.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.aiUpselling.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.aiUpselling.timeline'),
-      impact: t('futureFeatures.features.aiUpselling.impact'),
+      description: t('futureFeatures:aiUpselling.description') as string,
+      benefits: getTranslatedArray('futureFeatures:aiUpselling.benefits'),
+      timeline: t('futureFeatures:aiUpselling.timeline') as string,
+      impact: t('futureFeatures:aiUpselling.impact') as string,
       color: 'from-indigo-500 to-blue-600'
     },
     {
-      title: 'Dynamic Pricing',
+      title: t('futureFeatures:featureTitles.DynamicPricing'),
       status: 'research',
       statusColor: 'bg-red-500',
       icon: DollarSign,
-      description: t('futureFeatures.features.dynamicPricing.description'),
-      benefits: Array.isArray(t('futureFeatures.features.dynamicPricing.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.dynamicPricing.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.dynamicPricing.timeline'),
-      impact: t('futureFeatures.features.dynamicPricing.impact'),
+      description: t('futureFeatures:dynamicPricing.description') as string,
+      benefits: getTranslatedArray('futureFeatures:dynamicPricing.benefits'),
+      timeline: t('futureFeatures:dynamicPricing.timeline') as string,
+      impact: t('futureFeatures:dynamicPricing.impact') as string,
       color: 'from-red-500 to-orange-600'
     },
     {
-      title: 'Tip Management',
+      title: t('futureFeatures:featureTitles.TipManagement'),
       status: 'concept',
       statusColor: 'bg-teal-500',
       icon: Award,
-      description: t('futureFeatures.features.tipManagement.description'),
-      benefits: Array.isArray(t('futureFeatures.features.tipManagement.benefits', { returnObjects: true })) 
-        ? t('futureFeatures.features.tipManagement.benefits', { returnObjects: true }) as string[]
-        : [],
-      timeline: t('futureFeatures.features.tipManagement.timeline'),
-      impact: t('futureFeatures.features.tipManagement.impact'),
+      description: t('futureFeatures:tipManagement.description') as string,
+      benefits: getTranslatedArray('futureFeatures:tipManagement.benefits'),
+      timeline: t('futureFeatures:tipManagement.timeline') as string,
+      impact: t('futureFeatures:tipManagement.impact') as string,
       color: 'from-teal-500 to-green-600'
     }
   ];
@@ -151,18 +142,18 @@ const FutureFeaturesPage: React.FC = () => {
   };
 
   const roadmapStats = [
-    { number: '7', label: t('futureFeatures.roadmap.stats.features'), icon: Rocket },
-    { number: '2025', label: t('futureFeatures.roadmap.stats.launchYear'), icon: Calendar },
-    { number: '12', label: t('futureFeatures.roadmap.stats.timeline'), icon: Clock },
-    { number: '40%', label: t('futureFeatures.roadmap.stats.efficiency'), icon: TrendingUp }
+    { number: '7', label: t('futureFeatures:roadmap.stats.features'), icon: Rocket },
+    { number: '2025', label: t('futureFeatures:roadmap.stats.launchYear'), icon: Calendar },
+    { number: '12', label: t('futureFeatures:roadmap.stats.timeline'), icon: Clock },
+    { number: '40%', label: t('futureFeatures:roadmap.stats.efficiency'), icon: TrendingUp }
   ];
 
   const betaProgram = {
-    benefits: Array.isArray(t('futureFeatures.betaProgram.benefits', { returnObjects: true })) 
-      ? t('futureFeatures.betaProgram.benefits', { returnObjects: true }) as string[]
+    benefits: Array.isArray(t('futureFeatures:betaProgram.benefits', { returnObjects: true })) 
+      ? t('futureFeatures:betaProgram.benefits', { returnObjects: true }) as string[]
       : [],
-    requirements: Array.isArray(t('futureFeatures.betaProgram.requirements', { returnObjects: true })) 
-      ? t('futureFeatures.betaProgram.requirements', { returnObjects: true }) as string[]
+    requirements: Array.isArray(t('futureFeatures:betaProgram.requirements', { returnObjects: true })) 
+      ? t('futureFeatures:betaProgram.requirements', { returnObjects: true }) as string[]
       : []
   };
 
@@ -177,19 +168,19 @@ const FutureFeaturesPage: React.FC = () => {
               <Rocket size={48} className="text-white" />
             </div>
             <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-              {t('futureFeatures.hero.title')}
+              {t('futureFeatures:hero.title')}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
-              {t('futureFeatures.hero.subtitle')}
+              {t('futureFeatures:hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
 <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
   <Lightbulb size={24} />
-  {t('futureFeatures.betaProgram.apply')}
+              {t('futureFeatures:betaProgram.apply')}
 </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Mail size={24} />
-                {t('common.requestFeature')}
+              {t('common:requestFeature')}
               </button>
             </div>
           </div>
@@ -201,10 +192,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              {t('futureFeatures.roadmap.title')}
+              {t('futureFeatures:roadmap.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('futureFeatures.roadmap.subtitle')}
+              {t('futureFeatures:roadmap.subtitle')}
             </p>
           </div>
 
@@ -225,7 +216,7 @@ const FutureFeaturesPage: React.FC = () => {
 
           {/* Timeline Visualization */}
           <div className="bg-white rounded-2xl p-8 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Feature Timeline</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">{t('futureFeatures:featureTimeline.title')}</h3>
             <div className="relative">
               <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gray-300"></div>
               
@@ -242,7 +233,7 @@ const FutureFeaturesPage: React.FC = () => {
                             </div>
                             <div>
                               <div className={`inline-block px-3 py-1 rounded-full text-white text-sm font-semibold ${feature.statusColor} mb-2`}>
-                                {t(`futureFeatures.featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
+                              {t(`futureFeatures:featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
                               </div>
                               <div className="text-lg font-bold text-gray-900">{feature.timeline}</div>
                             </div>
@@ -270,10 +261,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              {t('futureFeatures.featureDetails.title')}
+              {t('futureFeatures:featureDetails.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('futureFeatures.featureDetails.subtitle')}
+              {t('futureFeatures:featureDetails.subtitle')}
             </p>
           </div>
 
@@ -292,7 +283,7 @@ const FutureFeaturesPage: React.FC = () => {
           : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
       }`}
     >
-      {t(`futureFeatures.featureTitles.${translationKey}`)}
+                              {t(`futureFeatures:featureTitles.${translationKey}`)}
     </button>
   );
 })}
@@ -313,10 +304,10 @@ const FutureFeaturesPage: React.FC = () => {
                           </div>
                           <div>
                             <div className={`inline-block px-4 py-2 rounded-full text-white text-sm font-semibold ${feature.statusColor} mb-2`}>
-                              {t(`futureFeatures.featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
+                              {t(`futureFeatures:featureTimeline.statuses.${feature.status.toLowerCase().replace(' ', '')}`)}
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900">
-                              {t(`futureFeatures.featureTitles.${featureKeyMap[feature.title] || feature.title.replace(/\s+/g, '')}`)}
+                              {t(`futureFeatures:featureTitles.${featureKeyMap[feature.title] || feature.title.replace(/\s+/g, '')}`)}
                             </h3>
                           </div>
                         </div>
@@ -324,18 +315,18 @@ const FutureFeaturesPage: React.FC = () => {
                         
                         <div className="grid grid-cols-2 gap-4 mb-6">
                           <div className="bg-white rounded-lg p-4">
-                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures.featureDetails.timeline')}</div>
+                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures:featureDetails.timeline')}</div>
                             <div className="text-lg font-bold text-gray-900">{feature.timeline}</div>
                           </div>
                           <div className="bg-white rounded-lg p-4">
-                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures.featureDetails.expectedImpact')}</div>
+                            <div className="text-sm text-gray-500 mb-1">{t('futureFeatures:featureDetails.expectedImpact')}</div>
                             <div className="text-lg font-bold text-secondary">{feature.impact}</div>
                           </div>
                         </div>
                       </div>
 
                       <div className="bg-white rounded-lg p-6 shadow-md">
-                        <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('futureFeatures.featureDetails.keyBenefits')}:</h4>
+                        <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('futureFeatures:featureDetails.keyBenefits')}:</h4>
                         <div className="space-y-3">
                           {feature.benefits.map((benefit, benefitIndex) => (
                             <div key={benefitIndex} className="flex items-start gap-3">
@@ -359,10 +350,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              {t('futureFeatures.betaProgram.title')}
+              {t('futureFeatures:betaProgram.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('futureFeatures.betaProgram.subtitle')}
+              {t('futureFeatures:betaProgram.subtitle')}
             </p>
           </div>
 
@@ -372,7 +363,7 @@ const FutureFeaturesPage: React.FC = () => {
                 <div className="w-16 h-16 bg-secondary bg-opacity-10 rounded-full flex items-center justify-center">
                   <Star size={32} className="text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures.betaProgram.benefitsTitle')}</h3>
+                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures:betaProgram.benefitsTitle')}</h3>
               </div>
               
               <div className="space-y-4">
@@ -390,7 +381,7 @@ const FutureFeaturesPage: React.FC = () => {
                 <div className="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center">
                   <Target size={32} className="text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures.betaProgram.requirementsTitle')}</h3>
+                <h3 className="text-2xl font-bold text-gray-900">{t('futureFeatures:betaProgram.requirementsTitle')}</h3>
               </div>
               
               <div className="space-y-4">
@@ -407,10 +398,10 @@ const FutureFeaturesPage: React.FC = () => {
           <div className="text-center mt-12">
             <button className="bg-primary hover:bg-blue-600 text-white px-12 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 mx-auto">
               <Rocket size={24} />
-              {t('futureFeatures.betaProgram.apply')}
+              {t('futureFeatures:betaProgram.apply')}
             </button>
             <p className="text-gray-600 mt-4">
-              {t('futureFeatures.betaProgram.availability')}
+              {t('futureFeatures:betaProgram.availability')}
             </p>
           </div>
         </div>
@@ -424,19 +415,19 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
                 <Lightbulb size={40} />
               </div>
-              <h3 className="text-3xl font-bold mb-4">{t('futureFeatures.featureRequest.title')}</h3>
+              <h3 className="text-3xl font-bold mb-4">{t('futureFeatures:featureRequest.title')}</h3>
               <p className="text-xl text-blue-100 mb-8 max-w-4xl mx-auto">
-                {t('futureFeatures.featureRequest.description')}
+                {t('futureFeatures:featureRequest.description')}
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
 <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
   <Mail size={24} />
-  {t('futureFeatures.ui.contactProductTeam')}
+  {t('futureFeatures:ui.contactProductTeam')}
 </button>
 <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
   <FileText size={24} />
-  {t('futureFeatures.ui.submitFeatureRequest')}
+  {t('futureFeatures:ui.submitFeatureRequest')}
   <ArrowRight size={20} />
 </button>
               </div>
@@ -444,19 +435,19 @@ const FutureFeaturesPage: React.FC = () => {
 <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
   <div className="text-center">
     <div className="text-3xl font-bold mb-2">500+</div>
-    <div className="text-blue-200">{t('futureFeatures.ui.featureRequests')}</div>
+    <div className="text-blue-200">{t('futureFeatures:ui.featureRequests')}</div>
   </div>
   <div className="text-center">
     <div className="text-3xl font-bold mb-2">85%</div>
-    <div className="text-blue-200">{t('futureFeatures.ui.implementationRate')}</div>
+    <div className="text-blue-200">{t('futureFeatures:ui.implementationRate')}</div>
   </div>
   <div className="text-center">
     <div className="text-3xl font-bold mb-2">50+</div>
-    <div className="text-blue-200">{t('futureFeatures.ui.betaTesters')}</div>
+    <div className="text-blue-200">{t('futureFeatures:ui.betaTesters')}</div>
   </div>
   <div className="text-center">
     <div className="text-3xl font-bold mb-2">24/7</div>
-    <div className="text-blue-200">{t('futureFeatures.ui.development')}</div>
+    <div className="text-blue-200">{t('futureFeatures:ui.development')}</div>
   </div>
 </div>
             </div>
@@ -469,10 +460,10 @@ const FutureFeaturesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                {t('futureFeatures.industryImpact.title')}
+                {t('futureFeatures:industryImpact.title')}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                {t('futureFeatures.industryImpact.subtitle')}
+                {t('futureFeatures:industryImpact.subtitle')}
               </p>
           </div>
 
@@ -481,18 +472,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-green-100 mb-6">
                 <Utensils size={40} className="text-green-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.restaurants.title')}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures:industryImpact.restaurants.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.foodWaste')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.restaurants.metrics.foodWaste')}</span>
                   <span className="font-bold text-green-600">35%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.revenueIncrease')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.restaurants.metrics.revenueIncrease')}</span>
                   <span className="font-bold text-green-600">18%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.restaurants.metrics.customerSatisfaction')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.restaurants.metrics.customerSatisfaction')}</span>
                   <span className="font-bold text-green-600">25%</span>
                 </div>
               </div>
@@ -502,18 +493,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 mb-6">
                 <Building2 size={40} className="text-blue-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.hotels.title')}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures:industryImpact.hotels.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.operationalEfficiency')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.operationalEfficiency')}</span>
                   <span className="font-bold text-blue-600">40%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.guestExperience')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.guestExperience')}</span>
                   <span className="font-bold text-blue-600">30%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.hotels.metrics.staffRetention')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.staffRetention')}</span>
                   <span className="font-bold text-blue-600">45%</span>
                 </div>
               </div>
@@ -523,18 +514,18 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-yellow-100 mb-6">
                 <Coffee size={40} className="text-yellow-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures.industryImpact.cafes.title')}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('futureFeatures:industryImpact.cafes.title')}</h3>
               <div className="space-y-3">
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.inventoryAccuracy')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.cafes.metrics.inventoryAccuracy')}</span>
                   <span className="font-bold text-yellow-600">90%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.profitMargins')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.cafes.metrics.profitMargins')}</span>
                   <span className="font-bold text-yellow-600">22%</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-600">{t('futureFeatures.industryImpact.cafes.metrics.orderAccuracy')}</span>
+                  <span className="text-gray-600">{t('futureFeatures:industryImpact.cafes.metrics.orderAccuracy')}</span>
                   <span className="font-bold text-yellow-600">95%</span>
                 </div>
               </div>

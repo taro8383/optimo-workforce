@@ -1,0 +1,16 @@
+{
+  "title": "Interfaz de Usuario",
+  "description": "Mejoras planeadas para la experiencia del usuario",
+  "themes": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "accessibility": "Accesibilidad",
+  "contactProductTeam": "Contactar al Equipo de Producto",
+  "submitFeatureRequest": "Enviar Solicitud de Función",
+  "featureRequests": "Solicitudes de Funciones",
+  "implementationRate": "Tasa de Implementación",
+  "betaTesters": "Probadores Beta",
+  "development": "Desarrollo Continuo"
+}

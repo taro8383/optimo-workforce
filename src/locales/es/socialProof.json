@@ -1,0 +1,32 @@
+{
+  "title": "Confiado por Líderes de la Industria",
+  "subtitle": "Únase a miles de negocios transformando su gestión de personal",
+  "testimonial1": {
+    "author": "María Rodríguez",
+    "position": "Dueña, La Casa Mexicana",
+    "text": "Optimo redujo nuestros costos laborales en 23% mientras mejoraba la satisfacción del personal. ¡Solo la programación con IA me ahorra 15 horas a la semana!"
+  },
+  "testimonial2": {
+    "author": "Kevin Lim",
+    "position": "Gerente de Operaciones, Golden Dragon",
+    "text": "Desde que implementamos Optimo, nuestras propinas aumentaron 22% y logramos 100% de cumplimiento en todas las ubicaciones."
+  },
+  "metrics": {
+    "costReduction": "Reducción de Costos Laborales",
+    "timeSaved": "Tiempo Ahorrado Semanalmente",
+    "staffSatisfaction": "Satisfacción del Personal",
+    "higherTips": "Propinas Más Altas",
+    "compliance": "Tasa de Cumplimiento",
+    "locations": "Ubicaciones Gestionadas"
+  },
+  "benchmarks": {
+    "title": "Puntos de Referencia de Rendimiento",
+    "laborCost": "Costo Laboral % de Ingresos",
+    "turnoverRate": "Tasa de Rotación de Personal",
+    "schedulingTime": "Tiempo de Programación Semanal",
+    "industry": "Promedio de la Industria",
+    "improvement": "Mejora",
+    "reduction": "Reducción",
+    "saved": "Ahorrado Semanalmente"
+  }
+}

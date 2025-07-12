@@ -1,0 +1,20 @@
+{
+  "title": "Únete a Nuestro Programa Beta",
+  "subtitle": "Obtén acceso anticipado a nuevas funciones",
+  "benefitsTitle": "Beneficios del Programa Beta",
+  "requirementsTitle": "Requisitos del Programa Beta",
+  "apply": "Solicitar Acceso Beta",
+  "availability": "Disponibilidad limitada - solicita ahora para asegurar tu lugar",
+  "benefits": [
+    "Acceso anticipado a nuevas funciones",
+    "Influencia directa en el desarrollo del producto",
+    "Soporte prioritario de nuestro equipo",
+    "Funciones exclusivas para beta testers"
+  ],
+  "requirements": [
+    "Cuenta de negocio activa",
+    "Disposición para proporcionar feedback",
+    "Mínimo 3 meses de uso de la plataforma",
+    "Capacidad para probar en entorno de producción"
+  ]
+}

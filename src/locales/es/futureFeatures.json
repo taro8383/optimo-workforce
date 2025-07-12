@@ -1,0 +1,183 @@
+{
+  "hero": {
+    "title": "Hoja de ruta de futuras funciones",
+    "subtitle": "Descubre lo que viene para ayudar a tu negocio a crecer"
+  },
+  "roadmap": {
+    "title": "Nuestra hoja de ruta de desarrollo",
+    "subtitle": "Planificación transparente para el máximo impacto empresarial",
+    "stats": {
+      "features": "Funciones planificadas",
+      "launchYear": "Año de lanzamiento objetivo",
+      "timeline": "Cronología en meses", 
+      "efficiency": "Ganancia de eficiencia"
+    }
+  },
+  "featureDetails": {
+    "title": "Detalles de la función",
+    "subtitle": "Profundiza en las próximas capacidades",
+    "keyBenefits": "Beneficios clave",
+    "timeline": "Cronología",
+    "expectedImpact": "Impacto esperado"
+  },
+  "featureTitles": {
+    "InventoryOptimization": "Optimización de inventario",
+    "BusinessAnalytics": "Análisis empresarial",
+    "CustomerFeedback": "Comentarios de clientes",
+    "CustomerManagement": "Gestión de clientes",
+    "AIUpselling": "Venta adicional con IA",
+    "DynamicPricing": "Precios dinámicos",
+    "TipManagement": "Gestión de propinas"
+  },
+  "featureTimeline": {
+    "statuses": {
+      "comingsoon": "Próximamente",
+      "indevelopment": "En desarrollo",
+      "betatesting": "Pruebas beta",
+      "planning": "Planificación",
+      "research": "Investigación",
+      "concept": "Concepto"
+    }
+  },
+  "betaProgram": {
+    "title": "Únete a nuestro programa beta",
+    "subtitle": "Obtén acceso anticipado a nuevas funciones",
+    "benefitsTitle": "Beneficios del programa beta",
+    "requirementsTitle": "Requisitos del programa beta",
+    "apply": "Solicitar acceso beta",
+    "availability": "Disponibilidad limitada - solicita ahora para asegurar tu lugar",
+    "benefits": [
+      "Acceso anticipado a nuevas funciones",
+      "Influencia directa en el desarrollo del producto",
+      "Soporte prioritario de nuestro equipo",
+      "Funciones exclusivas para beta"
+    ],
+    "requirements": [
+      "Cuenta comercial activa",
+      "Disposición para proporcionar comentarios",
+      "Mínimo 3 meses de uso de la plataforma",
+      "Capacidad para probar en entorno de producción"
+    ]
+  },
+  "featureRequest": {
+    "title": "¿Tienes una idea para una función?",
+    "description": "Estamos mejorando constantemente nuestra plataforma basándonos en los comentarios de los clientes. Comparte tus ideas con nuestro equipo de producto.",
+    "contactProductTeam": "Contactar al equipo de producto",
+    "submitFeatureRequest": "Enviar solicitud de función"
+  },
+  "ui": {
+    "contactProductTeam": "Contactar al equipo de producto",
+    "submitFeatureRequest": "Enviar solicitud de función",
+    "featureRequests": "Solicitudes de funciones",
+    "implementationRate": "Tasa de implementación",
+    "betaTesters": "Probadores beta",
+    "development": "Desarrollo"
+  },
+  "industryImpact": {
+    "title": "Impacto en la industria",
+    "subtitle": "Mejoras proyectadas en métricas clave",
+    "restaurants": {
+      "title": "Restaurantes",
+      "metrics": {
+        "foodWaste": "Reducción de desperdicio de alimentos",
+        "revenueIncrease": "Aumento de ingresos",
+        "customerSatisfaction": "Aumento de satisfacción del cliente"
+      }
+    },
+    "hotels": {
+      "title": "Hoteles",
+      "metrics": {
+        "operationalEfficiency": "Ganancia de eficiencia operativa",
+        "guestExperience": "Mejora de experiencia de huéspedes",
+        "staffRetention": "Aumento de retención de personal"
+      }
+    },
+    "cafes": {
+      "title": "Cafeterías",
+      "metrics": {
+        "inventoryAccuracy": "Precisión de inventario",
+        "profitMargins": "Aumento de margen de ganancia",
+        "orderAccuracy": "Precisión de pedidos"
+      }
+    }
+  },
+  "features": {
+    "inventoryOptimization": {
+      "description": "Seguimiento automatizado de inventario y pedidos predictivos para reducir desperdicios y optimizar niveles de stock.",
+      "benefits": [
+        "Reducir desperdicio de alimentos hasta 35%",
+        "Pedidos automatizados a proveedores",
+        "Seguimiento de inventario en tiempo real",
+        "Análisis predictivo de demanda"
+      ],
+      "timeline": "Q3 2025",
+      "impact": "35% reducción en costos de alimentos"
+    },
+    "businessAnalytics": {
+      "description": "Informes y análisis avanzados para descubrir información empresarial y oportunidades.",
+      "benefits": [
+        "Paneles personalizables",
+        "Métricas de rendimiento en tiempo real",
+        "Evaluación comparativa competitiva",
+        "Información procesable"
+      ],
+      "timeline": "Q4 2025",
+      "impact": "18% crecimiento de ingresos"
+    },
+    "customerFeedback": {
+      "description": "Sistema integrado de comentarios de clientes para capturar y analizar la satisfacción de los invitados.",
+      "benefits": [
+        "Recolección de comentarios en tiempo real",
+        "Análisis de sentimiento",
+        "Seguimientos automatizados",
+        "Gestión de reseñas"
+      ],
+      "timeline": "Q2 2025",
+      "impact": "25% aumento de satisfacción"
+    },
+    "customerManagement": {
+      "description": "CRM completo para fomentar la lealtad del cliente y aumentar los negocios recurrentes.",
+      "benefits": [
+        "Perfiles de clientes",
+        "Integración con programas de fidelidad",
+        "Marketing personalizado",
+        "Seguimiento de historial de visitas"
+      ],
+      "timeline": "Q1 2026",
+      "impact": "30% negocios recurrentes"
+    },
+    "aiUpselling": {
+      "description": "Sugerencias impulsadas por IA para aumentar el valor promedio del pedido y la satisfacción del cliente.",
+      "benefits": [
+        "Recomendaciones personalizadas",
+        "Sugerencias de menú dinámico",
+        "Indicaciones para el personal",
+        "Seguimiento de rendimiento"
+      ],
+      "timeline": "Q3 2026",
+      "impact": "22% aumento en valor de pedido"
+    },
+    "dynamicPricing": {
+      "description": "Ajustes de precios automatizados basados en demanda, inventario y otros factores.",
+      "benefits": [
+        "Precios basados en demanda",
+        "Ajustes impulsados por inventario",
+        "Posicionamiento competitivo",
+        "Actualizaciones en tiempo real"
+      ],
+      "timeline": "Q4 2026",
+      "impact": "18% mejora de margen"
+    },
+    "tipManagement": {
+      "description": "Solución integral para rastrear, distribuir e informar sobre propinas.",
+      "benefits": [
+        "Distribución automatizada",
+        "Cumplimiento fiscal",
+        "Seguimiento de rendimiento del personal",
+        "Panel de informes"
+      ],
+      "timeline": "Q2 2026",
+      "impact": "45% satisfacción del personal"
+    }
+  }
+}

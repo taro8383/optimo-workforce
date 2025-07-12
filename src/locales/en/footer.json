@@ -1,0 +1,34 @@
+{
+  "newsletterTitle": "Newsletter",
+  "newsletter": {
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "product": {
+    "title": "Product"
+  },
+  "solutions": {
+    "title": "Solutions"
+  },
+  "resources": {
+    "title": "Resources"
+  },
+  "company": {
+    "title": "Company"
+  },
+  "features": "Features",
+  "integrations": "Integrations",
+  "futureFeatures": "Future Features",
+  "security": "Security",
+  "restaurants": "Restaurants",
+  "hotels": "Hotels",
+  "cafes": "Cafés",
+  "faq": "FAQ",
+  "roiCalculator": "ROI Calculator",
+  "about": "About Us",
+  "contact": "Contact Us",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "cookies": "Cookie Policy",
+  "rights": "All Rights Reserved"
+}

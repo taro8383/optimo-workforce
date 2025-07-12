@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown, Globe } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 
 interface HeaderProps {
   currentPage: string;
   setCurrentPage: (page: string) => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
-  const { t, i18n } = useTranslation();
+const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isProductOpen, setIsProductOpen] = useState(false);
   const [isResourcesOpen, setIsResourcesOpen] = useState(false);
@@ -81,7 +80,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 currentPage === 'home' ? 'text-primary' : 'text-gray-700 hover:text-primary'
               }`}
             >
-              {t('header.features')}
+              {t('header:features')}
             </button>
             
             {/* Product Dropdown */}
@@ -90,7 +89,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 onClick={toggleProduct}
                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
               >
-                {t('header.product')}
+                {t('header:product')}
                 <ChevronDown size={16} className={`transition-transform ${isProductOpen ? 'rotate-180' : ''}`} />
               </button>
               {isProductOpen && (
@@ -101,7 +100,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'future-features' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.futureFeatures')}
+                    {t('header:futureFeatures')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('integrations')}
@@ -109,7 +108,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'integrations' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.integrations')}
+                    {t('header:integrations')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('security')}
@@ -117,7 +116,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'security' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.security')}
+                    {t('header:security')}
                   </button>
                 </div>
               )}
@@ -129,7 +128,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 onClick={toggleSolutions}
                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
               >
-                {t('header.solutions')}
+                {t('header:solutions')}
                 <ChevronDown size={16} className={`transition-transform ${isSolutionsOpen ? 'rotate-180' : ''}`} />
               </button>
               {isSolutionsOpen && (
@@ -140,7 +139,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'restaurants' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.restaurants')}
+                    {t('header:restaurants')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('hotels')}
@@ -148,7 +147,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'hotels' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.hotels')}
+                    {t('header:hotels')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('cafes')}
@@ -156,7 +155,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'cafes' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.cafes')}
+                    {t('header:cafes')}
                   </button>
                 </div>
               )}
@@ -168,7 +167,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 onClick={toggleResources}
                 className="flex items-center gap-1 text-gray-700 hover:text-primary transition-colors font-medium"
               >
-                {t('header.resources')}
+                {t('header:resources')}
                 <ChevronDown size={16} className={`transition-transform ${isResourcesOpen ? 'rotate-180' : ''}`} />
               </button>
               {isResourcesOpen && (
@@ -179,7 +178,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'faq' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.faq')}
+                  {t('header:faq')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('roi-calculator')}
@@ -187,7 +186,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'roi-calculator' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.roiCalculator')}
+                  {t('header:roiCalculator')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('newsletter')}
@@ -195,7 +194,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'newsletter' ? 'text-primary bg-blue-50' : 'text-gray-700 hover:text-primary'
                     }`}
                   >
-                    {t('header.newsletter')}
+                  {t('header:newsletter')}
                   </button>
                 </div>
               )}
@@ -206,7 +205,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                {t('header.aboutUs')}
+                {t('header:aboutUs')}
               </button>
             <button 
               onClick={() => handleNavigation('contact')}
@@ -214,7 +213,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                 currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
               }`}
             >
-              {t('header.contact')}
+              {t('header:contact')}
             </button>
           </nav>
 
@@ -257,7 +256,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
             </div>
 
             <button className="bg-primary hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              {t('header.getStarted')}
+              {t('header:getStarted')}
             </button>
           </div>
 
@@ -280,10 +279,10 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'home' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                {t('header.features')}
+                {t('header:features')}
               </button>
               <div className="space-y-2">
-                <div className="text-gray-700 font-medium">{t('header.solutions')}</div>
+                <div className="text-gray-700 font-medium">{t('header:solutions')}</div>
                 <div className="pl-4 space-y-2">
                   <button 
                     onClick={() => handleNavigation('restaurants')}
@@ -291,7 +290,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'restaurants' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.restaurants')}
+                    {t('header:restaurants')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('hotels')}
@@ -299,7 +298,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'hotels' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.hotels')}
+                    {t('header:hotels')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('cafes')}
@@ -307,7 +306,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'cafes' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.cafes')}
+                    {t('header:cafes')}
                   </button>
                 </div>
               </div>
@@ -317,7 +316,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'future-features' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                {t('header.futureFeatures')}
+                {t('header:futureFeatures')}
               </button>
               <div className="space-y-2">
                 <div className="text-gray-700 font-medium">{t('header.resources')}</div>
@@ -334,7 +333,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'faq' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.faq')}
+                    {t('header:faq')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('roi-calculator')}
@@ -342,7 +341,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'roi-calculator' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.roiCalculator')}
+                    {t('header:roiCalculator')}
                   </button>
                   <a href="#webinars" className="block text-gray-600 hover:text-primary">
                     Webinars
@@ -353,7 +352,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                       currentPage === 'newsletter' ? 'text-primary' : 'text-gray-600 hover:text-primary'
                     }`}
                   >
-                    {t('header.newsletter')}
+                    {t('header:newsletter')}
                   </button>
                   <button 
                     onClick={() => handleNavigation('future-features')}
@@ -371,7 +370,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'about' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                {t('header.aboutUs')}
+                {t('header:aboutUs')}
               </button>
               <button 
                 onClick={() => handleNavigation('contact')}
@@ -379,12 +378,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
                   currentPage === 'contact' ? 'text-primary' : 'text-gray-700 hover:text-primary'
                 }`}
               >
-                {t('header.contact')}
+                {t('header:contact')}
               </button>
 
               {/* Mobile Language Selector */}
               <div className="pt-4 border-t space-y-3">
-                <div className="text-gray-700 font-medium">{t('header.language')}</div>
+                <div className="text-gray-700 font-medium">{t('header:language')}</div>
                 <div className="grid grid-cols-2 gap-2">
                   {languages.map((language) => (
                     <button
@@ -405,7 +404,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
 
               <div className="pt-4 border-t space-y-3">
                 <button className="w-full bg-primary hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition-colors">
-                  {t('header.getStarted')}
+                {t('header:getStarted')}
                 </button>
               </div>
             </div>
@@ -416,4 +415,4 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   );
 };
 
-export default Header;
+export default withTranslation()(Header);

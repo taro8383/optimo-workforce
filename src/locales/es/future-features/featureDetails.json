@@ -1,0 +1,19 @@
+{
+  "title": "Detalles de la Función",
+  "subtitle": "Análisis profundo de capacidades futuras",
+  "keyBenefits": "Beneficios Clave",
+  "timeline": "Cronograma",
+  "expectedImpact": "Impacto Esperado",
+  "description": "Información detallada sobre cada función futura",
+  "status": {
+    "planned": "Planificado",
+    "inProgress": "En Progreso",
+    "completed": "Completado",
+    "comingSoon": "Próximamente",
+    "inDevelopment": "En Desarrollo",
+    "betaTesting": "En Pruebas Beta",
+    "research": "En Investigación",
+    "concept": "Concepto",
+    "planning": "Planificación"
+  }
+}

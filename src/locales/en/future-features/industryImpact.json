@@ -1,0 +1,28 @@
+{
+  "title": "Industry Impact",
+  "subtitle": "Projected improvements to key metrics",
+  "restaurants": {
+    "title": "Restaurants",
+    "metrics": {
+      "foodWaste": "Food Waste Reduction",
+      "revenueIncrease": "Revenue Increase",
+      "customerSatisfaction": "Customer Satisfaction Increase"
+    }
+  },
+  "hotels": {
+    "title": "Hotels",
+    "metrics": {
+      "operationalEfficiency": "Operational Efficiency Gain",
+      "guestExperience": "Guest Experience Improvement",
+      "staffRetention": "Staff Retention Increase"
+    }
+  },
+  "cafes": {
+    "title": "Cafes",
+    "metrics": {
+      "inventoryAccuracy": "Inventory Accuracy",
+      "profitMargins": "Profit Margin Increase",
+      "orderAccuracy": "Order Accuracy"
+    }
+  }
+}

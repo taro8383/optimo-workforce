@@ -1,0 +1,32 @@
+{
+  "requestFeature": "Request Feature",
+  "buttons": {
+    "getStarted": "Get Started",
+    "bookDemo": "Book Demo",
+    "contactSales": "Contact Sales",
+    "learnMore": "Learn More",
+    "backToTop": "Back to Top"
+  },
+  "form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "message": "Message",
+    "submit": "Submit",
+    "required": "Required",
+    "invalidEmail": "Please enter a valid email"
+  },
+  "language": {
+    "english": "English",
+    "spanish": "Spanish"
+  },
+  "error": {
+    "generic": "Something went wrong",
+    "tryAgain": "Please try again",
+    "contactSupport": "Contact Support"
+  },
+  "loading": "Loading...",
+  "success": "Success!"
+}

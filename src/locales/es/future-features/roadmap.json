@@ -1,0 +1,16 @@
+{
+  "title": "Hoja de Ruta",
+  "subtitle": "Planificación transparente para máximo impacto empresarial",
+  "phases": {
+    "discovery": "Descubrimiento",
+    "development": "Desarrollo",
+    "testing": "Pruebas",
+    "release": "Lanzamiento"
+  },
+  "stats": {
+    "features": "Funciones Planificadas",
+    "launchYear": "Año Objetivo de Lanzamiento",
+    "timeline": "Cronograma Mensual",
+    "efficiency": "Ganancia de Eficiencia"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Trusted by Industry Leaders",
+  "subtitle": "Join thousands of businesses transforming their workforce management",
+  "testimonial1": {
+    "author": "Maria Rodriguez",
+    "position": "Owner, La Casa Mexicana",
+    "text": "Optimo reduced our labor costs by 23% while improving staff satisfaction. The AI scheduling alone saves me 15 hours a week!"
+  },
+  "testimonial2": {
+    "author": "Kevin Lim",
+    "position": "Operations Manager, Golden Dragon",
+    "text": "Since implementing Optimo, our tips have increased by 22% and we've achieved 100% compliance across all locations."
+  },
+  "metrics": {
+    "costReduction": "Labor Cost Reduction",
+    "timeSaved": "Weekly Time Saved",
+    "staffSatisfaction": "Staff Satisfaction",
+    "higherTips": "Higher Tips",
+    "compliance": "Compliance Rate",
+    "locations": "Locations Managed"
+  },
+  "benchmarks": {
+    "title": "Performance Benchmarks",
+    "laborCost": "Labor Cost % of Revenue",
+    "turnoverRate": "Staff Turnover Rate",
+    "schedulingTime": "Weekly Scheduling Time",
+    "industry": "Industry Average",
+    "improvement": "Improvement",
+    "reduction": "Reduction",
+    "saved": "Saved Weekly"
+  }
+}

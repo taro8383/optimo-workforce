@@ -47,3 +47,4 @@
 - No error boundaries
 - Limited form validation
 - Fixed: Translation interpolation issue in TippingSpotlightSection
+- Fixed: Missing "requestFeature" translation key in common.json

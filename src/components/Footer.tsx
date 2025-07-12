@@ -46,13 +46,13 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
             </button>
             
             <div className="mb-6">
-              <h4 className="text-lg font-semibold mb-4">{t('footer.newsletter.title')}</h4>
+              <h4 className="text-lg font-semibold mb-4">{t('footer:newsletterTitle')}</h4>
               <form onSubmit={handleNewsletterSubmit} className="space-y-3">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder={t('footer.newsletter.placeholder')}
+                  placeholder={t('footer:newsletter.placeholder')}
                   className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white placeholder-gray-400"
                   required
                 />
@@ -61,7 +61,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                   className="w-full bg-primary hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
                 >
                   <Mail size={16} />
-                  {t('footer.newsletter.subscribe')}
+                  {t('footer:newsletter.subscribe')}
                 </button>
               </form>
             </div>
@@ -91,14 +91,14 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Product Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">{t('footer.product')}</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer:product.title')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
                   onClick={() => handleNavigation('home')}
                   className="text-gray-300 hover:text-white transition-colors text-left"
                 >
-                  {t('footer.features')}
+                  {t('footer:features')}
                 </button>
               </li>
               <li>
@@ -111,7 +111,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'integrations' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.integrations')}
+                  {t('footer:integrations')}
                 </button>
               </li>
               <li>
@@ -124,7 +124,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'future-features' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.futureFeatures')}
+                  {t('footer:futureFeatures')}
                 </button>
               </li>
               <li>
@@ -137,7 +137,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'security' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.security')}
+                  {t('footer:security')}
                 </button>
               </li>
             </ul>
@@ -145,7 +145,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Solutions Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">{t('footer.solutions')}</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer:solutions.title')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -157,7 +157,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'restaurants' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.restaurants')}
+                  {t('footer:restaurants')}
                 </button>
               </li>
               <li>
@@ -170,7 +170,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'hotels' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.hotels')}
+                  {t('footer:hotels')}
                 </button>
               </li>
               <li>
@@ -183,7 +183,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'cafes' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.cafes')}
+                  {t('footer:cafes')}
                 </button>
               </li>
             </ul>
@@ -191,7 +191,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Resources Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">{t('footer.resources')}</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer:resources.title')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -203,7 +203,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'faq' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.faq')}
+                  {t('footer:faq')}
                 </button>
               </li>
               <li>
@@ -216,7 +216,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'roi-calculator' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.roiCalculator')}
+                  {t('footer:roiCalculator')}
                 </button>
               </li>
               <li>
@@ -229,7 +229,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'newsletter' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.newsletter.title')}
+                  {t('footer:newsletterTitle')}
                 </button>
               </li>
             </ul>
@@ -237,7 +237,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
 
           {/* Company Column */}
           <div className="flex flex-col items-center lg:items-start">
-            <h4 className="text-lg font-semibold mb-6">{t('footer.company')}</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('footer:company.title')}</h4>
             <ul className="space-y-3">
               <li>
                 <button 
@@ -246,7 +246,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'about' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.aboutUs')}
+                  {t('footer:about')}
                 </button>
               </li>
               <li>
@@ -259,7 +259,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'contact' ? 'text-primary' : 'text-gray-300 hover:text-white'
                   }`}
                 >
-                  {t('footer.contact')}
+                  {t('footer:contact')}
                 </button>
               </li>
             </ul>
@@ -270,7 +270,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2025 Optimo Workforce. {t('footer.allRightsReserved')}
+              © 2025 Optimo Workforce. {t('footer:rights')}
             </p>
             <div className="flex items-center gap-6 text-sm">
               <a href="#privacy" className="text-gray-400 hover:text-white transition-colors">
@@ -280,7 +280,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'privacy-policy' ? 'text-primary' : 'text-gray-400 hover:text-white'
                   }`}
                 >
-                  {t('footer.privacy')}
+                  {t('footer:privacy')}
                 </button>
               </a>
               <a href="#terms" className="text-gray-400 hover:text-white transition-colors">
@@ -290,7 +290,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'terms-of-service' ? 'text-primary' : 'text-gray-400 hover:text-white'
                   }`}
                 >
-                  {t('footer.terms')}
+                  {t('footer:terms')}
                 </button>
               </a>
               <a href="#cookies" className="text-gray-400 hover:text-white transition-colors">
@@ -300,7 +300,7 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
                     currentPage === 'cookie-policy' ? 'text-primary' : 'text-gray-400 hover:text-white'
                   }`}
                 >
-                  {t('footer.cookies')}
+                  {t('footer:cookies')}
                 </button>
               </a>
             </div>

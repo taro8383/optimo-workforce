@@ -1,0 +1,28 @@
+{
+  "title": "Impacto Industrial",
+  "subtitle": "Mejoras en métricas clave",
+  "restaurants": {
+    "title": "Restaurantes",
+    "metrics": {
+      "foodWaste": "Menos desperdicio",
+      "revenueIncrease": "Más ingresos",
+      "customerSatisfaction": "Clientes más satisfechos"
+    }
+  },
+  "hotels": {
+    "title": "Hoteles",
+    "metrics": {
+      "operationalEfficiency": "Más eficiencia",
+      "guestExperience": "Mejor experiencia",
+      "staffRetention": "Más retención"
+    }
+  },
+  "cafes": {
+    "title": "Cafeterías",
+    "metrics": {
+      "inventoryAccuracy": "Inventario preciso",
+      "profitMargins": "Mayores márgenes",
+      "orderAccuracy": "Pedidos exactos"
+    }
+  }
+}

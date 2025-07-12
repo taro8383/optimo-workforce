@@ -1,0 +1,18 @@
+{
+  "title": "How Optimo Works",
+  "subtitle": "Simple three-step process to optimize your workforce",
+  "step1": {
+    "title": "Connect Your POS",
+    "description": "Integrate with your existing point-of-sale system in minutes"
+  },
+  "step2": {
+    "title": "Analyze Data",
+    "description": "Our AI processes historical sales, weather, and events data"
+  },
+  "step3": {
+    "title": "Get Optimal Schedule",
+    "description": "Receive AI-generated schedules that maximize efficiency"
+  },
+  "example": "Example",
+  "dataStreams": "Multiple data streams analyzed"
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { 
   Shield, 
   Lock, 
@@ -31,14 +32,15 @@ import {
 } from 'lucide-react';
 
 const SecurityPage: React.FC = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedCertification, setSelectedCertification] = useState<any>(null);
 
   const securityStats = [
-    { number: '99.9%', label: 'Uptime SLA', icon: Monitor },
-    { number: '256-bit', label: 'AES Encryption', icon: Lock },
-    { number: '24/7', label: 'Security Monitoring', icon: Eye },
-    { number: 'SOC 2', label: 'Type II Certified', icon: Award }
+    { number: '99.9%', label: t('securityPage:stats.uptime'), icon: Monitor },
+    { number: '256-bit', label: t('securityPage:stats.encryption'), icon: Lock },
+    { number: '24/7', label: t('securityPage:stats.monitoring'), icon: Eye },
+    { number: 'SOC 2', label: t('securityPage:stats.certified'), icon: Award }
   ];
 
   const certifications = [
@@ -254,10 +256,10 @@ const SecurityPage: React.FC = () => {
   ];
 
   const securityTabs = [
-    { id: 'overview', name: 'Security Overview', icon: Shield },
-    { id: 'certifications', name: 'Certifications', icon: Award },
-    { id: 'features', name: 'Security Features', icon: Lock },
-    { id: 'policies', name: 'Policies & Procedures', icon: FileText }
+    { id: 'overview', name: t('securityPage:tabs.overview'), icon: Shield },
+    { id: 'certifications', name: t('securityPage:tabs.certifications'), icon: Award },
+    { id: 'features', name: t('securityPage:tabs.features'), icon: Lock },
+    { id: 'policies', name: t('securityPage:tabs.policies'), icon: FileText }
   ];
 
   const policies = [
@@ -330,20 +332,20 @@ const SecurityPage: React.FC = () => {
             <div className="inline-flex items-center justify-center w-24 h-24 bg-white bg-opacity-20 rounded-full mb-8 animate-pulse-slow">
               <Shield size={48} className="text-white" />
             </div>
-            <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-              Enterprise-Grade Security
-            </h1>
+              <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
+                {t('securityPage:hero.title')}
+              </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
-              Your data is protected by industry-leading security measures, compliance certifications, and continuous monitoring. Trust OPTIMO with your most sensitive workforce data.
+              {t('securityPage:hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Download size={24} />
-                Security Overview
+                {t('securityPage:hero.downloadBtn')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Book size={24} />
-                Compliance Reports
+                {t('securityPage:hero.reportsBtn')}
               </button>
             </div>
           </div>
@@ -401,10 +403,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    Security at Every Layer
+                    {t('securityPage.overview.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    From data encryption to access controls, we implement comprehensive security measures to protect your business
+                    {t('securityPage.overview.subtitle')}
                   </p>
                 </div>
 
@@ -413,9 +415,9 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary bg-opacity-10 mb-6">
                       <Database size={32} className="text-primary" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">Data Protection</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.dataProtection')}</h3>
                     <p className="text-gray-600 mb-6">
-                      End-to-end encryption, secure backups, and data anonymization protect your sensitive information at all times.
+                      {t('securityPage.overview.dataProtectionDesc')}
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-center gap-2">
@@ -437,9 +439,9 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary bg-opacity-10 mb-6">
                       <UserCheck size={32} className="text-secondary" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">Access Control</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.accessControl')}</h3>
                     <p className="text-gray-600 mb-6">
-                      Multi-factor authentication, role-based permissions, and SSO integration ensure only authorized access.
+                      {t('securityPage.overview.accessControlDesc')}
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-center gap-2">
@@ -461,9 +463,9 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent-latam bg-opacity-10 mb-6">
                       <Monitor size={32} className="text-accent-latam" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">Continuous Monitoring</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.continuousMonitoring')}</h3>
                     <p className="text-gray-600 mb-6">
-                      24/7 security monitoring, threat detection, and incident response keep your data safe around the clock.
+                      {t('securityPage.overview.continuousMonitoringDesc')}
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-center gap-2">
@@ -489,10 +491,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    Industry Certifications
+                    {t('securityPage.certifications.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    We maintain the highest security and compliance standards through rigorous third-party audits and certifications
+                    {t('securityPage.certifications.subtitle')}
                   </p>
                 </div>
 
@@ -521,18 +523,18 @@ const SecurityPage: React.FC = () => {
 
                       <div className="grid grid-cols-2 gap-4 mb-6">
                         <div>
-                          <div className="text-sm text-gray-500 mb-1">Valid Until</div>
+                          <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.validUntil')}</div>
                           <div className="font-semibold text-gray-900">{cert.validUntil}</div>
                         </div>
                         <div>
-                          <div className="text-sm text-gray-500 mb-1">Auditor</div>
+                          <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.auditor')}</div>
                           <div className="font-semibold text-gray-900">{cert.auditor}</div>
                         </div>
                       </div>
 
                       <div className="mb-6">
-                        <div className="text-sm text-gray-500 mb-2">Scope</div>
-                        <div className="font-semibold text-gray-900">{cert.scope}</div>
+                          <div className="text-sm text-gray-500 mb-2">{t('securityPage.certifications.scope')}</div>
+                          <div className="font-semibold text-gray-900">{cert.scope}</div>
                       </div>
 
                       <div className="flex items-center justify-between">
@@ -540,13 +542,13 @@ const SecurityPage: React.FC = () => {
                           onClick={() => setSelectedCertification(cert)}
                           className="text-primary hover:text-blue-600 font-semibold text-sm flex items-center gap-1"
                         >
-                          View Details
+                          {t('securityPage.certifications.viewDetails')}
                           <ExternalLink size={14} />
                         </button>
                         {cert.reportAvailable && (
                           <button className="bg-primary hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm transition-colors flex items-center gap-2">
                             <Download size={16} />
-                            Download Report
+                            {t('securityPage.certifications.downloadReport')}
                           </button>
                         )}
                       </div>
@@ -561,10 +563,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    Comprehensive Security Features
+                    {t('securityPage.features.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Every aspect of our platform is designed with security in mind, from infrastructure to application level
+                    {t('securityPage.features.subtitle')}
                   </p>
                 </div>
 
@@ -610,10 +612,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    Security Policies & Procedures
+                    {t('securityPage.policies.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Transparent documentation of our security practices, policies, and procedures
+                    {t('securityPage.policies.subtitle')}
                   </p>
                 </div>
 
@@ -625,7 +627,7 @@ const SecurityPage: React.FC = () => {
                           <h3 className="text-xl font-bold text-gray-900 mb-2">{policy.title}</h3>
                           <p className="text-gray-600 mb-4">{policy.description}</p>
                           <div className="text-sm text-gray-500">
-                            Last updated: {policy.lastUpdated}
+                            {t('securityPage.policies.lastUpdated')}: {policy.lastUpdated}
                           </div>
                         </div>
                         <FileText size={24} className="text-gray-400" />
@@ -648,10 +650,10 @@ const SecurityPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Security & Compliance Contacts
+              {t('securityPage.contacts.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have questions about our security practices? Contact our specialized teams
+              {t('securityPage.contacts.subtitle')}
             </p>
           </div>
 
@@ -686,40 +688,40 @@ const SecurityPage: React.FC = () => {
             <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
               <Shield size={40} />
             </div>
-            <h3 className="text-3xl font-bold mb-4">
-              Ready to Experience Enterprise Security?
-            </h3>
+              <h3 className="text-3xl font-bold mb-4">
+                {t('securityPage.cta.title')}
+              </h3>
             <p className="text-xl text-blue-100 mb-8 max-w-4xl mx-auto">
-              See how OPTIMO Workforce protects your data with industry-leading security measures. Start your secure trial today.
+              {t('securityPage.cta.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
               <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Play size={24} />
-                Security Demo
+                {t('securityPage.hero.demoBtn')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Download size={24} />
-                Security Whitepaper
+                {t('securityPage.hero.whitepaperBtn')}
               </button>
             </div>
 
             <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">SOC 2</div>
-                <div className="text-blue-200">Type II Certified</div>
+                <div className="text-blue-200">{t('securityPage.stats.certified')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">99.9%</div>
-                <div className="text-blue-200">Uptime SLA</div>
+                <div className="text-blue-200">{t('securityPage.stats.uptime')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">24/7</div>
-                <div className="text-blue-200">Security Monitoring</div>
+                <div className="text-blue-200">{t('securityPage.stats.monitoring')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">256-bit</div>
-                <div className="text-blue-200">AES Encryption</div>
+                <div className="text-blue-200">{t('securityPage.stats.encryption')}</div>
               </div>
             </div>
           </div>
@@ -750,7 +752,7 @@ const SecurityPage: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-6 mb-6">
               <div>
-                <div className="text-sm text-gray-500 mb-1">Status</div>
+                <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.detailsTitle')}</div>
                 <div className="text-lg font-bold text-gray-900">{selectedCertification.status}</div>
               </div>
               <div>
@@ -768,7 +770,7 @@ const SecurityPage: React.FC = () => {
             </div>
 
             <div className="mb-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-4">Certification Details</h4>
+              <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('securityPage.certifications.detailsTitle')}</h4>
               <div className="space-y-3">
                 {selectedCertification.details.map((detail: string, index: number) => (
                   <div key={index} className="flex items-center gap-2">
@@ -782,12 +784,12 @@ const SecurityPage: React.FC = () => {
             <div className="flex gap-4">
               {selectedCertification.reportAvailable && (
                 <button className="flex-1 bg-primary hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
-                  <Download size={16} />
-                  Download Report
+                <Download size={16} />
+                {t('securityPage.certifications.downloadReport')}
                 </button>
               )}
               <button className="px-6 border border-gray-300 text-gray-700 hover:bg-gray-50 py-3 rounded-lg font-semibold transition-colors">
-                Contact Compliance Team
+                {t('securityPage.modal.contactTeam')}
               </button>
             </div>
           </div>

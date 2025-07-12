@@ -1,0 +1,34 @@
+{
+  "title": "Inteligencia Global de Personal",
+  "subtitle": "Perspectivas regionales para optimizar sus operaciones internacionales",
+  "performance": "Punto de Referencia de Rendimiento",
+  "keyFeature": "Característica Clave",
+  "regions": {
+    "US": {
+      "title": "Perspectivas del Mercado EE.UU.",
+      "description": "Especializado para la cultura de propinas y regulaciones laborales de EE.UU.",
+      "data": "22% Más Alto",
+      "feature": "Optimización de Propinas"
+    },
+    "EU": {
+      "title": "Perspectivas del Mercado Europeo",
+      "description": "Optimizado para leyes laborales de la UE y modelos de cargo por servicio",
+      "data": "18% Ahorro",
+      "feature": "Gestión de Descansos",
+      "city": "Londres"
+    },
+    "LATAM": {
+      "title": "Perspectivas de Latinoamérica",
+      "description": "Adaptado para economías basadas en efectivo y patrones de turnos en LATAM",
+      "data": "30% Más Rápido",
+      "feature": "Integración OXXO"
+    },
+    "APAC": {
+      "title": "Perspectivas de Asia-Pacífico",
+      "description": "Diseñado para gestión de personal móvil en APAC",
+      "data": "25% Crecimiento",
+      "feature": "Personal Móvil",
+      "city": "Singapur"
+    }
+  }
+}

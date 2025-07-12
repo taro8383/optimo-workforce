@@ -1,0 +1,183 @@
+{
+  "hero": {
+    "title": "Future Features Roadmap",
+    "subtitle": "Discover what's coming next to help your business grow"
+  },
+  "roadmap": {
+    "title": "Our Development Roadmap",
+    "subtitle": "Transparent planning for maximum business impact",
+    "stats": {
+      "features": "Features Planned",
+      "launchYear": "Target Launch Year",
+      "timeline": "Month Timeline",
+      "efficiency": "Efficiency Gain"
+    }
+  },
+  "featureDetails": {
+    "title": "Feature Details",
+    "subtitle": "Deep dive into upcoming capabilities",
+    "keyBenefits": "Key Benefits",
+    "timeline": "Timeline",
+    "expectedImpact": "Expected Impact"
+  },
+  "featureTitles": {
+    "InventoryOptimization": "Inventory Optimization",
+    "BusinessAnalytics": "Business Analytics",
+    "CustomerFeedback": "Customer Feedback",
+    "CustomerManagement": "Customer Management",
+    "AIUpselling": "AI Upselling",
+    "DynamicPricing": "Dynamic Pricing",
+    "TipManagement": "Tip Management"
+  },
+  "featureTimeline": {
+    "statuses": {
+      "comingsoon": "Coming Soon",
+      "indevelopment": "In Development",
+      "betatesting": "Beta Testing",
+      "planning": "Planning",
+      "research": "Research",
+      "concept": "Concept"
+    }
+  },
+  "betaProgram": {
+    "title": "Join Our Beta Program",
+    "subtitle": "Get early access to new features",
+    "benefitsTitle": "Beta Program Benefits",
+    "requirementsTitle": "Beta Program Requirements",
+    "apply": "Apply for Beta Access",
+    "availability": "Limited availability - apply now to secure your spot",
+    "benefits": [
+      "Early access to new features",
+      "Direct influence on product development",
+      "Priority support from our team",
+      "Exclusive beta-only features"
+    ],
+    "requirements": [
+      "Active business account",
+      "Willingness to provide feedback",
+      "Minimum 3 months of platform usage",
+      "Ability to test in production environment"
+    ]
+  },
+  "featureRequest": {
+    "title": "Have a Feature Idea?",
+    "description": "We're constantly improving our platform based on customer feedback. Share your ideas with our product team.",
+    "contactProductTeam": "Contact Product Team",
+    "submitFeatureRequest": "Submit Feature Request"
+  },
+  "ui": {
+    "contactProductTeam": "Contact Product Team",
+    "submitFeatureRequest": "Submit Feature Request",
+    "featureRequests": "Feature Requests",
+    "implementationRate": "Implementation Rate",
+    "betaTesters": "Beta Testers",
+    "development": "Development"
+  },
+  "industryImpact": {
+    "title": "Industry Impact",
+    "subtitle": "Projected improvements across key metrics",
+    "restaurants": {
+      "title": "Restaurants",
+      "metrics": {
+        "foodWaste": "Reduction in Food Waste",
+        "revenueIncrease": "Revenue Increase",
+        "customerSatisfaction": "Customer Satisfaction Increase"
+      }
+    },
+    "hotels": {
+      "title": "Hotels",
+      "metrics": {
+        "operationalEfficiency": "Operational Efficiency Gain",
+        "guestExperience": "Guest Experience Improvement",
+        "staffRetention": "Staff Retention Increase"
+      }
+    },
+    "cafes": {
+      "title": "Cafés",
+      "metrics": {
+        "inventoryAccuracy": "Inventory Accuracy",
+        "profitMargins": "Profit Margin Increase",
+        "orderAccuracy": "Order Accuracy"
+      }
+    }
+  },
+  "features": {
+    "inventoryOptimization": {
+      "description": "Automated inventory tracking and predictive ordering to reduce waste and optimize stock levels.",
+      "benefits": [
+        "Reduce food waste by up to 35%",
+        "Automated supplier ordering",
+        "Real-time inventory tracking",
+        "Predictive analytics for demand"
+      ],
+      "timeline": "Q3 2025",
+      "impact": "35% reduction in food costs"
+    },
+    "businessAnalytics": {
+      "description": "Advanced reporting and analytics to uncover business insights and opportunities.",
+      "benefits": [
+        "Customizable dashboards",
+        "Real-time performance metrics",
+        "Competitive benchmarking",
+        "Actionable insights"
+      ],
+      "timeline": "Q4 2025",
+      "impact": "18% revenue growth"
+    },
+    "customerFeedback": {
+      "description": "Integrated customer feedback system to capture and analyze guest satisfaction.",
+      "benefits": [
+        "Real-time feedback collection",
+        "Sentiment analysis",
+        "Automated follow-ups",
+        "Review management"
+      ],
+      "timeline": "Q2 2025",
+      "impact": "25% satisfaction increase"
+    },
+    "customerManagement": {
+      "description": "Comprehensive CRM to build customer loyalty and increase repeat business.",
+      "benefits": [
+        "Customer profiles",
+        "Loyalty program integration",
+        "Personalized marketing",
+        "Visit history tracking"
+      ],
+      "timeline": "Q1 2026",
+      "impact": "30% repeat business"
+    },
+    "aiUpselling": {
+      "description": "AI-powered suggestions to increase average order value and customer satisfaction.",
+      "benefits": [
+        "Personalized recommendations",
+        "Dynamic menu suggestions",
+        "Staff prompts",
+        "Performance tracking"
+      ],
+      "timeline": "Q3 2026",
+      "impact": "22% order value increase"
+    },
+    "dynamicPricing": {
+      "description": "Automated price adjustments based on demand, inventory, and other factors.",
+      "benefits": [
+        "Demand-based pricing",
+        "Inventory-driven adjustments",
+        "Competitive positioning",
+        "Real-time updates"
+      ],
+      "timeline": "Q4 2026",
+      "impact": "18% margin improvement"
+    },
+    "tipManagement": {
+      "description": "Comprehensive solution for tracking, distributing, and reporting on tips.",
+      "benefits": [
+        "Automated distribution",
+        "Tax compliance",
+        "Staff performance tracking",
+        "Reporting dashboard"
+      ],
+      "timeline": "Q2 2026",
+      "impact": "45% staff satisfaction"
+    }
+  }
+}

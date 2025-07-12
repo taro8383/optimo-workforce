@@ -1,0 +1,37 @@
+{
+  "title": "Problems We Solve",
+  "subtitle": "Common challenges in hospitality workforce management",
+  "problem": {
+    "title": "The Problem",
+    "overstaffing": "Overstaffing during slow periods",
+    "manualScheduling": "Manual scheduling takes hours",
+    "highTurnover": "High staff turnover costs"
+  },
+  "solution": {
+    "title": "Our Solution",
+    "aiPrediction": "AI predicts optimal staffing",
+    "automatedProcess": "Automated scheduling process",
+    "improvedRetention": "Improved employee retention"
+  },
+  "result": {
+    "title": "The Result",
+    "laborCosts": "23% lower labor costs",
+    "managerTime": "15 hours saved weekly",
+    "hiringCosts": "40% lower hiring costs"
+  },
+  "beforeAfter": {
+    "title": "Before & After Optimo",
+    "before": "Before",
+    "after": "After",
+    "beforeItems": {
+      "overstaffed": "Overstaffed or understaffed",
+      "manual": "Manual scheduling",
+      "turnover": "High turnover rates"
+    },
+    "afterItems": {
+      "optimized": "Optimized staffing levels",
+      "automation": "Automated scheduling",
+      "happy": "Happy, engaged staff"
+    }
+  }
+}

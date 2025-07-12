@@ -13,10 +13,10 @@ const GlobalIntelligenceSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-            {t('globalIntelligence.title')}
+            {t('globalIntelligence:title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            {t('globalIntelligence.subtitle')}
+            {t('globalIntelligence:subtitle')}
           </p>
         </div>
 
@@ -59,36 +59,36 @@ const GlobalIntelligenceSection: React.FC = () => {
                   className="w-12 h-12 object-contain"
                 />
                 <h3 className="text-2xl font-bold text-gray-900">
-                  {t(`globalIntelligence.regions.${activeRegion}.title`)}
+                  {t(`globalIntelligence:regions.${activeRegion}.title`)}
                 </h3>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                {t(`globalIntelligence.regions.${activeRegion}.description`)}
+                {t(`globalIntelligence:regions.${activeRegion}.description`)}
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-lg p-4">
                   <div className="text-2xl font-bold text-primary">
-                    {t(`globalIntelligence.regions.${activeRegion}.data`)}
+                    {t(`globalIntelligence:regions.${activeRegion}.data`)}
                   </div>
-                  <div className="text-sm text-gray-600">{t('globalIntelligence.performance')}</div>
+                  <div className="text-sm text-gray-600">{t('globalIntelligence:performance')}</div>
                 </div>
                 <div className="bg-white rounded-lg p-4">
                   <div className="text-lg font-semibold text-gray-900">
-                    {t(`globalIntelligence.regions.${activeRegion}.feature`)}
+                    {t(`globalIntelligence:regions.${activeRegion}.feature`)}
                   </div>
-                  <div className="text-sm text-gray-600">{t('globalIntelligence.keyFeature')}</div>
+                  <div className="text-sm text-gray-600">{t('globalIntelligence:keyFeature')}</div>
                 </div>
               </div>
             </div>
 
               <div className="grid grid-cols-2 gap-4">
               <div className="bg-gradient-to-r from-accent-apac to-yellow-400 rounded-lg p-6 text-white">
-                <div className="text-lg font-semibold mb-2">{t('globalIntelligence.regions.APAC.city')}</div>
-                <div className="text-sm opacity-90">{t('globalIntelligence.regions.APAC.description')}</div>
+                <div className="text-lg font-semibold mb-2">{t('globalIntelligence:regions.APAC.city')}</div>
+                <div className="text-sm opacity-90">{t('globalIntelligence:regions.APAC.description')}</div>
               </div>
               <div className="bg-gradient-to-r from-secondary to-green-400 rounded-lg p-6 text-white">
-                <div className="text-lg font-semibold mb-2">{t('globalIntelligence.regions.EU.city')}</div>
-                <div className="text-sm opacity-90">{t('globalIntelligence.regions.EU.description')}</div>
+                <div className="text-lg font-semibold mb-2">{t('globalIntelligence:regions.EU.city')}</div>
+                <div className="text-sm opacity-90">{t('globalIntelligence:regions.EU.description')}</div>
               </div>
             </div>
           </div>

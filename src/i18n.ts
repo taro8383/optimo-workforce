@@ -4,6 +4,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 // Import English translations
 import enCommon from './locales/en/common.json';
+import enRestaurants from './locales/en/restaurants.json';
+import enHotels from './locales/en/hotels.json';
 import enHero from './locales/en/hero.json';
 import enHeader from './locales/en/header.json';
 import enPricing from './locales/en/pricing.json';
@@ -33,6 +35,8 @@ import enFutureFeaturesTips from './locales/en/future-features/tipManagement.jso
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
+import esRestaurants from './locales/es/restaurants.json';
+import esHotels from './locales/es/hotels.json';
 import esHero from './locales/es/hero.json';
 import esHeader from './locales/es/header.json';
 import esPricing from './locales/es/pricing.json';
@@ -94,10 +98,12 @@ i18n
           customerManagement: enFutureFeaturesManagement,
           aiUpselling: enFutureFeaturesAI,
           dynamicPricing: enFutureFeaturesPricing,
-          tipManagement: enFutureFeaturesTips
-        }
+        tipManagement: enFutureFeaturesTips
       },
-      es: {
+      restaurants: enRestaurants,
+      hotels: enHotels
+    },
+    es: {
         common: esCommon,
         hero: esHero,
         header: esHeader,
@@ -125,8 +131,10 @@ i18n
           customerManagement: esFutureFeaturesManagement,
           aiUpselling: esFutureFeaturesAI,
           dynamicPricing: esFutureFeaturesPricing,
-          tipManagement: esFutureFeaturesTips
-        }
+        tipManagement: esFutureFeaturesTips
+        },
+        restaurants: esRestaurants,
+        hotels: esHotels
       }
     },
     fallbackLng: 'en',
@@ -160,7 +168,9 @@ i18n
       'futureFeatures:customerManagement',
       'futureFeatures:aiUpselling',
       'futureFeatures:dynamicPricing',
-      'futureFeatures:tipManagement'
+      'futureFeatures:tipManagement',
+      'restaurants',
+      'hotels'
     ],
     defaultNS: 'common',
     keySeparator: '.',

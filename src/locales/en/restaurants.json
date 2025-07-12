@@ -1,0 +1,174 @@
+{
+  "hero": {
+    "title": "AI-Powered Shift Scheduling for Restaurants",
+    "subtitle": "Optimize your staffing, reduce costs and improve service with artificial intelligence",
+    "buttons": {
+      "trial": "Free Trial",
+      "demo": "Schedule Demo"
+    },
+    "metrics": {
+      "costSavings": "Labor cost savings",
+      "demandMonitoring": "Demand monitoring",
+      "scheduleGeneration": "Schedule generation",
+      "regionalAdaptation": "Regional adaptation"
+    },
+    "aiPoweredIntelligence": "AI-Powered Intelligence"
+  },
+  "coreFeatures": {
+    "title": "Core Features",
+    "subtitle": "Solutions specifically designed for restaurant needs",
+    "features": {
+      "AccurateStaffingForecasts": {
+        "title": "Accurate Staffing Forecasts",
+        "description": "Reduce unnecessary labor costs and prevent service gaps with precise predictions"
+      },
+      "MomentbyMomentDemand": {
+        "title": "Moment-by-Moment Demand",
+        "description": "Predict future demand hour-by-hour, enabling precise anticipation of customer traffic"
+      },
+      "Moment-by-MomentDemand": {
+        "title": "Moment-by-Moment Demand",
+        "description": "Predict future demand hour-by-hour, enabling precise anticipation of customer traffic"
+      },
+      "OneClickAutomation": {
+        "title": "One-Click Automation",
+        "description": "Automate employee schedules and tasks considering capabilities and preferences"
+      },
+      "One-ClickAutomation": {
+        "title": "One-Click Automation",
+        "description": "Automate employee schedules and tasks considering capabilities and preferences"
+      },
+      "UserFriendlyDashboards": {
+        "title": "User-Friendly Dashboards",
+        "description": "AI-optimized schedules and metrics dashboards beyond traditional spreadsheets"
+      },
+      "User-FriendlyDashboards": {
+        "title": "User-Friendly Dashboards",
+        "description": "AI-optimized schedules and metrics dashboards beyond traditional spreadsheets"
+      },
+      "CostContainment": {
+        "title": "Cost Containment",
+        "description": "Contained labor costs, improved satisfaction and increased productivity"
+      },
+      "SmartDataIntegration": {
+        "title": "Smart Data Integration",
+        "description": "Automatically collect availabilities, preferences and requests for intelligent scheduling"
+      }
+    }
+  },
+  "demandSignals": {
+    "title": "Demand Signals",
+    "subtitle": "The AI scheduler enhances accuracy by incorporating various demand signals",
+    "signals": {
+      "GooglePopularTimes": {
+        "title": "Google Popular Times",
+        "description": "AI-powered demand forecasting analyzes real-time inputs including local events and trends"
+      },
+      "EventbriteIntegration": {
+        "title": "Eventbrite Integration",
+        "description": "AI systems account for local events and calendars as external factors influencing customer behavior"
+      },
+      "WeatherAPIs": {
+        "title": "Weather APIs",
+        "description": "Forecast sales based on weather data alongside historical sales and other factors"
+      }
+    }
+  },
+  "outputs": {
+    "title": "Output: Optimized Plans + Analytics",
+    "subtitle": "Generate optimized shift plans and comprehensive dashboards for data-driven decisions",
+    "items": {
+      "OptimizedShiftPlans": {
+        "title": "Optimized Shift Plans",
+        "description": "Deploy the right number of workers at the right times, reducing downtime and service disruptions",
+        "metrics": [
+          "Right-sized teams",
+          "Reduced downtime",
+          "Service continuity"
+        ]
+      },
+      "LaborCostDashboards": {
+        "title": "Labor Cost Dashboards",
+        "description": "Business analytics for smarter decisions, managing costs that account for up to 40% of expenses",
+        "metrics": [
+          "Cost visibility",
+          "Trend analysis",
+          "Performance gaps"
+        ]
+      },
+      "RevenueAnalytics": {
+        "title": "Revenue Analytics",
+        "description": "Data from POS systems and customer feedback to forecast business outcomes",
+        "metrics": [
+          "Revenue forecasting",
+          "Customer insights",
+          "Future planning"
+        ]
+      }
+    }
+  },
+  "regionalAdaptations": {
+    "title": "Regional Adaptations",
+    "subtitle": "Tailored solutions to meet the unique demands of different global regions",
+    "regions": {
+      "US": {
+        "title": "Tip Yield Forecasting",
+        "subtitle": "Staff high-skill servers during peak tipping",
+        "description": "AI-driven forecasting anticipates demand and optimizes tips by predicting busy periods. Skill-based deployment strategically schedules experienced servers during peak tipping periods.",
+        "features": [
+          "AI-driven demand forecasting for peak periods",
+          "Skill-based deployment during high-tip times",
+          "Strategic scheduling for maximum tip yield",
+          "Customer confidence through expert staffing"
+        ]
+      },
+      "EU": {
+        "title": "Auto-Compliance",
+        "subtitle": "Working time directives compliance",
+        "description": "AI scheduler maintains compliance with labor laws and avoids fines through accurate record-keeping. Creates shifts compliant with EU Working Time Directives and AI Act regulations.",
+        "features": [
+          "Automatic compliance with labor laws",
+          "EU Working Time Directive adherence",
+          "Accurate record-keeping and reporting",
+          "Reduced overtime penalties and fines"
+        ]
+      },
+      "LATAM": {
+        "title": "Cash-Flow Optimization",
+        "subtitle": "High-cash transaction venues",
+        "description": "Real-time business analytics for smarter decision-making, identifying trends and performance gaps. Seamless payment management helps organize finances and accelerate payments.",
+        "features": [
+          "Real-time business analytics",
+          "Cash transaction optimization",
+          "Performance gap identification",
+          "Faster payment processing"
+        ]
+      },
+      "APAC": {
+        "title": "Mobile Wallet Integration",
+        "subtitle": "Seamless mobile payment systems",
+        "description": "Integration with popular mobile wallets like WeChat Pay. Enhanced booking conversion rates and revenue growth through optimized mobile payment experiences.",
+        "features": [
+          "WeChat and mobile wallet integration",
+          "8% increase in booking conversions",
+          "Nearly doubled revenue potential",
+          "Optimized mobile payment flows"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Restaurant Operations?",
+    "subtitle": "Join thousands of restaurants leveraging AI-powered scheduling for strategic advantage",
+    "buttons": {
+      "trial": "Free Trial",
+      "demo": "Schedule Demo"
+    },
+    "metrics": {
+      "restaurants": "Restaurants Optimized",
+      "costReduction": "Labor Cost Reduction",
+      "regions": "Global Regions",
+      "monitoring": "AI Monitoring"
+    }
+  }
+}

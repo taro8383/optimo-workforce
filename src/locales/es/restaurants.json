@@ -1,0 +1,174 @@
+{
+  "hero": {
+    "title": "Programación de turnos con IA para restaurantes",
+    "subtitle": "Optimice su personal, reduzca costos y mejore el servicio con inteligencia artificial",
+    "buttons": {
+      "trial": "Prueba gratuita",
+      "demo": "Programar demostración"
+    },
+    "metrics": {
+      "costSavings": "Ahorro en costos laborales",
+      "demandMonitoring": "Monitoreo de demanda",
+      "scheduleGeneration": "Generación de horarios",
+      "regionalAdaptation": "Adaptación regional"
+    },
+    "aiPoweredIntelligence": "Inteligencia impulsada por IA"
+  },
+  "coreFeatures": {
+    "title": "Características principales",
+    "subtitle": "Soluciones diseñadas específicamente para las necesidades de los restaurantes",
+    "features": {
+      "AccurateStaffingForecasts": {
+        "title": "Pronósticos precisos de personal",
+        "description": "Reduzca costos laborales innecesarios y evite brechas de servicio con predicciones precisas"
+      },
+      "MomentbyMomentDemand": {
+        "title": "Demanda minuto a minuto",
+        "description": "Prediga la demanda futura hora por hora, permitiendo una anticipación precisa del tráfico de clientes"
+      },
+      "Moment-by-MomentDemand": {
+        "title": "Demanda minuto a minuto",
+        "description": "Prediga la demanda futura hora por hora, permitiendo una anticipación precisa del tráfico de clientes"
+      },
+      "OneClickAutomation": {
+        "title": "Automatización con un clic",
+        "description": "Automatice horarios y tareas de empleados considerando capacidades y preferencias"
+      },
+      "One-ClickAutomation": {
+        "title": "Automatización con un clic",
+        "description": "Automatice horarios y tareas de empleados considerando capacidades y preferencias"
+      },
+      "UserFriendlyDashboards": {
+        "title": "Paneles fáciles de usar",
+        "description": "Horarios optimizados por IA y paneles de métricas más allá de las hojas de cálculo tradicionales"
+      },
+      "User-FriendlyDashboards": {
+        "title": "Paneles fáciles de usar",
+        "description": "Horarios optimizados por IA y paneles de métricas más allá de las hojas de cálculo tradicionales"
+      },
+      "CostContainment": {
+        "title": "Contención de costos",
+        "description": "Costos laborales contenidos, mayor satisfacción y mayor productividad"
+      },
+      "SmartDataIntegration": {
+        "title": "Integración inteligente de datos",
+        "description": "Recolecte automáticamente disponibilidades, preferencias y solicitudes para programación inteligente"
+      }
+    }
+  },
+  "demandSignals": {
+    "title": "Señales de demanda",
+    "subtitle": "El programador de IA mejora la precisión incorporando varias señales de demanda",
+    "signals": {
+      "GooglePopularTimes": {
+        "title": "Horarios populares de Google",
+        "description": "El pronóstico de demanda con IA analiza entradas en tiempo real incluyendo eventos locales y tendencias"
+      },
+      "EventbriteIntegration": {
+        "title": "Integración con Eventbrite",
+        "description": "Los sistemas de IA consideran eventos locales y calendarios como factores externos que influyen en el comportamiento del cliente"
+      },
+      "WeatherAPIs": {
+        "title": "APIs del clima",
+        "description": "Pronostique ventas basadas en datos meteorológicos junto con ventas históricas y otros factores"
+      }
+    }
+  },
+  "outputs": {
+    "title": "Resultado: Planes optimizados + Análisis",
+    "subtitle": "Genere planes de turnos optimizados y paneles integrales para decisiones basadas en datos",
+    "items": {
+      "OptimizedShiftPlans": {
+        "title": "Planes de turnos optimizados",
+        "description": "Despliegue el número correcto de trabajadores en los momentos adecuados, reduciendo tiempos muertos e interrupciones del servicio",
+        "metrics": [
+          "Equipos del tamaño adecuado",
+          "Tiempo muerto reducido",
+          "Continuidad del servicio"
+        ]
+      },
+      "LaborCostDashboards": {
+        "title": "Paneles de costos laborales",
+        "description": "Análisis empresarial para decisiones más inteligentes, gestionando costos que representan hasta el 40% de los gastos",
+        "metrics": [
+          "Visibilidad de costos",
+          "Análisis de tendencias",
+          "Brechas de rendimiento"
+        ]
+      },
+      "RevenueAnalytics": {
+        "title": "Análisis de ingresos",
+        "description": "Datos de sistemas POS y comentarios de clientes para pronosticar resultados comerciales",
+        "metrics": [
+          "Pronóstico de ingresos",
+          "Información sobre clientes",
+          "Planificación futura"
+        ]
+      }
+    }
+  },
+  "regionalAdaptations": {
+    "title": "Adaptaciones regionales",
+    "subtitle": "Soluciones personalizadas para satisfacer las demandas únicas de diferentes regiones globales",
+    "regions": {
+      "US": {
+        "title": "Pronóstico de rendimiento de propinas",
+        "subtitle": "Personalice meseros altamente calificados durante horas pico de propinas",
+        "description": "El pronóstico impulsado por IA anticipa la demanda y optimiza las propinas prediciendo períodos ocupados. El despliegue basado en habilidades programa estratégicamente meseros experimentados durante períodos de altas propinas.",
+        "features": [
+          "Pronóstico de demanda impulsado por IA para períodos pico",
+          "Despliegue basado en habilidades durante tiempos de altas propinas",
+          "Programación estratégica para máximo rendimiento de propinas",
+          "Confianza del cliente a través de personal experto"
+        ]
+      },
+      "EU": {
+        "title": "Cumplimiento automático",
+        "subtitle": "Cumplimiento de directivas de tiempo de trabajo",
+        "description": "El programador de IA mantiene el cumplimiento de las leyes laborales y evita multas mediante un registro preciso. Crea turnos compatibles con las Directivas de Tiempo de Trabajo de la UE y las regulaciones de la Ley de IA.",
+        "features": [
+          "Cumplimiento automático de leyes laborales",
+          "Cumplimiento de la Directiva de Tiempo de Trabajo de la UE",
+          "Registro y reporte preciso",
+          "Reducción de multas y penalizaciones por horas extras"
+        ]
+      },
+      "LATAM": {
+        "title": "Optimización de flujo de efectivo",
+        "subtitle": "Locales con altas transacciones en efectivo",
+        "description": "Análisis empresarial en tiempo real para una toma de decisiones más inteligente, identificando tendencias y brechas de rendimiento. La gestión de pagos sin problemas ayuda a organizar finanzas y acelerar pagos.",
+        "features": [
+          "Análisis empresarial en tiempo real",
+          "Optimización de transacciones en efectivo",
+          "Identificación de brechas de rendimiento",
+          "Procesamiento de pagos más rápido"
+        ]
+      },
+      "APAC": {
+        "title": "Integración con billeteras móviles",
+        "subtitle": "Sistemas de pago móvil sin problemas",
+        "description": "Integración con billeteras móviles populares como WeChat Pay. Tasas de conversión de reservas mejoradas y crecimiento de ingresos a través de experiencias de pago móvil optimizadas.",
+        "features": [
+          "Integración con WeChat y billeteras móviles",
+          "Aumento del 8% en conversiones de reservas",
+          "Potencial de ingresos casi duplicado",
+          "Flujos de pago móvil optimizados"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "title": "¿Listo para transformar las operaciones de su restaurante?",
+    "subtitle": "Únase a miles de restaurantes que aprovechan la programación impulsada por IA para obtener ventajas estratégicas",
+    "buttons": {
+      "trial": "Prueba gratuita",
+      "demo": "Programar demostración"
+    },
+    "metrics": {
+      "restaurants": "Restaurantes optimizados",
+      "costReduction": "Reducción de costos laborales",
+      "regions": "Regiones globales",
+      "monitoring": "Monitoreo con IA"
+    }
+  }
+}

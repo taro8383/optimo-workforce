@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { 
   Building2, 
   Calendar, 
@@ -22,50 +23,51 @@ import {
 } from 'lucide-react';
 
 const HotelsPage: React.FC = () => {
+  const { t } = useTranslation('hotels');
   const [activeRegion, setActiveRegion] = useState('US');
 
   const demandSignals = [
     {
       icon: Cloud,
-      title: 'Weather APIs',
-      description: 'Explicitly incorporate weather conditions into AI-powered demand forecasting for crucial operational decisions',
+      title: t('demandSignals.signals.weather.title'),
+      description: t('demandSignals.signals.weather.description'),
       color: 'text-blue-500'
     },
     {
       icon: Calendar,
-      title: 'Event & Local Activity Integration',
-      description: 'Factor in local activities and event calendars to detect demand patterns and enable proactive staffing',
+      title: t('demandSignals.signals.events.title'),
+      description: t('demandSignals.signals.events.description'),
       color: 'text-purple-500'
     },
     {
       icon: MessageSquare,
-      title: 'Beyond Simple Data',
-      description: 'Interpret unstructured text like public reviews to cluster sentiment and generate human-readable summaries',
+      title: t('demandSignals.signals.data.title'),
+      description: t('demandSignals.signals.data.description'),
       color: 'text-green-500'
     }
   ];
 
   const coreOutputs = [
     {
-      title: 'Optimized Shift Plans',
-      description: 'Draft shifts compliant with labor laws considering employee availability, dramatically reducing manual effort',
+      title: t('coreOutputs.outputs.shiftPlans.title'),
+      description: t('coreOutputs.outputs.shiftPlans.description'),
       features: [
-        'Labor law compliance automation',
-        'Employee availability integration',
-        'Strategic workforce deployment',
-        'Peak period optimization'
+        t('coreOutputs.outputs.shiftPlans.features.0'),
+        t('coreOutputs.outputs.shiftPlans.features.1'),
+        t('coreOutputs.outputs.shiftPlans.features.2'),
+        t('coreOutputs.outputs.shiftPlans.features.3')
       ],
       color: 'bg-primary',
       progress: 85
     },
     {
-      title: 'Labor Cost/Revenue Dashboards',
-      description: 'Reduce labor costs and provide unified analytics with clear summaries of anomalies for data-backed decisions',
+      title: t('coreOutputs.outputs.dashboards.title'),
+      description: t('coreOutputs.outputs.dashboards.description'),
       features: [
-        'Cost reduction analytics',
-        'Anomaly detection',
-        'Performance gap identification',
-        'Cross-platform measurement'
+        t('coreOutputs.outputs.dashboards.features.0'),
+        t('coreOutputs.outputs.dashboards.features.1'),
+        t('coreOutputs.outputs.dashboards.features.2'),
+        t('coreOutputs.outputs.dashboards.features.3')
       ],
       color: 'bg-secondary',
       progress: 92
@@ -74,53 +76,53 @@ const HotelsPage: React.FC = () => {
 
   const regionalAdaptations = {
     US: {
-      title: 'Strategic Staffing for Peak Tipping',
-      subtitle: 'Optimize staffing based on skills and demand',
-      description: 'AI scheduler optimizes staffing based on skills and demand, ensuring optimal deployment of high-skill servers during anticipated peak demand periods. Strategic workforce management influences tip potential and overall revenue opportunities.',
+      title: t('regionalAdaptations.regions.US.title'),
+      subtitle: t('regionalAdaptations.regions.US.subtitle'),
+      description: t('regionalAdaptations.regions.US.description'),
       features: [
-        'Skill-based staff deployment',
-        'Peak demand period optimization',
-        'Strategic workforce management',
-        'Revenue opportunity maximization'
+        t('regionalAdaptations.regions.US.features.0'),
+        t('regionalAdaptations.regions.US.features.1'),
+        t('regionalAdaptations.regions.US.features.2'),
+        t('regionalAdaptations.regions.US.features.3')
       ],
       color: 'bg-blue-500',
       icon: DollarSign
     },
     EU: {
-      title: 'Automated Compliance',
-      subtitle: 'Working Time Directives compliance',
-      description: 'AI schedulers draft shifts compliant with complex labor laws across various countries. Maintain compliance, avoid costly fines, and ensure accurate record-keeping of workdays, rest periods, and overtime.',
+      title: t('regionalAdaptations.regions.EU.title'),
+      subtitle: t('regionalAdaptations.regions.EU.subtitle'),
+      description: t('regionalAdaptations.regions.EU.description'),
       features: [
-        'Complex labor law compliance',
-        'Multi-country regulation adherence',
-        'Automated fine prevention',
-        'GDPR compliance integration'
+        t('regionalAdaptations.regions.EU.features.0'),
+        t('regionalAdaptations.regions.EU.features.1'),
+        t('regionalAdaptations.regions.EU.features.2'),
+        t('regionalAdaptations.regions.EU.features.3')
       ],
       color: 'bg-green-500',
       icon: Shield
     },
     LATAM: {
-      title: 'Cash-Flow Optimization',
-      subtitle: 'High-cash transaction venues',
-      description: 'Specialized optimization for venues with high cash transactions, focusing on cash flow management and operational efficiency in cash-heavy hospitality environments.',
+      title: t('regionalAdaptations.regions.LATAM.title'),
+      subtitle: t('regionalAdaptations.regions.LATAM.subtitle'),
+      description: t('regionalAdaptations.regions.LATAM.description'),
       features: [
-        'Cash transaction optimization',
-        'Flow management systems',
-        'Operational efficiency focus',
-        'Cash-heavy environment adaptation'
+        t('regionalAdaptations.regions.LATAM.features.0'),
+        t('regionalAdaptations.regions.LATAM.features.1'),
+        t('regionalAdaptations.regions.LATAM.features.2'),
+        t('regionalAdaptations.regions.LATAM.features.3')
       ],
       color: 'bg-orange-500',
       icon: TrendingUp
     },
     APAC: {
-      title: 'Mobile Wallet Integration',
-      subtitle: 'Facilitating mobile payment systems',
-      description: 'Heavy emphasis on mobile integration with personalized experiences and promotions. Mobile payment apps contribute to booking conversion rates, with next-generation mobile apps enhancing loyalty programs.',
+      title: t('regionalAdaptations.regions.APAC.title'),
+      subtitle: t('regionalAdaptations.regions.APAC.subtitle'),
+      description: t('regionalAdaptations.regions.APAC.description'),
       features: [
-        'Mobile payment integration',
-        'Personalized meal choices',
-        'Digital footprint expansion',
-        'Loyalty program enhancement'
+        t('regionalAdaptations.regions.APAC.features.0'),
+        t('regionalAdaptations.regions.APAC.features.1'),
+        t('regionalAdaptations.regions.APAC.features.2'),
+        t('regionalAdaptations.regions.APAC.features.3')
       ],
       color: 'bg-yellow-500',
       icon: Smartphone
@@ -130,17 +132,17 @@ const HotelsPage: React.FC = () => {
   const industryStats = [
     {
       stat: '69%',
-      description: 'Hotels still manage shifts manually',
+      description: t('hero.stats.manualShifts'),
       color: 'text-red-500'
     },
     {
       stat: '40%',
-      description: 'Labor costs of hotel operations',
+      description: t('hero.stats.laborCosts'),
       color: 'text-orange-500'
     },
     {
       stat: '85%',
-      description: 'Reduction in scheduling time',
+      description: t('hero.stats.schedulingTime'),
       color: 'text-green-500'
     }
   ];
@@ -154,17 +156,17 @@ const HotelsPage: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
               <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-                Revolutionize Your Hotel Operations
+                {t('hero.title')}
               </h1>
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-                AI-Powered Staff Scheduling designed to efficiently manage staff and resources in an industry where 69% of hotels still manage shifts manually
+                {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-                  Request Demo Today
+                  {t('hero.cta.demo')}
                 </button>
                 <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                  See How It Works
+                  {t('hero.cta.howItWorks')}
                 </button>
               </div>
             </div>
@@ -175,7 +177,7 @@ const HotelsPage: React.FC = () => {
                   <div className="inline-flex items-center justify-center w-24 h-24 bg-white bg-opacity-20 rounded-full mb-4 animate-pulse-slow">
                     <Building2 size={48} className="text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Hotel Intelligence</h3>
+                  <h3 className="text-2xl font-bold mb-4">{t('hero.aiPoweredIntelligence')}</h3>
                 </div>
                 
                 <div className="space-y-4">
@@ -197,10 +199,10 @@ const HotelsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Transforming Hotel Operations
+              {t('problemStatement.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Our AI-driven approach alleviates operational challenges by significantly reducing employee downtime, improving productivity, and minimizing service disruptions
+              {t('problemStatement.subtitle')}
             </p>
           </div>
 
@@ -209,45 +211,45 @@ const HotelsPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-red-100 mb-6">
                 <Clock size={40} className="text-red-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Reduce Downtime</h3>
-              <p className="text-gray-600">Significantly reduce employee downtime through intelligent scheduling and resource allocation</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('problemStatement.benefits.reduceDowntime.title')}</h3>
+              <p className="text-gray-600">{t('problemStatement.benefits.reduceDowntime.description')}</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-green-100 mb-6">
                 <TrendingUp size={40} className="text-green-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Improve Productivity</h3>
-              <p className="text-gray-600">Boost overall productivity by deploying the right resources to the right places at the right times</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('problemStatement.benefits.improveProductivity.title')}</h3>
+              <p className="text-gray-600">{t('problemStatement.benefits.improveProductivity.description')}</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
               <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 mb-6">
                 <Shield size={40} className="text-blue-500" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Minimize Disruptions</h3>
-              <p className="text-gray-600">Adapt to unexpected changes while eliminating human bias and error in scheduling decisions</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{t('problemStatement.benefits.minimizeDisruptions.title')}</h3>
+              <p className="text-gray-600">{t('problemStatement.benefits.minimizeDisruptions.description')}</p>
             </div>
           </div>
 
           <div className="mt-16 bg-white rounded-2xl p-8 shadow-lg">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Cutting-Edge Technology Benefits</h3>
-              <p className="text-lg text-gray-600">Lower costs, boost satisfaction, and grow revenue without requiring a complete system overhaul</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('problemStatement.techBenefits.title')}</h3>
+              <p className="text-lg text-gray-600">{t('problemStatement.techBenefits.subtitle')}</p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-secondary mb-2">Lower Costs</div>
-                <div className="text-gray-600">Reduce operational expenses through optimized scheduling</div>
+                <div className="text-3xl font-bold text-secondary mb-2">{t('problemStatement.techBenefits.items.lowerCosts')}</div>
+                <div className="text-gray-600">{t('problemStatement.techBenefits.items.costDescription')}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">Boost Satisfaction</div>
-                <div className="text-gray-600">Improve both staff and guest satisfaction rates</div>
+                <div className="text-3xl font-bold text-primary mb-2">{t('problemStatement.techBenefits.items.boostSatisfaction')}</div>
+                <div className="text-gray-600">{t('problemStatement.techBenefits.items.satisfactionDescription')}</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent-latam mb-2">Grow Revenue</div>
-                <div className="text-gray-600">Increase revenue through better resource utilization</div>
+                <div className="text-3xl font-bold text-accent-latam mb-2">{t('problemStatement.techBenefits.items.growRevenue')}</div>
+                <div className="text-gray-600">{t('problemStatement.techBenefits.items.revenueDescription')}</div>
               </div>
             </div>
           </div>
@@ -259,10 +261,10 @@ const HotelsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Powering Precision with Advanced Demand Signals
+              {t('demandSignals.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The efficacy of our AI scheduler is rooted in its intelligent use of demand signals, integrating external factors to create accurate demand models
+              {t('demandSignals.subtitle')}
             </p>
           </div>
 
@@ -285,22 +287,22 @@ const HotelsPage: React.FC = () => {
 
           <div className="mt-16 bg-gradient-to-r from-primary to-blue-600 rounded-2xl p-8 text-white">
             <div className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Advanced Data Analytics</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('demandSignals.analytics.title')}</h3>
               <p className="text-lg text-blue-100 mb-6">
-                Our AI leverages advanced data analytics to turn raw data into actionable knowledge, aiding in real-time decisions
+                {t('demandSignals.analytics.description')}
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                  <div className="text-xl font-bold mb-2">Real-Time</div>
-                  <div className="text-sm opacity-90">Decision Making</div>
+                  <div className="text-xl font-bold mb-2">{t('demandSignals.analytics.items.realTime')}</div>
+                  <div className="text-sm opacity-90">{t('demandSignals.analytics.items.realTimeDesc')}</div>
                 </div>
                 <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                  <div className="text-xl font-bold mb-2">Sentiment</div>
-                  <div className="text-sm opacity-90">Analysis</div>
+                  <div className="text-xl font-bold mb-2">{t('demandSignals.analytics.items.sentiment')}</div>
+                  <div className="text-sm opacity-90">{t('demandSignals.analytics.items.sentimentDesc')}</div>
                 </div>
                 <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                  <div className="text-xl font-bold mb-2">Predictive</div>
-                  <div className="text-sm opacity-90">Insights</div>
+                  <div className="text-xl font-bold mb-2">{t('demandSignals.analytics.items.predictive')}</div>
+                  <div className="text-sm opacity-90">{t('demandSignals.analytics.items.predictiveDesc')}</div>
                 </div>
               </div>
             </div>
@@ -313,10 +315,10 @@ const HotelsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Driving Efficiency and Profitability
+              {t('coreOutputs.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tangible outputs that translate directly into improved operational and financial performance
+              {t('coreOutputs.subtitle')}
             </p>
           </div>
 
@@ -351,27 +353,27 @@ const HotelsPage: React.FC = () => {
 
           <div className="mt-12 bg-white rounded-2xl p-8 shadow-lg">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Real-World Impact Examples</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('coreOutputs.examples.title')}</h3>
             </div>
             
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-blue-50 rounded-lg p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <Star className="text-blue-500" size={24} />
-                  <span className="font-semibold text-blue-700">Barceló Group Success</span>
+                  <span className="font-semibold text-blue-700">{t('coreOutputs.examples.barcelo.title')}</span>
                 </div>
                 <p className="text-gray-700">
-                  AI-powered online pricing applications maximize production and profitability across all hotel sales channels by optimizing tariffs based on predictive demand models
+                  {t('coreOutputs.examples.barcelo.description')}
                 </p>
               </div>
               
               <div className="bg-green-50 rounded-lg p-6">
                 <div className="flex items-center gap-3 mb-4">
                   <BarChart3 className="text-green-500" size={24} />
-                  <span className="font-semibold text-green-700">Havas Analytics</span>
+                  <span className="font-semibold text-green-700">{t('coreOutputs.examples.havas.title')}</span>
                 </div>
                 <p className="text-gray-700">
-                  AI-powered modeling tools for cross-platform audience planning and measuring communication plan outcomes via global dashboards
+                  {t('coreOutputs.examples.havas.description')}
                 </p>
               </div>
             </div>
@@ -384,10 +386,10 @@ const HotelsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Tailored for Global Hospitality
+              {t('regionalAdaptations.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Regional adaptations designed to meet diverse market needs across global hospitality
+              {t('regionalAdaptations.subtitle')}
             </p>
           </div>
 
@@ -452,20 +454,20 @@ const HotelsPage: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-primary via-blue-600 to-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold mb-6">
-            Ready to Transform Your Hotel's Scheduling?
-          </h2>
-          <p className="text-xl lg:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
-            Discover how our AI scheduler can optimize your operations and elevate your profitability
-          </p>
+            <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold mb-6">
+              {t('cta.title')}
+            </h2>
+            <p className="text-xl lg:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
+              {t('cta.subtitle')}
+            </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
               <Building2 size={24} />
-              Request Demo Today
+              {t('cta.buttons.demo')}
             </button>
             <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-3">
-              Learn More
+              {t('cta.buttons.learnMore')}
               <ArrowRight size={20} />
             </button>
           </div>
@@ -473,19 +475,19 @@ const HotelsPage: React.FC = () => {
           <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">69%</div>
-              <div className="text-blue-200">Hotels Still Manual</div>
+              <div className="text-blue-200">{t('cta.stats.manual')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">85%</div>
-              <div className="text-blue-200">Time Reduction</div>
+              <div className="text-blue-200">{t('cta.stats.timeReduction')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">40%</div>
-              <div className="text-blue-200">Labor Cost Impact</div>
+              <div className="text-blue-200">{t('cta.stats.laborCost')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">24/7</div>
-              <div className="text-blue-200">AI Optimization</div>
+              <div className="text-blue-200">{t('cta.stats.aiOptimization')}</div>
             </div>
           </div>
         </div>

@@ -1,0 +1,188 @@
+{
+  "hero": {
+    "title": "Revolutionize Your Hotel Operations",
+    "subtitle": "AI-Powered Staff Scheduling designed to efficiently manage staff and resources in an industry where 69% of hotels still manage shifts manually",
+    "cta": {
+      "demo": "Request Demo Today",
+      "howItWorks": "See How It Works"
+    },
+    "aiPoweredIntelligence": "Hotel Intelligence",
+    "intelligenceTitle": "Hotel Intelligence",
+    "stats": {
+      "manualShifts": "Hotels still manage shifts manually",
+      "laborCosts": "Labor costs of hotel operations",
+      "schedulingTime": "Reduction in scheduling time"
+    }
+  },
+  "problemStatement": {
+    "title": "Transforming Hotel Operations",
+    "subtitle": "Our AI-driven approach alleviates operational challenges by significantly reducing employee downtime, improving productivity, and minimizing service disruptions",
+    "benefits": {
+      "reduceDowntime": {
+        "title": "Reduce Downtime",
+        "description": "Significantly reduce employee downtime through intelligent scheduling and resource allocation"
+      },
+      "improveProductivity": {
+        "title": "Improve Productivity",
+        "description": "Boost overall productivity by deploying the right resources to the right places at the right times"
+      },
+      "minimizeDisruptions": {
+        "title": "Minimize Disruptions",
+        "description": "Adapt to unexpected changes while eliminating human bias and error in scheduling decisions"
+      }
+    },
+    "techBenefits": {
+      "title": "Cutting-Edge Technology Benefits",
+      "subtitle": "Lower costs, boost satisfaction, and grow revenue without requiring a complete system overhaul",
+      "items": {
+        "lowerCosts": "Lower Costs",
+        "boostSatisfaction": "Boost Satisfaction",
+        "growRevenue": "Grow Revenue",
+        "costDescription": "Reduce operational expenses through optimized scheduling",
+        "satisfactionDescription": "Improve both staff and guest satisfaction rates",
+        "revenueDescription": "Increase revenue through better resource utilization"
+      }
+    }
+  },
+  "demandSignals": {
+    "title": "Powering Precision with Advanced Demand Signals",
+    "subtitle": "The efficacy of our AI scheduler is rooted in its intelligent use of demand signals, integrating external factors to create accurate demand models",
+    "signals": {
+      "weather": {
+        "title": "Weather APIs",
+        "description": "Explicitly incorporate weather conditions into AI-powered demand forecasting for crucial operational decisions"
+      },
+      "events": {
+        "title": "Event & Local Activity Integration",
+        "description": "Factor in local activities and event calendars to detect demand patterns and enable proactive staffing"
+      },
+      "data": {
+        "title": "Beyond Simple Data",
+        "description": "Interpret unstructured text like public reviews to cluster sentiment and generate human-readable summaries"
+      }
+    },
+    "analytics": {
+      "title": "Advanced Data Analytics",
+      "subtitle": "Our AI leverages advanced data analytics to turn raw data into actionable knowledge, aiding in real-time decisions",
+      "description": "Our AI leverages advanced data analytics to turn raw data into actionable knowledge, aiding in real-time decisions",
+      "items": {
+        "realTime": "Real-Time",
+        "realTimeDesc": "Decision Making",
+        "sentiment": "Sentiment",
+        "sentimentDesc": "Analysis",
+        "predictive": "Predictive",
+        "predictiveDesc": "Insights",
+        "decisionMaking": "Decision Making",
+        "analysis": "Analysis",
+        "insights": "Insights"
+      }
+    }
+  },
+  "coreOutputs": {
+    "title": "Driving Efficiency and Profitability",
+    "subtitle": "Tangible outputs that translate directly into improved operational and financial performance",
+    "outputs": {
+      "shiftPlans": {
+        "title": "Optimized Shift Plans",
+        "description": "Draft shifts compliant with labor laws considering employee availability, dramatically reducing manual effort",
+        "features": [
+          "Labor law compliance automation",
+          "Employee availability integration",
+          "Strategic workforce deployment",
+          "Peak period optimization"
+        ]
+      },
+      "dashboards": {
+        "title": "Labor Cost/Revenue Dashboards",
+        "description": "Reduce labor costs and provide unified analytics with clear summaries of anomalies for data-backed decisions",
+        "features": [
+          "Cost reduction analytics",
+          "Anomaly detection",
+          "Performance gap identification",
+          "Cross-platform measurement"
+        ]
+      }
+    },
+    "examples": {
+      "title": "Real-World Impact Examples",
+      "barcelo": {
+        "title": "Barceló Group Success",
+        "description": "AI-powered online pricing applications maximize production and profitability across all hotel sales channels by optimizing tariffs based on predictive demand models"
+      },
+      "havas": {
+        "title": "Havas Analytics",
+        "description": "AI-powered modeling tools for cross-platform audience planning and measuring communication plan outcomes via global dashboards"
+      }
+    }
+  },
+  "regionalAdaptations": {
+    "title": "Tailored for Global Hospitality",
+    "subtitle": "Regional adaptations designed to meet diverse market needs across global hospitality",
+    "regionNames": {
+      "US": "US",
+      "EU": "EU",
+      "LATAM": "LATAM",
+      "APAC": "APAC"
+    },
+    "regions": {
+      "US": {
+        "title": "Strategic Staffing for Peak Tipping",
+        "subtitle": "Optimize staffing based on skills and demand",
+        "description": "AI scheduler optimizes staffing based on skills and demand, ensuring optimal deployment of high-skill servers during anticipated peak demand periods. Strategic workforce management influences tip potential and overall revenue opportunities.",
+        "features": [
+          "Skill-based staff deployment",
+          "Peak demand period optimization",
+          "Strategic workforce management",
+          "Revenue opportunity maximization"
+        ]
+      },
+      "EU": {
+        "title": "Automated Compliance",
+        "subtitle": "Working Time Directives compliance",
+        "description": "AI schedulers draft shifts compliant with complex labor laws across various countries. Maintain compliance, avoid costly fines, and ensure accurate record-keeping of workdays, rest periods, and overtime.",
+        "features": [
+          "Complex labor law compliance",
+          "Multi-country regulation adherence",
+          "Automated fine prevention",
+          "GDPR compliance integration"
+        ]
+      },
+      "LATAM": {
+        "title": "Cash-Flow Optimization",
+        "subtitle": "High-cash transaction venues",
+        "description": "Specialized optimization for venues with high cash transactions, focusing on cash flow management and operational efficiency in cash-heavy hospitality environments.",
+        "features": [
+          "Cash transaction optimization",
+          "Flow management systems",
+          "Operational efficiency focus",
+          "Cash-heavy environment adaptation"
+        ]
+      },
+      "APAC": {
+        "title": "Mobile Wallet Integration",
+        "subtitle": "Facilitating mobile payment systems",
+        "description": "Heavy emphasis on mobile integration with personalized experiences and promotions. Mobile payment apps contribute to booking conversion rates, with next-generation mobile apps enhancing loyalty programs.",
+        "features": [
+          "Mobile payment integration",
+          "Personalized meal choices",
+          "Digital footprint expansion",
+          "Loyalty program enhancement"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Your Hotel's Scheduling?",
+    "subtitle": "Discover how our AI scheduler can optimize your operations and elevate your profitability",
+    "buttons": {
+      "demo": "Request Demo Today",
+      "learnMore": "Learn More"
+    },
+    "stats": {
+      "manual": "Hotels Still Manual",
+      "timeReduction": "Time Reduction",
+      "laborCost": "Labor Cost Impact",
+      "aiOptimization": "AI Optimization"
+    }
+  }
+}

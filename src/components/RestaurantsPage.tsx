@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { 
   Brain, 
   Calendar, 
@@ -19,25 +20,26 @@ import {
 } from 'lucide-react';
 
 const RestaurantsPage: React.FC = () => {
+  const { t } = useTranslation('restaurants');
   const [activeRegion, setActiveRegion] = useState('US');
 
   const demandSignals = [
     {
       icon: MapPin,
-      title: 'Google Popular Times',
-      description: 'AI-powered demand forecasting analyzes real-time inputs including local events and trends',
+      title: t('demandSignals.signals.GooglePopularTimes.title'),
+      description: t('demandSignals.signals.GooglePopularTimes.description'),
       color: 'text-blue-500'
     },
     {
       icon: Calendar,
-      title: 'Eventbrite Integration',
-      description: 'AI systems account for local events and calendars as external factors influencing customer behavior',
+      title: t('demandSignals.signals.EventbriteIntegration.title'),
+      description: t('demandSignals.signals.EventbriteIntegration.description'),
       color: 'text-purple-500'
     },
     {
       icon: Cloud,
-      title: 'Weather APIs',
-      description: 'Forecast sales based on weather data alongside historical sales and other factors',
+      title: t('demandSignals.signals.WeatherAPIs.title'),
+      description: t('demandSignals.signals.WeatherAPIs.description'),
       color: 'text-cyan-500'
     }
   ];
@@ -45,85 +47,85 @@ const RestaurantsPage: React.FC = () => {
   const coreFeatures = [
     {
       icon: Target,
-      title: 'Accurate Staffing Forecasts',
-      description: 'Reduce unnecessary labor costs and prevent service gaps with precise staffing predictions'
+      title: t('coreFeatures.features.AccurateStaffingForecasts.title'),
+      description: t('coreFeatures.features.AccurateStaffingForecasts.description')
     },
     {
       icon: Clock,
-      title: 'Moment-by-Moment Demand',
-      description: 'Predict future demand hour-by-hour, enabling precise anticipation of guest traffic'
+      title: t('coreFeatures.features.MomentbyMomentDemand.title'),
+      description: t('coreFeatures.features.MomentbyMomentDemand.description')
     },
     {
       icon: Zap,
-      title: 'One-Click Automation',
-      description: 'Automate employee schedules and tasks with capabilities and preferences considered'
+      title: t('coreFeatures.features.OneClickAutomation.title'),
+      description: t('coreFeatures.features.OneClickAutomation.description')
     },
     {
       icon: BarChart3,
-      title: 'User-Friendly Dashboards',
-      description: 'AI-optimized schedules and metrics dashboards beyond traditional spreadsheets'
+      title: t('coreFeatures.features.UserFriendlyDashboards.title'),
+      description: t('coreFeatures.features.UserFriendlyDashboards.description')
     },
     {
       icon: DollarSign,
-      title: 'Cost Containment',
-      description: 'Contained labor costs, improved satisfaction, and increased productivity'
+      title: t('coreFeatures.features.CostContainment.title'),
+      description: t('coreFeatures.features.CostContainment.description')
     },
     {
       icon: Users,
-      title: 'Smart Data Integration',
-      description: 'Automatically collect availabilities, preferences, and requests for intelligent scheduling'
+      title: t('coreFeatures.features.SmartDataIntegration.title'),
+      description: t('coreFeatures.features.SmartDataIntegration.description')
     }
   ];
 
   const regionalAdaptations = {
     US: {
-      title: 'Tip-Yield Forecasting',
-      subtitle: 'Staff high-skill servers during peak tipping',
-      description: 'AI-driven forecasting anticipates demand and supports tip-yield optimization by predicting busy periods. Skill-based deployment strategically schedules experienced servers during peak tipping periods.',
+      title: t('regionalAdaptations.regions.US.title'),
+      subtitle: t('regionalAdaptations.regions.US.subtitle'),
+      description: t('regionalAdaptations.regions.US.description'),
       features: [
-        'AI-driven demand forecasting for peak periods',
-        'Skill-based deployment during high-tip times',
-        'Strategic scheduling for maximum tip yield',
-        'Customer confidence through expert staffing'
+        t('regionalAdaptations.regions.US.features.0'),
+        t('regionalAdaptations.regions.US.features.1'),
+        t('regionalAdaptations.regions.US.features.2'),
+        t('regionalAdaptations.regions.US.features.3')
       ],
       color: 'bg-blue-500',
       icon: DollarSign
     },
     EU: {
-      title: 'Auto-Compliance',
-      subtitle: 'Working time directives compliance',
-      description: 'AI scheduler maintains compliance with labor laws and avoids fines through accurate record-keeping. Drafts shifts compliant with EU Working Time Directives and AI Act regulations.',
+      title: t('regionalAdaptations.regions.EU.title'),
+      subtitle: t('regionalAdaptations.regions.EU.subtitle'),
+      description: t('regionalAdaptations.regions.EU.description'),
       features: [
-        'Automatic compliance with labor laws',
-        'EU Working Time Directive adherence',
-        'Accurate record-keeping and reporting',
-        'Reduced overtime penalties and fines'
+        t('regionalAdaptations.regions.EU.features.0'),
+        t('regionalAdaptations.regions.EU.features.1'),
+        t('regionalAdaptations.regions.EU.features.2'),
+        t('regionalAdaptations.regions.EU.features.3')
       ],
       color: 'bg-green-500',
       icon: Shield
     },
     LATAM: {
-      title: 'Cash-Flow Optimization',
-      subtitle: 'High-cash transaction venues',
-      description: 'Real-time business analytics for smarter decision-making, uncovering trends and performance gaps. Seamless payment management helps organize finances and accelerate payments.',
+      title: t('regionalAdaptations.regions.LATAM.title'),
+      subtitle: t('regionalAdaptations.regions.LATAM.subtitle'),
+      description: t('regionalAdaptations.regions.LATAM.description'),
       features: [
-        'Real-time business analytics',
-        'Cash transaction optimization',
-        'Performance gap identification',
-        'Faster payment processing'
+        t('regionalAdaptations.regions.LATAM.features.0'),
+        t('regionalAdaptations.regions.LATAM.features.1'),
+        t('regionalAdaptations.regions.LATAM.features.2'),
+        t('regionalAdaptations.regions.LATAM.features.3')
       ],
       color: 'bg-orange-500',
       icon: TrendingUp
     },
     APAC: {
-      title: 'Mobile Wallet Integration',
-      subtitle: 'Seamless mobile payment systems',
-      description: 'Integration with popular mobile wallets like WeChat Pay. Enhanced booking conversion rates and revenue growth through optimized mobile payment experiences.',
+      title: t('regionalAdaptations.regions.APAC.title'),
+      subtitle: t('regionalAdaptations.regions.APAC.subtitle'),
+      description: t('regionalAdaptations.regions.APAC.description'),
       features: [
-        'WeChat and mobile wallet integration',
-        '8% increase in booking conversions',
-        'Nearly doubled revenue potential',
-        'Optimized mobile payment flows'
+        t('regionalAdaptations.regions.APAC.features.0'),
+        t('regionalAdaptations.regions.APAC.features.1'),
+        t('regionalAdaptations.regions.APAC.features.2'),
+        t('regionalAdaptations.regions.APAC.features.3')
       ],
       color: 'bg-yellow-500',
       icon: Smartphone
@@ -132,21 +134,33 @@ const RestaurantsPage: React.FC = () => {
 
   const outputs = [
     {
-      title: 'Optimized Shift Plans',
-      description: 'Deploy the right number of workers at the right times, reducing downtime and service disruptions',
-      metrics: ['Right-sized teams', 'Reduced downtime', 'Service continuity'],
+      title: t('outputs.items.OptimizedShiftPlans.title'),
+      description: t('outputs.items.OptimizedShiftPlans.description'),
+      metrics: [
+        t('outputs.items.OptimizedShiftPlans.metrics.0'),
+        t('outputs.items.OptimizedShiftPlans.metrics.1'),
+        t('outputs.items.OptimizedShiftPlans.metrics.2')
+      ],
       color: 'bg-primary'
     },
     {
-      title: 'Labor Cost Dashboards',
-      description: 'Business analytics for smarter decisions, managing costs that account for up to 40% of expenses',
-      metrics: ['Cost visibility', 'Trend analysis', 'Performance gaps'],
+      title: t('outputs.items.LaborCostDashboards.title'),
+      description: t('outputs.items.LaborCostDashboards.description'),
+      metrics: [
+        t('outputs.items.LaborCostDashboards.metrics.0'),
+        t('outputs.items.LaborCostDashboards.metrics.1'),
+        t('outputs.items.LaborCostDashboards.metrics.2')
+      ],
       color: 'bg-secondary'
     },
     {
-      title: 'Revenue Analytics',
-      description: 'Data from POS systems and customer feedback to forecast business outcomes',
-      metrics: ['Revenue forecasting', 'Customer insights', 'Future planning'],
+      title: t('outputs.items.RevenueAnalytics.title'),
+      description: t('outputs.items.RevenueAnalytics.description'),
+      metrics: [
+        t('outputs.items.RevenueAnalytics.metrics.0'),
+        t('outputs.items.RevenueAnalytics.metrics.1'),
+        t('outputs.items.RevenueAnalytics.metrics.2')
+      ],
       color: 'bg-accent-latam'
     }
   ];
@@ -160,17 +174,17 @@ const RestaurantsPage: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
               <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-                Global Labor Intelligence Platform
+                {t('hero.title')}
               </h1>
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-                AI-powered scheduler designed to bring efficiency and strategic advantage to restaurants in a dynamic industry
+                {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-                  Start Free Trial
+                  {t('hero.buttons.trial')}
                 </button>
                 <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                  See Demo
+                  {t('hero.buttons.demo')}
                 </button>
               </div>
             </div>
@@ -181,25 +195,25 @@ const RestaurantsPage: React.FC = () => {
                   <div className="inline-flex items-center justify-center w-24 h-24 bg-white bg-opacity-20 rounded-full mb-4 animate-pulse-slow">
                     <Brain size={48} className="text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">AI-Powered Intelligence</h3>
+                  <h3 className="text-2xl font-bold mb-4">{t('hero.aiPoweredIntelligence')}</h3>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
                     <div className="text-2xl font-bold text-secondary mb-1">40%</div>
-                    <div className="text-sm opacity-90">Labor Cost Savings</div>
+                    <div className="text-sm opacity-90">{t('hero.metrics.costSavings')}</div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
                     <div className="text-2xl font-bold text-accent-apac mb-1">24/7</div>
-                    <div className="text-sm opacity-90">Demand Monitoring</div>
+                    <div className="text-sm opacity-90">{t('hero.metrics.demandMonitoring')}</div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
                     <div className="text-2xl font-bold text-accent-latam mb-1">1-Click</div>
-                    <div className="text-sm opacity-90">Schedule Generation</div>
+                    <div className="text-sm opacity-90">{t('hero.metrics.scheduleGeneration')}</div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
                     <div className="text-2xl font-bold text-white mb-1">Global</div>
-                    <div className="text-sm opacity-90">Regional Adaptation</div>
+                    <div className="text-sm opacity-90">{t('hero.metrics.regionalAdaptation')}</div>
                   </div>
                 </div>
               </div>
@@ -213,10 +227,10 @@ const RestaurantsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              AI-Powered System Built To
+              {t('coreFeatures.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions that leverage demand signals and provide strategic outputs
+              {t('coreFeatures.subtitle')}
             </p>
           </div>
 
@@ -244,10 +258,10 @@ const RestaurantsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Demand Signals
+              {t('demandSignals.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The AI scheduler enhances accuracy by incorporating various demand signals
+              {t('demandSignals.subtitle')}
             </p>
           </div>
 
@@ -275,10 +289,10 @@ const RestaurantsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Output: Optimized Plans + Analytics
+              {t('outputs.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Generate optimized shift plans and comprehensive dashboards for data-driven decisions
+              {t('outputs.subtitle')}
             </p>
           </div>
 
@@ -307,10 +321,10 @@ const RestaurantsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Regional Adaptations
+              {t('regionalAdaptations.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored solutions to meet the unique demands of different global regions
+              {t('regionalAdaptations.subtitle')}
             </p>
           </div>
 
@@ -376,19 +390,19 @@ const RestaurantsPage: React.FC = () => {
       <section className="py-20 bg-gradient-to-br from-primary via-blue-600 to-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold mb-6">
-            Ready to Transform Your Restaurant Operations?
+            {t('cta.title')}
           </h2>
           <p className="text-xl lg:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
-            Join thousands of restaurants leveraging AI-powered scheduling for strategic advantage
+            {t('cta.subtitle')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
               <Brain size={24} />
-              Start Free Trial
+              {t('cta.buttons.trial')}
             </button>
             <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-3">
-              Schedule Demo
+              {t('cta.buttons.demo')}
               <ArrowRight size={20} />
             </button>
           </div>
@@ -396,19 +410,19 @@ const RestaurantsPage: React.FC = () => {
           <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">500+</div>
-              <div className="text-blue-200">Restaurants Optimized</div>
+              <div className="text-blue-200">{t('cta.metrics.restaurants')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">40%</div>
-              <div className="text-blue-200">Labor Cost Reduction</div>
+              <div className="text-blue-200">{t('cta.metrics.costReduction')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">4</div>
-              <div className="text-blue-200">Global Regions</div>
+              <div className="text-blue-200">{t('cta.metrics.regions')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">24/7</div>
-              <div className="text-blue-200">AI Monitoring</div>
+              <div className="text-blue-200">{t('cta.metrics.monitoring')}</div>
             </div>
           </div>
         </div>

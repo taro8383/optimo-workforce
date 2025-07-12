@@ -26,6 +26,7 @@
   - Basic page content
   - Pricing section
   - Social proof section
+  - Restaurants page (AI-Powered Intelligence text)
   - Complete translations for:
     - English (100%)
     - Spanish (100%)

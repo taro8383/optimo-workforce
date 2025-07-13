@@ -1,0 +1,239 @@
+{
+  "hero": {
+    "title": "Brew Success: Optimize Your Cafe Operations",
+    "subtitle": "AI-Powered Staff Scheduling for efficient resource management in the bustling world of cafes",
+    "ctaText": "Schedule Demo",
+    "stats": {
+      "manualShifts": "Cafes still manage shifts manually",
+      "laborCosts": "Labor costs of cafe operations",
+      "fasterScheduling": "Faster than traditional methods",
+      "aiOptimization": "AI Optimization Percentage"
+    }
+  },
+  "problemSolution": {
+    "title": "Transform Your Cafe Operations",
+    "problemText": "While 69% of cafes still manage shifts manually, our AI scheduler reduces downtime, boosts productivity, and minimizes service disruptions with precision",
+    "solutionText": "Our solution provides AI-powered optimization for cafe workforce management"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Step 1: Needs Assessment",
+      "description": "We analyze your cafe's unique requirements"
+    },
+    "step2": {
+      "title": "Step 2: AI Optimization",
+      "description": "Our algorithm creates optimal schedules"
+    },
+    "step3": {
+      "title": "Step 3: Continuous Improvement",
+      "description": "Ongoing adjustments based on performance data"
+    }
+  },
+  "tippingSpotlight": {
+    "title": "Tipping Optimization",
+    "feature1": {
+      "title": "Peak Hour Staffing",
+      "description": "Maximize tips during busy periods"
+    },
+    "feature2": {
+      "title": "Skill-Based Deployment",
+      "description": "Assign top baristas to high-traffic shifts"
+    }
+  },
+  "globalIntelligence": {
+    "title": "Global Insights",
+    "metric1": {
+      "value": "30%",
+      "label": "Labor Cost Reduction"
+    },
+    "metric2": {
+      "value": "85%",
+      "label": "Scheduling Efficiency"
+    }
+  },
+  "socialProof": {
+    "testimonial1": {
+      "text": "This system transformed our cafe operations",
+      "author": "Maria, Cafe Owner"
+    },
+    "testimonial2": {
+      "text": "Best scheduling solution we've used",
+      "author": "John, Barista"
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "plan1": {
+      "name": "Basic",
+      "price": "$99/month",
+      "features": ["Single location", "Basic scheduling"]
+    },
+    "plan2": {
+      "name": "Premium",
+      "price": "$299/month",
+      "features": ["Multi-location", "Advanced analytics"]
+    }
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Cafe?",
+    "subtitle": "Start your free trial today",
+    "ctaText": "Get Started"
+  },
+  "features": {
+    "demandSignals": [
+      {
+        "title": "Weather APIs",
+        "description": "AI-powered demand forecasting incorporates weather conditions—rainy days boost hot drinks, sunny afternoons encourage outdoor seating",
+        "color": "text-blue-500"
+      },
+      {
+        "title": "Local Events & Activity Integration",
+        "description": "Factor in local activities and event calendars to detect demand patterns, ensuring perfect staffing for events and festivals",
+        "color": "text-purple-500"
+      },
+      {
+        "title": "Beyond Basic Data",
+        "description": "Interpret unstructured text like public reviews to cluster sentiment and provide human-readable summaries for managers",
+        "color": "text-green-500"
+      }
+    ]
+  },
+  "coreOutcomes": {
+    "title": "Core Operational Outcomes",
+    "subtitle": "Measurable improvements in cafe operations",
+    "items": [
+      {
+        "title": "Optimized Shift Plans",
+        "description": "Draft shifts compliant with labor laws considering employee availability, drastically reducing manual scheduling effort",
+        "features": [
+          "Labor law compliance automation",
+          "Employee availability integration",
+          "Flexible scheduling and shift swaps",
+          "Peak coffee rush optimization"
+        ],
+        "color": "bg-primary",
+        "progress": 88
+      },
+      {
+        "title": "Labor Cost/Revenue Dashboards",
+        "description": "Address labor costs (up to 40% of expenses) with unified analytics and clear anomaly summaries in plain English",
+        "features": [
+          "Cost reduction analytics",
+          "Pattern recognition",
+          "Market shift adaptation",
+          "Performance monitoring"
+        ],
+        "color": "bg-primary",
+        "progress": 75
+      }
+    ]
+  },
+  "regionalAdaptations": {
+    "title": "Regional Adaptations",
+    "subtitle": "Tailored solutions for different markets",
+    "regions": {
+      "US": {
+        "description": "AI scheduler creates optimal schedules considering availability and skills. Strategic deployment of skilled baristas during peak periods influences tip opportunities, as overstaffing can dilute tips and demotivate staff.",
+        "features": [
+          "Skilled barista deployment during peaks",
+          "Tip opportunity optimization",
+          "Appropriate staffing level maintenance",
+          "Specialized tip management software integration"
+        ]
+      },
+      "EU": {
+        "description": "AI schedulers draft shifts compliant with labor laws, maintain compliance, avoid fines, and ensure accurate record-keeping. Time tracking with customizable rules by country and GDPR compliance.",
+        "features": [
+          "EU labor law compliance",
+          "Automated fine prevention",
+          "Accurate workday record-keeping",
+          "GDPR compliance integration"
+        ]
+      },
+      "LATAM": {
+        "description": "AI scheduling benefits include cost reduction and revenue uplift, contributing to improved cash flow. Payment digitalization support for emerging markets with high transaction volumes.",
+        "features": [
+          "Cash transaction optimization",
+          "Payment digitalization support",
+          "Operational efficiency focus",
+          "High-volume transaction handling"
+        ]
+      },
+      "APAC": {
+        "description": "Mobile payment apps contribute to booking conversion rates. AI-powered mobile apps for personalized experiences. Optimized staffing handles increased mobile payment transaction volumes.",
+        "features": [
+          "Mobile payment app integration",
+          "Personalized meal choice systems",
+          "Increased transaction volume handling",
+          "Enhanced customer journey support"
+        ]
+      }
+    }
+  },
+  "benefits": {
+    "title": "Benefits Summary",
+    "subtitle": "Key advantages of our cafe optimization solution",
+    "items": {
+      "costSavings": {
+        "title": "Cost Savings",
+        "description": "Reduce labor costs by up to 30% through optimized scheduling"
+      },
+      "enhancedExperience": {
+        "title": "Enhanced Guest Experience",
+        "description": "Consistent staffing ensures better service quality"
+      },
+      "globalCompliance": {
+        "title": "Global Compliance",
+        "description": "Automatically adhere to regional labor laws"
+      }
+    }
+  },
+  "performanceMetrics": {
+    "lowerCosts": "Lower Costs",
+    "lowerCostsDesc": "Reduce operational expenses",
+    "happierStaff": "Happier Staff",
+    "happierStaffDesc": "Improve employee satisfaction",
+    "delightedCustomers": "Delighted Customers",
+    "delightedCustomersDesc": "Enhanced customer experience"
+  },
+  "weatherImpact": {
+    "title": "Weather Impact Examples",
+    "description": "Understanding how weather changes influence sales is crucial for personnel planning",
+    "examples": {
+      "rainyDay": "Rainy Day",
+      "hotDrinks": "Hot drinks ↑",
+      "sunnyAfternoon": "Sunny Afternoon",
+      "outdoorSeating": "Outdoor seating ↑"
+    }
+  },
+  "advancedAnalytics": {
+    "title": "Advanced Data Analytics",
+    "description": "Convert raw data into actionable knowledge, supporting real-time decisions and ensuring scheduling aligns with actual and predicted guest needs",
+    "features": [
+      "Real-Time",
+      "Decision Support",
+      "Sentiment",
+      "Clustering",
+      "Customer",
+      "Satisfaction"
+    ]
+  },
+  "industryStats": [
+    {
+      "stat": "69%",
+      "description": "Cafes still manage shifts manually",
+      "color": "text-red-500"
+    },
+    {
+      "stat": "40%",
+      "description": "Labor costs of cafe operations",
+      "color": "text-orange-500"
+    },
+    {
+      "stat": "85%",
+      "description": "Faster than traditional methods",
+      "color": "text-green-500"
+    }
+  ]
+}

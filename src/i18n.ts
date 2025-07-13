@@ -6,6 +6,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enCommon from './locales/en/common.json';
 import enRestaurants from './locales/en/restaurants.json';
 import enHotels from './locales/en/hotels.json';
+import enCafe from './locales/en/cafe.json';
 import enHero from './locales/en/hero.json';
 import enHeader from './locales/en/header.json';
 import enPricing from './locales/en/pricing.json';
@@ -37,6 +38,7 @@ import enFutureFeaturesTips from './locales/en/future-features/tipManagement.jso
 import esCommon from './locales/es/common.json';
 import esRestaurants from './locales/es/restaurants.json';
 import esHotels from './locales/es/hotels.json';
+import esCafe from './locales/es/cafe.json';
 import esHero from './locales/es/hero.json';
 import esHeader from './locales/es/header.json';
 import esPricing from './locales/es/pricing.json';
@@ -101,7 +103,8 @@ i18n
         tipManagement: enFutureFeaturesTips
       },
       restaurants: enRestaurants,
-      hotels: enHotels
+      hotels: enHotels,
+      cafe: enCafe
     },
     es: {
         common: esCommon,
@@ -134,7 +137,8 @@ i18n
         tipManagement: esFutureFeaturesTips
         },
         restaurants: esRestaurants,
-        hotels: esHotels
+        hotels: esHotels,
+        cafe: esCafe
       }
     },
     fallbackLng: 'en',
@@ -161,16 +165,9 @@ i18n
       'globalIntelligence',
       'finalCTA',
       'footer',
-      'futureFeatures',
-      'futureFeatures:inventoryOptimization',
-      'futureFeatures:businessAnalytics',
-      'futureFeatures:customerFeedback',
-      'futureFeatures:customerManagement',
-      'futureFeatures:aiUpselling',
-      'futureFeatures:dynamicPricing',
-      'futureFeatures:tipManagement',
       'restaurants',
-      'hotels'
+      'hotels',
+      'cafe'
     ],
     defaultNS: 'common',
     keySeparator: '.',
@@ -185,7 +182,9 @@ if (process.env.NODE_ENV === 'development') {
   if (hot) {
     hot.accept([
       './locales/en/footer.json',
-      './locales/es/footer.json'
+      './locales/es/footer.json',
+      './locales/en/cafe.json',
+      './locales/es/cafe.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

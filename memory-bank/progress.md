@@ -27,6 +27,7 @@
   - Pricing section
   - Social proof section
   - Restaurants page (AI-Powered Intelligence text)
+  - Cafes page (full implementation)
   - Complete translations for:
     - English (100%)
     - Spanish (100%)
@@ -47,5 +48,6 @@
 ## Known Issues
 - No error boundaries
 - Limited form validation
+- Temporary type assertion in CafesPage i18n implementation
 - Fixed: Translation interpolation issue in TippingSpotlightSection
 - Fixed: Missing "requestFeature" translation key in common.json

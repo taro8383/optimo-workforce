@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import cafeTranslations from '../locales/en/cafe.json';
 import { 
   Coffee, 
   Calendar, 
@@ -23,8 +25,34 @@ import {
   Umbrella
 } from 'lucide-react';
 
+// Validation function from i18n-best-practices.md
+const validateTranslations = (translations: any, namespace: string) => {
+  const missingKeys: string[] = [];
+  const checkObject = (obj: any, path: string = '') => {
+    Object.entries(obj).forEach(([key, value]) => {
+      const fullPath = path ? `${path}.${key}` : key;
+      if (typeof value === 'object') {
+        checkObject(value, fullPath);
+      } else if (!translations[fullPath]) {
+        missingKeys.push(fullPath);
+      }
+    });
+  };
+  checkObject(translations);
+  
+  if (missingKeys.length > 0) {
+    console.warn(`Missing translations in ${namespace}:`, missingKeys);
+  }
+};
+
 const CafesPage: React.FC = () => {
+  const { t } = useTranslation('cafe');
   const [activeRegion, setActiveRegion] = useState('US');
+
+  // Validate translations on component mount
+  useEffect(() => {
+    validateTranslations(cafeTranslations, 'cafe');
+  }, []);
 
   const demandSignals = [
     {
@@ -174,17 +202,17 @@ const CafesPage: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
               <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-                Brew Success: Optimize Your Cafe Operations
+                {t('hero.title')}
               </h1>
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-                AI-Powered Staff Scheduling for efficient resource management in the bustling world of cafes
+                {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-                  Request Demo Today
+                  {t('hero.ctaText')}
                 </button>
                 <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                  See How It Works
+                  {t('hero.secondaryCta')}
                 </button>
               </div>
             </div>

@@ -1,0 +1,239 @@
+{
+  "hero": {
+    "title": "Optimiza las Operaciones de tu Cafetería",
+    "subtitle": "Programación de personal con IA para una gestión eficiente de recursos",
+    "ctaText": "Programar Demo",
+    "stats": {
+      "manualShifts": "Cafeterías que aún gestionan turnos manualmente",
+      "laborCosts": "Costos laborales de operaciones en cafeterías",
+      "fasterScheduling": "Más rápido que los métodos tradicionales",
+      "aiOptimization": "Porcentaje de optimización con IA"
+    }
+  },
+  "problemSolution": {
+    "title": "Transforma las Operaciones de tu Cafetería",
+    "problemText": "Mientras el 69% de las cafeterías aún gestionan turnos manualmente, nuestro programador con IA reduce el tiempo de inactividad, aumenta la productividad y minimiza las interrupciones del servicio con precisión",
+    "solutionText": "Nuestra solución proporciona optimización impulsada por IA para la gestión del personal en cafeterías"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "step1": {
+      "title": "Paso 1: Evaluación de Necesidades",
+      "description": "Analizamos los requisitos únicos de tu cafetería"
+    },
+    "step2": {
+      "title": "Paso 2: Optimización con IA",
+      "description": "Nuestro algoritmo crea horarios óptimos"
+    },
+    "step3": {
+      "title": "Paso 3: Mejora Continua",
+      "description": "Ajustes continuos basados en datos de rendimiento"
+    }
+  },
+  "tippingSpotlight": {
+    "title": "Optimización de Propinas",
+    "feature1": {
+      "title": "Personalización en Horas Pico",
+      "description": "Maximiza las propinas durante los períodos más ocupados"
+    },
+    "feature2": {
+      "title": "Asignación Basada en Habilidades",
+      "description": "Asigna a los mejores baristas a los turnos de mayor tráfico"
+    }
+  },
+  "globalIntelligence": {
+    "title": "Información Global",
+    "metric1": {
+      "value": "30%",
+      "label": "Reducción de Costos Laborales"
+    },
+    "metric2": {
+      "value": "85%",
+      "label": "Eficiencia en Programación"
+    }
+  },
+  "socialProof": {
+    "testimonial1": {
+      "text": "Este sistema transformó las operaciones de nuestra cafetería",
+      "author": "María, Dueña de Cafetería"
+    },
+    "testimonial2": {
+      "text": "La mejor solución de programación que hemos usado",
+      "author": "Juan, Barista"
+    }
+  },
+  "pricing": {
+    "title": "Precios Sencillos",
+    "plan1": {
+      "name": "Básico",
+      "price": "$99/mes",
+      "features": ["Ubicación única", "Programación básica"]
+    },
+    "plan2": {
+      "name": "Premium",
+      "price": "$299/mes",
+      "features": ["Múltiples ubicaciones", "Análisis avanzado"]
+    }
+  },
+  "finalCTA": {
+    "title": "¿Listo para Optimizar tu Cafetería?",
+    "subtitle": "Comienza tu prueba gratuita hoy mismo",
+    "ctaText": "Comenzar"
+  },
+  "features": {
+    "demandSignals": [
+      {
+        "title": "APIs del Clima",
+        "description": "Pronóstico de demanda con IA incorpora condiciones climáticas - días lluviosos aumentan bebidas calientes, tardes soleadas fomentan asientos al aire libre",
+        "color": "text-blue-500"
+      },
+      {
+        "title": "Integración de Eventos Locales",
+        "description": "Considera actividades locales y calendarios de eventos para detectar patrones de demanda, asegurando personal perfecto para eventos y festivales",
+        "color": "text-purple-500"
+      },
+      {
+        "title": "Más Allá de Datos Básicos",
+        "description": "Interpreta texto no estructurado como reseñas públicas para agrupar sentimientos y proporcionar resúmenes legibles para gerentes",
+        "color": "text-green-500"
+      }
+    ]
+  },
+  "coreOutcomes": {
+    "title": "Resultados Operativos Clave",
+    "subtitle": "Mejoras medibles en operaciones de cafetería",
+    "items": [
+      {
+        "title": "Planes de Turnos Optimizados",
+        "description": "Crea turnos que cumplen con las leyes laborales considerando disponibilidad de empleados, reduciendo drásticamente el esfuerzo de programación manual",
+        "features": [
+          "Automatización de cumplimiento laboral",
+          "Integración de disponibilidad de empleados",
+          "Programación flexible e intercambio de turnos",
+          "Optimización para horas pico de café"
+        ],
+        "color": "bg-primary",
+        "progress": 88
+      },
+      {
+        "title": "Paneles de Costos/Ingresos Laborales",
+        "description": "Aborda costos laborales (hasta 40% de gastos) con análisis unificados y resúmenes claros de anomalías en inglés sencillo",
+        "features": [
+          "Análisis de reducción de costos",
+          "Reconocimiento de patrones",
+          "Adaptación a cambios del mercado",
+          "Monitoreo de rendimiento"
+        ],
+        "color": "bg-primary",
+        "progress": 75
+      }
+    ]
+  },
+  "regionalAdaptations": {
+    "title": "Adaptaciones Regionales",
+    "subtitle": "Soluciones personalizadas para diferentes mercados",
+    "regions": {
+      "US": {
+        "description": "El programador de IA crea horarios óptimos considerando disponibilidad y habilidades. Despliegue estratégico de baristas calificados durante horas pico influye en oportunidades de propinas.",
+        "features": [
+          "Despliegue de baristas calificados en horas pico",
+          "Optimización de oportunidades de propinas",
+          "Mantenimiento de niveles de personal adecuados",
+          "Integración de software especializado para propinas"
+        ]
+      },
+      "EU": {
+        "description": "Los programadores de IA crean turnos que cumplen con las leyes laborales, mantienen cumplimiento, evitan multas y garantizan registros precisos.",
+        "features": [
+          "Cumplimiento de leyes laborales UE",
+          "Prevención automatizada de multas",
+          "Registros precisos de jornadas",
+          "Integración de cumplimiento GDPR"
+        ]
+      },
+      "LATAM": {
+        "description": "Beneficios incluyen reducción de costos y aumento de ingresos, contribuyendo a mejor flujo de efectivo. Soporte para digitalización de pagos en mercados emergentes.",
+        "features": [
+          "Optimización de transacciones en efectivo",
+          "Soporte para digitalización de pagos",
+          "Enfoque en eficiencia operativa",
+          "Manejo de alto volumen de transacciones"
+        ]
+      },
+      "APAC": {
+        "description": "Apps de pago móvil contribuyen a tasas de conversión. Apps móviles con IA para experiencias personalizadas. Personal optimizado maneja mayores volúmenes de transacciones móviles.",
+        "features": [
+          "Integración de apps de pago móvil",
+          "Sistemas de elección de comidas personalizados",
+          "Manejo de mayor volumen de transacciones",
+          "Soporte para experiencia mejorada del cliente"
+        ]
+      }
+    }
+  },
+  "benefits": {
+    "title": "Resumen de Beneficios",
+    "subtitle": "Ventajas clave de nuestra solución de optimización",
+    "items": {
+      "costSavings": {
+        "title": "Ahorro de Costos",
+        "description": "Reduce costos laborales hasta 30% mediante programación optimizada"
+      },
+      "enhancedExperience": {
+        "title": "Experiencia Mejorada",
+        "description": "Personal consistente asegura mejor calidad de servicio"
+      },
+      "globalCompliance": {
+        "title": "Cumplimiento Global",
+        "description": "Cumple automáticamente con leyes laborales regionales"
+      }
+    }
+  },
+  "performanceMetrics": {
+    "lowerCosts": "Costos Más Bajos",
+    "lowerCostsDesc": "Reduce gastos operativos",
+    "happierStaff": "Personal Más Feliz",
+    "happierStaffDesc": "Mejora la satisfacción de empleados",
+    "delightedCustomers": "Clientes Satisfechos",
+    "delightedCustomersDesc": "Experiencia mejorada del cliente"
+  },
+  "weatherImpact": {
+    "title": "Ejemplos de Impacto Climático",
+    "description": "Entender cómo los cambios climáticos afectan ventas es crucial para planificación de personal",
+    "examples": {
+      "rainyDay": "Día Lluvioso",
+      "hotDrinks": "Bebidas calientes ↑",
+      "sunnyAfternoon": "Tarde Soleada",
+      "outdoorSeating": "Asientos al aire libre ↑"
+    }
+  },
+  "advancedAnalytics": {
+    "title": "Análisis de Datos Avanzados",
+    "description": "Convierte datos en conocimiento accionable, apoyando decisiones en tiempo real y asegurando que la programación se alinee con necesidades reales y pronosticadas de clientes",
+    "features": [
+      "Tiempo Real",
+      "Soporte de Decisiones",
+      "Sentimiento",
+      "Agrupamiento",
+      "Cliente",
+      "Satisfacción"
+    ]
+  },
+  "industryStats": [
+    {
+      "stat": "69%",
+      "description": "Cafeterías que gestionan turnos manualmente",
+      "color": "text-red-500"
+    },
+    {
+      "stat": "40%",
+      "description": "Costos laborales en operaciones de cafeterías",
+      "color": "text-orange-500"
+    },
+    {
+      "stat": "85%",
+      "description": "Más rápido que métodos tradicionales",
+      "color": "text-green-500"
+    }
+  ]
+}

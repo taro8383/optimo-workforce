@@ -1,0 +1,229 @@
+{
+  "hero": {
+    "title": "Seguridad de Grado Empresarial",
+    "subtitle": "La seguridad de sus datos es nuestra máxima prioridad con medidas de seguridad de nivel empresarial que protegen cada aspecto de nuestra plataforma.",
+    "downloadBtn": "Descargar Resumen de Seguridad",
+    "reportsBtn": "Ver Informes de Cumplimiento",
+    "demoBtn": "Solicitar Demostración",
+    "whitepaperBtn": "Descargar Libro Blanco"
+  },
+  "stats": {
+    "uptime": "Tiempo de Actividad",
+    "encryption": "Encriptación",
+    "monitoring": "Monitoreo",
+    "certified": "Certificado"
+  },
+  "tabs": {
+    "overview": "Resumen",
+    "certifications": "Certificaciones",
+    "features": "Características de Seguridad",
+    "policies": "Políticas"
+  },
+  "overview": {
+    "title": "Marco de Seguridad Integral",
+    "subtitle": "Nuestro enfoque de múltiples capas garantiza protección en cada nivel de nuestra infraestructura y pila de aplicaciones.",
+    "dataProtection": "Protección de Datos",
+    "dataProtectionDesc": "Medidas avanzadas para asegurar información sensible durante todo su ciclo de vida",
+    "accessControl": "Control de Acceso",
+    "accessControlDesc": "Controles estrictos para garantizar que solo personal autorizado acceda a sistemas críticos",
+    "continuousMonitoring": "Monitoreo Continuo",
+    "continuousMonitoringDesc": "Vigilancia proactiva y respuesta rápida a amenazas potenciales",
+    "dataProtectionList": [
+      "Encriptación AES-256",
+      "Copias de seguridad encriptadas",
+      "Anonimización de datos",
+      "Políticas de retención de datos"
+    ],
+    "accessControlList": [
+      "Autenticación multifactor",
+      "Control de acceso basado en roles",
+      "Integración SSO",
+      "Gestión de sesiones"
+    ],
+    "continuousMonitoringList": [
+      "Monitoreo 24/7",
+      "Detección de amenazas",
+      "Respuesta a incidentes"
+    ]
+  },
+  "certifications": {
+    "soc2": {
+      "name": "SOC 2 Tipo II",
+      "description": "Controles de sistema y organización para seguridad, disponibilidad y confidencialidad"
+    },
+    "gdpr": {
+      "name": "Cumplimiento GDPR",
+      "description": "Cumplimiento del Reglamento General de Protección de Datos para protección de datos en la UE"
+    },
+    "ccpa": {
+      "name": "Cumplimiento CCPA",
+      "description": "Cumplimiento de la Ley de Privacidad del Consumidor de California para protección de datos en EE.UU."
+    },
+    "iso27001": {
+      "name": "ISO 27001",
+      "description": "Estándar internacional para sistemas de gestión de seguridad de la información"
+    },
+    "pci": {
+      "name": "PCI DSS Nivel 1",
+      "description": "Estándar de seguridad de datos de la industria de tarjetas de pago para procesamiento de pagos"
+    },
+    "hipaa": {
+      "name": "Preparado para HIPAA",
+      "description": "Preparación para la Ley de Portabilidad y Responsabilidad de Seguros de Salud"
+    },
+    "title": "Certificaciones y Cumplimiento de la Industria",
+    "subtitle": "Nuestro compromiso con la seguridad está validado mediante auditorías y certificaciones rigurosas de terceros.",
+    "validUntil": "Válido Hasta",
+    "auditor": "Auditor",
+    "scope": "Alcance",
+    "viewDetails": "Ver Detalles",
+    "downloadReport": "Descargar Informe",
+    "detailsTitle": "Detalles Clave"
+  },
+  "features": {
+    "dataProtection": {
+      "endToEndEncryption": {
+        "title": "Encriptación de Extremo a Extremo",
+        "description": "Todos los datos encriptados en tránsito y en reposo usando encriptación AES-256"
+      },
+      "dataAnonymization": {
+        "title": "Anonimización de Datos",
+        "description": "Datos personales anonimizados para análisis y reportes"
+      },
+      "secureBackups": {
+        "title": "Copias de Seguridad Seguras",
+        "description": "Copias de seguridad encriptadas automatizadas con redundancia geográfica"
+      },
+      "dataRetention": {
+        "title": "Políticas de Retención de Datos",
+        "description": "Retención configurable con eliminación segura automática"
+      }
+    },
+    "accessControl": {
+      "mfa": {
+        "title": "Autenticación Multifactor",
+        "description": "MFA requerida para todas las cuentas administrativas y de usuario"
+      },
+      "roleBasedAccess": {
+        "title": "Acceso Basado en Roles",
+        "description": "Permisos granulares según roles y responsabilidades del usuario"
+      },
+      "sso": {
+        "title": "Single Sign-On (SSO)",
+        "description": "Integración con proveedores de identidad empresariales"
+      },
+      "sessionManagement": {
+        "title": "Gestión de Sesiones",
+        "description": "Tiempos de espera automáticos y manejo seguro de sesiones"
+      }
+    },
+    "infrastructureSecurity": {
+      "cloudSecurity": {
+        "title": "Seguridad en la Nube",
+        "description": "Alojado en AWS con controles de seguridad de nivel empresarial"
+      },
+      "networkSecurity": {
+        "title": "Seguridad de Red",
+        "description": "WAF, protección DDoS y segmentación de red"
+      },
+      "vulnerabilityManagement": {
+        "title": "Gestión de Vulnerabilidades",
+        "description": "Escaneos de seguridad regulares y pruebas de penetración"
+      },
+      "incidentResponse": {
+        "title": "Respuesta a Incidentes",
+        "description": "Monitoreo de seguridad 24/7 y equipo de respuesta a incidentes"
+      }
+    },
+    "compliance": {
+      "auditLogs": {
+        "title": "Registros de Auditoría",
+        "description": "Registro completo de todas las actividades y cambios del sistema"
+      },
+      "complianceReporting": {
+        "title": "Reportes de Cumplimiento",
+        "description": "Reportes automatizados de cumplimiento para varias regulaciones"
+      },
+      "thirdPartyAudits": {
+        "title": "Auditorías de Terceros",
+        "description": "Evaluaciones de seguridad independientes y certificaciones regulares"
+      },
+      "privacyControls": {
+        "title": "Controles de Privacidad",
+        "description": "Controles de privacidad integrados para GDPR, CCPA y otras regulaciones"
+      }
+    },
+    "title": "Capacidades de Seguridad Avanzadas",
+    "subtitle": "Protegiendo sus datos con tecnologías de seguridad de vanguardia y mejores prácticas."
+  },
+  "policies": {
+    "privacy": {
+      "title": "Política de Privacidad",
+      "description": "Cómo recopilamos, usamos y protegemos su información personal"
+    },
+    "dpa": {
+      "title": "Acuerdo de Procesamiento de Datos",
+      "description": "Términos de procesamiento de datos compatibles con GDPR para clientes de la UE"
+    },
+    "security": {
+      "title": "Política de Seguridad",
+      "description": "Políticas y procedimientos de seguridad integrales"
+    },
+    "incidentResponse": {
+      "title": "Plan de Respuesta a Incidentes",
+      "description": "Nuestros procedimientos para manejar incidentes de seguridad"
+    },
+    "businessContinuity": {
+      "title": "Plan de Continuidad del Negocio",
+      "description": "Garantizando la disponibilidad del servicio durante interrupciones"
+    },
+    "vendorSecurity": {
+      "title": "Evaluación de Seguridad de Proveedores",
+      "description": "Requisitos de seguridad para proveedores externos"
+    },
+    "title": "Políticas y Documentación de Seguridad",
+    "subtitle": "Documentación transparente de nuestras prácticas de seguridad y estándares de cumplimiento.",
+    "lastUpdated": "Última Actualización",
+    "download": "Descargar"
+  },
+  "contacts": {
+    "securityTeam": {
+      "title": "Equipo de Seguridad",
+      "description": "Reportar vulnerabilidades o preocupaciones de seguridad"
+    },
+    "privacyOfficer": {
+      "title": "Oficial de Privacidad",
+      "description": "Consultas sobre protección de datos y privacidad"
+    },
+    "complianceTeam": {
+      "title": "Equipo de Cumplimiento",
+      "description": "Preguntas sobre cumplimiento regulatorio"
+    },
+    "title": "Contactos de Seguridad",
+    "subtitle": "Nuestro equipo de seguridad dedicado está listo para ayudar con cualquier consulta o inquietud."
+  },
+  "cta": {
+    "title": "¿Listo para ver nuestra seguridad en acción?",
+    "subtitle": "Programe un recorrido de seguridad personalizado con nuestros expertos."
+  },
+  "modal": {
+    "contactTeam": "Contactar al Equipo"
+  },
+  "certificationStatus": {
+    "certified": "Certificado",
+    "compliant": "Conforme",
+    "ready": "Listo",
+    "inProgress": "En Progreso"
+  },
+  "scopeValues": {
+    "security": "Seguridad",
+    "availability": "Disponibilidad",
+    "confidentiality": "Confidencialidad",
+    "dataProtection": "Protección de Datos",
+    "privacyRights": "Derechos de Privacidad",
+    "consumerPrivacyRights": "Derechos de Privacidad del Consumidor",
+    "informationSecurityManagement": "Gestión de Seguridad de la Información",
+    "paymentDataSecurity": "Seguridad de Datos de Pago",
+    "healthcareDataProtection": "Protección de Datos de Salud"
+  }
+}

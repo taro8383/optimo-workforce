@@ -32,119 +32,89 @@ import {
 } from 'lucide-react';
 
 const SecurityPage: React.FC = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('securityPage');
   const [activeTab, setActiveTab] = useState('overview');
   const [selectedCertification, setSelectedCertification] = useState<any>(null);
 
   const securityStats = [
-    { number: '99.9%', label: t('securityPage:stats.uptime'), icon: Monitor },
-    { number: '256-bit', label: t('securityPage:stats.encryption'), icon: Lock },
-    { number: '24/7', label: t('securityPage:stats.monitoring'), icon: Eye },
-    { number: 'SOC 2', label: t('securityPage:stats.certified'), icon: Award }
+    { number: '99.9%', label: t('stats.uptime'), icon: Monitor },
+    { number: '256-bit', label: t('stats.encryption'), icon: Lock },
+    { number: '24/7', label: t('stats.monitoring'), icon: Eye },
+    { number: 'SOC 2', label: t('stats.certified'), icon: Award }
   ];
 
   const certifications = [
     {
       id: 'soc2',
-      name: 'SOC 2 Type II',
-      description: 'System and Organization Controls for security, availability, and confidentiality',
+      name: t('certifications.soc2.name'),
+      description: t('certifications.soc2.description'),
       logo: '🏆',
-      status: 'Certified',
+      status: t('certificationStatus.certified'),
       validUntil: 'December 2025',
       auditor: 'Deloitte & Touche LLP',
-      scope: 'Security, Availability, Confidentiality',
+      scope: ['security', 'availability', 'confidentiality'],
       reportAvailable: true,
-      details: [
-        'Annual third-party security audit',
-        'Comprehensive controls testing',
-        'Security policies and procedures review',
-        'Incident response validation'
-      ]
+      details: t('certificationDetails.soc2', { returnObjects: true })
     },
     {
       id: 'gdpr',
-      name: 'GDPR Compliant',
-      description: 'General Data Protection Regulation compliance for EU data protection',
+      name: t('certifications.gdpr.name'),
+      description: t('certifications.gdpr.description'),
       logo: '🇪🇺',
-      status: 'Compliant',
+      status: t('certificationStatus.compliant'),
       validUntil: 'Ongoing',
       auditor: 'Internal & External Legal Review',
-      scope: 'Data Protection, Privacy Rights',
+      scope: ['dataProtection', 'privacyRights'],
       reportAvailable: false,
-      details: [
-        'Data minimization principles',
-        'Right to be forgotten implementation',
-        'Consent management systems',
-        'Data breach notification procedures'
-      ]
+      details: t('certificationDetails.gdpr', { returnObjects: true })
     },
     {
       id: 'ccpa',
-      name: 'CCPA Compliant',
-      description: 'California Consumer Privacy Act compliance for US data protection',
+      name: t('certifications.ccpa.name'),
+      description: t('certifications.ccpa.description'),
       logo: '🇺🇸',
-      status: 'Compliant',
+      status: t('certificationStatus.compliant'),
       validUntil: 'Ongoing',
       auditor: 'Legal Compliance Team',
-      scope: 'Consumer Privacy Rights',
+      scope: ['consumerPrivacyRights'],
       reportAvailable: false,
-      details: [
-        'Consumer rights implementation',
-        'Data transparency measures',
-        'Opt-out mechanisms',
-        'Third-party data sharing controls'
-      ]
+      details: t('certificationDetails.ccpa', { returnObjects: true })
     },
     {
       id: 'iso27001',
-      name: 'ISO 27001',
-      description: 'International standard for information security management systems',
+      name: t('certifications.iso27001.name'),
+      description: t('certifications.iso27001.description'),
       logo: '🌐',
-      status: 'In Progress',
+      status: t('certificationStatus.inProgress'),
       validUntil: 'Q2 2025 (Expected)',
       auditor: 'BSI Group',
-      scope: 'Information Security Management',
+      scope: ['informationSecurityManagement'],
       reportAvailable: false,
-      details: [
-        'Information security policies',
-        'Risk assessment procedures',
-        'Security incident management',
-        'Continuous improvement processes'
-      ]
+      details: t('certificationDetails.iso27001', { returnObjects: true })
     },
     {
       id: 'pci',
-      name: 'PCI DSS Level 1',
-      description: 'Payment Card Industry Data Security Standard for payment processing',
+      name: t('certifications.pci.name'),
+      description: t('certifications.pci.description'),
       logo: '💳',
-      status: 'Certified',
+      status: t('certificationStatus.certified'),
       validUntil: 'March 2025',
       auditor: 'Trustwave',
-      scope: 'Payment Data Security',
+      scope: ['paymentDataSecurity'],
       reportAvailable: true,
-      details: [
-        'Secure payment processing',
-        'Cardholder data protection',
-        'Network security controls',
-        'Regular security testing'
-      ]
+      details: t('certificationDetails.pci', { returnObjects: true })
     },
     {
       id: 'hipaa',
-      name: 'HIPAA Ready',
-      description: 'Health Insurance Portability and Accountability Act readiness',
+      name: t('certifications.hipaa.name'),
+      description: t('certifications.hipaa.description'),
       logo: '🏥',
-      status: 'Ready',
+      status: t('certificationStatus.ready'),
       validUntil: 'Ongoing',
       auditor: 'Healthcare Compliance Specialists',
-      scope: 'Healthcare Data Protection',
+      scope: ['healthcareDataProtection'],
       reportAvailable: false,
-      details: [
-        'Business Associate Agreements',
-        'PHI protection measures',
-        'Access controls and audit logs',
-        'Breach notification procedures'
-      ]
+      details: t('certificationDetails.hipaa', { returnObjects: true })
     }
   ];
 
@@ -154,23 +124,23 @@ const SecurityPage: React.FC = () => {
       icon: Database,
       features: [
         {
-          title: 'End-to-End Encryption',
-          description: 'All data encrypted in transit and at rest using AES-256 encryption',
+          title: t('features.dataProtection.endToEndEncryption.title'),
+          description: t('features.dataProtection.endToEndEncryption.description'),
           icon: Lock
         },
         {
-          title: 'Data Anonymization',
-          description: 'Personal data anonymized for analytics and reporting purposes',
+          title: t('features.dataProtection.dataAnonymization.title'),
+          description: t('features.dataProtection.dataAnonymization.description'),
           icon: Eye
         },
         {
-          title: 'Secure Backups',
-          description: 'Automated encrypted backups with geographic redundancy',
+          title: t('features.dataProtection.secureBackups.title'),
+          description: t('features.dataProtection.secureBackups.description'),
           icon: HardDrive
         },
         {
-          title: 'Data Retention Policies',
-          description: 'Configurable data retention with automatic secure deletion',
+          title: t('features.dataProtection.dataRetention.title'),
+          description: t('features.dataProtection.dataRetention.description'),
           icon: Clock
         }
       ]
@@ -180,23 +150,23 @@ const SecurityPage: React.FC = () => {
       icon: UserCheck,
       features: [
         {
-          title: 'Multi-Factor Authentication',
-          description: 'Required MFA for all administrative and user accounts',
+          title: t('features.accessControl.mfa.title'),
+          description: t('features.accessControl.mfa.description'),
           icon: Fingerprint
         },
         {
-          title: 'Role-Based Access',
-          description: 'Granular permissions based on user roles and responsibilities',
+          title: t('features.accessControl.roleBasedAccess.title'),
+          description: t('features.accessControl.roleBasedAccess.description'),
           icon: Users
         },
         {
-          title: 'Single Sign-On (SSO)',
-          description: 'Integration with enterprise identity providers',
+          title: t('features.accessControl.sso.title'),
+          description: t('features.accessControl.sso.description'),
           icon: Key
         },
         {
-          title: 'Session Management',
-          description: 'Automatic session timeouts and secure session handling',
+          title: t('features.accessControl.sessionManagement.title'),
+          description: t('features.accessControl.sessionManagement.description'),
           icon: Clock
         }
       ]
@@ -206,23 +176,23 @@ const SecurityPage: React.FC = () => {
       icon: Server,
       features: [
         {
-          title: 'Cloud Security',
-          description: 'Hosted on AWS with enterprise-grade security controls',
+          title: t('features.infrastructureSecurity.cloudSecurity.title'),
+          description: t('features.infrastructureSecurity.cloudSecurity.description'),
           icon: Cloud
         },
         {
-          title: 'Network Security',
-          description: 'WAF, DDoS protection, and network segmentation',
+          title: t('features.infrastructureSecurity.networkSecurity.title'),
+          description: t('features.infrastructureSecurity.networkSecurity.description'),
           icon: Wifi
         },
         {
-          title: 'Vulnerability Management',
-          description: 'Regular security scans and penetration testing',
+          title: t('features.infrastructureSecurity.vulnerabilityManagement.title'),
+          description: t('features.infrastructureSecurity.vulnerabilityManagement.description'),
           icon: Shield
         },
         {
-          title: 'Incident Response',
-          description: '24/7 security monitoring and incident response team',
+          title: t('features.infrastructureSecurity.incidentResponse.title'),
+          description: t('features.infrastructureSecurity.incidentResponse.description'),
           icon: AlertTriangle
         }
       ]
@@ -232,23 +202,23 @@ const SecurityPage: React.FC = () => {
       icon: FileText,
       features: [
         {
-          title: 'Audit Logs',
-          description: 'Comprehensive logging of all system activities and changes',
+          title: t('features.compliance.auditLogs.title'),
+          description: t('features.compliance.auditLogs.description'),
           icon: Monitor
         },
         {
-          title: 'Compliance Reporting',
-          description: 'Automated compliance reports for various regulations',
+          title: t('features.compliance.complianceReporting.title'),
+          description: t('features.compliance.complianceReporting.description'),
           icon: FileText
         },
         {
-          title: 'Third-Party Audits',
-          description: 'Regular independent security assessments and certifications',
+          title: t('features.compliance.thirdPartyAudits.title'),
+          description: t('features.compliance.thirdPartyAudits.description'),
           icon: Award
         },
         {
-          title: 'Privacy Controls',
-          description: 'Built-in privacy controls for GDPR, CCPA, and other regulations',
+          title: t('features.compliance.privacyControls.title'),
+          description: t('features.compliance.privacyControls.description'),
           icon: Eye
         }
       ]
@@ -256,46 +226,46 @@ const SecurityPage: React.FC = () => {
   ];
 
   const securityTabs = [
-    { id: 'overview', name: t('securityPage:tabs.overview'), icon: Shield },
-    { id: 'certifications', name: t('securityPage:tabs.certifications'), icon: Award },
-    { id: 'features', name: t('securityPage:tabs.features'), icon: Lock },
-    { id: 'policies', name: t('securityPage:tabs.policies'), icon: FileText }
+    { id: 'overview', name: t('tabs.overview'), icon: Shield },
+    { id: 'certifications', name: t('tabs.certifications'), icon: Award },
+    { id: 'features', name: t('tabs.features'), icon: Lock },
+    { id: 'policies', name: t('tabs.policies'), icon: FileText }
   ];
 
   const policies = [
     {
-      title: 'Privacy Policy',
-      description: 'How we collect, use, and protect your personal information',
+      title: t('policies.privacy.title'),
+      description: t('policies.privacy.description'),
       lastUpdated: 'December 2024',
       downloadUrl: '#'
     },
     {
-      title: 'Data Processing Agreement',
-      description: 'GDPR-compliant data processing terms for EU customers',
+      title: t('policies.dpa.title'),
+      description: t('policies.dpa.description'),
       lastUpdated: 'November 2024',
       downloadUrl: '#'
     },
     {
-      title: 'Security Policy',
-      description: 'Comprehensive security policies and procedures',
+      title: t('policies.security.title'),
+      description: t('policies.security.description'),
       lastUpdated: 'January 2025',
       downloadUrl: '#'
     },
     {
-      title: 'Incident Response Plan',
-      description: 'Our procedures for handling security incidents',
+      title: t('policies.incidentResponse.title'),
+      description: t('policies.incidentResponse.description'),
       lastUpdated: 'October 2024',
       downloadUrl: '#'
     },
     {
-      title: 'Business Continuity Plan',
-      description: 'Ensuring service availability during disruptions',
+      title: t('policies.businessContinuity.title'),
+      description: t('policies.businessContinuity.description'),
       lastUpdated: 'September 2024',
       downloadUrl: '#'
     },
     {
-      title: 'Vendor Security Assessment',
-      description: 'Security requirements for third-party vendors',
+      title: t('policies.vendorSecurity.title'),
+      description: t('policies.vendorSecurity.description'),
       lastUpdated: 'August 2024',
       downloadUrl: '#'
     }
@@ -303,21 +273,21 @@ const SecurityPage: React.FC = () => {
 
   const securityContacts = [
     {
-      title: 'Security Team',
+      title: t('contacts.securityTeam.title'),
       email: 'security@optimoworkforce.com',
-      description: 'Report security vulnerabilities or concerns',
+      description: t('contacts.securityTeam.description'),
       icon: Shield
     },
     {
-      title: 'Privacy Officer',
+      title: t('contacts.privacyOfficer.title'),
       email: 'privacy@optimoworkforce.com',
-      description: 'Data protection and privacy inquiries',
+      description: t('contacts.privacyOfficer.description'),
       icon: Eye
     },
     {
-      title: 'Compliance Team',
+      title: t('contacts.complianceTeam.title'),
       email: 'compliance@optimoworkforce.com',
-      description: 'Regulatory compliance questions',
+      description: t('contacts.complianceTeam.description'),
       icon: FileText
     }
   ];
@@ -333,19 +303,19 @@ const SecurityPage: React.FC = () => {
               <Shield size={48} className="text-white" />
             </div>
               <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-                {t('securityPage:hero.title')}
+                {t('hero.title')}
               </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
-              {t('securityPage:hero.subtitle')}
+              {t('hero.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Download size={24} />
-                {t('securityPage:hero.downloadBtn')}
+                {t('hero.downloadBtn')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Book size={24} />
-                {t('securityPage:hero.reportsBtn')}
+                {t('hero.reportsBtn')}
               </button>
             </div>
           </div>
@@ -403,10 +373,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    {t('securityPage.overview.title')}
+                    {t('overview.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    {t('securityPage.overview.subtitle')}
+                    {t('overview.subtitle')}
                   </p>
                 </div>
 
@@ -415,23 +385,19 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary bg-opacity-10 mb-6">
                       <Database size={32} className="text-primary" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.dataProtection')}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('overview.dataProtection')}</h3>
                     <p className="text-gray-600 mb-6">
-                      {t('securityPage.overview.dataProtectionDesc')}
+                      {t('overview.dataProtectionDesc')}
                     </p>
                     <ul className="space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">AES-256 encryption</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Encrypted backups</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Data anonymization</span>
-                      </li>
+                      {(Array.isArray(t('overview.dataProtectionList', { returnObjects: true })) 
+                        ? t('overview.dataProtectionList', { returnObjects: true }) as string[]
+                        : []).map((item: string, index: number) => (
+                          <li key={index} className="flex items-center gap-2">
+                            <CheckCircle size={16} className="text-secondary" />
+                            <span className="text-sm text-gray-700">{item}</span>
+                          </li>
+                      ))}
                     </ul>
                   </div>
 
@@ -439,23 +405,19 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary bg-opacity-10 mb-6">
                       <UserCheck size={32} className="text-secondary" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.accessControl')}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('overview.accessControl')}</h3>
                     <p className="text-gray-600 mb-6">
-                      {t('securityPage.overview.accessControlDesc')}
+                      {t('overview.accessControlDesc')}
                     </p>
                     <ul className="space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Multi-factor authentication</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Role-based access control</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">SSO integration</span>
-                      </li>
+                      {(Array.isArray(t('overview.accessControlList', { returnObjects: true })) 
+                        ? t('overview.accessControlList', { returnObjects: true }) as string[]
+                        : []).map((item: string, index: number) => (
+                          <li key={index} className="flex items-center gap-2">
+                            <CheckCircle size={16} className="text-secondary" />
+                            <span className="text-sm text-gray-700">{item}</span>
+                          </li>
+                      ))}
                     </ul>
                   </div>
 
@@ -463,23 +425,19 @@ const SecurityPage: React.FC = () => {
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent-latam bg-opacity-10 mb-6">
                       <Monitor size={32} className="text-accent-latam" />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('securityPage.overview.continuousMonitoring')}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{t('overview.continuousMonitoring')}</h3>
                     <p className="text-gray-600 mb-6">
-                      {t('securityPage.overview.continuousMonitoringDesc')}
+                      {t('overview.continuousMonitoringDesc')}
                     </p>
                     <ul className="space-y-2">
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">24/7 monitoring</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Threat detection</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle size={16} className="text-secondary" />
-                        <span className="text-sm text-gray-700">Incident response</span>
-                      </li>
+                      {(Array.isArray(t('overview.continuousMonitoringList', { returnObjects: true })) 
+                        ? t('overview.continuousMonitoringList', { returnObjects: true }) as string[]
+                        : []).map((item: string, index: number) => (
+                          <li key={index} className="flex items-center gap-2">
+                            <CheckCircle size={16} className="text-secondary" />
+                            <span className="text-sm text-gray-700">{item}</span>
+                          </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -491,10 +449,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    {t('securityPage.certifications.title')}
+                    {t('certifications.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    {t('securityPage.certifications.subtitle')}
+                    {t('certifications.subtitle')}
                   </p>
                 </div>
 
@@ -523,18 +481,20 @@ const SecurityPage: React.FC = () => {
 
                       <div className="grid grid-cols-2 gap-4 mb-6">
                         <div>
-                          <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.validUntil')}</div>
+                          <div className="text-sm text-gray-500 mb-1">{t('certifications.validUntil')}</div>
                           <div className="font-semibold text-gray-900">{cert.validUntil}</div>
                         </div>
                         <div>
-                          <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.auditor')}</div>
+                          <div className="text-sm text-gray-500 mb-1">{t('certifications.auditor')}</div>
                           <div className="font-semibold text-gray-900">{cert.auditor}</div>
                         </div>
                       </div>
 
                       <div className="mb-6">
-                          <div className="text-sm text-gray-500 mb-2">{t('securityPage.certifications.scope')}</div>
-                          <div className="font-semibold text-gray-900">{cert.scope}</div>
+                          <div className="text-sm text-gray-500 mb-2">{t('certifications.scope')}</div>
+                          <div className="font-semibold text-gray-900">
+                            {cert.scope.map(s => t(`scopeValues.${s}`)).join(', ')}
+                          </div>
                       </div>
 
                       <div className="flex items-center justify-between">
@@ -542,13 +502,13 @@ const SecurityPage: React.FC = () => {
                           onClick={() => setSelectedCertification(cert)}
                           className="text-primary hover:text-blue-600 font-semibold text-sm flex items-center gap-1"
                         >
-                          {t('securityPage.certifications.viewDetails')}
+                          {t('certifications.viewDetails')}
                           <ExternalLink size={14} />
                         </button>
                         {cert.reportAvailable && (
                           <button className="bg-primary hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold text-sm transition-colors flex items-center gap-2">
                             <Download size={16} />
-                            {t('securityPage.certifications.downloadReport')}
+                            {t('certifications.downloadReport')}
                           </button>
                         )}
                       </div>
@@ -563,10 +523,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    {t('securityPage.features.title')}
+                    {t('features.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    {t('securityPage.features.subtitle')}
+                    {t('features.subtitle')}
                   </p>
                 </div>
 
@@ -612,10 +572,10 @@ const SecurityPage: React.FC = () => {
               <div className="space-y-12">
                 <div className="text-center mb-16">
                   <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-                    {t('securityPage.policies.title')}
+                    {t('policies.title')}
                   </h2>
                   <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    {t('securityPage.policies.subtitle')}
+                    {t('policies.subtitle')}
                   </p>
                 </div>
 
@@ -627,14 +587,14 @@ const SecurityPage: React.FC = () => {
                           <h3 className="text-xl font-bold text-gray-900 mb-2">{policy.title}</h3>
                           <p className="text-gray-600 mb-4">{policy.description}</p>
                           <div className="text-sm text-gray-500">
-                            {t('securityPage.policies.lastUpdated')}: {policy.lastUpdated}
+                          {t('policies.lastUpdated')}: {policy.lastUpdated}
                           </div>
                         </div>
                         <FileText size={24} className="text-gray-400" />
                       </div>
                       <button className="bg-primary hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center gap-2">
                         <Download size={16} />
-                        Download
+                        {t('policies.download')}
                       </button>
                     </div>
                   ))}
@@ -650,10 +610,10 @@ const SecurityPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              {t('securityPage.contacts.title')}
+              {t('contacts.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {t('securityPage.contacts.subtitle')}
+              {t('contacts.subtitle')}
             </p>
           </div>
 
@@ -689,39 +649,39 @@ const SecurityPage: React.FC = () => {
               <Shield size={40} />
             </div>
               <h3 className="text-3xl font-bold mb-4">
-                {t('securityPage.cta.title')}
+                {t('cta.title')}
               </h3>
             <p className="text-xl text-blue-100 mb-8 max-w-4xl mx-auto">
-              {t('securityPage.cta.subtitle')}
+              {t('cta.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
               <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Play size={24} />
-                {t('securityPage.hero.demoBtn')}
+                {t('hero.demoBtn')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <Download size={24} />
-                {t('securityPage.hero.whitepaperBtn')}
+                {t('hero.whitepaperBtn')}
               </button>
             </div>
 
             <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">SOC 2</div>
-                <div className="text-blue-200">{t('securityPage.stats.certified')}</div>
+      <div className="text-3xl font-bold mb-2">{t('certifications.soc2.name')}</div>
+                <div className="text-blue-200">{t('stats.certified')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">99.9%</div>
-                <div className="text-blue-200">{t('securityPage.stats.uptime')}</div>
+                <div className="text-blue-200">{t('stats.uptime')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">24/7</div>
-                <div className="text-blue-200">{t('securityPage.stats.monitoring')}</div>
+                <div className="text-blue-200">{t('stats.monitoring')}</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">256-bit</div>
-                <div className="text-blue-200">{t('securityPage.stats.encryption')}</div>
+                <div className="text-blue-200">{t('stats.encryption')}</div>
               </div>
             </div>
           </div>
@@ -752,7 +712,7 @@ const SecurityPage: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-6 mb-6">
               <div>
-                <div className="text-sm text-gray-500 mb-1">{t('securityPage.certifications.detailsTitle')}</div>
+                <div className="text-sm text-gray-500 mb-1">{t('certifications.detailsTitle')}</div>
                 <div className="text-lg font-bold text-gray-900">{selectedCertification.status}</div>
               </div>
               <div>
@@ -770,7 +730,7 @@ const SecurityPage: React.FC = () => {
             </div>
 
             <div className="mb-6">
-              <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('securityPage.certifications.detailsTitle')}</h4>
+              <h4 className="text-lg font-semibold text-gray-900 mb-4">{t('certifications.detailsTitle')}</h4>
               <div className="space-y-3">
                 {selectedCertification.details.map((detail: string, index: number) => (
                   <div key={index} className="flex items-center gap-2">
@@ -785,11 +745,11 @@ const SecurityPage: React.FC = () => {
               {selectedCertification.reportAvailable && (
                 <button className="flex-1 bg-primary hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
                 <Download size={16} />
-                {t('securityPage.certifications.downloadReport')}
+                {t('certifications.downloadReport')}
                 </button>
               )}
               <button className="px-6 border border-gray-300 text-gray-700 hover:bg-gray-50 py-3 rounded-lg font-semibold transition-colors">
-                {t('securityPage.modal.contactTeam')}
+                {t('modal.contactTeam')}
               </button>
             </div>
           </div>

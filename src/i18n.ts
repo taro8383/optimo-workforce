@@ -33,6 +33,7 @@ import enFutureFeaturesManagement from './locales/en/future-features/customerMan
 import enFutureFeaturesAI from './locales/en/future-features/aiUpselling.json';
 import enFutureFeaturesPricing from './locales/en/future-features/dynamicPricing.json';
 import enFutureFeaturesTips from './locales/en/future-features/tipManagement.json';
+import enSecurityPage from './locales/en/securityPage.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -65,12 +66,15 @@ import esFutureFeaturesManagement from './locales/es/future-features/customerMan
 import esFutureFeaturesAI from './locales/es/future-features/aiUpselling.json';
 import esFutureFeaturesPricing from './locales/es/future-features/dynamicPricing.json';
 import esFutureFeaturesTips from './locales/es/future-features/tipManagement.json';
+import esSecurityPage from './locales/es/securityPage.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage'],
+  defaultNS: 'common',
   resources: {
     en: {
       common: enCommon,
@@ -104,7 +108,8 @@ i18n
       },
       restaurants: enRestaurants,
       hotels: enHotels,
-      cafe: enCafe
+      cafe: enCafe,
+      securityPage: enSecurityPage
     },
     es: {
       common: esCommon,
@@ -138,7 +143,8 @@ i18n
       },
       restaurants: esRestaurants,
       hotels: esHotels,
-      cafe: esCafe
+      cafe: esCafe,
+      securityPage: esSecurityPage
     }
   },
     fallbackLng: 'en',
@@ -163,7 +169,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/footer.json',
       './locales/es/footer.json',
       './locales/en/cafe.json',
-      './locales/es/cafe.json'
+      './locales/es/cafe.json',
+      './locales/en/securityPage.json',
+      './locales/es/securityPage.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

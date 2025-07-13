@@ -41,13 +41,11 @@
 - Analytics setup
 - Performance optimization
 - Browser testing
-- Complete i18n for all components
 - Translation quality review (in progress)
 - Language-specific SEO
 
 ## Known Issues
 - No error boundaries
 - Limited form validation
-- Temporary type assertion in CafesPage i18n implementation
 - Fixed: Translation interpolation issue in TippingSpotlightSection
 - Fixed: Missing "requestFeature" translation key in common.json

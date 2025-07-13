@@ -1,0 +1,229 @@
+{
+  "hero": {
+    "title": "Enterprise-Grade Security",
+    "subtitle": "Your data's safety is our top priority with enterprise-level security measures protecting every aspect of our platform.",
+    "downloadBtn": "Download Security Overview",
+    "reportsBtn": "View Compliance Reports",
+    "demoBtn": "Request a Demo",
+    "whitepaperBtn": "Download Whitepaper"
+  },
+  "stats": {
+    "uptime": "Uptime",
+    "encryption": "Encryption",
+    "monitoring": "Monitoring",
+    "certified": "Certified"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "certifications": "Certifications",
+    "features": "Security Features",
+    "policies": "Policies"
+  },
+  "overview": {
+    "title": "Comprehensive Security Framework",
+    "subtitle": "Our multi-layered approach ensures protection at every level of our infrastructure and application stack.",
+    "dataProtection": "Data Protection",
+    "dataProtectionDesc": "Advanced measures to secure sensitive information throughout its lifecycle",
+    "accessControl": "Access Control",
+    "accessControlDesc": "Strict controls to ensure only authorized personnel access critical systems",
+    "continuousMonitoring": "Continuous Monitoring",
+    "continuousMonitoringDesc": "Proactive surveillance and rapid response to potential threats",
+    "dataProtectionList": [
+      "AES-256 encryption",
+      "Encrypted backups",
+      "Data anonymization",
+      "Data retention policies"
+    ],
+    "accessControlList": [
+      "Multi-factor authentication",
+      "Role-based access control",
+      "SSO integration",
+      "Session management"
+    ],
+    "continuousMonitoringList": [
+      "24/7 monitoring",
+      "Threat detection",
+      "Incident response"
+    ]
+  },
+  "certifications": {
+    "soc2": {
+      "name": "SOC 2 Type II",
+      "description": "System and Organization Controls for security, availability, and confidentiality"
+    },
+    "gdpr": {
+      "name": "GDPR Compliant",
+      "description": "General Data Protection Regulation compliance for EU data protection"
+    },
+    "ccpa": {
+      "name": "CCPA Compliant",
+      "description": "California Consumer Privacy Act compliance for US data protection"
+    },
+    "iso27001": {
+      "name": "ISO 27001",
+      "description": "International standard for information security management systems"
+    },
+    "pci": {
+      "name": "PCI DSS Level 1",
+      "description": "Payment Card Industry Data Security Standard for payment processing"
+    },
+    "hipaa": {
+      "name": "HIPAA Ready",
+      "description": "Health Insurance Portability and Accountability Act readiness"
+    },
+    "title": "Industry Certifications & Compliance",
+    "subtitle": "Our commitment to security is validated through rigorous third-party audits and certifications.",
+    "validUntil": "Valid Until",
+    "auditor": "Auditor",
+    "scope": "Scope",
+    "viewDetails": "View Details",
+    "downloadReport": "Download Report",
+    "detailsTitle": "Key Details"
+  },
+  "features": {
+    "dataProtection": {
+      "endToEndEncryption": {
+        "title": "End-to-End Encryption",
+        "description": "All data encrypted in transit and at rest using AES-256 encryption"
+      },
+      "dataAnonymization": {
+        "title": "Data Anonymization",
+        "description": "Personal data anonymized for analytics and reporting purposes"
+      },
+      "secureBackups": {
+        "title": "Secure Backups",
+        "description": "Automated encrypted backups with geographic redundancy"
+      },
+      "dataRetention": {
+        "title": "Data Retention Policies",
+        "description": "Configurable data retention with automatic secure deletion"
+      }
+    },
+    "accessControl": {
+      "mfa": {
+        "title": "Multi-Factor Authentication",
+        "description": "Required MFA for all administrative and user accounts"
+      },
+      "roleBasedAccess": {
+        "title": "Role-Based Access",
+        "description": "Granular permissions based on user roles and responsibilities"
+      },
+      "sso": {
+        "title": "Single Sign-On (SSO)",
+        "description": "Integration with enterprise identity providers"
+      },
+      "sessionManagement": {
+        "title": "Session Management",
+        "description": "Automatic session timeouts and secure session handling"
+      }
+    },
+    "infrastructureSecurity": {
+      "cloudSecurity": {
+        "title": "Cloud Security",
+        "description": "Hosted on AWS with enterprise-grade security controls"
+      },
+      "networkSecurity": {
+        "title": "Network Security",
+        "description": "WAF, DDoS protection, and network segmentation"
+      },
+      "vulnerabilityManagement": {
+        "title": "Vulnerability Management",
+        "description": "Regular security scans and penetration testing"
+      },
+      "incidentResponse": {
+        "title": "Incident Response",
+        "description": "24/7 security monitoring and incident response team"
+      }
+    },
+    "compliance": {
+      "auditLogs": {
+        "title": "Audit Logs",
+        "description": "Comprehensive logging of all system activities and changes"
+      },
+      "complianceReporting": {
+        "title": "Compliance Reporting",
+        "description": "Automated compliance reports for various regulations"
+      },
+      "thirdPartyAudits": {
+        "title": "Third-Party Audits",
+        "description": "Regular independent security assessments and certifications"
+      },
+      "privacyControls": {
+        "title": "Privacy Controls",
+        "description": "Built-in privacy controls for GDPR, CCPA, and other regulations"
+      }
+    },
+    "title": "Advanced Security Capabilities",
+    "subtitle": "Protecting your data with cutting-edge security technologies and best practices."
+  },
+  "policies": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How we collect, use, and protect your personal information"
+    },
+    "dpa": {
+      "title": "Data Processing Agreement",
+      "description": "GDPR-compliant data processing terms for EU customers"
+    },
+    "security": {
+      "title": "Security Policy",
+      "description": "Comprehensive security policies and procedures"
+    },
+    "incidentResponse": {
+      "title": "Incident Response Plan",
+      "description": "Our procedures for handling security incidents"
+    },
+    "businessContinuity": {
+      "title": "Business Continuity Plan",
+      "description": "Ensuring service availability during disruptions"
+    },
+    "vendorSecurity": {
+      "title": "Vendor Security Assessment",
+      "description": "Security requirements for third-party vendors"
+    },
+    "title": "Security Policies & Documentation",
+    "subtitle": "Transparent documentation of our security practices and compliance standards.",
+    "lastUpdated": "Last Updated",
+    "download": "Download"
+  },
+  "contacts": {
+    "securityTeam": {
+      "title": "Security Team",
+      "description": "Report security vulnerabilities or concerns"
+    },
+    "privacyOfficer": {
+      "title": "Privacy Officer",
+      "description": "Data protection and privacy inquiries"
+    },
+    "complianceTeam": {
+      "title": "Compliance Team",
+      "description": "Regulatory compliance questions"
+    },
+    "title": "Security Contacts",
+    "subtitle": "Our dedicated security team is ready to assist with any inquiries or concerns."
+  },
+  "cta": {
+    "title": "Ready to see our security in action?",
+    "subtitle": "Schedule a personalized security walkthrough with our experts."
+  },
+  "modal": {
+    "contactTeam": "Contact Team"
+  },
+  "certificationStatus": {
+    "certified": "Certified",
+    "compliant": "Compliant",
+    "ready": "Ready",
+    "inProgress": "In Progress"
+  },
+  "scopeValues": {
+    "security": "Security",
+    "availability": "Availability",
+    "confidentiality": "Confidentiality",
+    "dataProtection": "Data Protection",
+    "privacyRights": "Privacy Rights",
+    "consumerPrivacyRights": "Consumer Privacy Rights",
+    "informationSecurityManagement": "Information Security Management",
+    "paymentDataSecurity": "Payment Data Security",
+    "healthcareDataProtection": "Healthcare Data Protection"
+  }
+}

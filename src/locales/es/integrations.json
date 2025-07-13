@@ -1,0 +1,305 @@
+{
+  "integrationsPage": {
+    "categories": {
+      "all": "Todas las Integraciones",
+      "pos": "Sistemas POS",
+      "payment": "Procesamiento de Pagos",
+      "scheduling": "Herramientas de Programación",
+      "analytics": "Análisis y BI",
+      "communication": "Comunicación",
+      "accounting": "Contabilidad y Finanzas"
+    },
+    "hero": {
+      "title": "Integraciones Poderosas para tu Negocio",
+      "subtitle": "Conéctate con las herramientas que ya usas para optimizar operaciones y aumentar la eficiencia",
+      "demoButton": "Ver Demo",
+      "guideButton": "Guía de Integración"
+    },
+    "stats": {
+      "totalIntegrations": "Integraciones Totales",
+      "avgSetupTime": "Tiempo Promedio de Configuración",
+      "uptimeGuarantee": "Garantía de Tiempo de Actividad",
+      "integrationSupport": "Soporte para Integraciones",
+      "free": "Gratis"
+    },
+    "popular": {
+      "title": "Integraciones Más Populares",
+      "subtitle": "Estas son las integraciones que más aman nuestros clientes",
+      "connectButton": "Conectar"
+    },
+    "all": {
+      "title": "Todas las Integraciones Disponibles",
+      "subtitle": "Explora nuestra biblioteca completa de integraciones",
+      "searchPlaceholder": "Buscar integraciones...",
+      "viewDetailsButton": "Ver Detalles",
+      "connectButton": "Conectar",
+      "noResultsTitle": "No se encontraron integraciones",
+      "noResultsMessage": "Intenta ajustar tu búsqueda o criterios de filtro"
+    },
+    "support": {
+      "title": "Soporte para Integraciones",
+      "subtitle": "Nuestro equipo está aquí para ayudarte a conectar y optimizar cada integración",
+      "chatButton": "Chatear con Soporte",
+      "guideButton": "Descargar Guía",
+      "averageSetup": "Configuración Promedio",
+      "supportAvailable": "Soporte Disponible",
+      "uptimeSLA": "SLA de Tiempo de Actividad",
+      "setupAssistance": "Asistencia de Configuración"
+    },
+    "custom": {
+      "title": "¿Necesitas una Integración Personalizada?",
+      "subtitle": "Podemos construir una integración personalizada para las necesidades específicas de tu negocio",
+      "customTitle": "Solicitar Integración Personalizada",
+      "customDescription": "Construiremos una integración personalizada para tus sistemas empresariales únicos",
+      "customButton": "Solicitar Integración",
+      "suggestTitle": "Sugerir una Integración",
+      "suggestDescription": "Háznos saber qué integración te gustaría ver a continuación",
+      "suggestButton": "Sugerir Integración"
+    },
+    "integrationDetails": {
+      "setupTime": "Tiempo de Configuración",
+      "popularity": "Popularidad",
+      "regions": "Regiones",
+      "pricing": "Precios",
+      "features": "Características Clave",
+      "connectButton": "Conectar Integración",
+      "viewDocs": "Ver Documentación"
+    },
+    "integrations": {
+      "toast": {
+        "name": "Toast POS",
+        "description": "Sistema POS completo diseñado para restaurantes con gestión avanzada de mesas",
+        "setupTime": "10 minutos",
+        "features": [
+          "Actualizaciones de menú en tiempo real",
+          "Gestión de distribución de mesas",
+          "Seguimiento de rendimiento del personal",
+          "Integración de inventario"
+        ],
+        "regions": ["EE.UU.", "Canadá"],
+        "pricing": "Desde $79/mes"
+      },
+      "square": {
+        "name": "Square POS",
+        "description": "Versátil sistema POS con procesamiento de pagos para negocios de todos los tamaños",
+        "setupTime": "5 minutos",
+        "features": [
+          "Ventas omnicanal",
+          "Gestión de inventario",
+          "Directorio de clientes",
+          "Recibos digitales"
+        ],
+        "regions": ["EE.UU.", "Canadá", "Reino Unido", "Australia"],
+        "pricing": "2.6% + 10¢ por transacción"
+      },
+      "lightspeed": {
+        "name": "Lightspeed Restaurant",
+        "description": "Sistema POS en la nube con funciones avanzadas de gestión de inventario",
+        "setupTime": "15 minutos",
+        "features": [
+          "Inventario multiubicación",
+          "Órdenes de compra",
+          "Gestión de proveedores",
+          "Informes avanzados"
+        ],
+        "regions": ["Global"],
+        "pricing": "Desde $99/mes"
+      },
+      "clover": {
+        "name": "Clover POS",
+        "description": "Sistema POS todo en uno con mercado de aplicaciones personalizable",
+        "setupTime": "8 minutos",
+        "features": [
+          "Interfaz personalizable",
+          "Gestión de empleados",
+          "Herramientas de participación del cliente",
+          "Integraciones de aplicaciones de terceros"
+        ],
+        "regions": ["EE.UU.", "Canadá"],
+        "pricing": "Desde $69/mes"
+      },
+      "revel": {
+        "name": "Revel Systems",
+        "description": "Sistema POS para iPad con funciones de nivel empresarial para negocios de hostelería",
+        "setupTime": "20 minutos",
+        "features": [
+          "Gestión de planos",
+          "Sistema de reservas",
+          "Sistema de visualización de cocina",
+          "Gestión de relaciones con clientes"
+        ],
+        "regions": ["EE.UU.", "Internacional"],
+        "pricing": "Precio personalizado"
+      },
+      "micros": {
+        "name": "Oracle MICROS",
+        "description": "Solución POS empresarial para grandes cadenas de restaurantes y hoteles",
+        "setupTime": "30 minutos",
+        "features": [
+          "Gestión centralizada",
+          "Soporte multi-propiedad",
+          "Suite de informes avanzados",
+          "Integración con sistemas Oracle"
+        ],
+        "regions": ["Global"],
+        "pricing": "Precio empresarial"
+      },
+      "stripe": {
+        "name": "Stripe",
+        "description": "Plataforma de procesamiento de pagos completa con alcance global",
+        "setupTime": "5 minutos",
+        "features": [
+          "Métodos de pago globales",
+          "Facturación por suscripción",
+          "Prevención de fraude",
+          "APIs para desarrolladores"
+        ],
+        "regions": ["Global"],
+        "pricing": "2.9% + 30¢ por transacción"
+      },
+      "paypal": {
+        "name": "PayPal",
+        "description": "Solución de pago digital con protección para compradores y vendedores",
+        "setupTime": "5 minutos",
+        "features": [
+          "Pago con un toque",
+          "Creación de facturas",
+          "Pagos recurrentes",
+          "Soporte para monedas internacionales"
+        ],
+        "regions": ["Global"],
+        "pricing": "2.99% + 49¢ por transacción"
+      },
+      "wechatpay": {
+        "name": "WeChat Pay",
+        "description": "Principal plataforma de pago móvil china con más de 1B de usuarios",
+        "setupTime": "15 minutos",
+        "features": [
+          "Pagos con código QR",
+          "Integración de mini-programas",
+          "Acceso al mercado chino",
+          "Funciones de redes sociales"
+        ],
+        "regions": ["China", "APAC"],
+        "pricing": "0.6% por transacción"
+      },
+      "alipay": {
+        "name": "Alipay",
+        "description": "Plataforma de pago de Alibaba que domina el mercado chino",
+        "setupTime": "15 minutos",
+        "features": [
+          "Integración de billetera móvil",
+          "Pagos transfronterizos",
+          "Herramientas de marketing",
+          "Servicios financieros"
+        ],
+        "regions": ["China", "Global"],
+        "pricing": "0.55% por transacción"
+      },
+      "when2work": {
+        "name": "When2Work",
+        "description": "Plataforma de gestión de horarios y turnos de empleados",
+        "setupTime": "10 minutos",
+        "features": [
+          "Programación de turnos",
+          "Seguimiento de tiempo",
+          "Gestión de disponibilidad",
+          "Acceso mediante aplicación móvil"
+        ],
+        "regions": ["EE.UU.", "Canadá"],
+        "pricing": "$2/usuario/mes"
+      },
+      "deputy": {
+        "name": "Deputy",
+        "description": "Solución de gestión de fuerza laboral con programación y gestión de tareas",
+        "setupTime": "10 minutos",
+        "features": [
+          "Programación automática",
+          "Tiempo y asistencia",
+          "Gestión de tareas",
+          "Herramientas de cumplimiento"
+        ],
+        "regions": ["Global"],
+        "pricing": "$4/usuario/mes"
+      },
+      "tableau": {
+        "name": "Tableau",
+        "description": "Plataforma de inteligencia empresarial y análisis para visualización de datos",
+        "setupTime": "20 minutos",
+        "features": [
+          "Paneles interactivos",
+          "Mezcla de datos",
+          "Análisis predictivo",
+          "Consultas en lenguaje natural"
+        ],
+        "regions": ["Global"],
+        "pricing": "Desde $70/usuario/mes"
+      },
+      "powerbi": {
+        "name": "Microsoft Power BI",
+        "description": "Servicio de análisis empresarial de Microsoft con capacidades de IA",
+        "setupTime": "15 minutos",
+        "features": [
+          "Visualización de datos",
+          "Integración con Excel",
+          "Información impulsada por IA",
+          "Herramientas de colaboración"
+        ],
+        "regions": ["Global"],
+        "pricing": "$9.99/usuario/mes"
+      },
+      "slack": {
+        "name": "Slack",
+        "description": "Centro de colaboración para comunicación y automatización de flujos de trabajo",
+        "setupTime": "5 minutos",
+        "features": [
+          "Canales e hilos",
+          "Compartir archivos",
+          "Integraciones de aplicaciones",
+          "Creador de flujos de trabajo"
+        ],
+        "regions": ["Global"],
+        "pricing": "Gratis - $15/usuario/mes"
+      },
+      "teams": {
+        "name": "Microsoft Teams",
+        "description": "Plataforma unificada de comunicación y colaboración de Microsoft",
+        "setupTime": "5 minutos",
+        "features": [
+          "Videoconferencias",
+          "Colaboración en archivos",
+          "Integración de aplicaciones",
+          "Integración con Microsoft 365"
+        ],
+        "regions": ["Global"],
+        "pricing": "Incluido con Microsoft 365"
+      },
+      "quickbooks": {
+        "name": "QuickBooks",
+        "description": "Software de contabilidad completo para pequeñas empresas",
+        "setupTime": "15 minutos",
+        "features": [
+          "Facturación",
+          "Seguimiento de gastos",
+          "Gestión de nómina",
+          "Preparación de impuestos"
+        ],
+        "regions": ["EE.UU.", "Canadá", "Reino Unido"],
+        "pricing": "$25-$150/mes"
+      },
+      "xero": {
+        "name": "Xero",
+        "description": "Plataforma de contabilidad en la nube con conexiones bancarias",
+        "setupTime": "15 minutos",
+        "features": [
+          "Conciliación bancaria",
+          "Seguimiento de inventario",
+          "Órdenes de compra",
+          "Soporte para múltiples monedas"
+        ],
+        "regions": ["Global"],
+        "pricing": "$12-$65/mes"
+      }
+    }
+  }
+}

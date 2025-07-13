@@ -25,7 +25,7 @@ import {
 } from 'lucide-react';
 
 const IntegrationsPage: React.FC = () => {
-  const { t } = useTranslation();
+const { t } = useTranslation('integrationsPage');
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('all');
   const [selectedIntegration, setSelectedIntegration] = useState<any>(null);
@@ -44,15 +44,15 @@ const IntegrationsPage: React.FC = () => {
     // POS Systems
     {
       id: 'toast',
-      name: 'Toast POS',
+      name: t('integrationsPage.integrations.toast.name'),
       category: 'pos',
       description: t('integrationsPage.integrations.toast.description'),
       logo: '🍞',
-      status: 'verified',
+      status: t('common.status.verified'),
       setupTime: t('integrationsPage.integrations.toast.setupTime'),
       popularity: 95,
       features: t('integrationsPage.integrations.toast.features', { returnObjects: true }),
-      regions: ['US', 'Canada'],
+      regions: t('integrationsPage.integrations.toast.regions', { returnObjects: true }),
       pricing: t('integrationsPage.integrations.toast.pricing'),
       documentation: 'https://docs.toast.com',
       isPopular: true
@@ -184,7 +184,7 @@ const IntegrationsPage: React.FC = () => {
       name: 'When2Work',
       category: 'scheduling',
       description: t('integrationsPage.integrations.when2work.description'),
-      logo: '📅',
+      logo: '�',
       status: 'verified',
       setupTime: t('integrationsPage.integrations.when2work.setupTime'),
       popularity: 76,
@@ -413,7 +413,7 @@ const IntegrationsPage: React.FC = () => {
                       Popularity: <span className="font-semibold text-gray-700">{integration.popularity}%</span>
                     </div>
                     <div className="text-sm text-gray-500">
-                      Regions: <span className="font-semibold text-gray-700">{integration.regions.join(', ')}</span>
+                      Regions: <span className="font-semibold text-gray-700">{(Array.isArray(integration.regions) ? integration.regions : []).join(', ')}</span>
                     </div>
                   </div>
                   <button className="bg-primary hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center gap-2">
@@ -582,7 +582,7 @@ const IntegrationsPage: React.FC = () => {
                   <div className="text-blue-200">{t('integrationsPage.support.uptimeSLA')}</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">Free</div>
+                  <div className="text-3xl font-bold mb-2">{t('integrationsPage.stats.free')}</div>
                   <div className="text-blue-200">{t('integrationsPage.support.setupAssistance')}</div>
                 </div>
               </div>

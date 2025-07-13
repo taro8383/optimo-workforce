@@ -1,0 +1,304 @@
+{
+  "integrationsPage": {
+    "categories": {
+      "all": "All Integrations",
+      "pos": "POS Systems",
+      "payment": "Payment Processing",
+      "scheduling": "Scheduling Tools",
+      "analytics": "Analytics & BI",
+      "communication": "Communication",
+      "accounting": "Accounting & Finance"
+    },
+    "hero": {
+      "title": "Powerful Integrations for Your Business",
+      "subtitle": "Connect with the tools you already use to streamline operations and boost efficiency",
+      "demoButton": "Watch Demo",
+      "guideButton": "Integration Guide"
+    },
+    "stats": {
+      "totalIntegrations": "Total Integrations",
+      "avgSetupTime": "Average Setup Time",
+      "uptimeGuarantee": "Uptime Guarantee",
+      "integrationSupport": "Integration Support"
+    },
+    "popular": {
+      "title": "Most Popular Integrations",
+      "subtitle": "These are the integrations our customers love the most",
+      "connectButton": "Connect"
+    },
+    "all": {
+      "title": "All Available Integrations",
+      "subtitle": "Browse our complete library of integrations",
+      "searchPlaceholder": "Search integrations...",
+      "viewDetailsButton": "View Details",
+      "connectButton": "Connect",
+      "noResultsTitle": "No integrations found",
+      "noResultsMessage": "Try adjusting your search or filter criteria"
+    },
+    "support": {
+      "title": "Integration Support",
+      "subtitle": "Our team is here to help you connect and optimize every integration",
+      "chatButton": "Chat with Support",
+      "guideButton": "Download Guide",
+      "averageSetup": "Average Setup",
+      "supportAvailable": "Support Available",
+      "uptimeSLA": "Uptime SLA",
+      "setupAssistance": "Setup Assistance"
+    },
+    "custom": {
+      "title": "Need a Custom Integration?",
+      "subtitle": "We can build a custom integration for your specific business needs",
+      "customTitle": "Request Custom Integration",
+      "customDescription": "We'll build a custom integration for your unique business systems",
+      "customButton": "Request Integration",
+      "suggestTitle": "Suggest an Integration",
+      "suggestDescription": "Let us know what integration you'd like to see next",
+      "suggestButton": "Suggest Integration"
+    },
+    "integrationDetails": {
+      "setupTime": "Setup Time",
+      "popularity": "Popularity",
+      "regions": "Regions",
+      "pricing": "Pricing",
+      "features": "Key Features",
+      "connectButton": "Connect Integration",
+      "viewDocs": "View Documentation"
+    },
+    "integrations": {
+      "toast": {
+        "name": "Toast POS",
+        "description": "Comprehensive POS system designed for restaurants with advanced table management",
+        "setupTime": "10 minutes",
+        "features": [
+          "Real-time menu updates",
+          "Table layout management",
+          "Staff performance tracking",
+          "Inventory integration"
+        ],
+        "regions": ["US", "Canada"],
+        "pricing": "Starts at $79/month"
+      },
+      "square": {
+        "name": "Square POS",
+        "description": "Versatile POS system with payment processing for businesses of all sizes",
+        "setupTime": "5 minutes",
+        "features": [
+          "Omnichannel sales",
+          "Inventory management",
+          "Customer directory",
+          "Digital receipts"
+        ],
+        "regions": ["US", "Canada", "UK", "Australia"],
+        "pricing": "2.6% + 10¢ per transaction"
+      },
+      "lightspeed": {
+        "name": "Lightspeed Restaurant",
+        "description": "Cloud-based POS system with advanced inventory management features",
+        "setupTime": "15 minutes",
+        "features": [
+          "Multi-location inventory",
+          "Purchase ordering",
+          "Vendor management",
+          "Advanced reporting"
+        ],
+        "regions": ["Global"],
+        "pricing": "Starts at $99/month"
+      },
+      "clover": {
+        "name": "Clover POS",
+        "description": "All-in-one POS system with customizable app marketplace",
+        "setupTime": "8 minutes",
+        "features": [
+          "Customizable interface",
+          "Employee management",
+          "Customer engagement tools",
+          "Third-party app integrations"
+        ],
+        "regions": ["US", "Canada"],
+        "pricing": "Starts at $69/month"
+      },
+      "revel": {
+        "name": "Revel Systems",
+        "description": "iPad POS system with enterprise-grade features for hospitality businesses",
+        "setupTime": "20 minutes",
+        "features": [
+          "Floor plan management",
+          "Reservation system",
+          "Kitchen display system",
+          "Customer relationship management"
+        ],
+        "regions": ["US", "International"],
+        "pricing": "Custom pricing"
+      },
+      "micros": {
+        "name": "Oracle MICROS",
+        "description": "Enterprise POS solution for large restaurant chains and hotels",
+        "setupTime": "30 minutes",
+        "features": [
+          "Centralized management",
+          "Multi-property support",
+          "Advanced reporting suite",
+          "Integration with Oracle systems"
+        ],
+        "regions": ["Global"],
+        "pricing": "Enterprise pricing"
+      },
+      "stripe": {
+        "name": "Stripe",
+        "description": "Full-stack payment processing platform with global reach",
+        "setupTime": "5 minutes",
+        "features": [
+          "Global payment methods",
+          "Subscription billing",
+          "Fraud prevention",
+          "Developer-friendly APIs"
+        ],
+        "regions": ["Global"],
+        "pricing": "2.9% + 30¢ per transaction"
+      },
+      "paypal": {
+        "name": "PayPal",
+        "description": "Digital payment solution with buyer and seller protection",
+        "setupTime": "5 minutes",
+        "features": [
+          "One-touch checkout",
+          "Invoice creation",
+          "Recurring payments",
+          "International currency support"
+        ],
+        "regions": ["Global"],
+        "pricing": "2.99% + 49¢ per transaction"
+      },
+      "wechatpay": {
+        "name": "WeChat Pay",
+        "description": "Leading Chinese mobile payment platform with 1B+ users",
+        "setupTime": "15 minutes",
+        "features": [
+          "QR code payments",
+          "Mini-program integration",
+          "Chinese market access",
+          "Social media features"
+        ],
+        "regions": ["China", "APAC"],
+        "pricing": "0.6% per transaction"
+      },
+      "alipay": {
+        "name": "Alipay",
+        "description": "Alibaba's payment platform dominating the Chinese market",
+        "setupTime": "15 minutes",
+        "features": [
+          "Mobile wallet integration",
+          "Cross-border payments",
+          "Marketing tools",
+          "Financial services"
+        ],
+        "regions": ["China", "Global"],
+        "pricing": "0.55% per transaction"
+      },
+      "when2work": {
+        "name": "When2Work",
+        "description": "Employee scheduling and shift management platform",
+        "setupTime": "10 minutes",
+        "features": [
+          "Shift scheduling",
+          "Time tracking",
+          "Availability management",
+          "Mobile app access"
+        ],
+        "regions": ["US", "Canada"],
+        "pricing": "$2/user/month"
+      },
+      "deputy": {
+        "name": "Deputy",
+        "description": "Workforce management solution with scheduling and task management",
+        "setupTime": "10 minutes",
+        "features": [
+          "Auto-scheduling",
+          "Time & attendance",
+          "Task management",
+          "Compliance tools"
+        ],
+        "regions": ["Global"],
+        "pricing": "$4/user/month"
+      },
+      "tableau": {
+        "name": "Tableau",
+        "description": "Business intelligence and analytics platform for data visualization",
+        "setupTime": "20 minutes",
+        "features": [
+          "Interactive dashboards",
+          "Data blending",
+          "Predictive analytics",
+          "Natural language queries"
+        ],
+        "regions": ["Global"],
+        "pricing": "Starts at $70/user/month"
+      },
+      "powerbi": {
+        "name": "Microsoft Power BI",
+        "description": "Microsoft's business analytics service with AI capabilities",
+        "setupTime": "15 minutes",
+        "features": [
+          "Data visualization",
+          "Excel integration",
+          "AI-powered insights",
+          "Collaboration tools"
+        ],
+        "regions": ["Global"],
+        "pricing": "$9.99/user/month"
+      },
+      "slack": {
+        "name": "Slack",
+        "description": "Collaboration hub for team communication and workflow automation",
+        "setupTime": "5 minutes",
+        "features": [
+          "Channels & threads",
+          "File sharing",
+          "App integrations",
+          "Workflow builder"
+        ],
+        "regions": ["Global"],
+        "pricing": "Free - $15/user/month"
+      },
+      "teams": {
+        "name": "Microsoft Teams",
+        "description": "Microsoft's unified communication and collaboration platform",
+        "setupTime": "5 minutes",
+        "features": [
+          "Video conferencing",
+          "File collaboration",
+          "App integration",
+          "Microsoft 365 integration"
+        ],
+        "regions": ["Global"],
+        "pricing": "Included with Microsoft 365"
+      },
+      "quickbooks": {
+        "name": "QuickBooks",
+        "description": "Comprehensive accounting software for small businesses",
+        "setupTime": "15 minutes",
+        "features": [
+          "Invoicing",
+          "Expense tracking",
+          "Payroll management",
+          "Tax preparation"
+        ],
+        "regions": ["US", "Canada", "UK"],
+        "pricing": "$25-$150/month"
+      },
+      "xero": {
+        "name": "Xero",
+        "description": "Cloud-based accounting platform with bank connections",
+        "setupTime": "15 minutes",
+        "features": [
+          "Bank reconciliation",
+          "Inventory tracking",
+          "Purchase orders",
+          "Multi-currency support"
+        ],
+        "regions": ["Global"],
+        "pricing": "$12-$65/month"
+      }
+    }
+  }
+}

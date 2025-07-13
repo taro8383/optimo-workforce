@@ -34,6 +34,7 @@ import enFutureFeaturesAI from './locales/en/future-features/aiUpselling.json';
 import enFutureFeaturesPricing from './locales/en/future-features/dynamicPricing.json';
 import enFutureFeaturesTips from './locales/en/future-features/tipManagement.json';
 import enSecurityPage from './locales/en/securityPage.json';
+import enIntegrations from './locales/en/integrations.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -67,13 +68,14 @@ import esFutureFeaturesAI from './locales/es/future-features/aiUpselling.json';
 import esFutureFeaturesPricing from './locales/es/future-features/dynamicPricing.json';
 import esFutureFeaturesTips from './locales/es/future-features/tipManagement.json';
 import esSecurityPage from './locales/es/securityPage.json';
+import esIntegrations from './locales/es/integrations.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -109,7 +111,8 @@ i18n
       restaurants: enRestaurants,
       hotels: enHotels,
       cafe: enCafe,
-      securityPage: enSecurityPage
+      securityPage: enSecurityPage,
+      integrationsPage: enIntegrations
     },
     es: {
       common: esCommon,
@@ -144,7 +147,8 @@ i18n
       restaurants: esRestaurants,
       hotels: esHotels,
       cafe: esCafe,
-      securityPage: esSecurityPage
+      securityPage: esSecurityPage,
+      integrationsPage: esIntegrations
     }
   },
     fallbackLng: 'en',
@@ -171,7 +175,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/cafe.json',
       './locales/es/cafe.json',
       './locales/en/securityPage.json',
-      './locales/es/securityPage.json'
+      './locales/es/securityPage.json',
+      './locales/en/integrations.json',
+      './locales/es/integrations.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

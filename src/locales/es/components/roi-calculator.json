@@ -1,0 +1,126 @@
+{
+  "heroSection": {
+    "title": {
+      "mainHeading": "Calculadora ROI"
+    },
+    "subtitle": {
+      "description": "Calcula tus ahorros potenciales con optimización de fuerza laboral impulsada por IA. Ve exactamente cuánto podrías ahorrar en costos laborales, tiempo de programación y reducción de rotación."
+    },
+    "buttons": {
+      "startCalculating": "Comenzar Cálculo",
+      "sampleReport": "Ver Reporte de Muestra"
+    }
+  },
+  "formSection": {
+    "title": {
+      "mainHeading": "Información del Negocio"
+    },
+    "labels": {
+      "businessType": "Tipo de Negocio",
+      "region": "Región",
+      "locations": "Número de Ubicaciones",
+      "avgEmployees": "Empleados Promedio por Ubicación",
+      "avgHourlyWage": "Salario Promedio por Hora ($)",
+      "hoursPerWeek": "Horas Promedio por Empleado por Semana",
+      "schedulingHours": "Horas Dedicadas a Programación por Semana",
+      "managerRate": "Tarifa por Hora del Gerente ($)",
+      "turnoverRate": "Tasa Anual de Rotación de Personal (%)",
+      "hiringCost": "Costo para Contratar y Capacitar Nuevo Empleado ($)"
+    },
+    "businessTypes": {
+      "restaurant": "Restaurante",
+      "hotel": "Hotel",
+      "cafe": "Café"
+    },
+    "regions": {
+      "US": "Estados Unidos",
+      "EU": "Unión Europea",
+      "LATAM": "América Latina",
+      "APAC": "Asia-Pacífico"
+    },
+    "regionSavings": "ahorro promedio"
+  },
+  "resultsSection": {
+    "title": {
+      "mainHeading": "Tus Ahorros Potenciales"
+    },
+    "metrics": {
+      "totalAnnualSavings": "Ahorro Total Anual",
+      "paybackPeriod": "Período de Recuperación",
+      "annualROI": "ROI Anual",
+      "fiveYearSavings": "Ahorros Netos a 5 Años"
+    },
+    "breakdown": {
+      "title": "Desglose de Ahorros",
+      "laborOptimization": {
+        "title": "Optimización de Costos Laborales",
+        "description": "La programación impulsada por IA reduce el exceso de personal y optimiza los patrones de turnos",
+        "currentCost": "Costo Laboral Anual Actual",
+        "optimizedCost": "Costo Laboral Anual Optimizado"
+      },
+      "schedulingTime": {
+        "title": "Ahorro de Tiempo en Programación",
+        "description": "Reduce el tiempo de programación en un 78% con optimización de IA con un clic",
+        "timeSaved": "Tiempo Ahorrado por Semana",
+        "managerRate": "Tarifa del Gerente"
+      },
+      "turnoverReduction": {
+        "title": "Reducción de Rotación",
+        "description": "Una mejor programación mejora la satisfacción del empleado y reduce la rotación en un 43%",
+        "currentRate": "Tasa de Rotación Actual",
+        "optimizedRate": "Tasa de Rotación Optimizada"
+      }
+    }
+  },
+  "actionButtons": {
+    "sectionTitle": "Acciones",
+    "downloadReport": "Descargar Reporte ROI Completo",
+    "scheduleDemo": "Programar Demo para Validar Resultados",
+    "shareResults": "Compartir Resultados con el Equipo"
+  },
+  "benchmarksSection": {
+    "title": "Referencias de la Industria vs. Resultados Optimo",
+    "categories": {
+      "turnover": {
+        "title": "Rotación de Personal",
+        "industry": "Promedio de la Industria",
+        "withOptimo": "Con Optimo"
+      },
+      "schedulingTime": {
+        "title": "Tiempo de Programación",
+        "industry": "Promedio de la Industria",
+        "withOptimo": "Con Optimo"
+      },
+      "laborCost": {
+        "title": "% de Costo Laboral",
+        "industry": "Promedio de la Industria",
+        "withOptimo": "Con Optimo"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "¿Listo para Convertir Estas Proyecciones en Realidad?",
+    "subtitle": "Únete a miles de negocios que ya están ahorrando con optimización de fuerza laboral impulsada por IA. Comienza tu prueba gratuita hoy y ve resultados en 30 días.",
+    "buttons": {
+      "startTrial": "Comenzar Prueba Gratuita",
+      "scheduleDemo": "Programar Demo"
+    },
+    "features": {
+      "trialDays": "30 Días",
+      "setupTime": "5 Minutos",
+      "guaranteedSavings": "20%+",
+      "support": "24/7"
+    },
+    "featureLabels": {
+      "trialDays": "Prueba Gratuita",
+      "setupTime": "Tiempo de Configuración",
+      "guaranteedSavings": "Ahorro Garantizado",
+      "support": "Soporte"
+    }
+  },
+  "units": {
+    "months": "meses",
+    "hours": "horas",
+    "percent": "%"
+  }
+}

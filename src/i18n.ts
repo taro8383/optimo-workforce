@@ -36,6 +36,7 @@ import enFutureFeaturesTips from './locales/en/future-features/tipManagement.jso
 import enSecurityPage from './locales/en/securityPage.json';
 import enIntegrations from './locales/en/integrations.json';
 import enFaq from './locales/en/components/faq.json';
+import enROICalculator from './locales/en/components/roi-calculator.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -71,13 +72,14 @@ import esFutureFeaturesTips from './locales/es/future-features/tipManagement.jso
 import esSecurityPage from './locales/es/securityPage.json';
 import esIntegrations from './locales/es/integrations.json';
 import esFaq from './locales/es/components/faq.json';
+import esROICalculator from './locales/es/components/roi-calculator.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -115,7 +117,8 @@ i18n
       cafe: enCafe,
       securityPage: enSecurityPage,
       integrationsPage: enIntegrations,
-      'components/faq': enFaq
+      'components/faq': enFaq,
+      'components/roi-calculator': enROICalculator
     },
     es: {
       common: esCommon,
@@ -152,7 +155,8 @@ i18n
       cafe: esCafe,
       securityPage: esSecurityPage,
       integrationsPage: esIntegrations,
-      'components/faq': esFaq
+      'components/faq': esFaq,
+      'components/roi-calculator': esROICalculator
     }
   },
     fallbackLng: 'en',
@@ -183,7 +187,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/integrations.json',
       './locales/es/integrations.json',
       './locales/en/components/faq.json',
-      './locales/es/components/faq.json'
+      './locales/es/components/faq.json',
+      './locales/en/components/roi-calculator.json',
+      './locales/es/components/roi-calculator.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

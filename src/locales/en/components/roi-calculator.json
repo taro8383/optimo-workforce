@@ -1,0 +1,125 @@
+{
+  "heroSection": {
+    "title": {
+      "mainHeading": "ROI Calculator"
+    },
+    "subtitle": {
+      "description": "Calculate your potential savings with AI-powered workforce optimization. See exactly how much you could save in labor costs, scheduling time, and turnover reduction."
+    },
+    "buttons": {
+      "startCalculating": "Start Calculating",
+      "sampleReport": "See Sample Report"
+    }
+  },
+  "formSection": {
+    "title": {
+      "mainHeading": "Business Information"
+    },
+    "labels": {
+      "businessType": "Business Type",
+      "region": "Region",
+      "locations": "Number of Locations",
+      "avgEmployees": "Average Employees per Location",
+      "avgHourlyWage": "Average Hourly Wage ($)",
+      "hoursPerWeek": "Average Hours per Employee per Week",
+      "schedulingHours": "Hours Spent on Scheduling per Week",
+      "managerRate": "Manager Hourly Rate ($)",
+      "turnoverRate": "Annual Staff Turnover Rate (%)",
+      "hiringCost": "Cost to Hire & Train New Employee ($)"
+    },
+    "businessTypes": {
+      "restaurant": "Restaurant",
+      "hotel": "Hotel",
+      "cafe": "Café"
+    },
+    "regions": {
+      "US": "United States",
+      "EU": "European Union",
+      "LATAM": "Latin America",
+      "APAC": "Asia-Pacific"
+    },
+    "regionSavings": "avg savings"
+  },
+  "resultsSection": {
+    "title": {
+      "mainHeading": "Your Potential Savings"
+    },
+    "metrics": {
+      "totalAnnualSavings": "Total Annual Savings",
+      "paybackPeriod": "Payback Period",
+      "annualROI": "Annual ROI",
+      "fiveYearSavings": "5-Year Net Savings"
+    },
+    "breakdown": {
+      "title": "Savings Breakdown",
+      "laborOptimization": {
+        "title": "Labor Cost Optimization",
+        "description": "AI-powered scheduling reduces overstaffing and optimizes shift patterns",
+        "currentCost": "Current Annual Labor Cost",
+        "optimizedCost": "Optimized Annual Labor Cost"
+      },
+      "schedulingTime": {
+        "title": "Scheduling Time Savings",
+        "description": "Reduce scheduling time by 78% with one-click AI optimization",
+        "timeSaved": "Time Saved per Week",
+        "managerRate": "Manager Rate"
+      },
+      "turnoverReduction": {
+        "title": "Turnover Reduction",
+        "description": "Better scheduling improves employee satisfaction and reduces turnover by 43%",
+        "currentRate": "Current Turnover Rate",
+        "optimizedRate": "Optimized Turnover Rate"
+      }
+    }
+  },
+  "actionButtons": {
+    "downloadReport": "Download Full ROI Report",
+    "scheduleDemo": "Schedule Demo to Validate Results",
+    "shareResults": "Share Results with Team"
+  },
+  "benchmarksSection": {
+    "title": "Industry Benchmarks vs. Optimo Results",
+    "categories": {
+      "turnover": {
+        "title": "Staff Turnover",
+        "industry": "Industry Average",
+        "withOptimo": "With Optimo"
+      },
+      "schedulingTime": {
+        "title": "Scheduling Time",
+        "industry": "Industry Average",
+        "withOptimo": "With Optimo"
+      },
+      "laborCost": {
+        "title": "Labor Cost %",
+        "industry": "Industry Average",
+        "withOptimo": "With Optimo"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Ready to Turn These Projections into Reality?",
+    "subtitle": "Join thousands of businesses already saving with AI-powered workforce optimization. Start your free trial today and see results within 30 days.",
+    "buttons": {
+      "startTrial": "Start Free Trial",
+      "scheduleDemo": "Schedule Demo"
+    },
+    "features": {
+      "trialDays": "30 Days",
+      "setupTime": "5 Minutes",
+      "guaranteedSavings": "20%+",
+      "support": "24/7"
+    },
+    "featureLabels": {
+      "trialDays": "Free Trial",
+      "setupTime": "Setup Time",
+      "guaranteedSavings": "Guaranteed Savings",
+      "support": "Support"
+    }
+  },
+  "units": {
+    "months": "months",
+    "hours": "hours",
+    "percent": "%"
+  }
+}

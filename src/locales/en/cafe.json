@@ -3,6 +3,8 @@
     "title": "Brew Success: Optimize Your Cafe Operations",
     "subtitle": "AI-Powered Staff Scheduling for efficient resource management in the bustling world of cafes",
     "ctaText": "Schedule Demo",
+    "secondaryCta": "Learn More",
+    "intelligenceTitle": "Cafe Intelligence",
     "stats": {
       "manualShifts": "Cafes still manage shifts manually",
       "laborCosts": "Labor costs of cafe operations",
@@ -81,23 +83,35 @@
     "ctaText": "Get Started"
   },
   "features": {
-    "demandSignals": [
-      {
-        "title": "Weather APIs",
-        "description": "AI-powered demand forecasting incorporates weather conditions—rainy days boost hot drinks, sunny afternoons encourage outdoor seating",
-        "color": "text-blue-500"
-      },
-      {
-        "title": "Local Events & Activity Integration",
-        "description": "Factor in local activities and event calendars to detect demand patterns, ensuring perfect staffing for events and festivals",
-        "color": "text-purple-500"
-      },
-      {
-        "title": "Beyond Basic Data",
-        "description": "Interpret unstructured text like public reviews to cluster sentiment and provide human-readable summaries for managers",
-        "color": "text-green-500"
-      }
-    ]
+    "downtimeDesc": "Reduce Employee Downtime",
+    "downtimeDetails": "Intelligent deployment of the right people to the right places at the right times",
+    "productivityDesc": "Boost Productivity",
+    "productivityDetails": "Operate with new levels of precision while eliminating human bias and error",
+    "disruptionsDesc": "Minimize Service Disruptions",
+    "disruptionsDetails": "Lower costs, happier staff, and delighted customers without system overhauls",
+    "performanceTitle": "Significantly Faster Than Traditional Methods",
+    "performanceDetails": "Our AI is significantly faster than traditional scheduling methods",
+    "demandSignals": {
+      "title": "Smarter Staffing with Advanced Demand Signals",
+      "subtitle": "The power behind our AI scheduler lies in its ability to harness sophisticated demand signals and proactively anticipate your staffing needs",
+      "items": [
+        {
+          "title": "Weather APIs",
+          "description": "AI-powered demand forecasting incorporates weather conditions—rainy days boost hot drinks, sunny afternoons encourage outdoor seating",
+          "color": "text-blue-500"
+        },
+        {
+          "title": "Local Events & Activity Integration",
+          "description": "Factor in local activities and event calendars to detect demand patterns, ensuring perfect staffing for events and festivals",
+          "color": "text-purple-500"
+        },
+        {
+          "title": "Beyond Basic Data",
+          "description": "Interpret unstructured text like public reviews to cluster sentiment and provide human-readable summaries for managers",
+          "color": "text-green-500"
+        }
+      ]
+    }
   },
   "coreOutcomes": {
     "title": "Core Operational Outcomes",
@@ -132,42 +146,55 @@
   "regionalAdaptations": {
     "title": "Regional Adaptations",
     "subtitle": "Tailored solutions for different markets",
+    "keyFeatures": "Key Features",
     "regions": {
       "US": {
+        "title": "Strategic Staffing for Peak Tipping",
+        "subtitle": "Optimize skilled barista deployment",
         "description": "AI scheduler creates optimal schedules considering availability and skills. Strategic deployment of skilled baristas during peak periods influences tip opportunities, as overstaffing can dilute tips and demotivate staff.",
         "features": [
           "Skilled barista deployment during peaks",
           "Tip opportunity optimization",
           "Appropriate staffing level maintenance",
           "Specialized tip management software integration"
-        ]
+        ],
+        "color": "bg-blue-500"
       },
       "EU": {
+        "title": "Automated Compliance",
+        "subtitle": "Working Time Directives adherence",
         "description": "AI schedulers draft shifts compliant with labor laws, maintain compliance, avoid fines, and ensure accurate record-keeping. Time tracking with customizable rules by country and GDPR compliance.",
         "features": [
           "EU labor law compliance",
           "Automated fine prevention",
           "Accurate workday record-keeping",
           "GDPR compliance integration"
-        ]
+        ],
+        "color": "bg-green-500"
       },
       "LATAM": {
+        "title": "Cash-Flow Optimization",
+        "subtitle": "High-cash transaction venues",
         "description": "AI scheduling benefits include cost reduction and revenue uplift, contributing to improved cash flow. Payment digitalization support for emerging markets with high transaction volumes.",
         "features": [
           "Cash transaction optimization",
           "Payment digitalization support",
           "Operational efficiency focus",
           "High-volume transaction handling"
-        ]
+        ],
+        "color": "bg-orange-500"
       },
       "APAC": {
+        "title": "Mobile Wallet Integration",
+        "subtitle": "Mobile payment ecosystem optimization",
         "description": "Mobile payment apps contribute to booking conversion rates. AI-powered mobile apps for personalized experiences. Optimized staffing handles increased mobile payment transaction volumes.",
         "features": [
           "Mobile payment app integration",
           "Personalized meal choice systems",
           "Increased transaction volume handling",
           "Enhanced customer journey support"
-        ]
+        ],
+        "color": "bg-yellow-500"
       }
     }
   },
@@ -210,14 +237,30 @@
   "advancedAnalytics": {
     "title": "Advanced Data Analytics",
     "description": "Convert raw data into actionable knowledge, supporting real-time decisions and ensuring scheduling aligns with actual and predicted guest needs",
-    "features": [
-      "Real-Time",
-      "Decision Support",
-      "Sentiment",
-      "Clustering",
-      "Customer",
-      "Satisfaction"
-    ]
+    "feature1": {
+      "title": "Real-Time",
+      "description": "Decision Support"
+    },
+    "feature2": {
+      "title": "Sentiment",
+      "description": "Clustering"
+    },
+    "feature3": {
+      "title": "Customer",
+      "description": "Satisfaction"
+    }
+  },
+  "employeeSatisfaction": {
+    "title": "Enhanced Employee Satisfaction",
+    "description": "Flexible scheduling and shift swapping capabilities improve retention",
+    "stats": {
+      "flexible": "Flexible",
+      "schedulingOptions": "Scheduling Options",
+      "easy": "Easy",
+      "shiftSwapping": "Shift Swapping",
+      "higher": "Higher",
+      "retentionRates": "Retention Rates"
+    }
   },
   "industryStats": [
     {

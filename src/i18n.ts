@@ -71,35 +71,35 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    resources: {
-      en: {
-        common: enCommon,
-        hero: enHero,
-        header: enHeader,
-        pricing: enPricing,
-        problemSolution: enProblemSolution,
-        socialProof: enSocialProof,
-        howItWorks: enHowItWorks,
-        tippingSpotlight: enTippingSpotlight,
-        globalIntelligence: enGlobalIntelligence,
-        finalCTA: enFinalCTA,
-        footer: enFooter,
-        futureFeatures: {
-          hero: enFutureFeaturesHero,
-          roadmap: enFutureFeaturesRoadmap,
-          featureDetails: enFutureFeaturesDetails,
-          featureTitles: enFutureFeaturesTitles,
-          featureTimeline: enFutureFeaturesTimeline,
-          betaProgram: enFutureFeaturesBeta,
-          featureRequest: enFutureFeaturesRequest,
-          ui: enFutureFeaturesUI,
-          industryImpact: enFutureFeaturesImpact,
-          inventoryOptimization: enFutureFeaturesInventory,
-          businessAnalytics: enFutureFeaturesAnalytics,
-          customerFeedback: enFutureFeaturesFeedback,
-          customerManagement: enFutureFeaturesManagement,
-          aiUpselling: enFutureFeaturesAI,
-          dynamicPricing: enFutureFeaturesPricing,
+  resources: {
+    en: {
+      common: enCommon,
+      hero: enHero,
+      header: enHeader,
+      pricing: enPricing,
+      problemSolution: enProblemSolution,
+      socialProof: enSocialProof,
+      howItWorks: enHowItWorks,
+      tippingSpotlight: enTippingSpotlight,
+      globalIntelligence: enGlobalIntelligence,
+      finalCTA: enFinalCTA,
+      footer: enFooter,
+      futureFeatures: {
+        hero: enFutureFeaturesHero,
+        roadmap: enFutureFeaturesRoadmap,
+        featureDetails: enFutureFeaturesDetails,
+        featureTitles: enFutureFeaturesTitles,
+        featureTimeline: enFutureFeaturesTimeline,
+        betaProgram: enFutureFeaturesBeta,
+        featureRequest: enFutureFeaturesRequest,
+        ui: enFutureFeaturesUI,
+        industryImpact: enFutureFeaturesImpact,
+        inventoryOptimization: enFutureFeaturesInventory,
+        businessAnalytics: enFutureFeaturesAnalytics,
+        customerFeedback: enFutureFeaturesFeedback,
+        customerManagement: enFutureFeaturesManagement,
+        aiUpselling: enFutureFeaturesAI,
+        dynamicPricing: enFutureFeaturesPricing,
         tipManagement: enFutureFeaturesTips
       },
       restaurants: enRestaurants,
@@ -107,40 +107,40 @@ i18n
       cafe: enCafe
     },
     es: {
-        common: esCommon,
-        hero: esHero,
-        header: esHeader,
-        pricing: esPricing,
-        problemSolution: esProblemSolution,
-        socialProof: esSocialProof,
-        howItWorks: esHowItWorks,
-        tippingSpotlight: esTippingSpotlight,
-        globalIntelligence: esGlobalIntelligence,
-        finalCTA: esFinalCTA,
-        footer: esFooter,
-        futureFeatures: {
-          hero: esFutureFeaturesHero,
-          roadmap: esFutureFeaturesRoadmap,
-          featureDetails: esFutureFeaturesDetails,
-          featureTitles: esFutureFeaturesTitles,
-          featureTimeline: esFutureFeaturesTimeline,
-          betaProgram: esFutureFeaturesBeta,
-          featureRequest: esFutureFeaturesRequest,
-          ui: esFutureFeaturesUI,
-          industryImpact: esFutureFeaturesImpact,
-          inventoryOptimization: esFutureFeaturesInventory,
-          businessAnalytics: esFutureFeaturesAnalytics,
-          customerFeedback: esFutureFeaturesFeedback,
-          customerManagement: esFutureFeaturesManagement,
-          aiUpselling: esFutureFeaturesAI,
-          dynamicPricing: esFutureFeaturesPricing,
+      common: esCommon,
+      hero: esHero,
+      header: esHeader,
+      pricing: esPricing,
+      problemSolution: esProblemSolution,
+      socialProof: esSocialProof,
+      howItWorks: esHowItWorks,
+      tippingSpotlight: esTippingSpotlight,
+      globalIntelligence: esGlobalIntelligence,
+      finalCTA: esFinalCTA,
+      footer: esFooter,
+      futureFeatures: {
+        hero: esFutureFeaturesHero,
+        roadmap: esFutureFeaturesRoadmap,
+        featureDetails: esFutureFeaturesDetails,
+        featureTitles: esFutureFeaturesTitles,
+        featureTimeline: esFutureFeaturesTimeline,
+        betaProgram: esFutureFeaturesBeta,
+        featureRequest: esFutureFeaturesRequest,
+        ui: esFutureFeaturesUI,
+        industryImpact: esFutureFeaturesImpact,
+        inventoryOptimization: esFutureFeaturesInventory,
+        businessAnalytics: esFutureFeaturesAnalytics,
+        customerFeedback: esFutureFeaturesFeedback,
+        customerManagement: esFutureFeaturesManagement,
+        aiUpselling: esFutureFeaturesAI,
+        dynamicPricing: esFutureFeaturesPricing,
         tipManagement: esFutureFeaturesTips
-        },
-        restaurants: esRestaurants,
-        hotels: esHotels,
-        cafe: esCafe
-      }
-    },
+      },
+      restaurants: esRestaurants,
+      hotels: esHotels,
+      cafe: esCafe
+    }
+  },
     fallbackLng: 'en',
     interpolation: { 
       escapeValue: false 
@@ -152,28 +152,7 @@ i18n
     },
     react: {
       useSuspense: false
-    },
-    ns: [
-      'common',
-      'hero',
-      'header',
-      'pricing',
-      'problemSolution',
-      'socialProof',
-      'howItWorks',
-      'tippingSpotlight',
-      'globalIntelligence',
-      'finalCTA',
-      'footer',
-      'restaurants',
-      'hotels',
-      'cafe'
-    ],
-    defaultNS: 'common',
-    keySeparator: '.',
-    nsSeparator: ':',
-    returnObjects: false,
-    debug: process.env.NODE_ENV === 'development'
+    }
   });
 
 // Enable hot reload for translations in development

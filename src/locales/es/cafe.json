@@ -2,12 +2,14 @@
   "hero": {
     "title": "Optimiza las Operaciones de tu Cafetería",
     "subtitle": "Programación de personal con IA para una gestión eficiente de recursos",
-    "ctaText": "Programar Demo",
+    "ctaText": "Programar Demo Hoy",
+    "secondaryCta": "Aprende Más",
+    "intelligenceTitle": "Inteligencia para Cafeterías",
     "stats": {
-      "manualShifts": "Cafeterías que aún gestionan turnos manualmente",
-      "laborCosts": "Costos laborales de operaciones en cafeterías",
-      "fasterScheduling": "Más rápido que los métodos tradicionales",
-      "aiOptimization": "Porcentaje de optimización con IA"
+      "manualShifts": "Cafeterías con gestión manual de turnos",
+      "laborCosts": "Impacto de costos laborales",
+      "fasterScheduling": "Programación más rápida",
+      "aiOptimization": "Optimización con IA"
     }
   },
   "problemSolution": {
@@ -81,23 +83,35 @@
     "ctaText": "Comenzar"
   },
   "features": {
-    "demandSignals": [
-      {
-        "title": "APIs del Clima",
-        "description": "Pronóstico de demanda con IA incorpora condiciones climáticas - días lluviosos aumentan bebidas calientes, tardes soleadas fomentan asientos al aire libre",
-        "color": "text-blue-500"
-      },
-      {
-        "title": "Integración de Eventos Locales",
-        "description": "Considera actividades locales y calendarios de eventos para detectar patrones de demanda, asegurando personal perfecto para eventos y festivales",
-        "color": "text-purple-500"
-      },
-      {
-        "title": "Más Allá de Datos Básicos",
-        "description": "Interpreta texto no estructurado como reseñas públicas para agrupar sentimientos y proporcionar resúmenes legibles para gerentes",
-        "color": "text-green-500"
-      }
-    ]
+    "downtimeDesc": "Reducir Tiempo Muerto de Empleados",
+    "downtimeDetails": "Despliegue inteligente de las personas adecuadas en los lugares correctos en el momento preciso",
+    "productivityDesc": "Aumentar la Productividad",
+    "productivityDetails": "Opere con nuevos niveles de precisión eliminando sesgos y errores humanos",
+    "disruptionsDesc": "Minimizar Interrupciones del Servicio",
+    "disruptionsDetails": "Menores costos, personal más feliz y clientes satisfechos sin cambios de sistema",
+    "performanceTitle": "Significativamente Más Rápido Que Métodos Tradicionales",
+    "performanceDetails": "Nuestra IA es significativamente más rápida que los métodos de programación tradicionales",
+    "demandSignals": {
+      "title": "Dotación más inteligente con señales de demanda avanzadas",
+      "subtitle": "El poder de nuestro programador de IA radica en su capacidad para aprovechar señales de demanda sofisticadas y anticipar proactivamente sus necesidades de personal",
+      "items": [
+        {
+          "title": "APIs meteorológicas",
+          "description": "La previsión de demanda impulsada por IA incorpora condiciones climáticas: los días lluviosos aumentan las bebidas calientes, las tardes soleadas fomentan el asiento al aire libre",
+          "color": "text-blue-500"
+        },
+        {
+          "title": "Integración de eventos y actividades locales",
+          "description": "Considera actividades locales y calendarios de eventos para detectar patrones de demanda, asegurando una dotación perfecta para eventos y festivales",
+          "color": "text-purple-500"
+        },
+        {
+          "title": "Más allá de los datos básicos",
+          "description": "Interpreta texto no estructurado como reseñas públicas para agrupar sentimientos y proporcionar resúmenes legibles para gerentes",
+          "color": "text-green-500"
+        }
+      ]
+    }
   },
   "coreOutcomes": {
     "title": "Resultados Operativos Clave",
@@ -117,7 +131,7 @@
       },
       {
         "title": "Paneles de Costos/Ingresos Laborales",
-        "description": "Aborda costos laborales (hasta 40% de gastos) con análisis unificados y resúmenes claros de anomalías en inglés sencillo",
+        "description": "Aborda costos laborales (hasta 40% de gastos) con análisis unificados y resúmenes claros de anomalías en español sencillo",
         "features": [
           "Análisis de reducción de costos",
           "Reconocimiento de patrones",
@@ -132,42 +146,55 @@
   "regionalAdaptations": {
     "title": "Adaptaciones Regionales",
     "subtitle": "Soluciones personalizadas para diferentes mercados",
+    "keyFeatures": "Características Clave",
     "regions": {
       "US": {
+        "title": "Dotación Estratégica para Propinas Máximas",
+        "subtitle": "Optimización del despliegue de baristas calificados",
         "description": "El programador de IA crea horarios óptimos considerando disponibilidad y habilidades. Despliegue estratégico de baristas calificados durante horas pico influye en oportunidades de propinas.",
         "features": [
           "Despliegue de baristas calificados en horas pico",
           "Optimización de oportunidades de propinas",
           "Mantenimiento de niveles de personal adecuados",
           "Integración de software especializado para propinas"
-        ]
+        ],
+        "color": "bg-blue-500"
       },
       "EU": {
+        "title": "Cumplimiento Automatizado",
+        "subtitle": "Adherencia a Directivas de Tiempo Laboral",
         "description": "Los programadores de IA crean turnos que cumplen con las leyes laborales, mantienen cumplimiento, evitan multas y garantizan registros precisos.",
         "features": [
           "Cumplimiento de leyes laborales UE",
           "Prevención automatizada de multas",
           "Registros precisos de jornadas",
           "Integración de cumplimiento GDPR"
-        ]
+        ],
+        "color": "bg-green-500"
       },
       "LATAM": {
+        "title": "Optimización de Flujo de Efectivo",
+        "subtitle": "Locales con alta transacción en efectivo",
         "description": "Beneficios incluyen reducción de costos y aumento de ingresos, contribuyendo a mejor flujo de efectivo. Soporte para digitalización de pagos en mercados emergentes.",
         "features": [
           "Optimización de transacciones en efectivo",
           "Soporte para digitalización de pagos",
           "Enfoque en eficiencia operativa",
           "Manejo de alto volumen de transacciones"
-        ]
+        ],
+        "color": "bg-orange-500"
       },
       "APAC": {
+        "title": "Integración con Billeteras Móviles",
+        "subtitle": "Optimización del ecosistema de pagos móviles",
         "description": "Apps de pago móvil contribuyen a tasas de conversión. Apps móviles con IA para experiencias personalizadas. Personal optimizado maneja mayores volúmenes de transacciones móviles.",
         "features": [
           "Integración de apps de pago móvil",
           "Sistemas de elección de comidas personalizados",
           "Manejo de mayor volumen de transacciones",
           "Soporte para experiencia mejorada del cliente"
-        ]
+        ],
+        "color": "bg-yellow-500"
       }
     }
   },
@@ -190,11 +217,11 @@
     }
   },
   "performanceMetrics": {
-    "lowerCosts": "Costos Más Bajos",
+    "lowerCosts": "Costos Reducidos",
     "lowerCostsDesc": "Reduce gastos operativos",
     "happierStaff": "Personal Más Feliz",
-    "happierStaffDesc": "Mejora la satisfacción de empleados",
-    "delightedCustomers": "Clientes Satisfechos",
+    "happierStaffDesc": "Mejora la satisfacción de los empleados",
+    "delightedCustomers": "Clientes Encantados",
     "delightedCustomersDesc": "Experiencia mejorada del cliente"
   },
   "weatherImpact": {
@@ -209,15 +236,31 @@
   },
   "advancedAnalytics": {
     "title": "Análisis de Datos Avanzados",
-    "description": "Convierte datos en conocimiento accionable, apoyando decisiones en tiempo real y asegurando que la programación se alinee con necesidades reales y pronosticadas de clientes",
-    "features": [
-      "Tiempo Real",
-      "Soporte de Decisiones",
-      "Sentimiento",
-      "Agrupamiento",
-      "Cliente",
-      "Satisfacción"
-    ]
+    "description": "Convierte datos en conocimiento accionable, apoyando decisiones en tiempo real y asegurando que la programación se alinee con necesidades reales y previstas de los clientes",
+    "feature1": {
+      "title": "Tiempo Real",
+      "description": "Soporte de Decisiones"
+    },
+    "feature2": {
+      "title": "Sentimiento",
+      "description": "Agrupamiento"
+    },
+    "feature3": {
+      "title": "Cliente",
+      "description": "Satisfacción"
+    }
+  },
+  "employeeSatisfaction": {
+    "title": "Mejor Satisfacción del Empleado",
+    "description": "Horarios flexibles y capacidad de intercambio de turnos mejoran la retención",
+    "stats": {
+      "flexible": "Flexible",
+      "schedulingOptions": "Opciones de Horarios",
+      "easy": "Fácil",
+      "shiftSwapping": "Intercambio de Turnos",
+      "higher": "Mayor",
+      "retentionRates": "Tasas de Retención"
+    }
   },
   "industryStats": [
     {

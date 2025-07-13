@@ -2,6 +2,7 @@ export interface CafeTranslations {
   "hero.title": string;
   "hero.subtitle": string;
   "hero.ctaText": string;
+  "hero.intelligenceTitle": string;
   "problemSolution.title": string;
   "problemSolution.problemText": string;
   "problemSolution.solutionText": string;

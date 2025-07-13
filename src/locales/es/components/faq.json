@@ -1,0 +1,107 @@
+{
+  "header": {
+    "title": "Optimización, Explicada",
+    "subtitle": "Encuentra respuestas a preguntas comunes sobre la optimización de fuerza laboral con IA",
+    "searchPlaceholder": "Buscar respuestas..."
+  },
+  "categories": {
+    "implementation": "Implementación",
+    "billing": "Facturación",
+    "security": "Seguridad",
+    "globalFeatures": "Características Globales"
+  },
+  "faq": {
+    "implementation": {
+      "q1": {
+        "question": "¿Qué tan rápido veo ahorros?",
+        "answer": "El 87% de nuestros clientes ven una reducción del >15% en costos laborales dentro de los primeros 30 días. Nuestra IA comienza a optimizar inmediatamente después de conectar tu sistema POS.",
+        "calculator": {
+          "title": "Calculadora de Ahorros",
+          "results": "Ver Resultados",
+          "costReduction": "Reducción de Costos",
+          "days": "Días"
+        }
+      },
+      "q2": {
+        "question": "¿Funciona con mi POS?",
+        "answer": "Nos integramos perfectamente con todos los sistemas POS principales incluyendo Toast, Clover, Lightspeed y Clip. Nuevas integraciones se agregan semanalmente según la demanda de los clientes.",
+        "posSystems": ["Toast", "Clover", "Lightspeed", "Clip"],
+        "moreAdded": "+ Más agregadas semanalmente"
+      },
+      "q3": {
+        "question": "¿Cuánto tiempo toma la configuración?",
+        "answer": "La mayoría de los restaurantes están operativos en menos de 5 minutos. Nuestra integración con un clic se conecta automáticamente a tu sistema POS existente."
+      },
+      "q4": {
+        "question": "¿Necesito capacitar a mi personal?",
+        "answer": "¡No se requiere capacitación! Nuestra IA trabaja detrás de escena. El personal simplemente sigue los horarios optimizados generados automáticamente."
+      }
+    },
+    "billing": {
+      "q1": {
+        "question": "¿Qué incluye la prueba gratuita?",
+        "answer": "Acceso completo a todas las funciones por 30 días. No se requiere tarjeta de crédito. Cancela en cualquier momento sin obligaciones."
+      },
+      "q2": {
+        "question": "¿Cómo escala el precio?",
+        "answer": "El precio es por ubicación. Descuentos por volumen disponibles para 10+ ubicaciones. Los planes empresariales incluyen soporte dedicado y funciones personalizadas."
+      },
+      "q3": {
+        "question": "¿Qué pasa si no ahorro el 20%?",
+        "answer": "Garantizamos 20% de ahorro en costos laborales o te devolvemos tu dinero. Nuestro equipo de éxito trabaja contigo para asegurar resultados óptimos."
+      },
+      "q4": {
+        "question": "¿Puedo cambiar de plan en cualquier momento?",
+        "answer": "Sí, puedes mejorar o reducir tu plan en cualquier momento. Los cambios toman efecto inmediatamente con facturación prorrateada."
+      }
+    },
+    "security": {
+      "q1": {
+        "question": "¿Están seguros mis datos?",
+        "answer": "Sí, estamos certificados SOC 2 Tipo II y totalmente cumplidos con GDPR y CCPA. Tus datos están encriptados en tránsito y en reposo.",
+        "badges": ["SOC 2 Tipo II", "Cumplimiento GDPR", "Cumplimiento CCPA"]
+      },
+      "q2": {
+        "question": "¿Dónde se almacenan mis datos?",
+        "answer": "Los datos se almacenan en centros de datos seguros, distribuidos geográficamente con 99.9% de SLA de tiempo de actividad y respaldos automáticos."
+      },
+      "q3": {
+        "question": "¿Quién tiene acceso a mis datos?",
+        "answer": "Solo personal autorizado con necesidades comerciales legítimas. Todo acceso está registrado y monitoreado. Nunca vendemos ni compartimos tus datos."
+      },
+      "q4": {
+        "question": "¿Cómo manejan el cumplimiento?",
+        "answer": "Automáticamente aseguramos el cumplimiento con las leyes laborales locales, directivas de tiempo de trabajo y requisitos de descanso en todas las regiones soportadas."
+      }
+    },
+    "globalFeatures": {
+      "q1": {
+        "question": "¿Qué regiones soportan?",
+        "answer": "Soportamos mercados de EE.UU., EU, LATAM y APAC con optimizaciones específicas por región para propinas, regulaciones y preferencias de pago."
+      },
+      "q2": {
+        "question": "¿Cómo funciona la predicción de propinas?",
+        "answer": "Nuestra IA analiza datos históricos de propinas, tamaños de grupo, tipos de turno y condiciones del mercado local para predecir personal óptimo para máximo rendimiento de propinas."
+      },
+      "q3": {
+        "question": "¿Qué pasa con las leyes laborales locales?",
+        "answer": "Automáticamente cumplimos con regulaciones locales incluyendo directivas de tiempo de trabajo de la UE, requisitos de descanso y reglas de tiempo extra."
+      },
+      "q4": {
+        "question": "¿Soportan pagos móviles?",
+        "answer": "Sí, especialmente en mercados APAC donde optimizamos para preferencias de billeteras móviles, resultando en 22% más propinas promedio."
+      }
+    }
+  },
+  "support": {
+    "title": "¿Aún tienes dudas? Nuestros especialistas en optimización hablan 12 idiomas",
+    "subtitle": "Obtén ayuda personalizada de nuestro equipo de expertos en optimización de fuerza laboral",
+    "chatButton": "Chatear Ahora",
+    "scheduleButton": "Programar Llamada",
+    "stats": {
+      "supportAvailable": "Soporte Disponible",
+      "languagesSupported": "Idiomas Soportados",
+      "averageResponse": "Respuesta Promedio"
+    }
+  }
+}

@@ -35,6 +35,7 @@ import enFutureFeaturesPricing from './locales/en/future-features/dynamicPricing
 import enFutureFeaturesTips from './locales/en/future-features/tipManagement.json';
 import enSecurityPage from './locales/en/securityPage.json';
 import enIntegrations from './locales/en/integrations.json';
+import enFaq from './locales/en/components/faq.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -69,13 +70,14 @@ import esFutureFeaturesPricing from './locales/es/future-features/dynamicPricing
 import esFutureFeaturesTips from './locales/es/future-features/tipManagement.json';
 import esSecurityPage from './locales/es/securityPage.json';
 import esIntegrations from './locales/es/integrations.json';
+import esFaq from './locales/es/components/faq.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -112,7 +114,8 @@ i18n
       hotels: enHotels,
       cafe: enCafe,
       securityPage: enSecurityPage,
-      integrationsPage: enIntegrations
+      integrationsPage: enIntegrations,
+      'components/faq': enFaq
     },
     es: {
       common: esCommon,
@@ -148,7 +151,8 @@ i18n
       hotels: esHotels,
       cafe: esCafe,
       securityPage: esSecurityPage,
-      integrationsPage: esIntegrations
+      integrationsPage: esIntegrations,
+      'components/faq': esFaq
     }
   },
     fallbackLng: 'en',
@@ -177,7 +181,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/securityPage.json',
       './locales/es/securityPage.json',
       './locales/en/integrations.json',
-      './locales/es/integrations.json'
+      './locales/es/integrations.json',
+      './locales/en/components/faq.json',
+      './locales/es/components/faq.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

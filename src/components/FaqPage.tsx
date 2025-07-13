@@ -1,87 +1,147 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Search, ChevronDown, ChevronUp, MessageCircle, Shield, Calculator } from 'lucide-react';
+import { FaqTranslations } from '../types/i18n/faq-translations';
 
-const FaqPage: React.FC = () => {
+interface FaqPageProps {
+  translations?: FaqTranslations;
+}
+
+interface FaqItem {
+  question: string;
+  answer: string;
+  hasCalculator?: boolean;
+  hasBadges?: boolean;
+  hasSecurityBadge?: boolean;
+  calculator?: {
+    title: string;
+    results: string;
+    costReduction: string;
+    days: string;
+  };
+  posSystems?: string[];
+  moreAdded?: string;
+  badges?: string[];
+}
+
+const FaqPage: React.FC<FaqPageProps> = ({ translations }) => {
+  const { t } = useTranslation('components/faq');
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('Implementation');
+  const [activeCategory, setActiveCategory] = useState('implementation');
   const [openAccordion, setOpenAccordion] = useState<number | null>(0);
 
-  const categories = ['Implementation', 'Billing', 'Security', 'Global Features'];
+  // Use provided translations or fall back to t() function
+  const tData = translations || {
+    header: {
+      title: t('header.title'),
+      subtitle: t('header.subtitle'),
+      searchPlaceholder: t('header.searchPlaceholder')
+    },
+    categories: {
+      implementation: t('categories.implementation'),
+      billing: t('categories.billing'),
+      security: t('categories.security'),
+      globalFeatures: t('categories.globalFeatures')
+    },
+    support: {
+      title: t('support.title'),
+      subtitle: t('support.subtitle'),
+      chatButton: t('support.chatButton'),
+      scheduleButton: t('support.scheduleButton'),
+      stats: {
+        supportAvailable: t('support.stats.supportAvailable'),
+        languagesSupported: t('support.stats.languagesSupported'),
+        averageResponse: t('support.stats.averageResponse')
+      }
+    }
+  };
 
-  const faqData = {
-    Implementation: [
+  const categories = ['implementation', 'billing', 'security', 'globalFeatures'];
+
+  // Build FAQ data from translations
+  const faqData: Record<string, FaqItem[]> = {
+    implementation: [
       {
-        question: "How fast do I see savings?",
-        answer: "87% of our customers see >15% reduction in labor costs within the first 30 days. Our AI starts optimizing immediately after connecting your POS system.",
-        hasCalculator: true
+        question: t('faq.implementation.q1.question'),
+        answer: t('faq.implementation.q1.answer'),
+        hasCalculator: true,
+        calculator: {
+          title: t('faq.implementation.q1.calculator.title'),
+          results: t('faq.implementation.q1.calculator.results'),
+          costReduction: t('faq.implementation.q1.calculator.costReduction'),
+          days: t('faq.implementation.q1.calculator.days')
+        }
       },
       {
-        question: "Do you work with my POS?",
-        answer: "We integrate seamlessly with all major POS systems including Toast, Clover, Lightspeed, and Clip. New integrations are added weekly based on customer demand.",
-        hasBadges: true
+        question: t('faq.implementation.q2.question'),
+        answer: t('faq.implementation.q2.answer'),
+        hasBadges: true,
+        posSystems: t('faq.implementation.q2.posSystems', { returnObjects: true }) as string[],
+        moreAdded: t('faq.implementation.q2.moreAdded')
       },
       {
-        question: "How long does setup take?",
-        answer: "Most restaurants are up and running in under 5 minutes. Our one-click integration connects to your existing POS system automatically."
+        question: t('faq.implementation.q3.question'),
+        answer: t('faq.implementation.q3.answer')
       },
       {
-        question: "Do I need to train my staff?",
-        answer: "No training required! Our AI works behind the scenes. Staff simply follow the optimized schedules generated automatically."
+        question: t('faq.implementation.q4.question'),
+        answer: t('faq.implementation.q4.answer')
       }
     ],
-    Billing: [
+    billing: [
       {
-        question: "What's included in the free trial?",
-        answer: "Full access to all features for 30 days. No credit card required. Cancel anytime with no obligations."
+        question: t('faq.billing.q1.question'),
+        answer: t('faq.billing.q1.answer')
       },
       {
-        question: "How does pricing scale?",
-        answer: "Pricing is per location. Volume discounts available for 10+ locations. Enterprise plans include dedicated support and custom features."
+        question: t('faq.billing.q2.question'),
+        answer: t('faq.billing.q2.answer')
       },
       {
-        question: "What if I don't save 20%?",
-        answer: "We guarantee 20% labor cost savings or your money back. Our success team works with you to ensure optimal results."
+        question: t('faq.billing.q3.question'),
+        answer: t('faq.billing.q3.answer')
       },
       {
-        question: "Can I change plans anytime?",
-        answer: "Yes, upgrade or downgrade your plan at any time. Changes take effect immediately with prorated billing."
+        question: t('faq.billing.q4.question'),
+        answer: t('faq.billing.q4.answer')
       }
     ],
-    Security: [
+    security: [
       {
-        question: "Is my data secure?",
-        answer: "Yes, we're SOC 2 Type II certified and fully compliant with GDPR and CCPA regulations. Your data is encrypted in transit and at rest.",
-        hasSecurityBadge: true
+        question: t('faq.security.q1.question'),
+        answer: t('faq.security.q1.answer'),
+        hasSecurityBadge: true,
+        badges: t('faq.security.q1.badges', { returnObjects: true }) as string[]
       },
       {
-        question: "Where is my data stored?",
-        answer: "Data is stored in secure, geographically distributed data centers with 99.9% uptime SLA and automatic backups."
+        question: t('faq.security.q2.question'),
+        answer: t('faq.security.q2.answer')
       },
       {
-        question: "Who has access to my data?",
-        answer: "Only authorized personnel with legitimate business needs. All access is logged and monitored. We never sell or share your data."
+        question: t('faq.security.q3.question'),
+        answer: t('faq.security.q3.answer')
       },
       {
-        question: "How do you handle compliance?",
-        answer: "We automatically ensure compliance with local labor laws, working time directives, and break requirements across all supported regions."
+        question: t('faq.security.q4.question'),
+        answer: t('faq.security.q4.answer')
       }
     ],
-    'Global Features': [
+    globalFeatures: [
       {
-        question: "Which regions do you support?",
-        answer: "We support US, EU, LATAM, and APAC markets with region-specific optimizations for tipping, regulations, and payment preferences."
+        question: t('faq.globalFeatures.q1.question'),
+        answer: t('faq.globalFeatures.q1.answer')
       },
       {
-        question: "How does tip forecasting work?",
-        answer: "Our AI analyzes historical tip data, party sizes, shift types, and local market conditions to predict optimal staffing for maximum tip yield."
+        question: t('faq.globalFeatures.q2.question'),
+        answer: t('faq.globalFeatures.q2.answer')
       },
       {
-        question: "What about local labor laws?",
-        answer: "We automatically comply with local regulations including EU working time directives, break requirements, and overtime rules."
+        question: t('faq.globalFeatures.q3.question'),
+        answer: t('faq.globalFeatures.q3.answer')
       },
       {
-        question: "Do you support mobile payments?",
-        answer: "Yes, especially in APAC markets where we optimize for mobile wallet preferences, resulting in 22% higher average tips."
+        question: t('faq.globalFeatures.q4.question'),
+        answer: t('faq.globalFeatures.q4.answer')
       }
     ]
   };
@@ -101,10 +161,10 @@ const FaqPage: React.FC = () => {
       <div className="bg-gradient-to-br from-primary to-blue-600 text-white py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold mb-6">
-            Optimization, Explained
+            {tData.header.title}
           </h1>
           <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-            Find answers to common questions about AI-powered workforce optimization
+            {tData.header.subtitle}
           </p>
           
           {/* Search Bar */}
@@ -112,7 +172,7 @@ const FaqPage: React.FC = () => {
             <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
             <input
               type="text"
-              placeholder="Find answers..."
+              placeholder={tData.header.searchPlaceholder}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-12 pr-4 py-4 rounded-lg text-gray-900 text-lg focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
@@ -137,7 +197,7 @@ const FaqPage: React.FC = () => {
                   : 'bg-white text-gray-700 hover:bg-gray-100'
               }`}
             >
-              {category}
+              {tData.categories[category as keyof typeof tData.categories]}
             </button>
           ))}
         </div>
@@ -167,59 +227,65 @@ const FaqPage: React.FC = () => {
                   </p>
                   
                   {/* Special Content Based on FAQ */}
-                  {faq.hasCalculator && (
+                  {faq.hasCalculator && faq.calculator && (
                     <div className="bg-gradient-to-r from-secondary to-green-400 rounded-lg p-6 text-white">
                       <div className="flex items-center gap-3 mb-4">
                         <Calculator size={24} />
-                        <span className="font-semibold">Savings Calculator</span>
+                        <span className="font-semibold">
+                          {faq.calculator.title}
+                        </span>
                       </div>
                       <div className="grid grid-cols-3 gap-4 text-center">
                         <div>
                           <div className="text-2xl font-bold">87%</div>
-                          <div className="text-sm opacity-90">See Results</div>
+                          <div className="text-sm opacity-90">
+                            {faq.calculator.results}
+                          </div>
                         </div>
                         <div>
                           <div className="text-2xl font-bold">15%+</div>
-                          <div className="text-sm opacity-90">Cost Reduction</div>
+                          <div className="text-sm opacity-90">
+                            {faq.calculator.costReduction}
+                          </div>
                         </div>
                         <div>
                           <div className="text-2xl font-bold">30</div>
-                          <div className="text-sm opacity-90">Days</div>
+                          <div className="text-sm opacity-90">
+                            {faq.calculator.days}
+                          </div>
                         </div>
                       </div>
                     </div>
                   )}
                   
-                  {faq.hasBadges && (
+                  {faq.hasBadges && faq.posSystems && (
                     <div className="flex flex-wrap items-center gap-4">
-                      <div className="bg-orange-500 text-white px-4 py-2 rounded-lg font-semibold">
-                        Toast
-                      </div>
-                      <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold">
-                        Clover
-                      </div>
-                      <div className="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold">
-                        Lightspeed
-                      </div>
-                      <div className="bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold">
-                        Clip
-                      </div>
-                      <span className="text-gray-600 font-medium">+ More added weekly</span>
+                      {faq.posSystems.map((system: string, idx: number) => (
+                        <div key={idx} className={`px-4 py-2 rounded-lg font-semibold ${
+                          system === 'Toast' ? 'bg-orange-500' :
+                          system === 'Clover' ? 'bg-blue-600' :
+                          system === 'Lightspeed' ? 'bg-green-600' :
+                          'bg-purple-600'
+                        } text-white`}>
+                          {system}
+                        </div>
+                      ))}
+                      <span className="text-gray-600 font-medium">
+                        {faq.moreAdded}
+                      </span>
                     </div>
                   )}
                   
-                  {faq.hasSecurityBadge && (
+                  {faq.hasSecurityBadge && faq.badges && (
                     <div className="flex items-center gap-6">
-                      <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold flex items-center gap-2">
-                        <Shield size={20} />
-                        SOC 2 Type II
-                      </div>
-                      <div className="bg-gray-800 text-white px-4 py-2 rounded-lg font-semibold">
-                        GDPR Compliant
-                      </div>
-                      <div className="bg-gray-800 text-white px-4 py-2 rounded-lg font-semibold">
-                        CCPA Compliant
-                      </div>
+                      {faq.badges.map((badge: string, idx: number) => (
+                        <div key={idx} className={`px-4 py-2 rounded-lg font-semibold ${
+                          badge === 'SOC 2 Type II' ? 'bg-blue-600' : 'bg-gray-800'
+                        } text-white flex items-center gap-2`}>
+                          {badge === 'SOC 2 Type II' && <Shield size={20} />}
+                          {badge}
+                        </div>
+                      ))}
                     </div>
                   )}
                 </div>
@@ -235,33 +301,33 @@ const FaqPage: React.FC = () => {
               <MessageCircle size={48} className="animate-pulse" />
             </div>
             <h3 className="text-2xl font-bold mb-4">
-              Still stuck? Our optimization specialists speak 12 languages
+              {tData.support.title}
             </h3>
             <p className="text-blue-100 text-lg mb-8">
-              Get personalized help from our team of workforce optimization experts
+              {tData.support.subtitle}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <MessageCircle size={24} />
-                Chat Now
+                {tData.support.chatButton}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
-                Schedule Call
+                {tData.support.scheduleButton}
               </button>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-white border-opacity-20">
               <div className="text-center">
                 <div className="text-2xl font-bold mb-2">24/7</div>
-                <div className="text-blue-200">Support Available</div>
+                <div className="text-blue-200">{tData.support.stats.supportAvailable}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold mb-2">12</div>
-                <div className="text-blue-200">Languages Supported</div>
+                <div className="text-blue-200">{tData.support.stats.languagesSupported}</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold mb-2">&lt;2min</div>
-                <div className="text-blue-200">Average Response</div>
+                <div className="text-blue-200">{tData.support.stats.averageResponse}</div>
               </div>
             </div>
           </div>

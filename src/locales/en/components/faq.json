@@ -1,0 +1,107 @@
+{
+  "header": {
+    "title": "Optimization, Explained",
+    "subtitle": "Find answers to common questions about AI-powered workforce optimization",
+    "searchPlaceholder": "Find answers..."
+  },
+  "categories": {
+    "implementation": "Implementation",
+    "billing": "Billing",
+    "security": "Security",
+    "globalFeatures": "Global Features"
+  },
+  "faq": {
+    "implementation": {
+      "q1": {
+        "question": "How fast do I see savings?",
+        "answer": "87% of our customers see >15% reduction in labor costs within the first 30 days. Our AI starts optimizing immediately after connecting your POS system.",
+        "calculator": {
+          "title": "Savings Calculator",
+          "results": "See Results",
+          "costReduction": "Cost Reduction",
+          "days": "Days"
+        }
+      },
+      "q2": {
+        "question": "Do you work with my POS?",
+        "answer": "We integrate seamlessly with all major POS systems including Toast, Clover, Lightspeed, and Clip. New integrations are added weekly based on customer demand.",
+        "posSystems": ["Toast", "Clover", "Lightspeed", "Clip"],
+        "moreAdded": "+ More added weekly"
+      },
+      "q3": {
+        "question": "How long does setup take?",
+        "answer": "Most restaurants are up and running in under 5 minutes. Our one-click integration connects to your existing POS system automatically."
+      },
+      "q4": {
+        "question": "Do I need to train my staff?",
+        "answer": "No training required! Our AI works behind the scenes. Staff simply follow the optimized schedules generated automatically."
+      }
+    },
+    "billing": {
+      "q1": {
+        "question": "What's included in the free trial?",
+        "answer": "Full access to all features for 30 days. No credit card required. Cancel anytime with no obligations."
+      },
+      "q2": {
+        "question": "How does pricing scale?",
+        "answer": "Pricing is per location. Volume discounts available for 10+ locations. Enterprise plans include dedicated support and custom features."
+      },
+      "q3": {
+        "question": "What if I don't save 20%?",
+        "answer": "We guarantee 20% labor cost savings or your money back. Our success team works with you to ensure optimal results."
+      },
+      "q4": {
+        "question": "Can I change plans anytime?",
+        "answer": "Yes, upgrade or downgrade your plan at any time. Changes take effect immediately with prorated billing."
+      }
+    },
+    "security": {
+      "q1": {
+        "question": "Is my data secure?",
+        "answer": "Yes, we're SOC 2 Type II certified and fully compliant with GDPR and CCPA regulations. Your data is encrypted in transit and at rest.",
+        "badges": ["SOC 2 Type II", "GDPR Compliant", "CCPA Compliant"]
+      },
+      "q2": {
+        "question": "Where is my data stored?",
+        "answer": "Data is stored in secure, geographically distributed data centers with 99.9% uptime SLA and automatic backups."
+      },
+      "q3": {
+        "question": "Who has access to my data?",
+        "answer": "Only authorized personnel with legitimate business needs. All access is logged and monitored. We never sell or share your data."
+      },
+      "q4": {
+        "question": "How do you handle compliance?",
+        "answer": "We automatically ensure compliance with local labor laws, working time directives, and break requirements across all supported regions."
+      }
+    },
+    "globalFeatures": {
+      "q1": {
+        "question": "Which regions do you support?",
+        "answer": "We support US, EU, LATAM, and APAC markets with region-specific optimizations for tipping, regulations, and payment preferences."
+      },
+      "q2": {
+        "question": "How does tip forecasting work?",
+        "answer": "Our AI analyzes historical tip data, party sizes, shift types, and local market conditions to predict optimal staffing for maximum tip yield."
+      },
+      "q3": {
+        "question": "What about local labor laws?",
+        "answer": "We automatically comply with local regulations including EU working time directives, break requirements, and overtime rules."
+      },
+      "q4": {
+        "question": "Do you support mobile payments?",
+        "answer": "Yes, especially in APAC markets where we optimize for mobile wallet preferences, resulting in 22% higher average tips."
+      }
+    }
+  },
+  "support": {
+    "title": "Still stuck? Our optimization specialists speak 12 languages",
+    "subtitle": "Get personalized help from our team of workforce optimization experts",
+    "chatButton": "Chat Now",
+    "scheduleButton": "Schedule Call",
+    "stats": {
+      "supportAvailable": "Support Available",
+      "languagesSupported": "Languages Supported",
+      "averageResponse": "Average Response"
+    }
+  }
+}

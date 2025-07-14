@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { 
   Mail, 
   Phone, 
@@ -21,8 +22,14 @@ import {
   Video,
   FileText
 } from 'lucide-react';
+import { ContactTranslations } from '../types/i18n/contact-translations';
 
-const ContactPage: React.FC = () => {
+interface ContactPageProps {
+  translations?: ContactTranslations;
+}
+
+const ContactPage: React.FC<ContactPageProps> = ({ translations }) => {
+  const { t } = useTranslation('components/contact');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -36,104 +43,121 @@ const ContactPage: React.FC = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  // Helper function to safely access translations
+  const getTranslation = (path: string): string => {
+    if (translations) {
+      const keys = path.split('.');
+      let current: any = translations;
+      for (const key of keys) {
+        if (current && typeof current === 'object' && key in current) {
+          current = current[key];
+        } else {
+          return t(path);
+        }
+      }
+      return typeof current === 'string' ? current : t(path);
+    }
+    return t(path);
+  };
+
   const businessTypes = [
-    { value: 'restaurant', label: 'Restaurant', icon: Utensils },
-    { value: 'hotel', label: 'Hotel', icon: Building2 },
-    { value: 'cafe', label: 'Café', icon: Coffee },
-    { value: 'other', label: 'Other', icon: Users }
+    { value: 'restaurant', label: getTranslation('contactForm.options.businessTypes.restaurant'), icon: Utensils },
+    { value: 'hotel', label: getTranslation('contactForm.options.businessTypes.hotel'), icon: Building2 },
+    { value: 'cafe', label: getTranslation('contactForm.options.businessTypes.cafe'), icon: Coffee },
+    { value: 'other', label: getTranslation('contactForm.options.businessTypes.other'), icon: Users }
   ];
 
   const contactReasons = [
-    'Request Demo',
-    'Get Pricing Information',
-    'Technical Support',
-    'Partnership Inquiry',
-    'Media/Press Inquiry',
-    'General Question'
+    getTranslation('contactForm.options.contactReasons.requestDemo'),
+    getTranslation('contactForm.options.contactReasons.getPricing'),
+    getTranslation('contactForm.options.contactReasons.technicalSupport'),
+    getTranslation('contactForm.options.contactReasons.partnership'),
+    getTranslation('contactForm.options.contactReasons.media'),
+    getTranslation('contactForm.options.contactReasons.general')
   ];
 
   const regions = [
-    'United States',
-    'European Union',
-    'Latin America',
-    'Asia-Pacific',
-    'Other'
+    getTranslation('contactForm.options.regions.unitedStates'),
+    getTranslation('contactForm.options.regions.eu'),
+    getTranslation('contactForm.options.regions.latam'),
+    getTranslation('contactForm.options.regions.apac'),
+    getTranslation('contactForm.options.regions.other')
   ];
 
   const offices = [
     {
-      city: 'Barcelona',
-      country: 'Spain',
-      address: 'Carrer de Mallorca, 401\n08013 Barcelona, Spain',
-      phone: '+34 93 123 4567',
-      email: 'europe@optimoworkforce.com',
-      timezone: 'CET (UTC+1)',
-      hours: '9:00 AM - 6:00 PM',
+      city: getTranslation('globalOffices.offices.barcelona.city'),
+      country: getTranslation('globalOffices.offices.barcelona.country'),
+      address: getTranslation('globalOffices.offices.barcelona.address'),
+      phone: getTranslation('globalOffices.offices.barcelona.phone'),
+      email: getTranslation('globalOffices.offices.barcelona.email'),
+      timezone: getTranslation('globalOffices.offices.barcelona.timezone'),
+      hours: getTranslation('globalOffices.offices.barcelona.hours'),
       flag: '🇪🇸'
     },
     {
-      city: 'New York',
-      country: 'United States',
-      address: '350 Fifth Avenue\nNew York, NY 10118',
-      phone: '+1 (555) 123-4567',
-      email: 'americas@optimoworkforce.com',
-      timezone: 'EST (UTC-5)',
-      hours: '9:00 AM - 6:00 PM',
+      city: getTranslation('globalOffices.offices.newYork.city'),
+      country: getTranslation('globalOffices.offices.newYork.country'),
+      address: getTranslation('globalOffices.offices.newYork.address'),
+      phone: getTranslation('globalOffices.offices.newYork.phone'),
+      email: getTranslation('globalOffices.offices.newYork.email'),
+      timezone: getTranslation('globalOffices.offices.newYork.timezone'),
+      hours: getTranslation('globalOffices.offices.newYork.hours'),
       flag: '🇺🇸'
     },
     {
-      city: 'Singapore',
-      country: 'Singapore',
-      address: '1 Raffles Place\nSingapore 048616',
-      phone: '+65 6123 4567',
-      email: 'apac@optimoworkforce.com',
-      timezone: 'SGT (UTC+8)',
-      hours: '9:00 AM - 6:00 PM',
+      city: getTranslation('globalOffices.offices.singapore.city'),
+      country: getTranslation('globalOffices.offices.singapore.country'),
+      address: getTranslation('globalOffices.offices.singapore.address'),
+      phone: getTranslation('globalOffices.offices.singapore.phone'),
+      email: getTranslation('globalOffices.offices.singapore.email'),
+      timezone: getTranslation('globalOffices.offices.singapore.timezone'),
+      hours: getTranslation('globalOffices.offices.singapore.hours'),
       flag: '🇸🇬'
     },
     {
-      city: 'São Paulo',
-      country: 'Brazil',
-      address: 'Av. Paulista, 1578\nSão Paulo, SP 01310-200',
-      phone: '+55 11 1234-5678',
-      email: 'latam@optimoworkforce.com',
-      timezone: 'BRT (UTC-3)',
-      hours: '9:00 AM - 6:00 PM',
+      city: getTranslation('globalOffices.offices.saoPaulo.city'),
+      country: getTranslation('globalOffices.offices.saoPaulo.country'),
+      address: getTranslation('globalOffices.offices.saoPaulo.address'),
+      phone: getTranslation('globalOffices.offices.saoPaulo.phone'),
+      email: getTranslation('globalOffices.offices.saoPaulo.email'),
+      timezone: getTranslation('globalOffices.offices.saoPaulo.timezone'),
+      hours: getTranslation('globalOffices.offices.saoPaulo.hours'),
       flag: '🇧🇷'
     }
   ];
 
   const supportOptions = [
     {
-      title: 'Live Chat',
-      description: 'Get instant help from our support team',
+      title: getTranslation('supportOptions.cards.liveChat.title'),
+      description: getTranslation('supportOptions.cards.liveChat.description'),
       icon: MessageCircle,
-      action: 'Start Chat',
-      availability: '24/7',
+      action: getTranslation('supportOptions.cards.liveChat.action'),
+      availability: getTranslation('supportOptions.cards.liveChat.availability'),
       color: 'bg-primary'
     },
     {
-      title: 'Video Call',
-      description: 'Schedule a personalized demo or consultation',
+      title: getTranslation('supportOptions.cards.videoCall.title'),
+      description: getTranslation('supportOptions.cards.videoCall.description'),
       icon: Video,
-      action: 'Book Call',
-      availability: 'Business Hours',
+      action: getTranslation('supportOptions.cards.videoCall.action'),
+      availability: getTranslation('supportOptions.cards.videoCall.availability'),
       color: 'bg-secondary'
     },
     {
-      title: 'Phone Support',
-      description: 'Speak directly with our experts',
+      title: getTranslation('supportOptions.cards.phoneSupport.title'),
+      description: getTranslation('supportOptions.cards.phoneSupport.description'),
       icon: Phone,
-      action: 'Call Now',
-      availability: 'Mon-Fri 9AM-6PM',
+      action: getTranslation('supportOptions.cards.phoneSupport.action'),
+      availability: getTranslation('supportOptions.cards.phoneSupport.availability'),
       color: 'bg-accent-latam'
     },
     {
-      title: 'Help Center',
-      description: 'Browse our comprehensive documentation',
+      title: getTranslation('supportOptions.cards.helpCenter.title'),
+      description: getTranslation('supportOptions.cards.helpCenter.description'),
       icon: FileText,
-      action: 'Browse Docs',
-      availability: 'Always Available',
+      action: getTranslation('supportOptions.cards.helpCenter.action'),
+      availability: getTranslation('supportOptions.cards.helpCenter.availability'),
       color: 'bg-accent-apac'
     }
   ];
@@ -163,19 +187,19 @@ const ContactPage: React.FC = () => {
               <MessageCircle size={48} className="text-white" />
             </div>
             <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-              Let's Optimize Together
+              {getTranslation('heroSection.title.mainHeading')}
             </h1>
             <p className="text-xl lg:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto">
-              Ready to transform your workforce management? Our global team of optimization experts is here to help you succeed.
+              {getTranslation('heroSection.subtitle.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Calendar size={24} />
-                Schedule Demo
+                {getTranslation('heroSection.buttons.scheduleDemo')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <MessageCircle size={24} />
-                Start Live Chat
+                {getTranslation('heroSection.buttons.startLiveChat')}
               </button>
             </div>
           </div>
@@ -187,10 +211,10 @@ const ContactPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Get Help Your Way
+              {getTranslation('supportOptions.title.mainHeading')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the support option that works best for you
+              {getTranslation('supportOptions.subtitle.description')}
             </p>
           </div>
 
@@ -206,7 +230,7 @@ const ContactPage: React.FC = () => {
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{option.title}</h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">{option.description}</p>
                     <div className="mb-6">
-                      <div className="text-sm text-gray-500 mb-2">Availability</div>
+                      <div className="text-sm text-gray-500 mb-2">{getTranslation('supportOptions.cards.liveChat.availability')}</div>
                       <div className="text-sm font-semibold text-gray-700">{option.availability}</div>
                     </div>
                     <button className={`w-full ${option.color} hover:opacity-90 text-white py-3 rounded-lg font-semibold transition-all duration-300`}>
@@ -226,7 +250,7 @@ const ContactPage: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
               <Send className="text-primary" size={32} />
-              Send Us a Message
+              {getTranslation('contactForm.title.mainHeading')}
             </h2>
 
             {!isSubmitted ? (
@@ -234,7 +258,7 @@ const ContactPage: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
+                      {getTranslation('contactForm.labels.fullName')}
                     </label>
                     <input
                       type="text"
@@ -244,12 +268,12 @@ const ContactPage: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter your full name"
+                      placeholder={getTranslation('contactForm.placeholders.fullName')}
                     />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
+                      {getTranslation('contactForm.labels.emailAddress')}
                     </label>
                     <input
                       type="email"
@@ -259,7 +283,7 @@ const ContactPage: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter your email"
+                      placeholder={getTranslation('contactForm.placeholders.email')}
                     />
                   </div>
                 </div>
@@ -267,7 +291,7 @@ const ContactPage: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                      Company Name *
+                      {getTranslation('contactForm.labels.companyName')}
                     </label>
                     <input
                       type="text"
@@ -277,12 +301,12 @@ const ContactPage: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter company name"
+                      placeholder={getTranslation('contactForm.placeholders.company')}
                     />
                   </div>
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number
+                      {getTranslation('contactForm.labels.phoneNumber')}
                     </label>
                     <input
                       type="tel"
@@ -291,14 +315,14 @@ const ContactPage: React.FC = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter phone number"
+                      placeholder={getTranslation('contactForm.placeholders.phone')}
                     />
                   </div>
                 </div>
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    Business Type *
+                    {getTranslation('contactForm.labels.businessType')}
                   </label>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                     {businessTypes.map((type) => {
@@ -325,7 +349,7 @@ const ContactPage: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="locations" className="block text-sm font-medium text-gray-700 mb-2">
-                      Number of Locations
+                      {getTranslation('contactForm.labels.locations')}
                     </label>
                     <input
                       type="number"
@@ -335,12 +359,12 @@ const ContactPage: React.FC = () => {
                       onChange={handleInputChange}
                       min="1"
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="e.g., 5"
+                      placeholder={getTranslation('contactForm.placeholders.locations')}
                     />
                   </div>
                   <div>
                     <label htmlFor="region" className="block text-sm font-medium text-gray-700 mb-2">
-                      Region *
+                      {getTranslation('contactForm.labels.region')}
                     </label>
                     <select
                       id="region"
@@ -350,7 +374,7 @@ const ContactPage: React.FC = () => {
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                     >
-                      <option value="">Select your region</option>
+                      <option value="">{getTranslation('contactForm.placeholders.selectRegion')}</option>
                       {regions.map((region) => (
                         <option key={region} value={region}>{region}</option>
                       ))}
@@ -360,7 +384,7 @@ const ContactPage: React.FC = () => {
 
                 <div>
                   <label htmlFor="contactReason" className="block text-sm font-medium text-gray-700 mb-2">
-                    How can we help? *
+                    {getTranslation('contactForm.labels.contactReason')}
                   </label>
                   <select
                     id="contactReason"
@@ -370,7 +394,7 @@ const ContactPage: React.FC = () => {
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                   >
-                    <option value="">Select a reason</option>
+                    <option value="">{getTranslation('contactForm.placeholders.selectReason')}</option>
                     {contactReasons.map((reason) => (
                       <option key={reason} value={reason}>{reason}</option>
                     ))}
@@ -379,7 +403,7 @@ const ContactPage: React.FC = () => {
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
+                    {getTranslation('contactForm.labels.message')}
                   </label>
                   <textarea
                     id="message"
@@ -389,7 +413,7 @@ const ContactPage: React.FC = () => {
                     required
                     rows={6}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
-                    placeholder="Tell us about your workforce optimization needs..."
+                    placeholder={getTranslation('contactForm.placeholders.message')}
                   />
                 </div>
 
@@ -398,11 +422,11 @@ const ContactPage: React.FC = () => {
                   className="w-full bg-primary hover:bg-blue-600 text-white py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3"
                 >
                   <Send size={24} />
-                  Send Message
+                  {getTranslation('contactForm.buttons.sendMessage')}
                 </button>
 
                 <div className="text-center text-sm text-gray-600">
-                  We'll respond within 24 hours during business days
+                  {getTranslation('contactForm.notes.responseTime')}
                 </div>
               </form>
             ) : (
@@ -410,15 +434,15 @@ const ContactPage: React.FC = () => {
                 <div className="inline-flex items-center justify-center w-20 h-20 bg-secondary bg-opacity-10 rounded-full mb-6">
                   <CheckCircle size={40} className="text-secondary" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Message Sent Successfully!</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">{getTranslation('contactForm.success.title')}</h3>
                 <p className="text-lg text-gray-600 mb-8">
-                  Thank you for contacting us. Our team will review your message and get back to you within 24 hours.
+                  {getTranslation('contactForm.success.message')}
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}
                   className="bg-primary hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
-                  Send Another Message
+                  {getTranslation('contactForm.success.button')}
                 </button>
               </div>
             )}
@@ -429,10 +453,10 @@ const ContactPage: React.FC = () => {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
                 <Globe className="text-primary" size={32} />
-                Global Offices
+                {getTranslation('globalOffices.title.mainHeading')}
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                We're here to support you across all major regions with local expertise and global intelligence.
+                {getTranslation('globalOffices.subtitle.description')}
               </p>
             </div>
 
@@ -479,7 +503,7 @@ const ContactPage: React.FC = () => {
 
             {/* Social Media */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 className="text-xl font-bold text-gray-900 mb-6">Follow Us</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-6">{getTranslation('socialMedia.title.mainHeading')}</h3>
               <div className="flex items-center gap-4">
                 <a
                   href="#"
@@ -501,7 +525,7 @@ const ContactPage: React.FC = () => {
                 </a>
               </div>
               <p className="text-gray-600 mt-4">
-                Stay updated with the latest workforce optimization insights and product updates.
+                {getTranslation('socialMedia.description.text')}
               </p>
             </div>
           </div>
@@ -513,34 +537,34 @@ const ContactPage: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white bg-opacity-20 rounded-full mb-6">
               <Headphones size={32} />
             </div>
-            <h3 className="text-2xl font-bold mb-4">Need Urgent Support?</h3>
+            <h3 className="text-2xl font-bold mb-4">{getTranslation('emergencySupport.title.mainHeading')}</h3>
             <p className="text-lg text-red-100 mb-8 max-w-3xl mx-auto">
-              For critical system issues affecting your operations, our emergency support team is available 24/7.
+              {getTranslation('emergencySupport.description.text')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-red-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3">
                 <Phone size={24} />
-                Emergency Hotline
+                {getTranslation('emergencySupport.buttons.emergencyHotline')}
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-red-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-3">
                 <MessageCircle size={24} />
-                Priority Chat
+                {getTranslation('emergencySupport.buttons.priorityChat')}
               </button>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-white border-opacity-20">
               <div className="text-center">
-                <div className="text-2xl font-bold mb-2">24/7</div>
-                <div className="text-red-200 text-sm">Emergency Support</div>
+                <div className="text-2xl font-bold mb-2">{getTranslation('emergencySupport.stats.emergencySupportValue')}</div>
+                <div className="text-red-200 text-sm">{getTranslation('emergencySupport.stats.emergencySupport')}</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold mb-2">&lt;5min</div>
-                <div className="text-red-200 text-sm">Response Time</div>
+                <div className="text-2xl font-bold mb-2">{getTranslation('emergencySupport.stats.responseTimeValue')}</div>
+                <div className="text-red-200 text-sm">{getTranslation('emergencySupport.stats.responseTime')}</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold mb-2">12</div>
-                <div className="text-red-200 text-sm">Languages</div>
+                <div className="text-2xl font-bold mb-2">{getTranslation('emergencySupport.stats.languagesValue')}</div>
+                <div className="text-red-200 text-sm">{getTranslation('emergencySupport.stats.languages')}</div>
               </div>
             </div>
           </div>

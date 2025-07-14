@@ -39,6 +39,7 @@ import enFaq from './locales/en/components/faq.json';
 import enROICalculator from './locales/en/components/roi-calculator.json';
 import enNewsletter from './locales/en/components/newsletter.json';
 import enAbout from './locales/en/components/about.json';
+import enContact from './locales/en/components/contact.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -77,13 +78,14 @@ import esFaq from './locales/es/components/faq.json';
 import esROICalculator from './locales/es/components/roi-calculator.json';
 import esNewsletter from './locales/es/components/newsletter.json';
 import esAbout from './locales/es/components/about.json';
+import esContact from './locales/es/components/contact.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about', 'components/contact'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -124,7 +126,8 @@ i18n
       'components/faq': enFaq,
       'components/roi-calculator': enROICalculator,
       'components/newsletter': enNewsletter,
-      'components/about': enAbout
+      'components/about': enAbout,
+      'components/contact': enContact
     },
     es: {
       common: esCommon,
@@ -164,7 +167,8 @@ i18n
       'components/faq': esFaq,
       'components/roi-calculator': esROICalculator,
       'components/newsletter': esNewsletter,
-      'components/about': esAbout
+      'components/about': esAbout,
+      'components/contact': esContact
     }
   },
     fallbackLng: 'en',
@@ -201,7 +205,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/components/newsletter.json',
       './locales/es/components/newsletter.json',
       './locales/en/components/about.json',
-      './locales/es/components/about.json'
+      './locales/es/components/about.json',
+      './locales/en/components/contact.json',
+      './locales/es/components/contact.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

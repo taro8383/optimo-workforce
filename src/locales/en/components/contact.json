@@ -1,0 +1,182 @@
+{
+  "heroSection": {
+    "title": {
+      "mainHeading": "Let's Optimize Together"
+    },
+    "subtitle": {
+      "description": "Ready to transform your workforce management? Our global team of optimization experts is here to help you succeed."
+    },
+    "buttons": {
+      "scheduleDemo": "Schedule Demo",
+      "startLiveChat": "Start Live Chat"
+    }
+  },
+  "supportOptions": {
+    "title": {
+      "mainHeading": "Get Help Your Way"
+    },
+    "subtitle": {
+      "description": "Choose the support option that works best for you"
+    },
+    "cards": {
+      "liveChat": {
+        "title": "Live Chat",
+        "description": "Get instant help from our support team",
+        "action": "Start Chat",
+        "availability": "24/7"
+      },
+      "videoCall": {
+        "title": "Video Call",
+        "description": "Schedule a personalized demo or consultation",
+        "action": "Book Call",
+        "availability": "Business Hours"
+      },
+      "phoneSupport": {
+        "title": "Phone Support",
+        "description": "Speak directly with our experts",
+        "action": "Call Now",
+        "availability": "Mon-Fri 9AM-6PM"
+      },
+      "helpCenter": {
+        "title": "Help Center",
+        "description": "Browse our comprehensive documentation",
+        "action": "Browse Docs",
+        "availability": "Always Available"
+      }
+    }
+  },
+  "contactForm": {
+    "title": {
+      "mainHeading": "Send Us a Message"
+    },
+    "labels": {
+      "fullName": "Full Name *",
+      "emailAddress": "Email Address *",
+      "companyName": "Company Name *",
+      "phoneNumber": "Phone Number",
+      "businessType": "Business Type *",
+      "locations": "Number of Locations",
+      "region": "Region *",
+      "contactReason": "How can we help? *",
+      "message": "Message *"
+    },
+    "options": {
+      "businessTypes": {
+        "restaurant": "Restaurant",
+        "hotel": "Hotel",
+        "cafe": "Café",
+        "other": "Other"
+      },
+      "regions": {
+        "unitedStates": "United States",
+        "eu": "European Union",
+        "latam": "Latin America",
+        "apac": "Asia-Pacific",
+        "other": "Other"
+      },
+      "contactReasons": {
+        "requestDemo": "Request Demo",
+        "getPricing": "Get Pricing Information",
+        "technicalSupport": "Technical Support",
+        "partnership": "Partnership Inquiry",
+        "media": "Media/Press Inquiry",
+        "general": "General Question"
+      }
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "Enter your email",
+      "company": "Enter company name",
+      "phone": "Enter phone number",
+      "locations": "e.g., 5",
+      "selectRegion": "Select your region",
+      "selectReason": "Select a reason",
+      "message": "Tell us about your workforce optimization needs..."
+    },
+    "buttons": {
+      "sendMessage": "Send Message"
+    },
+    "notes": {
+      "responseTime": "We'll respond within 24 hours during business days"
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thank you for contacting us. Our team will review your message and get back to you within 24 hours.",
+      "button": "Send Another Message"
+    }
+  },
+  "globalOffices": {
+    "title": {
+      "mainHeading": "Global Offices"
+    },
+    "subtitle": {
+      "description": "We're here to support you across all major regions with local expertise and global intelligence."
+    },
+    "offices": {
+      "barcelona": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "address": "Carrer de Mallorca, 401\n08013 Barcelona, Spain",
+        "phone": "+34 93 123 4567",
+        "email": "europe@optimoworkforce.com",
+        "timezone": "CET (UTC+1)",
+        "hours": "9:00 AM - 6:00 PM"
+      },
+      "newYork": {
+        "city": "New York",
+        "country": "United States",
+        "address": "350 Fifth Avenue\nNew York, NY 10118",
+        "phone": "+1 (555) 123-4567",
+        "email": "americas@optimoworkforce.com",
+        "timezone": "EST (UTC-5)",
+        "hours": "9:00 AM - 6:00 PM"
+      },
+      "singapore": {
+        "city": "Singapore",
+        "country": "Singapore",
+        "address": "1 Raffles Place\nSingapore 048616",
+        "phone": "+65 6123 4567",
+        "email": "apac@optimoworkforce.com",
+        "timezone": "SGT (UTC+8)",
+        "hours": "9:00 AM - 6:00 PM"
+      },
+      "saoPaulo": {
+        "city": "São Paulo",
+        "country": "Brazil",
+        "address": "Av. Paulista, 1578\nSão Paulo, SP 01310-200",
+        "phone": "+55 11 1234-5678",
+        "email": "latam@optimoworkforce.com",
+        "timezone": "BRT (UTC-3)",
+        "hours": "9:00 AM - 6:00 PM"
+      }
+    }
+  },
+  "socialMedia": {
+    "title": {
+      "mainHeading": "Follow Us"
+    },
+    "description": {
+      "text": "Stay updated with the latest workforce optimization insights and product updates."
+    }
+  },
+  "emergencySupport": {
+    "title": {
+      "mainHeading": "Need Urgent Support?"
+    },
+    "description": {
+      "text": "For critical system issues affecting your operations, our emergency support team is available 24/7."
+    },
+    "buttons": {
+      "emergencyHotline": "Emergency Hotline",
+      "priorityChat": "Priority Chat"
+    },
+    "stats": {
+      "responseTime": "Response Time",
+      "responseTimeValue": "<5min",
+      "languages": "Languages",
+      "languagesValue": "12",
+      "emergencySupport": "Emergency Support",
+      "emergencySupportValue": "24/7"
+    }
+  }
+}

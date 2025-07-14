@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Mail, FileText, Globe, Users, Download, Check, Shield, Zap } from 'lucide-react';
 
 const NewsletterPage: React.FC = () => {
+  const { t } = useTranslation('components/newsletter');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,41 +29,26 @@ const NewsletterPage: React.FC = () => {
   const benefits = [
     {
       icon: FileText,
-      title: 'Exclusive Whitepapers',
-      description: 'In-depth analysis of labor optimization strategies and industry benchmarks',
+      title: t('benefits.exclusiveWhitepapers.title'),
+      description: t('benefits.exclusiveWhitepapers.description'),
       color: 'text-primary'
     },
     {
       icon: Globe,
-      title: 'Regional Labor Law Updates',
-      description: 'Stay compliant with changing regulations across US, EU, LATAM, and APAC',
+      title: t('benefits.regionalLaborLawUpdates.title'),
+      description: t('benefits.regionalLaborLawUpdates.description'),
       color: 'text-secondary'
     },
     {
       icon: Zap,
-      title: 'Early Feature Access',
-      description: 'Be the first to test new AI optimization features before public release',
+      title: t('benefits.earlyFeatureAccess.title'),
+      description: t('benefits.earlyFeatureAccess.description'),
       color: 'text-accent-latam'
     }
   ];
 
-  const regions = [
-    'United States',
-    'European Union',
-    'Latin America',
-    'Asia-Pacific',
-    'Other'
-  ];
-
-  const industries = [
-    'Quick Service Restaurant',
-    'Fine Dining',
-    'Casual Dining',
-    'Hotel & Hospitality',
-    'Café & Coffee Shop',
-    'Catering',
-    'Other'
-  ];
+  const regions = t('regions', { returnObjects: true }) as string[];
+  const industries = t('industries', { returnObjects: true }) as string[];
 
   return (
     <div className="min-h-screen bg-white">
@@ -72,17 +59,17 @@ const NewsletterPage: React.FC = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-up">
               <h1 className="text-4xl lg:text-6xl font-ibm-plex-sans font-bold leading-tight mb-6">
-                Stay Ahead of Labor Trends
+                {t('hero.title')}
               </h1>
               <p className="text-xl lg:text-2xl mb-8 text-blue-100">
-                Get exclusive optimization tactics monthly—from AI insights to regulatory updates
+                {t('hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-secondary hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-                  Subscribe Now
+                  {t('hero.subscribeNow')}
                 </button>
                 <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-                  View Sample Issue
+                  {t('hero.viewSampleIssue')}
                 </button>
               </div>
             </div>
@@ -93,26 +80,26 @@ const NewsletterPage: React.FC = () => {
                   <div className="inline-flex items-center justify-center w-24 h-24 bg-white bg-opacity-20 rounded-full mb-4 animate-pulse-slow">
                     <Mail size={48} className="text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4">Monthly Insights</h3>
+                  <h3 className="text-2xl font-bold mb-4">{t('hero.monthlyInsights')}</h3>
                 </div>
                 
                 <div className="space-y-4">
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 transform hover:scale-105 transition-transform">
                     <div className="flex items-center gap-3">
                       <FileText size={24} className="text-secondary" />
-                      <span className="font-semibold">Labor Optimization Report</span>
+                      <span className="font-semibold">{t('hero.laborOptimizationReport')}</span>
                     </div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 transform hover:scale-105 transition-transform">
                     <div className="flex items-center gap-3">
                       <Globe size={24} className="text-accent-latam" />
-                      <span className="font-semibold">Regional Compliance Updates</span>
+                      <span className="font-semibold">{t('hero.regionalComplianceUpdates')}</span>
                     </div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 transform hover:scale-105 transition-transform">
                     <div className="flex items-center gap-3">
                       <Zap size={24} className="text-accent-apac" />
-                      <span className="font-semibold">AI Feature Previews</span>
+                      <span className="font-semibold">{t('hero.aiFeaturePreviews')}</span>
                     </div>
                   </div>
                 </div>
@@ -127,10 +114,10 @@ const NewsletterPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              What You'll Get
+              {t('benefits.title')}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Exclusive content designed for hospitality leaders and optimization experts
+              {t('benefits.subtitle')}
             </p>
           </div>
 
@@ -158,10 +145,10 @@ const NewsletterPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Join 10,000+ Industry Leaders
+              {t('signup.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              Get personalized insights for your region and industry
+              {t('signup.subtitle')}
             </p>
           </div>
 
@@ -171,7 +158,7 @@ const NewsletterPage: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
+                      {t('signup.form.fullName')}
                     </label>
                     <input
                       type="text"
@@ -181,12 +168,12 @@ const NewsletterPage: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter your full name"
+                      placeholder={t('signup.form.fullNamePlaceholder')}
                     />
                   </div>
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
+                      {t('signup.form.emailAddress')}
                     </label>
                     <input
                       type="email"
@@ -196,7 +183,7 @@ const NewsletterPage: React.FC = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                      placeholder="Enter your email"
+                      placeholder={t('signup.form.emailPlaceholder')}
                     />
                   </div>
                 </div>
@@ -204,7 +191,7 @@ const NewsletterPage: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="region" className="block text-sm font-medium text-gray-700 mb-2">
-                      Region *
+                      {t('signup.form.region')}
                     </label>
                     <select
                       id="region"
@@ -214,7 +201,7 @@ const NewsletterPage: React.FC = () => {
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                     >
-                      <option value="">Select your region</option>
+                      <option value="">{t('signup.form.regionPlaceholder')}</option>
                       {regions.map((region) => (
                         <option key={region} value={region}>{region}</option>
                       ))}
@@ -222,7 +209,7 @@ const NewsletterPage: React.FC = () => {
                   </div>
                   <div>
                     <label htmlFor="industry" className="block text-sm font-medium text-gray-700 mb-2">
-                      Industry *
+                      {t('signup.form.industry')}
                     </label>
                     <select
                       id="industry"
@@ -232,7 +219,7 @@ const NewsletterPage: React.FC = () => {
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
                     >
-                      <option value="">Select your industry</option>
+                      <option value="">{t('signup.form.industryPlaceholder')}</option>
                       {industries.map((industry) => (
                         <option key={industry} value={industry}>{industry}</option>
                       ))}
@@ -246,17 +233,17 @@ const NewsletterPage: React.FC = () => {
                     className="bg-primary hover:bg-blue-600 text-white px-12 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3 mx-auto"
                   >
                     <Mail size={24} />
-                    Optimize My Knowledge
+                    {t('signup.submitButton')}
                   </button>
                   
                   <div className="flex items-center justify-center gap-6 mt-6 text-sm text-gray-600">
                     <div className="flex items-center gap-2">
                       <Shield size={16} className="text-secondary" />
-                      <span>GDPR-compliant</span>
+                      <span>{t('signup.privacy.gdprCompliant')}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Check size={16} className="text-secondary" />
-                      <span>1-click unsubscribe</span>
+                      <span>{t('signup.privacy.oneClickUnsubscribe')}</span>
                     </div>
                   </div>
                 </div>
@@ -267,15 +254,15 @@ const NewsletterPage: React.FC = () => {
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
                 <Check size={40} />
               </div>
-              <h3 className="text-2xl font-bold mb-4">Welcome to the Community!</h3>
+              <h3 className="text-2xl font-bold mb-4">{t('signup.success.title')}</h3>
               <p className="text-lg mb-6">
-                You'll receive your first optimization insights within 24 hours.
+                {t('signup.success.message')}
               </p>
               <button
                 onClick={() => setIsSubmitted(false)}
                 className="bg-white text-secondary hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
-                Subscribe Another Email
+                {t('signup.success.subscribeAnotherEmail')}
               </button>
             </div>
           )}
@@ -287,10 +274,10 @@ const NewsletterPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold text-gray-900 mb-4">
-              Recent Highlights
+              {t('contentPreview.title')}
             </h2>
             <p className="text-xl text-gray-600">
-              See what our subscribers are reading
+              {t('contentPreview.subtitle')}
             </p>
           </div>
 
@@ -301,23 +288,22 @@ const NewsletterPage: React.FC = () => {
                   <FileText size={24} className="text-white" />
                 </div>
                 <div>
-                  <div className="text-sm text-gray-500 mb-1">December 2024 Issue</div>
-                  <h3 className="text-xl font-bold text-gray-900">California $20/hr Wage Impact Report</h3>
+                  <div className="text-sm text-gray-500 mb-1">{t('contentPreview.issues.december2024.date')}</div>
+                  <h3 className="text-xl font-bold text-gray-900">{t('contentPreview.issues.december2024.title')}</h3>
                 </div>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Comprehensive analysis of how California's new minimum wage affects restaurant scheduling, 
-                with AI-powered strategies to maintain profitability while ensuring compliance.
+                {t('contentPreview.issues.december2024.description')}
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4 text-sm text-gray-500">
-                  <span>12 pages</span>
+                  <span>{t('contentPreview.issues.december2024.pages')}</span>
                   <span>•</span>
-                  <span>3,247 downloads</span>
+                  <span>{t('contentPreview.issues.december2024.downloads')}</span>
                 </div>
                 <button className="bg-primary hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center gap-2">
                   <Download size={20} />
-                  Download Excerpt
+                  {t('contentPreview.downloadExcerpt')}
                 </button>
               </div>
             </div>
@@ -328,23 +314,22 @@ const NewsletterPage: React.FC = () => {
                   <Globe size={24} className="text-white" />
                 </div>
                 <div>
-                  <div className="text-sm text-gray-500 mb-1">November 2024 Issue</div>
-                  <h3 className="text-xl font-bold text-gray-900">APAC Mobile Payment Trends</h3>
+                  <div className="text-sm text-gray-500 mb-1">{t('contentPreview.issues.november2024.date')}</div>
+                  <h3 className="text-xl font-bold text-gray-900">{t('contentPreview.issues.november2024.title')}</h3>
                 </div>
               </div>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                How Singapore and Hong Kong restaurants are leveraging mobile wallet preferences 
-                to increase tip yields by 22% through optimized staffing strategies.
+                {t('contentPreview.issues.november2024.description')}
               </p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4 text-sm text-gray-500">
-                  <span>8 pages</span>
+                  <span>{t('contentPreview.issues.november2024.pages')}</span>
                   <span>•</span>
-                  <span>2,891 downloads</span>
+                  <span>{t('contentPreview.issues.november2024.downloads')}</span>
                 </div>
                 <button className="bg-secondary hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center gap-2">
                   <Download size={20} />
-                  Download Excerpt
+                  {t('contentPreview.downloadExcerpt')}
                 </button>
               </div>
             </div>
@@ -354,7 +339,7 @@ const NewsletterPage: React.FC = () => {
             <div className="inline-flex items-center gap-3 bg-blue-50 px-6 py-4 rounded-full">
               <Users className="text-primary" size={24} />
               <span className="text-lg font-semibold text-primary">
-                Join 10,000+ subscribers getting exclusive insights monthly
+                {t('contentPreview.cta')}
               </span>
             </div>
           </div>
@@ -365,38 +350,37 @@ const NewsletterPage: React.FC = () => {
       <section className="py-20 bg-gradient-to-br from-primary via-blue-600 to-secondary text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl lg:text-5xl font-ibm-plex-sans font-bold mb-6">
-            Ready to Optimize Your Knowledge?
+            {t('finalCTA.title')}
           </h2>
           <p className="text-xl lg:text-2xl mb-12 text-blue-100 max-w-4xl mx-auto">
-            Get the insights that industry leaders use to stay ahead of labor trends
+            {t('finalCTA.subtitle')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <button className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center gap-3">
               <Mail size={24} />
-              Subscribe Now
+              {t('finalCTA.subscribeNow')}
             </button>
             <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-              View All Past Issues
+              {t('finalCTA.viewAllPastIssues')}
             </button>
           </div>
 
           <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">10,000+</div>
-              <div className="text-blue-200">Subscribers</div>
+              <div className="text-blue-200">{t('finalCTA.stats.subscribers')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">24</div>
-              <div className="text-blue-200">Monthly Issues</div>
+              <div className="text-blue-200">{t('finalCTA.stats.monthlyIssues')}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold mb-2">12</div>
-              <div className="text-blue-200">Languages</div>
+              <div className="text-blue-200">{t('finalCTA.stats.languages')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">Free</div>
-              <div className="text-blue-200">Forever</div>
+              <div className="text-3xl font-bold mb-2">{t('finalCTA.stats.forever')}</div>
             </div>
           </div>
         </div>

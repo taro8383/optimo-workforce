@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": "Stay Ahead of Labor Trends",
+    "subtitle": "Get exclusive optimization tactics monthly—from AI insights to regulatory updates",
+    "subscribeNow": "Subscribe Now",
+    "viewSampleIssue": "View Sample Issue",
+    "monthlyInsights": "Monthly Insights",
+    "laborOptimizationReport": "Labor Optimization Report",
+    "regionalComplianceUpdates": "Regional Compliance Updates",
+    "aiFeaturePreviews": "AI Feature Previews"
+  },
+  "benefits": {
+    "title": "What You'll Get",
+    "subtitle": "Exclusive content designed for hospitality leaders and optimization experts",
+    "exclusiveWhitepapers": {
+      "title": "Exclusive Whitepapers",
+      "description": "In-depth analysis of labor optimization strategies and industry benchmarks"
+    },
+    "regionalLaborLawUpdates": {
+      "title": "Regional Labor Law Updates",
+      "description": "Stay compliant with changing regulations across US, EU, LATAM, and APAC"
+    },
+    "earlyFeatureAccess": {
+      "title": "Early Feature Access",
+      "description": "Be the first to test new AI optimization features before public release"
+    }
+  },
+  "signup": {
+    "title": "Join 10,000+ Industry Leaders",
+    "subtitle": "Get personalized insights for your region and industry",
+    "form": {
+      "fullName": "Full Name *",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailAddress": "Email Address *",
+      "emailPlaceholder": "Enter your email",
+      "region": "Region *",
+      "regionPlaceholder": "Select your region",
+      "industry": "Industry *",
+      "industryPlaceholder": "Select your industry"
+    },
+    "submitButton": "Optimize My Knowledge",
+    "privacy": {
+      "gdprCompliant": "GDPR-compliant",
+      "oneClickUnsubscribe": "1-click unsubscribe"
+    },
+    "success": {
+      "title": "Welcome to the Community!",
+      "message": "You'll receive your first optimization insights within 24 hours.",
+      "subscribeAnotherEmail": "Subscribe Another Email"
+    }
+  },
+  "contentPreview": {
+    "title": "Recent Highlights",
+    "subtitle": "See what our subscribers are reading",
+    "issues": {
+      "december2024": {
+        "date": "December 2024 Issue",
+        "title": "California $20/hr Wage Impact Report",
+        "description": "Comprehensive analysis of how California's new minimum wage affects restaurant scheduling, with AI-powered strategies to maintain profitability while ensuring compliance.",
+        "pages": "12 pages",
+        "downloads": "3,247 downloads"
+      },
+      "november2024": {
+        "date": "November 2024 Issue",
+        "title": "APAC Mobile Payment Trends",
+        "description": "How Singapore and Hong Kong restaurants are leveraging mobile wallet preferences to increase tip yields by 22% through optimized staffing strategies.",
+        "pages": "8 pages",
+        "downloads": "2,891 downloads"
+      }
+    },
+    "downloadExcerpt": "Download Excerpt",
+    "cta": "Join 10,000+ subscribers getting exclusive insights monthly"
+  },
+  "finalCTA": {
+    "title": "Ready to Optimize Your Knowledge?",
+    "subtitle": "Get the insights that industry leaders use to stay ahead of labor trends",
+    "subscribeNow": "Subscribe Now",
+    "viewAllPastIssues": "View All Past Issues",
+    "stats": {
+      "subscribers": "Subscribers",
+      "monthlyIssues": "Monthly Issues",
+      "languages": "Languages",
+      "forever": "Forever"
+    }
+  },
+  "regions": [
+    "United States",
+    "European Union",
+    "Latin America",
+    "Asia-Pacific",
+    "Other"
+  ],
+  "industries": [
+    "Quick Service Restaurant",
+    "Fine Dining",
+    "Casual Dining",
+    "Hotel & Hospitality",
+    "Café & Coffee Shop",
+    "Catering",
+    "Other"
+  ]
+}

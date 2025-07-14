@@ -1,0 +1,120 @@
+{
+  "heroSection": {
+    "title": {
+      "mainHeading": "Solucionamos el Caos Laboral"
+    },
+    "subtitle": {
+      "description": "Fundado por veteranos de la hostelería cansados del potencial desperdiciado"
+    },
+    "buttons": {
+      "joinMission": "Únete a Nuestra Misión",
+      "openPositions": "Ver Posiciones Abiertas"
+    },
+    "teamPreview": {
+      "title": "Nuestro Equipo Diverso",
+      "description": "Trabajando con dispositivos POS en 4 continentes"
+    }
+  },
+  "timelineSection": {
+    "title": {
+      "mainHeading": "Nuestro Viaje"
+    },
+    "subtitle": {
+      "description": "Desde un pequeño equipo en Barcelona hasta una plataforma global de optimización de fuerza laboral"
+    },
+    "events": {
+      "2024": {
+        "title": "Fundado en Barcelona",
+        "description": "Iniciado por veteranos de la hostelería cansados del potencial desperdiciado"
+      },
+      "2025": {
+        "title": "500+ ubicaciones optimizadas",
+        "description": "Crecimiento rápido en mercados de EE.UU., UE, LATAM y APAC"
+      },
+      "2026": {
+        "title": "Red global de socios",
+        "description": "Alianzas estratégicas con proveedores principales de POS en todo el mundo"
+      }
+    }
+  },
+  "teamSection": {
+    "title": {
+      "mainHeading": "Conoce a Nuestro Equipo"
+    },
+    "subtitle": {
+      "description": "Expertos en hostelería, investigadores de IA y especialistas en optimización trabajando juntos"
+    },
+    "members": {
+      "alex": {
+        "name": "Alex Rodríguez",
+        "role": "Fundador y CEO",
+        "description": "Más de 10 años en tecnología hotelera de EU/Asia"
+      },
+      "sarah": {
+        "name": "Sarah Chen",
+        "role": "CTO",
+        "description": "Ex-Google AI, especialista en tecnología de restaurantes"
+      },
+      "marcus": {
+        "name": "Marcus Thompson",
+        "role": "VP de Operaciones",
+        "description": "15 años gestionando restaurantes multi-ubicación"
+      },
+      "priya": {
+        "name": "Priya Patel",
+        "role": "Directora de Mercados Globales",
+        "description": "Experta en expansión APAC y pagos móviles"
+      },
+      "david": {
+        "name": "David Kim",
+        "role": "Científico Principal de Datos",
+        "description": "PhD en Aprendizaje Automático, algoritmos de predicción de propinas"
+      },
+      "elena": {
+        "name": "Elena Vásquez",
+        "role": "Directora de Éxito del Cliente",
+        "description": "Veterana de la hostelería, habla 5 idiomas"
+      }
+    }
+  },
+  "valuesSection": {
+    "title": {
+      "mainHeading": "Nuestros Valores"
+    },
+    "subtitle": {
+      "description": "Los principios que guían todo lo que hacemos"
+    },
+    "values": {
+      "global": {
+        "title": "Piensa Global, Actúa Local",
+        "description": "Entendemos que cada mercado es único. Nuestra IA se adapta a las culturas de propinas locales, leyes laborales y comportamientos del cliente mientras aprovecha la inteligencia global."
+      },
+      "data": {
+        "title": "Empatía Basada en Datos",
+        "description": "La tecnología debe servir a las personas, no reemplazarlas. Usamos IA para hacer el trabajo más predecible y justo para el personal de restaurantes mientras maximizamos los resultados del negocio."
+      },
+      "ethical": {
+        "title": "Optimización Ética",
+        "description": "Creemos en algoritmos transparentes y prácticas laborales justas. Nuestra optimización nunca viene a expensas de los derechos o bienestar de los trabajadores."
+      }
+    }
+  },
+  "ctaSection": {
+    "title": {
+      "mainHeading": "Únete a Nuestra Misión"
+    },
+    "subtitle": {
+      "description": "Ayúdanos a transformar la industria de la hostelería con IA ética e inteligencia global"
+    },
+    "buttons": {
+      "viewPositions": "Ver Posiciones Abiertas",
+      "partnerWithUs": "Asociarse Con Nosotros"
+    },
+    "stats": {
+      "countries": "Países",
+      "locations": "Ubicaciones",
+      "teamMembers": "Miembros del Equipo",
+      "globalSupport": "Soporte Global"
+    }
+  }
+}

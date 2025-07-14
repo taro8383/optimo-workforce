@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": "Mantente al día con las Tendencias Laborales",
+    "subtitle": "Obtén tácticas exclusivas de optimización mensualmente—desde insights de IA hasta actualizaciones regulatorias",
+    "subscribeNow": "Suscribirse Ahora",
+    "viewSampleIssue": "Ver Ejemplo de Edición",
+    "monthlyInsights": "Insights Mensuales",
+    "laborOptimizationReport": "Reporte de Optimización Laboral",
+    "regionalComplianceUpdates": "Actualizaciones de Cumplimiento Regional",
+    "aiFeaturePreviews": "Avances de Funciones IA"
+  },
+  "benefits": {
+    "title": "Lo que Obtendrás",
+    "subtitle": "Contenido exclusivo diseñado para líderes de la industria hotelera y expertos en optimización",
+    "exclusiveWhitepapers": {
+      "title": "Documentos Técnicos Exclusivos",
+      "description": "Análisis profundo de estrategias de optimización laboral y referencias de la industria"
+    },
+    "regionalLaborLawUpdates": {
+      "title": "Actualizaciones de Leyes Laborales Regionales",
+      "description": "Mantente en cumplimiento con regulaciones cambiantes en EE.UU., UE, LATAM y APAC"
+    },
+    "earlyFeatureAccess": {
+      "title": "Acceso Anticipado a Funciones",
+      "description": "Sé el primero en probar nuevas funciones de optimización IA antes del lanzamiento público"
+    }
+  },
+  "signup": {
+    "title": "Únete a más de 10,000 Líderes de la Industria",
+    "subtitle": "Obtén insights personalizados para tu región e industria",
+    "form": {
+      "fullName": "Nombre Completo *",
+      "fullNamePlaceholder": "Ingresa tu nombre completo",
+      "emailAddress": "Correo Electrónico *",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "region": "Región *",
+      "regionPlaceholder": "Selecciona tu región",
+      "industry": "Industria *",
+      "industryPlaceholder": "Selecciona tu industria"
+    },
+    "submitButton": "Optimizar Mi Conocimiento",
+    "privacy": {
+      "gdprCompliant": "Cumplimiento GDPR",
+      "oneClickUnsubscribe": "Desuscripción con 1 clic"
+    },
+    "success": {
+      "title": "¡Bienvenido a la Comunidad!",
+      "message": "Recibirás tus primeros insights de optimización dentro de 24 horas.",
+      "subscribeAnotherEmail": "Suscribir Otro Correo"
+    }
+  },
+  "contentPreview": {
+    "title": "Destacados Recientes",
+    "subtitle": "Mira lo que están leyendo nuestros suscriptores",
+    "issues": {
+      "december2024": {
+        "date": "Edición Diciembre 2024",
+        "title": "Reporte de Impacto del Salario $20/hr en California",
+        "description": "Análisis integral de cómo el nuevo salario mínimo de California afecta la programación de restaurantes, con estrategias impulsadas por IA para mantener la rentabilidad mientras se asegura el cumplimiento.",
+        "pages": "12 páginas",
+        "downloads": "3,247 descargas"
+      },
+      "november2024": {
+        "date": "Edición Noviembre 2024",
+        "title": "Tendencias de Pagos Móviles en APAC",
+        "description": "Cómo los restaurantes de Singapur y Hong Kong están aprovechando las preferencias de billeteras móviles para aumentar los ingresos por propinas en 22% mediante estrategias de personal optimizadas.",
+        "pages": "8 páginas",
+        "downloads": "2,891 descargas"
+      }
+    },
+    "downloadExcerpt": "Descargar Extracto",
+    "cta": "Únete a más de 10,000 suscriptores obteniendo insights exclusivos mensualmente"
+  },
+  "finalCTA": {
+    "title": "¿Listo para Optimizar Tu Conocimiento?",
+    "subtitle": "Obtén los insights que los líderes de la industria usan para mantenerse al día con las tendencias laborales",
+    "subscribeNow": "Suscribirse Ahora",
+    "viewAllPastIssues": "Ver Todas las Ediciones Anteriores",
+    "stats": {
+      "subscribers": "Suscriptores",
+      "monthlyIssues": "Ediciones Mensuales",
+      "languages": "Idiomas",
+      "forever": "Gratis"
+    }
+  },
+  "regions": [
+    "Estados Unidos",
+    "Unión Europea",
+    "América Latina",
+    "Asia-Pacífico",
+    "Otro"
+  ],
+  "industries": [
+    "Restaurante de Servicio Rápido",
+    "Alta Cocina",
+    "Restaurante Casual",
+    "Hotel y Hospitalidad",
+    "Café y Tienda de Café",
+    "Servicios de Catering",
+    "Otro"
+  ]
+}

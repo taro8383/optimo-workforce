@@ -1,0 +1,120 @@
+{
+  "heroSection": {
+    "title": {
+      "mainHeading": "We Fix Labor Chaos"
+    },
+    "subtitle": {
+      "description": "Founded by hospitality veterans tired of wasted potential"
+    },
+    "buttons": {
+      "joinMission": "Join Our Mission",
+      "openPositions": "See Open Positions"
+    },
+    "teamPreview": {
+      "title": "Our Diverse Team",
+      "description": "Working with POS devices across 4 continents"
+    }
+  },
+  "timelineSection": {
+    "title": {
+      "mainHeading": "Our Journey"
+    },
+    "subtitle": {
+      "description": "From a small team in Barcelona to a global workforce optimization platform"
+    },
+    "events": {
+      "2024": {
+        "title": "Founded in Barcelona",
+        "description": "Started by hospitality veterans tired of wasted potential"
+      },
+      "2025": {
+        "title": "500+ locations optimized",
+        "description": "Rapid growth across US, EU, LATAM, and APAC markets"
+      },
+      "2026": {
+        "title": "Global partner network",
+        "description": "Strategic partnerships with major POS providers worldwide"
+      }
+    }
+  },
+  "teamSection": {
+    "title": {
+      "mainHeading": "Meet Our Team"
+    },
+    "subtitle": {
+      "description": "Hospitality experts, AI researchers, and optimization specialists working together"
+    },
+    "members": {
+      "alex": {
+        "name": "Alex Rodriguez",
+        "role": "Founder & CEO",
+        "description": "10+ years in EU/Asia hospitality tech"
+      },
+      "sarah": {
+        "name": "Sarah Chen",
+        "role": "CTO",
+        "description": "Former Google AI, restaurant tech specialist"
+      },
+      "marcus": {
+        "name": "Marcus Thompson",
+        "role": "VP of Operations",
+        "description": "15 years managing multi-location restaurants"
+      },
+      "priya": {
+        "name": "Priya Patel",
+        "role": "Head of Global Markets",
+        "description": "APAC expansion and mobile payment expert"
+      },
+      "david": {
+        "name": "David Kim",
+        "role": "Lead Data Scientist",
+        "description": "PhD in Machine Learning, tip prediction algorithms"
+      },
+      "elena": {
+        "name": "Elena Vasquez",
+        "role": "Customer Success Director",
+        "description": "Hospitality veteran, speaks 5 languages"
+      }
+    }
+  },
+  "valuesSection": {
+    "title": {
+      "mainHeading": "Our Values"
+    },
+    "subtitle": {
+      "description": "The principles that guide everything we do"
+    },
+    "values": {
+      "global": {
+        "title": "Think Global, Act Local",
+        "description": "We understand that every market is unique. Our AI adapts to local tipping cultures, labor laws, and customer behaviors while leveraging global intelligence."
+      },
+      "data": {
+        "title": "Data-Driven Empathy",
+        "description": "Technology should serve people, not replace them. We use AI to make work more predictable and fair for restaurant staff while maximizing business outcomes."
+      },
+      "ethical": {
+        "title": "Ethical Optimization",
+        "description": "We believe in transparent algorithms and fair labor practices. Our optimization never comes at the expense of worker rights or wellbeing."
+      }
+    }
+  },
+  "ctaSection": {
+    "title": {
+      "mainHeading": "Join Our Mission"
+    },
+    "subtitle": {
+      "description": "Help us transform the hospitality industry with ethical AI and global intelligence"
+    },
+    "buttons": {
+      "viewPositions": "View Open Positions",
+      "partnerWithUs": "Partner With Us"
+    },
+    "stats": {
+      "countries": "Countries",
+      "locations": "Locations",
+      "teamMembers": "Team Members",
+      "globalSupport": "Global Support"
+    }
+  }
+}

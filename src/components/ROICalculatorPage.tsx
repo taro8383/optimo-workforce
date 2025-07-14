@@ -12,7 +12,6 @@ import {
   Download,
   Share2,
   BarChart3,
-  PieChart,
   Building2,
   Coffee,
   Utensils
@@ -45,7 +44,6 @@ const ROICalculatorPage: React.FC<ROICalculatorPageProps> = ({ translations }) =
     avgEmployees: 15,
     avgHourlyWage: 18,
     hoursPerWeek: 40,
-    currentLaborCostPercentage: 32,
     schedulingHoursPerWeek: 8,
     managerHourlyRate: 35,
     turnoverRate: 42,
@@ -96,7 +94,6 @@ const ROICalculatorPage: React.FC<ROICalculatorPageProps> = ({ translations }) =
       avgEmployees,
       avgHourlyWage,
       hoursPerWeek,
-      currentLaborCostPercentage,
       schedulingHoursPerWeek,
       managerHourlyRate,
       turnoverRate,

@@ -4,22 +4,16 @@ import {
   Building2, 
   Calendar, 
   BarChart3, 
-  Users, 
   DollarSign, 
-  Globe, 
   Cloud, 
   Smartphone, 
   Shield, 
   TrendingUp,
   Clock,
-  MapPin,
-  Zap,
-  Target,
   CheckCircle,
   ArrowRight,
   Star,
-  MessageSquare,
-  Settings
+  MessageSquare
 } from 'lucide-react';
 
 const HotelsPage: React.FC = () => {

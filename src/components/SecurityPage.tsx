@@ -5,7 +5,6 @@ import {
   Lock, 
   Eye, 
   Server, 
-  Globe, 
   CheckCircle, 
   AlertTriangle, 
   Key, 
@@ -13,7 +12,6 @@ import {
   Cloud, 
   Users, 
   FileText, 
-  Zap, 
   Monitor, 
   Download, 
   ExternalLink, 
@@ -25,9 +23,6 @@ import {
   HardDrive, 
   UserCheck, 
   Clock, 
-  MapPin, 
-  Building2, 
-  Phone, 
   Mail
 } from 'lucide-react';
 

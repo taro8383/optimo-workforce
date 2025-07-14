@@ -9,8 +9,6 @@ import {
   Clock, 
   Download, 
   Mail, 
-  Phone, 
-  MapPin, 
   CheckCircle, 
   AlertTriangle, 
   Database, 
@@ -19,9 +17,7 @@ import {
   Edit, 
   Share2, 
   UserX, 
-  Calendar, 
   Building2,
-  ExternalLink,
   ChevronDown,
   ChevronUp
 } from 'lucide-react';

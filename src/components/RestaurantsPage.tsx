@@ -6,7 +6,6 @@ import {
   BarChart3, 
   Users, 
   DollarSign, 
-  Globe, 
   Cloud, 
   Smartphone, 
   Shield, 

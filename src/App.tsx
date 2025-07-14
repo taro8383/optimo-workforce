@@ -1,17 +1,4 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import i18n from './i18n';
-import { Signal, Flag, Euro } from 'lucide-react';
-
-const SignalIcon: React.ComponentType<{ size: number; className?: string }> = (props) => (
-  <Signal {...props} />
-);
-const UsaIcon: React.ComponentType<{ size: number }> = (props) => (
-  <Flag {...props} />
-);
-const EuroIcon: React.ComponentType<{ size: number }> = (props) => (
-  <Euro {...props} />
-);
+import { useState } from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ProblemSolutionSection from './components/ProblemSolutionSection';
@@ -51,39 +38,7 @@ function App() {
       case 'restaurants':
         return <RestaurantsPage />;
       case 'hotels':
-        return <HotelsPage 
-          translations={i18n.getResourceBundle(i18n.language, 'hotels')}
-          demandSignals={[
-            {
-              icon: SignalIcon,
-              title: i18n.t('hotels:demandSignals.title'),
-              description: i18n.t('hotels:demandSignals.subtitle'),
-              color: 'text-primary'
-            }
-          ]}
-          coreOutputs={[
-            {
-              title: i18n.t('hotels:coreOutputs.title'),
-              progress: 85,
-              color: 'bg-green-500',
-              description: i18n.t('hotels:coreOutputs.subtitle'),
-              features: [
-                i18n.t('hotels:coreOutputs.impactExamples.examples.barcelo.title'),
-                i18n.t('hotels:coreOutputs.impactExamples.examples.havas.title')
-              ]
-            }
-          ]}
-          regionalAdaptations={{
-            'North America': {
-              icon: UsaIcon,
-              color: 'bg-blue-500'
-            },
-            'Europe': {
-              icon: EuroIcon,
-              color: 'bg-green-500'
-            }
-          }}
-        />;
+        return <HotelsPage />;
       case 'cafes':
         return <CafesPage />;
       case 'roi-calculator':

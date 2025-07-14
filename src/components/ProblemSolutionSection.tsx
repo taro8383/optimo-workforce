@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, Target, TrendingDown, TrendingUp, Clock, Users, DollarSign } from 'lucide-react';
+import { AlertTriangle, TrendingDown, TrendingUp, Clock, Users, DollarSign } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ProblemSolutionSection: React.FC = () => {
@@ -43,9 +43,7 @@ const ProblemSolutionSection: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
-          {cards.map((card, index) => {
-            const Icon = card.icon;
-            return (
+          {cards.map((card, index) => (
               <div
                 key={index}
                 className={`bg-white rounded-2xl p-8 shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105 ${
@@ -85,8 +83,7 @@ const ProblemSolutionSection: React.FC = () => {
                   </div>
                 </div>
               </div>
-            );
-          })}
+          ))}
         </div>
 
         <div className="bg-white rounded-2xl p-8 shadow-lg">

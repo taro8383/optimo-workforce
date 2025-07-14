@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
-  Zap, 
   BarChart3, 
   MessageSquare, 
-  Users, 
   DollarSign, 
   Package, 
   TrendingUp, 
   Star, 
   Target, 
-  Brain, 
   Building2, 
   Calendar, 
   Clock, 
@@ -18,14 +15,8 @@ import {
   ArrowRight, 
   Lightbulb, 
   Rocket, 
-  Settings, 
-  Globe, 
-  Shield, 
-  PieChart, 
-  ShoppingCart, 
   Heart, 
   Award, 
-  Smartphone, 
   Mail, 
   FileText, 
   Coffee, 
@@ -33,7 +24,7 @@ import {
 } from 'lucide-react';
 
 // Map feature titles to their translation keys
-const featureKeyMap = {
+const featureKeyMap: Record<string, string> = {
   'Inventory Optimization': 'InventoryOptimization',
   'Business Analytics': 'BusinessAnalytics',
   'Customer Feedback': 'CustomerFeedback',
@@ -131,15 +122,6 @@ const FutureFeaturesPage: React.FC = () => {
       color: 'from-teal-500 to-green-600'
     }
   ];
-
-  const statusColors = {
-    comingSoon: 'bg-yellow-500',
-    inDevelopment: 'bg-blue-500',
-    betaTesting: 'bg-green-500',
-    planning: 'bg-purple-500',
-    research: 'bg-indigo-500',
-    concept: 'bg-teal-500'
-  };
 
   const roadmapStats = [
     { number: '7', label: t('futureFeatures:roadmap.stats.features'), icon: Rocket },

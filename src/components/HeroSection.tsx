@@ -1,14 +1,8 @@
 import React from 'react';
-import { Play, TrendingUp } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { Play } from 'lucide-react';
 import { withTranslation } from 'react-i18next';
 
 const HeroSection: React.FC = ({ t }: any) => {
-  const navigate = useNavigate();
-
-  const handleNavigation = (path: string) => {
-    navigate(`/${path}`);
-  };
   return (
     <section className="relative bg-gradient-to-br from-primary to-blue-600 text-white overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-10"></div>

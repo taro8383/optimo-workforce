@@ -5,23 +5,16 @@ import {
   CheckCircle, 
   ArrowRight, 
   Search,
-  Filter,
   Star,
   Clock,
   Shield,
-  Globe,
-  Smartphone,
-  CreditCard,
-  BarChart3,
-  Users,
-  Calendar,
-  MessageSquare,
   Settings,
   Download,
   ExternalLink,
   Play,
   Book,
-  Headphones
+  Headphones,
+  MessageSquare
 } from 'lucide-react';
 
 const IntegrationsPage: React.FC = () => {

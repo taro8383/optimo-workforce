@@ -4,8 +4,6 @@ import cafeTranslations from '../locales/en/cafe.json';
 import { 
   Coffee, 
   Calendar, 
-  BarChart3, 
-  Users, 
   DollarSign, 
   Globe, 
   Cloud, 
@@ -13,14 +11,11 @@ import {
   Shield, 
   TrendingUp,
   Clock,
-  MapPin,
   Zap,
-  Target,
   CheckCircle,
   ArrowRight,
   Star,
   MessageSquare,
-  Settings,
   Sun,
   Umbrella
 } from 'lucide-react';

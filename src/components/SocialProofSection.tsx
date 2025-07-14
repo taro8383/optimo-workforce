@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, TrendingDown, Users } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const SocialProofSection: React.FC = () => {

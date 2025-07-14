@@ -4,28 +4,20 @@ import {
   Eye, 
   Shield, 
   Globe, 
-  Users, 
   BarChart3, 
   Clock, 
   Download, 
   Mail, 
   CheckCircle, 
-  AlertTriangle, 
   Cookie, 
   Database, 
-  Zap, 
   Monitor, 
-  Smartphone, 
-  Building2,
-  ExternalLink,
+  Smartphone,
   ChevronDown,
   ChevronUp,
-  Lock,
   Target,
-  TrendingUp,
   X,
-  RefreshCw,
-  Trash2
+  RefreshCw
 } from 'lucide-react';
 
 const CookiePolicyPage: React.FC = () => {

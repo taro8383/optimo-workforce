@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { MapPin, Calendar, Users, Globe, Brain, Shield, Linkedin, Twitter } from 'lucide-react';
+import { MapPin, Calendar, Globe, Brain, Shield, Linkedin, Twitter } from 'lucide-react';
 import { AboutTranslations } from '../types/i18n/about-translations';
 
 interface AboutPageProps {
@@ -61,10 +61,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
           role: t('teamSection.members.marcus.role'),
           description: t('teamSection.members.marcus.description')
         },
-        priya: {
-          name: t('teamSection.members.priya.name'),
-          role: t('teamSection.members.priya.role'),
-          description: t('teamSection.members.priya.description')
+        jenny: {
+          name: t('teamSection.members.jenny.name'),
+          role: t('teamSection.members.jenny.role'),
+          description: t('teamSection.members.jenny.description')
         },
         david: {
           name: t('teamSection.members.david.name'),
@@ -162,10 +162,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       twitter: '#'
     },
     {
-      name: tData.teamSection.members.priya.name,
-      role: tData.teamSection.members.priya.role,
-      description: tData.teamSection.members.priya.description,
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400',
+      name: tData.teamSection.members.jenny.name,
+      role: tData.teamSection.members.jenny.role,
+      description: tData.teamSection.members.jenny.description,
+      image: '/src/assets/Jenny Jones.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -173,7 +173,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.david.name,
       role: tData.teamSection.members.david.role,
       description: tData.teamSection.members.david.description,
-      image: 'https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/src/assets/David Kim.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -181,7 +181,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.elena.name,
       role: tData.teamSection.members.elena.role,
       description: tData.teamSection.members.elena.description,
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/src/assets/Elena Vasquez.jpg',
       linkedin: '#',
       twitter: '#'
     }
@@ -243,9 +243,6 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
                         alt={member.name}
                         className="w-20 h-20 rounded-full object-cover border-2 border-white"
                       />
-                      <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-secondary rounded-full flex items-center justify-center">
-                        <Users size={16} className="text-white" />
-                      </div>
                     </div>
                   ))}
                 </div>

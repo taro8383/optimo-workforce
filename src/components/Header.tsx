@@ -234,7 +234,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
               {isLanguageOpen && (
                 <div className="absolute top-full right-0 mt-2 w-56 bg-white rounded-lg shadow-lg border py-2 z-20">
                   <div className="px-4 py-2 border-b border-gray-100">
-                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{t('header.selectLanguage')}</div>
+                    <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{t('header:selectLanguage')}</div>
                   </div>
                   {languages.map((language) => (
                     <button

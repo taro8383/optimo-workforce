@@ -1,0 +1,244 @@
+{
+  "hero": {
+    "title": "Política de Privacidad",
+    "subtitle": "Tu privacidad es nuestra prioridad. Aprende cómo recopilamos, usamos y protegemos tu información personal.",
+    "lastUpdated": "Última Actualización",
+    "effectiveDate": "Fecha de Vigencia",
+    "date": "15 de enero de 2025"
+  },
+  "summary": {
+    "title": "Privacidad de un Vistazo",
+    "subtitle": "Puntos clave sobre cómo manejamos tus datos",
+    "cards": {
+      "noSelling": {
+        "title": "Sin Venta de Datos",
+        "description": "Nunca vendemos, intercambiamos ni alquilamos tu información personal a terceros"
+      },
+      "encryption": {
+        "title": "Encriptación Segura",
+        "description": "Todos los datos están protegidos con encriptación AES-256 y seguridad de vanguardia"
+      },
+      "rights": {
+        "title": "Tus Derechos",
+        "description": "Control total sobre tus datos con derechos de acceso, corrección y eliminación"
+      },
+      "compliance": {
+        "title": "Cumplimiento Global",
+        "description": "Cumplimiento con GDPR, CCPA y otras leyes internacionales de privacidad"
+      }
+    }
+  },
+  "tabs": {
+    "policy": "Política de Privacidad",
+    "rights": "Tus Derechos",
+    "cookies": "Política de Cookies",
+    "contact": "Contáctanos"
+  },
+  "policy": {
+    "notice": {
+      "title": "Aviso Importante",
+      "text": "Esta Política de Privacidad fue actualizada por última vez el {{date}}. Recomendamos revisar esta política periódicamente ya que podemos actualizarla para reflejar cambios en nuestras prácticas o leyes aplicables."
+    },
+    "sections": {
+      "overview": {
+        "title": "Resumen",
+        "content": "OPTIMO Workforce (\"nosotros,\" \"nuestro,\" o \"nos\") está comprometido a proteger tu privacidad y garantizar la seguridad de tu información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y salvaguardamos tu información cuando utilizas nuestra plataforma de optimización de fuerza laboral y servicios relacionados.\n\nEsta política se aplica a todos los usuarios de nuestros servicios, incluidos propietarios de restaurantes, gerentes, empleados y cualquier otra persona cuyos datos procesemos en conexión con nuestros servicios."
+      },
+      "collection": {
+        "title": "Información que Recopilamos",
+        "content": "Recopilamos varios tipos de información para proporcionar y mejorar nuestros servicios:\n\n**Información Personal:**\n• Nombre, dirección de correo electrónico, número de teléfono\n• Título del trabajo, departamento e información del rol\n• ID de empleado y preferencias de horario\n• Fotos de perfil y detalles de contacto\n\n**Información Empresarial:**\n• Nombre de la empresa, dirección y tipo de negocio\n• Datos del sistema POS e información de ventas\n• Datos de horarios y turnos\n• Métricas de costos laborales y rendimiento\n\n**Información Técnica:**\n• Dirección IP, tipo de navegador e información del dispositivo\n• Datos de uso y patrones de interacción\n• Cookies y tecnologías de seguimiento similares\n• Archivos de registro y datos de rendimiento del sistema\n\n**Información de Ubicación:**\n• Ubicación y dirección del negocio\n• Zona horaria y configuraciones regionales\n• Datos GPS (solo cuando se permite explícitamente)"
+      },
+      "use": {
+        "title": "Cómo Usamos Tu Información",
+        "content": "Usamos tu información para los siguientes propósitos:\n\n**Provisión del Servicio:**\n• Proporcionar servicios de optimización y programación de fuerza laboral\n• Generar pronósticos y recomendaciones impulsados por IA\n• Procesar pagos y gestionar facturación\n• Proporcionar soporte al cliente y asistencia técnica\n\n**Mejora del Servicio:**\n• Analizar patrones de uso para mejorar nuestra plataforma\n• Desarrollar nuevas características y funcionalidades\n• Realizar investigaciones y análisis\n• Personalizar tu experiencia\n\n**Comunicación:**\n• Enviar notificaciones y actualizaciones relacionadas con el servicio\n• Proporcionar respuestas de soporte al cliente\n• Compartir cambios importantes en políticas o servicios\n• Enviar comunicaciones de marketing (con consentimiento)\n\n**Legal y Seguridad:**\n• Cumplir con obligaciones legales y regulaciones\n• Proteger contra fraudes y amenazas de seguridad\n• Hacer cumplir nuestros términos de servicio\n• Responder a solicitudes legales y órdenes judiciales"
+      },
+      "sharing": {
+        "title": "Divulgación y Compartición de Información",
+        "content": "No vendemos, intercambiamos ni alquilamos tu información personal a terceros. Podemos compartir tu información en las siguientes circunstancias limitadas:\n\n**Proveedores de Servicios:**\n• Proveedores de alojamiento en la nube (AWS, Google Cloud)\n• Procesadores de pagos (Stripe, PayPal)\n• Proveedores de análisis (con datos anónimos)\n• Herramientas de soporte al cliente\n\n**Transferencias Empresariales:**\n• En conexión con fusiones, adquisiciones o ventas de activos\n• Durante procesos de diligencia debida\n• Con entidades sucesoras\n\n**Requisitos Legales:**\n• Para cumplir con leyes y regulaciones aplicables\n• En respuesta a solicitudes legales válidas\n• Para proteger nuestros derechos y propiedad\n• Para garantizar la seguridad del usuario\n\n**Con Tu Consentimiento:**\n• Cuando autorices explícitamente el compartir\n• Para propósitos comerciales específicos que apruebes\n• Con socios de integración que selecciones"
+      },
+      "security": {
+        "title": "Seguridad de Datos",
+        "content": "Implementamos medidas de seguridad integrales para proteger tu información:\n\n**Salvaguardas Técnicas:**\n• Encriptación AES-256 para datos en reposo y en tránsito\n• Autenticación multifactor para todas las cuentas\n• Auditorías de seguridad y pruebas de penetración regulares\n• Endpoints API seguros con limitación de tasa\n\n**Salvaguardas Administrativas:**\n• Verificaciones de antecedentes y capacitación de empleados\n• Controles de acceso basados en roles\n• Capacitación regular en conciencia de seguridad\n• Procedimientos de respuesta a incidentes\n\n**Salvaguardas Físicas:**\n• Centros de datos seguros con monitoreo 24/7\n• Controles de acceso biométricos\n• Sistemas de monitoreo ambiental\n• Sistemas de respaldo redundantes\n\n**Cumplimiento:**\n• Certificación SOC 2 Tipo II\n• Cumplimiento GDPR y CCPA\n• Certificación PCI DSS Nivel 1\n• Evaluaciones de seguridad de terceros regulares"
+      },
+      "retention": {
+        "title": "Retención de Datos",
+        "content": "Retenemos tu información durante el tiempo necesario para proporcionar nuestros servicios y cumplir con obligaciones legales:\n\n**Datos de Cuenta:**\n• Cuentas activas: Retenidas mientras la cuenta esté activa\n• Cuentas inactivas: Eliminadas después de 3 años de inactividad\n• Cuentas eliminadas: Eliminadas permanentemente dentro de 30 días\n\n**Datos Empresariales:**\n• Datos de horarios: Retenidos por 7 años para cumplimiento\n• Datos financieros: Retenidos según leyes fiscales aplicables\n• Datos analíticos: Anonimizados y retenidos indefinidamente\n\n**Requisitos Legales:**\n• Registros de empleo: Retenidos según leyes laborales locales\n• Registros fiscales: Retenidos según regulaciones aplicables\n• Registros de auditoría: Retenidos por 7 años\n\n**Solicitudes del Usuario:**\n• Solicitudes de eliminación de datos atendidas dentro de 30 días\n• Solicitudes de portabilidad de datos cumplidas dentro de 30 días\n• Solicitudes de cierre de cuenta procesadas dentro de 7 días"
+      },
+      "transfers": {
+        "title": "Transferencias Internacionales de Datos",
+        "content": "Como servicio global, podemos transferir tu información a través de fronteras:\n\n**Mecanismos de Transferencia:**\n• Cláusulas Contractuales Estándar (SCC)\n• Decisiones de adecuación por autoridades relevantes\n• Consentimiento explícito donde se requiera\n• Necesario para el desempeño del contrato\n\n**Ubicaciones de Datos:**\n• Servidores principales: Estados Unidos (AWS)\n• Servidores de respaldo: Unión Europea (AWS)\n• Centros de procesamiento: Estados Unidos, Irlanda\n• Centros de soporte: Estados Unidos, Filipinas\n\n**Salvaguardas:**\n• Todas las transferencias usan salvaguardas apropiadas\n• Revisión regular de mecanismos de transferencia\n• Cumplimiento con leyes locales de protección de datos\n• Notificación de cualquier cambio en prácticas de transferencia"
+      },
+      "children": {
+        "title": "Privacidad de los Niños",
+        "content": "Nuestros servicios no están destinados a niños menores de 16 años:\n\n**Restricciones de Edad:**\n• Edad mínima: 16 años\n• Consentimiento parental requerido para usuarios menores de 18\n• Verificación de edad durante la creación de cuenta\n• Eliminación inmediata de cuentas de menores\n\n**Protecciones Especiales:**\n• Protecciones de privacidad mejoradas para menores\n• Recopilación limitada de datos para usuarios menores de 18\n• Derechos de acceso parental donde sea aplicable\n• Revisión regular de procesos de verificación de edad\n\n**Cumplimiento:**\n• Cumplimiento COPPA en Estados Unidos\n• Cumplimiento Artículo 8 GDPR en la UE\n• Respeto a leyes locales de edad de consentimiento\n• Capacitación regular sobre derechos de privacidad infantil"
+      },
+      "changes": {
+        "title": "Cambios a Esta Política",
+        "content": "Podemos actualizar esta Política de Privacidad de vez en cuando:\n\n**Proceso de Notificación:**\n• Notificación por correo electrónico a todos los usuarios\n• Aviso prominente en nuestro sitio web\n• Notificaciones en la aplicación para cambios significativos\n• Período de aviso de 30 días para cambios materiales\n\n**Control de Versiones:**\n• Todas las versiones archivadas y accesibles\n• Indicación clara de los cambios realizados\n• Fecha de vigencia claramente indicada\n• Versiones anteriores disponibles bajo petición\n\n**Tus Opciones:**\n• Continuar usando los servicios (aceptación)\n• Contactarnos con preguntas o inquietudes\n• Ejercer tus derechos bajo leyes aplicables\n• Terminar tu cuenta si no estás de acuerdo"
+      }
+    }
+  },
+  "rights": {
+    "title": "Tus Derechos de Privacidad",
+    "subtitle": "Tienes derechos integrales sobre tus datos personales. Aquí está cómo ejercerlos.",
+    "helpTitle": "¿Necesitas Ayuda para Ejercer Tus Derechos?",
+    "helpText": "Nuestro Oficial de Protección de Datos está aquí para ayudarte a entender y ejercer tus derechos de privacidad. Respondemos a todas las solicitudes dentro de 30 días.",
+    "contactButton": "Contactar al Oficial de Protección de Datos",
+    "items": {
+      "access": {
+        "title": "Derecho de Acceso",
+        "description": "Solicitar una copia de la información personal que tenemos sobre ti",
+        "actions": ["Solicitar exportación de datos", "Ver información de cuenta", "Descargar reporte de datos"]
+      },
+      "rectification": {
+        "title": "Derecho de Rectificación",
+        "description": "Corregir información personal inexacta o incompleta",
+        "actions": ["Actualizar información de perfil", "Corregir detalles empresariales", "Modificar preferencias"]
+      },
+      "erasure": {
+        "title": "Derecho de Eliminación",
+        "description": "Solicitar la eliminación de tu información personal (derecho al olvido)",
+        "actions": ["Eliminar cuenta", "Eliminar datos específicos", "Anonimizar registros"]
+      },
+      "restriction": {
+        "title": "Derecho a Restringir el Procesamiento",
+        "description": "Limitar cómo procesamos tu información personal",
+        "actions": ["Pausar procesamiento de datos", "Limitar alcance de uso", "Restricciones temporales"]
+      },
+      "portability": {
+        "title": "Derecho a la Portabilidad de Datos",
+        "description": "Recibir tus datos en un formato estructurado y legible por máquina",
+        "actions": ["Exportar datos", "Transferir a otro servicio", "Descargar en JSON/CSV"]
+      },
+      "objection": {
+        "title": "Derecho a Oponerse",
+        "description": "Oponerse al procesamiento basado en intereses legítimos o marketing directo",
+        "actions": ["Optar por no recibir marketing", "Oponerse a perfiles", "Retirar consentimiento"]
+      }
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "subtitle": "Aprende sobre las cookies que usamos y cómo gestionar tus preferencias",
+    "whatAreCookies": {
+      "title": "¿Qué son las Cookies?",
+      "text": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas nuestro sitio web. Nos ayudan a proporcionarte una mejor experiencia recordando tus preferencias, analizando cómo usas nuestro sitio y habilitando ciertas funcionalidades."
+    },
+    "categories": {
+      "essential": {
+        "title": "Cookies Esenciales",
+        "description": "Necesarias para que el sitio web funcione correctamente",
+        "examples": ["Tokens de autenticación", "Gestión de sesión", "Características de seguridad"],
+        "required": "Requerido",
+        "retention": "Sesión o 1 año"
+      },
+      "performance": {
+        "title": "Cookies de Rendimiento",
+        "description": "Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web",
+        "examples": ["Google Analytics", "Tiempos de carga de página", "Seguimiento de errores"],
+        "optional": "Opcional",
+        "retention": "2 años"
+      },
+      "functional": {
+        "title": "Cookies Funcionales",
+        "description": "Habilitan funcionalidad mejorada y personalización",
+        "examples": ["Preferencias de idioma", "Configuraciones de tema", "Alternadores de características"],
+        "optional": "Opcional",
+        "retention": "1 año"
+      },
+      "marketing": {
+        "title": "Cookies de Marketing",
+        "description": "Usadas para entregar anuncios relevantes y rastrear campañas",
+        "examples": ["Segmentación de anuncios", "Seguimiento de campañas", "Píxeles de redes sociales"],
+        "optional": "Opcional",
+        "retention": "1 año"
+      }
+    },
+    "management": {
+      "title": "Gestión de Cookies",
+      "browserSettings": {
+        "title": "Configuración del Navegador",
+        "description": "Configura las preferencias de cookies en la configuración de tu navegador"
+      },
+      "privacyControls": {
+        "title": "Controles de Privacidad",
+        "description": "Usa nuestro panel de privacidad para gestionar tus preferencias"
+      },
+      "cookieReport": {
+        "title": "Reporte de Cookies",
+        "description": "Descarga un reporte detallado de todas las cookies que usamos"
+      }
+    }
+  },
+  "contact": {
+    "title": "Información de Contacto de Privacidad",
+    "subtitle": "Ponte en contacto con nuestros equipos de privacidad y legal para cualquier pregunta o inquietud",
+    "roles": {
+      "dpo": {
+        "title": "Oficial de Protección de Datos",
+        "email": "privacy@optimoworkforce.com",
+        "description": "Para todas las consultas relacionadas con privacidad y asuntos de protección de datos"
+      },
+      "legal": {
+        "title": "Departamento Legal",
+        "email": "legal@optimoworkforce.com",
+        "description": "Para solicitudes legales y asuntos de cumplimiento"
+      },
+      "support": {
+        "title": "Soporte al Cliente",
+        "email": "support@optimoworkforce.com",
+        "description": "Para preguntas generales sobre tu cuenta y servicios"
+      }
+    },
+    "company": {
+      "title": "Información de la Empresa",
+      "headquarters": "Sede Principal",
+      "euRepresentative": "Representante de la UE",
+      "companyName": "OPTIMO Workforce, Inc.",
+      "address": {
+        "line1": "123 Innovation Drive",
+        "line2": "San Francisco, CA 94105",
+        "country": "Estados Unidos"
+      },
+      "euCompany": "OPTIMO Workforce Europe B.V.",
+      "euAddress": {
+        "line1": "Carrer de Mallorca, 401",
+        "line2": "08013 Barcelona, España",
+        "country": "Unión Europea"
+      }
+    },
+    "response": {
+      "title": "Compromisos de Respuesta",
+      "initial": "Respuesta Inicial",
+      "full": "Resolución Completa",
+      "breach": "Notificación de Violación",
+      "times": {
+        "initial": "24 horas",
+        "full": "30 días",
+        "breach": "72 horas"
+      }
+    }
+  },
+  "downloads": {
+    "title": "Descarga Nuestros Documentos de Privacidad",
+    "subtitle": "Accede a nuestra documentación completa de privacidad para tus registros",
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "description": "Documento completo de política de privacidad (PDF)"
+    },
+    "cookiePolicy": {
+      "title": "Política de Cookies",
+      "description": "Guía detallada de uso y gestión de cookies"
+    },
+    "dpa": {
+      "title": "Acuerdo de Procesamiento de Datos",
+      "description": "APD compatible con GDPR para clientes empresariales"
+    },
+    "download": "Descargar PDF"
+  },
+  "common": {
+    "exerciseRight": "Ejercer Este Derecho",
+    "manageSettings": "Gestionar Configuración",
+    "contact": "Contactar"
+  }
+}

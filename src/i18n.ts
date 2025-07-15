@@ -40,6 +40,7 @@ import enROICalculator from './locales/en/components/roi-calculator.json';
 import enNewsletter from './locales/en/components/newsletter.json';
 import enAbout from './locales/en/components/about.json';
 import enContact from './locales/en/components/contact.json';
+import enPrivacyPolicy from './locales/en/components/privacy-policy.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -79,13 +80,14 @@ import esROICalculator from './locales/es/components/roi-calculator.json';
 import esNewsletter from './locales/es/components/newsletter.json';
 import esAbout from './locales/es/components/about.json';
 import esContact from './locales/es/components/contact.json';
+import esPrivacyPolicy from './locales/es/components/privacy-policy.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about', 'components/contact'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about', 'components/contact', 'components/privacy-policy'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -127,7 +129,8 @@ i18n
       'components/roi-calculator': enROICalculator,
       'components/newsletter': enNewsletter,
       'components/about': enAbout,
-      'components/contact': enContact
+      'components/contact': enContact,
+      'components/privacy-policy': enPrivacyPolicy
     },
     es: {
       common: esCommon,
@@ -168,7 +171,8 @@ i18n
       'components/roi-calculator': esROICalculator,
       'components/newsletter': esNewsletter,
       'components/about': esAbout,
-      'components/contact': esContact
+      'components/contact': esContact,
+      'components/privacy-policy': esPrivacyPolicy
     }
   },
     fallbackLng: 'en',
@@ -207,7 +211,9 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/components/about.json',
       './locales/es/components/about.json',
       './locales/en/components/contact.json',
-      './locales/es/components/contact.json'
+      './locales/es/components/contact.json',
+      './locales/en/components/privacy-policy.json',
+      './locales/es/components/privacy-policy.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

@@ -1,0 +1,244 @@
+{
+  "hero": {
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy is our priority. Learn how we collect, use, and protect your personal information.",
+    "lastUpdated": "Last Updated",
+    "effectiveDate": "Effective Date",
+    "date": "January 15, 2025"
+  },
+  "summary": {
+    "title": "Privacy at a Glance",
+    "subtitle": "Key points about how we handle your data",
+    "cards": {
+      "noSelling": {
+        "title": "No Data Selling",
+        "description": "We never sell, trade, or rent your personal information to third parties"
+      },
+      "encryption": {
+        "title": "Secure Encryption",
+        "description": "All data is protected with AES-256 encryption and industry-leading security"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "description": "Full control over your data with rights to access, correct, and delete"
+      },
+      "compliance": {
+        "title": "Global Compliance",
+        "description": "GDPR, CCPA, and other international privacy law compliance"
+      }
+    }
+  },
+  "tabs": {
+    "policy": "Privacy Policy",
+    "rights": "Your Rights",
+    "cookies": "Cookie Policy",
+    "contact": "Contact Us"
+  },
+  "policy": {
+    "notice": {
+      "title": "Important Notice",
+      "text": "This Privacy Policy was last updated on {{date}}. We recommend reviewing this policy periodically as we may update it to reflect changes in our practices or applicable laws."
+    },
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "content": "OPTIMO Workforce (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our workforce optimization platform and related services.\n\nThis policy applies to all users of our services, including restaurant owners, managers, employees, and any other individuals whose data we process in connection with our services."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect several types of information to provide and improve our services:\n\n**Personal Information:**\n• Name, email address, phone number\n• Job title, department, and role information\n• Employee ID and scheduling preferences\n• Profile photos and contact details\n\n**Business Information:**\n• Company name, address, and business type\n• POS system data and sales information\n• Scheduling and shift data\n• Labor cost and performance metrics\n\n**Technical Information:**\n• IP address, browser type, and device information\n• Usage data and interaction patterns\n• Cookies and similar tracking technologies\n• Log files and system performance data\n\n**Location Information:**\n• Business location and address\n• Time zone and regional settings\n• GPS data (only when explicitly permitted)"
+      },
+      "use": {
+        "title": "How We Use Your Information",
+        "content": "We use your information for the following purposes:\n\n**Service Provision:**\n• Provide workforce optimization and scheduling services\n• Generate AI-powered demand forecasts and recommendations\n• Process payments and manage billing\n• Provide customer support and technical assistance\n\n**Service Improvement:**\n• Analyze usage patterns to improve our platform\n• Develop new features and functionality\n• Conduct research and analytics\n• Personalize your experience\n\n**Communication:**\n• Send service-related notifications and updates\n• Provide customer support responses\n• Share important policy or service changes\n• Send marketing communications (with consent)\n\n**Legal and Security:**\n• Comply with legal obligations and regulations\n• Protect against fraud and security threats\n• Enforce our terms of service\n• Respond to legal requests and court orders"
+      },
+      "sharing": {
+        "title": "Information Sharing and Disclosure",
+        "content": "We do not sell, trade, or rent your personal information to third parties. We may share your information in the following limited circumstances:\n\n**Service Providers:**\n• Cloud hosting providers (AWS, Google Cloud)\n• Payment processors (Stripe, PayPal)\n• Analytics providers (with anonymized data)\n• Customer support tools\n\n**Business Transfers:**\n• In connection with mergers, acquisitions, or asset sales\n• During due diligence processes\n• With successor entities\n\n**Legal Requirements:**\n• To comply with applicable laws and regulations\n• In response to valid legal requests\n• To protect our rights and property\n• To ensure user safety and security\n\n**With Your Consent:**\n• When you explicitly authorize sharing\n• For specific business purposes you approve\n• With integration partners you select"
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement comprehensive security measures to protect your information:\n\n**Technical Safeguards:**\n• AES-256 encryption for data at rest and in transit\n• Multi-factor authentication for all accounts\n• Regular security audits and penetration testing\n• Secure API endpoints with rate limiting\n\n**Administrative Safeguards:**\n• Employee background checks and training\n• Role-based access controls\n• Regular security awareness training\n• Incident response procedures\n\n**Physical Safeguards:**\n• Secure data centers with 24/7 monitoring\n• Biometric access controls\n• Environmental monitoring systems\n• Redundant backup systems\n\n**Compliance:**\n• SOC 2 Type II certification\n• GDPR and CCPA compliance\n• PCI DSS Level 1 certification\n• Regular third-party security assessments"
+      },
+      "retention": {
+        "title": "Data Retention",
+        "content": "We retain your information for as long as necessary to provide our services and comply with legal obligations:\n\n**Account Data:**\n• Active accounts: Retained while account is active\n• Inactive accounts: Deleted after 3 years of inactivity\n• Deleted accounts: Permanently removed within 30 days\n\n**Business Data:**\n• Scheduling data: Retained for 7 years for compliance\n• Financial data: Retained per applicable tax laws\n• Analytics data: Anonymized and retained indefinitely\n\n**Legal Requirements:**\n• Employment records: Retained per local labor laws\n• Tax records: Retained per applicable regulations\n• Audit logs: Retained for 7 years\n\n**User Requests:**\n• Data deletion requests honored within 30 days\n• Data portability requests fulfilled within 30 days\n• Account closure requests processed within 7 days"
+      },
+      "transfers": {
+        "title": "International Data Transfers",
+        "content": "As a global service, we may transfer your information across borders:\n\n**Transfer Mechanisms:**\n• Standard Contractual Clauses (SCCs)\n• Adequacy decisions by relevant authorities\n• Explicit consent where required\n• Necessary for contract performance\n\n**Data Locations:**\n• Primary servers: United States (AWS)\n• Backup servers: European Union (AWS)\n• Processing centers: United States, Ireland\n• Support centers: United States, Philippines\n\n**Safeguards:**\n• All transfers use appropriate safeguards\n• Regular review of transfer mechanisms\n• Compliance with local data protection laws\n• Notification of any changes to transfer practices"
+      },
+      "children": {
+        "title": "Children's Privacy",
+        "content": "Our services are not intended for children under 16 years of age:\n\n**Age Restrictions:**\n• Minimum age: 16 years old\n• Parental consent required for users under 18\n• Age verification during account creation\n• Immediate deletion of underage accounts\n\n**Special Protections:**\n• Enhanced privacy protections for minors\n• Limited data collection for users under 18\n• Parental access rights where applicable\n• Regular review of age verification processes\n\n**Compliance:**\n• COPPA compliance in the United States\n• GDPR Article 8 compliance in the EU\n• Local age of consent laws respected\n• Regular training on children's privacy rights"
+      },
+      "changes": {
+        "title": "Changes to This Policy",
+        "content": "We may update this Privacy Policy from time to time:\n\n**Notification Process:**\n• Email notification to all users\n• Prominent notice on our website\n• In-app notifications for significant changes\n• 30-day notice period for material changes\n\n**Version Control:**\n• All versions archived and accessible\n• Clear indication of changes made\n• Effective date clearly stated\n• Previous versions available upon request\n\n**Your Options:**\n• Continue using services (acceptance)\n• Contact us with questions or concerns\n• Exercise your rights under applicable laws\n• Terminate your account if you disagree"
+      }
+    }
+  },
+  "rights": {
+    "title": "Your Privacy Rights",
+    "subtitle": "You have comprehensive rights over your personal data. Here's how to exercise them.",
+    "helpTitle": "Need Help Exercising Your Rights?",
+    "helpText": "Our Data Protection Officer is here to help you understand and exercise your privacy rights. We respond to all requests within 30 days.",
+    "contactButton": "Contact Data Protection Officer",
+    "items": {
+      "access": {
+        "title": "Right to Access",
+        "description": "Request a copy of the personal information we hold about you",
+        "actions": ["Request data export", "View account information", "Download data report"]
+      },
+      "rectification": {
+        "title": "Right to Rectification",
+        "description": "Correct inaccurate or incomplete personal information",
+        "actions": ["Update profile information", "Correct business details", "Modify preferences"]
+      },
+      "erasure": {
+        "title": "Right to Erasure",
+        "description": "Request deletion of your personal information (right to be forgotten)",
+        "actions": ["Delete account", "Remove specific data", "Anonymize records"]
+      },
+      "restriction": {
+        "title": "Right to Restrict Processing",
+        "description": "Limit how we process your personal information",
+        "actions": ["Pause data processing", "Limit usage scope", "Temporary restrictions"]
+      },
+      "portability": {
+        "title": "Right to Data Portability",
+        "description": "Receive your data in a structured, machine-readable format",
+        "actions": ["Export data", "Transfer to another service", "Download in JSON/CSV"]
+      },
+      "objection": {
+        "title": "Right to Object",
+        "description": "Object to processing based on legitimate interests or direct marketing",
+        "actions": ["Opt-out of marketing", "Object to profiling", "Withdraw consent"]
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "subtitle": "Learn about the cookies we use and how to manage your preferences",
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "text": "Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences, analyzing how you use our site, and enabling certain functionality."
+    },
+    "categories": {
+      "essential": {
+        "title": "Essential Cookies",
+        "description": "Necessary for the website to function properly",
+        "examples": ["Authentication tokens", "Session management", "Security features"],
+        "required": "Required",
+        "retention": "Session or 1 year"
+      },
+      "performance": {
+        "title": "Performance Cookies",
+        "description": "Help us understand how visitors interact with our website",
+        "examples": ["Google Analytics", "Page load times", "Error tracking"],
+        "optional": "Optional",
+        "retention": "2 years"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "description": "Enable enhanced functionality and personalization",
+        "examples": ["Language preferences", "Theme settings", "Feature toggles"],
+        "optional": "Optional",
+        "retention": "1 year"
+      },
+      "marketing": {
+        "title": "Marketing Cookies",
+        "description": "Used to deliver relevant advertisements and track campaigns",
+        "examples": ["Ad targeting", "Campaign tracking", "Social media pixels"],
+        "optional": "Optional",
+        "retention": "1 year"
+      }
+    },
+    "management": {
+      "title": "Cookie Management",
+      "browserSettings": {
+        "title": "Browser Settings",
+        "description": "Configure cookie preferences in your browser settings"
+      },
+      "privacyControls": {
+        "title": "Privacy Controls",
+        "description": "Use our privacy dashboard to manage your preferences"
+      },
+      "cookieReport": {
+        "title": "Cookie Report",
+        "description": "Download a detailed report of all cookies we use"
+      }
+    }
+  },
+  "contact": {
+    "title": "Privacy Contact Information",
+    "subtitle": "Get in touch with our privacy and legal teams for any questions or concerns",
+    "roles": {
+      "dpo": {
+        "title": "Data Protection Officer",
+        "email": "privacy@optimoworkforce.com",
+        "description": "For all privacy-related inquiries and data protection matters"
+      },
+      "legal": {
+        "title": "Legal Department",
+        "email": "legal@optimoworkforce.com",
+        "description": "For legal requests and compliance matters"
+      },
+      "support": {
+        "title": "Customer Support",
+        "email": "support@optimoworkforce.com",
+        "description": "For general questions about your account and services"
+      }
+    },
+    "company": {
+      "title": "Company Information",
+      "headquarters": "Headquarters",
+      "euRepresentative": "EU Representative",
+      "companyName": "OPTIMO Workforce, Inc.",
+      "address": {
+        "line1": "123 Innovation Drive",
+        "line2": "San Francisco, CA 94105",
+        "country": "United States"
+      },
+      "euCompany": "OPTIMO Workforce Europe B.V.",
+      "euAddress": {
+        "line1": "Carrer de Mallorca, 401",
+        "line2": "08013 Barcelona, Spain",
+        "country": "European Union"
+      }
+    },
+    "response": {
+      "title": "Response Commitments",
+      "initial": "Initial Response",
+      "full": "Full Resolution",
+      "breach": "Breach Notification",
+      "times": {
+        "initial": "24 hours",
+        "full": "30 days",
+        "breach": "72 hours"
+      }
+    }
+  },
+  "downloads": {
+    "title": "Download Our Privacy Documents",
+    "subtitle": "Access our complete privacy documentation for your records",
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "description": "Complete privacy policy document (PDF)"
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "description": "Detailed cookie usage and management guide"
+    },
+    "dpa": {
+      "title": "Data Processing Agreement",
+      "description": "GDPR-compliant DPA for business customers"
+    },
+    "download": "Download PDF"
+  },
+  "common": {
+    "exerciseRight": "Exercise This Right",
+    "manageSettings": "Manage Settings",
+    "contact": "Contact"
+  }
+}

@@ -41,6 +41,8 @@ import enNewsletter from './locales/en/components/newsletter.json';
 import enAbout from './locales/en/components/about.json';
 import enContact from './locales/en/components/contact.json';
 import enPrivacyPolicy from './locales/en/components/privacy-policy.json';
+import enTermsOfService from './locales/en/components/terms-of-service.json';
+import enCookiePolicy from './locales/en/components/cookie-policy.json';
 
 // Import Spanish translations
 import esCommon from './locales/es/common.json';
@@ -81,13 +83,15 @@ import esNewsletter from './locales/es/components/newsletter.json';
 import esAbout from './locales/es/components/about.json';
 import esContact from './locales/es/components/contact.json';
 import esPrivacyPolicy from './locales/es/components/privacy-policy.json';
+import esTermsOfService from './locales/es/components/terms-of-service.json';
+import esCookiePolicy from './locales/es/components/cookie-policy.json';
 
 // Initialize i18n
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about', 'components/contact', 'components/privacy-policy'],
+  ns: ['common', 'hero', 'header', 'pricing', 'problemSolution', 'socialProof', 'howItWorks', 'tippingSpotlight', 'globalIntelligence', 'finalCTA', 'footer', 'futureFeatures', 'restaurants', 'hotels', 'cafe', 'securityPage', 'integrationsPage', 'components/faq', 'components/roi-calculator', 'components/newsletter', 'components/about', 'components/contact', 'components/privacy-policy', 'components/terms-of-service', 'components/cookie-policy'],
   defaultNS: 'common',
   resources: {
     en: {
@@ -130,7 +134,9 @@ i18n
       'components/newsletter': enNewsletter,
       'components/about': enAbout,
       'components/contact': enContact,
-      'components/privacy-policy': enPrivacyPolicy
+      'components/privacy-policy': enPrivacyPolicy,
+      'components/terms-of-service': enTermsOfService,
+      'components/cookie-policy': enCookiePolicy
     },
     es: {
       common: esCommon,
@@ -172,7 +178,9 @@ i18n
       'components/newsletter': esNewsletter,
       'components/about': esAbout,
       'components/contact': esContact,
-      'components/privacy-policy': esPrivacyPolicy
+      'components/privacy-policy': esPrivacyPolicy,
+      'components/terms-of-service': esTermsOfService,
+      'components/cookie-policy': esCookiePolicy
     }
   },
     fallbackLng: 'en',
@@ -213,7 +221,11 @@ if (process.env.NODE_ENV === 'development') {
       './locales/en/components/contact.json',
       './locales/es/components/contact.json',
       './locales/en/components/privacy-policy.json',
-      './locales/es/components/privacy-policy.json'
+      './locales/es/components/privacy-policy.json',
+      './locales/en/components/terms-of-service.json',
+      './locales/es/components/terms-of-service.json',
+      './locales/en/components/cookie-policy.json',
+      './locales/es/components/cookie-policy.json'
     ], () => {
       i18n.reloadResources().then(() => i18n.changeLanguage(i18n.language));
     });

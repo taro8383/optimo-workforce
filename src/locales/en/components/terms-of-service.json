@@ -1,0 +1,308 @@
+{
+  "hero": {
+    "title": "Terms of Service",
+    "subtitle": "Legal terms and conditions governing your use of OPTIMO Workforce services. Please read carefully.",
+    "lastUpdated": "Last Updated",
+    "effectiveDate": "Effective Date"
+  },
+  "summary": {
+    "title": "Key Terms at a Glance",
+    "description": "Important highlights from our Terms of Service",
+    "fairUsage": {
+      "title": "Fair Usage",
+      "description": "Use our services lawfully and professionally for legitimate business purposes"
+    },
+    "transparentBilling": {
+      "title": "Transparent Billing",
+      "description": "Clear pricing with 30-day notice for changes and flexible cancellation"
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "description": "Your data remains yours with enterprise-grade security and privacy protection"
+    },
+    "fairResolution": {
+      "title": "Fair Resolution",
+      "description": "Binding arbitration for disputes with exceptions for urgent legal matters"
+    }
+  },
+  "tabs": {
+    "terms": "Terms of Service",
+    "acceptableUse": "Acceptable Use",
+    "billing": "Billing & Payment",
+    "contact": "Legal Contact"
+  },
+  "sections": {
+    "overview": {
+      "title": "Agreement Overview",
+      "warningTitle": "Important Legal Agreement",
+      "warningContent": "These Terms of Service constitute a legally binding agreement between you and OPTIMO Workforce. By using our services, you agree to be bound by all terms and conditions outlined below.",
+      "content": "These Terms of Service (\"Terms\") govern your use of OPTIMO Workforce's workforce optimization platform and related services (\"Services\") provided by OPTIMO Workforce, Inc. (\"Company,\" \"we,\" \"our,\" or \"us\").\n\nBy accessing or using our Services, you agree to be bound by these Terms. If you disagree with any part of these Terms, you may not access or use our Services.\n\nThese Terms apply to all users of our Services, including but not limited to restaurant owners, managers, employees, and any other individuals who access our platform."
+    },
+    "definitions": {
+      "title": "Definitions",
+      "account": "Account",
+      "accountDefinition": "Your OPTIMO Workforce user account that allows you to access and use our Services.",
+      "content": "Content",
+      "contentDefinition": "Any information, data, text, software, music, sound, photographs, graphics, video, messages, or other materials.",
+      "customerData": "Customer Data",
+      "customerDataDefinition": "All data, information, and content submitted, posted, or otherwise transmitted by you or your users through the Services."
+    },
+    "accountRegistration": {
+      "title": "Account Registration and Security",
+      "accountCreation": "Account Creation",
+      "accountCreationContent": "You must provide accurate, current, and complete information. You must be at least 18 years old to create an account. One person or legal entity may maintain only one account. You are responsible for maintaining account confidentiality.",
+      "accountSecurity": "Account Security",
+      "accountSecurityContent": "You are responsible for all activities under your account. You must notify us immediately of any unauthorized access. You must use strong passwords and enable two-factor authentication. We reserve the right to suspend accounts for security reasons."
+    },
+    "serviceDescription": {
+      "title": "Service Description and Availability",
+      "serviceOverview": "Service Overview",
+      "serviceOverviewContent": "AI-powered workforce optimization and scheduling platform. Demand forecasting and labor cost analytics. Integration with POS systems and third-party applications. Mobile and web-based access to scheduling tools.",
+      "serviceAvailability": "Service Availability",
+      "serviceAvailabilityContent": "We strive for 99.9% uptime but do not guarantee uninterrupted service. Scheduled maintenance will be announced in advance when possible. Emergency maintenance may occur without prior notice. Service availability may vary by geographic region."
+    },
+    "subscriptionBilling": {
+      "title": "Subscription and Billing Terms",
+      "subscriptionPlans": "Subscription Plans",
+      "subscriptionPlansContent": "Various subscription tiers available with different features. Subscription fees are based on number of users and locations. Enterprise plans available with custom pricing. All fees are exclusive of applicable taxes.",
+      "billingPayment": "Billing and Payment",
+      "billingPaymentContent": "Subscription fees are billed in advance on a monthly or annual basis. Payment is due immediately upon invoice. We accept major credit cards and ACH transfers. Late payments may result in service suspension."
+    },
+    "dataPrivacy": {
+      "title": "Data Privacy and Security",
+      "dataCollection": "Data Collection and Use",
+      "dataCollectionContent": "We collect and use data as described in our Privacy Policy. Customer Data remains your property and under your control. We use Customer Data only to provide and improve Services. We do not sell or share Customer Data with third parties.",
+      "dataSecurity": "Data Security",
+      "dataSecurityContent": "We implement industry-standard security measures. All data is encrypted in transit and at rest. Regular security audits and penetration testing. SOC 2 Type II certification and compliance programs."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "ourIP": "Our Intellectual Property",
+      "ourIPContent": "We retain all rights to the Services, including software and algorithms. Our trademarks, logos, and brand elements are our property. You may not copy, modify, or reverse engineer our Services. Any feedback you provide may be used to improve our Services.",
+      "yourContent": "Your Content and Data",
+      "yourContentContent": "You retain ownership of all Customer Data you submit. You grant us a license to use Customer Data to provide Services. You represent that you have rights to all submitted content. You are responsible for ensuring content does not infringe third-party rights."
+    },
+    "prohibitedUses": {
+      "title": "Prohibited Uses and Conduct",
+      "prohibitedActivities": "Prohibited Activities",
+      "prohibitedActivitiesContent": "Using Services for any unlawful purpose or activity. Attempting to gain unauthorized access to our systems. Interfering with or disrupting the Services or servers. Transmitting viruses, malware, or other harmful code.",
+      "contentRestrictions": "Content Restrictions",
+      "contentRestrictionsContent": "No illegal, harmful, threatening, or abusive content. No content that violates intellectual property rights. No spam, unsolicited communications, or commercial content. No content that violates privacy or publicity rights."
+    },
+    "warranties": {
+      "title": "Warranties and Disclaimers",
+      "limitedWarranty": "Limited Warranty",
+      "limitedWarrantyContent": "We warrant that Services will perform substantially as described. We warrant that we have the right to provide the Services. Warranty period is limited to your current subscription term. Exclusive remedy for warranty breach is service credit or refund.",
+      "disclaimers": "Disclaimers",
+      "disclaimersContent": "Services are provided \"as is\" and \"as available\". We disclaim all other warranties, express or implied. No warranty of merchantability or fitness for particular purpose. No warranty that Services will be error-free or uninterrupted."
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "liabilityLimitations": "Liability Limitations",
+      "liabilityLimitationsContent": "Our total liability is limited to amounts paid by you in the 12 months preceding the claim. We are not liable for indirect, incidental, or consequential damages. We are not liable for lost profits, data, or business opportunities. These limitations apply regardless of the theory of liability.",
+      "excludedDamages": "Excluded Damages",
+      "excludedDamagesContent": "Loss of revenue, profits, or business opportunities. Loss of data or information (except as covered by our data recovery procedures). Cost of substitute services or products. Damage to reputation or business relationships."
+    },
+    "indemnification": {
+      "title": "Indemnification",
+      "ourIndemnification": "Our Indemnification",
+      "ourIndemnificationContent": "We will defend you against claims that our Services infringe third-party intellectual property rights. We will pay damages awarded in final judgment or approved settlement. Our obligations are subject to prompt notice and cooperation from you. We may modify Services to avoid infringement instead of paying damages.",
+      "yourIndemnification": "Your Indemnification",
+      "yourIndemnificationContent": "You will defend us against claims arising from your use of Services. You will defend us against claims related to your Customer Data. You will defend us against claims from your violation of these Terms. You will pay damages awarded in final judgment or approved settlement."
+    },
+    "termination": {
+      "title": "Termination and Suspension",
+      "terminationByYou": "Termination by You",
+      "terminationByYouContent": "You may terminate your subscription at any time with 30 days' notice. Termination takes effect at the end of your current billing period. You remain responsible for all charges incurred before termination. You may export your data for 30 days after termination.",
+      "terminationByUs": "Termination by Us",
+      "terminationByUsContent": "We may terminate for material breach of these Terms. We may terminate for non-payment after 30 days' notice. We may terminate immediately for illegal use or security threats. We will provide reasonable notice when possible."
+    },
+    "governingLaw": {
+      "title": "Governing Law and Dispute Resolution",
+      "governingLaw": "Governing Law",
+      "governingLawContent": "These Terms are governed by the laws of the State of California. Federal law applies where applicable. International users subject to local mandatory laws. Conflicts of law principles do not apply.",
+      "disputeResolution": "Dispute Resolution",
+      "disputeResolutionContent": "Disputes will be resolved through binding arbitration. Arbitration conducted under American Arbitration Association rules. Arbitration location: San Francisco, California. Class action waiver applies to all disputes."
+    }
+  },
+  "acceptableUse": {
+    "title": "Acceptable Use Policy",
+    "description": "Guidelines for appropriate and lawful use of OPTIMO Workforce services",
+    "lawfulUse": {
+      "title": "Lawful Use Only",
+      "description": "Services must be used only for lawful business purposes in compliance with all applicable laws",
+      "violations": [
+        "Using Services for illegal activities",
+        "Violating employment or labor laws",
+        "Infringing intellectual property rights",
+        "Violating privacy or data protection laws"
+      ]
+    },
+    "systemIntegrity": {
+      "title": "System Integrity",
+      "description": "Users must not interfere with or compromise the security or integrity of our systems",
+      "violations": [
+        "Attempting unauthorized access",
+        "Introducing malware or viruses",
+        "Overloading systems with excessive requests",
+        "Reverse engineering or decompiling software"
+      ]
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "description": "All personal and business data must be handled in accordance with applicable privacy laws",
+      "violations": [
+        "Processing data without proper consent",
+        "Sharing employee data inappropriately",
+        "Failing to implement security measures",
+        "Violating data retention requirements"
+      ]
+    },
+    "professionalConduct": {
+      "title": "Professional Conduct",
+      "description": "Users must maintain professional standards and respect the rights of others",
+      "violations": [
+        "Harassment or discrimination",
+        "Sharing inappropriate content",
+        "Impersonating others",
+        "Engaging in fraudulent activities"
+      ]
+    },
+    "consequences": {
+      "title": "Violation Consequences",
+      "warning": "Warning",
+      "warningDescription": "First violation may result in a formal warning and required corrective action",
+      "suspension": "Suspension",
+      "suspensionDescription": "Repeated violations may result in temporary account suspension",
+      "termination": "Termination",
+      "terminationDescription": "Serious violations may result in immediate account termination"
+    },
+    "prohibitedActivities": "Prohibited Activities"
+  },
+  "billing": {
+    "title": "Billing & Payment Terms",
+    "description": "Transparent pricing and payment terms for OPTIMO Workforce subscriptions",
+    "subscriptionFees": {
+      "title": "Subscription Fees",
+      "description": "Transparent pricing based on your business size and needs",
+      "details": [
+        "Monthly or annual billing cycles available",
+        "Fees based on number of employees and locations",
+        "Enterprise pricing for large organizations",
+        "All prices exclude applicable taxes"
+      ]
+    },
+    "paymentTerms": {
+      "title": "Payment Terms",
+      "description": "Flexible payment options with secure processing",
+      "details": [
+        "Payment due immediately upon invoice",
+        "Major credit cards and ACH transfers accepted",
+        "Automatic renewal unless cancelled",
+        "Late payment fees may apply after 30 days"
+      ]
+    },
+    "refundPolicy": {
+      "title": "Refund Policy",
+      "description": "Clear refund terms and cancellation procedures",
+      "details": [
+        "No refunds for partial billing periods",
+        "30-day free trial for new customers",
+        "Cancellation effective at end of billing period",
+        "Data export available for 30 days after cancellation"
+      ]
+    },
+    "priceChanges": {
+      "title": "Price Changes",
+      "description": "Advance notice of any pricing modifications",
+      "details": [
+        "30 days advance notice of price changes",
+        "Changes apply to subsequent billing periods",
+        "Option to cancel before changes take effect",
+        "Grandfathered pricing for existing annual subscriptions"
+      ]
+    },
+    "pricing": {
+      "title": "Current Pricing Tiers"
+    },
+    "pricingTiers": {
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise",
+      "perMonth": "/month",
+      "custom": "Custom",
+      "upTo25Employees": "Up to 25 employees",
+      "upTo100Employees": "Up to 100 employees",
+      "unlimitedEmployees": "Unlimited employees"
+    },
+    "security": {
+      "title": "Secure Payment Processing",
+      "description": "All payments are processed securely through industry-leading payment processors with PCI DSS Level 1 compliance.",
+      "pciDss": "PCI DSS",
+      "level1Certified": "Level 1 Certified",
+      "sslEncryption": "SSL Encryption",
+      "fraudProtection": "Fraud Protection",
+      "monitoring": "24/7 Monitoring"
+    }
+  },
+  "contact": {
+    "title": "Legal Contact Information",
+    "description": "Contact our legal team for questions about these Terms of Service",
+    "legalDepartment": {
+      "title": "Legal Department",
+      "email": "legal@optimoworkforce.com",
+      "description": "For legal notices, contract questions, and compliance matters"
+    },
+    "termsConditions": {
+      "title": "Terms & Conditions",
+      "email": "terms@optimoworkforce.com",
+      "description": "Questions about these Terms of Service and user agreements"
+    },
+    "billingAccounts": {
+      "title": "Billing & Accounts",
+      "email": "billing@optimoworkforce.com",
+      "description": "Billing disputes, payment issues, and account management"
+    },
+    "legalNotice": {
+      "registeredAddress": "Registered Address",
+      "companyName": "OPTIMO Workforce, Inc.",
+      "address": "123 Innovation Drive",
+      "cityState": "San Francisco, CA 94105",
+      "country": "United States",
+      "legalService": "Legal Service",
+      "legalServiceDescription": "For legal notices and service of process",
+      "certifiedMail": "Certified mail to registered address",
+      "responseTime": "Response within 5 business days"
+    },
+    "disputeResolution": {
+      "title": "Dispute Resolution Process",
+      "step1": "Contact Us",
+      "step1Description": "Reach out to our legal team to discuss the issue and attempt resolution",
+      "step2": "Mediation",
+      "step2Description": "If needed, we'll engage in good faith mediation to resolve disputes",
+      "step3": "Arbitration",
+      "step3Description": "Final disputes resolved through binding arbitration in San Francisco, CA"
+    }
+  },
+  "download": {
+    "title": "Download Legal Documents",
+    "description": "Access our complete legal documentation for your records",
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Complete terms and conditions document (PDF)"
+    },
+    "acceptableUse": {
+      "title": "Acceptable Use Policy",
+      "description": "Guidelines for appropriate service usage"
+    },
+    "serviceAgreement": {
+      "title": "Service Agreement",
+      "description": "Master service agreement for enterprise customers"
+    },
+    "downloadPDF": "Download PDF"
+  },
+  "dates": {
+    "lastUpdated": "January 15, 2025",
+    "effectiveDate": "January 15, 2025"
+  }
+}

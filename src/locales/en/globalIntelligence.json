@@ -1,34 +1,35 @@
 {
-  "title": "Global Workforce Intelligence",
-  "subtitle": "Regional insights to optimize your international operations",
-  "performance": "Performance Benchmark",
-  "keyFeature": "Key Feature",
+  "title": "Works Everywhere Money Matters",
+  "subtitle": "Built by restaurant people, for restaurant people (in 47 countries)",
+  "performance": "Real Results",
+  "keyFeature": "#1 Feature",
   "regions": {
     "US": {
-      "title": "US Market Insights",
-      "description": "Specialized for US tipping culture and labor regulations",
-      "data": "22% Higher",
-      "feature": "Tip Optimization"
+      "title": "US Operations",
+      "description": "Masters the chaos of tip pools, splits, and those lovely labor law surprises",
+      "data": "$18/hour average",
+      "feature": "Smart Tip Distribution"
     },
     "EU": {
-      "title": "European Market Insights",
-      "description": "Optimized for EU labor laws and service charge models",
-      "data": "18% Savings",
-      "feature": "Break Management",
+      "title": "European Operations",
+      "description": "Handles every break law, service charge, and regional quirk automatically",
+      "data": "€1,800/month saved",
+      "feature": "Auto-Compliance",
       "city": "London"
     },
     "LATAM": {
-      "title": "Latin America Insights",
-      "description": "Tailored for LATAM cash-based economies and shift patterns",
-      "data": "30% Faster",
-      "feature": "OXXO Integration"
+      "title": "Latin America Operations",
+      "description": "Built for real-world cash operations and split-shift cultures",
+      "data": "3x faster payroll",
+      "feature": "OXXO Pay Ready"
     },
     "APAC": {
-      "title": "Asia-Pacific Insights",
-      "description": "Designed for APAC mobile-first workforce management",
-      "data": "25% Growth",
-      "feature": "Mobile Workforce",
+      "title": "Asia-Pacific Operations",
+      "description": "Mobile-first because your team lives on Wechat anyway",
+      "data": "87% adoption rate",
+      "feature": "One-Tap Everything",
       "city": "Singapore"
     }
   }
 }
+

@@ -1,18 +1,18 @@
 {
-  "title": "Cómo Funciona Optimo",
-  "subtitle": "Proceso simple de tres pasos para optimizar su personal",
+  "title": "Ridículamente Fácil de Empezar",
+  "subtitle": "Más rápido que preparar tu café de la mañana",
   "step1": {
-    "title": "Conecte Su POS",
-    "description": "Integre con su sistema de punto de venta existente en minutos"
+    "title": "Conecta Tu Punto de Venta",
+    "description": "Funciona con lo que sea que uses. Lo prometemos. (Hasta con ese dinosaurio)"
   },
   "step2": {
-    "title": "Analice Datos",
-    "description": "Nuestra IA procesa datos históricos de ventas, clima y eventos"
+    "title": "Deja Que Nuestra IA Haga Su Magia",
+    "description": "Aprende tus patrones más rápido que tu mesero nuevo aprende el menú"
   },
   "step3": {
-    "title": "Obtenga Horario Óptimo",
-    "description": "Reciba horarios generados por IA que maximizan la eficiencia"
+    "title": "Ve Cómo Bajan Tus Costos",
+    "description": "Obtén horarios que sí funcionan. Concepto revolucionario, ¿no?"
   },
-  "example": "Ejemplo",
-  "dataStreams": "Múltiples flujos de datos analizados"
+  "example": "La Prueba:",
+  "dataStreams": "27 puntos de datos = 1 horario perfecto"
 }

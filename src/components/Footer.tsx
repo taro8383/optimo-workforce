@@ -35,13 +35,13 @@ const Footer: React.FC<FooterProps> = ({ currentPage, setCurrentPage }) => {
               className="flex items-center gap-3 mb-6 hover:opacity-80 transition-opacity"
             >
               <picture>
-                <source media="(max-width: 1023px)" srcSet="/src/assets/dark-logom.png 1x, /src/assets/dark-logo@2M.png 2x" />
-                <source media="(min-width: 1024px)" srcSet="/src/assets/dark-logo.png 1x, /src/assets/dark-logo@2D.png 2x" />
-                <img 
-                  src="/src/assets/dark-logo.png" 
-                  alt="Optimo Workforce Logo"
-                  className="h-10"
-                />
+              <source media="(max-width: 1023px)" srcSet="/optimo-workforce/assets/dark-logom.png 1x, /optimo-workforce/assets/dark-logo@2M.png 2x" />
+              <source media="(min-width: 1024px)" srcSet="/optimo-workforce/assets/dark-logo.png 1x, /optimo-workforce/assets/dark-logo@2D.png 2x" />
+              <img
+                src="/optimo-workforce/assets/dark-logo.png"
+                alt="Optimo Workforce Logo"
+                className="h-8 w-auto"
+              />
               </picture>
             </button>
             

@@ -1,26 +1,26 @@
 {
-  "title": "¿Listo para Optimizar su Personal?",
-  "subtitle": "Únase a miles de negocios maximizando su eficiencia laboral",
-  "getStarted": "Empezar - Prueba Gratis",
-  "bookDemo": "Reservar Demo",
-  "contactSales": "Contactar Ventas",
-  "trustedBy": "Confiado por marcas líderes en hostelería mundialmente",
+  "title": "Tu Competencia Ya Está Usando Esto",
+  "subtitle": "Cada día que esperas te cuesta $156 en mano de obra innecesaria",
+  "getStarted": "Empieza Gratis - Sin Tarjeta",
+  "bookDemo": "Muéstrame el Dinero",
+  "contactSales": "Habla con un Humano",
+  "trustedBy": "2,847+ operadores inteligentes no pueden estar equivocados",
   "features": {
-    "guaranteedSavings": "20%+ Ahorros",
-    "savingsDesc": "Ahorros Garantizados",
-    "freeTrial": "30 Días",
-    "freeTrialDesc": "Prueba Gratis",
+    "guaranteedSavings": "Dinero de Vuelta",
+    "savingsDesc": "Si No Ahorras",
+    "freeTrial": "Mes Completo",
+    "freeTrialDesc": "Prueba Sin Riesgo",
     "minutes": "5 Minutos",
-    "setupTime": "Configuración Rápida"
+    "setupTime": "Al Primer Horario"
   },
-  "getAudit": "Obtener Auditoría Gratis",
-  "talkToExpert": "Hablar con un Experto",
-  "disclaimer": "Sin tarjeta de crédito requerida",
+  "getAudit": "Auditoría Gratis →",
+  "talkToExpert": "Conversacion Rápida →",
+  "disclaimer": "En serio, sin tarjeta de crédito. No somos de esos.",
   "benefits": {
-    "title": "Lo que Obtendrá",
-    "costReduction": "23% reducción promedio en costos laborales",
-    "timeSaved": "15+ horas ahorradas semanalmente en programación",
-    "happyStaff": "Personal más feliz y comprometido",
-    "support": "Soporte dedicado 24/7"
+    "title": "Esta Es Tu Nueva Realidad:",
+    "costReduction": "Pon $2,300+ de vuelta en tu bolsillo cada mes",
+    "timeSaved": "Recupera tus fines de semana (15+ horas ahorradas)",
+    "happyStaff": "Personal que llega feliz a trabajar",
+    "support": "Soporte que sí contesta el teléfono"
   }
 }

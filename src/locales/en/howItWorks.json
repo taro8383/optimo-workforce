@@ -1,18 +1,19 @@
 {
-  "title": "How Optimo Works",
-  "subtitle": "Simple three-step process to optimize your workforce",
+  "title": "Ridiculously Simple to Start",
+  "subtitle": "Faster setup than your morning espresso machine",
   "step1": {
-    "title": "Connect Your POS",
-    "description": "Integrate with your existing point-of-sale system in minutes"
+    "title": "Plug In Your POS",
+    "description": "Works with whatever you're using. Promise. (Even that ancient one)"
   },
   "step2": {
-    "title": "Analyze Data",
-    "description": "Our AI processes historical sales, weather, and events data"
+    "title": "Let Our AI Do Its Magic",
+    "description": "It learns your patterns faster than your newest server learns the menu"
   },
   "step3": {
-    "title": "Get Optimal Schedule",
-    "description": "Receive AI-generated schedules that maximize efficiency"
+    "title": "Watch Your Labor Costs Drop",
+    "description": "Get schedules that actually work. Novel concept, right?"
   },
-  "example": "Example",
-  "dataStreams": "Multiple data streams analyzed"
+  "example": "Proof:",
+  "dataStreams": "5 data points = 1 perfect schedule"
 }
+

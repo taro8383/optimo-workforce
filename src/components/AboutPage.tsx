@@ -165,7 +165,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.jenny.name,
       role: tData.teamSection.members.jenny.role,
       description: tData.teamSection.members.jenny.description,
-      image: '/src/assets/Jenny Jones.jpg',
+      image: '/optimo-workforce/assets/Jenny Jones.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -173,7 +173,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.david.name,
       role: tData.teamSection.members.david.role,
       description: tData.teamSection.members.david.description,
-      image: '/src/assets/David Kim.jpg',
+      image: '/optimo-workforce/assets/David Kim.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -181,7 +181,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.elena.name,
       role: tData.teamSection.members.elena.role,
       description: tData.teamSection.members.elena.description,
-      image: '/src/assets/Elena Vasquez.jpg',
+      image: '/optimo-workforce/assets/Elena Vasquez.jpg',
       linkedin: '#',
       twitter: '#'
     }

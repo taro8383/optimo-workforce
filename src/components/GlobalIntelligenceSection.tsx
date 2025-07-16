@@ -38,7 +38,7 @@ const GlobalIntelligenceSection: React.FC = () => {
                           : 'bg-gray-50 hover:bg-gray-100'
                       }`}
                     >
-                      <img src={`/src/assets/${key.toLowerCase()}.png`} alt={key} className="mx-auto w-16 h-16 object-contain mb-2" />
+                      <img src={`/optimo-workforce/assets/${key.toLowerCase()}.png`} alt={key} className="mx-auto w-16 h-16 object-contain mb-2" />
                       <div className="text-sm font-semibold">{key}</div>
                     </button>
                 ))}
@@ -50,7 +50,7 @@ const GlobalIntelligenceSection: React.FC = () => {
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="flex items-center gap-4 mb-6">
                 <img 
-                  src={`/src/assets/${
+                  src={`/optimo-workforce/assets/${
                     activeRegion === 'US' ? 'tip' : 
                     activeRegion === 'EU' ? 'break' : 
                     activeRegion === 'LATAM' ? 'oxxo' : 'mobile'

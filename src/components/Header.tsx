@@ -62,13 +62,13 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
               <picture>
-                <source media="(max-width: 1023px)" srcSet="/src/assets/logom.png 1x, /src/assets/logo@2M.png 2x" />
-                <source media="(min-width: 1024px)" srcSet="/src/assets/logo.png 1x, /src/assets/logo@2D.png 2x" />
-                <img 
-                  src="/src/assets/logo.png" 
-                  alt="Optimo Workforce Logo"
-                  className="h-10"
-                />
+              <source media="(max-width: 1023px)" srcSet="/optimo-workforce/assets/logom.png 1x, /optimo-workforce/assets/logo@2M.png 2x" />
+              <source media="(min-width: 1024px)" srcSet="/optimo-workforce/assets/logo.png 1x, /optimo-workforce/assets/logo@2D.png 2x" />
+              <img
+                src="/optimo-workforce/assets/logo.png"
+                alt="Optimo Workforce Logo"
+                className="h-8 w-auto"
+              />
               </picture>
           </button>
 
@@ -269,10 +269,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
           </button>
         </div>
 
-        {/* Mobile Menu */}
+
+              {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden border-t bg-white">
             <div className="py-4 space-y-4">
+              {/* Features */}
               <button 
                 onClick={() => handleNavigation('home')}
                 className={`block font-medium transition-colors ${
@@ -281,6 +283,39 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
               >
                 {t('header:features')}
               </button>
+
+              {/* Product Dropdown */}
+              <div className="space-y-2">
+                <div className="text-gray-700 font-medium">{t('header:product')}</div>
+                <div className="pl-4 space-y-2">
+                  <button 
+                    onClick={() => handleNavigation('future-features')}
+                    className={`block text-left transition-colors ${
+                      currentPage === 'future-features' ? 'text-primary' : 'text-gray-600 hover:text-primary'
+                    }`}
+                  >
+                    {t('header:futureFeatures')}
+                  </button>
+                  <button 
+                    onClick={() => handleNavigation('integrations')}
+                    className={`block text-left transition-colors ${
+                      currentPage === 'integrations' ? 'text-primary' : 'text-gray-600 hover:text-primary'
+                    }`}
+                  >
+                    {t('header:integrations')}
+                  </button>
+                  <button 
+                    onClick={() => handleNavigation('security')}
+                    className={`block text-left transition-colors ${
+                      currentPage === 'security' ? 'text-primary' : 'text-gray-600 hover:text-primary'
+                    }`}
+                  >
+                    {t('header:security')}
+                  </button>
+                </div>
+              </div>
+
+              {/* Solutions Dropdown */}
               <div className="space-y-2">
                 <div className="text-gray-700 font-medium">{t('header:solutions')}</div>
                 <div className="pl-4 space-y-2">
@@ -310,23 +345,11 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
                   </button>
                 </div>
               </div>
-              <button 
-                onClick={() => handleNavigation('future-features')}
-                className={`block font-medium transition-colors ${
-                  currentPage === 'future-features' ? 'text-primary' : 'text-gray-700 hover:text-primary'
-                }`}
-              >
-                {t('header:futureFeatures')}
-              </button>
+
+              {/* Resources Dropdown */}
               <div className="space-y-2">
-                <div className="text-gray-700 font-medium">{t('header.resources')}</div>
+                <div className="text-gray-700 font-medium">{t('header:resources')}</div>
                 <div className="pl-4 space-y-2">
-                  <a href="#blog" className="block text-gray-600 hover:text-primary">
-                    Blog
-                  </a>
-                  <a href="#documentation" className="block text-gray-600 hover:text-primary">
-                    Documentation
-                  </a>
                   <button 
                     onClick={() => handleNavigation('faq')}
                     className={`block text-left transition-colors ${
@@ -343,9 +366,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
                   >
                     {t('header:roiCalculator')}
                   </button>
-                  <a href="#webinars" className="block text-gray-600 hover:text-primary">
-                    Webinars
-                  </a>
                   <button 
                     onClick={() => handleNavigation('newsletter')}
                     className={`block text-left transition-colors ${
@@ -354,16 +374,9 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
                   >
                     {t('header:newsletter')}
                   </button>
-                  <button 
-                    onClick={() => handleNavigation('future-features')}
-                    className={`block text-left transition-colors ${
-                      currentPage === 'future-features' ? 'text-primary' : 'text-gray-600 hover:text-primary'
-                    }`}
-                  >
-                    {t('header.futureFeatures')}
-                  </button>
                 </div>
               </div>
+
               <button 
                 onClick={() => handleNavigation('about')}
                 className={`block font-medium transition-colors ${

@@ -1,37 +1,37 @@
 {
-  "title": "Problemas que Resolvemos",
-  "subtitle": "Desafíos comunes en la gestión de personal en hostelería",
+  "title": "¿Tu Mayor Fuga de Ganancias? Tu Horario.",
+  "subtitle": "Esto es lo que realmente está pasando en tu negocio",
   "problem": {
-    "title": "El Problema",
-    "overstaffing": "Exceso de personal en horas lentas",
-    "manualScheduling": "Programación manual que toma horas",
-    "highTurnover": "Altos costos de rotación de personal"
+    "title": "Ahora Mismo Estás...",
+    "overstaffing": "Pagando a 5 personas para hacer el trabajo de 3",
+    "manualScheduling": "Perdiendo días enteros peleando con Excel",
+    "highTurnover": "Contratando a tu mesero número 47 del año"
   },
   "solution": {
-    "title": "Nuestra Solución",
-    "aiPrediction": "IA predice el personal óptimo",
-    "automatedProcess": "Proceso de programación automatizado",
-    "improvedRetention": "Mejor retención de empleados"
+    "title": "Con Optimo Vas a...",
+    "aiPrediction": "Saber exactamente a quién programar (y cuándo)",
+    "automatedProcess": "Crear horarios perfectos en 3 clicks",
+    "improvedRetention": "Mantener a tus mejores empleados felices y ganando"
   },
   "result": {
-    "title": "El Resultado",
-    "laborCosts": "23% menos en costos laborales",
-    "managerTime": "15 horas ahorradas semanalmente",
-    "hiringCosts": "40% menos en costos de contratación"
+    "title": "Lo Que Significa...",
+    "laborCosts": "$2,300 de vuelta en tu bolsillo cada mes",
+    "managerTime": "Tus viernes libres (en serio)",
+    "hiringCosts": "La mitad de dolores de cabeza contratando"
   },
   "beforeAfter": {
-    "title": "Antes y Después de Optimo",
+    "title": "El Efecto Optimo™",
     "before": "Antes",
     "after": "Después",
     "beforeItems": {
-      "overstaffed": "Exceso o falta de personal",
-      "manual": "Programación manual",
-      "turnover": "Altas tasas de rotación"
+      "overstaffed": "\"¿Por qué hay 8 meseros y está muerto?\"",
+      "manual": "\"Ahí se va mi fin de semana... otra vez\"",
+      "turnover": "\"Otro que no vino. Genial.\""
     },
     "afterItems": {
-      "optimized": "Niveles de personal optimizados",
-      "automation": "Programación automatizada",
-      "happy": "Personal feliz y comprometido"
+      "optimized": "\"Cobertura perfecta en cada turno\"",
+      "automation": "\"Listo en 5 minutos. Y BIEN HECHO.\"",
+      "happy": "\"Mi equipo llega con ganas de trabajar\""
     }
   }
 }

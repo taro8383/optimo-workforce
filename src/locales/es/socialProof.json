@@ -1,32 +1,32 @@
 {
-  "title": "Confiado por Líderes de la Industria",
-  "subtitle": "Únase a miles de negocios transformando su gestión de personal",
+  "title": "No Solo Nos Creas a Nosotros",
+  "subtitle": "(Aunque nuestras mamás piensan que somos geniales)",
   "testimonial1": {
     "author": "María Rodríguez",
     "position": "Dueña, La Casa Mexicana",
-    "text": "Optimo redujo nuestros costos laborales en 23% mientras mejoraba la satisfacción del personal. ¡Solo la programación con IA me ahorra 15 horas a la semana!"
+    "text": "Pasé de pesadillas con horarios a dormir tranquila. $4,600 ahorrados al mes, retención de personal arriba 40%, y tomé vacaciones. Vacaciones DE VERDAD."
   },
   "testimonial2": {
     "author": "Kevin Lim",
     "position": "Gerente de Operaciones, Golden Dragon",
-    "text": "Desde que implementamos Optimo, nuestras propinas aumentaron 22% y logramos 100% de cumplimiento en todas las ubicaciones."
+    "text": "Nuestros meseros ganan 22% más en propinas con MENOS horas. Ahora me adoran. Además, cero problemas de cumplimiento en 7 sucursales. Cero."
   },
   "metrics": {
-    "costReduction": "Reducción de Costos Laborales",
-    "timeSaved": "Tiempo Ahorrado Semanalmente",
-    "staffSatisfaction": "Satisfacción del Personal",
-    "higherTips": "Propinas Más Altas",
-    "compliance": "Tasa de Cumplimiento",
-    "locations": "Ubicaciones Gestionadas"
+    "costReduction": "Ahorro Promedio",
+    "timeSaved": "Horas Recuperadas",
+    "staffSatisfaction": "Felicidad del Equipo",
+    "higherTips": "Aumento en Propinas",
+    "compliance": "Cumplimiento Total",
+    "locations": "Sucursales Exitosas"
   },
   "benchmarks": {
-    "title": "Puntos de Referencia de Rendimiento",
-    "laborCost": "Costo Laboral % de Ingresos",
-    "turnoverRate": "Tasa de Rotación de Personal",
-    "schedulingTime": "Tiempo de Programación Semanal",
-    "industry": "Promedio de la Industria",
-    "improvement": "Mejora",
-    "reduction": "Reducción",
-    "saved": "Ahorrado Semanalmente"
+    "title": "La Cruda Realidad del Sector",
+    "laborCost": "Realidad del Costo Laboral",
+    "turnoverRate": "Tasa de Abandono",
+    "schedulingTime": "Infierno de Horarios",
+    "industry": "Todos los Demás",
+    "improvement": "Tú Podrías Tener",
+    "reduction": "Adiós Para Siempre",
+    "saved": "De Vuelta en Tu Vida"
   }
 }

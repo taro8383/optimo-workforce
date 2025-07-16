@@ -1,33 +1,33 @@
 {
-  "title": "Inteligencia Global de Personal",
-  "subtitle": "Perspectivas regionales para optimizar sus operaciones internacionales",
-  "performance": "Punto de Referencia de Rendimiento",
-  "keyFeature": "Característica Clave",
+  "title": "Funciona Donde Sea Que Haya Dinero",
+  "subtitle": "Hecho por gente de restaurantes, para gente de restaurantes (en 47 países)",
+  "performance": "Resultados Reales",
+  "keyFeature": "Función #1",
   "regions": {
     "US": {
-      "title": "Perspectivas del Mercado EE.UU.",
-      "description": "Especializado para la cultura de propinas y regulaciones laborales de EE.UU.",
-      "data": "22% Más Alto",
-      "feature": "Optimización de Propinas"
+      "title": "Operaciones en EEUU",
+      "description": "Domina el caos de las propinas, divisiones y esas sorpresas de leyes laborales",
+      "data": "$18/hora promedio",
+      "feature": "Distribución Inteligente de Propinas"
     },
     "EU": {
-      "title": "Perspectivas del Mercado Europeo",
-      "description": "Optimizado para leyes laborales de la UE y modelos de cargo por servicio",
-      "data": "18% Ahorro",
-      "feature": "Gestión de Descansos",
+      "title": "Operaciones Europeas",
+      "description": "Maneja cada ley de descansos, cargos por servicio y peculiaridades regionales automáticamente",
+      "data": "€1,800/mes ahorrados",
+      "feature": "Cumplimiento Automático",
       "city": "Londres"
     },
     "LATAM": {
-      "title": "Perspectivas de Latinoamérica",
-      "description": "Adaptado para economías basadas en efectivo y patrones de turnos en LATAM",
-      "data": "30% Más Rápido",
-      "feature": "Integración OXXO"
+      "title": "Operaciones en Latinoamérica",
+      "description": "Diseñado para operaciones reales con efectivo y culturas de turnos partidos",
+      "data": "3x más rápida la nómina",
+      "feature": "Listo para OXXO Pay"
     },
     "APAC": {
-      "title": "Perspectivas de Asia-Pacífico",
-      "description": "Diseñado para gestión de personal móvil en APAC",
-      "data": "25% Crecimiento",
-      "feature": "Personal Móvil",
+      "title": "Operaciones Asia-Pacífico",
+      "description": "Todo en móvil porque tu equipo vive en Wechat de todas formas",
+      "data": "87% tasa de adopción",
+      "feature": "Todo en Un Toque",
       "city": "Singapur"
     }
   }

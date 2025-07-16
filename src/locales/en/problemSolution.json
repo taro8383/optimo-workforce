@@ -1,37 +1,38 @@
 {
-  "title": "Problems We Solve",
-  "subtitle": "Common challenges in hospitality workforce management",
+  "title": "Your Biggest Profit Leak? Your Schedule.",
+  "subtitle": "Here's what's really happening behind the scenes",
   "problem": {
-    "title": "The Problem",
-    "overstaffing": "Overstaffing during slow periods",
-    "manualScheduling": "Manual scheduling takes hours",
-    "highTurnover": "High staff turnover costs"
+    "title": "Right Now You're...",
+    "overstaffing": "Paying 5 people to do 3 people's work",
+    "manualScheduling": "Wasting entire days on Excel gymnastics",
+    "highTurnover": "Hiring your 47th server this year"
   },
   "solution": {
-    "title": "Our Solution",
-    "aiPrediction": "AI predicts optimal staffing",
-    "automatedProcess": "Automated scheduling process",
-    "improvedRetention": "Improved employee retention"
+    "title": "With Optimo You'll...",
+    "aiPrediction": "Know exactly who to schedule (and when)",
+    "automatedProcess": "Build perfect schedules in 3 clicks",
+    "improvedRetention": "Keep your A-players happy & earning"
   },
   "result": {
-    "title": "The Result",
-    "laborCosts": "23% lower labor costs",
-    "managerTime": "15 hours saved weekly",
-    "hiringCosts": "40% lower hiring costs"
+    "title": "Which Means...",
+    "laborCosts": "$2,300 back in your pocket monthly",
+    "managerTime": "Your Fridays back (seriously)",
+    "hiringCosts": "Half the hiring headaches"
   },
   "beforeAfter": {
-    "title": "Before & After Optimo",
+    "title": "The Optimo Effect™",
     "before": "Before",
     "after": "After",
     "beforeItems": {
-      "overstaffed": "Overstaffed or understaffed",
-      "manual": "Manual scheduling",
-      "turnover": "High turnover rates"
+      "overstaffed": "\"Why are we dead with 8 servers on?\"",
+      "manual": "\"There goes my weekend... again\"",
+      "turnover": "\"Another no-show. Great.\""
     },
     "afterItems": {
-      "optimized": "Optimized staffing levels",
-      "automation": "Automated scheduling",
-      "happy": "Happy, engaged staff"
+      "optimized": "\"Perfect coverage every shift\"",
+      "automation": "\"Done in 5 minutes. Done RIGHT.\"",
+      "happy": "\"My team actually shows up excited\""
     }
   }
 }
+

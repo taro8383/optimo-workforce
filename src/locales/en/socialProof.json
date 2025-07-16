@@ -1,32 +1,33 @@
 {
-  "title": "Trusted by Industry Leaders",
-  "subtitle": "Join thousands of businesses transforming their workforce management",
+  "title": "Don't Just Take Our Word For It",
+  "subtitle": "(Though our moms think we're pretty great)",
   "testimonial1": {
     "author": "Maria Rodriguez",
     "position": "Owner, La Casa Mexicana",
-    "text": "Optimo reduced our labor costs by 23% while improving staff satisfaction. The AI scheduling alone saves me 15 hours a week!"
+    "text": "I went from scheduling nightmares to sleeping soundly. $4,600 saved monthly, staff retention up 40%, and I actually took a vacation. A REAL vacation."
   },
   "testimonial2": {
     "author": "Kevin Lim",
     "position": "Operations Manager, Golden Dragon",
-    "text": "Since implementing Optimo, our tips have increased by 22% and we've achieved 100% compliance across all locations."
+    "text": "Our servers are making 22% more in tips with FEWER hours. They love me now. Also, zero compliance headaches across 7 locations. Zero."
   },
   "metrics": {
-    "costReduction": "Labor Cost Reduction",
-    "timeSaved": "Weekly Time Saved",
-    "staffSatisfaction": "Staff Satisfaction",
-    "higherTips": "Higher Tips",
-    "compliance": "Compliance Rate",
-    "locations": "Locations Managed"
+    "costReduction": "Average Savings",
+    "timeSaved": "Hours Reclaimed",
+    "staffSatisfaction": "Team Happiness",
+    "higherTips": "Tip Increase",
+    "compliance": "Compliance Score",
+    "locations": "Locations Thriving"
   },
   "benchmarks": {
-    "title": "Performance Benchmarks",
-    "laborCost": "Labor Cost % of Revenue",
-    "turnoverRate": "Staff Turnover Rate",
-    "schedulingTime": "Weekly Scheduling Time",
-    "industry": "Industry Average",
-    "improvement": "Improvement",
-    "reduction": "Reduction",
-    "saved": "Saved Weekly"
+    "title": "Industry Reality Check",
+    "laborCost": "Labor Cost Reality",
+    "turnoverRate": "Staff Ghosting Rate",
+    "schedulingTime": "Schedule Building Hell",
+    "industry": "Everyone Else",
+    "improvement": "You Could Have",
+    "reduction": "Gone Forever",
+    "saved": "Back In Your Life"
   }
 }
+

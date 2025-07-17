@@ -5,6 +5,7 @@ import OptimizedImage from './OptimizedImage';
 
 const SocialProofSection: React.FC = () => {
   const { t } = useTranslation();
+  
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +22,7 @@ const SocialProofSection: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
               <OptimizedImage 
-                src="/optimo-workforce/assets/maria.jpg" 
+                src="/public/assets/maria.jpg" 
                 alt="Maria Rodriguez"
                 className="w-16 h-16 rounded-full object-cover"
                 width={64}
@@ -59,7 +60,7 @@ const SocialProofSection: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
               <OptimizedImage 
-                src="/optimo-workforce/assets/kevin.jpg" 
+                src="/public/assets/kevin.jpg" 
                 alt="Kevin Lim"
                 className="w-16 h-16 rounded-full object-cover"
                 width={64}

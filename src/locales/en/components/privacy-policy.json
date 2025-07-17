@@ -1,199 +1,199 @@
 {
   "hero": {
     "title": "Privacy Policy",
-    "subtitle": "Your privacy is our priority. Learn how we collect, use, and protect your personal information.",
+    "subtitle": "Your data is your business. Here's exactly what we do with it, in plain English.",
     "lastUpdated": "Last Updated",
     "effectiveDate": "Effective Date",
     "date": "January 15, 2025"
   },
   "summary": {
-    "title": "Privacy at a Glance",
-    "subtitle": "Key points about how we handle your data",
+    "title": "The Quick Version",
+    "subtitle": "No BS, just the facts about your data",
     "cards": {
       "noSelling": {
-        "title": "No Data Selling",
-        "description": "We never sell, trade, or rent your personal information to third parties"
+        "title": "We Don't Sell You Out",
+        "description": "Your data stays yours. Period. No selling, no renting, no shady deals."
       },
       "encryption": {
-        "title": "Secure Encryption",
-        "description": "All data is protected with AES-256 encryption and industry-leading security"
+        "title": "Fort Knox Security",
+        "description": "Military-grade AES-256 encryption. Your data is safer than your restaurant's secret sauce."
       },
       "rights": {
-        "title": "Your Rights",
-        "description": "Full control over your data with rights to access, correct, and delete"
+        "title": "You're the Boss",
+        "description": "See it, fix it, delete it. Your data, your rules. We just follow orders."
       },
       "compliance": {
-        "title": "Global Compliance",
-        "description": "GDPR, CCPA, and other international privacy law compliance"
+        "title": "By the Book Globally",
+        "description": "GDPR, CCPA, and every privacy law that matters. We're compliant so you don't have to worry."
       }
     }
   },
   "tabs": {
-    "policy": "Privacy Policy",
-    "rights": "Your Rights",
-    "cookies": "Cookie Policy",
-    "contact": "Contact Us"
+    "policy": "The Full Story",
+    "rights": "Your Powers",
+    "cookies": "Cookie Talk",
+    "contact": "Get in Touch"
   },
   "policy": {
     "notice": {
-      "title": "Important Notice",
-      "text": "This Privacy Policy was last updated on {{date}}. We recommend reviewing this policy periodically as we may update it to reflect changes in our practices or applicable laws."
+      "title": "Heads Up",
+      "text": "This policy was last updated on {{date}}. We'll ping you if anything big changes. Check back occasionally—we update when laws change or we get smarter."
     },
     "sections": {
       "overview": {
-        "title": "Overview",
-        "content": "OPTIMO Workforce (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our workforce optimization platform and related services.\n\nThis policy applies to all users of our services, including restaurant owners, managers, employees, and any other individuals whose data we process in connection with our services."
+        "title": "The Deal",
+        "content": "OPTIMO Workforce (that's us) takes your privacy seriously. Dead seriously. This policy explains exactly what data we collect, why we need it, and what we do with it. No lawyer speak, no hidden catches.\n\nThis covers everyone who touches our platform—restaurant owners crushing it, managers keeping it together, staff getting scheduled fairly, and anyone else whose data crosses our servers."
       },
       "collection": {
-        "title": "Information We Collect",
-        "content": "We collect several types of information to provide and improve our services:\n\n**Personal Information:**\n• Name, email address, phone number\n• Job title, department, and role information\n• Employee ID and scheduling preferences\n• Profile photos and contact details\n\n**Business Information:**\n• Company name, address, and business type\n• POS system data and sales information\n• Scheduling and shift data\n• Labor cost and performance metrics\n\n**Technical Information:**\n• IP address, browser type, and device information\n• Usage data and interaction patterns\n• Cookies and similar tracking technologies\n• Log files and system performance data\n\n**Location Information:**\n• Business location and address\n• Time zone and regional settings\n• GPS data (only when explicitly permitted)"
+        "title": "What We Collect (And Why)",
+        "content": "Here's what we need to make the magic happen:\n\n**About You:**\n• Your name and contact info (so we can, you know, contact you)\n• Job details and role (to set proper permissions)\n• Employee ID and schedule preferences (for smart scheduling)\n• Profile photo if you upload one (to humanize the dashboard)\n\n**About Your Business:**\n• Company details and type (to optimize correctly)\n• POS data and sales numbers (the fuel for our AI)\n• All your scheduling data (to find the patterns)\n• Labor costs and metrics (to show you the savings)\n\n**Tech Stuff:**\n• IP address and device info (for security)\n• How you use our platform (to make it better)\n• Cookies that remember you (so you don't re-login 50 times)\n• System logs (to fix things when they break)\n\n**Location Bits:**\n• Your restaurant addresses (obviously)\n• Time zones (so shifts make sense)\n• GPS only if you explicitly allow it (for mobile clock-ins)"
       },
       "use": {
-        "title": "How We Use Your Information",
-        "content": "We use your information for the following purposes:\n\n**Service Provision:**\n• Provide workforce optimization and scheduling services\n• Generate AI-powered demand forecasts and recommendations\n• Process payments and manage billing\n• Provide customer support and technical assistance\n\n**Service Improvement:**\n• Analyze usage patterns to improve our platform\n• Develop new features and functionality\n• Conduct research and analytics\n• Personalize your experience\n\n**Communication:**\n• Send service-related notifications and updates\n• Provide customer support responses\n• Share important policy or service changes\n• Send marketing communications (with consent)\n\n**Legal and Security:**\n• Comply with legal obligations and regulations\n• Protect against fraud and security threats\n• Enforce our terms of service\n• Respond to legal requests and court orders"
+        "title": "What We Do With It",
+        "content": "Your data works hard to save you money:\n\n**Making the Platform Work:**\n• Create those perfect AI-powered schedules\n• Predict your busy times with scary accuracy\n• Handle payments without the hassle\n• Help you when stuff goes sideways\n\n**Making It Better:**\n• Spot patterns to improve predictions\n• Build features you actually need\n• Research what works across restaurants\n• Customize your experience\n\n**Keeping You in the Loop:**\n• Service updates you need to know\n• Answers to your support tickets\n• Important changes or downtime notices\n• Marketing emails (only if you said yes)\n\n**Keeping It Legal:**\n• Following the law (boring but necessary)\n• Fighting fraud and hackers\n• Enforcing our terms\n• Responding to legal stuff (rarely happens)"
       },
       "sharing": {
-        "title": "Information Sharing and Disclosure",
-        "content": "We do not sell, trade, or rent your personal information to third parties. We may share your information in the following limited circumstances:\n\n**Service Providers:**\n• Cloud hosting providers (AWS, Google Cloud)\n• Payment processors (Stripe, PayPal)\n• Analytics providers (with anonymized data)\n• Customer support tools\n\n**Business Transfers:**\n• In connection with mergers, acquisitions, or asset sales\n• During due diligence processes\n• With successor entities\n\n**Legal Requirements:**\n• To comply with applicable laws and regulations\n• In response to valid legal requests\n• To protect our rights and property\n• To ensure user safety and security\n\n**With Your Consent:**\n• When you explicitly authorize sharing\n• For specific business purposes you approve\n• With integration partners you select"
+        "title": "Who Sees Your Data (Spoiler: Almost Nobody)",
+        "content": "We don't sell your data. Ever. Full stop. Here's who might see it:\n\n**Our Partners (The Good Ones):**\n• Cloud providers (AWS, Google—the reliable giants)\n• Payment processors (Stripe, PayPal—the trusted ones)\n• Analytics tools (anonymized data only)\n• Support tools (to help you faster)\n\n**Business Moves:**\n• If we merge or get acquired (we'll tell you first)\n• During investment talks (under strict NDAs)\n• To any successor company (with same protections)\n\n**Legal Stuff:**\n• When the law requires it (we fight unreasonable requests)\n• Valid court orders (we verify everything)\n• To protect our rights or yours\n• To keep everyone safe\n\n**When You Say So:**\n• Integrations you connect\n• Partners you choose\n• Sharing you explicitly approve"
       },
       "security": {
-        "title": "Data Security",
-        "content": "We implement comprehensive security measures to protect your information:\n\n**Technical Safeguards:**\n• AES-256 encryption for data at rest and in transit\n• Multi-factor authentication for all accounts\n• Regular security audits and penetration testing\n• Secure API endpoints with rate limiting\n\n**Administrative Safeguards:**\n• Employee background checks and training\n• Role-based access controls\n• Regular security awareness training\n• Incident response procedures\n\n**Physical Safeguards:**\n• Secure data centers with 24/7 monitoring\n• Biometric access controls\n• Environmental monitoring systems\n• Redundant backup systems\n\n**Compliance:**\n• SOC 2 Type II certification\n• GDPR and CCPA compliance\n• PCI DSS Level 1 certification\n• Regular third-party security assessments"
+        "title": "How We Protect Your Stuff",
+        "content": "We're paranoid about security (in a good way):\n\n**Digital Fort Knox:**\n• Military-grade AES-256 encryption everywhere\n• Multi-factor authentication on all accounts\n• Regular hacker tests (ethical ones)\n• Rate-limited APIs (stops brute force attacks)\n\n**Human Safeguards:**\n• Background checks on our team\n• Need-to-know access only\n• Regular security training\n• Incident response drills\n\n**Physical Security:**\n• Data centers with armed guards\n• Biometric scanners\n• Climate-controlled environments\n• Multiple backup locations\n\n**Compliance Badges:**\n• SOC 2 Type II (the hard one)\n• GDPR and CCPA compliant\n• PCI DSS Level 1 (for payments)\n• Third-party audits quarterly"
       },
       "retention": {
-        "title": "Data Retention",
-        "content": "We retain your information for as long as necessary to provide our services and comply with legal obligations:\n\n**Account Data:**\n• Active accounts: Retained while account is active\n• Inactive accounts: Deleted after 3 years of inactivity\n• Deleted accounts: Permanently removed within 30 days\n\n**Business Data:**\n• Scheduling data: Retained for 7 years for compliance\n• Financial data: Retained per applicable tax laws\n• Analytics data: Anonymized and retained indefinitely\n\n**Legal Requirements:**\n• Employment records: Retained per local labor laws\n• Tax records: Retained per applicable regulations\n• Audit logs: Retained for 7 years\n\n**User Requests:**\n• Data deletion requests honored within 30 days\n• Data portability requests fulfilled within 30 days\n• Account closure requests processed within 7 days"
+        "title": "How Long We Keep It",
+        "content": "We're not data hoarders. Here's our retention policy:\n\n**Your Account:**\n• Active: We keep it while you're with us\n• Inactive: Auto-deleted after 3 years of silence\n• Deleted: Gone within 30 days, guaranteed\n\n**Business Records:**\n• Schedules: 7 years (labor law requirements)\n• Financial: Whatever tax law demands\n• Analytics: Anonymized and kept forever\n\n**Legal Minimums:**\n• Employment records: Per your local laws\n• Tax documents: Per your tax authority\n• Audit trails: 7 years standard\n\n**Your Requests:**\n• Delete requests: Done in 30 days\n• Data exports: Delivered in 30 days\n• Account closure: Processed in 7 days"
       },
       "transfers": {
-        "title": "International Data Transfers",
-        "content": "As a global service, we may transfer your information across borders:\n\n**Transfer Mechanisms:**\n• Standard Contractual Clauses (SCCs)\n• Adequacy decisions by relevant authorities\n• Explicit consent where required\n• Necessary for contract performance\n\n**Data Locations:**\n• Primary servers: United States (AWS)\n• Backup servers: European Union (AWS)\n• Processing centers: United States, Ireland\n• Support centers: United States, Philippines\n\n**Safeguards:**\n• All transfers use appropriate safeguards\n• Regular review of transfer mechanisms\n• Compliance with local data protection laws\n• Notification of any changes to transfer practices"
+        "title": "When Data Travels",
+        "content": "We're global, so sometimes your data takes trips:\n\n**How We Move It:**\n• Standard Contractual Clauses (EU-approved)\n• Adequacy decisions (where applicable)\n• Your consent (when needed)\n• Contract necessity (to deliver service)\n\n**Where It Lives:**\n• Main servers: US (AWS Virginia)\n• Backups: EU (AWS Ireland)\n• Processing: US and Ireland\n• Support: US and Philippines\n\n**Protection En Route:**\n• Encrypted during every transfer\n• Regular mechanism reviews\n• Local law compliance everywhere\n• You're notified of any changes"
       },
       "children": {
-        "title": "Children's Privacy",
-        "content": "Our services are not intended for children under 16 years of age:\n\n**Age Restrictions:**\n• Minimum age: 16 years old\n• Parental consent required for users under 18\n• Age verification during account creation\n• Immediate deletion of underage accounts\n\n**Special Protections:**\n• Enhanced privacy protections for minors\n• Limited data collection for users under 18\n• Parental access rights where applicable\n• Regular review of age verification processes\n\n**Compliance:**\n• COPPA compliance in the United States\n• GDPR Article 8 compliance in the EU\n• Local age of consent laws respected\n• Regular training on children's privacy rights"
+        "title": "Kids and Privacy",
+        "content": "Our platform is for working professionals:\n\n**Age Rules:**\n• Minimum age: 16 years\n• Under 18: Need parental permission\n• Age verified at signup\n• Underage accounts deleted immediately\n\n**Extra Protection for Minors:**\n• Enhanced privacy defaults\n• Limited data collection\n• Parental access rights\n• Regular process reviews\n\n**Legal Compliance:**\n• COPPA compliant (US)\n• GDPR Article 8 (EU)\n• Local age laws respected\n• Team trained on youth privacy"
       },
       "changes": {
-        "title": "Changes to This Policy",
-        "content": "We may update this Privacy Policy from time to time:\n\n**Notification Process:**\n• Email notification to all users\n• Prominent notice on our website\n• In-app notifications for significant changes\n• 30-day notice period for material changes\n\n**Version Control:**\n• All versions archived and accessible\n• Clear indication of changes made\n• Effective date clearly stated\n• Previous versions available upon request\n\n**Your Options:**\n• Continue using services (acceptance)\n• Contact us with questions or concerns\n• Exercise your rights under applicable laws\n• Terminate your account if you disagree"
+        "title": "When This Policy Changes",
+        "content": "We'll always tell you first:\n\n**How We Notify:**\n• Email to all users\n• Big banner on the website\n• In-app notifications\n• 30-day warning for big changes\n\n**Version History:**\n• Every version saved\n• Changes clearly marked\n• Effective dates shown\n• Old versions available\n\n**Your Choices:**\n• Keep using = you accept\n• Questions? Just ask\n• Exercise your rights anytime\n• Don't like it? Delete anytime"
       }
     }
   },
   "rights": {
-    "title": "Your Privacy Rights",
-    "subtitle": "You have comprehensive rights over your personal data. Here's how to exercise them.",
-    "helpTitle": "Need Help Exercising Your Rights?",
-    "helpText": "Our Data Protection Officer is here to help you understand and exercise your privacy rights. We respond to all requests within 30 days.",
-    "contactButton": "Contact Data Protection Officer",
+    "title": "Your Data Superpowers",
+    "subtitle": "You own your data. Here's how to boss it around.",
+    "helpTitle": "Need Backup?",
+    "helpText": "Our Data Protection Officer is your privacy superhero. We respond to all requests within 30 days, usually much faster.",
+    "contactButton": "Call in the DPO",
     "items": {
       "access": {
-        "title": "Right to Access",
-        "description": "Request a copy of the personal information we hold about you",
-        "actions": ["Request data export", "View account information", "Download data report"]
+        "title": "See Everything",
+        "description": "Get a complete copy of everything we know about you",
+        "actions": ["Export all data", "View your profile", "Download detailed report"]
       },
       "rectification": {
-        "title": "Right to Rectification",
-        "description": "Correct inaccurate or incomplete personal information",
-        "actions": ["Update profile information", "Correct business details", "Modify preferences"]
+        "title": "Fix Mistakes",
+        "description": "Spot an error? Fix it instantly",
+        "actions": ["Update your info", "Correct business details", "Change preferences"]
       },
       "erasure": {
-        "title": "Right to Erasure",
-        "description": "Request deletion of your personal information (right to be forgotten)",
-        "actions": ["Delete account", "Remove specific data", "Anonymize records"]
+        "title": "Nuclear Option",
+        "description": "Delete everything. Gone. Poof. (We'll miss you)",
+        "actions": ["Delete entire account", "Remove specific data", "Anonymize instead"]
       },
       "restriction": {
-        "title": "Right to Restrict Processing",
-        "description": "Limit how we process your personal information",
-        "actions": ["Pause data processing", "Limit usage scope", "Temporary restrictions"]
+        "title": "Pump the Brakes",
+        "description": "Tell us to stop doing certain things with your data",
+        "actions": ["Pause processing", "Limit usage", "Temporary freeze"]
       },
       "portability": {
-        "title": "Right to Data Portability",
-        "description": "Receive your data in a structured, machine-readable format",
-        "actions": ["Export data", "Transfer to another service", "Download in JSON/CSV"]
+        "title": "Take It With You",
+        "description": "Your data in a neat package to go",
+        "actions": ["Export everything", "Move to competitor", "Download as JSON/CSV"]
       },
       "objection": {
-        "title": "Right to Object",
-        "description": "Object to processing based on legitimate interests or direct marketing",
-        "actions": ["Opt-out of marketing", "Object to profiling", "Withdraw consent"]
+        "title": "Just Say No",
+        "description": "Object to how we use your data",
+        "actions": ["Stop marketing emails", "No profiling", "Revoke consent"]
       }
     }
   },
   "cookies": {
-    "title": "Cookie Policy",
-    "subtitle": "Learn about the cookies we use and how to manage your preferences",
+    "title": "Cookie Control Center",
+    "subtitle": "Those little files that make the internet work. Here's ours.",
     "whatAreCookies": {
-      "title": "What Are Cookies?",
-      "text": "Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences, analyzing how you use our site, and enabling certain functionality."
+      "title": "Cookies 101",
+      "text": "Cookies are tiny text files that remember stuff—like your login, preferences, and how you use our site. They're not spyware, just helpful little memory chips."
     },
     "categories": {
       "essential": {
-        "title": "Essential Cookies",
-        "description": "Necessary for the website to function properly",
-        "examples": ["Authentication tokens", "Session management", "Security features"],
-        "required": "Required",
+        "title": "The Must-Haves",
+        "description": "Without these, nothing works",
+        "examples": ["Keeping you logged in", "Security tokens", "Basic functions"],
+        "required": "Non-negotiable",
         "retention": "Session or 1 year"
       },
       "performance": {
-        "title": "Performance Cookies",
-        "description": "Help us understand how visitors interact with our website",
-        "examples": ["Google Analytics", "Page load times", "Error tracking"],
-        "optional": "Optional",
+        "title": "The Improvers",
+        "description": "Help us understand what's working",
+        "examples": ["Page speed tracking", "Error reports", "Usage patterns"],
+        "optional": "Your choice",
         "retention": "2 years"
       },
       "functional": {
-        "title": "Functional Cookies",
-        "description": "Enable enhanced functionality and personalization",
-        "examples": ["Language preferences", "Theme settings", "Feature toggles"],
-        "optional": "Optional",
+        "title": "The Enhancers",
+        "description": "Remember your preferences",
+        "examples": ["Language choice", "Dark mode", "Dashboard layout"],
+        "optional": "Your choice",
         "retention": "1 year"
       },
       "marketing": {
-        "title": "Marketing Cookies",
-        "description": "Used to deliver relevant advertisements and track campaigns",
-        "examples": ["Ad targeting", "Campaign tracking", "Social media pixels"],
-        "optional": "Optional",
+        "title": "The Marketers",
+        "description": "Help us reach people like you",
+        "examples": ["Ad effectiveness", "Campaign tracking", "Social pixels"],
+        "optional": "Your choice",
         "retention": "1 year"
       }
     },
     "management": {
-      "title": "Cookie Management",
+      "title": "Take Control",
       "browserSettings": {
-        "title": "Browser Settings",
-        "description": "Configure cookie preferences in your browser settings"
+        "title": "Browser Controls",
+        "description": "Use your browser settings to manage cookies"
       },
       "privacyControls": {
-        "title": "Privacy Controls",
-        "description": "Use our privacy dashboard to manage your preferences"
+        "title": "Privacy Dashboard",
+        "description": "One-click cookie management in your account"
       },
       "cookieReport": {
-        "title": "Cookie Report",
-        "description": "Download a detailed report of all cookies we use"
+        "title": "Full Cookie List",
+        "description": "See every cookie we use, explained"
       }
     }
   },
   "contact": {
-    "title": "Privacy Contact Information",
-    "subtitle": "Get in touch with our privacy and legal teams for any questions or concerns",
+    "title": "Privacy Help Desk",
+    "subtitle": "Real humans ready to help with privacy questions",
     "roles": {
       "dpo": {
         "title": "Data Protection Officer",
         "email": "privacy@optimoworkforce.com",
-        "description": "For all privacy-related inquiries and data protection matters"
+        "description": "Your privacy advocate and data rights defender"
       },
       "legal": {
-        "title": "Legal Department",
+        "title": "Legal Team",
         "email": "legal@optimoworkforce.com",
-        "description": "For legal requests and compliance matters"
+        "description": "For the serious legal stuff and compliance questions"
       },
       "support": {
-        "title": "Customer Support",
+        "title": "Support Heroes",
         "email": "support@optimoworkforce.com",
-        "description": "For general questions about your account and services"
+        "description": "General questions about your account and services"
       }
     },
     "company": {
-      "title": "Company Information",
-      "headquarters": "Headquarters",
-      "euRepresentative": "EU Representative",
+      "title": "Where to Find Us",
+      "headquarters": "World HQ",
+      "euRepresentative": "EU Base",
       "companyName": "OPTIMO Workforce, Inc.",
       "address": {
         "line1": "123 Innovation Drive",
@@ -208,10 +208,10 @@
       }
     },
     "response": {
-      "title": "Response Commitments",
-      "initial": "Initial Response",
-      "full": "Full Resolution",
-      "breach": "Breach Notification",
+      "title": "Response Speed",
+      "initial": "First Response",
+      "full": "Complete Resolution",
+      "breach": "Breach Alert",
       "times": {
         "initial": "24 hours",
         "full": "30 days",
@@ -220,25 +220,25 @@
     }
   },
   "downloads": {
-    "title": "Download Our Privacy Documents",
-    "subtitle": "Access our complete privacy documentation for your records",
+    "title": "Privacy Papers",
+    "subtitle": "All our privacy docs in one place",
     "privacyPolicy": {
-      "title": "Privacy Policy",
-      "description": "Complete privacy policy document (PDF)"
+      "title": "Full Privacy Policy",
+      "description": "This entire policy as a PDF"
     },
     "cookiePolicy": {
-      "title": "Cookie Policy",
-      "description": "Detailed cookie usage and management guide"
+      "title": "Cookie Details",
+      "description": "Deep dive into our cookie usage"
     },
     "dpa": {
       "title": "Data Processing Agreement",
       "description": "GDPR-compliant DPA for business customers"
     },
-    "download": "Download PDF"
+    "download": "Grab the PDF"
   },
   "common": {
-    "exerciseRight": "Exercise This Right",
-    "manageSettings": "Manage Settings",
-    "contact": "Contact"
+    "exerciseRight": "Use This Right",
+    "manageSettings": "Control Settings",
+    "contact": "Get Help"
   }
 }

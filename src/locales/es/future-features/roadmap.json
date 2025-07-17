@@ -1,6 +1,6 @@
 {
-  "title": "Hoja de Ruta",
-  "subtitle": "Planificación transparente para máximo impacto empresarial",
+    "title": "Tu Ventaja Competitiva en el Tiempo",
+    "subtitle": "No estamos soñando—estamos construyendo tu máquina de ganancias",
   "phases": {
     "discovery": "Descubrimiento",
     "development": "Desarrollo",
@@ -8,9 +8,9 @@
     "release": "Lanzamiento"
   },
   "stats": {
-    "features": "Funciones Planificadas",
-    "launchYear": "Año Objetivo de Lanzamiento",
-    "timeline": "Cronograma Mensual",
-    "efficiency": "Ganancia de Eficiencia"
+      "features": "Revoluciones en Camino",
+      "launchYear": "Primer Lanzamiento",
+      "timeline": "Meses de Desarrollo",
+      "efficiency": "Ganancia Extra"
   }
 }

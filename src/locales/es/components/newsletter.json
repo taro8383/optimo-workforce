@@ -1,86 +1,86 @@
 {
   "hero": {
-    "title": "Mantente al día con las Tendencias Laborales",
-    "subtitle": "Obtén tácticas exclusivas de optimización mensualmente—desde insights de IA hasta actualizaciones regulatorias",
-    "subscribeNow": "Suscribirse Ahora",
-    "viewSampleIssue": "Ver Ejemplo de Edición",
-    "monthlyInsights": "Insights Mensuales",
-    "laborOptimizationReport": "Reporte de Optimización Laboral",
-    "regionalComplianceUpdates": "Actualizaciones de Cumplimiento Regional",
-    "aiFeaturePreviews": "Avances de Funciones IA"
+    "title": "La Inteligencia Laboral que Tu Competencia No Quiere que Tengas",
+    "subtitle": "Secretos mensuales de optimización que convierten tu mayor gasto en tu ventaja competitiva—directo desde el frente de batalla de la IA",
+    "subscribeNow": "Obtén la Ventaja",
+    "viewSampleIssue": "Echa un Vistazo",
+    "monthlyInsights": "Revelaciones Mensuales",
+    "laborOptimizationReport": "Guías que Multiplican Ganancias",
+    "regionalComplianceUpdates": "Alertas Anti-Multas",
+    "aiFeaturePreviews": "El Futuro, Hoy"
   },
   "benefits": {
-    "title": "Lo que Obtendrás",
-    "subtitle": "Contenido exclusivo diseñado para líderes de la industria hotelera y expertos en optimización",
+    "title": "Información que se Paga Sola",
+    "subtitle": "Mientras otros adivinan, tú sabrás exactamente qué funciona en hostelería ahora mismo",
     "exclusiveWhitepapers": {
-      "title": "Documentos Técnicos Exclusivos",
-      "description": "Análisis profundo de estrategias de optimización laboral y referencias de la industria"
+      "title": "Estrategias Probadas en Batalla",
+      "description": "Tácticas reales de restaurantes reales ahorrando 20%+ en personal. Sin teorías, solo métodos comprobados que puedes copiar."
     },
     "regionalLaborLawUpdates": {
-      "title": "Actualizaciones de Leyes Laborales Regionales",
-      "description": "Mantente en cumplimiento con regulaciones cambiantes en EE.UU., UE, LATAM y APAC"
+      "title": "Tu Bola de Cristal Legal",
+      "description": "Entérate de cambios salariales, nuevas reglas y requisitos antes que nadie. Nunca más te agarre desprevenido."
     },
     "earlyFeatureAccess": {
-      "title": "Acceso Anticipado a Funciones",
-      "description": "Sé el primero en probar nuevas funciones de optimización IA antes del lanzamiento público"
+      "title": "Acceso Beta = Ventaja del Pionero",
+      "description": "Prueba nuevas funciones de IA mientras tu competencia espera. Moldea las herramientas que moldean tus ganancias."
     }
   },
   "signup": {
-    "title": "Únete a más de 10,000 Líderes de la Industria",
-    "subtitle": "Obtén insights personalizados para tu región e industria",
+    "title": "10,000+ Líderes Ya Tienen la Información Privilegiada",
+    "subtitle": "Recibe inteligencia personalizada para tu mercado y desafíos exactos",
     "form": {
-      "fullName": "Nombre Completo *",
-      "fullNamePlaceholder": "Ingresa tu nombre completo",
-      "emailAddress": "Correo Electrónico *",
-      "emailPlaceholder": "Ingresa tu correo electrónico",
-      "region": "Región *",
-      "regionPlaceholder": "Selecciona tu región",
-      "industry": "Industria *",
-      "industryPlaceholder": "Selecciona tu industria"
+      "fullName": "Tu Nombre *",
+      "fullNamePlaceholder": "Juan Pérez",
+      "emailAddress": "Mejor Email *",
+      "emailPlaceholder": "¿Dónde enviamos el oro?",
+      "region": "Tu Mercado *",
+      "regionPlaceholder": "Donde compites",
+      "industry": "Tu Arena *",
+      "industryPlaceholder": "Lo que optimizas"
     },
-    "submitButton": "Optimizar Mi Conocimiento",
+    "submitButton": "Envíame los Secretos",
     "privacy": {
-      "gdprCompliant": "Cumplimiento GDPR",
-      "oneClickUnsubscribe": "Desuscripción con 1 clic"
+      "gdprCompliant": "Tus datos = Seguridad nivel banco",
+      "oneClickUnsubscribe": "¿No te gusta? Fuera en 1 clic"
     },
     "success": {
-      "title": "¡Bienvenido a la Comunidad!",
-      "message": "Recibirás tus primeros insights de optimización dentro de 24 horas.",
-      "subscribeAnotherEmail": "Suscribir Otro Correo"
+      "title": "¡Estás en el Círculo Interno!",
+      "message": "Tu primer informe de inteligencia llega en 24 horas. Prepárate para ser más listo que todos.",
+      "subscribeAnotherEmail": "Añadir Otro Email"
     }
   },
   "contentPreview": {
-    "title": "Destacados Recientes",
-    "subtitle": "Mira lo que están leyendo nuestros suscriptores",
+    "title": "Las Minas de Oro del Mes Pasado",
+    "subtitle": "Lo que los operadores inteligentes están implementando ahora mismo",
     "issues": {
       "december2024": {
-        "date": "Edición Diciembre 2024",
-        "title": "Reporte de Impacto del Salario $20/hr en California",
-        "description": "Análisis integral de cómo el nuevo salario mínimo de California afecta la programación de restaurantes, con estrategias impulsadas por IA para mantener la rentabilidad mientras se asegura el cumplimiento.",
-        "pages": "12 páginas",
-        "downloads": "3,247 descargas"
+        "date": "Intel Fresco: Diciembre 2024",
+        "title": "La Guía de Supervivencia de $20/hr en California",
+        "description": "Cómo 147 restaurantes californianos están prosperando (no solo sobreviviendo) con el nuevo salario. Incluye el 'Hack de Horarios' que cortó costos laborales 18% pagando $20/hr.",
+        "pages": "12 páginas tácticas",
+        "downloads": "3,247 operadores salvados"
       },
       "november2024": {
-        "date": "Edición Noviembre 2024",
-        "title": "Tendencias de Pagos Móviles en APAC",
-        "description": "Cómo los restaurantes de Singapur y Hong Kong están aprovechando las preferencias de billeteras móviles para aumentar los ingresos por propinas en 22% mediante estrategias de personal optimizadas.",
-        "pages": "8 páginas",
-        "downloads": "2,891 descargas"
+        "date": "Cambio Total: Noviembre 2024",
+        "title": "La Revolución de Propinas en Singapur",
+        "description": "Por qué los restaurantes de APAC usando esta estrategia de pago móvil ven 22% más propinas. Plus: El modelo de personal que lo hace automático.",
+        "pages": "8 páginas de ganancias",
+        "downloads": "2,891 descargas en 48hrs"
       }
     },
-    "downloadExcerpt": "Descargar Extracto",
-    "cta": "Únete a más de 10,000 suscriptores obteniendo insights exclusivos mensualmente"
+    "downloadExcerpt": "Roba una Muestra",
+    "cta": "No dejes que 10,000+ competidores te superen"
   },
   "finalCTA": {
-    "title": "¿Listo para Optimizar Tu Conocimiento?",
-    "subtitle": "Obtén los insights que los líderes de la industria usan para mantenerse al día con las tendencias laborales",
-    "subscribeNow": "Suscribirse Ahora",
-    "viewAllPastIssues": "Ver Todas las Ediciones Anteriores",
+    "title": "¿Listo para Saber lo que Ellos No?",
+    "subtitle": "La diferencia entre prosperar y sobrevivir es saber qué viene",
+    "subscribeNow": "Activa Mi Ventaja",
+    "viewAllPastIssues": "Explora el Archivo",
     "stats": {
-      "subscribers": "Suscriptores",
-      "monthlyIssues": "Ediciones Mensuales",
+      "subscribers": "Operadores Inteligentes",
+      "monthlyIssues": "Ediciones Entregadas",
       "languages": "Idiomas",
-      "forever": "Gratis"
+      "forever": "Gratis Siempre"
     }
   },
   "regions": [
@@ -95,8 +95,8 @@
     "Alta Cocina",
     "Restaurante Casual",
     "Hotel y Hospitalidad",
-    "Café y Tienda de Café",
-    "Servicios de Catering",
+    "Café y Cafetería",
+    "Catering",
     "Otro"
   ]
 }

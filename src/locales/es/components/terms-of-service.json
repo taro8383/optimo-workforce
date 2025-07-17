@@ -1,308 +1,308 @@
 {
   "hero": {
     "title": "Términos de Servicio",
-    "subtitle": "Términos y condiciones legales que rigen el uso de los servicios de OPTIMO Workforce. Por favor, léalo cuidadosamente.",
-    "lastUpdated": "Última actualización",
-    "effectiveDate": "Fecha de vigencia"
+    "subtitle": "El trato entre nosotros, por escrito. Sin sorpresas, solo charla directa sobre usar OPTIMO.",
+    "lastUpdated": "Última Actualización",
+    "effectiveDate": "Fecha Efectiva"
   },
   "summary": {
-    "title": "Términos Clave de un Vistazo",
-    "description": "Aspectos destacados importantes de nuestros Términos de Servicio",
+    "title": "La Versión Rápida",
+    "description": "Lo que realmente importa en nuestros Términos",
     "fairUsage": {
-      "title": "Uso Justo",
-      "description": "Use nuestros servicios legalmente y profesionalmente para fines comerciales legítimos"
+      "title": "Juega Limpio",
+      "description": "Usa nuestras herramientas para negocio real, mantenlo legal, no seas idiota"
     },
     "transparentBilling": {
-      "title": "Facturación Transparente",
-      "description": "Precios claros con 30 días de aviso para cambios y cancelación flexible"
+      "title": "Sin Trucos de Cobro",
+      "description": "Sabes lo que pagas, te avisamos antes de cambios, cancela cuando quieras"
     },
     "dataProtection": {
-      "title": "Protección de Datos",
-      "description": "Sus datos siguen siendo suyos con seguridad y protección de privacidad de nivel empresarial"
+      "title": "Tus Datos = Tu Propiedad",
+      "description": "Los protegemos como oro, son tuyos para siempre, exporta cuando quieras"
     },
     "fairResolution": {
-      "title": "Resolución Justa",
-      "description": "Arbitraje vinculante para disputas con excepciones para asuntos legales urgentes"
+      "title": "Si las Cosas Van Mal",
+      "description": "Hablamos primero, arbitraje si es necesario, abogados como Plan Z"
     }
   },
   "tabs": {
-    "terms": "Términos de Servicio",
-    "acceptableUse": "Uso Aceptable",
-    "billing": "Facturación y Pago",
-    "contact": "Contacto Legal"
+    "terms": "Los Términos Completos",
+    "acceptableUse": "Cómo No Ser Baneado",
+    "billing": "Asuntos de Dinero",
+    "contact": "Águilas Legales"
   },
   "sections": {
     "overview": {
-      "title": "Descripción General del Acuerdo",
-      "warningTitle": "Acuerdo Legal Importante",
-      "warningContent": "Estos Términos de Servicio constituyen un acuerdo legalmente vinculante entre usted y OPTIMO Workforce. Al usar nuestros servicios, usted acepta estar sujeto a todos los términos y condiciones descritos a continuación.",
-      "content": "Estos Términos de Servicio (\"Términos\") rigen el uso de la plataforma de optimización de fuerza laboral de OPTIMO Workforce y los servicios relacionados (\"Servicios\") proporcionados por OPTIMO Workforce, Inc. (\"Compañía\", \"nosotros\", \"nuestro\" o \"nos\").\n\nAl acceder o usar nuestros Servicios, usted acepta estar sujeto a estos Términos. Si no está de acuerdo con alguna parte de estos Términos, no puede acceder ni usar nuestros Servicios.\n\nEstos Términos se aplican a todos los usuarios de nuestros Servicios, incluidos, entre otros, propietarios de restaurantes, gerentes, empleados y cualquier otra persona que acceda a nuestra plataforma."
+      "title": "El Acuerdo",
+      "warningTitle": "Esto es Legalmente Vinculante",
+      "warningContent": "Al usar OPTIMO, aceptas todo lo de abajo. Si no estás de acuerdo, no lo uses. Así de simple.",
+      "content": "Estos Términos controlan tu relación con la plataforma de horarios con IA de OPTIMO Workforce (\"Servicios\") proporcionada por OPTIMO Workforce, Inc. (\"nosotros\").\n\nUsar nuestros Servicios = aceptar estos Términos. ¿No te gustan? No uses OPTIMO. No lo tomaremos personal.\n\nEsto aplica a todos—dueños de restaurantes ahorrando dinero, gerentes recuperando su vida, personal con horarios justos, y cualquiera usando nuestra plataforma."
     },
     "definitions": {
-      "title": "Definiciones",
+      "title": "Qué Queremos Decir Cuando Decimos",
       "account": "Cuenta",
-      "accountDefinition": "Su cuenta de usuario de OPTIMO Workforce que le permite acceder y usar nuestros Servicios.",
+      "accountDefinition": "Tu login de OPTIMO y todo lo conectado a él.",
       "content": "Contenido",
-      "contentDefinition": "Cualquier información, datos, texto, software, música, sonido, fotografías, gráficos, video, mensajes u otros materiales.",
+      "contentDefinition": "Cualquier cosa que subas, crees o compartas—datos, fotos, horarios, lo que sea.",
       "customerData": "Datos del Cliente",
-      "customerDataDefinition": "Todos los datos, información y contenido enviados, publicados o transmitidos de otro modo por usted o sus usuarios a través de los Servicios."
+      "customerDataDefinition": "Toda la info que tú y tu equipo ponen en OPTIMO. Es tuya, nosotros solo la guardamos."
     },
     "accountRegistration": {
-      "title": "Registro de Cuenta y Seguridad",
-      "accountCreation": "Creación de Cuenta",
-      "accountCreationContent": "Debe proporcionar información precisa, actual y completa. Debe tener al menos 18 años para crear una cuenta. Una persona o entidad legal puede mantener solo una cuenta. Usted es responsable de mantener la confidencialidad de la cuenta.",
-      "accountSecurity": "Seguridad de la Cuenta",
-      "accountSecurityContent": "Usted es responsable de todas las actividades bajo su cuenta. Debe notificarnos inmediatamente de cualquier acceso no autorizado. Debe usar contraseñas fuertes y habilitar la autenticación de dos factores. Nos reservamos el derecho de suspender cuentas por razones de seguridad."
+      "title": "Reglas de Tu Cuenta",
+      "accountCreation": "Para Empezar",
+      "accountCreationContent": "Info real solamente—sin nombres falsos o emails basura. Debes tener 18+ (lo verificamos). Una cuenta por persona/negocio. Elige una contraseña que no compartirás con tu ex.",
+      "accountSecurity": "Mantenla Segura",
+      "accountSecurityContent": "Tu cuenta = tu responsabilidad. ¿Alguien te hackea? Dinos YA. Usa contraseña fuerte (no 'password123'). Activa 2FA o te juzgaremos."
     },
     "serviceDescription": {
-      "title": "Descripción del Servicio y Disponibilidad",
-      "serviceOverview": "Descripción General del Servicio",
-      "serviceOverviewContent": "Plataforma de optimización de fuerza laboral impulsada por IA y programación relacionada. Pronóstico de demanda y análisis de costos laborales. Integración con sistemas POS y aplicaciones de terceros. Acceso móvil y basado en web a herramientas de programación.",
-      "serviceAvailability": "Disponibilidad del Servicio",
-      "serviceAvailabilityContent": "Nos esforzamos por mantener un 99.9% de tiempo de actividad, pero no garantizamos un servicio ininterrumpido. El mantenimiento programado se anunciará con anticipación cuando sea posible. El mantenimiento de emergencia puede ocurrir sin previo aviso. La disponibilidad del servicio puede variar por región geográfica."
+      "title": "Qué Estás Obteniendo",
+      "serviceOverview": "Lo Bueno",
+      "serviceOverviewContent": "IA que programa mejor que cualquier humano. Bola de cristal para predecir horas pico. Conexión perfecta a tu TPV. Funciona en cualquier cosa con internet.",
+      "serviceAvailability": "Cuándo Funciona",
+      "serviceAvailabilityContent": "Apuntamos a 99.9% de tiempo activo (bastante bueno). Mantenimiento programado = te avisamos. Arreglos de emergencia = sin aviso (perdón). Diferentes países pueden tener diferentes funciones."
     },
     "subscriptionBilling": {
-      "title": "Suscripción y Términos de Facturación",
-      "subscriptionPlans": "Planes de Suscripción",
-      "subscriptionPlansContent": "Varios niveles de suscripción disponibles con diferentes características. Las tarifas de suscripción se basan en el número de usuarios y ubicaciones. Planes empresariales disponibles con precios personalizados. Todas las tarifas son exclusivas de los impuestos aplicables.",
-      "billingPayment": "Facturación y Pago",
-      "billingPaymentContent": "Las tarifas de suscripción se facturan por adelantado mensual o anualmente. El pago es inmediato al recibir la factura. Aceptamos tarjetas de crédito principales y transferencias ACH. Los pagos atrasados pueden resultar en suspensión del servicio."
+      "title": "Hablemos de Dinero",
+      "subscriptionPlans": "Niveles de Precio",
+      "subscriptionPlansContent": "Diferentes planes para diferentes necesidades. Paga por local y cantidad de usuarios. ¿Empresa grande? Hablemos de precio personalizado. Más impuestos (la tajada del gobierno).",
+      "billingPayment": "Cómo Pagas",
+      "billingPaymentContent": "Cobramos mensual o anual (tu elección). Paga cuando facturemos o te cortamos. Tarjetas de crédito, ACH, lo que funcione. Tarde = servicio se detiene hasta que pagues."
     },
     "dataPrivacy": {
-      "title": "Privacidad y Seguridad de Datos",
-      "dataCollection": "Recopilación y Uso de Datos",
-      "dataCollectionContent": "Recopilamos y usamos datos como se describe en nuestra Política de Privacidad. Los Datos del Cliente permanecen siendo su propiedad y bajo su control. Usamos los Datos del Cliente solo para proporcionar y mejorar los Servicios. No vendemos ni compartimos Datos del Cliente con terceros.",
-      "dataSecurity": "Seguridad de Datos",
-      "dataSecurityContent": "Implementamos medidas de seguridad estándar de la industria. Todos los datos están encriptados en tránsito y en reposo. Auditorías de seguridad regulares y pruebas de penetración. Certificación SOC 2 Tipo II y programas de cumplimiento."
+      "title": "Tus Datos, Tus Reglas",
+      "dataCollection": "Qué Recolectamos",
+      "dataCollectionContent": "Mira nuestra Política de Privacidad para todo. Tus datos siguen siendo tuyos, punto. Los usamos solo para hacer funcionar el servicio. No los vendemos—eso es asqueroso.",
+      "dataSecurity": "Modo Fort Knox",
+      "dataSecurityContent": "Cifrado nivel bancario en todo. Pruebas de seguridad regulares por pros. Certificado SOC 2 (el de verdad). Tus datos están más seguros que tus recetas secretas."
     },
     "intellectualProperty": {
-      "title": "Derechos de Propiedad Intelectual",
-      "ourIP": "Nuestra Propiedad Intelectual",
-      "ourIPContent": "Conservamos todos los derechos sobre los Servicios, incluido el software y los algoritmos. Nuestras marcas comerciales, logotipos y elementos de marca son nuestra propiedad. No puede copiar, modificar o realizar ingeniería inversa de nuestros Servicios. Cualquier comentario que proporcione puede usarse para mejorar nuestros Servicios.",
-      "yourContent": "Su Contenido y Datos",
-      "yourContentContent": "Usted conserva la propiedad de todos los Datos del Cliente que envíe. Nos otorga una licencia para usar los Datos del Cliente para proporcionar los Servicios. Usted declara que tiene derechos a todo el contenido enviado. Usted es responsable de asegurar que el contenido no infrinja los derechos de terceros."
+      "title": "Quién Es Dueño de Qué",
+      "ourIP": "Nuestras Cosas",
+      "ourIPContent": "La plataforma, IA y salsa secreta = nuestras. Nuestro logo y marca = también nuestras. No copies, hackees o desmontes. Tus ideas pueden volverse funciones (¡gracias!).",
+      "yourContent": "Tus Cosas",
+      "yourContentContent": "Tus datos siguen siendo tuyos para siempre. Necesitamos permiso para usarlos (solo para el servicio). Asegúrate de ser dueño de lo que subes. No subas datos de tu competencia."
     },
     "prohibitedUses": {
-      "title": "Usos y Conducta Prohibidos",
-      "prohibitedActivities": "Actividades Prohibidas",
-      "prohibitedActivitiesContent": "Usar los Servicios para cualquier propósito ilegal o actividad. Intentar obtener acceso no autorizado a nuestros sistemas. Interferir o interrumpir los Servicios o servidores. Transmitir virus, malware u otro código dañino.",
-      "contentRestrictions": "Restricciones de Contenido",
-      "contentRestrictionsContent": "Sin contenido ilegal, dañino, amenazante o abusivo. Sin contenido que viole derechos de propiedad intelectual. Sin spam, comunicaciones no solicitadas o contenido comercial. Sin contenido que viole la privacidad o derechos de publicidad."
+      "title": "No Seas Esa Persona",
+      "prohibitedActivities": "Absolutamente No Permitido",
+      "prohibitedActivitiesContent": "Nada ilegal—te reportaremos. Sin hackear o romper cosas. Sin ataques DDoS o sobrecargas. Sin virus, malware o porquerías digitales.",
+      "contentRestrictions": "Mantenlo Limpio",
+      "contentRestrictionsContent": "Sin contenido ilegal o abusivo. Sin robar el trabajo de otros. Sin spam—nadie quiere spam. Sin violar la privacidad de nadie."
     },
     "warranties": {
-      "title": "Garantías y Descargos de Responsabilidad",
-      "limitedWarranty": "Garantía Limitada",
-      "limitedWarrantyContent": "Garantizamos que los Servicios funcionarán sustancialmente como se describe. Garantizamos que tenemos el derecho de proporcionar los Servicios. El período de garantía está limitado a su término de suscripción actual. El recurso exclusivo por incumplimiento de garantía es crédito de servicio o reembolso.",
-      "disclaimers": "Descargos de Responsabilidad",
-      "disclaimersContent": "Los Servicios se proporcionan \"tal cual\" y \"según disponibilidad\". Renunciamos a todas las demás garantías, expresas o implícitas. Sin garantía de comerciabilidad o idoneidad para un propósito particular. Sin garantía de que los Servicios estarán libres de errores o sin interrupciones."
+      "title": "Qué Prometemos (Y Qué No)",
+      "limitedWarranty": "Nuestras Promesas",
+      "limitedWarrantyContent": "El servicio funciona como se anuncia (mayormente). Tenemos los derechos para proporcionarlo. ¿Problemas? Arreglamos o reembolsamos. Garantía = tu período de suscripción.",
+      "disclaimers": "Chequeo de Realidad",
+      "disclaimersContent": "Servicio viene 'tal cual'—sin garantías mágicas. No somos perfectos (impactante, ¿no?). No prometemos cero caídas. A veces las cosas se rompen—las arreglaremos rápido."
     },
     "limitation": {
-      "title": "Limitación de Responsabilidad",
-      "liabilityLimitations": "Limitaciones de Responsabilidad",
-      "liabilityLimitationsContent": "Nuestra responsabilidad total está limitada a las cantidades pagadas por usted en los 12 meses anteriores al reclamo. No somos responsables por daños indirectos, incidentales o consecuentes. No somos responsables por ganancias perdidas, datos u oportunidades comerciales. Estas limitaciones aplican independientemente de la teoría de responsabilidad.",
-      "excludedDamages": "Daños Excluidos",
-      "excludedDamagesContent": "Pérdida de ingresos, ganancias u oportunidades comerciales. Pérdida de datos o información (excepto según lo cubierto por nuestros procedimientos de recuperación de datos). Costo de servicios o productos sustitutos. Daño a la reputación o relaciones comerciales."
+      "title": "Límites de Responsabilidad (La Parte Legal)",
+      "liabilityLimitations": "Nuestro Riesgo Máximo",
+      "liabilityLimitationsContent": "Somos responsables hasta 12 meses de tus pagos. Sin responsabilidad por daños indirectos. Las ganancias perdidas no son nuestro problema. Estos límites aplican sin importar qué.",
+      "excludedDamages": "Qué No Está Cubierto",
+      "excludedDamagesContent": "Ingresos u oportunidades perdidas. Pérdida de datos (¡respalda tus cosas!). Tener que comprar servicios alternativos. Tu reputación dañada."
     },
     "indemnification": {
-      "title": "Indemnización",
-      "ourIndemnification": "Nuestra Indemnización",
-      "ourIndemnificationContent": "Lo defenderemos contra reclamos de que nuestros Servicios infringen derechos de propiedad intelectual de terceros. Pagaremos daños otorgados en juicio final o acuerdo aprobado. Nuestras obligaciones están sujetas a aviso rápido y cooperación de su parte. Podemos modificar los Servicios para evitar infracción en lugar de pagar daños.",
-      "yourIndemnification": "Su Indemnización",
-      "yourIndemnificationContent": "Usted nos defenderá contra reclamos que surjan de su uso de los Servicios. Usted nos defenderá contra reclamos relacionados con sus Datos del Cliente. Usted nos defenderá contra reclamos de su violación de estos Términos. Usted pagará daños otorgados en juicio final o acuerdo aprobado."
+      "title": "Quién Protege a Quién",
+      "ourIndemnification": "Te Cubrimos",
+      "ourIndemnificationContent": "Defenderemos contra reclamos de infracción de PI. Pagamos si perdemos o llegamos a acuerdo. Necesitas decirnos rápido y cooperar. Podríamos modificar el servicio en vez de pagar.",
+      "yourIndemnification": "Nos Cubres",
+      "yourIndemnificationContent": "Nos defiendes si mal usas el servicio. Nos defiendes por problemas con tus datos. Nos defiendes si rompes estos Términos. Pagas si pierdes o llegas a acuerdo."
     },
     "termination": {
-      "title": "Terminación y Suspensión",
-      "terminationByYou": "Terminación por Usted",
-      "terminationByYouContent": "Puede terminar su suscripción en cualquier momento con 30 días de aviso. La terminación toma efecto al final de su período de facturación actual. Usted permanece responsable por todos los cargos incurridos antes de la terminación. Puede exportar sus datos por 30 días después de la terminación.",
-      "terminationByUs": "Terminación por Nosotros",
-      "terminationByUsContent": "Podemos terminar por incumplimiento material de estos Términos. Podemos terminar por falta de pago después de 30 días de aviso. Podemos terminar inmediatamente por uso ilegal o amenazas de seguridad. Proporcionaremos aviso razonable cuando sea posible."
+      "title": "Rompiendo",
+      "terminationByYou": "Cuando Te Vas",
+      "terminationByYouContent": "Cancela cuando quieras con 30 días de aviso. Efectivo al final del período de facturación. Paga lo que debes primero. Exporta tus datos en 30 días.",
+      "terminationByUs": "Cuando Te Echamos",
+      "terminationByUsContent": "Podemos terminar por romper los Términos. Sin pago = 30 días luego adiós. Amenazas de seguridad = terminación instantánea. Te avisaremos cuando sea posible."
     },
     "governingLaw": {
-      "title": "Ley Aplicable y Resolución de Disputas",
-      "governingLaw": "Ley Aplicable",
-      "governingLawContent": "Estos Términos se rigen por las leyes del Estado de California. La ley federal aplica donde sea aplicable. Los usuarios internacionales están sujetos a leyes locales obligatorias. Los principios de conflicto de leyes no aplican.",
-      "disputeResolution": "Resolución de Disputas",
-      "disputeResolutionContent": "Las disputas se resolverán a través de arbitraje vinculante. El arbitraje se realiza bajo las reglas de la Asociación Americana de Arbitraje. Ubicación del arbitraje: San Francisco, California. La renuncia a acciones colectivas aplica a todas las disputas."
+      "title": "Cosas de Jurisdicción Legal",
+      "governingLaw": "Qué Leyes Aplican",
+      "governingLawContent": "La ley de California manda. Ley federal donde aplique. Usuarios internacionales siguen leyes locales también. Sin reglas confusas de conflicto.",
+      "disputeResolution": "Si Peleamos",
+      "disputeResolutionContent": "Arbitraje, no batallas en corte. Reglas AAA en San Francisco. Sin acciones colectivas permitidas. Evita que los abogados se hagan ricos."
     }
   },
   "acceptableUse": {
-    "title": "Política de Uso Aceptable",
-    "description": "Guías para el uso apropiado y legal de los servicios de OPTIMO Workforce",
+    "title": "Cómo No Ser Baneado",
+    "description": "Los sí y no de usar OPTIMO como un adulto responsable",
     "lawfulUse": {
-      "title": "Uso Legal Únicamente",
-      "description": "Los servicios deben usarse únicamente para propósitos comerciales legítimos en cumplimiento con todas las leyes aplicables",
+      "title": "Mantenlo Legal",
+      "description": "Solo usa OPTIMO para negocios legítimos—nada turbio",
       "violations": [
-        "Usar los Servicios para actividades ilegales",
-        "Violar leyes laborales o de empleo",
-        "Infringir derechos de propiedad intelectual",
-        "Violar leyes de privacidad o protección de datos"
+        "Manejar operaciones ilegales",
+        "Romper leyes laborales",
+        "Robar el trabajo de otros",
+        "Violar leyes de privacidad"
       ]
     },
     "systemIntegrity": {
-      "title": "Integridad del Sistema",
-      "description": "Los usuarios no deben interferir ni comprometer la seguridad o integridad de nuestros sistemas",
+      "title": "No Rompas Nuestras Cosas",
+      "description": "Nuestros servidores no son tu patio de juegos—respeta la infraestructura",
       "violations": [
-        "Intentar acceso no autorizado",
-        "Introducir malware o virus",
-        "Sobrecargar sistemas con solicitudes excesivas",
-        "Ingeniería inversa o descompilar software"
+        "Hackear o acceso no autorizado",
+        "Subir virus o malware",
+        "Ataques DDoS o sobrecarga",
+        "Ingeniería inversa de nuestro código"
       ]
     },
     "dataProtection": {
-      "title": "Protección de Datos",
-      "description": "Todos los datos personales y comerciales deben manejarse de acuerdo con las leyes de privacidad aplicables",
+      "title": "Respeta los Datos de Todos",
+      "description": "Maneja datos como si fueran radioactivos—con cuidado y legalmente",
       "violations": [
-        "Procesar datos sin consentimiento adecuado",
-        "Compartir datos de empleados inapropiadamente",
-        "No implementar medidas de seguridad",
-        "Violar requisitos de retención de datos"
+        "Usar datos sin permiso",
+        "Compartir info de empleados descuidadamente",
+        "Saltarse medidas de seguridad",
+        "Ignorar reglas de retención"
       ]
     },
     "professionalConduct": {
-      "title": "Conducta Profesional",
-      "description": "Los usuarios deben mantener estándares profesionales y respetar los derechos de otros",
+      "title": "Sé un Humano Decente",
+      "description": "Trata a otros como quisieras ser tratado—con respeto",
       "violations": [
-        "Acoso o discriminación",
-        "Compartir contenido inapropiado",
-        "Suplantar a otros",
-        "Participar en actividades fraudulentas"
+        "Acosar o discriminar",
+        "Publicar contenido inapropiado",
+        "Hacerse pasar por otro",
+        "Hacer estafas o fraude"
       ]
     },
     "consequences": {
-      "title": "Consecuencias de Violación",
-      "warning": "Advertencia",
-      "warningDescription": "La primera violación puede resultar en una advertencia formal y acción correctiva requerida",
-      "suspension": "Suspensión",
-      "suspensionDescription": "Las violaciones repetidas pueden resultar en suspensión temporal de la cuenta",
-      "termination": "Terminación",
-      "terminationDescription": "Las violaciones graves pueden resultar en terminación inmediata de la cuenta"
+      "title": "Qué Pasa Si La Riegas",
+      "warning": "Tiro de Advertencia",
+      "warningDescription": "Primera ofensa = email severo y oportunidad de arreglarlo",
+      "suspension": "Tiempo Fuera",
+      "suspensionDescription": "Sigues = prohibición temporal mientras piensas en lo que hiciste",
+      "termination": "Game Over",
+      "terminationDescription": "Violaciones serias = prohibición permanente, sin reembolsos"
     },
-    "prohibitedActivities": "Actividades Prohibidas"
+    "prohibitedActivities": "La Lista de No-No"
   },
   "billing": {
-    "title": "Términos de Facturación y Pago",
-    "description": "Precios transparentes y términos de pago para suscripciones de OPTIMO Workforce",
+    "title": "Muéstrame el Dinero",
+    "description": "Todo sobre precios, pagos y no ser estafado",
     "subscriptionFees": {
-      "title": "Tarifas de Suscripción",
-      "description": "Precios transparentes basados en el tamaño y necesidades de su negocio",
+      "title": "Cuánto Cuesta",
+      "description": "Precios claros que escalan con tu negocio",
       "details": [
-        "Ciclos de facturación mensual o anual disponibles",
-        "Tarifas basadas en número de empleados y ubicaciones",
-        "Precios empresariales para organizaciones grandes",
-        "Todos los precios excluyen impuestos aplicables"
+        "Paga mensual o anual (anual ahorra dinero)",
+        "Precio basado en locales y tamaño de personal",
+        "¿Empresa grande? Negociemos",
+        "Impuesto no incluido (culpa al gobierno)"
       ]
     },
     "paymentTerms": {
-      "title": "Términos de Pago",
-      "description": "Opciones de pago flexibles con procesamiento seguro",
+      "title": "Cómo Pagar",
+      "description": "Múltiples formas de darnos dinero—elige tu favorita",
       "details": [
-        "Pago vence inmediatamente al recibir la factura",
-        "Tarjetas de crédito principales y transferencias ACH aceptadas",
-        "Renovación automática a menos que se cancele",
-        "Tarifas por pago tardío pueden aplicar después de 30 días"
+        "Paga cuando facturemos o te cortamos",
+        "Tarjetas de crédito, ACH, paloma mensajera (bromeo)",
+        "Auto-renueva a menos que digas alto",
+        "Cargo por retraso después de 30 días de ignorarnos"
       ]
     },
     "refundPolicy": {
-      "title": "Política de Reembolso",
-      "description": "Términos de reembolso claros y procedimientos de cancelación",
+      "title": "Reglas de Devolución",
+      "description": "Cuándo puedes (y no puedes) obtener reembolsos",
       "details": [
-        "Sin reembolsos por períodos de facturación parciales",
-        "Prueba gratuita de 30 días para nuevos clientes",
-        "Cancelación efectiva al final del período de facturación",
-        "Exportación de datos disponible por 30 días después de cancelación"
+        "Sin reembolsos de meses parciales—termina lo que empezaste",
+        "30 días de prueba gratis para novatos",
+        "Cancela cuando quieras, efectivo al final del período",
+        "30 días para exportar datos después de cancelar"
       ]
     },
     "priceChanges": {
-      "title": "Cambios de Precio",
-      "description": "Aviso anticipado de cualquier modificación de precios",
+      "title": "Si los Precios Cambian",
+      "description": "Te avisaremos primero—sin sorpresas",
       "details": [
-        "30 días de aviso anticipado de cambios de precio",
-        "Los cambios aplican a períodos de facturación posteriores",
-        "Opción de cancelar antes de que los cambios tomen efecto",
-        "Precios protegidos para suscripciones anuales existentes"
+        "30 días de aviso antes de aumentos",
+        "Nuevo precio empieza el próximo ciclo",
+        "¿No te gusta? Cancela antes de que llegue",
+        "Planes anuales bloqueados por el año"
       ]
     },
     "pricing": {
-      "title": "Niveles de Precios Actuales"
+      "title": "Menú de Precios Actual"
     },
     "pricingTiers": {
       "starter": "Inicial",
       "professional": "Profesional",
-      "enterprise": "Empresarial",
+      "enterprise": "Empresa",
       "perMonth": "/mes",
-      "custom": "Personalizado",
+      "custom": "Hablemos",
       "upTo25Employees": "Hasta 25 empleados",
       "upTo100Employees": "Hasta 100 empleados",
       "unlimitedEmployees": "Empleados ilimitados"
     },
     "security": {
-      "title": "Procesamiento de Pago Seguro",
-      "description": "Todos los pagos se procesan de forma segura a través de procesadores de pago líderes en la industria con cumplimiento PCI DSS Nivel 1.",
+      "title": "Tu Pago Está Seguro",
+      "description": "Usamos la misma seguridad que los bancos—tu info de tarjeta nunca toca nuestros servidores.",
       "pciDss": "PCI DSS",
-      "level1Certified": "Nivel 1 Certificado",
-      "sslEncryption": "Encriptación SSL",
-      "fraudProtection": "Protección contra Fraude",
-      "monitoring": "Monitoreo 24/7"
+      "level1Certified": "Nivel 1 (El Más Alto)",
+      "sslEncryption": "Cifrado Grado Militar",
+      "fraudProtection": "Detección de Fraude con IA",
+      "monitoring": "Vigilancia de Seguridad 24/7"
     }
   },
   "contact": {
-    "title": "Información de Contacto Legal",
-    "description": "Contacte a nuestro equipo legal para preguntas sobre estos Términos de Servicio",
+    "title": "Departamento Legal",
+    "description": "Para cuando necesitas hablar con los de traje sobre cosas serias",
     "legalDepartment": {
-      "title": "Departamento Legal",
+      "title": "Equipo Legal",
       "email": "legal@optimoworkforce.com",
-      "description": "Para avisos legales, preguntas de contrato y asuntos de cumplimiento"
+      "description": "Contratos, cumplimiento y cartas legales aterradoras"
     },
     "termsConditions": {
-      "title": "Términos y Condiciones",
+      "title": "Preguntas sobre Términos",
       "email": "terms@optimoworkforce.com",
-      "description": "Preguntas sobre estos Términos de Servicio y acuerdos de usuario"
+      "description": "¿Confundido sobre estos Términos? Te explicamos"
     },
     "billingAccounts": {
-      "title": "Facturación y Cuentas",
+      "title": "Problemas de Dinero",
       "email": "billing@optimoworkforce.com",
-      "description": "Disputas de facturación, problemas de pago y gestión de cuentas"
+      "description": "Disputas de facturación, problemas de pago, solicitudes de reembolso"
     },
     "legalNotice": {
-      "registeredAddress": "Dirección Registrada",
+      "registeredAddress": "Dirección Oficial",
       "companyName": "OPTIMO Workforce, Inc.",
       "address": "123 Innovation Drive",
       "cityState": "San Francisco, CA 94105",
       "country": "Estados Unidos",
-      "legalService": "Servicio Legal",
-      "legalServiceDescription": "Para avisos legales y servicio de proceso",
-      "certifiedMail": "Correo certificado a la dirección registrada",
-      "responseTime": "Respuesta dentro de 5 días hábiles"
+      "legalService": "Papeles Legales",
+      "legalServiceDescription": "Para entregar documentos legales",
+      "certifiedMail": "Envía correo certificado a la dirección arriba",
+      "responseTime": "Respondemos en 5 días hábiles"
     },
     "disputeResolution": {
-      "title": "Proceso de Resolución de Disputas",
-      "step1": "Contáctenos",
-      "step1Description": "Comuníquese con nuestro equipo legal para discutir el problema e intentar la resolución",
+      "title": "Si Necesitamos Pelear",
+      "step1": "Hablar Primero",
+      "step1Description": "Llámanos—la mayoría de problemas se resuelven conversando",
       "step2": "Mediación",
-      "step2Description": "Si es necesario, participaremos en mediación de buena fe para resolver disputas",
+      "step2Description": "Tercero neutral nos ayuda a resolverlo",
       "step3": "Arbitraje",
-      "step3Description": "Disputas finales resueltas a través de arbitraje vinculante en San Francisco, CA"
+      "step3Description": "Confrontación final en San Francisco (sin jurado)"
     }
   },
   "download": {
-    "title": "Descargar Documentos Legales",
-    "description": "Acceda a nuestra documentación legal completa para sus registros",
+    "title": "Biblioteca Legal",
+    "description": "Todos nuestros documentos legales en PDF para tus registros",
     "terms": {
       "title": "Términos de Servicio",
-      "description": "Documento completo de términos y condiciones (PDF)"
+      "description": "Todo este documento como PDF"
     },
     "acceptableUse": {
       "title": "Política de Uso Aceptable",
-      "description": "Guías para el uso apropiado del servicio"
+      "description": "Los sí y no en detalle"
     },
     "serviceAgreement": {
-      "title": "Acuerdo de Servicio",
-      "description": "Acuerdo maestro de servicio para clientes empresariales"
+      "title": "Acuerdo Empresarial",
+      "description": "Contrato personalizado para empresas grandes"
     },
     "downloadPDF": "Descargar PDF"
   },
   "dates": {
-    "lastUpdated": "15 de enero de 2025",
-    "effectiveDate": "15 de enero de 2025"
+    "lastUpdated": "15 de Enero, 2025",
+    "effectiveDate": "15 de Enero, 2025"
   }
 }

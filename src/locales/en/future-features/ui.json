@@ -1,8 +1,8 @@
 {
-  "contactProductTeam": "Contact Product Team",
-  "submitFeatureRequest": "Submit Feature Request",
-  "featureRequests": "Feature Requests",
-  "implementationRate": "Implementation Rate",
-  "betaTesters": "Beta Testers",
-  "development": "Development"
-}
+    "contactProductTeam": "Text the Team",
+    "submitFeatureRequest": "Share Your Idea",
+    "featureRequests": "Ideas Submitted",
+    "implementationRate": "We Actually Built",
+    "betaTesters": "Beta Insiders",
+    "development": "Building Now"
+  }

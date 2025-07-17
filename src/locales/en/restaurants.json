@@ -1,174 +1,174 @@
 {
   "hero": {
-    "title": "AI-Powered Shift Scheduling for Restaurants",
-    "subtitle": "Optimize your staffing, reduce costs and improve service with artificial intelligence",
+    "title": "Your AI Manager That Never Sleeps, Never Complains",
+    "subtitle": "Watch labor costs drop 23% while your staff actually shows up happy (yes, both are possible)",
     "buttons": {
-      "trial": "Free Trial",
-      "demo": "Schedule Demo"
+      "trial": "Start Saving Today →",
+      "demo": "See the Magic →"
     },
     "metrics": {
-      "costSavings": "Labor cost savings",
-      "demandMonitoring": "Demand monitoring",
-      "scheduleGeneration": "Schedule generation",
-      "regionalAdaptation": "Regional adaptation"
+      "costSavings": "Less Money Wasted",
+      "demandMonitoring": "Future Vision",
+      "scheduleGeneration": "Instant Schedules",
+      "regionalAdaptation": "Works Everywhere"
     },
-    "aiPoweredIntelligence": "AI-Powered Intelligence"
+    "aiPoweredIntelligence": "Smarter Than Your Best Manager"
   },
   "coreFeatures": {
-    "title": "Core Features",
-    "subtitle": "Solutions specifically designed for restaurant needs",
+    "title": "Everything Your Scheduler Wishes They Could Do",
+    "subtitle": "But faster, smarter, and without the migraine medication",
     "features": {
       "AccurateStaffingForecasts": {
-        "title": "Accurate Staffing Forecasts",
-        "description": "Reduce unnecessary labor costs and prevent service gaps with precise predictions"
+        "title": "Know Tomorrow's Rush Today",
+        "description": "Stop paying 8 servers to handle 3 tables. Our AI knows when you'll be slammed (or dead)"
       },
       "MomentbyMomentDemand": {
-        "title": "Moment-by-Moment Demand",
-        "description": "Predict future demand hour-by-hour, enabling precise anticipation of customer traffic"
+        "title": "Crystal Ball for Every Hour",
+        "description": "See exactly when that 12:47pm rush hits. Plan for it. Profit from it."
       },
       "Moment-by-MomentDemand": {
-        "title": "Moment-by-Moment Demand",
-        "description": "Predict future demand hour-by-hour, enabling precise anticipation of customer traffic"
+        "title": "Crystal Ball for Every Hour",
+        "description": "See exactly when that 12:47pm rush hits. Plan for it. Profit from it."
       },
       "OneClickAutomation": {
-        "title": "One-Click Automation",
-        "description": "Automate employee schedules and tasks considering capabilities and preferences"
+        "title": "Perfect Schedules in One Click",
+        "description": "Considers who's good, who shows up, who customers love. Then builds perfection."
       },
       "One-ClickAutomation": {
-        "title": "One-Click Automation",
-        "description": "Automate employee schedules and tasks considering capabilities and preferences"
+        "title": "Perfect Schedules in One Click",
+        "description": "Considers who's good, who shows up, who customers love. Then builds perfection."
       },
       "UserFriendlyDashboards": {
-        "title": "User-Friendly Dashboards",
-        "description": "AI-optimized schedules and metrics dashboards beyond traditional spreadsheets"
+        "title": "Dashboards Your GM Will Love",
+        "description": "Goodbye Excel hell. Hello beautiful insights that actually make sense."
       },
       "User-FriendlyDashboards": {
-        "title": "User-Friendly Dashboards",
-        "description": "AI-optimized schedules and metrics dashboards beyond traditional spreadsheets"
+        "title": "Dashboards Your GM Will Love",
+        "description": "Goodbye Excel hell. Hello beautiful insights that actually make sense."
       },
       "CostContainment": {
-        "title": "Cost Containment",
-        "description": "Contained labor costs, improved satisfaction and increased productivity"
+        "title": "Keep Money Where It Belongs",
+        "description": "Lower costs + happier staff + better service = you winning at business"
       },
       "SmartDataIntegration": {
-        "title": "Smart Data Integration",
-        "description": "Automatically collect availabilities, preferences and requests for intelligent scheduling"
+        "title": "It Already Knows Everything",
+        "description": "Availability, preferences, that server who hates Tuesdays - all handled automatically"
       }
     }
   },
   "demandSignals": {
-    "title": "Demand Signals",
-    "subtitle": "The AI scheduler enhances accuracy by incorporating various demand signals",
+    "title": "Our AI Sees the Future (Seriously)",
+    "subtitle": "We know when you'll be busy before your customers do",
     "signals": {
       "GooglePopularTimes": {
-        "title": "Google Popular Times",
-        "description": "AI-powered demand forecasting analyzes real-time inputs including local events and trends"
+        "title": "Google Knows When They're Coming",
+        "description": "We tap into real-time data to see rushes forming blocks away"
       },
       "EventbriteIntegration": {
-        "title": "Eventbrite Integration",
-        "description": "AI systems account for local events and calendars as external factors influencing customer behavior"
+        "title": "Concert Next Door? We Know",
+        "description": "Every local event that affects your business - we're already planning for it"
       },
       "WeatherAPIs": {
-        "title": "Weather APIs",
-        "description": "Forecast sales based on weather data alongside historical sales and other factors"
+        "title": "Rain = Slow Day (Usually)",
+        "description": "Weather patterns + your sales history = scary accurate predictions"
       }
     }
   },
   "outputs": {
-    "title": "Output: Optimized Plans + Analytics",
-    "subtitle": "Generate optimized shift plans and comprehensive dashboards for data-driven decisions",
+    "title": "What You Actually Get: Money + Time + Sanity",
+    "subtitle": "Real results you can take to the bank (and your therapist)",
     "items": {
       "OptimizedShiftPlans": {
-        "title": "Optimized Shift Plans",
-        "description": "Deploy the right number of workers at the right times, reducing downtime and service disruptions",
+        "title": "Schedules That Actually Work",
+        "description": "Right people, right place, right time. Every. Single. Shift.",
         "metrics": [
-          "Right-sized teams",
-          "Reduced downtime",
-          "Service continuity"
+          "Teams that fit perfectly",
+          "No more dead zones",
+          "Service never skips"
         ]
       },
       "LaborCostDashboards": {
-        "title": "Labor Cost Dashboards",
-        "description": "Business analytics for smarter decisions, managing costs that account for up to 40% of expenses",
+        "title": "See Where Every Dollar Goes",
+        "description": "Control the 40% that kills most restaurants - your labor costs",
         "metrics": [
-          "Cost visibility",
-          "Trend analysis",
-          "Performance gaps"
+          "Instant cost clarity",
+          "Spot problems early",
+          "Fix gaps fast"
         ]
       },
       "RevenueAnalytics": {
-        "title": "Revenue Analytics",
-        "description": "Data from POS systems and customer feedback to forecast business outcomes",
+        "title": "Know What's Coming",
+        "description": "Your POS data + our AI = knowing next month's revenue today",
         "metrics": [
-          "Revenue forecasting",
-          "Customer insights",
-          "Future planning"
+          "Revenue you can predict",
+          "Customer patterns revealed",
+          "Plan with confidence"
         ]
       }
     }
   },
   "regionalAdaptations": {
-    "title": "Regional Adaptations",
-    "subtitle": "Tailored solutions to meet the unique demands of different global regions",
+    "title": "Built for How Your Market Actually Works",
+    "subtitle": "Because scheduling in NYC isn't like scheduling in São Paulo",
     "regions": {
       "US": {
-        "title": "Tip Yield Forecasting",
-        "subtitle": "Staff high-skill servers during peak tipping",
-        "description": "AI-driven forecasting anticipates demand and optimizes tips by predicting busy periods. Skill-based deployment strategically schedules experienced servers during peak tipping periods.",
+        "title": "Maximize Every Tip Dollar",
+        "subtitle": "Put your best servers where the money flows",
+        "description": "Our AI knows which shifts tip best and schedules your A-team accordingly. Watch tips soar 22% without adding staff.",
         "features": [
-          "AI-driven demand forecasting for peak periods",
-          "Skill-based deployment during high-tip times",
-          "Strategic scheduling for maximum tip yield",
-          "Customer confidence through expert staffing"
+          "AI predicts high-tip rushes before they happen",
+          "Your best servers work the best shifts",
+          "Strategic scheduling = fatter tip pools",
+          "Happy servers who make bank = low turnover"
         ]
       },
       "EU": {
-        "title": "Auto-Compliance",
-        "subtitle": "Working time directives compliance",
-        "description": "AI scheduler maintains compliance with labor laws and avoids fines through accurate record-keeping. Creates shifts compliant with EU Working Time Directives and AI Act regulations.",
+        "title": "Never Get Fined Again",
+        "subtitle": "EU laws? We got you covered",
+        "description": "Automatic compliance with every break law, overtime rule, and regulatory curveball. Sleep easy knowing you're bulletproof.",
         "features": [
-          "Automatic compliance with labor laws",
-          "EU Working Time Directive adherence",
-          "Accurate record-keeping and reporting",
-          "Reduced overtime penalties and fines"
+          "Auto-magical compliance (seriously)",
+          "Every EU directive pre-programmed",
+          "Perfect records for angry inspectors",
+          "Zero fines, zero stress"
         ]
       },
       "LATAM": {
-        "title": "Cash-Flow Optimization",
-        "subtitle": "High-cash transaction venues",
-        "description": "Real-time business analytics for smarter decision-making, identifying trends and performance gaps. Seamless payment management helps organize finances and accelerate payments.",
+        "title": "Master the Cash Game",
+        "subtitle": "Built for real-world cash operations",
+        "description": "Know exactly when cash flows peak. Staff accordingly. Watch profits climb while chaos disappears.",
         "features": [
-          "Real-time business analytics",
-          "Cash transaction optimization",
-          "Performance gap identification",
-          "Faster payment processing"
+          "Real-time cash flow intelligence",
+          "Optimize for cash-heavy periods",
+          "Spot revenue leaks instantly",
+          "Get paid faster, stress less"
         ]
       },
       "APAC": {
-        "title": "Mobile Wallet Integration",
-        "subtitle": "Seamless mobile payment systems",
-        "description": "Integration with popular mobile wallets like WeChat Pay. Enhanced booking conversion rates and revenue growth through optimized mobile payment experiences.",
+        "title": "Mobile Payments = More Money",
+        "subtitle": "WeChat, Alipay, whatever - we connect",
+        "description": "Seamless integration with Asia's mobile wallets. 8% more bookings, double the revenue. Math doesn't lie.",
         "features": [
-          "WeChat and mobile wallet integration",
-          "8% increase in booking conversions",
-          "Nearly doubled revenue potential",
-          "Optimized mobile payment flows"
+          "Every mobile wallet connected",
+          "8% booking boost (proven)",
+          "Revenue doubles (not kidding)",
+          "Frictionless payment = happy customers"
         ]
       }
     }
   },
   "cta": {
-    "title": "Ready to Transform Your Restaurant Operations?",
-    "subtitle": "Join thousands of restaurants leveraging AI-powered scheduling for strategic advantage",
+    "title": "Your Competition Is Already Using This",
+    "subtitle": "Every day without AI scheduling costs you $156 in wasted labor",
     "buttons": {
-      "trial": "Free Trial",
-      "demo": "Schedule Demo"
+      "trial": "Claim Your Advantage →",
+      "demo": "30-Min Profit Session →"
     },
     "metrics": {
-      "restaurants": "Restaurants Optimized",
-      "costReduction": "Labor Cost Reduction",
-      "regions": "Global Regions",
-      "monitoring": "AI Monitoring"
+      "restaurants": "Smart Restaurants",
+      "costReduction": "Average Savings",
+      "regions": "Countries Dominated",
+      "monitoring": "Always Learning"
     }
   }
 }

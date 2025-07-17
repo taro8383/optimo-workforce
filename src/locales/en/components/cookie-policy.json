@@ -2,14 +2,14 @@
   "navigation": {
     "tabs": {
       "policy": "Cookie Policy",
-      "preferences": "Cookie Preferences",
-      "types": "Cookie Types",
-      "contact": "Contact Us"
+      "preferences": "Cookie Control Center",
+      "types": "Cookie Breakdown",
+      "contact": "Get Help"
     }
   },
   "heroSection": {
     "title": "Cookie Policy",
-    "subtitle": "Learn how OPTIMO Workforce uses cookies to enhance your experience and protect your privacy. Manage your cookie preferences with full transparency and control.",
+    "subtitle": "The truth about those little files that make the internet work. Control exactly what we track (spoiler: not much).",
     "meta": {
       "lastUpdated": "Last Updated",
       "effectiveDate": "Effective Date",
@@ -17,112 +17,112 @@
     }
   },
   "summary": {
-    "title": "Cookie Usage Summary",
-    "subtitle": "Quick overview of how we use cookies on our platform",
+    "title": "Cookie Quick Facts",
+    "subtitle": "What we're actually doing with cookies (it's boring)",
     "essential": {
-      "title": "Essential Only",
-      "description": "Required cookies for basic website functionality and security"
+      "title": "The Must-Haves",
+      "description": "Can't turn these off or the site breaks. Sorry."
     },
     "performance": {
-      "title": "Performance Tracking",
-      "description": "Analytics cookies to improve website performance and user experience"
+      "title": "The Helpers",
+      "description": "Help us figure out what's working and what sucks"
     },
     "functional": {
-      "title": "Personalization",
-      "description": "Functional cookies to remember your preferences and settings"
+      "title": "The Remember-ers",
+      "description": "Remember your settings so you don't have to"
     },
     "marketing": {
-      "title": "Marketing (Optional)",
-      "description": "Advertising cookies for relevant content and campaign tracking"
+      "title": "The Sellers (Off by Default)",
+      "description": "Only if you want targeted ads instead of random ones"
     }
   },
   "sections": {
     "overview": {
-      "title": "What Are Cookies?",
-      "content": "Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit our website. They help us provide you with a better experience by remembering your preferences, analyzing how you use our site, and enabling certain functionality.\n\nOPTIMO Workforce uses cookies and similar technologies to enhance your experience, provide personalized content, analyze site traffic, and understand where our visitors are coming from. This Cookie Policy explains what cookies are, how we use them, and how you can manage your cookie preferences.\n\nWe are committed to being transparent about our use of cookies and giving you control over your privacy preferences."
+      "title": "Cookies: The Non-Scary Version",
+      "content": "Cookies are tiny text files that live on your device when you visit websites. They're not programs, can't install viruses, and mostly just remember boring stuff like 'this person prefers dark mode.'\n\nAt OPTIMO, we use cookies to make the site work properly, remember your preferences, and understand what features people actually use. No creepy tracking, no selling your data to shadowy corporations.\n\nWe believe in being straight with you about cookies. You control what's on, what's off, and we'll still love you either way."
     },
     "types": {
-      "title": "Types of Cookies We Use",
-      "content": "**Essential Cookies (Always Active):**\n• Authentication and security cookies\n• Session management cookies\n• Load balancing cookies\n• CSRF protection tokens\n\n**Performance Cookies:**\n• Google Analytics for website usage statistics\n• Page load time measurement\n• Error tracking and monitoring\n• User journey analysis\n\n**Functional Cookies:**\n• Language preference settings\n• Theme and display preferences\n• Form data persistence\n• Feature toggle states\n\n**Marketing Cookies:**\n• Advertising campaign tracking\n• Social media integration pixels\n• Conversion tracking\n• Remarketing and retargeting\n\n**Third-Party Cookies:**\n• Google Analytics and Google Tag Manager\n• Social media platform cookies (LinkedIn, Twitter)\n• Customer support chat widgets\n• Payment processor cookies (Stripe)"
+      "title": "Our Cookie Menu",
+      "content": "**Essential Cookies (Can't Turn Off):**\n• Login tokens (so you stay logged in)\n• Security cookies (keep the bad guys out)\n• Load balancing (so the site doesn't crash)\n• CSRF tokens (more security stuff)\n\n**Performance Cookies:**\n• Google Analytics (see what pages people visit)\n• Speed monitoring (find slow pages)\n• Error tracking (catch bugs)\n• Feature usage (what's popular)\n\n**Functional Cookies:**\n• Language choice (English/Spanish/etc)\n• Theme preference (dark mode FTW)\n• Form memory (don't lose your work)\n• Dashboard layout (your way)\n\n**Marketing Cookies:**\n• Ad campaign tracking (did our ads work?)\n• Social media pixels (Facebook knows you were here)\n• Conversion tracking (who became customers)\n• Retargeting (those ads that follow you)\n\n**Third-Party Cookies:**\n• Google stuff (Analytics, Ads)\n• Social networks (for sharing)\n• Support chat (Intercom)\n• Payment processing (Stripe)"
     },
     "usage": {
-      "title": "How We Use Cookies",
-      "content": "**Website Functionality:**\n• Remember your login status and preferences\n• Maintain your session while navigating the site\n• Store your language and regional settings\n• Remember items in forms as you fill them out\n\n**Analytics and Performance:**\n• Understand how visitors interact with our website\n• Identify popular content and features\n• Monitor website performance and loading times\n• Track conversion rates and user engagement\n\n**Personalization:**\n• Customize content based on your preferences\n• Remember your dashboard layout and settings\n• Provide relevant product recommendations\n• Tailor the user experience to your needs\n\n**Marketing and Advertising:**\n• Measure the effectiveness of our marketing campaigns\n• Show relevant advertisements on other websites\n• Track conversions from marketing channels\n• Analyze the customer journey across touchpoints\n\n**Security:**\n• Protect against cross-site request forgery (CSRF) attacks\n• Detect and prevent fraudulent activity\n• Maintain secure user sessions\n• Monitor for suspicious behavior patterns"
+      "title": "Why We Cookie",
+      "content": "**Making Things Work:**\n• Keep you logged in (imagine logging in every click)\n• Remember your language (no constant switching)\n• Save form progress (don't lose that data)\n• Store your preferences (dark mode stays dark)\n\n**Making Things Better:**\n• See which features get used (or ignored)\n• Find broken stuff faster\n• Measure page speed (slow = bad)\n• Understand user journeys (where people get stuck)\n\n**Making Things Yours:**\n• Remember your dashboard setup\n• Keep your timezone correct\n• Show relevant features first\n• Hide stuff you don't use\n\n**Marketing (If You Allow):**\n• Know which ads actually work\n• Stop showing you the same ad 1000 times\n• Track if marketing emails convert\n• Measure campaign success\n\n**Keeping Things Safe:**\n• Block hack attempts\n• Prevent fake requests\n• Maintain secure sessions\n• Detect suspicious patterns"
     },
     "thirdParty": {
-      "title": "Third-Party Cookies",
-      "content": "**Google Services:**\n• Google Analytics: Website traffic analysis and user behavior tracking\n• Google Tag Manager: Managing marketing and analytics tags\n• Google Ads: Conversion tracking and remarketing\n• reCAPTCHA: Bot detection and spam prevention\n\n**Social Media Platforms:**\n• LinkedIn: Social login and sharing functionality\n• Twitter: Tweet embedding and social sharing\n• Facebook: Social plugins and advertising pixels\n• YouTube: Video embedding and analytics\n\n**Customer Support:**\n• Intercom: Live chat functionality and user support\n• Zendesk: Help desk and ticket management\n• Hotjar: User session recordings and heatmaps\n\n**Payment Processing:**\n• Stripe: Secure payment processing and fraud detection\n• PayPal: Alternative payment method processing\n• Apple Pay/Google Pay: Mobile payment integration\n\n**Content Delivery:**\n• Cloudflare: Content delivery network and security\n• AWS CloudFront: Static asset delivery\n• Font providers: Web font loading and display\n\nWe regularly review our third-party integrations to ensure they meet our privacy and security standards. All third-party cookies are subject to their respective privacy policies."
+      "title": "Other People's Cookies",
+      "content": "**Google Gang:**\n• Google Analytics: Tells us visitor stats (anonymized)\n• Google Tag Manager: Manages all the tracking tags\n• Google Ads: Knows if our ads brought you here\n• reCAPTCHA: Proves you're human\n\n**Social Squad:**\n• LinkedIn: For easy login and sharing\n• Twitter: Embed tweets, share stuff\n• Facebook: Those like buttons and pixels\n• YouTube: Watch videos without leaving\n\n**Support Stars:**\n• Intercom: That chat bubble for help\n• Zendesk: Tracks support tickets\n• Hotjar: Shows where people click (anonymized)\n\n**Payment Pals:**\n• Stripe: Processes payments securely\n• PayPal: Alternative payment option\n• Apple/Google Pay: Mobile payments\n\n**Infrastructure:**\n• Cloudflare: Makes site fast and secure\n• AWS: Delivers images quickly\n• Font services: Pretty typography\n\nAll these third parties have their own privacy policies. We pick partners who respect privacy, but check their policies too."
     },
     "duration": {
-      "title": "Cookie Duration and Storage",
-      "content": "**Session Cookies:**\n• Deleted when you close your browser\n• Used for temporary data like shopping cart contents\n• Essential for maintaining your login session\n• Typically last for the duration of your visit\n\n**Persistent Cookies:**\n• Remain on your device for a specified period\n• Used for remembering preferences and settings\n• Can last from days to years depending on purpose\n• Automatically deleted when they expire\n\n**Cookie Storage Periods:**\n• Essential cookies: Session or up to 1 year\n• Performance cookies: Up to 2 years\n• Functional cookies: Up to 1 year\n• Marketing cookies: Up to 1 year\n• Third-party cookies: Varies by provider\n\n**Data Storage Locations:**\n• Cookies are stored locally on your device\n• No personal data is transmitted in cookie names\n• Cookie values are encrypted when containing sensitive data\n• Regular cleanup removes expired cookies automatically\n\n**Cookie Size and Limits:**\n• Individual cookies are limited to 4KB in size\n• Browsers limit the total number of cookies per domain\n• We minimize cookie size to improve performance\n• Unnecessary cookies are regularly purged"
+      "title": "Cookie Lifespans",
+      "content": "**Session Cookies (Gone When You Close Browser):**\n• Login sessions\n• Temporary preferences\n• Form data in progress\n• Shopping cart contents\n\n**Persistent Cookies (Stick Around):**\n• Remember me tokens\n• Language preferences\n• Theme settings\n• Analytics IDs\n\n**How Long They Last:**\n• Essential: Session or up to 1 year\n• Performance: Up to 2 years (industry standard)\n• Functional: Up to 1 year\n• Marketing: Up to 1 year\n• Third-party: Whatever they decide\n\n**Where They Live:**\n• On your device (not our servers)\n• In your browser's cookie jar\n• Encrypted if they contain anything sensitive\n• Auto-deleted when expired\n\n**Size Limits:**\n• Max 4KB per cookie (tiny!)\n• Limited number per site\n• We keep them small for speed\n• Regular cleanup of old ones"
     },
     "managing": {
-      "title": "Managing Your Cookie Preferences",
-      "content": "**Browser Settings:**\n• All major browsers allow you to control cookies\n• You can block all cookies or only third-party cookies\n• Delete existing cookies from your browser settings\n• Set up automatic cookie deletion on browser close\n\n**Our Cookie Preference Center:**\n• Access through the cookie banner on first visit\n• Modify preferences anytime through our settings page\n• Granular control over different cookie categories\n• Save preferences for future visits\n\n**Opt-Out Options:**\n• Google Analytics: Use Google's opt-out browser add-on\n• Marketing cookies: Disable through our preference center\n• Third-party tracking: Use browser privacy settings\n• Do Not Track: We respect browser DNT signals\n\n**Mobile Device Settings:**\n• iOS: Settings > Safari > Privacy & Security\n• Android: Chrome > Settings > Site Settings > Cookies\n• Mobile apps: Check app-specific privacy settings\n• Cross-device tracking: Manage through platform settings\n\n**Impact of Disabling Cookies:**\n• Some website features may not work properly\n• You may need to re-enter information repeatedly\n• Personalized content and recommendations may be limited\n• Analytics help us improve the service for all users"
+      "title": "Take Control",
+      "content": "**Browser Controls:**\n• Every browser lets you manage cookies\n• Block all, some, or none\n• Delete whenever you want\n• Set up auto-delete on close\n\n**Our Cookie Dashboard:**\n• Click the cookie icon anytime\n• Turn categories on/off\n• See exactly what's active\n• Changes save instantly\n\n**Opt-Out Options:**\n• Google Analytics: Install their opt-out plugin\n• Marketing: Just turn them off in our dashboard\n• Third-party: Use browser privacy mode\n• Nuclear option: Block all cookies (site might break)\n\n**Mobile Settings:**\n• iOS: Settings > Safari > Privacy\n• Android: Chrome > Settings > Cookies\n• Apps: Check each app's settings\n• Sync: Manage across devices\n\n**What Happens If You Block:**\n• Essential blocked = site won't work properly\n• Performance blocked = we can't improve things\n• Functional blocked = re-enter everything always\n• Marketing blocked = random ads instead of relevant ones"
     },
     "legal": {
-      "title": "Legal Basis for Cookie Use",
-      "content": "**GDPR Compliance (EU Users):**\n• Consent: Required for non-essential cookies\n• Legitimate interest: Used for essential functionality\n• Contract performance: Necessary for service delivery\n• Legal obligation: Required for compliance purposes\n\n**CCPA Compliance (California Users):**\n• Right to know what cookies collect personal information\n• Right to delete personal information collected via cookies\n• Right to opt-out of sale of personal information\n• Non-discrimination for exercising privacy rights\n\n**Other Jurisdictions:**\n• We comply with local privacy laws where applicable\n• Regular legal reviews ensure ongoing compliance\n• Privacy impact assessments for new cookie implementations\n• Transparent disclosure of all cookie practices\n\n**Consent Management:**\n• Clear and specific consent for each cookie category\n• Easy withdrawal of consent at any time\n• Granular control over different types of cookies\n• Regular consent renewal for long-term users\n\n**Data Subject Rights:**\n• Access: Request information about cookies used\n• Rectification: Correct inaccurate cookie-related data\n• Erasure: Delete cookies and associated data\n• Portability: Export cookie preference settings"
+      "title": "The Legal Stuff",
+      "content": "**GDPR (Europe):**\n• We ask before setting non-essential cookies\n• Essential cookies don't need permission (legal basis: legitimate interest)\n• You can change your mind anytime\n• We document everything for compliance\n\n**CCPA (California):**\n• You can see what cookies collect personal info\n• Delete cookie data anytime\n• We don't sell cookie data (or any data)\n• No discrimination for privacy choices\n\n**Other Places:**\n• We follow local privacy laws\n• Regular legal reviews\n• Privacy assessments for new cookies\n• Transparent about everything\n\n**Your Consent:**\n• Specific consent for each category\n• Easy to withdraw anytime\n• Granular control (not all-or-nothing)\n• We ask again after a year\n\n**Your Rights:**\n• Know what cookies we use\n• Correct any wrong data\n• Delete cookie data\n• Export your preferences"
     },
     "updates": {
-      "title": "Updates to This Cookie Policy",
-      "content": "**Policy Updates:**\n• We may update this Cookie Policy from time to time\n• Material changes will be communicated via email or website notice\n• Continued use of our website constitutes acceptance of changes\n• Previous versions are archived and available upon request\n\n**Notification Process:**\n• Email notification to registered users for significant changes\n• Prominent website banner for 30 days after updates\n• Updated effective date clearly displayed\n• Summary of changes provided in plain language\n\n**Version Control:**\n• All policy versions are dated and archived\n• Change log maintained for transparency\n• Legal review required for all policy updates\n• User impact assessment for material changes\n\n**Your Options:**\n• Review changes and decide whether to continue using our services\n• Update your cookie preferences if needed\n• Contact us with questions about policy changes\n• Withdraw consent if you disagree with updates"
+      "title": "When Things Change",
+      "content": "**Policy Updates:**\n• We review annually (boring but necessary)\n• Big changes = we email you\n• Keep using the site = you accept updates\n• Old versions available if you're nostalgic\n\n**How We Tell You:**\n• Email blast for major changes\n• Big banner on site for 30 days\n• Clear effective date\n• Plain English summary of changes\n\n**Version Control:**\n• Every version dated and saved\n• Track what changed when\n• Lawyers review everything\n• Consider user impact\n\n**Your Options:**\n• Read the changes (or don't)\n• Update your preferences\n• Ask us questions\n• Leave if you hate the changes (but don't)"
     }
   },
   "policy": {
     "consent": {
-      "title": "Cookie Consent Notice",
-      "description": "By using our website, you consent to our use of cookies as described in this policy. You can manage your cookie preferences at any time through our preference center."
+      "title": "The Bottom Line",
+      "description": "Use our site = accept essential cookies. Everything else is your choice. Change your mind anytime. We're cool like that."
     }
   },
   "preferences": {
-    "title": "Manage Cookie Preferences",
-    "subtitle": "Control which cookies we use to personalize your experience",
-    "saveSuccess": "Cookie preferences saved successfully!",
+    "title": "Cookie Command Center",
+    "subtitle": "Turn stuff on or off. We won't judge.",
+    "saveSuccess": "Preferences saved! Cookie monster approves.",
     "save": {
-      "title": "Save Your Preferences",
-      "description": "Your choices will be remembered for future visits",
-      "button": "Save Preferences"
+      "title": "Lock It In",
+      "description": "We'll remember these settings (ironically, using a cookie)",
+      "button": "Save My Choices"
     },
-    "reset": "Reset to Defaults"
+    "reset": "Back to Defaults"
   },
   "types": {
-    "title": "Detailed Cookie Information",
-    "subtitle": "Complete breakdown of all cookies used on our platform",
+    "title": "The Complete Cookie Encyclopedia",
+    "subtitle": "Every. Single. Cookie. (You asked for it)",
     "table": {
       "cookieName": "Cookie Name",
-      "purpose": "Purpose",
-      "duration": "Duration",
-      "canDisable": "Can Disable"
+      "purpose": "What It Does",
+      "duration": "How Long It Lives",
+      "canDisable": "Can You Kill It?"
     },
     "browser": {
-      "title": "Browser Cookie Management",
+      "title": "Browser Cookie Controls",
       "desktop": {
-        "title": "Desktop Browsers",
-        "description": "Chrome, Firefox, Safari, Edge - Access through Settings > Privacy"
+        "title": "Computer Browsers",
+        "description": "Chrome, Firefox, Safari, Edge - Look in Settings > Privacy"
       },
       "mobile": {
-        "title": "Mobile Browsers",
-        "description": "iOS Safari, Chrome Mobile - Check browser settings menu"
+        "title": "Phone Browsers",
+        "description": "Safari, Chrome - Check your browser settings"
       },
       "tools": {
-        "title": "Privacy Tools",
-        "description": "Ad blockers, privacy extensions, and Do Not Track settings"
+        "title": "Privacy Power Tools",
+        "description": "Ad blockers, privacy plugins, Do Not Track mode"
       }
     }
   },
   "cookieTypes": {
     "required": "Required",
-    "alwaysActive": "Always Active",
+    "alwaysActive": "Can't Turn Off",
     "essential": {
       "title": "Essential Cookies",
-      "description": "Necessary for the website to function properly and cannot be disabled",
+      "description": "These make the site work. Turn them off = break everything.",
       "examples": {
-        "sessionId": "Maintains user session",
-        "csrfToken": "Security protection",
-        "authToken": "User authentication",
-        "loadBalancer": "Server routing",
+        "sessionId": "Keeps you logged in",
+        "csrfToken": "Stops hackers",
+        "authToken": "Proves you're you",
+        "loadBalancer": "Distributes traffic",
         "session": "Session",
         "oneHour": "1 hour",
         "thirtyDays": "30 days"
@@ -130,12 +130,12 @@
     },
     "performance": {
       "title": "Performance Cookies",
-      "description": "Help us understand how visitors interact with our website",
+      "description": "Help us find what's broken and fix it",
       "examples": {
-        "ga": "Google Analytics tracking",
-        "gid": "Google Analytics session",
-        "performanceMetrics": "Page load monitoring",
-        "errorTracking": "Error reporting",
+        "ga": "Google Analytics ID",
+        "gid": "Google session tracker",
+        "performanceMetrics": "Speed monitoring",
+        "errorTracking": "Bug catcher",
         "twoYears": "2 years",
         "twentyFourHours": "24 hours",
         "oneYear": "1 year",
@@ -144,24 +144,24 @@
     },
     "functional": {
       "title": "Functional Cookies",
-      "description": "Enable enhanced functionality and personalization",
+      "description": "Remember your preferences so you don't have to",
       "examples": {
-        "languagePref": "Language selection",
-        "themeSetting": "UI theme preference",
-        "dashboardLayout": "Layout preferences",
-        "notificationPrefs": "Notification settings",
+        "languagePref": "Your language",
+        "themeSetting": "Dark/light mode",
+        "dashboardLayout": "How you like it",
+        "notificationPrefs": "What alerts you want",
         "oneYear": "1 year",
         "sixMonths": "6 months"
       }
     },
     "marketing": {
       "title": "Marketing Cookies",
-      "description": "Used to deliver relevant advertisements and track campaigns",
+      "description": "Track campaigns and show relevant ads (if you're into that)",
       "examples": {
-        "marketingId": "Campaign tracking",
-        "conversionPixel": "Conversion tracking",
-        "remarketingTag": "Remarketing campaigns",
-        "socialPixel": "Social media tracking",
+        "marketingId": "Campaign tracker",
+        "conversionPixel": "Success measurer",
+        "remarketingTag": "Ad follower",
+        "socialPixel": "Social tracker",
         "oneYear": "1 year",
         "ninetyDays": "90 days",
         "oneHundredEightyDays": "180 days"
@@ -169,57 +169,57 @@
     }
   },
   "contact": {
-    "title": "Cookie Policy Contact Information",
-    "subtitle": "Get in touch with our team for cookie-related questions and concerns",
+    "title": "Cookie Questions?",
+    "subtitle": "Real humans ready to explain this cookie nonsense",
     "privacyTeam": {
       "title": "Privacy Team",
-      "description": "For cookie policy questions and privacy concerns"
+      "description": "Cookie policy experts and privacy nerds"
     },
     "dpo": {
       "title": "Data Protection Officer",
-      "description": "For GDPR-related cookie inquiries"
+      "description": "The GDPR cookie compliance guru"
     },
     "support": {
-      "title": "Technical Support",
-      "description": "For help with cookie settings and technical issues"
+      "title": "Tech Support",
+      "description": "When cookies misbehave or settings confuse"
     }
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Cookie FAQs",
     "withoutCookies": {
-      "question": "Can I use your website without cookies?",
-      "answer": "Essential cookies are required for basic functionality, but you can disable optional cookies through our preference center or browser settings."
+      "question": "Can I use OPTIMO without any cookies?",
+      "answer": "Essential cookies must stay on or things break. Turn off everything else if you want—we built it to work either way."
     },
     "updateFrequency": {
-      "question": "How often do you update this policy?",
-      "answer": "We review and update our Cookie Policy annually or when we make significant changes to our cookie practices. You'll be notified of any material changes."
+      "question": "How often does this policy change?",
+      "answer": "We review yearly or when something big changes. You'll get an email and see a banner if we update anything important."
     },
     "dataSharing": {
-      "question": "Do you share cookie data with third parties?",
-      "answer": "We only share cookie data with trusted service providers who help us operate our website. We never sell cookie data to third parties."
+      "question": "Do you sell my cookie data?",
+      "answer": "Hell no. We don't sell any data, cookie or otherwise. Some service providers see cookie data to make things work, but that's it."
     },
     "deleteCookies": {
-      "question": "How do I delete existing cookies?",
-      "answer": "You can delete cookies through your browser settings. Each browser has different steps, but you'll typically find this option in Privacy or Security settings."
+      "question": "How do I nuke all cookies?",
+      "answer": "Browser settings > Privacy > Clear cookies. Each browser is different, but they all have this option. Or use our preference center."
     }
   },
   "download": {
-    "title": "Download Cookie Documentation",
-    "subtitle": "Access our complete cookie documentation for your records",
+    "title": "Cookie Documentation",
+    "subtitle": "For the data hoarders and compliance teams",
     "policy": {
-      "title": "Cookie Policy",
-      "description": "Complete cookie policy document (PDF)",
+      "title": "Cookie Policy PDF",
+      "description": "This whole policy in portable format",
       "button": "Download PDF"
     },
     "inventory": {
-      "title": "Cookie Inventory",
-      "description": "Detailed list of all cookies used (CSV)",
+      "title": "Cookie List",
+      "description": "Spreadsheet of every cookie we use",
       "button": "Download CSV"
     },
     "guide": {
       "title": "Browser Guide",
-      "description": "Step-by-step cookie management guide",
-      "button": "Download Guide"
+      "description": "How to manage cookies in every browser",
+      "button": "Get the Guide"
     }
   }
 }

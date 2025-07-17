@@ -1,11 +1,11 @@
 {
-  "description": "Automated price adjustments based on demand, inventory and other factors.",
-  "benefits": [
-    "Demand-based pricing",
-    "Inventory-driven adjustments",
-    "Competitive positioning",
-    "Real-time updates"
-  ],
+      "description": "Prices that adjust themselves for maximum profit. Surge pricing that customers actually accept.",
+      "benefits": [
+        "Raise prices when they'll pay it",
+        "Move inventory before it spoils",
+        "Always beat competitor pricing",
+        "Changes happen automatically"
+      ],
   "timeline": "Q4 2026",
   "impact": "18% margin improvement"
 }

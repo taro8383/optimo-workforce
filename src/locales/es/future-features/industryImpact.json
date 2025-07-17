@@ -1,28 +1,28 @@
 {
-  "title": "Impacto Industrial",
-  "subtitle": "Mejoras en métricas clave",
-  "restaurants": {
-    "title": "Restaurantes",
-    "metrics": {
-      "foodWaste": "Menos desperdicio",
-      "revenueIncrease": "Más ingresos",
-      "customerSatisfaction": "Clientes más satisfechos"
-    }
-  },
-  "hotels": {
-    "title": "Hoteles",
-    "metrics": {
-      "operationalEfficiency": "Más eficiencia",
-      "guestExperience": "Mejor experiencia",
-      "staffRetention": "Más retención"
-    }
-  },
-  "cafes": {
-    "title": "Cafeterías",
-    "metrics": {
-      "inventoryAccuracy": "Inventario preciso",
-      "profitMargins": "Mayores márgenes",
-      "orderAccuracy": "Pedidos exactos"
-    }
+    "title": "Lo Que Significa Para Tu Cuenta Bancaria",
+    "subtitle": "Números reales de negocios reales (no puro marketing)",
+    "restaurants": {
+      "title": "Restaurantes Completos",
+      "metrics": {
+        "foodWaste": "Menos Comida en la Basura",
+        "revenueIncrease": "Más Dinero Entrando",
+        "customerSatisfaction": "Clientes Más Felices"
+      }
+    },
+    "hotels": {
+      "title": "Hoteles y Resorts",
+      "metrics": {
+        "operationalEfficiency": "Menos Tiempo Perdido",
+        "guestExperience": "Reseñas 5 Estrellas",
+        "staffRetention": "Personal Que Se Queda"
+      }
+    },
+    "cafes": {
+      "title": "Cafés y QSR",
+      "metrics": {
+        "inventoryAccuracy": "Niveles Perfectos",
+        "profitMargins": "Aumento de Ganancias",
+        "orderAccuracy": "Pedidos Correctos"
+      }
   }
 }

@@ -1,86 +1,86 @@
 {
   "hero": {
-    "title": "Stay Ahead of Labor Trends",
-    "subtitle": "Get exclusive optimization tactics monthly—from AI insights to regulatory updates",
-    "subscribeNow": "Subscribe Now",
-    "viewSampleIssue": "View Sample Issue",
-    "monthlyInsights": "Monthly Insights",
-    "laborOptimizationReport": "Labor Optimization Report",
-    "regionalComplianceUpdates": "Regional Compliance Updates",
-    "aiFeaturePreviews": "AI Feature Previews"
+    "title": "The Labor Intel Your Competitors Don't Want You to Have",
+    "subtitle": "Monthly optimization secrets that turn your biggest expense into your competitive advantage—straight from the AI frontlines",
+    "subscribeNow": "Get the Edge",
+    "viewSampleIssue": "Peek Inside",
+    "monthlyInsights": "Monthly Game-Changers",
+    "laborOptimizationReport": "Profit-Boosting Playbooks",
+    "regionalComplianceUpdates": "Never-Get-Fined Updates",
+    "aiFeaturePreviews": "Tomorrow's Tech Today"
   },
   "benefits": {
-    "title": "What You'll Get",
-    "subtitle": "Exclusive content designed for hospitality leaders and optimization experts",
+    "title": "Intel That Pays for Itself",
+    "subtitle": "While others guess, you'll know exactly what's working in hospitality right now",
     "exclusiveWhitepapers": {
-      "title": "Exclusive Whitepapers",
-      "description": "In-depth analysis of labor optimization strategies and industry benchmarks"
+      "title": "Battle-Tested Blueprints",
+      "description": "Real strategies from real restaurants saving 20%+ on labor. No theory, just proven tactics you can steal."
     },
     "regionalLaborLawUpdates": {
-      "title": "Regional Labor Law Updates",
-      "description": "Stay compliant with changing regulations across US, EU, LATAM, and APAC"
+      "title": "Your Legal Crystal Ball",
+      "description": "Know about wage changes, break rules, and compliance shifts before they hit. Never scramble to adapt again."
     },
     "earlyFeatureAccess": {
-      "title": "Early Feature Access",
-      "description": "Be the first to test new AI optimization features before public release"
+      "title": "Beta Access = First-Mover Advantage",
+      "description": "Test drive new AI features while competitors wait. Shape the tools that shape your profits."
     }
   },
   "signup": {
-    "title": "Join 10,000+ Industry Leaders",
-    "subtitle": "Get personalized insights for your region and industry",
+    "title": "10,000+ Leaders Already Have the Inside Track",
+    "subtitle": "Get intel customized for your exact market and challenges",
     "form": {
-      "fullName": "Full Name *",
-      "fullNamePlaceholder": "Enter your full name",
-      "emailAddress": "Email Address *",
-      "emailPlaceholder": "Enter your email",
-      "region": "Region *",
-      "regionPlaceholder": "Select your region",
-      "industry": "Industry *",
-      "industryPlaceholder": "Select your industry"
+      "fullName": "Your Name *",
+      "fullNamePlaceholder": "John Smith",
+      "emailAddress": "Best Email *",
+      "emailPlaceholder": "Where should we send the gold?",
+      "region": "Your Market *",
+      "regionPlaceholder": "Where you compete",
+      "industry": "Your Arena *",
+      "industryPlaceholder": "What you're optimizing"
     },
-    "submitButton": "Optimize My Knowledge",
+    "submitButton": "Send Me the Secrets",
     "privacy": {
-      "gdprCompliant": "GDPR-compliant",
-      "oneClickUnsubscribe": "1-click unsubscribe"
+      "gdprCompliant": "Your data = Fort Knox secure",
+      "oneClickUnsubscribe": "Hate it? Gone in 1 click"
     },
     "success": {
-      "title": "Welcome to the Community!",
-      "message": "You'll receive your first optimization insights within 24 hours.",
-      "subscribeAnotherEmail": "Subscribe Another Email"
+      "title": "You're In the Inner Circle!",
+      "message": "First intelligence briefing hits your inbox in 24 hours. Get ready to outsmart everyone.",
+      "subscribeAnotherEmail": "Add Another Email"
     }
   },
   "contentPreview": {
-    "title": "Recent Highlights",
-    "subtitle": "See what our subscribers are reading",
+    "title": "Last Month's Money-Makers",
+    "subtitle": "What smart operators are implementing right now",
     "issues": {
       "december2024": {
-        "date": "December 2024 Issue",
-        "title": "California $20/hr Wage Impact Report",
-        "description": "Comprehensive analysis of how California's new minimum wage affects restaurant scheduling, with AI-powered strategies to maintain profitability while ensuring compliance.",
-        "pages": "12 pages",
-        "downloads": "3,247 downloads"
+        "date": "Fresh Intel: December 2024",
+        "title": "The $20/hr California Survival Guide",
+        "description": "How 147 California restaurants are thriving (not just surviving) with the new wage. Includes the 'Schedule Hack' that cut labor costs 18% while paying $20/hr.",
+        "pages": "12 tactical pages",
+        "downloads": "3,247 operators saved"
       },
       "november2024": {
-        "date": "November 2024 Issue",
-        "title": "APAC Mobile Payment Trends",
-        "description": "How Singapore and Hong Kong restaurants are leveraging mobile wallet preferences to increase tip yields by 22% through optimized staffing strategies.",
-        "pages": "8 pages",
-        "downloads": "2,891 downloads"
+        "date": "Game-Changer: November 2024",
+        "title": "The Singapore Tip Revolution",
+        "description": "Why APAC restaurants using this mobile payment strategy see 22% higher tips. Plus: The staffing model that makes it automatic.",
+        "pages": "8 profit pages",
+        "downloads": "2,891 downloads in 48hrs"
       }
     },
-    "downloadExcerpt": "Download Excerpt",
-    "cta": "Join 10,000+ subscribers getting exclusive insights monthly"
+    "downloadExcerpt": "Steal a Sample",
+    "cta": "Don't let 10,000+ competitors outsmart you"
   },
   "finalCTA": {
-    "title": "Ready to Optimize Your Knowledge?",
-    "subtitle": "Get the insights that industry leaders use to stay ahead of labor trends",
-    "subscribeNow": "Subscribe Now",
-    "viewAllPastIssues": "View All Past Issues",
+    "title": "Ready to Know What They Don't?",
+    "subtitle": "The difference between thriving and surviving is knowing what's next",
+    "subscribeNow": "Start My Advantage",
+    "viewAllPastIssues": "Browse the Vault",
     "stats": {
-      "subscribers": "Subscribers",
-      "monthlyIssues": "Monthly Issues",
+      "subscribers": "Smart Operators",
+      "monthlyIssues": "Issues Delivered",
       "languages": "Languages",
-      "forever": "Forever"
+      "forever": "Free Forever"
     }
   },
   "regions": [

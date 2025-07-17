@@ -1,18 +1,10 @@
 {
-  "title": "¿Tienes una idea para una función?",
-  "description": "Mejoramos constantemente nuestra plataforma basándonos en comentarios de clientes. Comparte tus ideas con nuestro equipo de producto.",
-  "contactProductTeam": "Contactar al Equipo de Producto",
-  "submitFeatureRequest": "Enviar Solicitud de Función",
-  "badges": {
+    "title": "¿Tienes una Idea de un Millón de Dólares?",
+    "description": "Hemos construido el 73% de las peticiones. Tu idea podría valer miles para tu negocio. Hablemos.",
+    "contactProductTeam": "Mensaje al Equipo",
+    "submitFeatureRequest": "Envía Tu Idea →",
     "new": "Nuevo",
     "popular": "Popular", 
     "comingSoon": "Próximamente",
     "beta": "Beta"
-  },
-  "stats": {
-    "featureRequests": "Solicitudes de Funciones",
-    "implementationRate": "Tasa de Implementación",
-    "betaTesters": "Probadores Beta",
-    "development": "Desarrollo Continuo"
   }
-}

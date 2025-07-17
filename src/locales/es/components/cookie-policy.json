@@ -2,127 +2,127 @@
   "navigation": {
     "tabs": {
       "policy": "Política de Cookies",
-      "preferences": "Preferencias de Cookies",
-      "types": "Tipos de Cookies",
-      "contact": "Contáctenos"
+      "preferences": "Centro de Control",
+      "types": "Desglose de Cookies",
+      "contact": "Obtén Ayuda"
     }
   },
   "heroSection": {
     "title": "Política de Cookies",
-    "subtitle": "Aprenda cómo OPTIMO Workforce utiliza cookies para mejorar su experiencia y proteger su privacidad. Gestione sus preferencias de cookies con total transparencia y control.",
+    "subtitle": "La verdad sobre esos archivitos que hacen funcionar internet. Controla exactamente qué rastreamos (spoiler: no mucho).",
     "meta": {
       "lastUpdated": "Última Actualización",
-      "effectiveDate": "Fecha de Vigencia",
-      "dateValue": "15 de enero de 2025"
+      "effectiveDate": "Fecha Efectiva",
+      "dateValue": "15 de Enero, 2025"
     }
   },
   "summary": {
-    "title": "Resumen de Uso de Cookies",
-    "subtitle": "Descripción general rápida de cómo usamos cookies en nuestra plataforma",
+    "title": "Datos Rápidos sobre Cookies",
+    "subtitle": "Lo que realmente hacemos con las cookies (es aburrido)",
     "essential": {
-      "title": "Solo Esenciales",
-      "description": "Cookies necesarias para la funcionalidad básica del sitio web y seguridad"
+      "title": "Las Imprescindibles",
+      "description": "No se pueden apagar o el sitio se rompe. Perdón."
     },
     "performance": {
-      "title": "Seguimiento de Rendimiento",
-      "description": "Cookies de análisis para mejorar el rendimiento del sitio web y la experiencia del usuario"
+      "title": "Las Ayudantes",
+      "description": "Nos ayudan a descubrir qué funciona y qué apesta"
     },
     "functional": {
-      "title": "Personalización",
-      "description": "Cookies funcionales para recordar sus preferencias y configuraciones"
+      "title": "Las Recordadoras",
+      "description": "Recuerdan tu configuración para que no tengas que hacerlo"
     },
     "marketing": {
-      "title": "Marketing (Opcional)",
-      "description": "Cookies publicitarias para contenido relevante y seguimiento de campañas"
+      "title": "Las Vendedoras (Apagadas por Defecto)",
+      "description": "Solo si quieres anuncios dirigidos en vez de aleatorios"
     }
   },
   "sections": {
     "overview": {
-      "title": "¿Qué Son las Cookies?",
-      "content": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo (computadora, tableta o móvil) cuando visita nuestro sitio web. Nos ayudan a brindarle una mejor experiencia recordando sus preferencias, analizando cómo utiliza nuestro sitio y habilitando ciertas funcionalidades.\n\nOPTIMO Workforce utiliza cookies y tecnologías similares para mejorar su experiencia, proporcionar contenido personalizado, analizar el tráfico del sitio y comprender de dónde provienen nuestros visitantes. Esta Política de Cookies explica qué son las cookies, cómo las usamos y cómo puede gestionar sus preferencias de cookies.\n\nEstamos comprometidos a ser transparentes sobre nuestro uso de cookies y darle control sobre sus preferencias de privacidad."
+      "title": "Cookies: La Versión No Aterradora",
+      "content": "Las cookies son archivos de texto diminutos que viven en tu dispositivo cuando visitas sitios web. No son programas, no pueden instalar virus, y mayormente solo recuerdan cosas aburridas como 'esta persona prefiere modo oscuro.'\n\nEn OPTIMO, usamos cookies para hacer que el sitio funcione bien, recordar tus preferencias, y entender qué funciones realmente usa la gente. Sin rastreo espeluznante, sin vender tus datos a corporaciones sombrías.\n\nCreemos en ser directos contigo sobre las cookies. Tú controlas qué está encendido, qué está apagado, y te querremos igual."
     },
     "types": {
-      "title": "Tipos de Cookies que Usamos",
-      "content": "**Cookies Esenciales (Siempre Activas):**\n• Cookies de autenticación y seguridad\n• Cookies de gestión de sesión\n• Cookies de balanceo de carga\n• Tokens de protección CSRF\n\n**Cookies de Rendimiento:**\n• Google Analytics para estadísticas de uso del sitio web\n• Medición del tiempo de carga de páginas\n• Seguimiento y monitoreo de errores\n• Análisis del recorrido del usuario\n\n**Cookies Funcionales:**\n• Configuración de preferencia de idioma\n• Preferencias de tema y visualización\n• Persistencia de datos de formularios\n• Estados de alternancia de funciones\n\n**Cookies de Marketing:**\n• Seguimiento de campañas publicitarias\n• Píxeles de integración de redes sociales\n• Seguimiento de conversiones\n• Remarketing y retargeting\n\n**Cookies de Terceros:**\n• Google Analytics y Google Tag Manager\n• Cookies de plataformas de redes sociales (LinkedIn, Twitter)\n• Widgets de chat de soporte al cliente\n• Cookies de procesadores de pago (Stripe)"
+      "title": "Nuestro Menú de Cookies",
+      "content": "**Cookies Esenciales (No Se Pueden Apagar):**\n• Tokens de sesión (para mantenerte conectado)\n• Cookies de seguridad (mantienen a los malos fuera)\n• Balance de carga (para que el sitio no se caiga)\n• Tokens CSRF (más cosas de seguridad)\n\n**Cookies de Rendimiento:**\n• Google Analytics (ver qué páginas visita la gente)\n• Monitoreo de velocidad (encontrar páginas lentas)\n• Rastreo de errores (atrapar bugs)\n• Uso de funciones (qué es popular)\n\n**Cookies Funcionales:**\n• Elección de idioma (Español/Inglés/etc)\n• Preferencia de tema (modo oscuro FTW)\n• Memoria de formularios (no pierdas tu trabajo)\n• Diseño del panel (a tu manera)\n\n**Cookies de Marketing:**\n• Rastreo de campañas publicitarias (¿funcionaron nuestros anuncios?)\n• Píxeles de redes sociales (Facebook sabe que estuviste aquí)\n• Seguimiento de conversiones (quiénes se volvieron clientes)\n• Retargeting (esos anuncios que te siguen)\n\n**Cookies de Terceros:**\n• Cosas de Google (Analytics, Ads)\n• Redes sociales (para compartir)\n• Chat de soporte (Intercom)\n• Procesamiento de pagos (Stripe)"
     },
     "usage": {
-      "title": "Cómo Usamos las Cookies",
-      "content": "**Funcionalidad del Sitio Web:**\n• Recordar su estado de inicio de sesión y preferencias\n• Mantener su sesión mientras navega por el sitio\n• Almacenar su idioma y configuraciones regionales\n• Recordar elementos en formularios mientras los completa\n\n**Análisis y Rendimiento:**\n• Comprender cómo los visitantes interactúan con nuestro sitio web\n• Identificar contenido y funciones populares\n• Monitorear el rendimiento y tiempos de carga del sitio web\n• Seguir tasas de conversión y participación del usuario\n\n**Personalización:**\n• Personalizar contenido según sus preferencias\n• Recordar el diseño y configuraciones de su panel\n• Proporcionar recomendaciones de productos relevantes\n• Adaptar la experiencia del usuario a sus necesidades\n\n**Marketing y Publicidad:**\n• Medir la efectividad de nuestras campañas de marketing\n• Mostrar anuncios relevantes en otros sitios web\n• Seguir conversiones desde canales de marketing\n• Analizar el recorrido del cliente a través de puntos de contacto\n\n**Seguridad:**\n• Proteger contra ataques de falsificación de solicitudes entre sitios (CSRF)\n• Detectar y prevenir actividad fraudulenta\n• Mantener sesiones de usuario seguras\n• Monitorear patrones de comportamiento sospechosos"
+      "title": "Por Qué Usamos Cookies",
+      "content": "**Hacer que las Cosas Funcionen:**\n• Mantenerte conectado (imagina iniciar sesión en cada clic)\n• Recordar tu idioma (sin cambios constantes)\n• Guardar progreso en formularios (no pierdas esos datos)\n• Almacenar tus preferencias (el modo oscuro sigue oscuro)\n\n**Hacer las Cosas Mejor:**\n• Ver qué funciones se usan (o ignoran)\n• Encontrar cosas rotas más rápido\n• Medir velocidad de página (lento = malo)\n• Entender recorridos de usuarios (dónde se atascan)\n\n**Hacer las Cosas Tuyas:**\n• Recordar tu configuración del panel\n• Mantener tu zona horaria correcta\n• Mostrar funciones relevantes primero\n• Ocultar cosas que no usas\n\n**Marketing (Si Permites):**\n• Saber qué anuncios realmente funcionan\n• Dejar de mostrarte el mismo anuncio 1000 veces\n• Rastrear si los emails de marketing convierten\n• Medir éxito de campañas\n\n**Mantener las Cosas Seguras:**\n• Bloquear intentos de hackeo\n• Prevenir solicitudes falsas\n• Mantener sesiones seguras\n• Detectar patrones sospechosos"
     },
     "thirdParty": {
-      "title": "Cookies de Terceros",
-      "content": "**Servicios de Google:**\n• Google Analytics: Análisis de tráfico del sitio web y seguimiento del comportamiento del usuario\n• Google Tag Manager: Gestión de etiquetas de marketing y análisis\n• Google Ads: Seguimiento de conversiones y remarketing\n• reCAPTCHA: Detección de bots y prevención de spam\n\n**Plataformas de Redes Sociales:**\n• LinkedIn: Funcionalidad de inicio de sesión social y compartir\n• Twitter: Incrustación de tweets y compartir social\n• Facebook: Complementos sociales y píxeles publicitarios\n• YouTube: Incrustación de videos y análisis\n\n**Soporte al Cliente:**\n• Intercom: Funcionalidad de chat en vivo y soporte al usuario\n• Zendesk: Mesa de ayuda y gestión de tickets\n• Hotjar: Grabaciones de sesiones de usuario y mapas de calor\n\n**Procesamiento de Pagos:**\n• Stripe: Procesamiento de pagos seguro y detección de fraude\n• PayPal: Procesamiento de métodos de pago alternativos\n• Apple Pay/Google Pay: Integración de pagos móviles\n\n**Entrega de Contenido:**\n• Cloudflare: Red de entrega de contenido y seguridad\n• AWS CloudFront: Entrega de activos estáticos\n• Proveedores de fuentes: Carga y visualización de fuentes web\n\nRevisamos regularmente nuestras integraciones de terceros para asegurar que cumplan con nuestros estándares de privacidad y seguridad. Todas las cookies de terceros están sujetas a sus respectivas políticas de privacidad."
+      "title": "Cookies de Otros",
+      "content": "**Pandilla de Google:**\n• Google Analytics: Nos dice estadísticas de visitantes (anonimizadas)\n• Google Tag Manager: Gestiona todas las etiquetas de rastreo\n• Google Ads: Sabe si nuestros anuncios te trajeron aquí\n• reCAPTCHA: Prueba que eres humano\n\n**Escuadrón Social:**\n• LinkedIn: Para inicio de sesión fácil y compartir\n• Twitter: Incrustar tweets, compartir cosas\n• Facebook: Esos botones de me gusta y píxeles\n• YouTube: Ver videos sin salir\n\n**Estrellas de Soporte:**\n• Intercom: Esa burbuja de chat para ayuda\n• Zendesk: Rastrea tickets de soporte\n• Hotjar: Muestra dónde hace clic la gente (anonimizado)\n\n**Amigos de Pago:**\n• Stripe: Procesa pagos de forma segura\n• PayPal: Opción de pago alternativa\n• Apple/Google Pay: Pagos móviles\n\n**Infraestructura:**\n• Cloudflare: Hace el sitio rápido y seguro\n• AWS: Entrega imágenes rápidamente\n• Servicios de fuentes: Tipografía bonita\n\nTodos estos terceros tienen sus propias políticas de privacidad. Elegimos socios que respetan la privacidad, pero revisa sus políticas también."
     },
     "duration": {
-      "title": "Duración y Almacenamiento de Cookies",
-      "content": "**Cookies de Sesión:**\n• Eliminadas cuando cierra su navegador\n• Usadas para datos temporales como contenidos del carrito de compras\n• Esenciales para mantener su sesión de inicio de sesión\n• Típicamente duran durante la duración de su visita\n\n**Cookies Persistentes:**\n• Permanecen en su dispositivo por un período especificado\n• Usadas para recordar preferencias y configuraciones\n• Pueden durar desde días hasta años dependiendo del propósito\n• Eliminadas automáticamente cuando expiran\n\n**Períodos de Almacenamiento de Cookies:**\n• Cookies esenciales: Sesión o hasta 1 año\n• Cookies de rendimiento: Hasta 2 años\n• Cookies funcionales: Hasta 1 año\n• Cookies de marketing: Hasta 1 año\n• Cookies de terceros: Varía según el proveedor\n\n**Ubicaciones de Almacenamiento de Datos:**\n• Las cookies se almacenan localmente en su dispositivo\n• No se transmite información personal en los nombres de cookies\n• Los valores de cookies están encriptados cuando contienen datos sensibles\n• La limpieza automática regular elimina cookies expiradas\n\n**Tamaño y Límites de Cookies:**\n• Las cookies individuales están limitadas a 4KB de tamaño\n• Los navegadores limitan el número total de cookies por dominio\n• Minimizamos el tamaño de las cookies para mejorar el rendimiento\n• Las cookies innecesarias se purgan regularmente"
+      "title": "Vida Útil de las Cookies",
+      "content": "**Cookies de Sesión (Se Van Cuando Cierras el Navegador):**\n• Sesiones de inicio de sesión\n• Preferencias temporales\n• Datos de formulario en progreso\n• Contenidos del carrito\n\n**Cookies Persistentes (Se Quedan):**\n• Tokens de recordarme\n• Preferencias de idioma\n• Configuración de tema\n• IDs de analytics\n\n**Cuánto Duran:**\n• Esenciales: Sesión o hasta 1 año\n• Rendimiento: Hasta 2 años (estándar de la industria)\n• Funcionales: Hasta 1 año\n• Marketing: Hasta 1 año\n• Terceros: Lo que ellos decidan\n\n**Dónde Viven:**\n• En tu dispositivo (no en nuestros servidores)\n• En el tarro de cookies de tu navegador\n• Cifradas si contienen algo sensible\n• Auto-eliminadas cuando expiran\n\n**Límites de Tamaño:**\n• Máx 4KB por cookie (¡diminutas!)\n• Número limitado por sitio\n• Las mantenemos pequeñas por velocidad\n• Limpieza regular de las viejas"
     },
     "managing": {
-      "title": "Gestión de sus Preferencias de Cookies",
-      "content": "**Configuración del Navegador:**\n• Todos los navegadores principales le permiten controlar las cookies\n• Puede bloquear todas las cookies o solo cookies de terceros\n• Eliminar cookies existentes desde la configuración de su navegador\n• Configurar eliminación automática de cookies al cerrar el navegador\n\n**Nuestro Centro de Preferencias de Cookies:**\n• Acceso a través del banner de cookies en la primera visita\n• Modificar preferencias en cualquier momento a través de nuestra página de configuración\n• Control granular sobre diferentes categorías de cookies\n• Guardar preferencias para visitas futuras\n\n**Opciones de Exclusión:**\n• Google Analytics: Use el complemento de exclusión del navegador de Google\n• Cookies de marketing: Deshabilite a través de nuestro centro de preferencias\n• Seguimiento de terceros: Use la configuración de privacidad del navegador\n• No Rastrear: Respetamos las señales DNT del navegador\n\n**Configuración de Dispositivos Móviles:**\n• iOS: Configuración > Safari > Privacidad y Seguridad\n• Android: Chrome > Configuración > Configuración del sitio > Cookies\n• Aplicaciones móviles: Verifique la configuración de privacidad específica de la aplicación\n• Seguimiento entre dispositivos: Gestione a través de la configuración de la plataforma\n\n**Impacto de Deshabilitar Cookies:**\n• Algunas funciones del sitio web pueden no funcionar correctamente\n• Puede necesitar volver a ingresar información repetidamente\n• El contenido personalizado y las recomendaciones pueden ser limitados\n• Los análisis nos ayudan a mejorar el servicio para todos los usuarios"
+      "title": "Toma el Control",
+      "content": "**Controles del Navegador:**\n• Cada navegador te deja gestionar cookies\n• Bloquea todas, algunas, o ninguna\n• Borra cuando quieras\n• Configura auto-borrado al cerrar\n\n**Nuestro Panel de Cookies:**\n• Haz clic en el icono de cookie cuando quieras\n• Activa/desactiva categorías\n• Ve exactamente qué está activo\n• Los cambios se guardan al instante\n\n**Opciones de Exclusión:**\n• Google Analytics: Instala su plugin de exclusión\n• Marketing: Solo apágalas en nuestro panel\n• Terceros: Usa modo privacidad del navegador\n• Opción nuclear: Bloquea todas las cookies (el sitio podría romperse)\n\n**Configuración Móvil:**\n• iOS: Ajustes > Safari > Privacidad\n• Android: Chrome > Configuración > Cookies\n• Apps: Revisa la configuración de cada app\n• Sincronización: Gestiona entre dispositivos\n\n**Qué Pasa Si Bloqueas:**\n• Esenciales bloqueadas = el sitio no funcionará bien\n• Rendimiento bloqueadas = no podemos mejorar cosas\n• Funcionales bloqueadas = reintroduce todo siempre\n• Marketing bloqueadas = anuncios aleatorios en vez de relevantes"
     },
     "legal": {
-      "title": "Base Legal para el Uso de Cookies",
-      "content": "**Cumplimiento GDPR (Usuarios de la UE):**\n• Consentimiento: Requerido para cookies no esenciales\n• Interés legítimo: Usado para funcionalidad esencial\n• Ejecución de contrato: Necesario para la entrega del servicio\n• Obligación legal: Requerido para fines de cumplimiento\n\n**Cumplimiento CCPA (Usuarios de California):**\n• Derecho a saber qué cookies recopilan información personal\n• Derecho a eliminar información personal recopilada a través de cookies\n• Derecho a optar por no vender información personal\n• No discriminación por ejercer derechos de privacidad\n\n**Otras Jurisdicciones:**\n• Cumplimos con las leyes de privacidad locales donde sea aplicable\n• Revisiones legales regulares aseguran el cumplimiento continuo\n• Evaluaciones de impacto de privacidad para nuevas implementaciones de cookies\n• Divulgación transparente de todas las prácticas de cookies\n\n**Gestión del Consentimiento:**\n• Consentimiento claro y específico para cada categoría de cookies\n• Retiro fácil del consentimiento en cualquier momento\n• Control granular sobre diferentes tipos de cookies\n• Renovación regular del consentimiento para usuarios a largo plazo\n\n**Derechos del Sujeto de Datos:**\n• Acceso: Solicitar información sobre las cookies utilizadas\n• Rectificación: Corregir datos relacionados con cookies inexactos\n• Eliminación: Eliminar cookies y datos asociados\n• Portabilidad: Exportar configuraciones de preferencias de cookies"
+      "title": "Las Cosas Legales",
+      "content": "**GDPR (Europa):**\n• Preguntamos antes de establecer cookies no esenciales\n• Las cookies esenciales no necesitan permiso (base legal: interés legítimo)\n• Puedes cambiar de opinión cuando quieras\n• Documentamos todo para cumplimiento\n\n**CCPA (California):**\n• Puedes ver qué cookies recolectan info personal\n• Borra datos de cookies cuando quieras\n• No vendemos datos de cookies (ni ningún dato)\n• Sin discriminación por elecciones de privacidad\n\n**Otros Lugares:**\n• Seguimos leyes de privacidad locales\n• Revisiones legales regulares\n• Evaluaciones de privacidad para nuevas cookies\n• Transparentes sobre todo\n\n**Tu Consentimiento:**\n• Consentimiento específico para cada categoría\n• Fácil de retirar en cualquier momento\n• Control granular (no todo o nada)\n• Preguntamos de nuevo después de un año\n\n**Tus Derechos:**\n• Saber qué cookies usamos\n• Corregir cualquier dato erróneo\n• Borrar datos de cookies\n• Exportar tus preferencias"
     },
     "updates": {
-      "title": "Actualizaciones a esta Política de Cookies",
-      "content": "**Actualizaciones de la Política:**\n• Podemos actualizar esta Política de Cookies de vez en cuando\n• Los cambios materiales se comunicarán por correo electrónico o aviso en el sitio web\n• El uso continuo de nuestro sitio web constituye aceptación de los cambios\n• Las versiones anteriores están archivadas y disponibles bajo petición\n\n**Proceso de Notificación:**\n• Notificación por correo electrónico a usuarios registrados para cambios significativos\n• Banner prominente del sitio web durante 30 días después de actualizaciones\n• Fecha de vigencia actualizada claramente mostrada\n• Resumen de cambios proporcionado en lenguaje sencillo\n\n**Control de Versiones:**\n• Todas las versiones de la política están fechadas y archivadas\n• Registro de cambios mantenido para transparencia\n• Revisión legal requerida para todas las actualizaciones de política\n• Evaluación de impacto del usuario para cambios materiales\n\n**Sus Opciones:**\n• Revisar cambios y decidir si continuar usando nuestros servicios\n• Actualizar sus preferencias de cookies si es necesario\n• Contactarnos con preguntas sobre cambios de política\n• Retirar el consentimiento si no está de acuerdo con las actualizaciones"
+      "title": "Cuando las Cosas Cambian",
+      "content": "**Actualizaciones de Política:**\n• Revisamos anualmente (aburrido pero necesario)\n• Cambios grandes = te enviamos email\n• Seguir usando el sitio = aceptas actualizaciones\n• Versiones antiguas disponibles si eres nostálgico\n\n**Cómo Te Avisamos:**\n• Email masivo para cambios mayores\n• Gran banner en el sitio por 30 días\n• Fecha efectiva clara\n• Resumen en español claro de cambios\n\n**Control de Versiones:**\n• Cada versión fechada y guardada\n• Rastreamos qué cambió cuándo\n• Los abogados revisan todo\n• Consideramos impacto en usuarios\n\n**Tus Opciones:**\n• Lee los cambios (o no)\n• Actualiza tus preferencias\n• Haznos preguntas\n• Vete si odias los cambios (pero no lo hagas)"
     }
   },
   "policy": {
     "consent": {
-      "title": "Aviso de Consentimiento de Cookies",
-      "description": "Al usar nuestro sitio web, usted consiente nuestro uso de cookies como se describe en esta política. Puede gestionar sus preferencias de cookies en cualquier momento a través de nuestro centro de preferencias."
+      "title": "La Conclusión",
+      "description": "Usa nuestro sitio = aceptas cookies esenciales. Todo lo demás es tu elección. Cambia de opinión cuando quieras. Somos así de geniales."
     }
   },
   "preferences": {
-    "title": "Gestionar Preferencias de Cookies",
-    "subtitle": "Controle qué cookies usamos para personalizar su experiencia",
-    "saveSuccess": "¡Preferencias de cookies guardadas exitosamente!",
+    "title": "Centro de Comando de Cookies",
+    "subtitle": "Enciende o apaga cosas. No juzgaremos.",
+    "saveSuccess": "¡Preferencias guardadas! El monstruo de las galletas aprueba.",
     "save": {
-      "title": "Guardar sus Preferencias",
-      "description": "Sus elecciones serán recordadas para visitas futuras",
-      "button": "Guardar Preferencias"
+      "title": "Asegúralo",
+      "description": "Recordaremos estas configuraciones (irónicamente, usando una cookie)",
+      "button": "Guardar Mis Elecciones"
     },
-    "reset": "Restablecer a Valores Predeterminados"
+    "reset": "Volver a Predeterminados"
   },
   "types": {
-    "title": "Información Detallada de Cookies",
-    "subtitle": "Desglose completo de todas las cookies utilizadas en nuestra plataforma",
+    "title": "La Enciclopedia Completa de Cookies",
+    "subtitle": "Cada. Maldita. Cookie. (Tú lo pediste)",
     "table": {
       "cookieName": "Nombre de Cookie",
-      "purpose": "Propósito",
-      "duration": "Duración",
-      "canDisable": "Puede Deshabilitar"
+      "purpose": "Qué Hace",
+      "duration": "Cuánto Vive",
+      "canDisable": "¿Puedes Matarla?"
     },
     "browser": {
-      "title": "Gestión de Cookies del Navegador",
+      "title": "Controles de Cookies del Navegador",
       "desktop": {
-        "title": "Navegadores de Escritorio",
-        "description": "Chrome, Firefox, Safari, Edge - Acceso a través de Configuración > Privacidad"
+        "title": "Navegadores de Computadora",
+        "description": "Chrome, Firefox, Safari, Edge - Busca en Configuración > Privacidad"
       },
       "mobile": {
-        "title": "Navegadores Móviles",
-        "description": "Safari iOS, Chrome Móvil - Verifique el menú de configuración del navegador"
+        "title": "Navegadores de Teléfono",
+        "description": "Safari, Chrome - Revisa la configuración de tu navegador"
       },
       "tools": {
-        "title": "Herramientas de Privacidad",
-        "description": "Bloqueadores de anuncios, extensiones de privacidad y configuraciones de No Rastrear"
+        "title": "Herramientas de Poder para Privacidad",
+        "description": "Bloqueadores de anuncios, plugins de privacidad, modo No Rastrear"
       }
     }
   },
   "cookieTypes": {
-    "required": "Requerido",
-    "alwaysActive": "Siempre Activo",
+    "required": "Requerida",
+    "alwaysActive": "No Se Puede Apagar",
     "essential": {
       "title": "Cookies Esenciales",
-      "description": "Necesarias para que el sitio web funcione correctamente y no pueden deshabilitarse",
+      "description": "Estas hacen funcionar el sitio. Apágalas = rompe todo.",
       "examples": {
-        "sessionId": "Mantiene la sesión del usuario",
-        "csrfToken": "Protección de seguridad",
-        "authToken": "Autenticación del usuario",
-        "loadBalancer": "Enrutamiento del servidor",
+        "sessionId": "Te mantiene conectado",
+        "csrfToken": "Detiene hackers",
+        "authToken": "Prueba que eres tú",
+        "loadBalancer": "Distribuye tráfico",
         "session": "Sesión",
         "oneHour": "1 hora",
         "thirtyDays": "30 días"
@@ -130,12 +130,12 @@
     },
     "performance": {
       "title": "Cookies de Rendimiento",
-      "description": "Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web",
+      "description": "Nos ayudan a encontrar qué está roto y arreglarlo",
       "examples": {
-        "ga": "Seguimiento de Google Analytics",
-        "gid": "Sesión de Google Analytics",
-        "performanceMetrics": "Monitoreo de carga de página",
-        "errorTracking": "Reporte de errores",
+        "ga": "ID de Google Analytics",
+        "gid": "Rastreador de sesión de Google",
+        "performanceMetrics": "Monitoreo de velocidad",
+        "errorTracking": "Cazador de bugs",
         "twoYears": "2 años",
         "twentyFourHours": "24 horas",
         "oneYear": "1 año",
@@ -144,24 +144,24 @@
     },
     "functional": {
       "title": "Cookies Funcionales",
-      "description": "Habilitan funcionalidad mejorada y personalización",
+      "description": "Recuerdan tus preferencias para que no tengas que hacerlo",
       "examples": {
-        "languagePref": "Selección de idioma",
-        "themeSetting": "Preferencia de tema de interfaz",
-        "dashboardLayout": "Preferencias de diseño",
-        "notificationPrefs": "Configuración de notificaciones",
+        "languagePref": "Tu idioma",
+        "themeSetting": "Modo oscuro/claro",
+        "dashboardLayout": "Como te gusta",
+        "notificationPrefs": "Qué alertas quieres",
         "oneYear": "1 año",
         "sixMonths": "6 meses"
       }
     },
     "marketing": {
       "title": "Cookies de Marketing",
-      "description": "Utilizadas para entregar anuncios relevantes y rastrear campañas",
+      "description": "Rastrean campañas y muestran anuncios relevantes (si te gusta eso)",
       "examples": {
-        "marketingId": "Seguimiento de campaña",
-        "conversionPixel": "Seguimiento de conversiones",
-        "remarketingTag": "Campañas de remarketing",
-        "socialPixel": "Seguimiento de redes sociales",
+        "marketingId": "Rastreador de campaña",
+        "conversionPixel": "Medidor de éxito",
+        "remarketingTag": "Seguidor de anuncios",
+        "socialPixel": "Rastreador social",
         "oneYear": "1 año",
         "ninetyDays": "90 días",
         "oneHundredEightyDays": "180 días"
@@ -169,57 +169,57 @@
     }
   },
   "contact": {
-    "title": "Información de Contacto de Política de Cookies",
-    "subtitle": "Póngase en contacto con nuestro equipo para preguntas y preocupaciones relacionadas con cookies",
+    "title": "¿Preguntas sobre Cookies?",
+    "subtitle": "Humanos reales listos para explicar esta tontería de cookies",
     "privacyTeam": {
       "title": "Equipo de Privacidad",
-      "description": "Para preguntas sobre política de cookies y preocupaciones de privacidad"
+      "description": "Expertos en política de cookies y nerds de privacidad"
     },
     "dpo": {
       "title": "Oficial de Protección de Datos",
-      "description": "Para consultas relacionadas con cookies del GDPR"
+      "description": "El gurú del cumplimiento de cookies GDPR"
     },
     "support": {
       "title": "Soporte Técnico",
-      "description": "Para ayuda con configuraciones de cookies y problemas técnicos"
+      "description": "Cuando las cookies se portan mal o la configuración confunde"
     }
   },
   "faq": {
-    "title": "Preguntas Frecuentes",
+    "title": "Preguntas Frecuentes sobre Cookies",
     "withoutCookies": {
-      "question": "¿Puedo usar su sitio web sin cookies?",
-      "answer": "Las cookies esenciales son necesarias para la funcionalidad básica, pero puede deshabilitar las cookies opcionales a través de nuestro centro de preferencias o configuración del navegador."
+      "question": "¿Puedo usar OPTIMO sin cookies?",
+      "answer": "Las cookies esenciales deben permanecer encendidas o las cosas se rompen. Apaga todo lo demás si quieres—lo construimos para funcionar de cualquier manera."
     },
     "updateFrequency": {
-      "question": "¿Con qué frecuencia actualizan esta política?",
-      "answer": "Revisamos y actualizamos nuestra Política de Cookies anualmente o cuando realizamos cambios significativos en nuestras prácticas de cookies. Se le notificará de cualquier cambio material."
+      "question": "¿Con qué frecuencia cambia esta política?",
+      "answer": "Revisamos anualmente o cuando algo grande cambia. Recibirás un email y verás un banner si actualizamos algo importante."
     },
     "dataSharing": {
-      "question": "¿Comparten datos de cookies con terceros?",
-      "answer": "Solo compartimos datos de cookies con proveedores de servicios confiables que nos ayudan a operar nuestro sitio web. Nunca vendemos datos de cookies a terceros."
+      "question": "¿Venden mis datos de cookies?",
+      "answer": "Para nada. No vendemos ningún dato, de cookies o de otro tipo. Algunos proveedores de servicios ven datos de cookies para hacer funcionar las cosas, pero eso es todo."
     },
     "deleteCookies": {
-      "question": "¿Cómo elimino las cookies existentes?",
-      "answer": "Puede eliminar las cookies a través de la configuración de su navegador. Cada navegador tiene pasos diferentes, pero generalmente encontrará esta opción en Privacidad o Seguridad."
+      "question": "¿Cómo elimino todas las cookies?",
+      "answer": "Configuración del navegador > Privacidad > Borrar cookies. Cada navegador es diferente, pero todos tienen esta opción. O usa nuestro centro de preferencias."
     }
   },
   "download": {
-    "title": "Descargar Documentación de Cookies",
-    "subtitle": "Acceda a nuestra documentación completa de cookies para sus registros",
+    "title": "Documentación de Cookies",
+    "subtitle": "Para los acaparadores de datos y equipos de cumplimiento",
     "policy": {
-      "title": "Política de Cookies",
-      "description": "Documento completo de política de cookies (PDF)",
+      "title": "Política de Cookies PDF",
+      "description": "Toda esta política en formato portátil",
       "button": "Descargar PDF"
     },
     "inventory": {
-      "title": "Inventario de Cookies",
-      "description": "Lista detallada de todas las cookies utilizadas (CSV)",
+      "title": "Lista de Cookies",
+      "description": "Hoja de cálculo de cada cookie que usamos",
       "button": "Descargar CSV"
     },
     "guide": {
       "title": "Guía del Navegador",
-      "description": "Guía paso a paso de gestión de cookies",
-      "button": "Descargar Guía"
+      "description": "Cómo gestionar cookies en cada navegador",
+      "button": "Obtén la Guía"
     }
   }
 }

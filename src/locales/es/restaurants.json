@@ -1,174 +1,174 @@
 {
   "hero": {
-    "title": "Programación de turnos con IA para restaurantes",
-    "subtitle": "Optimice su personal, reduzca costos y mejore el servicio con inteligencia artificial",
+    "title": "Tu Gerente con IA Que Nunca Duerme Ni Se Queja",
+    "subtitle": "Ve cómo los costos laborales bajan 23% mientras tu personal llega feliz (sí, ambas son posibles)",
     "buttons": {
-      "trial": "Prueba gratuita",
-      "demo": "Programar demostración"
+      "trial": "Empieza a Ahorrar →",
+      "demo": "Mira la Magia →"
     },
     "metrics": {
-      "costSavings": "Ahorro en costos laborales",
-      "demandMonitoring": "Monitoreo de demanda",
-      "scheduleGeneration": "Generación de horarios",
-      "regionalAdaptation": "Adaptación regional"
+      "costSavings": "Menos Dinero Tirado",
+      "demandMonitoring": "Visión del Futuro",
+      "scheduleGeneration": "Horarios Instantáneos",
+      "regionalAdaptation": "Funciona en Todos Lados"
     },
-    "aiPoweredIntelligence": "Inteligencia impulsada por IA"
+    "aiPoweredIntelligence": "Más Listo que Tu Mejor Gerente"
   },
   "coreFeatures": {
-    "title": "Características principales",
-    "subtitle": "Soluciones diseñadas específicamente para las necesidades de los restaurantes",
+    "title": "Todo lo que Tu Scheduler Desearía Poder Hacer",
+    "subtitle": "Pero más rápido, más inteligente, y sin las migrañas",
     "features": {
       "AccurateStaffingForecasts": {
-        "title": "Pronósticos precisos de personal",
-        "description": "Reduzca costos laborales innecesarios y evite brechas de servicio con predicciones precisas"
+        "title": "Conoce el Rush de Mañana Hoy",
+        "description": "Deja de pagar 8 meseros para atender 3 mesas. Nuestra IA sabe cuándo estarás a reventar (o muerto)"
       },
       "MomentbyMomentDemand": {
-        "title": "Demanda minuto a minuto",
-        "description": "Prediga la demanda futura hora por hora, permitiendo una anticipación precisa del tráfico de clientes"
+        "title": "Bola de Cristal para Cada Hora",
+        "description": "Ve exactamente cuándo llega ese rush de las 12:47pm. Planea para eso. Gana con eso."
       },
       "Moment-by-MomentDemand": {
-        "title": "Demanda minuto a minuto",
-        "description": "Prediga la demanda futura hora por hora, permitiendo una anticipación precisa del tráfico de clientes"
+        "title": "Bola de Cristal para Cada Hora",
+        "description": "Ve exactamente cuándo llega ese rush de las 12:47pm. Planea para eso. Gana con eso."
       },
       "OneClickAutomation": {
-        "title": "Automatización con un clic",
-        "description": "Automatice horarios y tareas de empleados considerando capacidades y preferencias"
+        "title": "Horarios Perfectos en Un Click",
+        "description": "Considera quién es bueno, quién llega, a quién aman los clientes. Luego construye perfección."
       },
       "One-ClickAutomation": {
-        "title": "Automatización con un clic",
-        "description": "Automatice horarios y tareas de empleados considerando capacidades y preferencias"
+        "title": "Horarios Perfectos en Un Click",
+        "description": "Considera quién es bueno, quién llega, a quién aman los clientes. Luego construye perfección."
       },
       "UserFriendlyDashboards": {
-        "title": "Paneles fáciles de usar",
-        "description": "Horarios optimizados por IA y paneles de métricas más allá de las hojas de cálculo tradicionales"
+        "title": "Tableros que Tu Gerente Amará",
+        "description": "Adiós infierno de Excel. Hola insights hermosos que sí tienen sentido."
       },
       "User-FriendlyDashboards": {
-        "title": "Paneles fáciles de usar",
-        "description": "Horarios optimizados por IA y paneles de métricas más allá de las hojas de cálculo tradicionales"
+        "title": "Tableros que Tu Gerente Amará",
+        "description": "Adiós infierno de Excel. Hola insights hermosos que sí tienen sentido."
       },
       "CostContainment": {
-        "title": "Contención de costos",
-        "description": "Costos laborales contenidos, mayor satisfacción y mayor productividad"
+        "title": "El Dinero Donde Debe Estar",
+        "description": "Menos costos + personal feliz + mejor servicio = tú ganando en los negocios"
       },
       "SmartDataIntegration": {
-        "title": "Integración inteligente de datos",
-        "description": "Recolecte automáticamente disponibilidades, preferencias y solicitudes para programación inteligente"
+        "title": "Ya Sabe Todo",
+        "description": "Disponibilidad, preferencias, ese mesero que odia los martes - todo manejado automáticamente"
       }
     }
   },
   "demandSignals": {
-    "title": "Señales de demanda",
-    "subtitle": "El programador de IA mejora la precisión incorporando varias señales de demanda",
+    "title": "Nuestra IA Ve el Futuro (En Serio)",
+    "subtitle": "Sabemos cuándo estarás ocupado antes que tus clientes",
     "signals": {
       "GooglePopularTimes": {
-        "title": "Horarios populares de Google",
-        "description": "El pronóstico de demanda con IA analiza entradas en tiempo real incluyendo eventos locales y tendencias"
+        "title": "Google Sabe Cuándo Vienen",
+        "description": "Accedemos a datos en tiempo real para ver rushes formándose a cuadras de distancia"
       },
       "EventbriteIntegration": {
-        "title": "Integración con Eventbrite",
-        "description": "Los sistemas de IA consideran eventos locales y calendarios como factores externos que influyen en el comportamiento del cliente"
+        "title": "¿Concierto al Lado? Lo Sabemos",
+        "description": "Cada evento local que afecta tu negocio - ya estamos planeando para eso"
       },
       "WeatherAPIs": {
-        "title": "APIs del clima",
-        "description": "Pronostique ventas basadas en datos meteorológicos junto con ventas históricas y otros factores"
+        "title": "Lluvia = Día Lento (Usualmente)",
+        "description": "Patrones del clima + tu historial de ventas = predicciones aterradoramente precisas"
       }
     }
   },
   "outputs": {
-    "title": "Resultado: Planes optimizados + Análisis",
-    "subtitle": "Genere planes de turnos optimizados y paneles integrales para decisiones basadas en datos",
+    "title": "Lo Que Realmente Obtienes: Dinero + Tiempo + Cordura",
+    "subtitle": "Resultados reales que puedes llevar al banco (y a tu terapeuta)",
     "items": {
       "OptimizedShiftPlans": {
-        "title": "Planes de turnos optimizados",
-        "description": "Despliegue el número correcto de trabajadores en los momentos adecuados, reduciendo tiempos muertos e interrupciones del servicio",
+        "title": "Horarios Que Sí Funcionan",
+        "description": "Gente correcta, lugar correcto, tiempo correcto. Cada. Maldito. Turno.",
         "metrics": [
-          "Equipos del tamaño adecuado",
-          "Tiempo muerto reducido",
-          "Continuidad del servicio"
+          "Equipos que encajan perfecto",
+          "No más zonas muertas",
+          "Servicio que nunca falla"
         ]
       },
       "LaborCostDashboards": {
-        "title": "Paneles de costos laborales",
-        "description": "Análisis empresarial para decisiones más inteligentes, gestionando costos que representan hasta el 40% de los gastos",
+        "title": "Ve Dónde Va Cada Peso",
+        "description": "Controla el 40% que mata a la mayoría de restaurantes - tus costos laborales",
         "metrics": [
-          "Visibilidad de costos",
-          "Análisis de tendencias",
-          "Brechas de rendimiento"
+          "Claridad instantánea de costos",
+          "Detecta problemas temprano",
+          "Arregla huecos rápido"
         ]
       },
       "RevenueAnalytics": {
-        "title": "Análisis de ingresos",
-        "description": "Datos de sistemas POS y comentarios de clientes para pronosticar resultados comerciales",
+        "title": "Sabe Lo Que Viene",
+        "description": "Tus datos POS + nuestra IA = conocer los ingresos del próximo mes hoy",
         "metrics": [
-          "Pronóstico de ingresos",
-          "Información sobre clientes",
-          "Planificación futura"
+          "Ingresos que puedes predecir",
+          "Patrones de clientes revelados",
+          "Planea con confianza"
         ]
       }
     }
   },
   "regionalAdaptations": {
-    "title": "Adaptaciones regionales",
-    "subtitle": "Soluciones personalizadas para satisfacer las demandas únicas de diferentes regiones globales",
+    "title": "Hecho para Como Tu Mercado Realmente Funciona",
+    "subtitle": "Porque hacer horarios en CDMX no es como en São Paulo",
     "regions": {
       "US": {
-        "title": "Pronóstico de rendimiento de propinas",
-        "subtitle": "Personalice meseros altamente calificados durante horas pico de propinas",
-        "description": "El pronóstico impulsado por IA anticipa la demanda y optimiza las propinas prediciendo períodos ocupados. El despliegue basado en habilidades programa estratégicamente meseros experimentados durante períodos de altas propinas.",
+        "title": "Maximiza Cada Dólar de Propina",
+        "subtitle": "Pon a tus mejores donde fluye el dinero",
+        "description": "Nuestra IA sabe qué turnos dan mejores propinas y programa a tu equipo A según eso. Ve las propinas subir 22% sin agregar personal.",
         "features": [
-          "Pronóstico de demanda impulsado por IA para períodos pico",
-          "Despliegue basado en habilidades durante tiempos de altas propinas",
-          "Programación estratégica para máximo rendimiento de propinas",
-          "Confianza del cliente a través de personal experto"
+          "IA predice rushes de altas propinas antes que pasen",
+          "Tus mejores meseros trabajan los mejores turnos",
+          "Programación estratégica = propinas más gordas",
+          "Meseros felices que ganan bien = baja rotación"
         ]
       },
       "EU": {
-        "title": "Cumplimiento automático",
-        "subtitle": "Cumplimiento de directivas de tiempo de trabajo",
-        "description": "El programador de IA mantiene el cumplimiento de las leyes laborales y evita multas mediante un registro preciso. Crea turnos compatibles con las Directivas de Tiempo de Trabajo de la UE y las regulaciones de la Ley de IA.",
+        "title": "Nunca Te Multen Otra Vez",
+        "subtitle": "¿Leyes de la UE? Te cubrimos",
+        "description": "Cumplimiento automático con cada ley de descansos, regla de horas extra, y curva regulatoria. Duerme tranquilo sabiendo que eres a prueba de balas.",
         "features": [
-          "Cumplimiento automático de leyes laborales",
-          "Cumplimiento de la Directiva de Tiempo de Trabajo de la UE",
-          "Registro y reporte preciso",
-          "Reducción de multas y penalizaciones por horas extras"
+          "Cumplimiento auto-mágico (en serio)",
+          "Cada directiva UE pre-programada",
+          "Registros perfectos para inspectores enojados",
+          "Cero multas, cero estrés"
         ]
       },
       "LATAM": {
-        "title": "Optimización de flujo de efectivo",
-        "subtitle": "Locales con altas transacciones en efectivo",
-        "description": "Análisis empresarial en tiempo real para una toma de decisiones más inteligente, identificando tendencias y brechas de rendimiento. La gestión de pagos sin problemas ayuda a organizar finanzas y acelerar pagos.",
+        "title": "Domina el Juego del Efectivo",
+        "subtitle": "Hecho para operaciones reales con efectivo",
+        "description": "Sabe exactamente cuándo el flujo de efectivo alcanza su pico. Personal según eso. Ve las ganancias subir mientras el caos desaparece.",
         "features": [
-          "Análisis empresarial en tiempo real",
-          "Optimización de transacciones en efectivo",
-          "Identificación de brechas de rendimiento",
-          "Procesamiento de pagos más rápido"
+          "Inteligencia de flujo de efectivo en tiempo real",
+          "Optimiza para períodos pesados en efectivo",
+          "Detecta fugas de ingresos al instante",
+          "Cobra más rápido, estresate menos"
         ]
       },
       "APAC": {
-        "title": "Integración con billeteras móviles",
-        "subtitle": "Sistemas de pago móvil sin problemas",
-        "description": "Integración con billeteras móviles populares como WeChat Pay. Tasas de conversión de reservas mejoradas y crecimiento de ingresos a través de experiencias de pago móvil optimizadas.",
+        "title": "Pagos Móviles = Más Dinero",
+        "subtitle": "WeChat, Alipay, lo que sea - conectamos",
+        "description": "Integración perfecta con billeteras móviles de Asia. 8% más reservas, doble el ingreso. Las matemáticas no mienten.",
         "features": [
-          "Integración con WeChat y billeteras móviles",
-          "Aumento del 8% en conversiones de reservas",
-          "Potencial de ingresos casi duplicado",
-          "Flujos de pago móvil optimizados"
+          "Cada billetera móvil conectada",
+          "8% aumento en reservas (probado)",
+          "Ingresos se duplican (no es broma)",
+          "Pagos sin fricción = clientes felices"
         ]
       }
     }
   },
   "cta": {
-    "title": "¿Listo para transformar las operaciones de su restaurante?",
-    "subtitle": "Únase a miles de restaurantes que aprovechan la programación impulsada por IA para obtener ventajas estratégicas",
+    "title": "Tu Competencia Ya Está Usando Esto",
+    "subtitle": "Cada día sin programación con IA te cuesta $156 en mano de obra desperdiciada",
     "buttons": {
-      "trial": "Prueba gratuita",
-      "demo": "Programar demostración"
+      "trial": "Reclama Tu Ventaja →",
+      "demo": "Sesión de Ganancias 30-Min →"
     },
     "metrics": {
-      "restaurants": "Restaurantes optimizados",
-      "costReduction": "Reducción de costos laborales",
-      "regions": "Regiones globales",
-      "monitoring": "Monitoreo con IA"
+      "restaurants": "Restaurantes Inteligentes",
+      "costReduction": "Ahorro Promedio",
+      "regions": "Países Dominados",
+      "monitoring": "Siempre Aprendiendo"
     }
   }
 }

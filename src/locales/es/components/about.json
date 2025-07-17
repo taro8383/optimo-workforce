@@ -1,120 +1,120 @@
 {
   "heroSection": {
     "title": {
-      "mainHeading": "Solucionamos el Caos Laboral"
+      "mainHeading": "Exterminamos el Caos Laboral"
     },
     "subtitle": {
-      "description": "Fundado por veteranos de la hostelería cansados del potencial desperdiciado"
+      "description": "Creado por guerreros de la hostelería hartos de ver dinero escaparse por la puerta"
     },
     "buttons": {
-      "joinMission": "Únete a Nuestra Misión",
-      "openPositions": "Ver Posiciones Abiertas"
+      "joinMission": "Lucha con Nosotros",
+      "openPositions": "Únete al Equipo"
     },
     "teamPreview": {
-      "title": "Nuestro Equipo Diverso",
-      "description": "Trabajando con dispositivos POS en 4 continentes"
+      "title": "Guerreros de Todo el Mundo",
+      "description": "Probando batalla con restaurantes reales en 4 continentes cada día"
     }
   },
   "timelineSection": {
     "title": {
-      "mainHeading": "Nuestro Viaje"
+      "mainHeading": "Cómo Llegamos Aquí"
     },
     "subtitle": {
-      "description": "Desde un pequeño equipo en Barcelona hasta una plataforma global de optimización de fuerza laboral"
+      "description": "De operadores frustrados en Barcelona al arma que todo restaurante necesita"
     },
     "events": {
       "2024": {
-        "title": "Fundado en Barcelona",
-        "description": "Iniciado por veteranos de la hostelería cansados del potencial desperdiciado"
+        "title": "Nacidos de la Frustración",
+        "description": "Veteranos de hostelería dijeron 'basta' de ver ganancias fugarse por malos horarios"
       },
       "2025": {
-        "title": "500+ ubicaciones optimizadas",
-        "description": "Crecimiento rápido en mercados de EE.UU., UE, LATAM y APAC"
+        "title": "500+ Negocios Salvados",
+        "description": "Las noticias vuelan cuando realmente entregas 20% de ahorro"
       },
       "2026": {
-        "title": "Red global de socios",
-        "description": "Alianzas estratégicas con proveedores principales de POS en todo el mundo"
+        "title": "El Estándar de la Industria",
+        "description": "Cada TPV importante quiere asociarse cuando haces ricos a sus clientes"
       }
     }
   },
   "teamSection": {
     "title": {
-      "mainHeading": "Conoce a Nuestro Equipo"
+      "mainHeading": "Las Mentes Detrás de la Magia"
     },
     "subtitle": {
-      "description": "Expertos en hostelería, investigadores de IA y especialistas en optimización trabajando juntos"
+      "description": "Ex-operadores, ninjas de IA y obsesivos de la optimización en una misión"
     },
     "members": {
       "alex": {
         "name": "Alex Rodríguez",
         "role": "Fundador y CEO",
-        "description": "Más de 10 años en tecnología hotelera de EU/Asia"
+        "description": "Salvó 10+ años de restaurantes de sí mismos en EU/Asia"
       },
       "sarah": {
         "name": "Sarah Chen",
         "role": "CTO",
-        "description": "Ex-Google AI, especialista en tecnología de restaurantes"
+        "description": "Robó los secretos de IA de Google, ahora los usa como arma para restaurantes"
       },
       "marcus": {
         "name": "Marcus Thompson",
         "role": "VP de Operaciones",
-        "description": "15 años gestionando restaurantes multi-ubicación"
+        "description": "Manejó 50+ locales, conoce cada pesadilla de horarios de memoria"
       },
       "jenny": {
         "name": "Jenny Jones",
-        "role": "Directora de Mercados Globales",
-        "description": "Experta en expansión APAC y pagos móviles"
+        "role": "Jefa de Dominación Global",
+        "description": "Descifró el código de pagos móviles en APAC, gurú del +22% en propinas"
       },
       "david": {
         "name": "David Kim",
-        "role": "Científico Principal de Datos",
-        "description": "PhD en Aprendizaje Automático, algoritmos de predicción de propinas"
+        "role": "Mago de Datos Líder",
+        "description": "PhD en hacer que la IA prediga propinas mejor que tu mejor mesero"
       },
       "elena": {
         "name": "Elena Vásquez",
-        "role": "Directora de Éxito del Cliente",
-        "description": "Veterana de la hostelería, habla 5 idiomas"
+        "role": "Jefa Solucionadora de Problemas",
+        "description": "Tu éxito en 5 idiomas, conoce cada rareza de TPV globalmente"
       }
     }
   },
   "valuesSection": {
     "title": {
-      "mainHeading": "Nuestros Valores"
+      "mainHeading": "Lo que Realmente Creemos"
     },
     "subtitle": {
-      "description": "Los principios que guían todo lo que hacemos"
+      "description": "Sin palabrería corporativa—los principios reales por los que vivimos"
     },
     "values": {
       "global": {
-        "title": "Piensa Global, Actúa Local",
-        "description": "Entendemos que cada mercado es único. Nuestra IA se adapta a las culturas de propinas locales, leyes laborales y comportamientos del cliente mientras aprovecha la inteligencia global."
+        "title": "Inteligencia Global, Credibilidad Local",
+        "description": "Tus clientes de Singapur dan propinas diferentes que los de Estocolmo. Tu personal de Madrid trabaja diferente al de México. Lo entendemos, y nuestra IA se adapta a TU realidad."
       },
       "data": {
-        "title": "Empatía Basada en Datos",
-        "description": "La tecnología debe servir a las personas, no reemplazarlas. Usamos IA para hacer el trabajo más predecible y justo para el personal de restaurantes mientras maximizamos los resultados del negocio."
+        "title": "Los Robots Sirven a Humanos, No los Reemplazan",
+        "description": "La IA debe hacer la vida de tu equipo predecible y justa, no eliminarlos. Personal feliz = clientes felices = ganancias gordas. No es ciencia espacial."
       },
       "ethical": {
-        "title": "Optimización Ética",
-        "description": "Creemos en algoritmos transparentes y prácticas laborales justas. Nuestra optimización nunca viene a expensas de los derechos o bienestar de los trabajadores."
+        "title": "Nada de Optimización Turbia",
+        "description": "Te mostramos exactamente cómo piensa nuestra IA. Sin cajas negras, sin explotar trabajadores, sin mentiras. Solo tecnología transparente que respeta a todos."
       }
     }
   },
   "ctaSection": {
     "title": {
-      "mainHeading": "Únete a Nuestra Misión"
+      "mainHeading": "¿Listo para Cambiar el Juego?"
     },
     "subtitle": {
-      "description": "Ayúdanos a transformar la industria de la hostelería con IA ética e inteligencia global"
+      "description": "Ayúdanos a rescatar la industria hostelera de su peor enemigo: los horarios mal hechos"
     },
     "buttons": {
-      "viewPositions": "Ver Posiciones Abiertas",
-      "partnerWithUs": "Asociarse Con Nosotros"
+      "viewPositions": "Mira Dónde Encajas",
+      "partnerWithUs": "Hablemos de Negocios"
     },
     "stats": {
-      "countries": "Países",
-      "locations": "Ubicaciones",
-      "teamMembers": "Miembros del Equipo",
-      "globalSupport": "Soporte Global"
+      "countries": "Países Conquistados",
+      "locations": "Locales Optimizados",
+      "teamMembers": "Solucionadores",
+      "globalSupport": "Soporte Siempre Activo"
     }
   }
 }

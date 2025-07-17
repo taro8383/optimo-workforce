@@ -7,10 +7,10 @@
     "system": "Sistema"
   },
   "accessibility": "Accesibilidad",
-  "contactProductTeam": "Contactar al Equipo de Producto",
-  "submitFeatureRequest": "Enviar Solicitud de Función",
-  "featureRequests": "Solicitudes de Funciones",
-  "implementationRate": "Tasa de Implementación",
-  "betaTesters": "Probadores Beta",
-  "development": "Desarrollo Continuo"
+    "contactProductTeam": "Mensaje al Equipo",
+    "submitFeatureRequest": "Comparte Tu Idea",
+    "featureRequests": "Ideas Enviadas",
+    "implementationRate": "Las Construimos",
+    "betaTesters": "Beta Insiders",
+    "development": "En Desarrollo"
 }

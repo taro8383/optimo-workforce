@@ -1,20 +1,20 @@
 {
-  "title": "Únete a Nuestro Programa Beta",
-  "subtitle": "Obtén acceso anticipado a nuevas funciones",
-  "benefitsTitle": "Beneficios del Programa Beta",
-  "requirementsTitle": "Requisitos del Programa Beta",
-  "apply": "Solicitar Acceso Beta",
-  "availability": "Disponibilidad limitada - solicita ahora para asegurar tu lugar",
+    "title": "Consíguelo Antes Que Tu Competencia",
+    "subtitle": "Sé el primero en imprimir dinero con nuevas funciones",
+    "benefitsTitle": "Ventajas Injustas Que Obtendrás",
+    "requirementsTitle": "Quién Entra",
+    "apply": "Reclama Tu Lugar →",
+    "availability": "Solo 50 lugares (847 personas esperando)",
   "benefits": [
-    "Acceso anticipado a nuevas funciones",
-    "Influencia directa en el desarrollo del producto",
-    "Soporte prioritario de nuestro equipo",
-    "Funciones exclusivas para beta testers"
+      "Funciones 6 meses antes que todos",
+      "Dinos exactamente qué construir",
+      "Tu equipo de producto personal a un mensaje",
+      "Funciones secretas que no podemos revelar aún"
   ],
   "requirements": [
-    "Cuenta de negocio activa",
-    "Disposición para proporcionar feedback",
-    "Mínimo 3 meses de uso de la plataforma",
-    "Capacidad para probar en entorno de producción"
+      "Realmente usas Optimo (no solo curioseas)",
+      "Nos dirás qué funciona (y qué no)",
+      "Con nosotros 90+ días",
+      "Listo para probar cosas geniales que podrían fallar (rara vez)"
   ]
 }

@@ -1,9 +1,16 @@
-{
-  "InventoryOptimization": "Inventory Optimization",
-  "BusinessAnalytics": "Business Analytics",
-  "CustomerFeedback": "Customer Feedback",
-  "CustomerManagement": "Customer Management",
-  "AIUpselling": "AI Upselling",
-  "DynamicPricing": "Dynamic Pricing",
-  "TipManagement": "Tip Management"
-}
+ {
+    "InventoryOptimization": "Inventory That Manages Itself",
+    "BusinessAnalytics": "X-Ray Vision for Your Business",
+    "CustomerFeedback": "Turn Complaints into Cash",
+    "CustomerManagement": "Customer Loyalty on Autopilot",
+    "AIUpselling": "Your AI Sales Superstar",
+    "DynamicPricing": "Prices That Think for Themselves",
+    "TipManagement": "Happy Staff = Happy Life",
+    "InventoryThatManagesItself": "Inventory That Manages Itself",
+    "X-RayVisionforYourBusiness": "X-Ray Vision for Your Business",
+    "TurnComplaintsintoCash": "Turn Complaints into Cash",
+    "CustomerLoyaltyonAutopilot": "Customer Loyalty on Autopilot",
+    "YourAISalesSuperstar": "Your AI Sales Superstar",
+    "PricesThatThinkforThemselves": "Prices That Think for Themselves",
+    "HappyStaff=HappyLife": "Happy Staff = Happy Life"
+  }

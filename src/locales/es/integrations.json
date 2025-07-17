@@ -1,303 +1,303 @@
 {
   "integrationsPage": {
     "categories": {
-      "all": "Todas las Integraciones",
-      "pos": "Sistemas POS",
-      "payment": "Procesamiento de Pagos",
-      "scheduling": "Herramientas de Programación",
-      "analytics": "Análisis y BI",
-      "communication": "Comunicación",
-      "accounting": "Contabilidad y Finanzas"
+      "all": "Todas las Máquinas de Dinero",
+      "pos": "POS Que Sí Funciona",
+      "payment": "Cobra Más Rápido",
+      "scheduling": "Horarios Inteligentes",
+      "analytics": "Ve Todo Clarísimo",
+      "communication": "Equipo Conectado",
+      "accounting": "Números Que Importan"
     },
     "hero": {
-      "title": "Integraciones Poderosas para tu Negocio",
-      "subtitle": "Conéctate con las herramientas que ya usas para optimizar operaciones y aumentar la eficiencia",
-      "demoButton": "Ver Demo",
-      "guideButton": "Guía de Integración"
+      "title": "Conecta Todo. Controla Todo. Domina Todo.",
+      "subtitle": "Tus herramientas favoritas ahora hablan entre sí (y te hacen dinero mientras platican)",
+      "demoButton": "Ve la Magia →",
+      "guideButton": "Guía de 5 Minutos"
     },
     "stats": {
-      "totalIntegrations": "Integraciones Totales",
-      "avgSetupTime": "Tiempo Promedio de Configuración",
-      "uptimeGuarantee": "Garantía de Tiempo de Actividad",
-      "integrationSupport": "Soporte para Integraciones",
+      "totalIntegrations": "Apps Que Se Llevan Bien",
+      "avgSetupTime": "Tiempo de Conexión",
+      "uptimeGuarantee": "Siempre Funcionando",
+      "integrationSupport": "Ayuda Humana",
       "free": "Gratis"
     },
     "popular": {
-      "title": "Integraciones Más Populares",
-      "subtitle": "Estas son las integraciones que más aman nuestros clientes",
-      "connectButton": "Conectar"
+      "title": "Los Favoritos Que Hacen Dinero",
+      "subtitle": "Lo que 2,847+ operadores inteligentes conectan primero",
+      "connectButton": "Conectar Ahora"
     },
     "all": {
-      "title": "Todas las Integraciones Disponibles",
-      "subtitle": "Explora nuestra biblioteca completa de integraciones",
-      "searchPlaceholder": "Buscar integraciones...",
-      "viewDetailsButton": "Ver Detalles",
+      "title": "Todo Tu Arsenal Tecnológico, Conectado",
+      "subtitle": "Si lo usas, probablemente lo conectamos (si no, lo construimos)",
+      "searchPlaceholder": "Encuentra tu herramienta...",
+      "viewDetailsButton": "Ver Cómo →",
       "connectButton": "Conectar",
-      "noResultsTitle": "No se encontraron integraciones",
-      "noResultsMessage": "Intenta ajustar tu búsqueda o criterios de filtro"
+      "noResultsTitle": "¿No lo encuentras?",
+      "noResultsMessage": "Lo construiremos para ti. En serio."
     },
     "support": {
-      "title": "Soporte para Integraciones",
-      "subtitle": "Nuestro equipo está aquí para ayudarte a conectar y optimizar cada integración",
-      "chatButton": "Chatear con Soporte",
-      "guideButton": "Descargar Guía",
-      "averageSetup": "Configuración Promedio",
-      "supportAvailable": "Soporte Disponible",
-      "uptimeSLA": "SLA de Tiempo de Actividad",
-      "setupAssistance": "Asistencia de Configuración"
+      "title": "Te Tomamos de la Mano (Porque la Tecnología Da Miedo)",
+      "subtitle": "Humanos reales que sí contestan el teléfono y arreglan tus cosas",
+      "chatButton": "Mensaje a un Humano →",
+      "guideButton": "Guía Hazlo Tú →",
+      "averageSetup": "Velocidad de Conexión",
+      "supportAvailable": "Siempre Ahí",
+      "uptimeSLA": "Nunca Se Cae",
+      "setupAssistance": "Lo Hacemos Por Ti"
     },
     "custom": {
-      "title": "¿Necesitas una Integración Personalizada?",
-      "subtitle": "Podemos construir una integración personalizada para las necesidades específicas de tu negocio",
-      "customTitle": "Solicitar Integración Personalizada",
-      "customDescription": "Construiremos una integración personalizada para tus sistemas empresariales únicos",
-      "customButton": "Solicitar Integración",
-      "suggestTitle": "Sugerir una Integración",
-      "suggestDescription": "Háznos saber qué integración te gustaría ver a continuación",
-      "suggestButton": "Sugerir Integración"
+      "title": "¿Usas Algo Raro? No Hay Problema.",
+      "subtitle": "Hemos conectado sistemas que corren en Windows 95. Nada nos asusta.",
+      "customTitle": "Construye Mi Conexión",
+      "customDescription": "Dinos a qué sistema antiguo estás casado. Lo haremos funcionar.",
+      "customButton": "Empezar a Construir →",
+      "suggestTitle": "¿Qué Deberíamos Agregar?",
+      "suggestDescription": "Tú pides, nosotros construimos. Así de simple.",
+      "suggestButton": "Solicítalo →"
     },
     "integrationDetails": {
-      "setupTime": "Tiempo de Configuración",
-      "popularity": "Popularidad",
-      "regions": "Regiones",
-      "pricing": "Precios",
-      "features": "Características Clave",
-      "connectButton": "Conectar Integración",
-      "viewDocs": "Ver Documentación"
+      "setupTime": "Tiempo a la Magia",
+      "popularity": "Otros Usándolo",
+      "regions": "Funciona En",
+      "pricing": "Lo Que Cuesta",
+      "features": "Por Qué Te Encantará",
+      "connectButton": "Conectar y Ganar →",
+      "viewDocs": "Docs para Nerds →"
     },
     "integrations": {
       "toast": {
         "name": "Toast POS",
-        "description": "Sistema POS completo diseñado para restaurantes con gestión avanzada de mesas",
-        "setupTime": "10 minutos",
+        "description": "El POS que entiende restaurantes. Por fin. No más explicar qué es '86'.",
+        "setupTime": "Un café",
         "features": [
-          "Actualizaciones de menú en tiempo real",
-          "Gestión de distribución de mesas",
-          "Seguimiento de rendimiento del personal",
-          "Integración de inventario"
+          "Actualizaciones que no fallan en hora pico",
+          "Mesas que saben sus números",
+          "Ve quién está flojeando (sutilmente)",
+          "Inventario que se cuenta solo"
         ],
-        "regions": ["EE.UU.", "Canadá"],
-        "pricing": "Desde $79/mes"
+        "regions": ["EEUU", "Canadá"],
+        "pricing": "Desde $79/mes (vale cada centavo)"
       },
       "square": {
         "name": "Square POS",
-        "description": "Versátil sistema POS con procesamiento de pagos para negocios de todos los tamaños",
-        "setupTime": "5 minutos",
+        "description": "La navaja suiza de los pagos. Funciona en todas partes, nunca falla.",
+        "setupTime": "Ida al baño",
         "features": [
-          "Ventas omnicanal",
-          "Gestión de inventario",
-          "Directorio de clientes",
-          "Recibos digitales"
+          "Vende donde sea, cuando sea",
+          "Sabe qué se vende (y qué no)",
+          "Recuerda a cada cliente",
+          "Recibos que no se borran"
         ],
-        "regions": ["EE.UU.", "Canadá", "Reino Unido", "Australia"],
-        "pricing": "2.6% + 10¢ por transacción"
+        "regions": ["EEUU", "Canadá", "UK", "Australia"],
+        "pricing": "2.6% + 10¢ (se lo ganaron)"
       },
       "lightspeed": {
         "name": "Lightspeed Restaurant",
-        "description": "Sistema POS en la nube con funciones avanzadas de gestión de inventario",
-        "setupTime": "15 minutos",
+        "description": "Para cuando ya creciste pero Oracle te da miedo todavía",
+        "setupTime": "Una comida",
         "features": [
-          "Inventario multiubicación",
-          "Órdenes de compra",
-          "Gestión de proveedores",
-          "Informes avanzados"
+          "¿Inventario en 100 locales? Listo.",
+          "Pedidos que se envían solos",
+          "Proveedores en marcación rápida",
+          "Reportes que sí entiendes"
         ],
-        "regions": ["Global"],
+        "regions": ["Donde sea que coma la gente"],
         "pricing": "Desde $99/mes"
       },
       "clover": {
         "name": "Clover POS",
-        "description": "Sistema POS todo en uno con mercado de aplicaciones personalizable",
-        "setupTime": "8 minutos",
+        "description": "El POS que crece contigo. Empieza chico, vuélvete enorme.",
+        "setupTime": "Un cigarro",
         "features": [
-          "Interfaz personalizable",
-          "Gestión de empleados",
-          "Herramientas de participación del cliente",
-          "Integraciones de aplicaciones de terceros"
+          "Hazlo tuyo (de verdad)",
+          "Personal que se maneja solo",
+          "Clientes que regresan",
+          "Apps para todo lo demás"
         ],
-        "regions": ["EE.UU.", "Canadá"],
+        "regions": ["EEUU", "Canadá"],
         "pricing": "Desde $69/mes"
       },
       "revel": {
         "name": "Revel Systems",
-        "description": "Sistema POS para iPad con funciones de nivel empresarial para negocios de hostelería",
-        "setupTime": "20 minutos",
+        "description": "Cuando tu iPad sueña con ser un POS de verdad. Los sueños se cumplen.",
+        "setupTime": "Una siesta",
         "features": [
-          "Gestión de planos",
-          "Sistema de reservas",
-          "Sistema de visualización de cocina",
-          "Gestión de relaciones con clientes"
+          "Pisos que se organizan solos",
+          "Mesas que nunca se duplican",
+          "Cocinas que ven todo",
+          "Clientes que recordarás"
         ],
-        "regions": ["EE.UU.", "Internacional"],
-        "pricing": "Precio personalizado"
+        "regions": ["EEUU", "Dominación global"],
+        "pricing": "Hablemos de números"
       },
       "micros": {
         "name": "Oracle MICROS",
-        "description": "Solución POS empresarial para grandes cadenas de restaurantes y hoteles",
-        "setupTime": "30 minutos",
+        "description": "El Bentley de los sistemas POS. Para cuando ya la hiciste en grande.",
+        "setupTime": "Junta ejecutiva",
         "features": [
-          "Gestión centralizada",
-          "Soporte multi-propiedad",
-          "Suite de informes avanzados",
-          "Integración con sistemas Oracle"
+          "Maneja imperios desde una pantalla",
+          "¿Hoteles? ¿Cadenas? ¿Cruceros? Sí.",
+          "Reportes que impresionan inversionistas",
+          "Todo el arsenal de Oracle"
         ],
-        "regions": ["Global"],
-        "pricing": "Precio empresarial"
+        "regions": ["Planeta Tierra"],
+        "pricing": "Si tienes que preguntar..."
       },
       "stripe": {
         "name": "Stripe",
-        "description": "Plataforma de procesamiento de pagos completa con alcance global",
-        "setupTime": "5 minutos",
+        "description": "Pagos para gente que odia procesadores de pago. Hecho por nerds, amado por todos.",
+        "setupTime": "Un video de TikTok",
         "features": [
-          "Métodos de pago globales",
-          "Facturación por suscripción",
-          "Prevención de fraude",
-          "APIs para desarrolladores"
+          "Acepta dinero de Marte",
+          "Suscripciones que nunca fallan",
+          "¿Fraude? ¿Cuál fraude?",
+          "APIs que sí funcionan"
         ],
-        "regions": ["Global"],
-        "pricing": "2.9% + 30¢ por transacción"
+        "regions": ["Universo conocido"],
+        "pricing": "2.9% + 30¢ (justo y derecho)"
       },
       "paypal": {
         "name": "PayPal",
-        "description": "Solución de pago digital con protección para compradores y vendedores",
-        "setupTime": "5 minutos",
+        "description": "El abuelo de los pagos online. Hasta tu mamá confía en él.",
+        "setupTime": "Una historia de Instagram",
         "features": [
-          "Pago con un toque",
-          "Creación de facturas",
-          "Pagos recurrentes",
-          "Soporte para monedas internacionales"
+          "Un click, trato hecho",
+          "Facturas que sí se pagan",
+          "Ponlo y olvídate",
+          "Todas las monedas del mundo"
         ],
-        "regions": ["Global"],
-        "pricing": "2.99% + 49¢ por transacción"
+        "regions": ["En todas partes"],
+        "pricing": "2.99% + 49¢"
       },
       "wechatpay": {
         "name": "WeChat Pay",
-        "description": "Principal plataforma de pago móvil china con más de 1B de usuarios",
-        "setupTime": "15 minutos",
+        "description": "Accede a mil millones de clientes chinos. Sí, MIL MILLONES.",
+        "setupTime": "Un dim sum",
         "features": [
-          "Pagos con código QR",
-          "Integración de mini-programas",
-          "Acceso al mercado chino",
-          "Funciones de redes sociales"
+          "QR codes que imprimen dinero",
+          "Vive dentro de WeChat",
+          "Mercado chino: desbloqueado",
+          "Ventas sociales incluidas"
         ],
-        "regions": ["China", "APAC"],
-        "pricing": "0.6% por transacción"
+        "regions": ["China", "Turistas chinos en todas partes"],
+        "pricing": "0.6% (China sabe de valor)"
       },
       "alipay": {
         "name": "Alipay",
-        "description": "Plataforma de pago de Alibaba que domina el mercado chino",
-        "setupTime": "15 minutos",
+        "description": "El regalo de Jack Ma al comercio. Acéptalo o piérdete.",
+        "setupTime": "Ceremonia del té",
         "features": [
-          "Integración de billetera móvil",
-          "Pagos transfronterizos",
-          "Herramientas de marketing",
-          "Servicios financieros"
+          "Billeteras que aman los clientes",
+          "Cruza océanos sin problema",
+          "Marketing que funciona allá",
+          "No son solo pagos"
         ],
-        "regions": ["China", "Global"],
-        "pricing": "0.55% por transacción"
+        "regions": ["China", "Donde compren los chinos"],
+        "pricing": "0.55% (eso es todo)"
       },
       "when2work": {
         "name": "When2Work",
-        "description": "Plataforma de gestión de horarios y turnos de empleados",
-        "setupTime": "10 minutos",
+        "description": "Horarios para humanos que odian hacer horarios. O sea, todos.",
+        "setupTime": "Ir por café",
         "features": [
-          "Programación de turnos",
-          "Seguimiento de tiempo",
-          "Gestión de disponibilidad",
-          "Acceso mediante aplicación móvil"
+          "Turnos que se llenan solos",
+          "Sabe quién llega tarde (siempre)",
+          "Cambios sin el drama",
+          "Funciona hasta en Nokia"
         ],
-        "regions": ["EE.UU.", "Canadá"],
-        "pricing": "$2/usuario/mes"
+        "regions": ["EEUU", "Canadá"],
+        "pricing": "$2/persona (más barato que aspirinas)"
       },
       "deputy": {
         "name": "Deputy",
-        "description": "Solución de gestión de fuerza laboral con programación y gestión de tareas",
-        "setupTime": "10 minutos",
+        "description": "Gestión de personal que no se siente como trabajo. Raro, ¿no?",
+        "setupTime": "Un snack",
         "features": [
-          "Programación automática",
-          "Tiempo y asistencia",
-          "Gestión de tareas",
-          "Herramientas de cumplimiento"
+          "Horarios con IA (dan miedo de buenos)",
+          "Las tarjetas de fichar murieron",
+          "Tareas que se asignan solas",
+          "¿Leyes? Las seguimos"
         ],
-        "regions": ["Global"],
-        "pricing": "$4/usuario/mes"
+        "regions": ["Tierra"],
+        "pricing": "$4/persona/mes"
       },
       "tableau": {
         "name": "Tableau",
-        "description": "Plataforma de inteligencia empresarial y análisis para visualización de datos",
-        "setupTime": "20 minutos",
+        "description": "Convierte tus datos en momentos de 'no manches'. A los inversionistas les encanta.",
+        "setupTime": "Comida larga",
         "features": [
-          "Paneles interactivos",
-          "Mezcla de datos",
-          "Análisis predictivo",
-          "Consultas en lenguaje natural"
+          "Tableros que hipnotizan",
+          "Mezcla datos como DJ",
+          "Ve el futuro (más o menos)",
+          "Pregunta y recibe respuestas"
         ],
-        "regions": ["Global"],
+        "regions": ["Donde vivan los datos"],
         "pricing": "Desde $70/usuario/mes"
       },
       "powerbi": {
         "name": "Microsoft Power BI",
-        "description": "Servicio de análisis empresarial de Microsoft con capacidades de IA",
-        "setupTime": "15 minutos",
+        "description": "El hermano cool de Excel que fue a la escuela de arte.",
+        "setupTime": "Actualización de Windows",
         "features": [
-          "Visualización de datos",
-          "Integración con Excel",
-          "Información impulsada por IA",
-          "Herramientas de colaboración"
+          "Gráficas bonitas con significado",
+          "Archivos de Excel bienvenidos",
+          "IA que sí ayuda",
+          "Comparte sin llorar"
         ],
-        "regions": ["Global"],
+        "regions": ["Imperio de Microsoft"],
         "pricing": "$9.99/usuario/mes"
       },
       "slack": {
         "name": "Slack",
-        "description": "Centro de colaboración para comunicación y automatización de flujos de trabajo",
-        "setupTime": "5 minutos",
+        "description": "Donde sucede el trabajo. Y los memes. Pero más trabajo.",
+        "setupTime": "Primer emoji",
         "features": [
-          "Canales e hilos",
-          "Compartir archivos",
-          "Integraciones de aplicaciones",
-          "Creador de flujos de trabajo"
+          "Conversaciones organizadas",
+          "Archivos que no se pierden",
+          "Se conecta con todo",
+          "Flujos sin diagramas"
         ],
-        "regions": ["Global"],
+        "regions": ["Donde haya internet"],
         "pricing": "Gratis - $15/usuario/mes"
       },
       "teams": {
         "name": "Microsoft Teams",
-        "description": "Plataforma unificada de comunicación y colaboración de Microsoft",
-        "setupTime": "5 minutos",
+        "description": "La respuesta de Microsoft a todo. Funciona sorprendentemente bien.",
+        "setupTime": "Próximo reinicio",
         "features": [
-          "Videoconferencias",
-          "Colaboración en archivos",
-          "Integración de aplicaciones",
-          "Integración con Microsoft 365"
+          "Juntas que funcionan",
+          "Archivos que se sincronizan",
+          "Apps dentro de apps",
+          "Es todo Office al final"
         ],
-        "regions": ["Global"],
-        "pricing": "Incluido con Microsoft 365"
+        "regions": ["Territorio Microsoft"],
+        "pricing": "Gratis con Office"
       },
       "quickbooks": {
         "name": "QuickBooks",
-        "description": "Software de contabilidad completo para pequeñas empresas",
-        "setupTime": "15 minutos",
+        "description": "Contabilidad para gente que odia la contabilidad. O sea, todos.",
+        "setupTime": "Temporada de impuestos",
         "features": [
-          "Facturación",
-          "Seguimiento de gastos",
-          "Gestión de nómina",
-          "Preparación de impuestos"
+          "Facturas que se ven legítimas",
+          "Rastrea cada centavo",
+          "Nómina sin dolor",
+          "¿Impuestos? Resueltos."
         ],
-        "regions": ["EE.UU.", "Canadá", "Reino Unido"],
+        "regions": ["EEUU", "Canadá", "UK"],
         "pricing": "$25-$150/mes"
       },
       "xero": {
         "name": "Xero",
-        "description": "Plataforma de contabilidad en la nube con conexiones bancarias",
-        "setupTime": "15 minutos",
+        "description": "Contabilidad hermosa. Sí, acabamos de decir eso. Y lo decimos en serio.",
+        "setupTime": "Revisión trimestral",
         "features": [
-          "Conciliación bancaria",
-          "Seguimiento de inventario",
-          "Órdenes de compra",
-          "Soporte para múltiples monedas"
+          "Bancos que responden",
+          "Inventario que cuadra",
+          "Pedidos con sentido",
+          "Funciona en cualquier moneda"
         ],
-        "regions": ["Global"],
+        "regions": ["Globalmente hermoso"],
         "pricing": "$12-$65/mes"
       }
     }

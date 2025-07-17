@@ -1,142 +1,142 @@
 {
   "hero": {
-    "title": "Brew Success: Optimize Your Cafe Operations",
-    "subtitle": "AI-Powered Staff Scheduling for efficient resource management in the bustling world of cafes",
-    "ctaText": "Schedule Demo",
-    "secondaryCta": "Learn More",
-    "intelligenceTitle": "Cafe Intelligence",
+    "title": "Your Cafe's Running on Fumes While You're Drowning in Schedules",
+    "subtitle": "What if AI could turn your staffing chaos into a profit-pumping machine that runs itself?",
+    "ctaText": "Show Me The Magic →",
+    "secondaryCta": "I Need Proof First",
+    "intelligenceTitle": "The Unfair Advantage Smart Cafes Use",
     "stats": {
-      "manualShifts": "Cafes still manage shifts manually",
-      "laborCosts": "Labor costs of cafe operations",
-      "fasterScheduling": "Faster than traditional methods",
-      "aiOptimization": "AI Optimization Percentage"
+      "manualShifts": "of cafes are stuck in scheduling hell",
+      "laborCosts": "of your profits eaten by inefficient staffing",
+      "fasterScheduling": "scheduling speed (yes, really)",
+      "aiOptimization": "Pure AI-Powered Optimization"
     }
   },
   "problemSolution": {
-    "title": "Transform Your Cafe Operations",
-    "problemText": "While 69% of cafes still manage shifts manually, our AI scheduler reduces downtime, boosts productivity, and minimizes service disruptions with precision",
-    "solutionText": "Our solution provides AI-powered optimization for cafe workforce management"
+    "title": "Stop Bleeding Money Through Bad Schedules",
+    "problemText": "While 69% of cafes wrestle with Excel sheets and WhatsApp groups, smart owners use AI to slash labor costs, pack shifts with top performers during rush hours, and turn their teams into tip-earning machines",
+    "solutionText": "Meet the only AI that thinks like a seasoned cafe manager but works 24/7 without coffee breaks"
   },
   "howItWorks": {
-    "title": "How It Works",
+    "title": "Dead Simple. Scary Effective.",
     "step1": {
-      "title": "Step 1: Needs Assessment",
-      "description": "We analyze your cafe's unique requirements"
+      "title": "We Learn Your Rhythm",
+      "description": "15-minute setup captures your cafe's DNA - from rush patterns to barista superpowers"
     },
     "step2": {
-      "title": "Step 2: AI Optimization",
-      "description": "Our algorithm creates optimal schedules"
+      "title": "AI Does The Heavy Lifting",
+      "description": "Our algorithm creates schedules that would take your manager 8 hours in just 3 minutes"
     },
     "step3": {
-      "title": "Step 3: Continuous Improvement",
-      "description": "Ongoing adjustments based on performance data"
+      "title": "It Gets Smarter Daily",
+      "description": "Like a good espresso blend, your scheduling improves with every shift"
     }
   },
   "tippingSpotlight": {
-    "title": "Tipping Optimization",
+    "title": "The Secret Weapon: Strategic Tip Maximization",
     "feature1": {
-      "title": "Peak Hour Staffing",
-      "description": "Maximize tips during busy periods"
+      "title": "Rush Hour Revenue Rockets",
+      "description": "Deploy your charm champions when wallets are loosest"
     },
     "feature2": {
-      "title": "Skill-Based Deployment",
-      "description": "Assign top baristas to high-traffic shifts"
+      "title": "Skills Meet Shifts",
+      "description": "Your latte artists work the Instagram crowd, efficiency experts handle morning rush"
     }
   },
   "globalIntelligence": {
-    "title": "Global Insights",
+    "title": "Numbers That'll Make Your Accountant Smile",
     "metric1": {
       "value": "30%",
-      "label": "Labor Cost Reduction"
+      "label": "Labor Costs Vanish"
     },
     "metric2": {
       "value": "85%",
-      "label": "Scheduling Efficiency"
+      "label": "Time Saved on Scheduling"
     }
   },
   "socialProof": {
     "testimonial1": {
-      "text": "This system transformed our cafe operations",
-      "author": "Maria, Cafe Owner"
+      "text": "I went from 6 hours of scheduling hell to 10 minutes of clicking 'approve'. My Sundays are mine again.",
+      "author": "Maria, 3-Location Cafe Owner"
     },
     "testimonial2": {
-      "text": "Best scheduling solution we've used",
-      "author": "John, Barista"
+      "text": "Tips up 40%. Drama down 90%. This thing pays for itself before lunch.",
+      "author": "John, Head Barista"
     }
   },
   "pricing": {
-    "title": "Simple Pricing",
+    "title": "Pricing That Makes Sense",
     "plan1": {
-      "name": "Basic",
+      "name": "Single Shot",
       "price": "$99/month",
-      "features": ["Single location", "Basic scheduling"]
+      "features": ["One rockstar location", "Core AI scheduling magic"]
     },
     "plan2": {
-      "name": "Premium",
+      "name": "Double Shot",
       "price": "$299/month",
-      "features": ["Multi-location", "Advanced analytics"]
+      "features": ["Unlimited locations", "Analytics that predict the future"]
     }
   },
   "finalCTA": {
-    "title": "Ready to Optimize Your Cafe?",
-    "subtitle": "Start your free trial today",
-    "ctaText": "Get Started"
+    "title": "Ready to Join the 31% Who've Figured It Out?",
+    "subtitle": "14-day trial. No credit card. No BS.",
+    "ctaText": "Start My Free Trial"
   },
   "features": {
-    "downtimeDesc": "Reduce Employee Downtime",
-    "downtimeDetails": "Intelligent deployment of the right people to the right places at the right times",
-    "productivityDesc": "Boost Productivity",
-    "productivityDetails": "Operate with new levels of precision while eliminating human bias and error",
-    "disruptionsDesc": "Minimize Service Disruptions",
-    "disruptionsDetails": "Lower costs, happier staff, and delighted customers without system overhauls",
-    "performanceTitle": "Significantly Faster Than Traditional Methods",
-    "performanceDetails": "Our AI is significantly faster than traditional scheduling methods",
+    "downtimeDesc": "Kill the Dead Time",
+    "downtimeDetails": "No more baristas scrolling phones while customers wait. Right people, right place, right time - every damn shift",
+    "productivityDesc": "Productivity on Steroids",
+    "productivityDetails": "Eliminate the guesswork, favoritism, and \"but I always work Tuesdays\" drama",
+    "disruptionsDesc": "Service So Smooth It's Suspicious",
+    "disruptionsDetails": "Happy staff + perfect coverage + zero overtime surprises = customers who tip like they mean it",
+    "performanceTitle": "85% Faster Because Math Beats Gut Feelings",
+    "performanceDetails": "What takes you Sunday afternoon takes our AI Sunday afternoon's first sip of coffee",
     "demandSignals": {
-      "title": "Smarter Staffing with Advanced Demand Signals",
-      "subtitle": "The power behind our AI scheduler lies in its ability to harness sophisticated demand signals and proactively anticipate your staffing needs",
+      "title": "Your Crystal Ball for Cafe Chaos",
+      "subtitle": "Our AI doesn't just schedule - it predicts the future using signals your competition ignores",
       "items": [
         {
-          "title": "Weather APIs",
-          "description": "AI-powered demand forecasting incorporates weather conditions—rainy days boost hot drinks, sunny afternoons encourage outdoor seating",
+          "title": "Weather-Powered Profits",
+          "description": "Rain forecast? AI staffs up your hot drink heroes. Sunshine? Patio crew assembled automatically",
           "color": "text-blue-500"
         },
         {
-          "title": "Local Events & Activity Integration",
-          "description": "Factor in local activities and event calendars to detect demand patterns, ensuring perfect staffing for events and festivals",
+          "title": "Event ESP",
+          "description": "Concert nearby? Festival downtown? Your schedule adjusts before you even know it's happening",
           "color": "text-purple-500"
         },
         {
-          "title": "Beyond Basic Data",
-          "description": "Interpret unstructured text like public reviews to cluster sentiment and provide human-readable summaries for managers",
+          "title": "Review Mind-Reading",
+          "description": "AI scans what customers really think, spots patterns, and tells you in plain English what needs fixing",
           "color": "text-green-500"
         }
       ]
     }
   },
   "coreOutcomes": {
-    "title": "Core Operational Outcomes",
-    "subtitle": "Measurable improvements in cafe operations",
+    "title": "The Results That Actually Matter",
+    "subtitle": "Not promises. Proven outcomes from cafes like yours.",
     "items": [
       {
-        "title": "Optimized Shift Plans",
-        "description": "Draft shifts compliant with labor laws considering employee availability, drastically reducing manual scheduling effort",
+        "title": "Schedules That Don't Suck",
+        "description": "Legal, logical, and loved by your team - without the 6-hour Sunday scheduling marathon",
         "features": [
-          "Labor law compliance automation",
-          "Employee availability integration",
-          "Flexible scheduling and shift swaps",
-          "Peak coffee rush optimization"
+          "Labor laws? Auto-handled",
+          "Sarah can't work Tuesdays? Remembered",
+          "Last-minute swaps? One-click simple",
+          "Morning rush coverage? Optimized to perfection"
         ],
         "color": "bg-primary",
         "progress": 88
       },
       {
-        "title": "Labor Cost/Revenue Dashboards",
-        "description": "Address labor costs (up to 40% of expenses) with unified analytics and clear anomaly summaries in plain English",
+        "title": "Costs That Finally Make Sense",
+        "description": "See exactly where every labor dollar goes - in English, not spreadsheet-ese",
         "features": [
-          "Cost reduction analytics",
-          "Pattern recognition",
-          "Market shift adaptation",
-          "Performance monitoring"
+          "Spot money leaks instantly",
+          "Predict next week's needs",
+          "Adapt to market changes fast",
+          "Track what actually works"
         ],
         "color": "bg-primary",
         "progress": 75
@@ -144,138 +144,138 @@
     ]
   },
   "regionalAdaptations": {
-    "title": "Regional Adaptations",
-    "subtitle": "Tailored solutions for different markets",
-    "keyFeatures": "Key Features",
+    "title": "Built for Your Market's Reality",
+    "subtitle": "Because a NYC cafe isn't a London cafe isn't a Tokyo cafe",
+    "keyFeatures": "What You Get",
     "regions": {
       "US": {
-        "title": "Strategic Staffing for Peak Tipping",
-        "subtitle": "Optimize skilled barista deployment",
-        "description": "AI scheduler creates optimal schedules considering availability and skills. Strategic deployment of skilled baristas during peak periods influences tip opportunities, as overstaffing can dilute tips and demotivate staff.",
+        "title": "Tip Culture Optimization",
+        "subtitle": "Turn good shifts into great tips",
+        "description": "Deploy your smoothest operators during peak tipping hours. Our AI knows that overstaffing kills tips and understaffing kills service. Find the sweet spot automatically.",
         "features": [
-          "Skilled barista deployment during peaks",
-          "Tip opportunity optimization",
-          "Appropriate staffing level maintenance",
-          "Specialized tip management software integration"
+          "Star baristas on money shifts",
+          "Tip pool optimization built-in",
+          "Goldilocks staffing levels",
+          "Integrates with tip management apps"
         ],
         "color": "bg-blue-500"
       },
       "EU": {
-        "title": "Automated Compliance",
-        "subtitle": "Working Time Directives adherence",
-        "description": "AI schedulers draft shifts compliant with labor laws, maintain compliance, avoid fines, and ensure accurate record-keeping. Time tracking with customizable rules by country and GDPR compliance.",
+        "title": "Compliance Without the Headache",
+        "subtitle": "Working Time Directives? Handled.",
+        "description": "Sleep soundly knowing every schedule is legal. Our AI speaks fluent EU labor law, prevents expensive fines, and keeps the inspectors happy.",
         "features": [
-          "EU labor law compliance",
-          "Automated fine prevention",
-          "Accurate workday record-keeping",
-          "GDPR compliance integration"
+          "Country-specific rules built-in",
+          "Fine prevention on autopilot",
+          "Perfect record-keeping always",
+          "GDPR? We've got you covered"
         ],
         "color": "bg-green-500"
       },
       "LATAM": {
-        "title": "Cash-Flow Optimization",
-        "subtitle": "High-cash transaction venues",
-        "description": "AI scheduling benefits include cost reduction and revenue uplift, contributing to improved cash flow. Payment digitalization support for emerging markets with high transaction volumes.",
+        "title": "Cash Flow Champion",
+        "subtitle": "Built for high-volume operations",
+        "description": "In markets where every peso counts, our AI squeezes maximum profit from minimum resources. Handle rush hours like a boss.",
         "features": [
-          "Cash transaction optimization",
-          "Payment digitalization support",
-          "Operational efficiency focus",
-          "High-volume transaction handling"
+          "High-cash transaction optimization",
+          "Digital payment integration",
+          "Efficiency-first scheduling",
+          "Volume surge management"
         ],
         "color": "bg-orange-500"
       },
       "APAC": {
-        "title": "Mobile Wallet Integration",
-        "subtitle": "Mobile payment ecosystem optimization",
-        "description": "Mobile payment apps contribute to booking conversion rates. AI-powered mobile apps for personalized experiences. Optimized staffing handles increased mobile payment transaction volumes.",
+        "title": "Mobile Payment Ready",
+        "subtitle": "Built for the tap-and-go generation",
+        "description": "When everyone pays by phone, you need staff who can keep up. Our AI ensures smooth service for high-speed transactions.",
         "features": [
-          "Mobile payment app integration",
-          "Personalized meal choice systems",
-          "Increased transaction volume handling",
-          "Enhanced customer journey support"
+          "Mobile payment flow optimization",
+          "Personalized service at scale",
+          "High-volume transaction staffing",
+          "Customer journey mapping"
         ],
         "color": "bg-yellow-500"
       }
     }
   },
   "benefits": {
-    "title": "Benefits Summary",
-    "subtitle": "Key advantages of our cafe optimization solution",
+    "title": "The Bottom Line Benefits",
+    "subtitle": "Why smart cafe owners can't run without us",
     "items": {
       "costSavings": {
-        "title": "Cost Savings",
-        "description": "Reduce labor costs by up to 30% through optimized scheduling"
+        "title": "30% Less Labor Cost",
+        "description": "Same great service. Way less payroll pain."
       },
       "enhancedExperience": {
-        "title": "Enhanced Guest Experience",
-        "description": "Consistent staffing ensures better service quality"
+        "title": "5-Star Service Standard",
+        "description": "Consistent staffing = consistently happy customers"
       },
       "globalCompliance": {
-        "title": "Global Compliance",
-        "description": "Automatically adhere to regional labor laws"
+        "title": "Legal Everywhere",
+        "description": "Multi-location? Multi-country? No problem."
       }
     }
   },
   "performanceMetrics": {
-    "lowerCosts": "Lower Costs",
-    "lowerCostsDesc": "Reduce operational expenses",
-    "happierStaff": "Happier Staff",
-    "happierStaffDesc": "Improve employee satisfaction",
-    "delightedCustomers": "Delighted Customers",
-    "delightedCustomersDesc": "Enhanced customer experience"
+    "lowerCosts": "Costs Drop",
+    "lowerCostsDesc": "Watch expenses shrink",
+    "happierStaff": "Staff Love It",
+    "happierStaffDesc": "Fair schedules = loyal teams",
+    "delightedCustomers": "Customers Notice",
+    "delightedCustomersDesc": "Better service = bigger tips"
   },
   "weatherImpact": {
-    "title": "Weather Impact Examples",
-    "description": "Understanding how weather changes influence sales is crucial for personnel planning",
+    "title": "Weather = Money (When You're Ready)",
+    "description": "Smart scheduling responds to Mother Nature's mood swings",
     "examples": {
-      "rainyDay": "Rainy Day",
-      "hotDrinks": "Hot drinks ↑",
-      "sunnyAfternoon": "Sunny Afternoon",
-      "outdoorSeating": "Outdoor seating ↑"
+      "rainyDay": "Clouds Rolling In?",
+      "hotDrinks": "Hot drink heroes activated",
+      "sunnyAfternoon": "Sun's Out?",
+      "outdoorSeating": "Patio pros deployed"
     }
   },
   "advancedAnalytics": {
-    "title": "Advanced Data Analytics",
-    "description": "Convert raw data into actionable knowledge, supporting real-time decisions and ensuring scheduling aligns with actual and predicted guest needs",
+    "title": "Intelligence That Speaks Human",
+    "description": "Forget spreadsheet gymnastics. Get answers that actually help you run your business.",
     "feature1": {
       "title": "Real-Time",
-      "description": "Decision Support"
+      "description": "Decisions That Matter"
     },
     "feature2": {
-      "title": "Sentiment",
-      "description": "Clustering"
+      "title": "Customer",
+      "description": "Sentiment Tracking"
     },
     "feature3": {
-      "title": "Customer",
-      "description": "Satisfaction"
+      "title": "Satisfaction",
+      "description": "Score Optimization"
     }
   },
   "employeeSatisfaction": {
-    "title": "Enhanced Employee Satisfaction",
-    "description": "Flexible scheduling and shift swapping capabilities improve retention",
+    "title": "Happy Staff = Profitable Cafe",
+    "description": "Give your team schedules they actually want to work",
     "stats": {
-      "flexible": "Flexible",
-      "schedulingOptions": "Scheduling Options",
-      "easy": "Easy",
-      "shiftSwapping": "Shift Swapping",
-      "higher": "Higher",
-      "retentionRates": "Retention Rates"
+      "flexible": "Totally",
+      "schedulingOptions": "Flexible Schedules",
+      "easy": "Stupidly",
+      "shiftSwapping": "Easy Shift Swaps",
+      "higher": "Way",
+      "retentionRates": "Better Retention"
     }
   },
   "industryStats": [
     {
       "stat": "69%",
-      "description": "Cafes still manage shifts manually",
+      "description": "Still scheduling like it's 1999",
       "color": "text-red-500"
     },
     {
       "stat": "40%",
-      "description": "Labor costs of cafe operations",
+      "description": "Revenue lost to bad staffing",
       "color": "text-orange-500"
     },
     {
       "stat": "85%",
-      "description": "Faster than traditional methods",
+      "description": "Faster than your current mess",
       "color": "text-green-500"
     }
   ]

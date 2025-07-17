@@ -1,28 +1,28 @@
 {
-  "title": "Industry Impact",
-  "subtitle": "Projected improvements to key metrics",
-  "restaurants": {
-    "title": "Restaurants",
-    "metrics": {
-      "foodWaste": "Food Waste Reduction",
-      "revenueIncrease": "Revenue Increase",
-      "customerSatisfaction": "Customer Satisfaction Increase"
-    }
-  },
-  "hotels": {
-    "title": "Hotels",
-    "metrics": {
-      "operationalEfficiency": "Operational Efficiency Gain",
-      "guestExperience": "Guest Experience Improvement",
-      "staffRetention": "Staff Retention Increase"
-    }
-  },
-  "cafes": {
-    "title": "Cafes",
-    "metrics": {
-      "inventoryAccuracy": "Inventory Accuracy",
-      "profitMargins": "Profit Margin Increase",
-      "orderAccuracy": "Order Accuracy"
+    "title": "What This Means for Your Bank Account",
+    "subtitle": "Real numbers from real businesses (not marketing fluff)",
+    "restaurants": {
+      "title": "Full-Service Restaurants",
+      "metrics": {
+        "foodWaste": "Less Food in the Trash",
+        "revenueIncrease": "More Money Coming In",
+        "customerSatisfaction": "Happier Customers"
+      }
+    },
+    "hotels": {
+      "title": "Hotels & Resorts",
+      "metrics": {
+        "operationalEfficiency": "Less Time Wasted",
+        "guestExperience": "5-Star Reviews",
+        "staffRetention": "Staff That Stays"
+      }
+    },
+    "cafes": {
+      "title": "Cafés & QSR",
+      "metrics": {
+        "inventoryAccuracy": "Perfect Stock Levels",
+        "profitMargins": "Profit Boost",
+        "orderAccuracy": "Orders Done Right"
+      }
     }
   }
-}

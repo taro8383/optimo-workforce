@@ -1,120 +1,120 @@
 {
   "heroSection": {
     "title": {
-      "mainHeading": "We Fix Labor Chaos"
+      "mainHeading": "We Kill Labor Chaos Dead"
     },
     "subtitle": {
-      "description": "Founded by hospitality veterans tired of wasted potential"
+      "description": "Built by hospitality warriors who got fed up watching money walk out the door"
     },
     "buttons": {
-      "joinMission": "Join Our Mission",
-      "openPositions": "See Open Positions"
+      "joinMission": "Fight With Us",
+      "openPositions": "Join the Squad"
     },
     "teamPreview": {
-      "title": "Our Diverse Team",
-      "description": "Working with POS devices across 4 continents"
+      "title": "Warriors from Everywhere",
+      "description": "Battle-testing with real restaurants on 4 continents daily"
     }
   },
   "timelineSection": {
     "title": {
-      "mainHeading": "Our Journey"
+      "mainHeading": "How We Got Here"
     },
     "subtitle": {
-      "description": "From a small team in Barcelona to a global workforce optimization platform"
+      "description": "From fed-up operators in Barcelona to the weapon every restaurant needs"
     },
     "events": {
       "2024": {
-        "title": "Founded in Barcelona",
-        "description": "Started by hospitality veterans tired of wasted potential"
+        "title": "Born from Frustration",
+        "description": "Hospitality vets said 'enough' to watching profits leak through bad scheduling"
       },
       "2025": {
-        "title": "500+ locations optimized",
-        "description": "Rapid growth across US, EU, LATAM, and APAC markets"
+        "title": "500+ Businesses Saved",
+        "description": "Word spreads fast when you actually deliver 20% savings"
       },
       "2026": {
-        "title": "Global partner network",
-        "description": "Strategic partnerships with major POS providers worldwide"
+        "title": "The Industry Standard",
+        "description": "Every major POS wants to partner when you make their customers rich"
       }
     }
   },
   "teamSection": {
     "title": {
-      "mainHeading": "Meet Our Team"
+      "mainHeading": "The Minds Behind the Magic"
     },
     "subtitle": {
-      "description": "Hospitality experts, AI researchers, and optimization specialists working together"
+      "description": "Ex-operators, AI ninjas, and optimization obsessives on one mission"
     },
     "members": {
       "alex": {
         "name": "Alex Rodriguez",
         "role": "Founder & CEO",
-        "description": "10+ years in EU/Asia hospitality tech"
+        "description": "Saved 10+ years of restaurants from themselves across EU/Asia"
       },
       "sarah": {
         "name": "Sarah Chen",
         "role": "CTO",
-        "description": "Former Google AI, restaurant tech specialist"
+        "description": "Stole Google's AI secrets, now weaponizing them for restaurants"
       },
       "marcus": {
         "name": "Marcus Thompson",
         "role": "VP of Operations",
-        "description": "15 years managing multi-location restaurants"
+        "description": "Ran 50+ locations, knows every scheduling nightmare by heart"
       },
       "jenny": {
         "name": "Jenny Jones",
-        "role": "Head of Global Markets",
-        "description": "APAC expansion and mobile payment expert"
+        "role": "Head of Global Domination",
+        "description": "Cracked the APAC mobile payment code, 22% tip increase guru"
       },
       "david": {
         "name": "David Kim",
-        "role": "Lead Data Scientist",
-        "description": "PhD in Machine Learning, tip prediction algorithms"
+        "role": "Lead Data Wizard",
+        "description": "PhD in making AI predict tips better than your best server"
       },
       "elena": {
         "name": "Elena Vasquez",
-        "role": "Customer Success Director",
-        "description": "Hospitality veteran, speaks 5 languages"
+        "role": "Chief Problem Solver",
+        "description": "Your success in 5 languages, knows every POS quirk globally"
       }
     }
   },
   "valuesSection": {
     "title": {
-      "mainHeading": "Our Values"
+      "mainHeading": "What We Actually Believe"
     },
     "subtitle": {
-      "description": "The principles that guide everything we do"
+      "description": "Not corporate BS—the real principles we live by"
     },
     "values": {
       "global": {
-        "title": "Think Global, Act Local",
-        "description": "We understand that every market is unique. Our AI adapts to local tipping cultures, labor laws, and customer behaviors while leveraging global intelligence."
+        "title": "Global Smarts, Local Street Cred",
+        "description": "Your Singapore customers tip differently than Stockholm. Your LA staff works differently than Louisiana. We get it, and our AI adapts to YOUR reality."
       },
       "data": {
-        "title": "Data-Driven Empathy",
-        "description": "Technology should serve people, not replace them. We use AI to make work more predictable and fair for restaurant staff while maximizing business outcomes."
+        "title": "Robots Serve Humans, Not Replace Them",
+        "description": "AI should make your team's life predictable and fair, not eliminate them. Happy staff = happy customers = fat profits. It's not rocket science."
       },
       "ethical": {
-        "title": "Ethical Optimization",
-        "description": "We believe in transparent algorithms and fair labor practices. Our optimization never comes at the expense of worker rights or wellbeing."
+        "title": "No Shady Optimization",
+        "description": "We show you exactly how our AI thinks. No black boxes, no worker exploitation, no BS. Just transparent tech that respects everyone."
       }
     }
   },
   "ctaSection": {
     "title": {
-      "mainHeading": "Join Our Mission"
+      "mainHeading": "Ready to Change the Game?"
     },
     "subtitle": {
-      "description": "Help us transform the hospitality industry with ethical AI and global intelligence"
+      "description": "Help us rescue the hospitality industry from its own worst enemy: bad scheduling"
     },
     "buttons": {
-      "viewPositions": "View Open Positions",
-      "partnerWithUs": "Partner With Us"
+      "viewPositions": "See Where You Fit",
+      "partnerWithUs": "Let's Talk Business"
     },
     "stats": {
-      "countries": "Countries",
-      "locations": "Locations",
-      "teamMembers": "Team Members",
-      "globalSupport": "Global Support"
+      "countries": "Countries Conquered",
+      "locations": "Locations Optimized",
+      "teamMembers": "Problem Solvers",
+      "globalSupport": "Always-On Support"
     }
   }
 }

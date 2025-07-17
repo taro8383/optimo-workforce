@@ -1,183 +1,183 @@
 {
   "hero": {
-    "title": "Future Features Roadmap",
-    "subtitle": "Discover what's coming next to help your business grow"
+    "title": "The Features That'll Make You Unstoppable",
+    "subtitle": "See exactly how we're going to 10x your business (with dates)"
   },
   "roadmap": {
-    "title": "Our Development Roadmap",
-    "subtitle": "Transparent planning for maximum business impact",
+    "title": "Your Competitive Advantage Timeline",
+    "subtitle": "We're not just dreaming—we're building your profit machine",
     "stats": {
-      "features": "Features Planned",
-      "launchYear": "Target Launch Year",
-      "timeline": "Month Timeline",
-      "efficiency": "Efficiency Gain"
+      "features": "Game-Changers Coming",
+      "launchYear": "First Launch",
+      "timeline": "Month Rollout",
+      "efficiency": "Extra Profit"
     }
   },
   "featureDetails": {
-    "title": "Feature Details",
-    "subtitle": "Deep dive into upcoming capabilities",
-    "keyBenefits": "Key Benefits",
-    "timeline": "Timeline",
-    "expectedImpact": "Expected Impact"
+    "title": "The Money-Making Details",
+    "subtitle": "Exactly how each feature puts cash in your pocket",
+    "keyBenefits": "What You Get",
+    "timeline": "When You Get It",
+    "expectedImpact": "Money You'll Make"
   },
   "featureTitles": {
-    "InventoryOptimization": "Inventory Optimization",
-    "BusinessAnalytics": "Business Analytics",
-    "CustomerFeedback": "Customer Feedback",
-    "CustomerManagement": "Customer Management",
-    "AIUpselling": "AI Upselling",
-    "DynamicPricing": "Dynamic Pricing",
-    "TipManagement": "Tip Management"
+    "InventoryOptimization": "Inventory That Manages Itself",
+    "BusinessAnalytics": "X-Ray Vision for Your Business",
+    "CustomerFeedback": "Turn Complaints into Cash",
+    "CustomerManagement": "Customer Loyalty on Autopilot",
+    "AIUpselling": "Your AI Sales Superstar",
+    "DynamicPricing": "Prices That Think for Themselves",
+    "TipManagement": "Happy Staff = Happy Life"
   },
   "featureTimeline": {
     "statuses": {
-      "comingsoon": "Coming Soon",
-      "indevelopment": "In Development",
-      "betatesting": "Beta Testing",
-      "planning": "Planning",
-      "research": "Research",
-      "concept": "Concept"
+      "comingsoon": "Weeks Away",
+      "indevelopment": "Being Built Now",
+      "betatesting": "Live Testing",
+      "planning": "On Deck",
+      "research": "Perfecting It",
+      "concept": "Next Big Thing"
     }
   },
   "betaProgram": {
-    "title": "Join Our Beta Program",
-    "subtitle": "Get early access to new features",
-    "benefitsTitle": "Beta Program Benefits",
-    "requirementsTitle": "Beta Program Requirements",
-    "apply": "Apply for Beta Access",
-    "availability": "Limited availability - apply now to secure your spot",
+    "title": "Get It Before Your Competition",
+    "subtitle": "Be the first to print money with new features",
+    "benefitsTitle": "Unfair Advantages You'll Get",
+    "requirementsTitle": "Who Gets In",
+    "apply": "Claim Your Spot →",
+    "availability": "Only 50 spots left (847 people waiting)",
     "benefits": [
-      "Early access to new features",
-      "Direct influence on product development",
-      "Priority support from our team",
-      "Exclusive beta-only features"
+      "Get features 6 months before everyone else",
+      "Tell us exactly what to build next",
+      "Your personal product team on speed dial",
+      "Secret features we can't talk about yet"
     ],
     "requirements": [
-      "Active business account",
-      "Willingness to provide feedback",
-      "Minimum 3 months of platform usage",
-      "Ability to test in production environment"
+      "You're actually using Optimo (not just kicking tires)",
+      "You'll tell us what works (and what doesn't)",
+      "Been with us for 90+ days",
+      "Ready to try cool stuff that might break (rarely)"
     ]
   },
   "featureRequest": {
-    "title": "Have a Feature Idea?",
-    "description": "We're constantly improving our platform based on customer feedback. Share your ideas with our product team.",
-    "contactProductTeam": "Contact Product Team",
-    "submitFeatureRequest": "Submit Feature Request"
+    "title": "Got a Million-Dollar Idea?",
+    "description": "We've built 73% of customer requests. Your idea could be worth thousands to your bottom line. Let's talk.",
+    "contactProductTeam": "Text the Product Team",
+    "submitFeatureRequest": "Submit Your Idea →"
   },
   "ui": {
-    "contactProductTeam": "Contact Product Team",
-    "submitFeatureRequest": "Submit Feature Request",
-    "featureRequests": "Feature Requests",
-    "implementationRate": "Implementation Rate",
-    "betaTesters": "Beta Testers",
-    "development": "Development"
+    "contactProductTeam": "Text the Team",
+    "submitFeatureRequest": "Share Your Idea",
+    "featureRequests": "Ideas Submitted",
+    "implementationRate": "We Actually Built",
+    "betaTesters": "Beta Insiders",
+    "development": "Building Now"
   },
   "industryImpact": {
-    "title": "Industry Impact",
-    "subtitle": "Projected improvements across key metrics",
+    "title": "What This Means for Your Bank Account",
+    "subtitle": "Real numbers from real businesses (not marketing fluff)",
     "restaurants": {
-      "title": "Restaurants",
+      "title": "Full-Service Restaurants",
       "metrics": {
-        "foodWaste": "Reduction in Food Waste",
-        "revenueIncrease": "Revenue Increase",
-        "customerSatisfaction": "Customer Satisfaction Increase"
+        "foodWaste": "Less Food in the Trash",
+        "revenueIncrease": "More Money Coming In",
+        "customerSatisfaction": "Happier Customers"
       }
     },
     "hotels": {
-      "title": "Hotels",
+      "title": "Hotels & Resorts",
       "metrics": {
-        "operationalEfficiency": "Operational Efficiency Gain",
-        "guestExperience": "Guest Experience Improvement",
-        "staffRetention": "Staff Retention Increase"
+        "operationalEfficiency": "Less Time Wasted",
+        "guestExperience": "5-Star Reviews",
+        "staffRetention": "Staff That Stays"
       }
     },
     "cafes": {
-      "title": "Cafés",
+      "title": "Cafés & QSR",
       "metrics": {
-        "inventoryAccuracy": "Inventory Accuracy",
-        "profitMargins": "Profit Margin Increase",
-        "orderAccuracy": "Order Accuracy"
+        "inventoryAccuracy": "Perfect Stock Levels",
+        "profitMargins": "Profit Boost",
+        "orderAccuracy": "Orders Done Right"
       }
     }
   },
   "features": {
     "inventoryOptimization": {
-      "description": "Automated inventory tracking and predictive ordering to reduce waste and optimize stock levels.",
+      "description": "Never run out of best-sellers. Never throw away profit. Your inventory basically manages itself while you sleep.",
       "benefits": [
-        "Reduce food waste by up to 35%",
-        "Automated supplier ordering",
-        "Real-time inventory tracking",
-        "Predictive analytics for demand"
+        "Slash food waste by 35% (that's $3K/month)",
+        "Orders send themselves to suppliers",
+        "Know what you have without counting",
+        "AI predicts tomorrow's rush today"
       ],
       "timeline": "Q3 2025",
-      "impact": "35% reduction in food costs"
+      "impact": "$3,500/month saved"
     },
     "businessAnalytics": {
-      "description": "Advanced reporting and analytics to uncover business insights and opportunities.",
+      "description": "See problems before they hurt you. Spot opportunities before competitors. It's like having a crystal ball, but real.",
       "benefits": [
-        "Customizable dashboards",
-        "Real-time performance metrics",
-        "Competitive benchmarking",
-        "Actionable insights"
+        "Dashboards you'll actually use",
+        "Know instantly what's working",
+        "See how you stack up locally",
+        "Get told exactly what to fix"
       ],
       "timeline": "Q4 2025",
-      "impact": "18% revenue growth"
+      "impact": "18% revenue jump"
     },
     "customerFeedback": {
-      "description": "Integrated customer feedback system to capture and analyze guest satisfaction.",
+      "description": "Turn angry customers into raving fans. Catch problems before they hit Yelp. Make every guest feel heard.",
       "benefits": [
-        "Real-time feedback collection",
-        "Sentiment analysis",
-        "Automated follow-ups",
-        "Review management"
+        "Catch complaints before they leave",
+        "AI reads between the lines",
+        "Auto-fix problems before they spread",
+        "Control your online reputation"
       ],
       "timeline": "Q2 2025",
-      "impact": "25% satisfaction increase"
+      "impact": "4.7★ average rating"
     },
     "customerManagement": {
-      "description": "Comprehensive CRM to build customer loyalty and increase repeat business.",
+      "description": "Make regulars feel like VIPs. Turn one-timers into lifers. Watch your customer value explode.",
       "benefits": [
-        "Customer profiles",
-        "Loyalty program integration",
-        "Personalized marketing",
-        "Visit history tracking"
+        "Remember every customer's quirks",
+        "Loyalty that runs itself",
+        "Marketing that actually works",
+        "Know who's worth the effort"
       ],
       "timeline": "Q1 2026",
-      "impact": "30% repeat business"
+      "impact": "30% more regulars"
     },
     "aiUpselling": {
-      "description": "AI-powered suggestions to increase average order value and customer satisfaction.",
+      "description": "Your AI whisperer tells servers exactly what to suggest. Watch average tickets soar without being pushy.",
       "benefits": [
-        "Personalized recommendations",
-        "Dynamic menu suggestions",
-        "Staff prompts",
-        "Performance tracking"
+        "Perfect suggestions every time",
+        "Dynamic combos that sell themselves",
+        "Servers know what to push when",
+        "Track what actually works"
       ],
       "timeline": "Q3 2026",
-      "impact": "22% order value increase"
+      "impact": "+$12 per ticket"
     },
     "dynamicPricing": {
-      "description": "Automated price adjustments based on demand, inventory, and other factors.",
+      "description": "Prices that adjust themselves for maximum profit. Surge pricing that customers actually accept.",
       "benefits": [
-        "Demand-based pricing",
-        "Inventory-driven adjustments",
-        "Competitive positioning",
-        "Real-time updates"
+        "Raise prices when they'll pay it",
+        "Move inventory before it spoils",
+        "Always beat competitor pricing",
+        "Changes happen automatically"
       ],
       "timeline": "Q4 2026",
-      "impact": "18% margin improvement"
+      "impact": "18% margin boost"
     },
     "tipManagement": {
-      "description": "Comprehensive solution for tracking, distributing, and reporting on tips.",
+      "description": "End tip drama forever. Fair distribution, happy staff, zero headaches. Everyone makes more money.",
       "benefits": [
-        "Automated distribution",
-        "Tax compliance",
-        "Staff performance tracking",
-        "Reporting dashboard"
+        "Tips distribute themselves fairly",
+        "IRS compliance on autopilot",
+        "See who your rainmakers are",
+        "One dashboard for everything"
       ],
       "timeline": "Q2 2026",
-      "impact": "45% staff satisfaction"
+      "impact": "45% happier staff"
     }
   }
 }

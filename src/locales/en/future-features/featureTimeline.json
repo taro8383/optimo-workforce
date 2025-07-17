@@ -2,13 +2,13 @@
   "title": "Feature Timeline",
   "description": "Estimated release dates for features",
   "statuses": {
-    "comingsoon": "Coming Soon",
-    "indevelopment": "In Development",
-    "betatesting": "Beta Testing",
-    "planning": "Planning",
-    "research": "Research",
-    "concept": "Concept"
-  },
+      "comingsoon": "Weeks Away",
+      "indevelopment": "Being Built Now",
+      "betatesting": "Live Testing",
+      "planning": "On Deck",
+      "research": "Perfecting It",
+      "concept": "Next Big Thing"
+    },
   "quarters": {
     "q1": "Q1",
     "q2": "Q2",

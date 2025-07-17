@@ -1,183 +1,183 @@
 {
   "hero": {
-    "title": "Hoja de ruta de futuras funciones",
-    "subtitle": "Descubre lo que viene para ayudar a tu negocio a crecer"
+    "title": "Las Funciones Que Te Harán Imparable",
+    "subtitle": "Mira exactamente cómo vamos a multiplicar tu negocio x10 (con fechas)"
   },
   "roadmap": {
-    "title": "Nuestra hoja de ruta de desarrollo",
-    "subtitle": "Planificación transparente para el máximo impacto empresarial",
+    "title": "Tu Ventaja Competitiva en el Tiempo",
+    "subtitle": "No estamos soñando—estamos construyendo tu máquina de ganancias",
     "stats": {
-      "features": "Funciones planificadas",
-      "launchYear": "Año de lanzamiento objetivo",
-      "timeline": "Cronología en meses", 
-      "efficiency": "Ganancia de eficiencia"
+      "features": "Revoluciones en Camino",
+      "launchYear": "Primer Lanzamiento",
+      "timeline": "Meses de Desarrollo",
+      "efficiency": "Ganancia Extra"
     }
   },
   "featureDetails": {
-    "title": "Detalles de la función",
-    "subtitle": "Profundiza en las próximas capacidades",
-    "keyBenefits": "Beneficios clave",
-    "timeline": "Cronología",
-    "expectedImpact": "Impacto esperado"
+    "title": "Los Detalles Que Hacen Dinero",
+    "subtitle": "Exactamente cómo cada función pone efectivo en tu bolsillo",
+    "keyBenefits": "Lo Que Obtienes",
+    "timeline": "Cuándo Lo Tienes",
+    "expectedImpact": "Dinero Que Ganarás"
   },
   "featureTitles": {
-    "InventoryOptimization": "Optimización de inventario",
-    "BusinessAnalytics": "Análisis empresarial",
-    "CustomerFeedback": "Comentarios de clientes",
-    "CustomerManagement": "Gestión de clientes",
-    "AIUpselling": "Venta adicional con IA",
-    "DynamicPricing": "Precios dinámicos",
-    "TipManagement": "Gestión de propinas"
+    "InventoryOptimization": "Inventario Que Se Maneja Solo",
+    "BusinessAnalytics": "Visión de Rayos X Para Tu Negocio",
+    "CustomerFeedback": "Convierte Quejas en Efectivo",
+    "CustomerManagement": "Lealtad de Clientes en Automático",
+    "AIUpselling": "Tu Súper Vendedor con IA",
+    "DynamicPricing": "Precios Que Piensan Solos",
+    "TipManagement": "Personal Feliz = Vida Feliz"
   },
   "featureTimeline": {
     "statuses": {
-      "comingsoon": "Próximamente",
-      "indevelopment": "En desarrollo",
-      "betatesting": "Pruebas beta",
-      "planning": "Planificación",
-      "research": "Investigación",
-      "concept": "Concepto"
+      "comingsoon": "Semanas de Distancia",
+      "indevelopment": "En Construcción",
+      "betatesting": "En Pruebas",
+      "planning": "Siguiente en Fila",
+      "research": "Perfeccionándolo",
+      "concept": "La Próxima Revolución"
     }
   },
   "betaProgram": {
-    "title": "Únete a nuestro programa beta",
-    "subtitle": "Obtén acceso anticipado a nuevas funciones",
-    "benefitsTitle": "Beneficios del programa beta",
-    "requirementsTitle": "Requisitos del programa beta",
-    "apply": "Solicitar acceso beta",
-    "availability": "Disponibilidad limitada - solicita ahora para asegurar tu lugar",
+    "title": "Consíguelo Antes Que Tu Competencia",
+    "subtitle": "Sé el primero en imprimir dinero con nuevas funciones",
+    "benefitsTitle": "Ventajas Injustas Que Obtendrás",
+    "requirementsTitle": "Quién Entra",
+    "apply": "Reclama Tu Lugar →",
+    "availability": "Solo 50 lugares (847 personas esperando)",
     "benefits": [
-      "Acceso anticipado a nuevas funciones",
-      "Influencia directa en el desarrollo del producto",
-      "Soporte prioritario de nuestro equipo",
-      "Funciones exclusivas para beta"
+      "Funciones 6 meses antes que todos",
+      "Dinos exactamente qué construir",
+      "Tu equipo de producto personal a un mensaje",
+      "Funciones secretas que no podemos revelar aún"
     ],
     "requirements": [
-      "Cuenta comercial activa",
-      "Disposición para proporcionar comentarios",
-      "Mínimo 3 meses de uso de la plataforma",
-      "Capacidad para probar en entorno de producción"
+      "Realmente usas Optimo (no solo curioseas)",
+      "Nos dirás qué funciona (y qué no)",
+      "Con nosotros 90+ días",
+      "Listo para probar cosas geniales que podrían fallar (rara vez)"
     ]
   },
   "featureRequest": {
-    "title": "¿Tienes una idea para una función?",
-    "description": "Estamos mejorando constantemente nuestra plataforma basándonos en los comentarios de los clientes. Comparte tus ideas con nuestro equipo de producto.",
-    "contactProductTeam": "Contactar al equipo de producto",
-    "submitFeatureRequest": "Enviar solicitud de función"
+    "title": "¿Tienes una Idea de un Millón de Dólares?",
+    "description": "Hemos construido el 73% de las peticiones. Tu idea podría valer miles para tu negocio. Hablemos.",
+    "contactProductTeam": "Mensaje al Equipo",
+    "submitFeatureRequest": "Envía Tu Idea →"
   },
   "ui": {
-    "contactProductTeam": "Contactar al equipo de producto",
-    "submitFeatureRequest": "Enviar solicitud de función",
-    "featureRequests": "Solicitudes de funciones",
-    "implementationRate": "Tasa de implementación",
-    "betaTesters": "Probadores beta",
-    "development": "Desarrollo"
+    "contactProductTeam": "Mensaje al Equipo",
+    "submitFeatureRequest": "Comparte Tu Idea",
+    "featureRequests": "Ideas Enviadas",
+    "implementationRate": "Las Construimos",
+    "betaTesters": "Beta Insiders",
+    "development": "En Desarrollo"
   },
   "industryImpact": {
-    "title": "Impacto en la industria",
-    "subtitle": "Mejoras proyectadas en métricas clave",
+    "title": "Lo Que Significa Para Tu Cuenta Bancaria",
+    "subtitle": "Números reales de negocios reales (no puro marketing)",
     "restaurants": {
-      "title": "Restaurantes",
+      "title": "Restaurantes Completos",
       "metrics": {
-        "foodWaste": "Reducción de desperdicio de alimentos",
-        "revenueIncrease": "Aumento de ingresos",
-        "customerSatisfaction": "Aumento de satisfacción del cliente"
+        "foodWaste": "Menos Comida en la Basura",
+        "revenueIncrease": "Más Dinero Entrando",
+        "customerSatisfaction": "Clientes Más Felices"
       }
     },
     "hotels": {
-      "title": "Hoteles",
+      "title": "Hoteles y Resorts",
       "metrics": {
-        "operationalEfficiency": "Ganancia de eficiencia operativa",
-        "guestExperience": "Mejora de experiencia de huéspedes",
-        "staffRetention": "Aumento de retención de personal"
+        "operationalEfficiency": "Menos Tiempo Perdido",
+        "guestExperience": "Reseñas 5 Estrellas",
+        "staffRetention": "Personal Que Se Queda"
       }
     },
     "cafes": {
-      "title": "Cafeterías",
+      "title": "Cafés y QSR",
       "metrics": {
-        "inventoryAccuracy": "Precisión de inventario",
-        "profitMargins": "Aumento de margen de ganancia",
-        "orderAccuracy": "Precisión de pedidos"
+        "inventoryAccuracy": "Niveles Perfectos",
+        "profitMargins": "Aumento de Ganancias",
+        "orderAccuracy": "Pedidos Correctos"
       }
     }
   },
   "features": {
     "inventoryOptimization": {
-      "description": "Seguimiento automatizado de inventario y pedidos predictivos para reducir desperdicios y optimizar niveles de stock.",
+      "description": "Nunca te quedes sin tus éxitos de venta. Nunca tires ganancias. Tu inventario básicamente se maneja solo mientras duermes.",
       "benefits": [
-        "Reducir desperdicio de alimentos hasta 35%",
-        "Pedidos automatizados a proveedores",
-        "Seguimiento de inventario en tiempo real",
-        "Análisis predictivo de demanda"
+        "Reduce desperdicios 35% (eso es $3K/mes)",
+        "Los pedidos se envían solos a proveedores",
+        "Sabe qué tienes sin contar",
+        "IA predice el rush de mañana hoy"
       ],
       "timeline": "Q3 2025",
-      "impact": "35% reducción en costos de alimentos"
+      "impact": "$3,500/mes ahorrados"
     },
     "businessAnalytics": {
-      "description": "Informes y análisis avanzados para descubrir información empresarial y oportunidades.",
+      "description": "Ve problemas antes de que duelan. Detecta oportunidades antes que la competencia. Es como tener una bola de cristal, pero real.",
       "benefits": [
-        "Paneles personalizables",
-        "Métricas de rendimiento en tiempo real",
-        "Evaluación comparativa competitiva",
-        "Información procesable"
+        "Tableros que sí vas a usar",
+        "Sabe al instante qué funciona",
+        "Ve cómo te comparas localmente",
+        "Te dice exactamente qué arreglar"
       ],
       "timeline": "Q4 2025",
-      "impact": "18% crecimiento de ingresos"
+      "impact": "18% salto en ventas"
     },
     "customerFeedback": {
-      "description": "Sistema integrado de comentarios de clientes para capturar y analizar la satisfacción de los invitados.",
+      "description": "Convierte clientes molestos en fans. Atrapa problemas antes de Yelp. Haz que cada cliente se sienta escuchado.",
       "benefits": [
-        "Recolección de comentarios en tiempo real",
-        "Análisis de sentimiento",
-        "Seguimientos automatizados",
-        "Gestión de reseñas"
+        "Atrapa quejas antes de que se vayan",
+        "IA lee entre líneas",
+        "Auto-arregla problemas antes de que crezcan",
+        "Controla tu reputación online"
       ],
       "timeline": "Q2 2025",
-      "impact": "25% aumento de satisfacción"
+      "impact": "4.7★ calificación promedio"
     },
     "customerManagement": {
-      "description": "CRM completo para fomentar la lealtad del cliente y aumentar los negocios recurrentes.",
+      "description": "Haz que los regulares se sientan VIP. Convierte primerizos en clientes de por vida. Ve explotar el valor de tus clientes.",
       "benefits": [
-        "Perfiles de clientes",
-        "Integración con programas de fidelidad",
-        "Marketing personalizado",
-        "Seguimiento de historial de visitas"
+        "Recuerda los gustos de cada cliente",
+        "Lealtad que corre sola",
+        "Marketing que sí funciona",
+        "Sabe quién vale el esfuerzo"
       ],
       "timeline": "Q1 2026",
-      "impact": "30% negocios recurrentes"
+      "impact": "30% más clientes frecuentes"
     },
     "aiUpselling": {
-      "description": "Sugerencias impulsadas por IA para aumentar el valor promedio del pedido y la satisfacción del cliente.",
+      "description": "Tu IA susurra a los meseros exactamente qué sugerir. Ve subir los tickets promedio sin ser molesto.",
       "benefits": [
-        "Recomendaciones personalizadas",
-        "Sugerencias de menú dinámico",
-        "Indicaciones para el personal",
-        "Seguimiento de rendimiento"
+        "Sugerencias perfectas siempre",
+        "Combos dinámicos que se venden solos",
+        "Meseros saben qué empujar y cuándo",
+        "Rastrea qué realmente funciona"
       ],
       "timeline": "Q3 2026",
-      "impact": "22% aumento en valor de pedido"
+      "impact": "+$12 por ticket"
     },
     "dynamicPricing": {
-      "description": "Ajustes de precios automatizados basados en demanda, inventario y otros factores.",
+      "description": "Precios que se ajustan solos para máxima ganancia. Precios dinámicos que los clientes aceptan.",
       "benefits": [
-        "Precios basados en demanda",
-        "Ajustes impulsados por inventario",
-        "Posicionamiento competitivo",
-        "Actualizaciones en tiempo real"
+        "Sube precios cuando lo pagarán",
+        "Mueve inventario antes de que caduque",
+        "Siempre gana a la competencia",
+        "Cambios suceden automáticamente"
       ],
       "timeline": "Q4 2026",
-      "impact": "18% mejora de margen"
+      "impact": "18% más margen"
     },
     "tipManagement": {
-      "description": "Solución integral para rastrear, distribuir e informar sobre propinas.",
+      "description": "Termina el drama de propinas para siempre. Distribución justa, personal feliz, cero dolores de cabeza. Todos ganan más.",
       "benefits": [
-        "Distribución automatizada",
-        "Cumplimiento fiscal",
-        "Seguimiento de rendimiento del personal",
-        "Panel de informes"
+        "Propinas se distribuyen solas justamente",
+        "Cumplimiento fiscal en automático",
+        "Ve quiénes son tus estrellas",
+        "Un tablero para todo"
       ],
       "timeline": "Q2 2026",
-      "impact": "45% satisfacción del personal"
+      "impact": "45% personal más feliz"
     }
   }
 }

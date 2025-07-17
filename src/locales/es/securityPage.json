@@ -1,229 +1,229 @@
 {
   "hero": {
-    "title": "Seguridad de Grado Empresarial",
-    "subtitle": "La seguridad de sus datos es nuestra máxima prioridad con medidas de seguridad de nivel empresarial que protegen cada aspecto de nuestra plataforma.",
-    "downloadBtn": "Descargar Resumen de Seguridad",
-    "reportsBtn": "Ver Informes de Cumplimiento",
-    "demoBtn": "Solicitar Demostración",
-    "whitepaperBtn": "Descargar Libro Blanco"
+    "title": "Más Seguro que el Banco Central",
+    "subtitle": "Tus datos están más protegidos aquí que el dinero en Suiza (y más accesibles para ti)",
+    "downloadBtn": "Ve Nuestro Arsenal →",
+    "reportsBtn": "Prueba de Nuestra Paranoia →",
+    "demoBtn": "Déjanos Presumir →",
+    "whitepaperBtn": "Los Detalles Nerds →"
   },
   "stats": {
-    "uptime": "Tiempo de Actividad",
-    "encryption": "Encriptación",
-    "monitoring": "Monitoreo",
-    "certified": "Certificado"
+    "uptime": "Nunca Caído",
+    "encryption": "Indescifrable",
+    "monitoring": "Siempre Vigilando",
+    "certified": "Auditores Felices"
   },
   "tabs": {
-    "overview": "Resumen",
-    "certifications": "Certificaciones",
-    "features": "Características de Seguridad",
-    "policies": "Políticas"
+    "overview": "Vista General",
+    "certifications": "Nuestros Trofeos",
+    "features": "Candados y Llaves",
+    "policies": "Letra Chica"
   },
   "overview": {
-    "title": "Marco de Seguridad Integral",
-    "subtitle": "Nuestro enfoque de múltiples capas garantiza protección en cada nivel de nuestra infraestructura y pila de aplicaciones.",
-    "dataProtection": "Protección de Datos",
-    "dataProtectionDesc": "Medidas avanzadas para asegurar información sensible durante todo su ciclo de vida",
-    "accessControl": "Control de Acceso",
-    "accessControlDesc": "Controles estrictos para garantizar que solo personal autorizado acceda a sistemas críticos",
-    "continuousMonitoring": "Monitoreo Continuo",
-    "continuousMonitoringDesc": "Vigilancia proactiva y respuesta rápida a amenazas potenciales",
+    "title": "Seguridad Tan Fuerte que los Hackers Lloran",
+    "subtitle": "Protegemos tus datos como si fuera la receta secreta de la abuela (bueno, más)",
+    "dataProtection": "Fortaleza de Datos",
+    "dataProtectionDesc": "Tus datos envueltos en más capas que cebolla de invierno",
+    "accessControl": "Solo VIPs",
+    "accessControlDesc": "Entrar aquí es más difícil que conseguir boletos de Bad Bunny",
+    "continuousMonitoring": "Nunca Duerme",
+    "continuousMonitoringDesc": "Atrapamos a los malos antes de que piensen en ser malos",
     "dataProtectionList": [
-      "Encriptación AES-256",
-      "Copias de seguridad encriptadas",
-      "Anonimización de datos",
-      "Políticas de retención de datos"
+      "Encriptación militar (la de verdad)",
+      "Respaldos de respaldos de respaldos",
+      "Hace datos anónimos como protección de testigos",
+      "Auto-borra cuando tú digas"
     ],
     "accessControlList": [
-      "Autenticación multifactor",
-      "Control de acceso basado en roles",
-      "Integración SSO",
-      "Gestión de sesiones"
+      "Más verificación que antro exclusivo",
+      "Cada quien ve exactamente lo necesario (nada más)",
+      "Una contraseña para gobernarlas a todas",
+      "Auto-cierre para los olvidadizos"
     ],
     "continuousMonitoringList": [
-      "Monitoreo 24/7",
-      "Detección de amenazas",
-      "Respuesta a incidentes"
+      "Nerds de seguridad vigilando 24/7",
+      "IA que detecta problemas",
+      "Arregla todo en minutos"
     ]
   },
   "certifications": {
     "soc2": {
       "name": "SOC 2 Tipo II",
-      "description": "Controles de sistema y organización para seguridad, disponibilidad y confidencialidad"
+      "description": "El estándar de oro - pasamos con honores"
     },
     "gdpr": {
-      "name": "Cumplimiento GDPR",
-      "description": "Cumplimiento del Reglamento General de Protección de Datos para protección de datos en la UE"
+      "name": "Cumple GDPR",
+      "description": "Europa confía en nosotros (y son exigentes)"
     },
     "ccpa": {
-      "name": "Cumplimiento CCPA",
-      "description": "Cumplimiento de la Ley de Privacidad del Consumidor de California para protección de datos en EE.UU."
+      "name": "Cumple CCPA",
+      "description": "California nos aprobó (y ellos regulan todo)"
     },
     "iso27001": {
       "name": "ISO 27001",
-      "description": "Estándar internacional para sistemas de gestión de seguridad de la información"
+      "description": "Sello internacional de aprobación - el difícil"
     },
     "pci": {
       "name": "PCI DSS Nivel 1",
-      "description": "Estándar de seguridad de datos de la industria de tarjetas de pago para procesamiento de pagos"
+      "description": "Los bancos confían sus pagos - suficiente"
     },
     "hipaa": {
-      "name": "Preparado para HIPAA",
-      "description": "Preparación para la Ley de Portabilidad y Responsabilidad de Seguros de Salud"
+      "name": "Listo para HIPAA",
+      "description": "Privacidad médica (podríamos guardar rayos X)"
     },
-    "title": "Certificaciones y Cumplimiento de la Industria",
-    "subtitle": "Nuestro compromiso con la seguridad está validado mediante auditorías y certificaciones rigurosas de terceros.",
-    "validUntil": "Válido Hasta",
-    "auditor": "Auditor",
-    "scope": "Alcance",
-    "viewDetails": "Ver Detalles",
-    "downloadReport": "Descargar Informe",
-    "detailsTitle": "Detalles Clave"
+    "title": "Nuestro Muro de la Fama",
+    "subtitle": "Los auditores nos aman (y ellos odian a todos)",
+    "validUntil": "Vigente Hasta",
+    "auditor": "Quién Revisó",
+    "scope": "Qué Probaron",
+    "viewDetails": "Ver Prueba →",
+    "downloadReport": "Descargar →",
+    "detailsTitle": "Lo Impresionante"
   },
   "features": {
     "dataProtection": {
       "endToEndEncryption": {
-        "title": "Encriptación de Extremo a Extremo",
-        "description": "Todos los datos encriptados en tránsito y en reposo usando encriptación AES-256"
+        "title": "Encriptación Total",
+        "description": "Tus datos más revueltos que huevos domingueros"
       },
       "dataAnonymization": {
-        "title": "Anonimización de Datos",
-        "description": "Datos personales anonimizados para análisis y reportes"
+        "title": "Protección de Identidad",
+        "description": "Sabemos tus números, no tu nombre"
       },
       "secureBackups": {
-        "title": "Copias de Seguridad Seguras",
-        "description": "Copias de seguridad encriptadas automatizadas con redundancia geográfica"
+        "title": "Obsesión por Respaldos",
+        "description": "Copias en múltiples continentes (listo para zombies)"
       },
       "dataRetention": {
-        "title": "Políticas de Retención de Datos",
-        "description": "Retención configurable con eliminación segura automática"
+        "title": "Borrado Inteligente",
+        "description": "Los datos desaparecen exactamente cuando quieres"
       }
     },
     "accessControl": {
       "mfa": {
-        "title": "Autenticación Multifactor",
-        "description": "MFA requerida para todas las cuentas administrativas y de usuario"
+        "title": "Doble (Triple) Chequeo",
+        "description": "Más pasos de autenticación que agente secreto"
       },
       "roleBasedAccess": {
-        "title": "Acceso Basado en Roles",
-        "description": "Permisos granulares según roles y responsabilidades del usuario"
+        "title": "Solo lo Necesario",
+        "description": "Ve únicamente lo que tu trabajo requiere"
       },
       "sso": {
-        "title": "Single Sign-On (SSO)",
-        "description": "Integración con proveedores de identidad empresariales"
+        "title": "Una Llave para Todo",
+        "description": "Funciona con el sistema de login que ames"
       },
       "sessionManagement": {
-        "title": "Gestión de Sesiones",
-        "description": "Tiempos de espera automáticos y manejo seguro de sesiones"
+        "title": "Auto Bloqueo",
+        "description": "¿Olvidadizo? Te cubrimos"
       }
     },
     "infrastructureSecurity": {
       "cloudSecurity": {
-        "title": "Seguridad en la Nube",
-        "description": "Alojado en AWS con controles de seguridad de nivel empresarial"
+        "title": "La Bóveda de Amazon",
+        "description": "Seguridad AWS - lo mismo que usa la CIA"
       },
       "networkSecurity": {
-        "title": "Seguridad de Red",
-        "description": "WAF, protección DDoS y segmentación de red"
+        "title": "Fortaleza Digital",
+        "description": "Más muros que castillo medieval"
       },
       "vulnerabilityManagement": {
-        "title": "Gestión de Vulnerabilidades",
-        "description": "Escaneos de seguridad regulares y pruebas de penetración"
+        "title": "Pruebas de Hackeo",
+        "description": "Pagamos gente para intentar entrar (no pueden)"
       },
       "incidentResponse": {
-        "title": "Respuesta a Incidentes",
-        "description": "Monitoreo de seguridad 24/7 y equipo de respuesta a incidentes"
+        "title": "Equipo SWAT",
+        "description": "Expertos listos para atacar 24/7"
       }
     },
     "compliance": {
       "auditLogs": {
-        "title": "Registros de Auditoría",
-        "description": "Registro completo de todas las actividades y cambios del sistema"
+        "title": "Todo Grabado",
+        "description": "Rastreamos todo (por buenas razones)"
       },
       "complianceReporting": {
-        "title": "Reportes de Cumplimiento",
-        "description": "Reportes automatizados de cumplimiento para varias regulaciones"
+        "title": "Reportes Automáticos",
+        "description": "Reportes de cumplimiento que se escriben solos"
       },
       "thirdPartyAudits": {
-        "title": "Auditorías de Terceros",
-        "description": "Evaluaciones de seguridad independientes y certificaciones regulares"
+        "title": "Revisión Externa",
+        "description": "Expertos externos confirman nuestra paranoia"
       },
       "privacyControls": {
-        "title": "Controles de Privacidad",
-        "description": "Controles de privacidad integrados para GDPR, CCPA y otras regulaciones"
+        "title": "Central de Privacidad",
+        "description": "Cada ley de privacidad cubierta (hasta las futuras)"
       }
     },
-    "title": "Capacidades de Seguridad Avanzadas",
-    "subtitle": "Protegiendo sus datos con tecnologías de seguridad de vanguardia y mejores prácticas."
+    "title": "Seguridad que Hace Renunciar a Hackers",
+    "subtitle": "Usamos todos los trucos del libro (y escribimos capítulos nuevos)"
   },
   "policies": {
     "privacy": {
-      "title": "Política de Privacidad",
-      "description": "Cómo recopilamos, usamos y protegemos su información personal"
+      "title": "Promesa de Privacidad",
+      "description": "Qué sabemos, cómo lo sabemos, por qué estás seguro"
     },
     "dpa": {
-      "title": "Acuerdo de Procesamiento de Datos",
-      "description": "Términos de procesamiento de datos compatibles con GDPR para clientes de la UE"
+      "title": "Acuerdo de Datos UE",
+      "description": "Cumple GDPR (el súper estricto)"
     },
     "security": {
-      "title": "Política de Seguridad",
-      "description": "Políticas y procedimientos de seguridad integrales"
+      "title": "Biblia de Seguridad",
+      "description": "Cada regla, procedimiento y medida paranoica"
     },
     "incidentResponse": {
-      "title": "Plan de Respuesta a Incidentes",
-      "description": "Nuestros procedimientos para manejar incidentes de seguridad"
+      "title": "Si Algo Sale Mal",
+      "description": "Nuestro plan de batalla (spoiler: no pasará)"
     },
     "businessContinuity": {
-      "title": "Plan de Continuidad del Negocio",
-      "description": "Garantizando la disponibilidad del servicio durante interrupciones"
+      "title": "Plan Siempre Activo",
+      "description": "Cómo seguimos durante apocalipsis"
     },
     "vendorSecurity": {
-      "title": "Evaluación de Seguridad de Proveedores",
-      "description": "Requisitos de seguridad para proveedores externos"
+      "title": "Estándares de Socios",
+      "description": "Nuestros amigos deben ser igual de paranoicos"
     },
-    "title": "Políticas y Documentación de Seguridad",
-    "subtitle": "Documentación transparente de nuestras prácticas de seguridad y estándares de cumplimiento.",
-    "lastUpdated": "Última Actualización",
-    "download": "Descargar"
+    "title": "Lo Legal (Pero Legible)",
+    "subtitle": "Todo documentado, nada oculto, abogados felices",
+    "lastUpdated": "Actualizado",
+    "download": "Descargar →"
   },
   "contacts": {
     "securityTeam": {
-      "title": "Equipo de Seguridad",
-      "description": "Reportar vulnerabilidades o preocupaciones de seguridad"
+      "title": "Línea de Seguridad",
+      "description": "¿Encontraste algo? Dinos (te invitamos el café)"
     },
     "privacyOfficer": {
-      "title": "Oficial de Privacidad",
-      "description": "Consultas sobre protección de datos y privacidad"
+      "title": "Guardián de Privacidad",
+      "description": "Tu campeón de derechos de datos"
     },
     "complianceTeam": {
-      "title": "Equipo de Cumplimiento",
-      "description": "Preguntas sobre cumplimiento regulatorio"
+      "title": "Guardianes de Reglas",
+      "description": "Pregúntanos sobre cualquier regulación"
     },
-    "title": "Contactos de Seguridad",
-    "subtitle": "Nuestro equipo de seguridad dedicado está listo para ayudar con cualquier consulta o inquietud."
+    "title": "Tus Contactos de Seguridad",
+    "subtitle": "Humanos reales que sí les importa mantenerte seguro"
   },
   "cta": {
-    "title": "¿Listo para ver nuestra seguridad en acción?",
-    "subtitle": "Programe un recorrido de seguridad personalizado con nuestros expertos."
+    "title": "¿Quieres Probar Nuestra Seguridad?",
+    "subtitle": "Deja que nuestros expertos te muestren por qué los hackers nos odian"
   },
   "modal": {
-    "contactTeam": "Contactar al Equipo"
+    "contactTeam": "Hablar con Seguridad →"
   },
   "certificationStatus": {
-    "certified": "Certificado",
-    "compliant": "Conforme",
-    "ready": "Listo",
-    "inProgress": "En Progreso"
+    "certified": "Certificado ✓",
+    "compliant": "Cumple ✓",
+    "ready": "Listo ✓",
+    "inProgress": "Casi..."
   },
   "scopeValues": {
-    "security": "Seguridad",
-    "availability": "Disponibilidad",
-    "confidentiality": "Confidencialidad",
-    "dataProtection": "Protección de Datos",
-    "privacyRights": "Derechos de Privacidad",
-    "consumerPrivacyRights": "Derechos de Privacidad del Consumidor",
-    "informationSecurityManagement": "Gestión de Seguridad de la Información",
-    "paymentDataSecurity": "Seguridad de Datos de Pago",
-    "healthcareDataProtection": "Protección de Datos de Salud"
+    "security": "Bajo Llave",
+    "availability": "Siempre Activo",
+    "confidentiality": "Secretos Seguros",
+    "dataProtection": "Escudo de Datos",
+    "privacyRights": "Derechos Protegidos",
+    "consumerPrivacyRights": "Cliente Primero",
+    "informationSecurityManagement": "Info Bloqueada",
+    "paymentDataSecurity": "Bóveda de Pagos",
+    "healthcareDataProtection": "Grado Médico"
   }
 }

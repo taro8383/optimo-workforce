@@ -1,36 +1,36 @@
 {
   "heroSection": {
     "title": {
-      "mainHeading": "Calculadora ROI"
+      "mainHeading": "Calculadora de ROI"
     },
     "subtitle": {
-      "description": "Calcula tus ahorros potenciales con optimización de fuerza laboral impulsada por IA. Ve exactamente cuánto podrías ahorrar en costos laborales, tiempo de programación y reducción de rotación."
+      "description": "Mira cómo se multiplican tus ganancias. Esto no es adivinar—son matemáticas puras. Ingresa tus números reales y descubre exactamente cuánto ahorrarás en costos laborales, cuánto recuperarás del caos de horarios, y cuánto evitarás que se vaya por la puerta."
     },
     "buttons": {
-      "startCalculating": "Comenzar Cálculo",
-      "sampleReport": "Ver Reporte de Muestra"
+      "startCalculating": "Muéstrame el Dinero",
+      "sampleReport": "Ver Resultados de Clientes Reales"
     }
   },
   "formSection": {
     "title": {
-      "mainHeading": "Información del Negocio"
+      "mainHeading": "Cuéntanos Sobre Tu Negocio"
     },
     "labels": {
       "businessType": "Tipo de Negocio",
-      "region": "Región",
-      "locations": "Número de Ubicaciones",
-      "avgEmployees": "Empleados Promedio por Ubicación",
+      "region": "Dónde Operas",
+      "locations": "Número de Locales",
+      "avgEmployees": "Tamaño del Equipo por Local",
       "avgHourlyWage": "Salario Promedio por Hora ($)",
-      "hoursPerWeek": "Horas Promedio por Empleado por Semana",
-      "schedulingHours": "Horas Dedicadas a Programación por Semana",
-      "managerRate": "Tarifa por Hora del Gerente ($)",
-      "turnoverRate": "Tasa Anual de Rotación de Personal (%)",
-      "hiringCost": "Costo para Contratar y Capacitar Nuevo Empleado ($)"
+      "hoursPerWeek": "Horas por Empleado Semanales",
+      "schedulingHours": "Horas que Pierdes Haciendo Horarios",
+      "managerRate": "Cuánto Pagas a Gerentes ($/hr)",
+      "turnoverRate": "Tasa de Rotación de Personal (%)",
+      "hiringCost": "Costo de Reemplazar un Empleado ($)"
     },
     "businessTypes": {
       "restaurant": "Restaurante",
       "hotel": "Hotel",
-      "cafe": "Café"
+      "cafe": "Cafetería"
     },
     "regions": {
       "US": "Estados Unidos",
@@ -38,72 +38,71 @@
       "LATAM": "América Latina",
       "APAC": "Asia-Pacífico"
     },
-    "regionSavings": "ahorro promedio"
+    "regionSavings": "ahorro típico"
   },
   "resultsSection": {
     "title": {
-      "mainHeading": "Tus Ahorros Potenciales"
+      "mainHeading": "Esto es lo que Estás Dejando sobre la Mesa"
     },
     "metrics": {
-      "totalAnnualSavings": "Ahorro Total Anual",
-      "paybackPeriod": "Período de Recuperación",
-      "annualROI": "ROI Anual",
-      "fiveYearSavings": "Ahorros Netos a 5 Años"
+      "totalAnnualSavings": "Dinero de Vuelta en tu Bolsillo",
+      "paybackPeriod": "Se Paga Solo En",
+      "annualROI": "Tu Retorno",
+      "fiveYearSavings": "Ganancia Extra a 5 Años"
     },
     "breakdown": {
-      "title": "Desglose de Ahorros",
+      "title": "De Dónde Sale Tu Dinero",
       "laborOptimization": {
-        "title": "Optimización de Costos Laborales",
-        "description": "La programación impulsada por IA reduce el exceso de personal y optimiza los patrones de turnos",
-        "currentCost": "Costo Laboral Anual Actual",
-        "optimizedCost": "Costo Laboral Anual Optimizado"
+        "title": "Deja de Sangrar en Costos Laborales",
+        "description": "Nuestra IA elimina el exceso de personal, optimiza cada turno, y garantiza que nunca te falte gente en horas pico",
+        "currentCost": "Lo que Gastas Ahora",
+        "optimizedCost": "Lo que Gastarás con IA"
       },
       "schedulingTime": {
-        "title": "Ahorro de Tiempo en Programación",
-        "description": "Reduce el tiempo de programación en un 78% con optimización de IA con un clic",
-        "timeSaved": "Tiempo Ahorrado por Semana",
-        "managerRate": "Tarifa del Gerente"
+        "title": "Recupera Tu Vida",
+        "description": "Reduce la programación de horas a minutos. Eso es 78% de tu tiempo de vuelta para realmente manejar tu negocio",
+        "timeSaved": "Horas que Ahorrarás Semanalmente",
+        "managerRate": "Valor por Hora del Gerente"
       },
       "turnoverReduction": {
-        "title": "Reducción de Rotación",
-        "description": "Una mejor programación mejora la satisfacción del empleado y reduce la rotación en un 43%",
-        "currentRate": "Tasa de Rotación Actual",
-        "optimizedRate": "Tasa de Rotación Optimizada"
+        "title": "Conserva a Tu Mejor Gente",
+        "description": "Horarios felices = personal feliz. Mira cómo la rotación cae 43% cuando los empleados tienen horarios consistentes y justos",
+        "currentRate": "Personal que se Va Ahora",
+        "optimizedRate": "Personal que se Va con Optimo"
       }
     }
   },
   "actionButtons": {
-    "sectionTitle": "Acciones",
-    "downloadReport": "Descargar Reporte ROI Completo",
-    "scheduleDemo": "Programar Demo para Validar Resultados",
-    "shareResults": "Compartir Resultados con el Equipo"
+    "downloadReport": "Obtén Mi Reporte ROI Personalizado",
+    "scheduleDemo": "Demuéstramelo en Vivo",
+    "shareResults": "Mostrar Esto a Mi Jefe"
   },
   "benchmarksSection": {
-    "title": "Referencias de la Industria vs. Resultados Optimo",
+    "title": "Tú vs. Todos los que Ya Usan Optimo",
     "categories": {
       "turnover": {
-        "title": "Rotación de Personal",
-        "industry": "Promedio de la Industria",
-        "withOptimo": "Con Optimo"
+        "title": "Personal que se Va",
+        "industry": "Promedio del Sector",
+        "withOptimo": "Usuarios de Optimo"
       },
       "schedulingTime": {
-        "title": "Tiempo de Programación",
-        "industry": "Promedio de la Industria",
-        "withOptimo": "Con Optimo"
+        "title": "Tiempo Perdido en Horarios",
+        "industry": "Promedio del Sector",
+        "withOptimo": "Usuarios de Optimo"
       },
       "laborCost": {
-        "title": "% de Costo Laboral",
-        "industry": "Promedio de la Industria",
-        "withOptimo": "Con Optimo"
+        "title": "Inflación de Costos Laborales",
+        "industry": "Promedio del Sector",
+        "withOptimo": "Usuarios de Optimo"
       }
     }
   },
   "ctaSection": {
-    "title": "¿Listo para Convertir Estas Proyecciones en Realidad?",
-    "subtitle": "Únete a miles de negocios que ya están ahorrando con optimización de fuerza laboral impulsada por IA. Comienza tu prueba gratuita hoy y ve resultados en 30 días.",
+    "title": "Deja de Mirar Números. Empieza a Generarlos.",
+    "subtitle": "Cada día que esperas es dinero perdido. Únete a miles que ya transformaron sus costos laborales. Ve ahorros reales en 30 días o no pagas nada.",
     "buttons": {
-      "startTrial": "Comenzar Prueba Gratuita",
-      "scheduleDemo": "Programar Demo"
+      "startTrial": "Empieza a Ahorrar Ya",
+      "scheduleDemo": "Míralo en Acción"
     },
     "features": {
       "trialDays": "30 Días",
@@ -112,10 +111,10 @@
       "support": "24/7"
     },
     "featureLabels": {
-      "trialDays": "Prueba Gratuita",
-      "setupTime": "Tiempo de Configuración",
-      "guaranteedSavings": "Ahorro Garantizado",
-      "support": "Soporte"
+      "trialDays": "Prueba Sin Riesgo",
+      "setupTime": "Para Empezar",
+      "guaranteedSavings": "O Te Devolvemos Tu Dinero",
+      "support": "Ayuda Humana Real"
     }
   },
   "units": {

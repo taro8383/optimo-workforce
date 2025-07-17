@@ -1,303 +1,304 @@
 {
   "integrationsPage": {
     "categories": {
-      "all": "All Integrations",
-      "pos": "POS Systems",
-      "payment": "Payment Processing",
-      "scheduling": "Scheduling Tools",
-      "analytics": "Analytics & BI",
-      "communication": "Communication",
-      "accounting": "Accounting & Finance"
+      "all": "All Money-Makers",
+      "pos": "POS That Works",
+      "payment": "Get Paid Faster",
+      "scheduling": "Schedule Smarter",
+      "analytics": "See Everything",
+      "communication": "Team Talk",
+      "accounting": "Numbers That Matter"
     },
     "hero": {
-      "title": "Powerful Integrations for Your Business",
-      "subtitle": "Connect with the tools you already use to streamline operations and boost efficiency",
-      "demoButton": "Watch Demo",
-      "guideButton": "Integration Guide"
+      "title": "Connect Everything. Control Everything. Crush Everything.",
+      "subtitle": "Your favorite tools now talk to each other (and make you money while they chat)",
+      "demoButton": "See the Magic →",
+      "guideButton": "5-Min Setup Guide"
     },
     "stats": {
-      "totalIntegrations": "Total Integrations",
-      "avgSetupTime": "Average Setup Time",
-      "uptimeGuarantee": "Uptime Guarantee",
-      "integrationSupport": "Integration Support"
+      "totalIntegrations": "Tools That Play Nice",
+      "avgSetupTime": "Setup Time",
+      "uptimeGuarantee": "Always On",
+      "integrationSupport": "Human Help",
+      "free": "Free"
     },
     "popular": {
-      "title": "Most Popular Integrations",
-      "subtitle": "These are the integrations our customers love the most",
-      "connectButton": "Connect"
+      "title": "The Money-Making Favorites",
+      "subtitle": "What 2,847+ smart operators connect first",
+      "connectButton": "Connect Now"
     },
     "all": {
-      "title": "All Available Integrations",
-      "subtitle": "Browse our complete library of integrations",
-      "searchPlaceholder": "Search integrations...",
-      "viewDetailsButton": "View Details",
+      "title": "Your Entire Tech Stack, Connected",
+      "subtitle": "If you use it, we probably connect to it (if not, we'll build it)",
+      "searchPlaceholder": "Find your tool...",
+      "viewDetailsButton": "See How →",
       "connectButton": "Connect",
-      "noResultsTitle": "No integrations found",
-      "noResultsMessage": "Try adjusting your search or filter criteria"
+      "noResultsTitle": "Can't find it?",
+      "noResultsMessage": "We'll build it for you. Seriously."
     },
     "support": {
-      "title": "Integration Support",
-      "subtitle": "Our team is here to help you connect and optimize every integration",
-      "chatButton": "Chat with Support",
-      "guideButton": "Download Guide",
-      "averageSetup": "Average Setup",
-      "supportAvailable": "Support Available",
-      "uptimeSLA": "Uptime SLA",
-      "setupAssistance": "Setup Assistance"
+      "title": "We Hold Your Hand (Because Tech Is Scary)",
+      "subtitle": "Real humans who actually answer the phone and fix your stuff",
+      "chatButton": "Text a Human →",
+      "guideButton": "DIY Guide →",
+      "averageSetup": "Setup Speed",
+      "supportAvailable": "Always There",
+      "uptimeSLA": "Never Down",
+      "setupAssistance": "We'll Do It For You"
     },
     "custom": {
-      "title": "Need a Custom Integration?",
-      "subtitle": "We can build a custom integration for your specific business needs",
-      "customTitle": "Request Custom Integration",
-      "customDescription": "We'll build a custom integration for your unique business systems",
-      "customButton": "Request Integration",
-      "suggestTitle": "Suggest an Integration",
-      "suggestDescription": "Let us know what integration you'd like to see next",
-      "suggestButton": "Suggest Integration"
+      "title": "Using Something Weird? We Got You.",
+      "subtitle": "We've connected to systems running on Windows 95. Nothing scares us.",
+      "customTitle": "Build My Connection",
+      "customDescription": "Tell us what ancient system you're married to. We'll make it work.",
+      "customButton": "Start Building →",
+      "suggestTitle": "What Should We Add?",
+      "suggestDescription": "You ask, we build. It's that simple.",
+      "suggestButton": "Request It →"
     },
     "integrationDetails": {
-      "setupTime": "Setup Time",
-      "popularity": "Popularity",
-      "regions": "Regions",
-      "pricing": "Pricing",
-      "features": "Key Features",
-      "connectButton": "Connect Integration",
-      "viewDocs": "View Documentation"
+      "setupTime": "Time to Magic",
+      "popularity": "Others Using It",
+      "regions": "Works In",
+      "pricing": "What It Costs",
+      "features": "Why You'll Love It",
+      "connectButton": "Connect & Profit →",
+      "viewDocs": "Nerd Docs →"
     },
     "integrations": {
       "toast": {
         "name": "Toast POS",
-        "description": "Comprehensive POS system designed for restaurants with advanced table management",
-        "setupTime": "10 minutes",
+        "description": "The POS that gets restaurants. Finally. No more explaining what 86'd means.",
+        "setupTime": "Coffee break",
         "features": [
-          "Real-time menu updates",
-          "Table layout management",
-          "Staff performance tracking",
-          "Inventory integration"
+          "Updates that don't break mid-rush",
+          "Tables that know their own numbers",
+          "See who's slacking (nicely)",
+          "Stock that counts itself"
         ],
         "regions": ["US", "Canada"],
-        "pricing": "Starts at $79/month"
+        "pricing": "From $79/mo (worth every penny)"
       },
       "square": {
         "name": "Square POS",
-        "description": "Versatile POS system with payment processing for businesses of all sizes",
-        "setupTime": "5 minutes",
+        "description": "The Swiss Army knife of payments. Works everywhere, breaks never.",
+        "setupTime": "Bathroom break",
         "features": [
-          "Omnichannel sales",
-          "Inventory management",
-          "Customer directory",
-          "Digital receipts"
+          "Sell anywhere, anytime",
+          "Know what's selling (and what's not)",
+          "Remember every customer ever",
+          "Receipts that don't fade"
         ],
         "regions": ["US", "Canada", "UK", "Australia"],
-        "pricing": "2.6% + 10¢ per transaction"
+        "pricing": "2.6% + 10¢ (they earned it)"
       },
       "lightspeed": {
         "name": "Lightspeed Restaurant",
-        "description": "Cloud-based POS system with advanced inventory management features",
-        "setupTime": "15 minutes",
+        "description": "For when you've outgrown the basics but aren't ready for Oracle",
+        "setupTime": "Lunch break",
         "features": [
-          "Multi-location inventory",
-          "Purchase ordering",
-          "Vendor management",
-          "Advanced reporting"
+          "Inventory across 100 locations? Done.",
+          "Orders that send themselves",
+          "Vendors on speed dial",
+          "Reports that make sense"
         ],
-        "regions": ["Global"],
-        "pricing": "Starts at $99/month"
+        "regions": ["Everywhere humans eat"],
+        "pricing": "From $99/mo"
       },
       "clover": {
         "name": "Clover POS",
-        "description": "All-in-one POS system with customizable app marketplace",
-        "setupTime": "8 minutes",
+        "description": "The POS that grows with you. Start small, go huge.",
+        "setupTime": "Smoke break",
         "features": [
-          "Customizable interface",
-          "Employee management",
-          "Customer engagement tools",
-          "Third-party app integrations"
+          "Make it yours (really)",
+          "Staff that manage themselves",
+          "Customers who come back",
+          "Apps for everything else"
         ],
         "regions": ["US", "Canada"],
-        "pricing": "Starts at $69/month"
+        "pricing": "From $69/mo"
       },
       "revel": {
         "name": "Revel Systems",
-        "description": "iPad POS system with enterprise-grade features for hospitality businesses",
-        "setupTime": "20 minutes",
+        "description": "When your iPad dreams of becoming a real POS. Dreams come true.",
+        "setupTime": "Power nap",
         "features": [
-          "Floor plan management",
-          "Reservation system",
-          "Kitchen display system",
-          "Customer relationship management"
+          "Floors that organize themselves",
+          "Tables that never double-book",
+          "Kitchens that see everything",
+          "Customers you'll remember"
         ],
-        "regions": ["US", "International"],
-        "pricing": "Custom pricing"
+        "regions": ["US", "Global domination"],
+        "pricing": "Let's talk numbers"
       },
       "micros": {
         "name": "Oracle MICROS",
-        "description": "Enterprise POS solution for large restaurant chains and hotels",
-        "setupTime": "30 minutes",
+        "description": "The Bentley of POS systems. For when you've really made it.",
+        "setupTime": "Executive meeting",
         "features": [
-          "Centralized management",
-          "Multi-property support",
-          "Advanced reporting suite",
-          "Integration with Oracle systems"
+          "Run empires from one screen",
+          "Hotels? Chains? Cruise ships? Yes.",
+          "Reports that impress investors",
+          "Oracle's entire arsenal"
         ],
-        "regions": ["Global"],
-        "pricing": "Enterprise pricing"
+        "regions": ["Planet Earth"],
+        "pricing": "If you have to ask..."
       },
       "stripe": {
         "name": "Stripe",
-        "description": "Full-stack payment processing platform with global reach",
-        "setupTime": "5 minutes",
+        "description": "Payments for people who hate payment processors. Built by nerds, loved by all.",
+        "setupTime": "TikTok video",
         "features": [
-          "Global payment methods",
-          "Subscription billing",
-          "Fraud prevention",
-          "Developer-friendly APIs"
+          "Accept money from Mars",
+          "Subscriptions that never fail",
+          "Fraud? What fraud?",
+          "APIs that actually work"
         ],
-        "regions": ["Global"],
-        "pricing": "2.9% + 30¢ per transaction"
+        "regions": ["Known universe"],
+        "pricing": "2.9% + 30¢ (fair & square)"
       },
       "paypal": {
         "name": "PayPal",
-        "description": "Digital payment solution with buyer and seller protection",
-        "setupTime": "5 minutes",
+        "description": "The OG of online payments. Your mom trusts it.",
+        "setupTime": "Instagram story",
         "features": [
-          "One-touch checkout",
-          "Invoice creation",
-          "Recurring payments",
-          "International currency support"
+          "One click, done deal",
+          "Invoices that get paid",
+          "Set it and forget it",
+          "Every currency ever"
         ],
-        "regions": ["Global"],
-        "pricing": "2.99% + 49¢ per transaction"
+        "regions": ["Everywhere"],
+        "pricing": "2.99% + 49¢"
       },
       "wechatpay": {
         "name": "WeChat Pay",
-        "description": "Leading Chinese mobile payment platform with 1B+ users",
-        "setupTime": "15 minutes",
+        "description": "Tap into 1 billion Chinese customers. That's billion with a B.",
+        "setupTime": "Dim sum lunch",
         "features": [
-          "QR code payments",
-          "Mini-program integration",
-          "Chinese market access",
-          "Social media features"
+          "QR codes that print money",
+          "Lives inside WeChat",
+          "China market: unlocked",
+          "Social selling built-in"
         ],
-        "regions": ["China", "APAC"],
-        "pricing": "0.6% per transaction"
+        "regions": ["China", "Chinese tourists everywhere"],
+        "pricing": "0.6% (China knows value)"
       },
       "alipay": {
         "name": "Alipay",
-        "description": "Alibaba's payment platform dominating the Chinese market",
-        "setupTime": "15 minutes",
+        "description": "Jack Ma's gift to commerce. Accept it or miss out.",
+        "setupTime": "Tea ceremony",
         "features": [
-          "Mobile wallet integration",
-          "Cross-border payments",
-          "Marketing tools",
-          "Financial services"
+          "Wallets that customers love",
+          "Cross oceans, no problem",
+          "Marketing that works there",
+          "It's not just payments"
         ],
-        "regions": ["China", "Global"],
-        "pricing": "0.55% per transaction"
+        "regions": ["China", "Anywhere Chinese shop"],
+        "pricing": "0.55% (that's it)"
       },
       "when2work": {
         "name": "When2Work",
-        "description": "Employee scheduling and shift management platform",
-        "setupTime": "10 minutes",
+        "description": "Scheduling for humans who hate scheduling. Which is all humans.",
+        "setupTime": "Coffee run",
         "features": [
-          "Shift scheduling",
-          "Time tracking",
-          "Availability management",
-          "Mobile app access"
+          "Shifts that fill themselves",
+          "Know who's late (always)",
+          "Swaps without the drama",
+          "Works on flip phones"
         ],
         "regions": ["US", "Canada"],
-        "pricing": "$2/user/month"
+        "pricing": "$2/person (cheaper than aspirin)"
       },
       "deputy": {
         "name": "Deputy",
-        "description": "Workforce management solution with scheduling and task management",
-        "setupTime": "10 minutes",
+        "description": "Workforce management that doesn't feel like work. Weird, right?",
+        "setupTime": "Snack break",
         "features": [
-          "Auto-scheduling",
-          "Time & attendance",
-          "Task management",
-          "Compliance tools"
+          "AI schedules (scary good)",
+          "Punch cards are so dead",
+          "Tasks that assign themselves",
+          "Laws? We follow those"
         ],
-        "regions": ["Global"],
-        "pricing": "$4/user/month"
+        "regions": ["Earth"],
+        "pricing": "$4/person/month"
       },
       "tableau": {
         "name": "Tableau",
-        "description": "Business intelligence and analytics platform for data visualization",
-        "setupTime": "20 minutes",
+        "description": "Turn your data into 'holy crap' moments. Investors love those.",
+        "setupTime": "Long lunch",
         "features": [
-          "Interactive dashboards",
-          "Data blending",
-          "Predictive analytics",
-          "Natural language queries"
+          "Dashboards that hypnotize",
+          "Mix data like a DJ",
+          "See the future (sort of)",
+          "Ask questions, get answers"
         ],
-        "regions": ["Global"],
-        "pricing": "Starts at $70/user/month"
+        "regions": ["Wherever data lives"],
+        "pricing": "From $70/user/mo"
       },
       "powerbi": {
         "name": "Microsoft Power BI",
-        "description": "Microsoft's business analytics service with AI capabilities",
-        "setupTime": "15 minutes",
+        "description": "Excel's cooler older sibling who went to art school.",
+        "setupTime": "Windows update",
         "features": [
-          "Data visualization",
-          "Excel integration",
-          "AI-powered insights",
-          "Collaboration tools"
+          "Pretty charts that mean something",
+          "Excel files welcome here",
+          "AI that's actually helpful",
+          "Share without crying"
         ],
-        "regions": ["Global"],
-        "pricing": "$9.99/user/month"
+        "regions": ["Microsoft's empire"],
+        "pricing": "$9.99/user/mo"
       },
       "slack": {
         "name": "Slack",
-        "description": "Collaboration hub for team communication and workflow automation",
-        "setupTime": "5 minutes",
+        "description": "Where work happens. And memes. But mostly work.",
+        "setupTime": "First emoji",
         "features": [
-          "Channels & threads",
-          "File sharing",
-          "App integrations",
-          "Workflow builder"
+          "Conversations that stay organized",
+          "Files that don't get lost",
+          "Connects to everything",
+          "Workflows without the flow charts"
         ],
-        "regions": ["Global"],
-        "pricing": "Free - $15/user/month"
+        "regions": ["Anywhere with internet"],
+        "pricing": "Free - $15/user/mo"
       },
       "teams": {
         "name": "Microsoft Teams",
-        "description": "Microsoft's unified communication and collaboration platform",
-        "setupTime": "5 minutes",
+        "description": "Microsoft's answer to everything. Works shockingly well.",
+        "setupTime": "Next reboot",
         "features": [
-          "Video conferencing",
-          "File collaboration",
-          "App integration",
-          "Microsoft 365 integration"
+          "Meetings that work",
+          "Files that sync",
+          "Apps inside apps",
+          "It's all Office anyway"
         ],
-        "regions": ["Global"],
-        "pricing": "Included with Microsoft 365"
+        "regions": ["Microsoft territory"],
+        "pricing": "Free with Office"
       },
       "quickbooks": {
         "name": "QuickBooks",
-        "description": "Comprehensive accounting software for small businesses",
-        "setupTime": "15 minutes",
+        "description": "Accounting for people who hate accounting. So, everyone.",
+        "setupTime": "Tax season",
         "features": [
-          "Invoicing",
-          "Expense tracking",
-          "Payroll management",
-          "Tax preparation"
+          "Invoices that look legit",
+          "Track every penny",
+          "Payroll without pain",
+          "Taxes? Handled."
         ],
         "regions": ["US", "Canada", "UK"],
-        "pricing": "$25-$150/month"
+        "pricing": "$25-$150/mo"
       },
       "xero": {
         "name": "Xero",
-        "description": "Cloud-based accounting platform with bank connections",
-        "setupTime": "15 minutes",
+        "description": "Beautiful accounting. Yes, we just said that. And meant it.",
+        "setupTime": "Quarterly review",
         "features": [
-          "Bank reconciliation",
-          "Inventory tracking",
-          "Purchase orders",
-          "Multi-currency support"
+          "Banks that talk back",
+          "Inventory that adds up",
+          "Orders that make sense",
+          "Works in any currency"
         ],
-        "regions": ["Global"],
-        "pricing": "$12-$65/month"
+        "regions": ["Globally gorgeous"],
+        "pricing": "$12-$65/mo"
       }
     }
   }

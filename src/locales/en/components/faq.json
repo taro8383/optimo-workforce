@@ -14,7 +14,7 @@
     "implementation": {
       "q1": {
         "question": "How fast do I see savings?",
-        "answer": "87% of our customers see >15% reduction in labor costs within the first 30 days. Our AI starts optimizing immediately after connecting your POS system.",
+        "answer": "Within 30 days, you'll slash labor costs by 15-20% (87% of our customers do). Why? Because our AI doesn't need weeks to 'learn' your business—it starts optimizing the moment you connect your POS. That's real money back in your pocket before your next rent payment is due.",
         "calculator": {
           "title": "Savings Calculator",
           "results": "See Results",
@@ -24,72 +24,84 @@
       },
       "q2": {
         "question": "Do you work with my POS?",
-        "answer": "We integrate seamlessly with all major POS systems including Toast, Clover, Lightspeed, and Clip. New integrations are added weekly based on customer demand.",
+        "answer": "If you're using Toast, Clover, Lightspeed, or Clip—you're already compatible. But here's the thing: we add new integrations every single week based on what restaurants actually need. Got a different system? Just ask. Chances are, we're already building it.",
         "posSystems": ["Toast", "Clover", "Lightspeed", "Clip"],
         "moreAdded": "+ More added weekly"
       },
       "q3": {
         "question": "How long does setup take?",
-        "answer": "Most restaurants are up and running in under 5 minutes. Our one-click integration connects to your existing POS system automatically."
+        "answer": "5 minutes. Not '5 minutes*' with fine print. Actually 5 minutes. One click connects your POS, our AI analyzes your data, and boom—you're optimizing. No IT team needed. No 47-step onboarding process. Just instant results.",
+        "answer": "5 minutes. Not '5 minutes*' with fine print. Actually 5 minutes. One click connects your POS, our AI analyzes your data, and boom—you're optimizing. No IT team needed. No 47-step onboarding process. Just instant results."
       },
       "q4": {
         "question": "Do I need to train my staff?",
-        "answer": "No training required! Our AI works behind the scenes. Staff simply follow the optimized schedules generated automatically."
+        "answer": "Zero training. Your team won't even know we're there. They just show up to their (perfectly optimized) shifts, serve happy customers during (perfectly predicted) rush times, and go home without the chaos of understaffing. The AI handles the complexity so your team can focus on what they do best."
       }
     },
     "billing": {
       "q1": {
         "question": "What's included in the free trial?",
-        "answer": "Full access to all features for 30 days. No credit card required. Cancel anytime with no obligations."
+        "answer": "Everything. Every feature, every optimization, every insight—for 30 full days. No sneaky credit card capture. No 'premium features' held back. Just pure, unrestricted access to see exactly how much money you'll save. When you're ready, you upgrade. Not before.",
+        "answer": "Everything. Every feature, every optimization, every insight—for 30 full days. No sneaky credit card capture. No 'premium features' held back. Just pure, unrestricted access to see exactly how much money you'll save. When you're ready, you upgrade. Not before."
       },
       "q2": {
         "question": "How does pricing scale?",
-        "answer": "Pricing is per location. Volume discounts available for 10+ locations. Enterprise plans include dedicated support and custom features."
+        "answer": "Simple: pay per location, save more with volume. Got 10+ locations? Your discount kicks in automatically. Running an enterprise? You get a dedicated success team plus any custom features you need. No complicated tiers or feature gates—just straightforward pricing that grows with you.",
+        "answer": "Simple: pay per location, save more with volume. Got 10+ locations? Your discount kicks in automatically. Running an enterprise? You get a dedicated success team plus any custom features you need. No complicated tiers or feature gates—just straightforward pricing that grows with you."
       },
       "q3": {
         "question": "What if I don't save 20%?",
-        "answer": "We guarantee 20% labor cost savings or your money back. Our success team works with you to ensure optimal results."
+        "answer": "Then you don't pay. Period. We're so confident you'll save at least 20% on labor costs that we guarantee it. If you don't hit that number, our success team jumps in to optimize your setup. Still not saving? Full refund. No questions, no hassle, no fine print.",
+        "answer": "Then you don't pay. Period. We're so confident you'll save at least 20% on labor costs that we guarantee it. If you don't hit that number, our success team jumps in to optimize your setup. Still not saving? Full refund. No questions, no hassle, no fine print."
       },
       "q4": {
         "question": "Can I change plans anytime?",
-        "answer": "Yes, upgrade or downgrade your plan at any time. Changes take effect immediately with prorated billing."
+        "answer": "Instantly. Need more locations? Add them. Scaling back? No problem. Changes happen in real-time with automatic proration. No waiting for billing cycles, no penalty fees, no angry emails to support. Your business changes fast—your software should too.",
+        "answer": "Instantly. Need more locations? Add them. Scaling back? No problem. Changes happen in real-time with automatic proration. No waiting for billing cycles, no penalty fees, no angry emails to support. Your business changes fast—your software should too."
       }
     },
     "security": {
       "q1": {
         "question": "Is my data secure?",
-        "answer": "Yes, we're SOC 2 Type II certified and fully compliant with GDPR and CCPA regulations. Your data is encrypted in transit and at rest.",
+        "answer": "Bank-level secure. We're not just checking boxes—we're SOC 2 Type II certified (the hard one to get), fully GDPR and CCPA compliant, and encrypt everything twice. Your competitor can't see your data. Hackers can't touch it. Even we can't access it without your explicit permission.",
         "badges": ["SOC 2 Type II", "GDPR Compliant", "CCPA Compliant"]
       },
       "q2": {
         "question": "Where is my data stored?",
-        "answer": "Data is stored in secure, geographically distributed data centers with 99.9% uptime SLA and automatic backups."
+        "answer": "In fortress-grade data centers across multiple continents with 99.9% uptime guaranteed. Automatic backups happen every hour. If a meteor hits one data center (it won't), your data is safe in another. You sleep easy, we handle the paranoia.",
+        "answer": "In fortress-grade data centers across multiple continents with 99.9% uptime guaranteed. Automatic backups happen every hour. If a meteor hits one data center (it won't), your data is safe in another. You sleep easy, we handle the paranoia."
       },
       "q3": {
         "question": "Who has access to my data?",
-        "answer": "Only authorized personnel with legitimate business needs. All access is logged and monitored. We never sell or share your data."
+        "answer": "Nobody who shouldn't. Every single access is logged, monitored, and requires a legitimate business reason. We don't sell it, share it, or 'analyze it for marketing insights.' Your data serves one purpose: making your restaurant more profitable. That's it.",
+        "answer": "Nobody who shouldn't. Every single access is logged, monitored, and requires a legitimate business reason. We don't sell it, share it, or 'analyze it for marketing insights.' Your data serves one purpose: making your restaurant more profitable. That's it."
       },
       "q4": {
         "question": "How do you handle compliance?",
-        "answer": "We automatically ensure compliance with local labor laws, working time directives, and break requirements across all supported regions."
+        "answer": "Automatically and invisibly. Our AI knows every labor law, break requirement, and overtime rule in your region—and updates itself when laws change. You focus on serving great food. We'll make sure you never get fined for a compliance violation again.",
+        "answer": "Automatically and invisibly. Our AI knows every labor law, break requirement, and overtime rule in your region—and updates itself when laws change. You focus on serving great food. We'll make sure you never get fined for a compliance violation again."
       }
     },
     "globalFeatures": {
       "q1": {
         "question": "Which regions do you support?",
-        "answer": "We support US, EU, LATAM, and APAC markets with region-specific optimizations for tipping, regulations, and payment preferences."
+        "answer": "Everywhere that matters: US, EU, LATAM, and APAC. But here's what's different—we don't just translate our interface. We optimize for how YOUR market actually works: local tipping customs, payment preferences, peak dining times. Global reach, local intelligence.",
+        "answer": "Everywhere that matters: US, EU, LATAM, and APAC. But here's what's different—we don't just translate our interface. We optimize for how YOUR market actually works: local tipping customs, payment preferences, peak dining times. Global reach, local intelligence."
       },
       "q2": {
         "question": "How does tip forecasting work?",
-        "answer": "Our AI analyzes historical tip data, party sizes, shift types, and local market conditions to predict optimal staffing for maximum tip yield."
+        "answer": "Our AI knows that a 6-top on Saturday night tips differently than a business lunch on Tuesday. It analyzes party sizes, server performance, shift patterns, even local events—then staffs accordingly. Result? Your servers make more money, customers get better service, everybody wins.",
+        "answer": "Our AI knows that a 6-top on Saturday night tips differently than a business lunch on Tuesday. It analyzes party sizes, server performance, shift patterns, even local events—then staffs accordingly. Result? Your servers make more money, customers get better service, everybody wins."
       },
       "q3": {
         "question": "What about local labor laws?",
-        "answer": "We automatically comply with local regulations including EU working time directives, break requirements, and overtime rules."
+        "answer": "Built-in and bulletproof. EU working time directives? Check. California break requirements? Handled. Australian penalty rates? Automated. You'll never accidentally violate a labor law because our AI won't let you. Compliance isn't an add-on—it's the foundation.",
+        "answer": "Built-in and bulletproof. EU working time directives? Check. California break requirements? Handled. Australian penalty rates? Automated. You'll never accidentally violate a labor law because our AI won't let you. Compliance isn't an add-on—it's the foundation."
       },
       "q4": {
         "question": "Do you support mobile payments?",
-        "answer": "Yes, especially in APAC markets where we optimize for mobile wallet preferences, resulting in 22% higher average tips."
+        "answer": "Especially in APAC where 78% of diners pay by phone. Our AI optimizes table turnover for QR code payments, predicts mobile wallet usage patterns, and even adjusts staffing for faster payment processing. Result? 22% higher tips and happier servers.",
+        "answer": "Especially in APAC where 78% of diners pay by phone. Our AI optimizes table turnover for QR code payments, predicts mobile wallet usage patterns, and even adjusts staffing for faster payment processing. Result? 22% higher tips and happier servers."
       }
     }
   },

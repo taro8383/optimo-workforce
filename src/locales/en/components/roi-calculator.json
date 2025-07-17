@@ -4,28 +4,28 @@
       "mainHeading": "ROI Calculator"
     },
     "subtitle": {
-      "description": "Calculate your potential savings with AI-powered workforce optimization. See exactly how much you could save in labor costs, scheduling time, and turnover reduction."
+      "description": "Watch your profits multiply. This isn't guesswork—it's math. Input your real numbers and see exactly how much you'll save on labor costs, reclaim from scheduling chaos, and keep from walking out the door."
     },
     "buttons": {
-      "startCalculating": "Start Calculating",
-      "sampleReport": "See Sample Report"
+      "startCalculating": "Show Me The Money",
+      "sampleReport": "See Real Customer Results"
     }
   },
   "formSection": {
     "title": {
-      "mainHeading": "Business Information"
+      "mainHeading": "Tell Us About Your Business"
     },
     "labels": {
       "businessType": "Business Type",
-      "region": "Region",
+      "region": "Where You Operate",
       "locations": "Number of Locations",
-      "avgEmployees": "Average Employees per Location",
+      "avgEmployees": "Team Size per Location",
       "avgHourlyWage": "Average Hourly Wage ($)",
-      "hoursPerWeek": "Average Hours per Employee per Week",
-      "schedulingHours": "Hours Spent on Scheduling per Week",
-      "managerRate": "Manager Hourly Rate ($)",
-      "turnoverRate": "Annual Staff Turnover Rate (%)",
-      "hiringCost": "Cost to Hire & Train New Employee ($)"
+      "hoursPerWeek": "Hours per Employee Weekly",
+      "schedulingHours": "Hours You Waste on Scheduling",
+      "managerRate": "What You Pay Managers ($/hr)",
+      "turnoverRate": "Staff Turnover Rate (%)",
+      "hiringCost": "Cost to Replace One Employee ($)"
     },
     "businessTypes": {
       "restaurant": "Restaurant",
@@ -38,71 +38,71 @@
       "LATAM": "Latin America",
       "APAC": "Asia-Pacific"
     },
-    "regionSavings": "avg savings"
+    "regionSavings": "typical savings"
   },
   "resultsSection": {
     "title": {
-      "mainHeading": "Your Potential Savings"
+      "mainHeading": "Here's What You're Leaving on the Table"
     },
     "metrics": {
-      "totalAnnualSavings": "Total Annual Savings",
-      "paybackPeriod": "Payback Period",
-      "annualROI": "Annual ROI",
-      "fiveYearSavings": "5-Year Net Savings"
+      "totalAnnualSavings": "Money Back in Your Pocket",
+      "paybackPeriod": "Pays for Itself In",
+      "annualROI": "Your ROI",
+      "fiveYearSavings": "5-Year Profit Boost"
     },
     "breakdown": {
-      "title": "Savings Breakdown",
+      "title": "Where Your Money Comes From",
       "laborOptimization": {
-        "title": "Labor Cost Optimization",
-        "description": "AI-powered scheduling reduces overstaffing and optimizes shift patterns",
-        "currentCost": "Current Annual Labor Cost",
-        "optimizedCost": "Optimized Annual Labor Cost"
+        "title": "Stop Bleeding Labor Costs",
+        "description": "Our AI eliminates overstaffing, optimizes every shift, and ensures you're never caught short during rushes",
+        "currentCost": "What You're Spending Now",
+        "optimizedCost": "What You'll Spend With AI"
       },
       "schedulingTime": {
-        "title": "Scheduling Time Savings",
-        "description": "Reduce scheduling time by 78% with one-click AI optimization",
-        "timeSaved": "Time Saved per Week",
-        "managerRate": "Manager Rate"
+        "title": "Get Your Life Back",
+        "description": "Cut scheduling from hours to minutes. That's 78% of your time back for actually running your business",
+        "timeSaved": "Hours You'll Save Weekly",
+        "managerRate": "Manager Hourly Value"
       },
       "turnoverReduction": {
-        "title": "Turnover Reduction",
-        "description": "Better scheduling improves employee satisfaction and reduces turnover by 43%",
-        "currentRate": "Current Turnover Rate",
-        "optimizedRate": "Optimized Turnover Rate"
+        "title": "Keep Your Best People",
+        "description": "Happy schedules = happy staff. Watch turnover plummet by 43% when employees get consistent, fair schedules",
+        "currentRate": "Staff Leaving Now",
+        "optimizedRate": "Staff Leaving With Optimo"
       }
     }
   },
   "actionButtons": {
-    "downloadReport": "Download Full ROI Report",
-    "scheduleDemo": "Schedule Demo to Validate Results",
-    "shareResults": "Share Results with Team"
+    "downloadReport": "Get My Custom ROI Report",
+    "scheduleDemo": "Prove It With a Demo",
+    "shareResults": "Show This to My Boss"
   },
   "benchmarksSection": {
-    "title": "Industry Benchmarks vs. Optimo Results",
+    "title": "You vs. Everyone Else Using Optimo",
     "categories": {
       "turnover": {
-        "title": "Staff Turnover",
-        "industry": "Industry Average",
-        "withOptimo": "With Optimo"
+        "title": "Staff Walking Out",
+        "industry": "Industry Normal",
+        "withOptimo": "Optimo Users"
       },
       "schedulingTime": {
-        "title": "Scheduling Time",
-        "industry": "Industry Average",
-        "withOptimo": "With Optimo"
+        "title": "Time Lost to Scheduling",
+        "industry": "Industry Normal",
+        "withOptimo": "Optimo Users"
       },
       "laborCost": {
-        "title": "Labor Cost %",
-        "industry": "Industry Average",
-        "withOptimo": "With Optimo"
+        "title": "Labor Cost Bloat",
+        "industry": "Industry Normal",
+        "withOptimo": "Optimo Users"
       }
     }
   },
   "ctaSection": {
-    "title": "Ready to Turn These Projections into Reality?",
-    "subtitle": "Join thousands of businesses already saving with AI-powered workforce optimization. Start your free trial today and see results within 30 days.",
+    "title": "Stop Looking at Numbers. Start Making Them.",
+    "subtitle": "Every day you wait is money lost. Join thousands who've already transformed their labor costs. See real savings in 30 days or pay nothing.",
     "buttons": {
-      "startTrial": "Start Free Trial",
-      "scheduleDemo": "Schedule Demo"
+      "startTrial": "Start Saving Now",
+      "scheduleDemo": "See It In Action"
     },
     "features": {
       "trialDays": "30 Days",
@@ -111,10 +111,10 @@
       "support": "24/7"
     },
     "featureLabels": {
-      "trialDays": "Free Trial",
-      "setupTime": "Setup Time",
-      "guaranteedSavings": "Guaranteed Savings",
-      "support": "Support"
+      "trialDays": "Risk-Free Trial",
+      "setupTime": "To Get Started",
+      "guaranteedSavings": "Or Your Money Back",
+      "support": "Real Human Help"
     }
   },
   "units": {

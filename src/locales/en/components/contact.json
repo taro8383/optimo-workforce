@@ -1,64 +1,64 @@
 {
   "heroSection": {
     "title": {
-      "mainHeading": "Let's Optimize Together"
+      "mainHeading": "Stop Bleeding Money. Start Making It."
     },
     "subtitle": {
-      "description": "Ready to transform your workforce management? Our global team of optimization experts is here to help you succeed."
+      "description": "Our optimization assassins speak your language, know your market, and are obsessed with making you profitable. Let's talk."
     },
     "buttons": {
-      "scheduleDemo": "Schedule Demo",
-      "startLiveChat": "Start Live Chat"
+      "scheduleDemo": "Show Me the Money",
+      "startLiveChat": "Chat Right Now"
     }
   },
   "supportOptions": {
     "title": {
-      "mainHeading": "Get Help Your Way"
+      "mainHeading": "Help That Actually Helps"
     },
     "subtitle": {
-      "description": "Choose the support option that works best for you"
+      "description": "Pick your weapon. We're ready however you want to connect."
     },
     "cards": {
       "liveChat": {
-        "title": "Live Chat",
-        "description": "Get instant help from our support team",
-        "action": "Start Chat",
-        "availability": "24/7"
+        "title": "Instant Answers",
+        "description": "Real humans who know your POS inside-out",
+        "action": "Start Chatting",
+        "availability": "24/7 No Joke"
       },
       "videoCall": {
-        "title": "Video Call",
-        "description": "Schedule a personalized demo or consultation",
-        "action": "Book Call",
-        "availability": "Business Hours"
+        "title": "Face-to-Face Demo",
+        "description": "See exactly how we'll transform your business",
+        "action": "Book My Slot",
+        "availability": "Your Schedule"
       },
       "phoneSupport": {
-        "title": "Phone Support",
-        "description": "Speak directly with our experts",
-        "action": "Call Now",
-        "availability": "Mon-Fri 9AM-6PM"
+        "title": "Old School? Perfect",
+        "description": "Talk to experts who've been in your shoes",
+        "action": "Call Us Now",
+        "availability": "When You Need Us"
       },
       "helpCenter": {
-        "title": "Help Center",
-        "description": "Browse our comprehensive documentation",
-        "action": "Browse Docs",
-        "availability": "Always Available"
+        "title": "DIY Resources",
+        "description": "Answers, guides, and profit hacks on demand",
+        "action": "Find Answers",
+        "availability": "Always On"
       }
     }
   },
   "contactForm": {
     "title": {
-      "mainHeading": "Send Us a Message"
+      "mainHeading": "Let's Talk Business"
     },
     "labels": {
-      "fullName": "Full Name *",
-      "emailAddress": "Email Address *",
-      "companyName": "Company Name *",
-      "phoneNumber": "Phone Number",
-      "businessType": "Business Type *",
-      "locations": "Number of Locations",
-      "region": "Region *",
-      "contactReason": "How can we help? *",
-      "message": "Message *"
+      "fullName": "Your Name *",
+      "emailAddress": "Best Email *",
+      "companyName": "Your Business *",
+      "phoneNumber": "Phone (optional)",
+      "businessType": "What You Run *",
+      "locations": "How Many Locations",
+      "region": "Where You Operate *",
+      "contactReason": "What's Up? *",
+      "message": "Spill the Details *"
     },
     "options": {
       "businessTypes": {
@@ -75,47 +75,47 @@
         "other": "Other"
       },
       "contactReasons": {
-        "requestDemo": "Request Demo",
-        "getPricing": "Get Pricing Information",
-        "technicalSupport": "Technical Support",
-        "partnership": "Partnership Inquiry",
-        "media": "Media/Press Inquiry",
-        "general": "General Question"
+        "requestDemo": "Show Me How This Works",
+        "getPricing": "What's This Gonna Cost?",
+        "technicalSupport": "Something's Not Working",
+        "partnership": "Let's Partner Up",
+        "media": "Press/Media Inquiry",
+        "general": "Just Have Questions"
       }
     },
     "placeholders": {
-      "fullName": "Enter your full name",
-      "email": "Enter your email",
-      "company": "Enter company name",
-      "phone": "Enter phone number",
-      "locations": "e.g., 5",
-      "selectRegion": "Select your region",
-      "selectReason": "Select a reason",
-      "message": "Tell us about your workforce optimization needs..."
+      "fullName": "John Smith",
+      "email": "john@restaurant.com",
+      "company": "The Best Restaurant Group",
+      "phone": "+1 555-1234",
+      "locations": "5 locations",
+      "selectRegion": "Pick your market",
+      "selectReason": "What brings you here?",
+      "message": "Tell us your biggest scheduling headache and we'll show you exactly how to fix it..."
     },
     "buttons": {
-      "sendMessage": "Send Message"
+      "sendMessage": "Send It"
     },
     "notes": {
-      "responseTime": "We'll respond within 24 hours during business days"
+      "responseTime": "Real humans respond within 2 hours (24 max)"
     },
     "success": {
-      "title": "Message Sent Successfully!",
-      "message": "Thank you for contacting us. Our team will review your message and get back to you within 24 hours.",
-      "button": "Send Another Message"
+      "title": "Message Received!",
+      "message": "We're on it. Expect a real human to reach out within 2 hours with real solutions.",
+      "button": "Send Another"
     }
   },
   "globalOffices": {
     "title": {
-      "mainHeading": "Global Offices"
+      "mainHeading": "Find Us Worldwide"
     },
     "subtitle": {
-      "description": "We're here to support you across all major regions with local expertise and global intelligence."
+      "description": "Local experts who speak your language and know your market inside-out."
     },
     "offices": {
       "barcelona": {
         "city": "Barcelona",
-        "country": "Spain",
+        "country": "Spain (HQ)",
         "address": "Carrer de Mallorca, 401\n08013 Barcelona, Spain",
         "phone": "+34 93 123 4567",
         "email": "europe@optimoworkforce.com",
@@ -153,30 +153,30 @@
   },
   "socialMedia": {
     "title": {
-      "mainHeading": "Follow Us"
+      "mainHeading": "Join the Revolution"
     },
     "description": {
-      "text": "Stay updated with the latest workforce optimization insights and product updates."
+      "text": "Daily doses of profit hacks, success stories, and insider optimization secrets."
     }
   },
   "emergencySupport": {
     "title": {
-      "mainHeading": "Need Urgent Support?"
+      "mainHeading": "System Down? We're On It"
     },
     "description": {
-      "text": "For critical system issues affecting your operations, our emergency support team is available 24/7."
+      "text": "When every minute costs money, we move fast. Hit the panic button."
     },
     "buttons": {
-      "emergencyHotline": "Emergency Hotline",
-      "priorityChat": "Priority Chat"
+      "emergencyHotline": "911 for Restaurants",
+      "priorityChat": "Jump the Queue"
     },
     "stats": {
-      "responseTime": "Response Time",
+      "responseTime": "Crisis Response",
       "responseTimeValue": "<5min",
-      "languages": "Languages",
-      "languagesValue": "12",
-      "emergencySupport": "Emergency Support",
-      "emergencySupportValue": "24/7"
+      "languages": "We Speak",
+      "languagesValue": "12 Languages",
+      "emergencySupport": "Always Awake",
+      "emergencySupportValue": "24/7/365"
     }
   }
 }

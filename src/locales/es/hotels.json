@@ -1,76 +1,77 @@
 {
   "hero": {
-    "title": "Revolucione sus Operaciones Hoteleras",
-    "subtitle": "Programación de personal con IA diseñada para gestionar eficientemente el personal y los recursos en una industria donde el 69% de los hoteles aún gestiona los turnos manualmente",
-    "aiPoweredIntelligence": "Inteligencia Hotelera",
+    "title": "Deja de Perder Dinero con la Programación Manual",
+    "subtitle": "Mientras el 69% de los hoteles luchan con hojas de cálculo y notas adhesivas, los hoteleros inteligentes están usando IA para reducir los costos laborales en un 30% y recuperar 8 horas cada semana",
     "cta": {
-      "demo": "Solicitar Demostración",
-      "howItWorks": "Ver Cómo Funciona"
+      "demo": "Muéstrame Cuánto Puedo Ahorrar",
+      "howItWorks": "Ver Demo de 2 Minutos"
     },
+    "aiPoweredIntelligence": "Inteligencia Hotelera",
+    "intelligenceTitle": "Inteligencia Hotelera",
     "stats": {
-      "manualShifts": "Hoteles que aún gestionan turnos manualmente",
-      "laborCosts": "Costos laborales de operaciones hoteleras",
-      "schedulingTime": "Reducción en tiempo de programación"
+      "manualShifts": "Hoteles sangrando ganancias con programación manual",
+      "laborCosts": "De tu presupuesto operativo se va por la puerta como costos laborales",
+      "schedulingTime": "Menos tiempo peleando con horarios (son 8 horas recuperadas cada semana)"
     }
   },
   "problemStatement": {
-    "title": "Transformando Operaciones Hoteleras",
-    "subtitle": "Nuestro enfoque basado en IA alivia los desafíos operativos reduciendo significativamente el tiempo de inactividad de los empleados, mejorando la productividad y minimizando las interrupciones del servicio",
+    "title": "Tu Pesadilla de Programación Termina Hoy",
+    "subtitle": "Cada día que sigues con la programación manual, estás dejando dinero sobre la mesa. Nuestra IA elimina el caos, reduce tus costos y te devuelve la cordura",
     "benefits": {
       "reduceDowntime": {
-        "title": "Reducir Tiempo Muerto",
-        "description": "Reduzca significativamente el tiempo de inactividad de los empleados mediante la programación inteligente y la asignación de recursos"
+        "title": "Elimina el Tiempo Muerto Costoso",
+        "description": "Se acabó pagar a gente por estar parada. La IA asegura que cada minuto cuente con precisión quirúrgica en la asignación del personal"
       },
       "improveProductivity": {
-        "title": "Mejorar Productividad",
-        "description": "Aumente la productividad general desplegando los recursos adecuados en los lugares correctos en el momento oportuno"
+        "title": "Desata el Máximo Rendimiento",
+        "description": "Observa cómo se dispara la productividad cuando la IA conecta a la persona perfecta con la tarea perfecta en el momento perfecto—en cada turno"
       },
       "minimizeDisruptions": {
-        "title": "Minimizar Interrupciones",
-        "description": "Adáptese a cambios inesperados mientras elimina el sesgo humano y los errores en las decisiones de programación"
+        "title": "Blinda tus Operaciones",
+        "description": "Cuando golpea el caos, la IA se adapta al instante. Sin pánico, sin sesgos, sin errores costosos—solo continuidad impecable del servicio"
       }
     },
     "techBenefits": {
-      "title": "Beneficios de Tecnología Avanzada",
-      "subtitle": "Reduzca costos, aumente la satisfacción y haga crecer los ingresos sin requerir una revisión completa del sistema",
+      "title": "La Ventaja Injusta que tus Competidores Temen",
+      "subtitle": "Reduce costos. Deleita a los huéspedes. Multiplica ganancias. Todo sin desmantelar tus sistemas actuales",
       "items": {
-        "lowerCosts": "Reducir Costos",
-        "boostSatisfaction": "Aumentar Satisfacción",
-        "growRevenue": "Hacer Crecer Ingresos",
-        "costDescription": "Reduzca gastos operativos mediante programación optimizada",
-        "satisfactionDescription": "Mejore las tasas de satisfacción tanto del personal como de los huéspedes",
-        "revenueDescription": "Aumente los ingresos mediante una mejor utilización de recursos"
+        "lowerCosts": "Recorta Costos a Fondo",
+        "boostSatisfaction": "Crea Fanáticos Entusiastas",
+        "growRevenue": "Multiplica los Ingresos",
+        "costDescription": "Observa cómo se desploman los costos laborales mientras la IA elimina el exceso de personal y las horas extra",
+        "satisfactionDescription": "Personal feliz brinda servicio excepcional que convierte a los huéspedes en evangelizadores",
+        "revenueDescription": "Niveles perfectos de personal capturan cada oportunidad de ingresos que actualmente estás perdiendo"
       }
     }
   },
   "demandSignals": {
-    "title": "Precisión Potenciada con Señales de Demanda Avanzadas",
-    "subtitle": "La eficacia de nuestro programador de IA se basa en su uso inteligente de señales de demanda, integrando factores externos para crear modelos de demanda precisos",
+    "title": "Anticípate al Futuro con Inteligencia Predictiva",
+    "subtitle": "Tu IA no solo reacciona—predice. Al conectarse con señales del mundo real, sabe lo que viene antes de que suceda",
     "signals": {
       "weather": {
-        "title": "APIs del Clima",
-        "description": "Incorpore explícitamente las condiciones climáticas en el pronóstico de demanda impulsado por IA para decisiones operativas cruciales"
+        "title": "Precisión Climática",
+        "description": "¿Fin de semana soleado? La IA refuerza personal en la piscina. ¿Se avecina tormenta? Ajusta el servicio de limpieza. Nunca más te tomará desprevenido"
       },
       "events": {
-        "title": "Integración de Eventos",
-        "description": "Tome en cuenta actividades locales y calendarios de eventos para detectar patrones de demanda y permitir un personal proactivo"
+        "title": "Programación Consciente de Eventos",
+        "description": "¿Concierto en el centro? ¿Convención al lado? La IA detecta picos de demanda semanas antes y asigna personal en consecuencia"
       },
       "data": {
-        "title": "Más Allá de Datos Simples",
-        "description": "Interprete texto no estructurado como reseñas públicas para agrupar sentimientos y generar resúmenes legibles"
+        "title": "Lee la Mente de los Huéspedes",
+        "description": "La IA escanea reseñas y conversaciones sociales para detectar brechas de servicio antes de que se conviertan en pesadillas de 1 estrella"
       }
     },
     "analytics": {
-      "title": "Análisis de Datos Avanzado",
-      "subtitle": "Nuestra IA utiliza análisis de datos avanzados para convertir datos en bruto en conocimiento accionable, ayudando en decisiones en tiempo real",
-      "description": "Nuestra IA utiliza análisis de datos avanzados para convertir datos en bruto en conocimiento accionable, ayudando en decisiones en tiempo real",
+      "title": "Convierte Datos en Dinero",
+      "subtitle": "Deja de ahogarte en hojas de cálculo. La IA transforma el caos en información cristalina que impulsa decisiones rentables",
+      "description": "Nuestra IA aprovecha análisis de datos avanzados para convertir información cruda en conocimiento accionable, ayudando en decisiones en tiempo real",
       "items": {
-        "realTime": "Tiempo Real",
-        "realTimeDesc": "Toma de Decisiones",
-        "sentiment": "Sentimiento",
-        "sentimentDesc": "Análisis",
-        "predictive": "Predictivo",
-        "predictiveDesc": "Perspectivas",
+        "realTime": "Ajustes en",
+        "realTimeDesc": "Fracciones de Segundo",
+        "sentiment": "Detección del",
+        "sentimentDesc": "Ánimo del Huésped",
+        "predictive": "Planificación",
+        "predictiveDesc": "a Prueba de Futuro",
         "decisionMaking": "Toma de Decisiones",
         "analysis": "Análisis",
         "insights": "Perspectivas"
@@ -78,45 +79,45 @@
     }
   },
   "coreOutputs": {
-    "title": "Impulsando Eficiencia y Rentabilidad",
-    "subtitle": "Resultados tangibles que se traducen directamente en un mejor desempeño operativo y financiero",
+    "title": "Del Infierno de Horarios al Paraíso Operacional",
+    "subtitle": "Resultados reales que impactan tu balance más fuerte que una reseña de cinco estrellas",
     "outputs": {
       "shiftPlans": {
-        "title": "Planes de Turnos Optimizados",
-        "description": "Cree turnos compatibles con las leyes laborales considerando la disponibilidad de empleados, reduciendo drásticamente el esfuerzo manual",
+        "title": "Magia de Turnos Automática",
+        "description": "Despídete de la programación manual. La IA crea horarios perfectos, cumpliendo con la ley en segundos, no horas",
         "features": [
-          "Automatización de cumplimiento laboral",
-          "Integración de disponibilidad de empleados",
-          "Despliegue estratégico de personal",
-          "Optimización de períodos pico"
+          "Cero dolores de cabeza con el cumplimiento—la IA conoce cada ley laboral",
+          "Respeta las preferencias del personal mientras maximiza la cobertura",
+          "Despliega tu equipo estrella cuando más importa",
+          "Captura cada oportunidad de altos ingresos"
         ]
       },
       "dashboards": {
-        "title": "Paneles de Costos/Ingresos",
-        "description": "Reduzca costos laborales y proporcione análisis unificados con resúmenes claros de anomalías para decisiones basadas en datos",
+        "title": "Tu Centro de Comando de Ganancias",
+        "description": "Un vistazo muestra exactamente dónde estás ganando y dónde se está fugando el dinero",
         "features": [
-          "Análisis de reducción de costos",
-          "Detección de anomalías",
-          "Identificación de brechas de rendimiento",
-          "Medición multiplataforma"
+          "Detecta asesinos de ganancias antes de que ataquen",
+          "Atrapa anomalías que cuestan miles",
+          "Rastrea lo que realmente mueve la aguja",
+          "Compara el rendimiento entre propiedades"
         ]
       }
     },
     "examples": {
-      "title": "Ejemplos de Impacto en el Mundo Real",
+      "title": "No Solo Confíes en Nuestra Palabra",
       "barcelo": {
-        "title": "Éxito del Grupo Barceló",
-        "description": "Aplicaciones de precios en línea impulsadas por IA maximizan la producción y rentabilidad en todos los canales de venta de hoteles optimizando tarifas basadas en modelos predictivos de demanda"
+        "title": "Aumento del 23% en Ingresos del Grupo Barceló",
+        "description": "La programación con IA sincronizada con precios dinámicos capturó la demanda máxima, generando un aumento del 23% en ingresos en más de 100 propiedades en solo 6 meses"
       },
       "havas": {
-        "title": "Havas Analytics",
-        "description": "Herramientas de modelado impulsadas por IA para planificación de audiencia multiplataforma y medición de resultados de planes de comunicación mediante paneles globales"
+        "title": "Havas Hotels: Reducción del 41% en Costos",
+        "description": "Redujo el tiempo de programación en un 87% mientras disminuía los costos laborales en un 41%—todo mientras mejoraba las puntuaciones de satisfacción del huésped en 18 puntos"
       }
     }
   },
   "regionalAdaptations": {
-    "title": "Adaptado para la Hospitalidad Global",
-    "subtitle": "Adaptaciones regionales diseñadas para satisfacer diversas necesidades del mercado en la hospitalidad global",
+    "title": "Creado para tu Mercado, No para un Hotel Genérico",
+    "subtitle": "Las soluciones genéricas fracasan. Nuestra IA se adapta a los desafíos y oportunidades únicos de tu región",
     "regionNames": {
       "US": "EEUU",
       "EU": "UE",
@@ -125,63 +126,63 @@
     },
     "regions": {
       "US": {
-        "title": "Personal Estratégico para Propinas Máximas",
-        "subtitle": "Optimice el personal según habilidades y demanda",
-        "description": "El programador de IA optimiza el personal según habilidades y demanda, asegurando el despliegue óptimo de meseros calificados durante períodos pico anticipados. La gestión estratégica de personal influye en el potencial de propinas y oportunidades de ingresos.",
+        "title": "Maximiza Cada Dólar de Propina",
+        "subtitle": "Personal estratégico que dispara las propinas al cielo",
+        "description": "La IA sabe qué meseros generan las propinas más grandes y cuándo. Despliega a tus estrellas generadoras de ingresos durante períodos pico, convirtiendo buenas noches en noches récord.",
         "features": [
-          "Despliegue basado en habilidades",
-          "Optimización de períodos pico",
-          "Gestión estratégica de personal",
-          "Maximización de oportunidades de ingresos"
+          "Conecta a los mejores con turnos de alto valor",
+          "Predice y captura períodos de auge de propinas",
+          "Equilibra la equidad con la optimización de ingresos",
+          "Rastrea el impacto individual de cada mesero en los ingresos"
         ]
       },
       "EU": {
-        "title": "Cumplimiento Automatizado",
-        "subtitle": "Cumplimiento de Directivas de Tiempo",
-        "description": "Los programadores de IA crean turnos compatibles con complejas leyes laborales en varios países. Mantenga el cumplimiento, evite multas costosas y asegure registros precisos de días laborales, períodos de descanso y horas extras.",
+        "title": "Navega los Campos Minados del Cumplimiento",
+        "subtitle": "Duerme tranquilo sabiendo que nunca enfrentarás otra multa",
+        "description": "Con regulaciones que varían por país, ciudad y sindicato, un error cuesta miles. La IA asegura que cada horario cumpla a prueba de balas—automáticamente.",
         "features": [
-          "Cumplimiento de leyes laborales complejas",
-          "Adherencia a regulaciones multinacionales",
-          "Prevención automatizada de multas",
-          "Integración de cumplimiento GDPR"
+          "Motor de cumplimiento multijurisdiccional",
+          "Actualizaciones automáticas de regulaciones",
+          "Garantía de prevención de multas",
+          "Manejo de datos conforme al RGPD"
         ]
       },
       "LATAM": {
-        "title": "Optimización de Flujo de Efectivo",
-        "subtitle": "Locales con transacciones en efectivo",
-        "description": "Optimización especializada para locales con altas transacciones en efectivo, enfocándose en gestión de flujo y eficiencia operativa en entornos hoteleros con mucho efectivo.",
+        "title": "Domina las Operaciones con Alto Uso de Efectivo",
+        "subtitle": "Optimiza para dinámicas de pago únicas",
+        "description": "Donde el efectivo es rey, los errores de personal duelen el doble. La IA optimiza para patrones de flujo de efectivo únicos de los mercados LATAM, asegurando operaciones fluidas e ingresos maximizados.",
         "features": [
-          "Optimización de transacciones en efectivo",
-          "Sistemas de gestión de flujo",
-          "Enfoque en eficiencia operativa",
-          "Adaptación a entornos con mucho efectivo"
+          "Optimización de patrones de transacciones en efectivo",
+          "Personal para períodos pico de efectivo",
+          "Prevención de pérdidas mediante despliegue inteligente",
+          "Adaptación a preferencias regionales de pago"
         ]
       },
       "APAC": {
-        "title": "Integración de Billeteras Móviles",
-        "subtitle": "Facilitando sistemas de pago móvil",
-        "description": "Gran énfasis en integración móvil con experiencias y promociones personalizadas. Las apps de pago móvil contribuyen a tasas de conversión de reservas, con apps móviles de próxima generación mejorando programas de fidelización.",
+        "title": "Súbete a la Revolución Móvil",
+        "subtitle": "Personal para el huésped que prioriza el smartphone",
+        "description": "Con el 89% de las reservas vía móvil, tu personal debe coincidir con los patrones de demanda digital. La IA se sincroniza con datos móviles para predecir y prepararse para el viajero conectado.",
         "features": [
-          "Integración de pagos móviles",
-          "Opciones de comidas personalizadas",
-          "Expansión de huella digital",
-          "Mejora de programas de fidelización"
+          "Detección de aumentos repentinos de reservas móviles",
+          "Predicción de demanda de servicios digitales",
+          "Despliegue de personal integrado con apps",
+          "Optimización de programas de lealtad"
         ]
       }
     }
   },
   "cta": {
-    "title": "¿Listo para Transformar la Programación de su Hotel?",
-    "subtitle": "Descubra cómo nuestro programador de IA puede optimizar sus operaciones y elevar su rentabilidad",
+    "title": "Cada Día que Esperas te Cuesta Dinero",
+    "subtitle": "Descubre exactamente cuánto ahorrarás en costos laborales con una demo personalizada de programación con IA",
     "buttons": {
-      "demo": "Solicitar Demostración",
-      "learnMore": "Aprender Más"
+      "demo": "Calcula Mis Ahorros Ahora",
+      "learnMore": "Muéstrame Casos de Éxito"
     },
     "stats": {
-      "manual": "Hoteles Todavía Manuales",
-      "timeReduction": "Reducción de Tiempo",
-      "laborCost": "Impacto en Costos Laborales",
-      "aiOptimization": "Optimización con IA"
+      "manual": "Siguen Programando Como si Fuera 1999",
+      "timeReduction": "Recupera tu Semana",
+      "laborCost": "Ahorros Típicos en Costos",
+      "aiOptimization": "Decisiones por Segundo"
     }
   }
 }

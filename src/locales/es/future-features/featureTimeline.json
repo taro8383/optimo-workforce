@@ -2,21 +2,21 @@
   "title": "Cronograma",
   "description": "Fechas estimadas para el lanzamiento de funciones",
   "featureTitles": {
-    "InventoryOptimization": "Optimización de Inventario",
-    "BusinessAnalytics": "Análisis de Negocios",
-    "CustomerFeedback": "Comentarios de Clientes",
-    "CustomerManagement": "Gestión de Clientes",
-    "AIUpselling": "Ventas Adicionales con IA",
-    "DynamicPricing": "Precios Dinámicos",
-    "TipManagement": "Gestión de Propinas"
+    "InventoryOptimization": "Inventario Que Se Maneja Solo",
+    "BusinessAnalytics": "Visión de Rayos X Para Tu Negocio",
+    "CustomerFeedback": "Convierte Quejas en Efectivo",
+    "CustomerManagement": "Lealtad de Clientes en Automático",
+    "AIUpselling": "Tu Súper Vendedor con IA",
+    "DynamicPricing": "Precios Que Piensan Solos",
+    "TipManagement": "Personal Feliz = Vida Feliz"
   },
   "statuses": {
-    "comingsoon": "Próximamente",
-    "indevelopment": "En Desarrollo",
-    "betatesting": "En Pruebas Beta",
-    "planning": "Planificación",
-    "research": "Investigación",
-    "concept": "Concepto"
+      "comingsoon": "Semanas de Distancia",
+      "indevelopment": "En Construcción",
+      "betatesting": "En Pruebas",
+      "planning": "Siguiente en Fila",
+      "research": "Perfeccionándolo",
+      "concept": "La Próxima Revolución"
   },
   "quarters": {
     "q1": "Q1",

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import OptimizedImage from './OptimizedImage';
 
 const SocialProofSection: React.FC = () => {
   const { t } = useTranslation();
@@ -19,10 +20,12 @@ const SocialProofSection: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
-              <img 
+              <OptimizedImage 
                 src="/optimo-workforce/assets/maria.jpg" 
                 alt="Maria Rodriguez"
                 className="w-16 h-16 rounded-full object-cover"
+                width={64}
+                height={64}
               />
               <div>
                 <h3 className="text-xl font-bold text-gray-900">{t('socialProof:testimonial1.author')}</h3>
@@ -55,10 +58,12 @@ const SocialProofSection: React.FC = () => {
 
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
-              <img 
+              <OptimizedImage 
                 src="/optimo-workforce/assets/kevin.jpg" 
                 alt="Kevin Lim"
                 className="w-16 h-16 rounded-full object-cover"
+                width={64}
+                height={64}
               />
               <div>
                 <h3 className="text-xl font-bold text-gray-900">{t('socialProof:testimonial2.author')}</h3>

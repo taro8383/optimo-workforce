@@ -466,7 +466,7 @@ const FutureFeaturesPage: React.FC = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">{t('futureFeatures:industryImpact.restaurants.metrics.customerSatisfaction')}</span>
-                  <span className="font-bold text-green-600">25%</span>
+                  <span className="font-bold text-green-600">77%</span>
                 </div>
               </div>
             </div>
@@ -479,15 +479,15 @@ const FutureFeaturesPage: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex justify-between">
                   <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.operationalEfficiency')}</span>
-                  <span className="font-bold text-blue-600">40%</span>
+                  <span className="font-bold text-blue-600">72%</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.guestExperience')}</span>
-                  <span className="font-bold text-blue-600">30%</span>
+                  <span className="font-bold text-blue-600">90%</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">{t('futureFeatures:industryImpact.hotels.metrics.staffRetention')}</span>
-                  <span className="font-bold text-blue-600">45%</span>
+                  <span className="font-bold text-blue-600">95%</span>
                 </div>
               </div>
             </div>

@@ -194,17 +194,17 @@
       "title": "Dónde Encontrarnos",
       "headquarters": "Sede Mundial",
       "euRepresentative": "Base EU",
-      "companyName": "OPTIMO Workforce, Inc.",
+      "companyName": "OPTIMO Workforce",
       "address": {
-        "line1": "123 Innovation Drive",
-        "line2": "San Francisco, CA 94105",
-        "country": "Estados Unidos"
+        "line1": "Yobetsu-cho 165-2",
+        "line2": "Hokkaido, 046-0322",
+        "country": "Japan"
       },
-      "euCompany": "OPTIMO Workforce Europe B.V.",
+     "euCompany": "OPTIMO Workforce",
       "euAddress": {
-        "line1": "Carrer de Mallorca, 401",
-        "line2": "08013 Barcelona, España",
-        "country": "Unión Europea"
+        "line1": "Ulica Pristanska b.b.",
+        "line2": "Bar, 85000",
+        "country": "Montenegro"
       }
     },
     "response": {

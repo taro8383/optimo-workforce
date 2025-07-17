@@ -368,7 +368,7 @@ const NewsletterPage: React.FC = () => {
 
           <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">10,000+</div>
+              <div className="text-3xl font-bold mb-2">500+</div>
               <div className="text-blue-200">{t('finalCTA.stats.subscribers')}</div>
             </div>
             <div className="text-center">

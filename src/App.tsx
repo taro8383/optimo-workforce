@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ProblemSolutionSection from './components/ProblemSolutionSection';
@@ -9,20 +9,29 @@ import SocialProofSection from './components/SocialProofSection';
 import PricingSection from './components/PricingSection';
 import FinalCTASection from './components/FinalCTASection';
 import Footer from './components/Footer';
-import FaqPage from './components/FaqPage';
-import AboutPage from './components/AboutPage';
-import NewsletterPage from './components/NewsletterPage';
-import RestaurantsPage from './components/RestaurantsPage';
-import HotelsPage from './components/HotelsPage';
-import CafesPage from './components/CafesPage';
-import ROICalculatorPage from './components/ROICalculatorPage';
-import ContactPage from './components/ContactPage';
-import FutureFeaturesPage from './components/FutureFeaturesPage';
-import IntegrationsPage from './components/IntegrationsPage';
-import SecurityPage from './components/SecurityPage';
-import PrivacyPolicyPage from './components/PrivacyPolicyPage';
-import TermsOfServicePage from './components/TermsOfServicePage';
-import CookiePolicyPage from './components/CookiePolicyPage';
+
+// Lazy load all page components for code splitting
+const FaqPage = lazy(() => import('./components/FaqPage'));
+const AboutPage = lazy(() => import('./components/AboutPage'));
+const NewsletterPage = lazy(() => import('./components/NewsletterPage'));
+const RestaurantsPage = lazy(() => import('./components/RestaurantsPage'));
+const HotelsPage = lazy(() => import('./components/HotelsPage'));
+const CafesPage = lazy(() => import('./components/CafesPage'));
+const ROICalculatorPage = lazy(() => import('./components/ROICalculatorPage'));
+const ContactPage = lazy(() => import('./components/ContactPage'));
+const FutureFeaturesPage = lazy(() => import('./components/FutureFeaturesPage'));
+const IntegrationsPage = lazy(() => import('./components/IntegrationsPage'));
+const SecurityPage = lazy(() => import('./components/SecurityPage'));
+const PrivacyPolicyPage = lazy(() => import('./components/PrivacyPolicyPage'));
+const TermsOfServicePage = lazy(() => import('./components/TermsOfServicePage'));
+const CookiePolicyPage = lazy(() => import('./components/CookiePolicyPage'));
+
+// Loading component for suspense fallback
+const LoadingSpinner = () => (
+  <div className="flex items-center justify-center min-h-screen">
+    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+  </div>
+);
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -77,7 +86,9 @@ function App() {
   return (
     <div className="min-h-screen bg-white font-inter">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {renderPage()}
+      <Suspense fallback={<LoadingSpinner />}>
+        {renderPage()}
+      </Suspense>
       <Footer currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </div>
   );

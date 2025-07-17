@@ -91,7 +91,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ translations }) => {
       email: getTranslation('globalOffices.offices.barcelona.email'),
       timezone: getTranslation('globalOffices.offices.barcelona.timezone'),
       hours: getTranslation('globalOffices.offices.barcelona.hours'),
-      flag: '🇪🇸'
+      flag: '🇯🇵'
     },
     {
       city: getTranslation('globalOffices.offices.newYork.city'),
@@ -101,7 +101,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ translations }) => {
       email: getTranslation('globalOffices.offices.newYork.email'),
       timezone: getTranslation('globalOffices.offices.newYork.timezone'),
       hours: getTranslation('globalOffices.offices.newYork.hours'),
-      flag: '🇺🇸'
+      flag: '🇲🇪'
     },
     {
       city: getTranslation('globalOffices.offices.singapore.city'),
@@ -121,7 +121,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ translations }) => {
       email: getTranslation('globalOffices.offices.saoPaulo.email'),
       timezone: getTranslation('globalOffices.offices.saoPaulo.timezone'),
       hours: getTranslation('globalOffices.offices.saoPaulo.hours'),
-      flag: '🇧🇷'
+      flag: '🇦🇷'
     }
   ];
 

@@ -114,26 +114,26 @@
     },
     "offices": {
       "barcelona": {
-        "city": "Barcelona",
-        "country": "España",
-        "address": "Carrer de Mallorca, 401\n08013 Barcelona, España",
-        "phone": "+34 93 123 4567",
-        "email": "europe@optimoworkforce.com",
-        "timezone": "CET (UTC+1)",
+        "city": "Sapporo",
+        "country": "Japan (HQ)",
+        "address": "Yobetsu-cho 165-2",
+        "phone": "+80 090 5496 1818",
+        "email": "japan@optimoworkforce.com",
+        "timezone": "JST (UTC +9)",
         "hours": "9:00 AM - 6:00 PM"
       },
       "newYork": {
-        "city": "Nueva York",
-        "country": "Estados Unidos",
-        "address": "350 Fifth Avenue\nNew York, NY 10118",
-        "phone": "+1 (555) 123-4567",
-        "email": "americas@optimoworkforce.com",
+        "city": "Bar",
+        "country": "Montenegro",
+        "address": "Ulika Pristanska b.b.",
+        "phone": "+382 068 741 151",
+        "email": "europe@optimoworkforce.com",
         "timezone": "EST (UTC-5)",
         "hours": "9:00 AM - 6:00 PM"
       },
       "singapore": {
-        "city": "Singapur",
-        "country": "Singapur",
+        "city": "Singapore",
+        "country": "Singapore",
         "address": "1 Raffles Place\nSingapore 048616",
         "phone": "+65 6123 4567",
         "email": "apac@optimoworkforce.com",
@@ -141,12 +141,12 @@
         "hours": "9:00 AM - 6:00 PM"
       },
       "saoPaulo": {
-        "city": "São Paulo",
-        "country": "Brasil",
-        "address": "Av. Paulista, 1578\nSão Paulo, SP 01310-200",
-        "phone": "+55 11 1234-5678",
+        "city": "Corrientes",
+        "country": "Argentina",
+        "address": "Vargas Gomez 1775",
+        "phone": "+54 93794221474",
         "email": "latam@optimoworkforce.com",
-        "timezone": "BRT (UTC-3)",
+        "timezone": "ART (UTC-3)",
         "hours": "9:00 AM - 6:00 PM"
       }
     }

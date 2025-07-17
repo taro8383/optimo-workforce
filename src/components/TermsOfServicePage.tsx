@@ -493,7 +493,7 @@ const TermsOfServicePage: React.FC = () => {
                     </div>
                     <div className="bg-white rounded-lg p-6 text-center border-2 border-primary">
                       <h4 className="text-lg font-bold text-gray-900 mb-2">{t('billing.pricingTiers.professional')}</h4>
-                      <div className="text-3xl font-bold text-primary mb-4">$299<span className="text-lg text-gray-600">{t('billing.pricingTiers.perMonth')}</span></div>
+                      <div className="text-3xl font-bold text-primary mb-4">$250<span className="text-lg text-gray-600">{t('billing.pricingTiers.perMonth')}</span></div>
                       <p className="text-gray-600">{t('billing.pricingTiers.upTo100Employees')}</p>
                     </div>
                     <div className="bg-white rounded-lg p-6 text-center">

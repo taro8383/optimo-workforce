@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, TrendingDown, TrendingUp, Clock, Users, DollarSign } from 'lucide-react';
+import { AlertTriangle, TrendingUp, Clock, Users, DollarSign } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ProblemSolutionSection: React.FC = () => {
@@ -71,12 +71,8 @@ const ProblemSolutionSection: React.FC = () => {
                   </div>
 
                   <div className="border-t pt-6">
-                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary bg-opacity-10 mb-6">
-                      {index === 1 ? (
-                        <TrendingUp className="text-secondary" size={32} />
-                      ) : (
-                        <TrendingDown className="text-secondary" size={32} />
-                      )}
+                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary bg-opacity-10 mb-6">
+                      <TrendingUp className="text-secondary" size={32} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{t('problemSolution:result.title')}</h3>
                     <p className="text-lg text-secondary font-semibold">{card.result}</p>

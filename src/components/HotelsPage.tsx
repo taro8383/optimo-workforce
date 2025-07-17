@@ -125,12 +125,12 @@ const HotelsPage: React.FC = () => {
 
   const industryStats = [
     {
-      stat: '69%',
+      stat: '73%',
       description: t('hero.stats.manualShifts'),
       color: 'text-red-500'
     },
     {
-      stat: '40%',
+      stat: '23%',
       description: t('hero.stats.laborCosts'),
       color: 'text-orange-500'
     },
@@ -476,7 +476,7 @@ const HotelsPage: React.FC = () => {
               <div className="text-blue-200">{t('cta.stats.timeReduction')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">40%</div>
+              <div className="text-3xl font-bold mb-2">23%</div>
               <div className="text-blue-200">{t('cta.stats.laborCost')}</div>
             </div>
             <div className="text-center">

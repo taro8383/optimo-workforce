@@ -199,7 +199,7 @@ const RestaurantsPage: React.FC = () => {
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
-                    <div className="text-2xl font-bold text-secondary mb-1">40%</div>
+                    <div className="text-2xl font-bold text-secondary mb-1">23%</div>
                     <div className="text-sm opacity-90">{t('hero.metrics.costSavings')}</div>
                   </div>
                   <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center">
@@ -412,7 +412,7 @@ const RestaurantsPage: React.FC = () => {
               <div className="text-blue-200">{t('cta.metrics.restaurants')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">40%</div>
+              <div className="text-3xl font-bold mb-2">23%</div>
               <div className="text-blue-200">{t('cta.metrics.costReduction')}</div>
             </div>
             <div className="text-center">

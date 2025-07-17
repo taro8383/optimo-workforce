@@ -100,13 +100,13 @@ const CafesPage: React.FC = () => {
 
   const industryStats = [
     {
-      stat: '69%',
+      stat: '88%',
       descriptionKey: 'manualShifts',
       color: 'text-red-500',
       icon: Clock
     },
     {
-      stat: '40%',
+      stat: '23%',
       descriptionKey: 'laborCosts',
       color: 'text-orange-500',
       icon: DollarSign
@@ -556,7 +556,7 @@ const CafesPage: React.FC = () => {
               <div className="text-blue-200">{t('hero.stats.manualShifts')}</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold mb-2">40%</div>
+              <div className="text-3xl font-bold mb-2">23%</div>
               <div className="text-blue-200">{t('hero.stats.laborCosts')}</div>
             </div>
             <div className="text-center">

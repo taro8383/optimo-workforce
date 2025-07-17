@@ -14,7 +14,7 @@
   },
   "problemSolution": {
     "title": "Stop Bleeding Money Through Bad Schedules",
-    "problemText": "While 69% of cafes wrestle with Excel sheets and WhatsApp groups, smart owners use AI to slash labor costs, pack shifts with top performers during rush hours, and turn their teams into tip-earning machines",
+    "problemText": "While 88% of cafes wrestle with Excel sheets and WhatsApp groups, smart owners use AI to slash labor costs, pack shifts with top performers during rush hours, and turn their teams into tip-earning machines",
     "solutionText": "Meet the only AI that thinks like a seasoned cafe manager but works 24/7 without coffee breaks"
   },
   "howItWorks": {
@@ -46,7 +46,7 @@
   "globalIntelligence": {
     "title": "Numbers That'll Make Your Accountant Smile",
     "metric1": {
-      "value": "30%",
+      "value": "23%",
       "label": "Labor Costs Vanish"
     },
     "metric2": {
@@ -203,7 +203,7 @@
     "subtitle": "Why smart cafe owners can't run without us",
     "items": {
       "costSavings": {
-        "title": "30% Less Labor Cost",
+        "title": "23% Less Labor Cost",
         "description": "Same great service. Way less payroll pain."
       },
       "enhancedExperience": {
@@ -269,7 +269,7 @@
       "color": "text-red-500"
     },
     {
-      "stat": "40%",
+      "stat": "37%",
       "description": "Revenue lost to bad staffing",
       "color": "text-orange-500"
     },

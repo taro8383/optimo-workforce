@@ -12,7 +12,7 @@
     },
     "teamPreview": {
       "title": "Warriors from Everywhere",
-      "description": "Battle-testing with real restaurants on 4 continents daily"
+      "description": "Battle-testing with real restaurants on 3 continents daily"
     }
   },
   "timelineSection": {
@@ -20,7 +20,7 @@
       "mainHeading": "How We Got Here"
     },
     "subtitle": {
-      "description": "From fed-up operators in Barcelona to the weapon every restaurant needs"
+      "description": "From fed-up operators in Tokyo to the weapon every restaurant needs"
     },
     "events": {
       "2024": {
@@ -63,7 +63,7 @@
       "jenny": {
         "name": "Jenny Jones",
         "role": "Head of Global Domination",
-        "description": "Cracked the APAC mobile payment code, 22% tip increase guru"
+        "description": "Cracked the APAC mobile payment code, 31% tip increase guru"
       },
       "david": {
         "name": "David Kim",

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# GitHub Pages deployment script for Optimo Workforce
-# This script builds and deploys the project to GitHub Pages
+# Custom domain deployment script for Optimo Workforce
+# This script builds and deploys the project for custom domain (optimoworkforce.com)
 
-echo "🚀 Starting GitHub Pages deployment..."
+echo "🚀 Starting custom domain deployment..."
 
 # Ensure we're on the main branch
 git checkout main
@@ -15,9 +15,9 @@ git pull origin main
 echo "📦 Installing dependencies..."
 npm install
 
-# Build the project with GitHub Pages base path
-echo "🔨 Building project for GitHub Pages..."
-VITE_BASE_PATH='/optimo-workforce/' npm run build
+# Build the project with root base path for custom domain
+echo "🔨 Building project for custom domain..."
+VITE_BASE_PATH='/' npm run build
 
 # Copy 404.html to dist folder
 echo "📋 Copying 404.html to dist..."
@@ -29,11 +29,11 @@ git add dist/ -f
 
 # Commit the build
 echo "💾 Committing build..."
-git commit -m "Deploy to GitHub Pages - $(date)"
+git commit -m "Deploy to custom domain - $(date)"
 
 # Push to gh-pages branch
 echo "🚀 Pushing to gh-pages branch..."
 git subtree push --prefix dist origin gh-pages
 
-echo "✅ GitHub Pages deployment complete!"
-echo "🌐 Your site should be available at: https://taro8383.github.io/optimo-workforce/"
+echo "✅ Custom domain deployment complete!"
+echo "🌐 Your site should be available at: https://optimoworkforce.com/"

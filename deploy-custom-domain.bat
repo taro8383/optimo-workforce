@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Starting GitHub Pages deployment...
+echo 🚀 Starting custom domain deployment...
 
 REM Ensure we're on the main branch
 git checkout main
@@ -11,9 +11,9 @@ REM Install dependencies if needed
 echo 📦 Installing dependencies...
 call npm install
 
-REM Build the project with GitHub Pages base path
-echo 🔨 Building project for GitHub Pages...
-set VITE_BASE_PATH=/optimo-workforce/
+REM Build the project with root base path for custom domain
+echo 🔨 Building project for custom domain...
+set VITE_BASE_PATH=/
 call npm run build
 
 REM Copy 404.html to dist folder
@@ -26,12 +26,12 @@ git add dist\ -f
 
 REM Commit the build
 echo 💾 Committing build...
-git commit -m "Deploy to GitHub Pages - %date% %time%"
+git commit -m "Deploy to custom domain - %date% %time%"
 
 REM Push to gh-pages branch
 echo 🚀 Pushing to gh-pages branch...
 git subtree push --prefix dist origin gh-pages
 
-echo ✅ GitHub Pages deployment complete!
-echo 🌐 Your site should be available at: https://taro8383.github.io/optimo-workforce/
+echo ✅ Custom domain deployment complete!
+echo 🌐 Your site should be available at: https://optimoworkforce.com/
 pause

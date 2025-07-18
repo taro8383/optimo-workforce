@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/optimo-workforce/',
+  base: process.env.VITE_BASE_PATH || '/optimo-workforce/',
   build: {
     assetsDir: 'assets',
     chunkSizeWarningLimit: 1000,

@@ -141,7 +141,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.alex.name,
       role: tData.teamSection.members.alex.role,
       description: tData.teamSection.members.alex.description,
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/optimo-workforce/assets/Alex Rodriguez.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -149,7 +149,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.sarah.name,
       role: tData.teamSection.members.sarah.role,
       description: tData.teamSection.members.sarah.description,
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/optimo-workforce/assets/Sarah Peters.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -157,7 +157,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.marcus.name,
       role: tData.teamSection.members.marcus.role,
       description: tData.teamSection.members.marcus.description,
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: '/optimo-workforce/assets/Marcus Thompson.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -173,7 +173,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.david.name,
       role: tData.teamSection.members.david.role,
       description: tData.teamSection.members.david.description,
-      image: '/optimo-workforce/assets/David Kim.jpg',
+      image: '/optimo-workforce/assets/David Kimbrough.jpg',
       linkedin: '#',
       twitter: '#'
     },

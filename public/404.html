@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    // GitHub Pages 404 redirect for SPA
+    const base = '/optimo-workforce';
+    const path = window.location.pathname;
+    
+    // Check if this is an asset request (ends with .js, .css, .png, etc.)
+    const isAsset = /\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|json|webp)$/i.test(path);
+    
+    if (isAsset) {
+      // For asset requests, return 404 to let browser handle it
+      window.location.href = path;
+    } else {
+      // For route requests, redirect to index.html with original path
+      const search = window.location.search;
+      const hash = window.location.hash;
+      const redirectPath = path.replace(base, '') || '/';
+      
+      // Store the original path for client-side routing
+      sessionStorage.setItem('redirectPath', redirectPath + search + hash);
+      
+      // Redirect to index.html
+      window.location.href = base + '/index.html';
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

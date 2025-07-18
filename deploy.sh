@@ -15,6 +15,10 @@ git pull origin main
 echo "📦 Installing dependencies..."
 npm install
 
+# Fix asset paths for GitHub Pages
+echo "🔧 Fixing asset paths for GitHub Pages..."
+VITE_BASE_PATH='/optimo-workforce/' node fix-asset-paths.cjs
+
 # Build the project with GitHub Pages base path
 echo "🔨 Building project for GitHub Pages..."
 VITE_BASE_PATH='/optimo-workforce/' npm run build
@@ -22,6 +26,10 @@ VITE_BASE_PATH='/optimo-workforce/' npm run build
 # Copy 404.html to dist folder
 echo "📋 Copying 404.html to dist..."
 cp public/404.html dist/
+
+# Copy GitHub Pages manifest
+echo "📋 Copying GitHub Pages manifest..."
+cp public/manifest-github-pages.json dist/manifest.json
 
 # Add dist folder to git
 echo "📁 Adding dist folder to git..."

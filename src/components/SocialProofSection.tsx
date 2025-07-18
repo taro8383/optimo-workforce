@@ -21,7 +21,7 @@ const SocialProofSection: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
             <img 
-                src="/optimo-workforce/assets/Maria.jpg" 
+                src="/assets/Maria.jpg" 
                 alt="Maria Rodriguez"
                 className="w-16 h-16 rounded-full object-cover"
                 width={64}
@@ -59,7 +59,7 @@ const SocialProofSection: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <div className="flex items-center gap-4 mb-6">
             <img 
-                src="/optimo-workforce/assets/Kevin.jpg" 
+                src="/assets/Kevin.jpg" 
                 alt="Kevin Lim"
                 className="w-16 h-16 rounded-full object-cover"
                 width={64}

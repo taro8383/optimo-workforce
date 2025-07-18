@@ -11,6 +11,11 @@ REM Install dependencies if needed
 echo 📦 Installing dependencies...
 call npm install
 
+REM Fix asset paths for custom domain
+echo 🔧 Fixing asset paths for custom domain...
+set VITE_BASE_PATH=/
+node fix-asset-paths.cjs
+
 REM Build the project with root base path for custom domain
 echo 🔨 Building project for custom domain...
 set VITE_BASE_PATH=/
@@ -19,6 +24,10 @@ call npm run build
 REM Copy 404.html to dist folder
 echo 📋 Copying 404.html to dist...
 copy public\404.html dist\404.html
+
+REM Copy custom domain manifest
+echo 📋 Copying custom domain manifest...
+copy public\manifest-custom-domain.json dist\manifest.json
 
 REM Add dist folder to git
 echo 📁 Adding dist folder to git...

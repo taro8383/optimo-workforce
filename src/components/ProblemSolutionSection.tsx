@@ -61,7 +61,7 @@ const ProblemSolutionSection: React.FC = () => {
                   <div className="border-t pt-6">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary bg-opacity-10 mb-6">
                       <img 
-                        src={`/optimo-workforce/assets/${index === 0 ? 'heatmap' : index === 1 ? 'ai' : 'shield'}.png`} 
+                        src={`/assets/${index === 0 ? 'heatmap' : index === 1 ? 'ai' : 'shield'}.png`} 
                         alt={card.solution}
                         className="w-10 h-10 object-contain"
                       />

@@ -34,16 +34,20 @@ The custom domain deployment issue was caused by hardcoded base path `/optimo-wo
 1. Open Command Prompt or PowerShell
 2. Run: `deploy.bat`
 3. The script will:
+   - Fix all asset paths to use `/optimo-workforce/` base path
    - Build the project with `/optimo-workforce/` base path
    - Copy 404.html to dist
+   - Copy GitHub Pages manifest (with `/optimo-workforce/` paths)
    - Deploy to gh-pages branch
 
 #### Option 2: Using Unix/Linux/Mac (deploy.sh)
 1. Make the script executable: `chmod +x deploy.sh`
 2. Run: `./deploy.sh`
 3. The script will:
+   - Fix all asset paths to use `/optimo-workforce/` base path
    - Build the project with `/optimo-workforce/` base path
    - Copy 404.html to dist
+   - Copy GitHub Pages manifest (with `/optimo-workforce/` paths)
    - Deploy to gh-pages branch
 
 ### For Custom Domain (optimoworkforce.com)
@@ -52,16 +56,20 @@ The custom domain deployment issue was caused by hardcoded base path `/optimo-wo
 1. Open Command Prompt or PowerShell
 2. Run: `deploy-custom-domain.bat`
 3. The script will:
+   - Fix all asset paths to use `/` base path
    - Build the project with `/` base path
    - Copy 404.html to dist
+   - Copy custom domain manifest (with `/` paths)
    - Deploy to gh-pages branch
 
 #### Option 2: Using Unix/Linux/Mac (deploy-custom-domain.sh)
 1. Make the script executable: `chmod +x deploy-custom-domain.sh`
 2. Run: `./deploy-custom-domain.sh`
 3. The script will:
+   - Fix all asset paths to use `/` base path
    - Build the project with `/` base path
    - Copy 404.html to dist
+   - Copy custom domain manifest (with `/` paths)
    - Deploy to gh-pages branch
 
 ### Manual Deployment Options

@@ -141,7 +141,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.alex.name,
       role: tData.teamSection.members.alex.role,
       description: tData.teamSection.members.alex.description,
-      image: '/optimo-workforce/assets/Alex Rodriguez.jpg',
+      image: '/assets/Alex Rodriguez.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -149,7 +149,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.sarah.name,
       role: tData.teamSection.members.sarah.role,
       description: tData.teamSection.members.sarah.description,
-      image: '/optimo-workforce/assets/Sarah Peters.jpg',
+      image: '/assets/Sarah Peters.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -157,7 +157,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.marcus.name,
       role: tData.teamSection.members.marcus.role,
       description: tData.teamSection.members.marcus.description,
-      image: '/optimo-workforce/assets/Marcus Thompson.jpg',
+      image: '/assets/Marcus Thompson.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -165,7 +165,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.jenny.name,
       role: tData.teamSection.members.jenny.role,
       description: tData.teamSection.members.jenny.description,
-      image: '/optimo-workforce/assets/Jenny Jones.jpg',
+      image: '/assets/Jenny Jones.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -173,7 +173,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.david.name,
       role: tData.teamSection.members.david.role,
       description: tData.teamSection.members.david.description,
-      image: '/optimo-workforce/assets/David Kimbrough.jpg',
+      image: '/assets/David Kimbrough.jpg',
       linkedin: '#',
       twitter: '#'
     },
@@ -181,7 +181,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ translations }) => {
       name: tData.teamSection.members.elena.name,
       role: tData.teamSection.members.elena.role,
       description: tData.teamSection.members.elena.description,
-      image: '/optimo-workforce/assets/Elena Vasquez.jpg',
+      image: '/assets/Elena Vasquez.jpg',
       linkedin: '#',
       twitter: '#'
     }

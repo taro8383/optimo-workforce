@@ -15,6 +15,10 @@ git pull origin main
 echo "📦 Installing dependencies..."
 npm install
 
+# Fix asset paths for custom domain
+echo "🔧 Fixing asset paths for custom domain..."
+VITE_BASE_PATH='/' node fix-asset-paths.cjs
+
 # Build the project with root base path for custom domain
 echo "🔨 Building project for custom domain..."
 VITE_BASE_PATH='/' npm run build
@@ -22,6 +26,10 @@ VITE_BASE_PATH='/' npm run build
 # Copy 404.html to dist folder
 echo "📋 Copying 404.html to dist..."
 cp public/404.html dist/
+
+# Copy custom domain manifest
+echo "📋 Copying custom domain manifest..."
+cp public/manifest-custom-domain.json dist/manifest.json
 
 # Add dist folder to git
 echo "📁 Adding dist folder to git..."

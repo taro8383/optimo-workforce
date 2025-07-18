@@ -45,10 +45,10 @@ const HeroSection: React.FC = ({ t }: any) => {
           <div className="relative animate-fade-in">
             <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
               <picture>
-            <source media="(max-width: 1023px)" srcSet="/optimo-workforce/assets/HeroUm.webp 1x, /optimo-workforce/assets/HeroU@2xM.webp 2x" />
-            <source media="(min-width: 1024px)" srcSet="/optimo-workforce/assets/HeroU.webp 1x, /optimo-workforce/assets/HeroU@2x.webp 2x" />
+            <source media="(max-width: 1023px)" srcSet="/assets/HeroUm.webp 1x, /assets/HeroU@2xM.webp 2x" />
+            <source media="(min-width: 1024px)" srcSet="/assets/HeroU.webp 1x, /assets/HeroU@2x.webp 2x" />
             <img
-              src="/optimo-workforce/assets/HeroU.webp"
+              src="/assets/HeroU.webp"
               alt="Optimo Workforce Dashboard"
               className="w-full h-full object-cover"
             />

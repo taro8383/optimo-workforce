@@ -1,0 +1,25 @@
+{
+  "name": "Optimo Workforce - AI-Powered Restaurant Scheduling",
+  "short_name": "Optimo",
+  "description": "AI-powered scheduling cuts hospitality labor waste by 20%+ with global intelligence for tipping, regulations, and demand.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo@2D.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en",
+  "scope": "/"
+}

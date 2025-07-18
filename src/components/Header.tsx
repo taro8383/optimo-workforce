@@ -62,8 +62,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, t, i18n }:
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
               <picture>
-              <source media="(max-width: 1023px)" srcSet="/assets/logom.png 1x, /assets/logo@2M.png 2x" />
-              <source media="(min-width: 1024px)" srcSet="/assets/logo.png 1x, /assets/logo@2D.png 2x" />
+              <source media="(max-width: 1023px)" srcSet="/assets/logom.png 1x, /assets/Logo@2M.png 2x" />
+              <source media="(min-width: 1024px)" srcSet="/assets/logo.png 1x, /assets/Logo@2D.png 2x" />
               <img
                 src="/assets/logo.png"
                 alt="Optimo Workforce Logo"

@@ -39,9 +39,10 @@ git add dist/ -f
 echo "💾 Committing build..."
 git commit -m "Deploy to custom domain - $(date)"
 
-# Push to gh-pages branch
-echo "🚀 Pushing to gh-pages branch..."
-git subtree push --prefix dist origin gh-pages
+# Force push to gh-pages branch (handles diverged branches)
+echo "🚀 Force pushing to gh-pages branch..."
+git push origin --delete gh-pages 2>/dev/null || true
+git subtree push --prefix dist origin gh-pages --force
 
 echo "✅ Custom domain deployment complete!"
 echo "🌐 Your site should be available at: https://optimoworkforce.com/"

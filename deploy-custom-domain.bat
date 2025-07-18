@@ -37,10 +37,11 @@ REM Commit the build
 echo 💾 Committing build...
 git commit -m "Deploy to custom domain - %date% %time%"
 
-REM Push to gh-pages branch
-echo 🚀 Pushing to gh-pages branch...
-git subtree push --prefix dist origin gh-pages
+REM Force push to gh-pages branch (handles diverged branches)
+echo 🚀 Force pushing to gh-pages branch...
+git push origin --delete gh-pages 2>nul || echo gh-pages branch not found, creating new...
+git subtree push --prefix dist origin gh-pages --force
 
-echo ✅ Custom domain deployment complete!
+echo ✅ Custom domain deployment complete!"
 echo 🌐 Your site should be available at: https://optimoworkforce.com/
 pause

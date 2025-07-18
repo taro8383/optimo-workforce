@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://taro8383.github.io/optimo-workforce",
+  "homepage": "https://optimoworkforce.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

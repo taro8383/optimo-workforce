@@ -61,6 +61,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   };
 
   const handleError = () => {
+    console.error(`Failed to load image: ${src}`);
     setHasError(true);
     setIsLoaded(true);
   };
